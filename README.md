@@ -1,18 +1,15 @@
 # AgOpenGPS - Guidance software
 
-# ⚠️ Project Status: Maintenance Mode
+# 🚧 Project Status: Active Development
 
-AgOpenGPS WinForms has reached its final development stage (April 2026).
+This fork of AgOpenGPS WinForms is under active development.
 
-- ❌ No new features
-- ❌ No refactoring
-- ✅ Bug fixes only
-
-👉 Active development has moved to the Avalonia version.
+- ✅ New features and improvements
+- ✅ Bug fixes
 
 ---
 
-![Maintenance Mode](https://img.shields.io/badge/status-maintenance%20mode-red?style=for-the-badge)
+![Active Development](https://img.shields.io/badge/status-active%20development-brightgreen?style=for-the-badge)
 
 [![GitHub Release](https://img.shields.io/github/v/release/agopengps-official/AgOpenGPS)](https://github.com/agopengps-official/AgOpenGPS/releases/latest)
 [![Translation status](https://hosted.weblate.org/widget/agopengps/language-badge.svg)](https://hosted.weblate.org/engage/agopengps/)
