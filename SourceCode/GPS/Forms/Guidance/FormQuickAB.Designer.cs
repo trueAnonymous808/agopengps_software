@@ -113,16 +113,16 @@
             // 
             // labelAddName
             // 
-            this.labelAddName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelAddName.AutoSize = true;
+            this.labelAddName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelAddName.AutoSize = false;
             this.labelAddName.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAddName.ForeColor = System.Drawing.Color.Black;
             this.labelAddName.Location = new System.Drawing.Point(16, 14);
             this.labelAddName.Name = "labelAddName";
-            this.labelAddName.Size = new System.Drawing.Size(66, 16);
+            this.labelAddName.Size = new System.Drawing.Size(200, 16);
             this.labelAddName.TabIndex = 450;
             this.labelAddName.Text = "Add Name";
-            this.labelAddName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelAddName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label1
             // 

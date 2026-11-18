@@ -95,12 +95,12 @@ namespace AgOpenGPS
                         / (mf.tool.width * mf.avgSpeed * 0.1)));
                     return timeSpan.Hours.ToString("00:") + timeSpan.Minutes.ToString("00") + '"';
                 }
-                else return "\u221E Hrs";
+                else return AgLibrary.Localization.UiTranslator.TrText("\u221E Hrs");
             }
         }
 
-        public string WorkRateHectares => (mf.tool.width * mf.avgSpeed * 0.1).ToString("N1") + " ha/hr";
-        public string WorkRateAcres => (mf.tool.width * mf.avgSpeed * 0.2471).ToString("N1") + " ac/hr";
+        public string WorkRateHectares => (mf.tool.width * mf.avgSpeed * 0.1).ToString("N1") + AgLibrary.Localization.UiTranslator.TrText(" ha/hr");
+        public string WorkRateAcres => (mf.tool.width * mf.avgSpeed * 0.2471).ToString("N1") + AgLibrary.Localization.UiTranslator.TrText(" ac/hr");
 
         //constructor
         public CFieldData(FormGPS _f)

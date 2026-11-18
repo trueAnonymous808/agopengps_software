@@ -8,7 +8,7 @@ namespace AgOpenGPS
         {
             InitializeComponent();
 
-            lblMessage2.Text = messageStr;
+            lblMessage2.Text = AgLibrary.Localization.UiTranslator.TrText(messageStr);
         }
     }
 }

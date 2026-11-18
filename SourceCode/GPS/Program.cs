@@ -67,6 +67,7 @@ namespace AgOpenGPS
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 InstallExceptionHandlers();
+                AgLibrary.Localization.UiTranslator.Install();
                 Application.Run(new FormGPS());
             }
             else

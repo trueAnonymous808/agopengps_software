@@ -83,7 +83,7 @@ namespace AgOpenGPS.Forms.Field
             var dto = lbFields.SelectedItems[0].Tag as GetOwnFieldDto;
             if (dto == null) return;
 
-            lblSelectedField.Text = "Selected Field: " + dto.Name;
+            lblSelectedField.Text = AgLibrary.Localization.UiTranslator.TrText("Selected Field: ") + dto.Name;
             lblSelectedField.ForeColor = Color.Red;
 
             // Download and parse field for preview

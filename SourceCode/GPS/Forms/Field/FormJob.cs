@@ -101,7 +101,7 @@ namespace AgOpenGPS
                 btnJobAgShare.Enabled = false;
                 btnAgShareBulkUpload.Enabled = false;
                 btnEasyDrive.Enabled = false;
-                lblResumeField.Text = "Easy Drive Active";
+                lblResumeField.Text = AgLibrary.Localization.UiTranslator.TrText("Easy Drive Active");
             }
         }
 

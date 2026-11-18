@@ -390,8 +390,8 @@
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.AutoSize = false;
             this.tlp1.SetColumnSpan(this.label3, 3);
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
@@ -400,12 +400,12 @@
             this.label3.Size = new System.Drawing.Size(50, 19);
             this.label3.TabIndex = 581;
             this.label3.Text = "Build";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // labelReset
             // 
-            this.labelReset.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelReset.AutoSize = true;
+            this.labelReset.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelReset.AutoSize = false;
             this.tlp1.SetColumnSpan(this.labelReset, 3);
             this.labelReset.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelReset.ForeColor = System.Drawing.Color.Black;
@@ -414,7 +414,7 @@
             this.labelReset.Size = new System.Drawing.Size(56, 19);
             this.labelReset.TabIndex = 579;
             this.labelReset.Text = "Reset";
-            this.labelReset.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelReset.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // btnMoveUp
             // 
@@ -490,8 +490,8 @@
             // 
             // labelCreate
             // 
-            this.labelCreate.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelCreate.AutoSize = true;
+            this.labelCreate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelCreate.AutoSize = false;
             this.tlp1.SetColumnSpan(this.labelCreate, 3);
             this.labelCreate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCreate.ForeColor = System.Drawing.Color.Black;
@@ -500,7 +500,7 @@
             this.labelCreate.Size = new System.Drawing.Size(97, 19);
             this.labelCreate.TabIndex = 572;
             this.labelCreate.Text = "Add Points";
-            this.labelCreate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelCreate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // btnAddPoints
             // 

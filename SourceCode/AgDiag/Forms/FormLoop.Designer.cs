@@ -251,7 +251,7 @@ namespace AgDiag
             // 
             // label24
             // 
-            this.label24.AutoSize = true;
+            this.label24.AutoSize = false;
             this.label24.BackColor = System.Drawing.Color.DarkGreen;
             this.label24.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.White;
@@ -277,16 +277,17 @@ namespace AgDiag
             // 
             // label33
             // 
-            this.label33.AutoSize = true;
+            this.label33.AutoSize = false;
             this.label33.BackColor = System.Drawing.Color.DarkGreen;
             this.label33.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(131, 2);
+            this.label33.Location = new System.Drawing.Point(71, 2);
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(52, 19);
+            this.label33.Size = new System.Drawing.Size(112, 19);
             this.label33.TabIndex = 239;
             this.label33.Text = "Speed";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // TreeLbl
             // 
@@ -426,53 +427,56 @@ namespace AgDiag
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
+            this.label18.AutoSize = false;
             this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(80)))), ((int)(((byte)(90)))));
             this.label18.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(29, 76);
+            this.label18.Location = new System.Drawing.Point(1, 76);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 19);
+            this.label18.Size = new System.Drawing.Size(80, 19);
             this.label18.TabIndex = 217;
             this.label18.Text = "Status";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
+            this.label17.AutoSize = false;
             this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(80)))), ((int)(((byte)(90)))));
             this.label17.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(4, 30);
+            this.label17.Location = new System.Drawing.Point(1, 30);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(77, 19);
+            this.label17.Size = new System.Drawing.Size(80, 19);
             this.label17.TabIndex = 215;
             this.label17.Text = "Set Angle";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            this.label4.AutoSize = false;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(80)))), ((int)(((byte)(90)))));
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(29, 53);
+            this.label4.Location = new System.Drawing.Point(1, 53);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 19);
+            this.label4.Size = new System.Drawing.Size(80, 19);
             this.label4.TabIndex = 193;
             this.label4.Text = "Speed";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            this.label1.AutoSize = false;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(80)))), ((int)(((byte)(90)))));
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(5, 6);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 19);
+            this.label1.Size = new System.Drawing.Size(131, 19);
             this.label1.TabIndex = 191;
             this.label1.Text = "AutoSteer";
             // 
@@ -589,7 +593,7 @@ namespace AgDiag
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            this.label3.AutoSize = false;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
@@ -602,42 +606,45 @@ namespace AgDiag
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
+            this.label5.AutoSize = false;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(105, 30);
+            this.label5.Location = new System.Drawing.Point(85, 30);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 19);
+            this.label5.Size = new System.Drawing.Size(98, 19);
             this.label5.TabIndex = 195;
             this.label5.Text = "Act Angle";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
+            this.label10.AutoSize = false;
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
             this.label10.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(274, 30);
+            this.label10.Location = new System.Drawing.Point(226, 30);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 19);
+            this.label10.Size = new System.Drawing.Size(84, 19);
             this.label10.TabIndex = 200;
             this.label10.Text = "Roll";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
+            this.label11.AutoSize = false;
             this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
             this.label11.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(242, 7);
+            this.label11.Location = new System.Drawing.Point(231, 7);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 19);
+            this.label11.Size = new System.Drawing.Size(78, 19);
             this.label11.TabIndex = 201;
             this.label11.Text = "Heading";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblSteerSwitch
             // 
@@ -680,16 +687,17 @@ namespace AgDiag
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            this.label2.AutoSize = false;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(138, 7);
+            this.label2.Location = new System.Drawing.Point(85, 7);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 19);
+            this.label2.Size = new System.Drawing.Size(97, 19);
             this.label2.TabIndex = 206;
             this.label2.Text = "PWM";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblSteerAngleActual
             // 
@@ -769,16 +777,17 @@ namespace AgDiag
             // 
             // label25
             // 
-            this.label25.AutoSize = true;
+            this.label25.AutoSize = false;
             this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             this.label25.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(88, 29);
+            this.label25.Location = new System.Drawing.Point(64, 29);
             this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(66, 19);
+            this.label25.Size = new System.Drawing.Size(90, 19);
             this.label25.TabIndex = 231;
             this.label25.Text = "Lo PWM";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblPGNSteerSettings
             // 
@@ -808,7 +817,7 @@ namespace AgDiag
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
+            this.label16.AutoSize = false;
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             this.label16.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
@@ -873,29 +882,31 @@ namespace AgDiag
             // 
             // label28
             // 
-            this.label28.AutoSize = true;
+            this.label28.AutoSize = false;
             this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             this.label28.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(292, 50);
+            this.label28.Location = new System.Drawing.Point(198, 50);
             this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(80, 19);
+            this.label28.Size = new System.Drawing.Size(174, 19);
             this.label28.TabIndex = 246;
             this.label28.Text = "Ackerman";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label23
             // 
-            this.label23.AutoSize = true;
+            this.label23.AutoSize = false;
             this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             this.label23.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(88, 7);
+            this.label23.Location = new System.Drawing.Point(64, 7);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(64, 19);
+            this.label23.Size = new System.Drawing.Size(88, 19);
             this.label23.TabIndex = 229;
             this.label23.Text = "Hi PWM";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblMinPWM
             // 
@@ -912,16 +923,17 @@ namespace AgDiag
             // 
             // label31
             // 
-            this.label31.AutoSize = true;
+            this.label31.AutoSize = false;
             this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             this.label31.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(80, 50);
+            this.label31.Location = new System.Drawing.Point(1, 50);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(74, 19);
+            this.label31.Size = new System.Drawing.Size(153, 19);
             this.label31.TabIndex = 233;
             this.label31.Text = "Min PWM";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblLoPWM
             // 
@@ -938,16 +950,17 @@ namespace AgDiag
             // 
             // label29
             // 
-            this.label29.AutoSize = true;
+            this.label29.AutoSize = false;
             this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             this.label29.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(332, 7);
+            this.label29.Location = new System.Drawing.Point(285, 7);
             this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(39, 19);
+            this.label29.Size = new System.Drawing.Size(86, 19);
             this.label29.TabIndex = 235;
             this.label29.Text = "CPD";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblHiPWM
             // 
@@ -964,16 +977,17 @@ namespace AgDiag
             // 
             // label27
             // 
-            this.label27.AutoSize = true;
+            this.label27.AutoSize = false;
             this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             this.label27.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(320, 29);
+            this.label27.Location = new System.Drawing.Point(198, 29);
             this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(51, 19);
+            this.label27.Size = new System.Drawing.Size(173, 19);
             this.label27.TabIndex = 237;
             this.label27.Text = "Offset";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // panel1
             // 
@@ -993,7 +1007,7 @@ namespace AgDiag
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
+            this.label19.AutoSize = false;
             this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
             this.label19.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.White;
@@ -1019,16 +1033,17 @@ namespace AgDiag
             // 
             // label30
             // 
-            this.label30.AutoSize = true;
+            this.label30.AutoSize = false;
             this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
             this.label30.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(131, 2);
+            this.label30.Location = new System.Drawing.Point(60, 2);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(40, 19);
+            this.label30.Size = new System.Drawing.Size(111, 19);
             this.label30.TabIndex = 239;
             this.label30.Text = "Set0";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblSet0
             // 
@@ -1045,16 +1060,17 @@ namespace AgDiag
             // 
             // label26
             // 
-            this.label26.AutoSize = true;
+            this.label26.AutoSize = false;
             this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
             this.label26.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(110, 25);
+            this.label26.Location = new System.Drawing.Point(60, 25);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(63, 19);
+            this.label26.Size = new System.Drawing.Size(113, 19);
             this.label26.TabIndex = 241;
             this.label26.Text = "Pulse #";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblPulseCount
             // 
@@ -1071,16 +1087,17 @@ namespace AgDiag
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
+            this.label22.AutoSize = false;
             this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
             this.label22.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(250, 6);
+            this.label22.Location = new System.Drawing.Point(217, 6);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(82, 19);
+            this.label22.Size = new System.Drawing.Size(115, 19);
             this.label22.TabIndex = 243;
             this.label22.Text = "Min Speed";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblMinSpeed
             // 

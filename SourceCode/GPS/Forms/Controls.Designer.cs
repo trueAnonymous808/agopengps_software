@@ -1579,7 +1579,7 @@ namespace AgOpenGPS
                 if (!System.IO.File.Exists(updaterPath))
                 {
                     // Show error if updater not found
-                    MessageBox.Show(
+                    AgLibrary.Localization.UiTranslator.Show(
                         "Updater not found. Please ensure AgOpenGPS.Updater.exe is in the application directory.",
                         "Updater Not Found",
                         MessageBoxButtons.OK,
@@ -1598,7 +1598,7 @@ namespace AgOpenGPS
             }
             catch (Exception ex)
             {
-                MessageBox.Show(
+                AgLibrary.Localization.UiTranslator.Show(
                     $"Failed to start updater: {ex.Message}",
                     "Error",
                     MessageBoxButtons.OK,

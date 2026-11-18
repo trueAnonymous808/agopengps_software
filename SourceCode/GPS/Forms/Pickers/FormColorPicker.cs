@@ -152,14 +152,14 @@ namespace AgOpenGPS
         {
             if (chkUse.Checked)
             {
-                groupBoxSelectPresetColor.Text = "Pick New Color and Select Square Below to Save Preset";
+                groupBoxSelectPresetColor.Text = AgLibrary.Localization.UiTranslator.TrText("Pick New Color and Select Square Below to Save Preset");
                 chkUse.Image = Properties.Resources.ColorUnlocked;
                 isUse = false;
             }
             else
             {
                 isUse = true;
-                groupBoxSelectPresetColor.Text = "Select Preset Color";
+                groupBoxSelectPresetColor.Text = AgLibrary.Localization.UiTranslator.TrText("Select Preset Color");
                 chkUse.Image = Properties.Resources.ColorLocked;
             }
         }

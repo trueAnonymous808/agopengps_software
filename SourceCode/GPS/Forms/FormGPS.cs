@@ -316,6 +316,7 @@ namespace AgOpenGPS
         {
             //winform initialization
             InitializeComponent();
+            if (AgLibrary.Localization.UiTranslator.IsHungarian()) btnResetSim.Text = "Újra";
 
             InitializeLanguages();
 
@@ -725,7 +726,7 @@ namespace AgOpenGPS
             catch (Exception ex)
             {
                 Log.EventWriter($"CRITICAL: Shutdown error: {ex}");
-                MessageBox.Show($"Error during shutdown: {ex.Message}\n\nAttempting force exit...",
+                AgLibrary.Localization.UiTranslator.Show($"Error during shutdown: {ex.Message}\n\nAttempting force exit...",
                     "Shutdown Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
@@ -797,7 +798,7 @@ namespace AgOpenGPS
                         savingForm.UpdateStep("Field", "Field save FAILED: " + ex.Message, SavingStepState.Failed);
 
                         // Ask user if they want to continue despite error
-                        DialogResult result = MessageBox.Show(
+                        DialogResult result = AgLibrary.Localization.UiTranslator.Show(
                             $"Field data save failed:\n{ex.Message}\n\nContinue shutdown anyway? (data may be lost)",
                             "Critical Save Error",
                             MessageBoxButtons.YesNo,

@@ -43,7 +43,7 @@ namespace AgOpenGPS.Forms
                 string fieldsDirectory = RegistrySettings.fieldsDirectory;
                 if (!Directory.Exists(fieldsDirectory))
                 {
-                    lblStatus.Text = "Fields directory not found";
+                    lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Fields directory not found");
                     return;
                 }
 

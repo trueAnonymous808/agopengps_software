@@ -146,7 +146,7 @@ namespace AgOpenGPS
                     {
                         case 0:
                             lblCurrentField.Text = isEasyDriveMode
-                                ? "Easy Drive: " + (tool.width * m2FtOrM).ToString("N1") + unitsFtM
+                                ? AgLibrary.Localization.UiTranslator.TrText("Easy Drive: ") + (tool.width * m2FtOrM).ToString("N1") + unitsFtM
                                 : gStr.gsField + ": " + displayFieldName;
                             break;
 
@@ -156,8 +156,8 @@ namespace AgOpenGPS
                                 if (isMetric)
                                 {
                                     lblCurrentField.Text = fd.AreaBoundaryLessInnersHectares
-                                        + "  App: " + fd.WorkedHectares
-                                        + "  Actual: " + fd.ActualAreaWorkedHectares
+                                        + AgLibrary.Localization.UiTranslator.TrText("  App: ") + fd.WorkedHectares
+                                        + AgLibrary.Localization.UiTranslator.TrText("  Actual: ") + fd.ActualAreaWorkedHectares
                                         + "  " + fd.WorkedAreaRemainPercentage
                                         + "  " + fd.WorkRateHectares;
 
@@ -165,8 +165,8 @@ namespace AgOpenGPS
                                 else
                                 {
                                     lblCurrentField.Text = fd.AreaBoundaryLessInnersAcres
-                                        + "  App: " + fd.WorkedAcres
-                                        + "  Actual: " + fd.ActualAreaWorkedAcres
+                                        + AgLibrary.Localization.UiTranslator.TrText("  App: ") + fd.WorkedAcres
+                                        + AgLibrary.Localization.UiTranslator.TrText("  Actual: ") + fd.ActualAreaWorkedAcres
                                         + "  " + fd.WorkedAreaRemainPercentage
                                         + "  " + fd.WorkRateAcres;
                                 }
@@ -175,16 +175,16 @@ namespace AgOpenGPS
                             {
                                 if (isMetric)
                                 {
-                                    lblCurrentField.Text = "App: "
-                                + fd.WorkedHectares + " Actual: "
+                                    lblCurrentField.Text = AgLibrary.Localization.UiTranslator.TrText("App: ")
+                                + fd.WorkedHectares + AgLibrary.Localization.UiTranslator.TrText(" Actual: ")
                                 + fd.ActualAreaWorkedHectares + "  "
                                 + fd.ActualOverlapPercent + "   "
                                 + fd.WorkRateHectares;
                                 }
                                 else
                                 {
-                                    lblCurrentField.Text = fieldData + "App: "
-                                + fd.WorkedAcres + "  Actual: "
+                                    lblCurrentField.Text = fieldData + AgLibrary.Localization.UiTranslator.TrText("App: ")
+                                + fd.WorkedAcres + AgLibrary.Localization.UiTranslator.TrText("  Actual: ")
                                 + fd.ActualAreaWorkedAcres + " *"
                                 + fd.ActualOverlapPercent + "   "
                                 + fd.WorkRateAcres;
@@ -236,8 +236,8 @@ namespace AgOpenGPS
                             lblCurrentField.Text = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm:ss ");
                             break;
                         case 2:
-                            lblCurrentField.Text = "Lat: " +
-                                AppModel.CurrentLatLon.Latitude.ToString("N7") + "   Lon: " +
+                            lblCurrentField.Text = AgLibrary.Localization.UiTranslator.TrText("Lat: ") +
+                                AppModel.CurrentLatLon.Latitude.ToString("N7") + "   " + AgLibrary.Localization.UiTranslator.TrText("Lon: ") +
                                 AppModel.CurrentLatLon.Longitude.ToString("N7");
                             break;
                         case 3:
@@ -296,7 +296,7 @@ namespace AgOpenGPS
 
                 vehicle.deadZoneDelayCounter++;
 
-                lblFix.Text = FixQuality + "Age: " + pn.age.ToString("N1");
+                lblFix.Text = FixQuality + AgLibrary.Localization.UiTranslator.TrText("Age: ") + pn.age.ToString("N1");
 
 
                 switch (pn.fixQuality)
@@ -1523,16 +1523,16 @@ namespace AgOpenGPS
         {
             get
             {
-                if (pn.fixQuality == 0) return "Invalid: ";
-                else if (pn.fixQuality == 1) return "GPS single: ";
-                else if (pn.fixQuality == 2) return "DGPS: ";
-                else if (pn.fixQuality == 3) return "PPS: ";
-                else if (pn.fixQuality == 4) return "RTK fix: ";
-                else if (pn.fixQuality == 5) return "RTK Float: ";
-                else if (pn.fixQuality == 6) return "Estimate: ";
-                else if (pn.fixQuality == 7) return "Man IP: ";
-                else if (pn.fixQuality == 8) return "Sim: ";
-                else return "Unknown: ";
+                if (pn.fixQuality == 0) return AgLibrary.Localization.UiTranslator.TrText("Invalid: ");
+                else if (pn.fixQuality == 1) return AgLibrary.Localization.UiTranslator.TrText("GPS single: ");
+                else if (pn.fixQuality == 2) return AgLibrary.Localization.UiTranslator.TrText("DGPS: ");
+                else if (pn.fixQuality == 3) return AgLibrary.Localization.UiTranslator.TrText("PPS: ");
+                else if (pn.fixQuality == 4) return AgLibrary.Localization.UiTranslator.TrText("RTK fix: ");
+                else if (pn.fixQuality == 5) return AgLibrary.Localization.UiTranslator.TrText("RTK Float: ");
+                else if (pn.fixQuality == 6) return AgLibrary.Localization.UiTranslator.TrText("Estimate: ");
+                else if (pn.fixQuality == 7) return AgLibrary.Localization.UiTranslator.TrText("Man IP: ");
+                else if (pn.fixQuality == 8) return AgLibrary.Localization.UiTranslator.TrText("Sim: ");
+                else return AgLibrary.Localization.UiTranslator.TrText("Unknown: ");
             }
         }
         public string GyroInDegrees

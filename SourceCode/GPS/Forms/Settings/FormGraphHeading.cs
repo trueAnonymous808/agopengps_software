@@ -24,6 +24,30 @@ namespace AgOpenGPS
         {
             mf = callingForm as FormGPS;
             InitializeComponent();
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+            label4.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+            rollChart.PostPaint += rollChart_PostPaint;
+        }
+
+        // keep the +10 / 0 / -10 labels level with the chart's grid, whatever the window size
+        private void rollChart_PostPaint(object sender, ChartPaintEventArgs e)
+        {
+            if (!(e.ChartElement is ChartArea)) return;
+            Axis axis = rollChart.ChartAreas[0].AxisY;
+            PlaceLabel(label2, axis, 10);
+            PlaceLabel(label4, axis, 0);
+            PlaceLabel(label3, axis, -10);
+        }
+
+        private void PlaceLabel(Label lbl, Axis axis, double value)
+        {
+            try
+            {
+                int y = rollChart.Top + (int)axis.ValueToPixelPosition(value) - lbl.Height / 2;
+                if (lbl.Top != y) lbl.Top = y;
+            }
+            catch { }
         }
 
         private void timer1_Tick(object sender, EventArgs e)

@@ -69,7 +69,7 @@ namespace AgOpenGPS
         private static void SetupSystemGrid(DataGridView dgv)
         {
             dgv.Columns.Clear();
-            dgv.Columns.Add(new DataGridViewTextBoxColumn { Name = "colSetting", HeaderText = "Metric", Width = 280, SortMode = DataGridViewColumnSortMode.NotSortable });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn { Name = "colSetting", HeaderText = AgLibrary.Localization.UiTranslator.IsHungarian() ? "Mutató" : "Metric", Width = 280, SortMode = DataGridViewColumnSortMode.NotSortable });
             dgv.Columns.Add(new DataGridViewTextBoxColumn { Name = "colValue", HeaderText = "Value", Width = 400, SortMode = DataGridViewColumnSortMode.NotSortable });
             dgv.Columns["colValue"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Tahoma", 10F, FontStyle.Bold);
@@ -84,7 +84,7 @@ namespace AgOpenGPS
 
         private static void AddHeader(DataGridView dgv, string title)
         {
-            int i = dgv.Rows.Add(title, "", "");
+            int i = dgv.Rows.Add(AgLibrary.Localization.UiTranslator.TrText(title), "", "");
             var style = dgv.Rows[i].DefaultCellStyle;
             style.BackColor = ColorHeader;
             style.Font = new Font("Tahoma", 10F, FontStyle.Bold);
@@ -94,24 +94,30 @@ namespace AgOpenGPS
         private static void AddRow(DataGridView dgv, string name, object def, object current)
         {
             // Volgorde in grid: Setting | Profile | Default
-            int i = dgv.Rows.Add(name, current?.ToString() ?? "", def?.ToString() ?? "");
+            int i = dgv.Rows.Add(AgLibrary.Localization.UiTranslator.TrText(name), CellText(current), CellText(def));
             string ds = def?.ToString() ?? "";
             string cs = current?.ToString() ?? "";
             dgv.Rows[i].DefaultCellStyle.BackColor = ds != cs ? ColorChanged : ColorNormal;
         }
 
+        private static string CellText(object o)
+        {
+            if (o is bool b && AgLibrary.Localization.UiTranslator.IsHungarian()) return b ? "Igen" : "Nem";
+            return o?.ToString() ?? "";
+        }
+
         private static void AddSysRow(DataGridView dgv, string name, object value)
         {
-            dgv.Rows.Add(name, value?.ToString() ?? "");
+            dgv.Rows.Add(AgLibrary.Localization.UiTranslator.TrText(name), CellText(value));
         }
 
         // ── Populeren ─────────────────────────────────────────────────────────
 
         private void UpdateHeader()
         {
-            lblVehicleName.Text = "Vehicle: " + RegistrySettings.vehicleProfileName;
-            lblToolName.Text = "Tool: " + RegistrySettings.toolProfileName;
-            lblEnvironmentName.Text = "Environment: " + (RegistrySettings.environmentFileName ?? "Default");
+            lblVehicleName.Text = AgLibrary.Localization.UiTranslator.TrText("Vehicle: ") + RegistrySettings.vehicleProfileName;
+            lblToolName.Text = AgLibrary.Localization.UiTranslator.TrText("Tool: ") + RegistrySettings.toolProfileName;
+            lblEnvironmentName.Text = AgLibrary.Localization.UiTranslator.TrText("Environment: ") + (RegistrySettings.environmentFileName ?? "Default");
         }
 
         private void PopulateAllSettings()

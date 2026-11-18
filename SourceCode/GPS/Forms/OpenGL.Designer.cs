@@ -721,7 +721,7 @@ namespace AgOpenGPS
                 oglMain.SwapBuffers();
 
                 lblSpeed.Text = "???";
-                lblHz.Text = " ???? \r\n Not Connected";
+                lblHz.Text = AgLibrary.Localization.UiTranslator.TrText(" ???? \r\n Not Connected");
 
             }
 

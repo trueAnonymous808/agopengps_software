@@ -112,43 +112,47 @@
             //
             // label4
             //
-            this.label4.AutoSize = true;
+            this.label4.AutoSize = false;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(161, 587);
+            this.label4.Location = new System.Drawing.Point(161, 571);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(180, 31);
+            this.label4.Size = new System.Drawing.Size(310, 63);
             this.label4.TabIndex = 537;
             this.label4.Text = "NTRIP Errors";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             //
             // label1
             //
-            this.label1.AutoSize = true;
+            this.label1.AutoSize = false;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(161, 58);
+            this.label1.Location = new System.Drawing.Point(161, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 31);
+            this.label1.Size = new System.Drawing.Size(310, 63);
             this.label1.TabIndex = 531;
             this.label1.Text = "Start Minimized";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            this.label2.AutoSize = false;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(161, 235);
+            this.label2.Location = new System.Drawing.Point(161, 219);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(270, 31);
+            this.label2.Size = new System.Drawing.Size(310, 63);
             this.label2.TabIndex = 532;
             this.label2.Text = "Auto Start GPS-Out";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            this.label3.AutoSize = false;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(161, 411);
+            this.label3.Location = new System.Drawing.Point(161, 395);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(292, 31);
+            this.label3.Size = new System.Drawing.Size(310, 63);
             this.label3.TabIndex = 535;
             this.label3.Text = "PopUp AgIO on Warn";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnClose
             // 

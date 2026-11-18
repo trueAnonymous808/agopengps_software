@@ -13,8 +13,8 @@ namespace AgOpenGPS
             InitializeComponent();
 
             // Set text first
-            lblMessage.Text = titleString;
-            lblMessage2.Text = messageString;
+            lblMessage.Text = AgLibrary.Localization.UiTranslator.TrText(titleString);
+            lblMessage2.Text = AgLibrary.Localization.UiTranslator.TrText(messageString);
 
             // Force labels to measure their content
             lblMessage.AutoSize = true;

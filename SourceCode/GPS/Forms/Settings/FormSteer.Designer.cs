@@ -340,13 +340,13 @@
             // label11
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label11.AutoSize = true;
+            this.label11.AutoSize = false;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(101, 11);
+            this.label11.Location = new System.Drawing.Point(93, 11);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(30, 16);
+            this.label11.Size = new System.Drawing.Size(38, 16);
             this.label11.TabIndex = 319;
             this.label11.Text = "Act:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -370,13 +370,13 @@
             // label13
             // 
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label13.AutoSize = true;
+            this.label13.AutoSize = false;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(198, 11);
+            this.label13.Location = new System.Drawing.Point(177, 11);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(29, 16);
+            this.label13.Size = new System.Drawing.Size(50, 16);
             this.label13.TabIndex = 321;
             this.label13.Text = "Err:";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -385,13 +385,13 @@
             // label14
             // 
             this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label14.AutoSize = true;
+            this.label14.AutoSize = false;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(289, 77);
+            this.label14.Location = new System.Drawing.Point(254, 77);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 16);
+            this.label14.Size = new System.Drawing.Size(80, 16);
             this.label14.TabIndex = 322;
             this.label14.Text = "Or +5";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

@@ -488,7 +488,7 @@ namespace AgOpenGPS.Forms.Profiles
         private void buttonResetVehicle_Click(object sender, EventArgs e)
         {
             var result = FormDialog.ShowQuestion(gStr.gsCreateDefaultVehicle,
-                gStr.gsCreateDefaultVehicleConfirm + Environment.NewLine + Environment.NewLine + "This will create and load the new profile.",
+                gStr.gsCreateDefaultVehicleConfirm + Environment.NewLine + Environment.NewLine + AgLibrary.Localization.UiTranslator.TrText("This will create and load the new profile."),
                 DialogSeverity.Info);
             if (result != DialogResult.OK) return;
 
@@ -533,7 +533,7 @@ namespace AgOpenGPS.Forms.Profiles
         private void buttonResetTool_Click(object sender, EventArgs e)
         {
             var result = FormDialog.ShowQuestion(gStr.gsCreateDefaultTool,
-                gStr.gsCreateDefaultToolConfirm + Environment.NewLine + Environment.NewLine + "This will create and load the new profile.",
+                gStr.gsCreateDefaultToolConfirm + Environment.NewLine + Environment.NewLine + AgLibrary.Localization.UiTranslator.TrText("This will create and load the new profile."),
                 DialogSeverity.Info);
             if (result != DialogResult.OK) return;
 

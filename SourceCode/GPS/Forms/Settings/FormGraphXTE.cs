@@ -25,7 +25,7 @@ namespace AgOpenGPS
             this.label5.Text = "HE";
             this.label1.Text = "XTE";
 
-            this.Text = "XTE Chart";
+            this.Text = AgLibrary.Localization.UiTranslator.TrText("XTE Chart");
         }
 
         private void timer1_Tick(object sender, EventArgs e)

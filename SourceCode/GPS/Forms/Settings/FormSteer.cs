@@ -24,6 +24,12 @@ namespace AgOpenGPS
         private int windowSizeState = 0;
 
         //Form stuff
+        private static void TranslateComboItems(ComboBox box)
+        {
+            for (int i = 0; i < box.Items.Count; i++)
+                box.Items[i] = AgLibrary.Localization.UiTranslator.TrText(box.Items[i].ToString());
+        }
+
         public FormSteer(Form callingForm)
         {
             mf = callingForm as FormGPS;
@@ -239,15 +245,22 @@ namespace AgOpenGPS
             if ((sett & 4) == 0) chkInvertSteer.Checked = false;
             else chkInvertSteer.Checked = true;
 
-            if ((sett & 8) == 0) cboxConv.Text = "Differential";
-            else cboxConv.Text = "Single";
+            TranslateComboItems(cboxConv);
 
-            if ((sett & 16) == 0) cboxMotorDrive.Text = "IBT2";
-            else cboxMotorDrive.Text = "Cytron";
+            TranslateComboItems(cboxMotorDrive);
 
-            if ((sett & 32) == 32) cboxSteerEnable.Text = "Switch";
-            else if ((sett & 64) == 64) cboxSteerEnable.Text = "Button";
-            else cboxSteerEnable.Text = "None";
+            TranslateComboItems(cboxSteerEnable);
+
+
+            if ((sett & 8) == 0) cboxConv.Text = AgLibrary.Localization.UiTranslator.TrText("Differential");
+            else cboxConv.Text = AgLibrary.Localization.UiTranslator.TrText("Single");
+
+            if ((sett & 16) == 0) cboxMotorDrive.Text = AgLibrary.Localization.UiTranslator.TrText("IBT2");
+            else cboxMotorDrive.Text = AgLibrary.Localization.UiTranslator.TrText("Cytron");
+
+            if ((sett & 32) == 32) cboxSteerEnable.Text = AgLibrary.Localization.UiTranslator.TrText("Switch");
+            else if ((sett & 64) == 64) cboxSteerEnable.Text = AgLibrary.Localization.UiTranslator.TrText("Button");
+            else cboxSteerEnable.Text = AgLibrary.Localization.UiTranslator.TrText("None");
 
             if ((sett & 128) == 0) cboxEncoder.Checked = false;
             else cboxEncoder.Checked = true;
@@ -923,7 +936,7 @@ namespace AgOpenGPS
                 cntr = 0;
                 btnStartSA.Image = Properties.Resources.boundaryStop;
                 lblDiameter.Text = "0";
-                lblCalcSteerAngleInner.Text = "Drive Steady";
+                lblCalcSteerAngleInner.Text = AgLibrary.Localization.UiTranslator.TrText("Drive Steady");
                 //lblCalcSteerAngleOuter.Text = "Consistent Steering Angle!!";
             }
             else
@@ -1107,25 +1120,25 @@ namespace AgOpenGPS
             set <<= 1;
             reset <<= 1;
             reset += 1;
-            if (cboxConv.Text == "Single") sett |= set;
+            if (cboxConv.Text == AgLibrary.Localization.UiTranslator.TrText("Single")) sett |= set;
             else sett &= reset;
 
             set <<= 1;
             reset <<= 1;
             reset += 1;
-            if (cboxMotorDrive.Text == "Cytron") sett |= set;
+            if (cboxMotorDrive.Text == AgLibrary.Localization.UiTranslator.TrText("Cytron")) sett |= set;
             else sett &= reset;
 
             set <<= 1;
             reset <<= 1;
             reset += 1;
-            if (cboxSteerEnable.Text == "Switch") sett |= set;
+            if (cboxSteerEnable.Text == AgLibrary.Localization.UiTranslator.TrText("Switch")) sett |= set;
             else sett &= reset;
 
             set <<= 1;
             reset <<= 1;
             reset += 1;
-            if (cboxSteerEnable.Text == "Button") sett |= set;
+            if (cboxSteerEnable.Text == AgLibrary.Localization.UiTranslator.TrText("Button")) sett |= set;
             else sett &= reset;
 
             set <<= 1;
@@ -1337,14 +1350,14 @@ namespace AgOpenGPS
             {
                 if (mf.smartWAS.HasValidCalibration)
                 {
-                    lblSmartCalStatus.Text = "Ready to Apply";
+                    lblSmartCalStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Ready to Apply");
                     lblSmartCalStatus.ForeColor = Color.Green;
                     btnSmartZeroWAS.Text = $"{mf.smartWAS.RecommendedOffset:+0.0;-0.0}°";
                     btnSmartZeroWAS.Enabled = true;
                 }
                 else
                 {
-                    lblSmartCalStatus.Text = "Collecting...";
+                    lblSmartCalStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Collecting...");
                     lblSmartCalStatus.ForeColor = Color.Orange;
                     btnSmartZeroWAS.Text = "";
                     btnSmartZeroWAS.Enabled = false;

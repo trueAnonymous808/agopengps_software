@@ -25,7 +25,7 @@ namespace AgOpenGPS
 
         private void EditShortcut(Button btn)
         {
-            lblAutosteer.Text = "Press New Shortcut Key";
+            lblAutosteer.Text = AgLibrary.Localization.UiTranslator.TrText("Press New Shortcut Key");
             btn.Text = "...";
             tboxKey.TextChanged -= tboxKey_TextChanged;
             tboxKey.Text = "";
@@ -46,7 +46,7 @@ namespace AgOpenGPS
             tboxKey.Text = Regex.Replace(tboxKey.Text, "[^0-9a-zA-Z]", "");
             if (tboxKey.Text.Length > 0)
             {
-                lblAutosteer.Text = "Press Button to Edit Shortcut";
+                lblAutosteer.Text = AgLibrary.Localization.UiTranslator.TrText("Press Button to Edit Shortcut");
                 string but = tboxKey.Text.ToUpper();
 
                 if (btnAutosteer.Text == "...") { btnAutosteer.Text = but; }

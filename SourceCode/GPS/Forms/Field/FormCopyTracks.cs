@@ -43,7 +43,7 @@ namespace AgOpenGPS.Forms.Field
                 string fieldsDir = RegistrySettings.fieldsDirectory;
                 if (!Directory.Exists(fieldsDir))
                 {
-                    lblStatus.Text = "Fields directory not found";
+                    lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Fields directory not found");
                     return;
                 }
 
@@ -80,7 +80,7 @@ namespace AgOpenGPS.Forms.Field
             catch (Exception ex)
             {
                 FormDialog.Show("Import Tracks", "Failed to load field list: " + ex.Message, DialogSeverity.Error);
-                lblStatus.Text = "Error loading fields";
+                lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Error loading fields");
             }
         }
 
@@ -115,7 +115,7 @@ namespace AgOpenGPS.Forms.Field
 
                 if (availableTracks.Count == 0)
                 {
-                    lblStatus.Text = "No tracks found in this field";
+                    lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("No tracks found in this field");
                     return;
                 }
 
@@ -140,7 +140,7 @@ namespace AgOpenGPS.Forms.Field
             catch (Exception ex)
             {
                 FormDialog.Show("Import Tracks", "Failed to load tracks: " + ex.Message, DialogSeverity.Error);
-                lblStatus.Text = "Error loading tracks";
+                lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Error loading tracks");
             }
         }
 
@@ -212,13 +212,13 @@ namespace AgOpenGPS.Forms.Field
                 // Build full path for current field directory
                 string currentFieldFullPath = Path.Combine(RegistrySettings.fieldsDirectory, mf.currentFieldDirectory);
 
-                lblStatus.Text = "Saving current tracks...";
+                lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Saving current tracks...");
                 Application.DoEvents();
 
                 // First save any changes to current tracks
                 mf.FileSaveTracks();
 
-                lblStatus.Text = "Converting tracks...";
+                lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Converting tracks...");
                 Application.DoEvents();
 
                 // Use TrackCopier to convert and copy tracks
@@ -228,7 +228,7 @@ namespace AgOpenGPS.Forms.Field
                     selectedTracks,
                     mf.AppModel.SharedFieldProperties);
 
-                lblStatus.Text = "Saving tracks...";
+                lblStatus.Text = AgLibrary.Localization.UiTranslator.TrText("Saving tracks...");
                 Application.DoEvents();
 
                 // Clear and reload tracks to ensure all indices and references are correct

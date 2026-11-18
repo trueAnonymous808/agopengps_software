@@ -68,14 +68,15 @@
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            this.label3.AutoSize = false;
             this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(5, 107);
+            this.label3.Location = new System.Drawing.Point(0, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 18);
+            this.label3.Size = new System.Drawing.Size(58, 18);
             this.label3.TabIndex = 9;
             this.label3.Text = "# Sats";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblSatsTracked
             // 
@@ -129,15 +130,16 @@
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
+            this.label8.AutoSize = false;
             this.label8.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(23, 87);
+            this.label8.Location = new System.Drawing.Point(0, 87);
             this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 18);
+            this.label8.Size = new System.Drawing.Size(58, 18);
             this.label8.TabIndex = 16;
             this.label8.Text = "Elev";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label9
             // 
@@ -237,14 +239,15 @@
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
+            this.label10.AutoSize = false;
             this.label10.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(2, 169);
+            this.label10.Location = new System.Drawing.Point(0, 169);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(57, 18);
+            this.label10.Size = new System.Drawing.Size(58, 18);
             this.label10.TabIndex = 511;
             this.label10.Text = "Raw Hz";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblTimeSlice
             // 
@@ -261,14 +264,15 @@
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
+            this.label11.AutoSize = false;
             this.label11.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(9, 151);
+            this.label11.Location = new System.Drawing.Point(0, 151);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(50, 18);
+            this.label11.Size = new System.Drawing.Size(58, 18);
             this.label11.TabIndex = 513;
             this.label11.Text = "Frame";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblFrameTime
             // 
@@ -285,14 +289,15 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            this.label2.AutoSize = false;
             this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 211);
+            this.label2.Location = new System.Drawing.Point(0, 211);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 18);
+            this.label2.Size = new System.Drawing.Size(58, 18);
             this.label2.TabIndex = 515;
             this.label2.Text = "Missed";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbludpWatchCounts
             // 
@@ -309,14 +314,15 @@
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
+            this.label5.AutoSize = false;
             this.label5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(6, 239);
+            this.label5.Location = new System.Drawing.Point(0, 239);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 18);
+            this.label5.Size = new System.Drawing.Size(58, 18);
             this.label5.TabIndex = 519;
             this.label5.Text = "Fix2Fix";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblFix2FixHeading
             // 
@@ -357,14 +363,15 @@
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
+            this.label15.AutoSize = false;
             this.label15.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(-2, 281);
+            this.label15.Location = new System.Drawing.Point(0, 281);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(60, 18);
+            this.label15.Size = new System.Drawing.Size(58, 18);
             this.label15.TabIndex = 521;
             this.label15.Text = "Heading";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblFuzeHeading
             // 

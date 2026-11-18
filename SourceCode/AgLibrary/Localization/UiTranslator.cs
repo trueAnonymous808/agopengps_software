@@ -15,8 +15,282 @@ namespace AgLibrary.Localization
     /// </summary>
     public static class UiTranslator
     {
-        private static Timer timer;
+        private static Control marshal;
         private static bool active;
+
+        // The language can be changed while the programs run (AgOpenGPS stores it in the registry at once).
+        // A watcher on that registry key reports every change, so nothing has to be polled.
+        private static volatile bool languageIsHungarian;
+        private static bool languageKnown;
+        private static System.Threading.Thread languageWatcher;
+
+        private static bool CurrentHungarian()
+        {
+            if (!languageKnown)
+            {
+                languageIsHungarian = IsHungarian();
+                languageKnown = true;
+            }
+            return languageIsHungarian;
+        }
+
+        [System.Runtime.InteropServices.DllImport("advapi32.dll")]
+        private static extern int RegNotifyChangeKeyValue(Microsoft.Win32.SafeHandles.SafeRegistryHandle hKey, bool watchSubtree, int notifyFilter, IntPtr hEvent, bool asynchronous);
+
+        // A window is translated just before it is first activated (shown), so the English captions never appear
+        // for a moment; the text hook below catches texts that the program sets later.
+        private delegate IntPtr HookProc(int nCode, IntPtr wParam, IntPtr lParam);
+        private static HookProc activateHook;
+
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        private static extern IntPtr SetWindowsHookEx(int idHook, HookProc lpfn, IntPtr hMod, uint dwThreadId);
+
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        private static extern IntPtr CallNextHookEx(IntPtr hhk, int nCode, IntPtr wParam, IntPtr lParam);
+
+        [System.Runtime.InteropServices.DllImport("kernel32.dll")]
+        private static extern uint GetCurrentThreadId();
+
+        private static void StartActivateHook()
+        {
+            try
+            {
+                IntPtr handle = IntPtr.Zero;
+                activateHook = (nCode, wParam, lParam) =>
+                {
+                    try
+                    {
+                        const int HCBT_ACTIVATE = 5;
+                        if (nCode == HCBT_ACTIVATE && CurrentHungarian())
+                        {
+                            Form form = Control.FromHandle(wParam) as Form;
+                            if (form != null) Apply(form);
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        // never let the translation disturb the program
+                    }
+                    return CallNextHookEx(handle, nCode, wParam, lParam);
+                };
+                const int WH_CBT = 5;
+                handle = SetWindowsHookEx(WH_CBT, activateHook, IntPtr.Zero, GetCurrentThreadId());
+            }
+            catch (Exception)
+            {
+                // without the hook the windows stay in English
+            }
+        }
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
+        private struct CwpRetStruct
+        {
+            public IntPtr lResult;
+            public IntPtr lParam;
+            public IntPtr wParam;
+            public uint message;
+            public IntPtr hwnd;
+        }
+
+        private static HookProc textHook;
+
+        // Every caption that the program sets later (a status label, for example) is translated right after it is set.
+        private static void StartTextHook()
+        {
+            try
+            {
+                IntPtr handle = IntPtr.Zero;
+                textHook = (nCode, wParam, lParam) =>
+                {
+                    try
+                    {
+                        const uint WM_SETTEXT = 0x000C;
+                        if (nCode >= 0 && CurrentHungarian())
+                        {
+                            var msg = (CwpRetStruct)System.Runtime.InteropServices.Marshal.PtrToStructure(lParam, typeof(CwpRetStruct));
+                            if (msg.message == WM_SETTEXT)
+                            {
+                                Control c = Control.FromHandle(msg.hwnd);
+                                if (c != null && !(c is TextBoxBase) && !(c is ComboBox) && !(c is ListBox) && !(c is UpDownBase))
+                                    SetControl(c);
+                            }
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        // never let the translation disturb the program
+                    }
+                    return CallNextHookEx(handle, nCode, wParam, lParam);
+                };
+                const int WH_CALLWNDPROCRET = 12;
+                handle = SetWindowsHookEx(WH_CALLWNDPROCRET, textHook, IntPtr.Zero, GetCurrentThreadId());
+            }
+            catch (Exception)
+            {
+                // texts set later are then translated when the window is shown next time
+            }
+        }
+
+        // The language was changed while the program runs: translate (or restore) everything that is open.
+        private static void LanguageChanged()
+        {
+            try
+            {
+                if (marshal == null || !marshal.IsHandleCreated) return;
+                marshal.BeginInvoke(new Action(() =>
+                {
+                    try
+                    {
+                        SetUiCulture();
+                        if (CurrentHungarian())
+                        {
+                            foreach (Form form in Application.OpenForms) Apply(form);
+                        }
+                        else
+                        {
+                            foreach (Form form in Application.OpenForms) RevertForm(form);
+                        }
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }));
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        // Windows opened after a language change read their texts (resources) in the newly chosen language.
+        private static void SetUiCulture()
+        {
+            try
+            {
+                string lang = null;
+                using (var key = Microsoft.Win32.Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AgOpenGPS"))
+                {
+                    lang = key?.GetValue("Language") as string;
+                }
+                if (string.IsNullOrEmpty(lang)) return;
+                if (lang.StartsWith("hu", StringComparison.OrdinalIgnoreCase))
+                    System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("hu");
+                else if (lang.StartsWith("en", StringComparison.OrdinalIgnoreCase))
+                    System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        // Hungarian text -> English text: built from the table and from the program's own Hungarian resources,
+        // so a window that is already open can be switched back to English as well.
+        private static Dictionary<string, string> reverse;
+
+        private static Dictionary<string, string> BuildReverse()
+        {
+            var map = new Dictionary<string, string>(StringComparer.Ordinal);
+            foreach (var kv in Table)
+            {
+                if (kv.Value != kv.Key && !map.ContainsKey(kv.Value)) map[kv.Value] = kv.Key;
+            }
+
+            try
+            {
+                foreach (System.Reflection.Assembly asm in AppDomain.CurrentDomain.GetAssemblies())
+                {
+                    Type t = asm.GetType("AgOpenGPS.Core.Translations.gStr", false);
+                    if (t == null) continue;
+                    var prop = t.GetProperty("ResourceManager", System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+                    var rm = prop?.GetValue(null, null) as System.Resources.ResourceManager;
+                    if (rm == null) break;
+                    var hu = rm.GetResourceSet(new System.Globalization.CultureInfo("hu"), true, true);
+                    var en = rm.GetResourceSet(System.Globalization.CultureInfo.InvariantCulture, true, true);
+                    if (hu == null || en == null) break;
+                    foreach (System.Collections.DictionaryEntry e in hu)
+                    {
+                        string huText = e.Value as string;
+                        string enText = en.GetString((string)e.Key);
+                        if (string.IsNullOrWhiteSpace(huText) || string.IsNullOrWhiteSpace(enText) || huText == enText) continue;
+                        if (!map.ContainsKey(huText)) map[huText] = enText;
+                    }
+                    break;
+                }
+            }
+            catch (Exception)
+            {
+            }
+            return map;
+        }
+
+        private static string ReverseLookup(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text)) return null;
+            if (reverse == null) reverse = BuildReverse();
+            string en;
+            if (reverse.TryGetValue(text, out en)) return en;
+            string core = text.Trim();
+            if (core.Length != text.Length && reverse.TryGetValue(core, out en))
+            {
+                int lead = text.IndexOf(core, StringComparison.Ordinal);
+                return text.Substring(0, lead) + en + text.Substring(lead + core.Length);
+            }
+            return null;
+        }
+
+        private static void RevertItems(ToolStripItemCollection items)
+        {
+            foreach (ToolStripItem item in items)
+            {
+                string en = ReverseLookup(item.Text);
+                if (en != null) item.Text = en;
+                en = ReverseLookup(item.ToolTipText);
+                if (en != null) item.ToolTipText = en;
+                var drop = item as ToolStripDropDownItem;
+                if (drop != null && drop.DropDownItems.Count > 0) RevertItems(drop.DropDownItems);
+            }
+        }
+
+        private static void RevertForm(Form form)
+        {
+            if (form == null || form.IsDisposed) return;
+            try
+            {
+                string en = ReverseLookup(form.Text);
+                if (en != null) form.Text = en;
+            }
+            catch (Exception)
+            {
+            }
+            Revert(form.Controls);
+        }
+
+        private static void StartLanguageWatcher()
+        {
+            if (languageWatcher != null) return;
+            languageWatcher = new System.Threading.Thread(() =>
+            {
+                try
+                {
+                    using (var key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey(@"SOFTWARE\AgOpenGPS"))
+                    {
+                        while (true)
+                        {
+                            // blocks until a value of the key is set (REG_NOTIFY_CHANGE_LAST_SET)
+                            if (RegNotifyChangeKeyValue(key.Handle, false, 4, IntPtr.Zero, false) != 0) break;
+                            languageIsHungarian = IsHungarian();
+                            languageKnown = true;
+                            LanguageChanged();
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                    // without the watcher the language is simply read at start-up
+                }
+            });
+            languageWatcher.IsBackground = true;
+            languageWatcher.Start();
+        }
 
         public static bool IsHungarian()
         {
@@ -45,24 +319,17 @@ namespace AgLibrary.Localization
         /// <summary>Call once on the UI thread before Application.Run. Does nothing unless the language is Hungarian.</summary>
         public static void Install()
         {
-            if (active || !IsHungarian()) return;
+            if (active) return;
             active = true;
+            CurrentHungarian();
+            StartLanguageWatcher();
+            StartActivateHook();
+            StartTextHook();
 
-            // New forms are picked up within a fraction of a second, and texts that the program sets later
-            // (for example a status label) are translated as well.
-            timer = new Timer { Interval = 150 };
-            timer.Tick += (s, e) =>
-            {
-                try
-                {
-                    foreach (Form form in Application.OpenForms) Apply(form);
-                }
-                catch (Exception)
-                {
-                    // never let the translation disturb the program
-                }
-            };
-            timer.Start();
+            // Nothing is polled: windows are translated when they are shown, texts that the program sets later are
+            // translated at the moment they are set, and a language change is reported by the registry watcher.
+            marshal = new Control();
+            IntPtr created = marshal.Handle;   // the handle lets the watcher thread hand work over to the UI thread
         }
 
         // Drop-in replacements for MessageBox.Show: the native message box is not a Form of the application,
@@ -93,10 +360,18 @@ namespace AgLibrary.Localization
         }
 
         /// <summary>The Hungarian text for an English caption, or the caption itself when there is none (or not Hungarian).</summary>
+
+        /// <summary>Translates a text without Install(): for programs (AgOpenGPS) that only need their own warnings translated.</summary>
+        public static string TrText(string english)
+        {
+            if (english == null) return null;
+            if (!CurrentHungarian()) return english;
+            return Lookup(english) ?? english;
+        }
+
         public static string Tr(string english)
         {
-            if (!active || english == null) return english;
-            return Lookup(english) ?? english;
+            return TrText(english);
         }
 
         public static void Apply(Form form)
@@ -161,6 +436,8 @@ namespace AgLibrary.Localization
         {
             public Font Original;
             public Font Fitted;
+            public string English;
+            public string Hungarian;
         }
 
         private static readonly ConditionalWeakTable<Control, FontState> FontStates = new ConditionalWeakTable<Control, FontState>();
@@ -179,8 +456,68 @@ namespace AgLibrary.Localization
                 FontStates.Add(c, state);
             }
 
+            state.English = current;
+            state.Hungarian = hu;
             c.Text = hu;
             Fit(c, current, hu, state);
+        }
+
+        private static void Revert(Control.ControlCollection controls)
+        {
+            foreach (Control c in controls)
+            {
+                try
+                {
+                    FontState state;
+                    bool done = false;
+                    if (FontStates.TryGetValue(c, out state) && state.Hungarian != null && c.Text == state.Hungarian)
+                    {
+                        done = true;
+                        c.Text = state.English;
+                        if (!ReferenceEquals(c.Font, state.Original))
+                        {
+                            Font fitted = state.Fitted;
+                            c.Font = state.Original;
+                            if (fitted != null) fitted.Dispose();
+                            state.Fitted = null;
+                        }
+                        state.Hungarian = null;
+                    }
+
+                    if (!done && !(c is TextBoxBase) && !(c is ComboBox) && !(c is ListBox) && !(c is UpDownBase))
+                    {
+                        string en = ReverseLookup(c.Text);
+                        if (en != null) c.Text = en;
+                    }
+
+                    var strip = c as ToolStrip;
+                    if (strip != null) RevertItems(strip.Items);
+
+                    var list = c as ListView;
+                    if (list != null)
+                    {
+                        foreach (ColumnHeader h in list.Columns)
+                        {
+                            string en = ReverseLookup(h.Text);
+                            if (en != null) h.Text = en;
+                        }
+                    }
+
+                    var grid = c as DataGridView;
+                    if (grid != null)
+                    {
+                        foreach (DataGridViewColumn col in grid.Columns)
+                        {
+                            string en = ReverseLookup(col.HeaderText);
+                            if (en != null) col.HeaderText = en;
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                }
+                if (c.Controls.Count > 0) Revert(c.Controls);
+            }
         }
 
         private static void Fit(Control c, string english, string hungarian, FontState state)
@@ -350,7 +687,7 @@ namespace AgLibrary.Localization
             }
 
             bool isButton = c is ButtonBase;
-            int availWidth = c.ClientSize.Width - (isButton ? 8 : 2);
+            int availWidth = c.ClientSize.Width - 8;   // the text is drawn with a few pixels of padding on each side
             int availHeight = c.ClientSize.Height - (isButton ? 6 : 0);
             ReserveImageSpace(c, ref availWidth, ref availHeight);
             if (availWidth <= 0 || availHeight <= 0) return true;
@@ -463,6 +800,36 @@ namespace AgLibrary.Localization
             T("Web update (Local v{} available)", "Internetes frissítés (helyi v{0} is elérhető)"),
             T("Release Notes - {}", "Kiadási megjegyzések – {0}"),
             T("Warning: {}", "Figyelem: {0}"),
+            T("{} closed the connection without answering.", "A(z) {0} válasz nélkül megszakította a kapcsolatot."),
+            T("Cannot reach {}. Is the base station or caster switched on?", "A(z) {0} nem érhető el. Be van kapcsolva a bázisállomás vagy a szerver?"),
+            T("Cannot find {}. Check the address and your internet connection.", "A(z) {0} nem található. Ellenőrizd a címet és az internetkapcsolatot."),
+            T("No answer from {}.", "A(z) {0} nem válaszol."),
+            T("Cannot reach {} (no route).", "A(z) {0} nem érhető el (nincs útvonal)."),
+            T("Cannot connect to {} ({}).", "Nem sikerült csatlakozni ide: {0} ({1})."),
+            T("{} closed the connection.", "A(z) {0} megszakította a kapcsolatot."),
+            T("Cannot open the radio on {}.", "A rádió nem nyitható meg ezen a porton: {0}."),
+            T("The radio on {} stopped. Reconnecting.", "A(z) {0} porton lévő rádió leállt. Újracsatlakozás..."),
+            T("{}. The fallback works. Switch to it? You can do that in the NTRIP panel.", "{0}. A tartalék működik. Átváltasz rá? Ezt az NTRIP panelen teheted meg."),
+            T("The main service has a problem ({}).", "A fő szolgáltatóval gond van ({0})."),
+            T("{} Now using {}. Your GPS may lose RTK for a moment, and your position can shift a little if the two base stations use different coordinates.", "{0} Mostantól ezt használja: {1}. A GPS egy pillanatra elveszítheti az RTK-t, és a pozíció kissé eltolódhat, ha a két bázisállomás eltérő koordinátákat használ."),
+            T("Connecting to {}...", "Csatlakozás ide: {0}..."),
+            T("Corrections arrive after {} seconds.", "A korrekciós jel {0} másodperc után megérkezett."),
+            T("No corrections within {} seconds.", "{0} másodpercen belül nem érkezett korrekciós jel."),
+            T("{} messages received, no errors.", "{0} üzenet érkezett, hiba nélkül."),
+            T("{} messages received, {} damaged.", "{0} üzenet érkezett, ebből {1} sérült."),
+            T("The service answered: {}.", "A szolgáltató válasza: {0}."),
+            T("{} observations (MSM{})", "{0}-mérések (MSM{1})"),
+            T("Error during shutdown: {}\n\nAttempting force exit...", "Hiba a leállítás közben: {0}\n\nKényszerített kilépés..."),
+            T("Field data save failed:\n{}\n\nContinue shutdown anyway? (data may be lost)", "A tábla adatainak mentése nem sikerült:\n{0}\n\nMégis folytatod a kilépést? (az adatok elveszhetnek)"),
+            T("Failed to start updater: {}", "A frissítő indítása nem sikerült: {0}"),
+            T("Below Minimum Safe Steering Speed: {} Kmh", "A sebesség a biztonságos minimum alatt van: {0} km/h"),
+            T("Below Minimum Safe Steering Speed: {} MPH", "A sebesség a biztonságos minimum alatt van: {0} mph"),
+            T("Above Maximum Safe Steering Speed: {} Kmh", "A sebesség a biztonságos maximum felett van: {0} km/h"),
+            T("Above Maximum Safe Steering Speed: {} MPH", "A sebesség a biztonságos maximum felett van: {0} mph"),
+            T("Field Start is {} km From current position", "A tábla kezdőpontja {0} km-re van a jelenlegi pozíciótól"),
+            T("New profile '{}' created", "Új profil létrehozva: '{0}'"),
+            T("Profile '{}' loaded", "Profil betöltve: '{0}'"),
+            T("Applied {}° ({} counts)", "Alkalmazva: {0}° ({1} egység)"),
             T("Error: {}", "Hiba: {0}"),
             T("Downloading... {}%", "Letöltés folyamatban... {0}%"),
             T("Copying... {}%", "Másolás folyamatban... {0}%"),
@@ -495,6 +862,9 @@ namespace AgLibrary.Localization
         // sentences that appear inside longer messages (for example in front of an exception text)
         private static readonly KeyValuePair<string, string>[] Fragments =
         {
+            new KeyValuePair<string, string>("\r\n\r\n  Exiting", "\r\n\r\n  Kilépés"),
+            new KeyValuePair<string, string>(" profile could not be fully loaded (file may be corrupt).\r\n", " profil nem töltődött be teljesen (a fájl sérült lehet).\r\n"),
+            new KeyValuePair<string, string>(" profile was recovered from .last backup because the main file was unreadable.", " profil a .last biztonsági mentésből lett helyreállítva, mert a fő fájl nem volt olvasható."),
             new KeyValuePair<string, string>("Choose the port of the main radio first.", "Előbb válaszd ki a fő rádió portját."),
             new KeyValuePair<string, string>("Fill in the address of the main service first.", "Előbb add meg a fő szolgáltató címét."),
             new KeyValuePair<string, string>("Or switch NTRIP off in the profile list.", "Vagy kapcsold ki az NTRIP-et a profillistában."),
@@ -640,7 +1010,7 @@ namespace AgLibrary.Localization
             { "Error", "Hiba" },
             { "Help", "Segítség" },
             { "Exit", "Kilépés" },
-            { "Open:", "Megnyitás:" },
+            { "Open:", "Megnyit:" },
             { "Choose", "Kiválasztás" },
             { "Choose from list...", "Választás a listából..." },
             { "Loading the list...", "Lista betöltése..." },
@@ -755,18 +1125,18 @@ namespace AgLibrary.Localization
             { "Altitude", "Magasság" },
             { "Altitude (m)", "Magasság (m)" },
             { "Elevation:", "Magasság:" },
-            { "Elev", "Magasság" },
+            { "Elev", "Magas." },
             { "Heading", "Irány" },
             { "Speed", "Sebesség" },
             { "Speed:", "Sebesség:" },
             { "Sats", "Műholdak" },
             { "Sats:", "Műholdak:" },
-            { "# Sats", "Műholdak" },
+            { "# Sats", "Műhold" },
             { "Quality", "Fix minőség" },
             { "Quality:", "Fix minőség:" },
             { "FixQual", "Fix minőség" },
             { "Age", "Korrekció kora" },
-            { "Age:", "Korrekció kora:" },
+            { "Age:", "Kor:" },
             { "Dual", "Két antenna" },
             { "Roll", "Oldaldőlés" },
             { "Roll Corrected", "Dőléskorrigált" },
@@ -791,10 +1161,10 @@ namespace AgLibrary.Localization
             { "Steer Button", "Kormánygomb" },
             { "Steer Switch", "Kormánykapcsoló" },
             { "Steer Switch:", "Kormánykapcsoló:" },
-            { "Steer Ping:", "Kormány ping:" },
+            { "Steer Ping:", "Korm. ping:" },
             { "Steer \r\nConfig", "Kormány \r\nbeállítás" },
             { "Steer\r\nSetting", "Kormány\r\nbeállítás" },
-            { "From\r\nAutoSteer", "Kormányzástól" },
+            { "From\r\nAutoSteer", "Kormány-\r\nzástól" },
             { "Set Angle", "Célszög" },
             { "Act Angle", "Aktuális szög" },
             { "Angle:", "Szög:" },
@@ -802,13 +1172,13 @@ namespace AgLibrary.Localization
             { "Machine:", "Munkagép:" },
             { "Machine Module", "Munkagép modul" },
             { "Mach", "Gép" },
-            { "Tool Ping:", "Munkagép ping:" },
+            { "Tool Ping:", "Gép ping:" },
             { "Work", "Munka" },
             { "Work Switch", "Munkakapcsoló" },
             { "Work:", "Munka:" },
-            { "Switch:", "Kapcsoló:" },
-            { "Lift Enable", "Emelés engedélyezve" },
-            { "Hyd Lift", "Hidraulikus emelő" },
+            { "Switch:", "Kapcs.:" },
+            { "Lift Enable", "Emelés eng." },
+            { "Hyd Lift", "Hidr. emelő" },
             { "Raise Time", "Emelési idő" },
             { "LowerTime", "Leengedési idő" },
             { "Min Speed", "Min. sebesség" },
@@ -817,13 +1187,844 @@ namespace AgLibrary.Localization
             { "Lo PWM", "Alacsony PWM" },
             { "Pulse #", "Impulzus #" },
             { "PulseCounts", "Impulzusszám" },
-            { "Counts:", "Számláló:" },
-            { "Relay Act Hi", "Relé: magas aktív" },
+            { "Counts:", "Impuls:" },
+            { "Relay Act Hi", "Relé: magas" },
             { "Pressure", "Nyomás" },
             { "Ackerman", "Ackermann" },
             { "Uturn", "Fordulás" },
-            { "Tram", "Techn. nyom" },
+            { "Tram", "Techn." },
             { "Up", "Aktív" },
+            { "Terms and Conditions", "Felhasználási feltételek" },
+            { "YouTube Tutorials", "YouTube-oktatóvideók" },
+            { "Discourse Forum", "Discourse fórum" },
+            { "Disagree", "Nem fogadom el" },
+            { "Agree", "Elfogadom" },
+            { "Version:", "Verzió:" },
+            { "Test Connection", "Kapcsolat tesztelése" },
+            { "Enter Details Above and Tick Test Connection", "Add meg fent az adatokat, és jelöld be a kapcsolat tesztelését" },
+            { "API Key:", "API-kulcs:" },
+            { "Server:", "Szerver:" },
+            { "Paste from Clipboard", "Beillesztés a vágólapról" },
+            { "Register here to use AgShare", "Regisztrálj itt az AgShare használatához" },
+            { "Activate", "Aktiválás" },
+            { "Auto-Upload", "Automatikus feltöltés" },
+            { "Local Only", "Csak helyben" },
+            { "Title", "Cím" },
+            { "✔ See you next time!", "✔ Viszlát legközelebb!" },
+            { "Vehicle / Tool...", "Jármű / Munkagép..." },
+            { "Simulator On", "Szimulátor bekapcsolva" },
+            { "Enter Sim Coords", "Szimulátor koordinátái" },
+            { "Kiosk Mode", "Kioszk mód" },
+            { "Reset All", "Összes visszaállítása" },
+            { "Reset", "Visszaállítás" },
+            { "Wizards", "Varázslók" },
+            { "Steer Wizard", "Kormányvarázsló" },
+            { "Charts", "Diagramok" },
+            { "Steer Chart", "Kormányzás diagram" },
+            { "Heading Chart", "Irány diagram" },
+            { "Roll Correction Chart", "Dőléskorrekció diagram" },
+            { "Boundary Tool", "Határvonal-eszköz" },
+            { "Smooth AB Curve", "AB-görbe simítása" },
+            { "Hide Contour Paths", "Rétegvonalak elrejtése" },
+            { "WebCam", "Webkamera" },
+            { "Offset Fix", "Fix eltolása" },
+            { "Fix       sec", "Fix       mp" },
+            { "All", "Mind" },
+            { "Configuration", "Beállítások" },
+            { "Auto Steer", "Automata kormányzás" },
+            { "View All Settings", "Összes beállítás megtekintése" },
+            { "Directories", "Mappák" },
+            { "GPS Data", "GPS-adatok" },
+            { "Colors", "Színek" },
+            { "Multi-Section Colors", "Többszakaszos színek" },
+            { "HotKeys", "Gyorsbillentyűk" },
+            { "Boundary", "Határvonal" },
+            { "Headland", "Forgó" },
+            { "Headland (Build)", "Forgó (készítés)" },
+            { "TramLines", "Művelőutak" },
+            { "Tramlines", "Művelőutak" },
+            { "Delete Applied", "Megművelt terület törlése" },
+            { "Flag By Lat Lon", "Jelölő koordináta alapján" },
+            { "Recorded Path", "Rögzített útvonal" },
+            { "Import Tracks", "Nyomvonalak importálása" },
+            { "Current Field", "Jelenlegi tábla" },
+            { "Ref", "Ref." },
+            { "Simulator", "Szimulátor" },
+            { "Auto Steer Toggle", "Auto kormány be/ki" },
+            { "Touch Button to Reset\r\nThen Push New Key", "Koppints a gombra a törléshez,\r\nmajd nyomd meg az új billentyűt" },
+            { "Cycle Lines", "Vonalváltás" },
+            { "Close Field", "Tábla bezárása" },
+            { "Updater", "Frissítő" },
+            { "Pure Pursuit", "Tiszta követés" },
+            { "Create Boundary From Mapping", "Határ létrehozása a térképből" },
+            { "── Steer", "── Kormányzás" },
+            { "Max Angular Vel.", "Max. szögsebesség" },
+            { "Steer In Reverse", "Kormányzás tolatáskor" },
+            { "Side Hill Comp", "Oldallejtő-kompenz." },
+            { "── Arduino Steer", "── Arduino kormány" },
+            { "Counts/Degree", "Impulzus/fok" },
+            { "High Steer PWM", "Magas kormány PWM" },
+            { "Low Steer PWM", "Alacsony kormány PWM" },
+            { "Min Steer PWM", "Min. kormány PWM" },
+            { "Kp (Proportional)", "Kp (arányos)" },
+            { "Min Steer Speed", "Min. kormányzási seb." },
+            { "Max Steer Speed", "Max. kormányzási seb." },
+            { "Func Speed Limit", "Funkció sebességhatár" },
+            { "── Geometry", "── Geometria" },
+            { "Vehicle Type", "Jármű típusa" },
+            { "Track Width", "Nyomtáv" },
+            { "Antenna Pivot", "Antenna–forgáspont" },
+            { "── GPS", "── GPS" },
+            { "Heading Source", "Irányforrás" },
+            { "Dual Hdg Offset", "Dual irány eltolás" },
+            { "Dual Rev. Dist.", "Dual tolatási táv." },
+            { "Min Step Limit", "Min. lépéshatár" },
+            { "── IMU", "── IMU" },
+            { "Fusion Weight", "Fúziós súly" },
+            { "Dual As IMU", "Dual mint IMU" },
+            { "── Brand", "── Márka" },
+            { "Tractor Brand", "Traktor márka" },
+            { "Harvester Brand", "Kombájn márka" },
+            { "Articulated Brand", "Csuklós márka" },
+            { "── Dimensions", "── Méretek" },
+            { "Tool Width", "Munkaszélesség" },
+            { "Tool Overlap", "Munkagép átfedés" },
+            { "Tool Offset", "Munkagép eltolás" },
+            { "Num Sections", "Szakaszok száma" },
+            { "Trailing Hitch", "Vontatott kapcsolás" },
+            { "Tank Trailing", "Tartálykocsi vontatás" },
+            { "Trailing To Pivot", "Vontatás–forgáspont" },
+            { "── Tool Type", "── Munkagép típusa" },
+            { "Is Trailing", "Vontatott" },
+            { "Is Rear Fixed", "Hátsó merev" },
+            { "Is TBT", "TBT (traktor–gép–traktor)" },
+            { "Is Front", "Elöl lévő" },
+            { "── Sections", "── Szakaszok" },
+            { "Sections Not Zones", "Szakaszok (nem zónák)" },
+            { "Off When Out", "Kikapcs. kilépéskor" },
+            { "Fast Section", "Gyors szakasz" },
+            { "── Look Ahead / Timing", "── Előretekintés / időzítés" },
+            { "Look Ahead On", "Előretekintés be" },
+            { "Look Ahead Off", "Előretekintés ki" },
+            { "Tool Off Delay", "Gép kikapcs. késleltetés" },
+            { "Hydraulic Lift LA", "Hidr. emelés előretek." },
+            { "Headland Sect. Ctrl", "Fordulósáv szakaszvez." },
+            { "── Guidance (per Tool)", "── Vezetés (gépenként)" },
+            { "Snap Distance", "Igazítási távolság" },
+            { "Snap Distance Ref", "Igazítási táv. ref." },
+            { "DeadZone Dist", "Holtzóna távolság" },
+            { "DeadZone Hdg", "Holtzóna irány" },
+            { "DeadZone Delay", "Holtzóna késleltetés" },
+            { "Stanley Used", "Stanley használata" },
+            { "Stanley Dist. Gain", "Stanley távolság-erős." },
+            { "Stanley Hdg. Gain", "Stanley irány-erős." },
+            { "Stanley Integral", "Stanley integrál" },
+            { "PurePursuit Intgrl", "PurePursuit integrál" },
+            { "Goal Pt Acq Factor", "Célpont felvétel tényező" },
+            { "Goal Pt Hold", "Célpont tartás" },
+            { "Goal Pt Mult", "Célpont szorzó" },
+            { "Slow Speed Cutoff", "Lassú seb. határ" },
+            { "── Work Switch", "── Munkakapcsoló" },
+            { "Steer Work Switch", "Kormány munkakapcsoló" },
+            { "Min Coverage", "Min. lefedettség" },
+            { "── U-Turn (per Tool)", "── Visszafordulás (gépenként)" },
+            { "Turn Radius", "Fordulási sugár" },
+            { "Dist From Boundary", "Távolság a határtól" },
+            { "Skip Width", "Kihagyás szélessége" },
+            { "Extension Length", "Hosszabbítás" },
+            { "U-Turn Style", "Visszafordulás stílusa" },
+            { "U-Turn Smoothing", "Visszafordulás simítás" },
+            { "U-Turn Compensation", "Visszafordulás kompenz." },
+            { "── Display / Menu", "── Kijelző / menü" },
+            { "Grid On", "Rács be" },
+            { "Lightbar On", "Fénysáv be" },
+            { "Side Guide Lines", "Oldalsó vezetővonalak" },
+            { "Pure On", "Pure be" },
+            { "Speedo On", "Sebességmérő be" },
+            { "Lightbar Not SteerBar", "Fénysáv (nem kormánysáv)" },
+            { "Day Mode", "Nappali mód" },
+            { "Keyboard On", "Billentyűzet be" },
+            { "Vehicle Image", "Jármű kép" },
+            { "Texture On", "Textúra be" },
+            { "Brightness On", "Fényerő be" },
+            { "Log Elevation", "Magasság naplózása" },
+            { "Shutdown Computer", "Számítógép leállítása" },
+            { "Shutdown No Power", "Leállítás áramkimaradáskor" },
+            { "Auto Start AgIO", "AgIO auto indítás" },
+            { "Auto Off AgIO", "AgIO auto leállítás" },
+            { "Lightbar cm/px", "Fénysáv cm/px" },
+            { "Cam Zoom", "Kamera zoom" },
+            { "Cam Pitch", "Kamera dőlés" },
+            { "── AutoSteer", "── Automata kormány" },
+            { "Guidance Lookahead", "Vezetés előretekintés" },
+            { "AutoSteer Auto On", "Auto kormány auto be" },
+            { "Constant Contour", "Állandó kontúr" },
+            { "── Guide Lines", "── Vezetővonalak" },
+            { "Num Guide Lines", "Vezetővonalak száma" },
+            { "GPS Age Alarm", "GPS kor riasztás" },
+            { "Is RTK", "RTK" },
+            { "RTK Kill AutoSteer", "RTK vész: kormány le" },
+            { "Jump Fix Alarm", "Ugrás riasztás" },
+            { "Sim Latitude", "Szim. szélesség" },
+            { "Sim Longitude", "Szim. hosszúság" },
+            { "UDP Watch ms", "UDP figyelés ms" },
+            { "── Sound", "── Hang" },
+            { "U-Turn Sound", "Visszafordulás hang" },
+            { "Hyd Lift Sound", "Hidr. emelés hang" },
+            { "AutoSteer Sound", "Auto kormány hang" },
+            { "Sections Sound", "Szakasz hang" },
+            { "── Tram", "── Technológiai sáv" },
+            { "Tram Passes", "Techn. sáv menetek" },
+            { "Tram Alpha", "Techn. sáv átlátszóság" },
+            { "── IMU / Global", "── IMU / általános" },
+            { "Reverse On", "Tolatás be" },
+            { "AutoSwitch Dual Fix", "Dual auto váltás: Fix" },
+            { "AutoSwitch Speed", "Auto váltás sebesség" },
+            { "Draw Pivot", "Forgáspont rajzolása" },
+            { "Headland Dist On", "Fordulósáv táv. be" },
+            { "Bnd Tool Spacing", "Határ gép térköz" },
+            { "Bnd Tool Smooth", "Határ gép simítás" },
+            { "Active Low", "Aktív alacsony" },
+            { "Manual Sections", "Kézi szakaszok" },
+            { "Remote Work Sys", "Távoli munkarendszer" },
+            { "Steer WS Manual", "Kormány MK kézi" },
+            { "Min Hdg Step Dist", "Min. irány lépéstáv." },
+            { "── AgShare", "── AgShare" },
+            { "AgShare Enabled", "AgShare engedélyezve" },
+            { "Upload Active", "Feltöltés aktív" },
+            { "Public Field", "Nyilvános tábla" },
+            { "── Other", "── Egyéb" },
+            { "Culture", "Nyelv" },
+            { "── GPS / Fix", "── GPS / helymeghatározás" },
+            { "Frame Time (ms)", "Képkocka idő (ms)" },
+            { "Time Slice", "Időszelet" },
+            { "GPS Hz", "GPS Hz" },
+            { "Fix Quality", "Fix minőség" },
+            { "Sats Tracked", "Követett műholdak" },
+            { "HDOP", "HDOP" },
+            { "Missed UDP Sentences", "Kimaradt UDP mondatok" },
+            { "── Heading", "── Irány" },
+            { "IMU Heading", "IMU irány" },
+            { "Fix-to-Fix Heading", "Fix–fix irány" },
+            { "Fused Heading (deg)", "Fúziós irány (fok)" },
+            { "Angular Velocity", "Szögsebesség" },
+            { "── Application", "── Alkalmazás" },
+            { "Version", "Verzió" },
+            { "Vehicle File", "Jármű fájl" },
+            { "Tool File", "Munkagép fájl" },
+            { "Setting", "Beállítás" },
+            { "Value", "Érték" },
+            { "All Settings", "Összes beállítás" },
+            { "This will create and load the new profile.", "Ez létrehozza és betölti az új profilt." },
+            { "Close Field first to run Updater", "A frissítő indítása előtt zárd be a táblát" },
+            { "New Flag", "Új jelölő" },
+            { "Manual Section", "Kézi szakasz" },
+            { "Auto Section", "Auto szakasz" },
+            { "Snap to Pivot", "Vonalhoz igazítás" },
+            { "Move Line Left", "Vonal balra" },
+            { "Move Line Right", "Vonal jobbra" },
+            { "Vehicle Settings", "Jármű beállítás" },
+            { "   Reset \r\nto Default", "   Alap-\r\nértékek" },
+            { "Section or Zone", "Szakasz vagy zóna" },
+            { "New Key", "Új billentyű" },
+            { "F11 -  Full Screen\r\n\r\nNumPad1 - Manual Section\r\nNumPad0 - Auto Section", "F11 - Teljes képernyő\r\n\r\nNumPad1 - Kézi szakasz\r\nNumPad0 - Auto szakasz" },
+            { "Prompt", "Kérdés" },
+            { "Easting", "Keleti koordináta" },
+            { "Northing", "Északi koordináta" },
+            { "msec", "ms" },
+            { "Raw Hz", "Nyers Hz" },
+            { "Frame", "Képk." },
+            { "Missed", "Kimar." },
+            { "Fix2Fix", "Fix–fix" },
+            { "North (+)", "Észak (+)" },
+            { "West (-)", "Nyugat (-)" },
+            { "East (+)", "Kelet (+)" },
+            { "South (-)", "Dél (-)" },
+            { "Keep offset even after field is closed?", "Megmaradjon az eltolás a tábla bezárása után is?" },
+            { "Vehicle", "Jármű" },
+            { "Tool", "Munkagép" },
+            { "Vehicle Name", "Jármű neve" },
+            { "Type:", "Típus:" },
+            { "Tractor", "Traktor" },
+            { "Wheelbase:", "Tengelytáv:" },
+            { "Ant.Pivot:", "Antenna–forgáspont:" },
+            { "Ant.Offset:", "Antenna eltolás:" },
+            { "Hitch:", "Függesztés:" },
+            { "Tool Name", "Munkagép neve" },
+            { "Width:", "Szélesség:" },
+            { "Sections:", "Szakaszok:" },
+            { "Offset:", "Eltolás:" },
+            { "Overlap:", "Átfedés:" },
+            { "Lookahead:", "Előretekintés:" },
+            { "1 sec", "1 mp" },
+            { "Line Shift:", "Vonaleltolás:" },
+            { "Tram Width:", "Művelőút szélessége:" },
+            { "Units:", "Mértékegység:" },
+            { "Metric", "Metrikus" },
+            { "Choose Vehicle Type", "Válaszd ki a jármű típusát" },
+            { "Opacity", "Átlátszóság" },
+            { "No Image", "Nincs kép" },
+            { "For Now", "Egyelőre" },
+            { "To File", "Fájlba" },
+            { "Clip Line", "Vonal vágása" },
+            { "Zoom In", "Nagyítás" },
+            { "Build", "Létrehozás" },
+            { "Alpha", "Átlátszóság" },
+            { "Filename", "Fájlnév" },
+            { "Enter Record Name", "Add meg a felvétel nevét" },
+            { "> OFF <", "> KI <" },
+            { "Status: ", "Állapot: " },
+            { "Add Name", "Név hozzáadása" },
+            { "Curve", "Görbe" },
+            { "Edit Name", "Név szerkesztése" },
+            { "Pivot", "Forgáspont" },
+            { "AB + Curve", "AB + görbe" },
+            { "AB Line", "AB-vonal" },
+            { "Lat/Lon +", "Szél./Hossz. +" },
+            { "Lat/Lon", "Szél./Hossz." },
+            { "Longitude ( +- 180)", "Hosszúság (±180)" },
+            { "Lattitude (+- 90)", "Szélesség (±90)" },
+            { "Spray", "Permetezés" },
+            { "Passes", "Sávok" },
+            { "Track", "Nyomvonal" },
+            { "Seed", "Vetés" },
+            { "Mode", "Mód" },
+            { "Zoom", "Nagyítás" },
+            { "Select Buttons", "Gombok kiválasztása" },
+            { "AOG Menu", "AOG menü" },
+            { "Preview", "Előnézet" },
+            { "Multi Color", "Több szín" },
+            { "Section Color", "Szakasz színe" },
+            { "Edit Color", "Szín szerkesztése" },
+            { "Type", "Típus" },
+            { "Pivot Distance", "Forgáspont távolsága" },
+            { "Antenna Height", "Antennamagasság" },
+            { "Center", "Közép" },
+            { "Antenna Offset", "Antenna-eltolás" },
+            { "Left", "Bal" },
+            { "Right", "Jobb" },
+            { "** Dual Position Antenna on Right", "** Kettős antenna: a pozícióantenna jobb oldalon van" },
+            { "Hitch Length", "Függesztés hossza" },
+            { "Wheelbase", "Tengelytáv" },
+            { "Attachment Style", "Csatlakozás típusa" },
+            { "Overlap / Gap", "Átfedés / hézag" },
+            { "Overlap", "Átfedés" },
+            { "Gap", "Hézag" },
+            { "Tool Offset Direction", "Munkagép-eltolás iránya" },
+            { "Tool Right", "Munkagép jobbra" },
+            { "Tool Left", "Munkagép balra" },
+            { "Zone 8", "8. zóna" },
+            { "Zone 7", "7. zóna" },
+            { "Zone 1", "1. zóna" },
+            { "Zone 2", "2. zóna" },
+            { "Zone 6", "6. zóna" },
+            { "Zone 3", "3. zóna" },
+            { "Zone 5", "5. zóna" },
+            { "Zone 4", "4. zóna" },
+            { "Km/H", "km/h" },
+            { "Inch", "Hüvelyk" },
+            { "Section Width", "Szakaszszélesség" },
+            { "% Coverage", "% lefedettség" },
+            { "Zones", "Zónák" },
+            { "Sections", "Szakaszok" },
+            { "        Auto Sections", "        Automata szakaszok" },
+            { "        Manual Sections", "        Kézi szakaszok" },
+            { "Look Ahead Time Settings", "Előretekintési idő beállításai" },
+            { "On (secs)", "Be (mp)" },
+            { "Off (secs)", "Ki (mp)" },
+            { "Turn Off Delay (secs)", "Kikapcsolási késleltetés (mp)" },
+            { "Alarm Stops Autosteer", "A riasztás leállítja az automata kormányzást" },
+            { "0 to Disable", "0 = kikapcsolva" },
+            { "Fix Jump Distance (cm) ", "Fix-ugrás távolsága (cm) " },
+            { "Dual Antenna Settings", "Kettős antenna beállításai" },
+            { "Switch speed", "Váltási sebesség" },
+            { "Auto Dual <-> Fix", "Automata kettős ↔ fix" },
+            { "Reverse Distance (m)", "Tolatási távolság (m)" },
+            { "Heading Offset (Degree)", "Irányeltolás (fok)" },
+            { "Single Antenna Settings", "Egy antenna beállításai" },
+            { "Default: 70%", "Alapérték: 70%" },
+            { "Fusion", "Fúzió" },
+            { "Reverse Detection", "Tolatás felismerése" },
+            { "Fix To Fix Distance", "Fix–fix távolság" },
+            { "Minimum GPS Step", "Minimális GPS-lépés" },
+            { "Antenna Type", "Antenna típusa" },
+            { "Invert Roll", "Dőlés megfordítása" },
+            { "Zero Roll", "Dőlés nullázása" },
+            { "Remove Offset", "Eltolás törlése" },
+            { "Less", "Kevesebb" },
+            { "More", "Több" },
+            { "Roll Filter", "Dőlésszűrő" },
+            { "Set Smoothing to 3 or 4x Radius", "A simítást állítsd a sugár 3–4-szeresére" },
+            { "Set extension length to 2 or 3x Radius\r\n", "A hosszabbítás hossza legyen a sugár 2–3-szorosa\r\n" },
+            { "Hydraulic Lift Config", "Hidraulikus emelő beállításai" },
+            { "Plant Pop", "Tőszám" },
+            { "Hydraulic Lift Look Ahead (secs)", "Hidraulikus emelő előretekintése (mp)" },
+            { "Raise Time (secs)", "Emelési idő (mp)" },
+            { "Enable", "Engedélyezés" },
+            { "Lower Time (secs)", "Leengedési idő (mp)" },
+            { "Invert Relays", "Relék megfordítása" },
+            { "Send + Save", "Küldés és mentés" },
+            { "Display?", "Megjelenítés?" },
+            { "Overide", "Felülbírálás" },
+            { "Tram Width", "Művelőút szélessége" },
+            { "Hardware Messages", "Hardverüzenetek" },
+            { "Power Loss Shutdown", "Leállítás áramkimaradáskor" },
+            { "Auto Off AgIO?", "AgIO automatikus kikapcsolása?" },
+            { "Bottom Menu", "Alsó menü" },
+            { "Nudge Controls", "Eltolás gombok" },
+            { "Right Menu", "Jobb oldali menü" },
+            { "Auto Start AgIO?", "AgIO automatikus indítása?" },
+            { "You Turn", "Fordulás" },
+            { "Sound", "Hang" },
+            { "U-Turn", "Automata forduló" },
+            { "Lateral", "Oldalirányú" },
+            { "Hide Contour", "Rétegvonal elrejtése" },
+            { "AB Smooth", "AB simítás" },
+            { "Rec Path", "Rögzített útvonal" },
+            { "Tram Lines", "Művelőutak" },
+            { "Screen Buttons", "Képernyőgombok" },
+            { "Tools Menu", "Eszközmenü" },
+            { "Field Menu", "Tábla menü" },
+            { "OFF", "KI" },
+            { "ON", "BE" },
+            { "Debug Values", "Hibakeresési értékek" },
+            { "Headland Dist.", "Forgó távolsága" },
+            { "Line Smooth", "Vonalsimítás" },
+            { "Section Lines", "Szakaszvonalak" },
+            { "Direction Markers", "Irányjelzők" },
+            { "Elevation", "Magasság" },
+            { "Units", "Mértékegység" },
+            { "Svenn Arrow", "Svenn-nyíl" },
+            { "Brightness", "Fényerő" },
+            { "Field Texture", "Tábla mintázata" },
+            { "Polygons", "Sokszögek" },
+            { "Start Fullscreen", "Indítás teljes képernyőn" },
+            { "Speedo", "Sebességmérő" },
+            { "Guidelines", "Segédvonalak" },
+            { "Grid", "Rács" },
+            { "Current Vehicle", "Jelenlegi jármű" },
+            { "Current Tool", "Jelenlegi munkagép" },
+            { "Inches", "Hüvelyk" },
+            { "Tool Width:", "Munkaszélesség:" },
+            { "Feet", "Láb" },
+            { "Act:", "Mért:" },
+            { "Set:", "Cél:" },
+            { "Err:", "Hiba:" },
+            { "Or +5", "Vagy +5" },
+            { "Steer Angle:", "Kormányszög:" },
+            { "Diameter:", "Átmérő:" },
+            { "Acquire:", "Rátalálás:" },
+            { "It will slowly increase steer angle to reduce cross track error", "Lassan növeli a kormányszöget az oldalirányú eltérés csökkentésére" },
+            { "Slow", "Lassú" },
+            { "Fast", "Gyors" },
+            { "Steer Response", "Kormányzás reakciója" },
+            { "Integral", "Integráló tag" },
+            { "Look Ahead Min", "Min. előretekintés" },
+            { "Look Ahead", "Előretekintés" },
+            { "Stanley Gains", "Stanley-erősítések" },
+            { "Max Steer Angle", "Max. kormányszög" },
+            { "AV Act:", "AV aktuális:" },
+            { "AV Set:", "AV cél:" },
+            { "Counts per Degree", "Impulzus fokonként" },
+            { "WAS Zero", "WAS nullázás" },
+            { "Acquire Factor", "Rátalálási tényező" },
+            { "Distance:", "Távolság:" },
+            { "Speed Factor", "Sebességtényező" },
+            { " ------ Dead Zone -----", " ------ Holtsáv -----" },
+            { "Hold:", "Tartás:" },
+            { "Acquire = Factor * Hold", "Rátalálás = tényező × tartás" },
+            { "On Delay (sec)", "Bekapcsolási késleltetés (mp)" },
+            { "Heading (Degree)", "Irány (fok)" },
+            { "Gain", "Kormányérzékenység" },
+            { "Minimum to Move", "Minimum a mozgáshoz" },
+            { "Maximum Limit", "Felső határ" },
+            { "Proportional Gain", "Kormányérzékenység (P)" },
+            { "Sidehill Deg Turn per Deg of Roll", "Oldalirányú fordulat fokonként a dőlés 1 fokára" },
+            { "Button - Push On. Push Off\r\nSwitch - Pushed On, Release Off", "Gomb – nyomásra be, újabb nyomásra ki\r\nKapcsoló – benyomva be, elengedve ki" },
+            { "Pressure Sensor", "Nyomásérzékelő" },
+            { "Current Sensor", "Áramérzékelő" },
+            { "Count Sensor", "Impulzusérzékelő" },
+            { "Invert Motor Dir", "Motoriránya megfordítása" },
+            { "Steer Enable", "Kormányzás engedélyezése" },
+            { "Motor Driver", "Motorvezérlő" },
+            { "A2D Convertor", "A/D konverter" },
+            { "Turn Sensor", "Kormányszög-érzékelő" },
+            { "Invert WAS", "WAS megfordítása" },
+            { "Reset All To Defaults", "Minden alapértékre állítása" },
+            { "IMU X or Y Axis", "IMU X vagy Y tengely" },
+            { "Stanley/ Pure", "Stanley / Pure" },
+            { "Smart WAS", "Okos WAS" },
+            { "Ready", "Kész" },
+            { "Confidence: 0%", "Megbízhatóság: 0%" },
+            { "Samples: 0", "Minták: 0" },
+            { "Steer In Reverse?", "Kormányzás tolatáskor?" },
+            { "In", "Be" },
+            { "Out", "Ki" },
+            { "UTurn Compensation", "Forduló kompenzáció" },
+            { "kmh", "km/h" },
+            { "Max Speed", "Max. sebesség" },
+            { "Kmh", "km/h" },
+            { "Manual Turns", "Kézi fordulók" },
+            { "Line Width", "Vonalvastagság" },
+            { "pixels", "képpont" },
+            { "Nudge Distance", "Eltolás távolsága" },
+            { "Guidance Bar", "Vezetősáv" },
+            { "Steer Bar", "Kormányzássáv" },
+            { "On/Off", "Be/Ki" },
+            { "Lightbar", "Fénysáv" },
+            { "cm Per Pixel", "cm / képpont" },
+            { "Seconds", "Másodperc" },
+            { "Next Guidance Line Search Time", "Következő vezetővonal keresési ideje" },
+            { "Wizard", "Varázsló" },
+            { "Error:", "Hiba:" },
+            { "Low", "Alacsony" },
+            { "Sidehill Deg per Deg of Roll", "Oldalirányú fok a dőlés fokonként" },
+            { "Look Ahead (m)", "Előretekintés (m)" },
+            { "Look Ahead Speed Gain", "Előretekintés sebességfüggése" },
+            { "PWM Minimum Movement", "PWM minimum a mozgáshoz" },
+            { "PWM Maximum", "Maximális kormányerő (PWM)" },
+            { "Drive straight forward and Touch Zero", "Haladj egyenesen előre, és koppints a Nulla gombra" },
+            { "Pressure Turn Sensor", "Kormány-nyomásérzékelő" },
+            { "Current Turn Sensor", "Kormány-áramérzékelő" },
+            { "Invert Hydraulic Enable Relay?", "Megfordítod a hidraulika-engedélyező relét?" },
+            { "Steer Enable Mode", "Kormányzás-engedélyezés módja" },
+            { "What Style of Motor Driver?", "Milyen típusú a motorvezérlő?" },
+            { "A/D Convertor Connection?", "Hogyan csatlakozik az A/D konverter?" },
+            { "Turn Counts", "Fordulatszám (impulzus)" },
+            { "Do you have use a Danfoss Valve?", "Danfoss szelepet használsz?" },
+            { "Free Drive", "Szabad vezetés" },
+            { "  Start Wizard", "  Varázsló indítása" },
+            { "Highly Recommended", "Erősen ajánlott" },
+            { "Load Defaults", "Alapértékek betöltése" },
+            { "Set Wheelbase", "Tengelytáv beállítása" },
+            { "Set Track Width", "Nyomtáv beállítása" },
+            { "Wheel Track", "Nyomtáv" },
+            { "Antenna\r\nPosition", "Antenna\r\nhelyzete" },
+            { "Set Distance Antenna Is From Pivot Axle", "Add meg az antenna távolságát a forgáspont tengelyétől" },
+            { "Antenna\r\nHeight", "Antenna\r\nmagassága" },
+            { "Set Antenna Height", "Antennamagasság beállítása" },
+            { "0 = Off", "0 = ki" },
+            { "Set Antenna Offset", "Antenna-eltolás beállítása" },
+            { "A/D Convertor", "A/D konverter" },
+            { "Motor Driver Board", "Motorvezérlő panel" },
+            { "Driver Control Relay", "Vezérlőrelé" },
+            { "Danfoss Valve", "Danfoss szelep" },
+            { "If not Select Invert Roll", "Ha nem így van, válaszd a dőlés megfordítását" },
+            { "Put vehicle leaning strongly to the right. Roll to the right must be POSITIVE.", "Döntsd erősen jobbra a járművet. A jobbra dőlésnek POZITÍVNAK kell lennie." },
+            { "Roll Function", "Dőlés funkció" },
+            { "Park on level surface and touch \"Zero Roll\"", "Állj sík felületre, és koppints a „Dőlés nullázása” gombra" },
+            { "Roll Zero", "Dőlés nullázása" },
+            { "Invert WAS Direction", "WAS irányának megfordítása" },
+            { "Current Heading:", "Jelenlegi irány:" },
+            { "WAS Zeroing", "WAS nullázása" },
+            { "Invert Direction", "Irány megfordítása" },
+            { "Steer Motor Direction", "Kormánymotor iránya" },
+            { "* Begin * Calibration", "* Kalibrálás indítása *" },
+            { "WAS Calibration", "WAS kalibrálása" },
+            { "* SKIP *  Counts Per Degree and Ackermann Setting?", "* KIHAGYÁS * Fokonkénti impulzus és Ackermann-beállítás?" },
+            { "Start Angle:", "Kezdőszög:" },
+            { "Reset To 100%", "Vissza-\r\nállítás\r\n100%-ra" },
+            { "Ackermann Value:", "Ackermann-érték:" },
+            { "Set", "Beállít" },
+            { "Turn steering to your desired limit for guidance and touch OK ->", "Fordítsd a kormányt a kívánt vezetési határig, majd koppints az OK-ra ->" },
+            { "Guidance Steer Angle Limit", "Kormányszög-határ vezetéshez" },
+            { "Or Manually Set Guidance Steer Angle Limit", "Vagy add meg kézzel a kormányszög-határt" },
+            { "Automatic Canceling Feature", "Automatikus kikapcsolási funkció" },
+            { "Panic Stop Speed", "Vészleállítási sebesség" },
+            { "Zero", "Nulla" },
+            { "Auto-Upload: upload field changes on close\r\nCloud Load: always download latest from AgShare on open", "Automatikus feltöltés: a tábla módosításainak feltöltése bezáráskor\r\nFelhőből betöltés: megnyitáskor mindig a legfrissebb letöltése az AgShare-ről" },
+            { "R - Reset sim\r\nU - U-Turn (180 degrees)\r\n\r\nUp Arrow - Faster\r\nDn Arrow - Slower\r\nLeft Arrow - Left\r\nRight Arrow - Right\r\n\r\n( . ) Period - Stop\r\n( / ) Slash - Go Straight", "R – Szimulátor visszaállítás\r\nU – Megfordulás (180°)\r\n\r\nFel nyíl – Gyorsabb\r\nLe nyíl – Lassabb\r\nBal nyíl – Balra\r\nJobb nyíl – Jobbra\r\n\r\n( . ) Pont – Megállás\r\n( / ) Perjel – Egyenes" },
+            { "This offset distance is added to Lat and Lon and saved in FIELD.KML file when closing the field.", "Ez az eltolás hozzáadódik a szélességhez és a hosszúsághoz, és a tábla bezárásakor a FIELD.KML fájlba mentődik." },
+            { "The vehicle settings are now called \"profiles\" and\r\ncan be created/loaded in the main menu (top left).", "A járműbeállítások mostantól „profilok”, és a\r\nfőmenüben (bal felül) hozhatók létre és tölthetők be." },
+            { "Touch the buttons on the left side you want to appear in the Menu (The right side). \r\n\r\nThe order you push them will be the order they appear on the menu from bottom up.", "Koppints a bal oldali gombokra, amelyeket meg szeretnél jeleníteni a menüben (jobb oldal). \r\n\r\nA megnyomásuk sorrendje lesz a menüben a megjelenésük sorrendje alulról felfelé." },
+            { "Turn steering wheel to RIGHT about 20 degrees.\r\nWhile driving in a steady circle, Press Rec and wait.", "Fordítsd a kormányt JOBBRA kb. 20 fokkal.\r\nÁllandó sugarú körben haladva nyomd meg a REC gombot, és várj." },
+            { "Button - Push Release, On.   \r\n               Push Release, Off\r\n\r\nSwitch - While Pushed is On. \r\n               Released is Off.", "Gomb – megnyomás és elengedés: be.   \r\n               megnyomás és elengedés: ki\r\n\r\nKapcsoló – nyomva tartva: be. \r\n               elengedve: ki." },
+            { "Drive slowly and enable Auto Steer. Invert Direction if steer motor turns the wrong way.\r\nTest with Arrows.", "Haladj lassan, és kapcsold be az automata kormányzást. Ha a kormánymotor rossz irányba forog,\r\nhasználd az Irány megfordítása gombot. Próbáld ki a nyilakkal." },
+            { "Steer Angle must be POSITIVE when turning to the RIGHT.\r\nIf not, select the Invert WAS.", "A kormányszögnek POZITÍVNAK kell lennie, ha jobbra fordulsz.\r\nHa nem így van, válaszd a WAS megfordítása gombot." },
+            { "Turn steering wheel to LEFT roughly the same degrees as right.\r\nWhile driving in a steady circle, Press Rec and wait.", "Fordítsd a kormányt BALRA nagyjából ugyanannyi fokkal, mint jobbra.\r\nÁllandó sugarú körben haladva nyomd meg a REC gombot, és várj." },
+            { "Change Setpoint with steer buttons. \r\n\r\nAdjust Minumum Movement as high as possible without steer motor or hydraulics moving steering", "Állítsd a célértéket a kormánygombokkal. \r\n\r\nA minimális mozgást állítsd a lehető legmagasabbra úgy, hogy a kormánymotor vagy a hidraulika még ne mozgassa a kormányt" },
+            { "Now go drive an AB Line and fine tune settings based on your speed and soil conditions.\r\n\r\nRemember: CPD, Min PWM, and Look Ahead are critical settings. ", "Most készíts egy AB-vonalat, és finomhangold a beállításokat a sebességed és a talajviszonyok alapján.\r\n\r\nFigyelj: a CPD, a minimális PWM és az előretekintés kritikus beállítások. " },
+            { "Old profiles contained all settings in one file. New format separates Vehicle, Tool, and Environment. Select what you want to extract.", "A régi profilok minden beállítást egy fájlban tartalmaztak. Az új formátum külön kezeli a járművet, az eszközt és a környezetet. Válaszd ki, mit szeretnél kinyerni." },
+            { "Firmware Update Feature\r\n\r\nThis feature is under development.\r\n\r\nFuture capabilities will include:\r\n\r\n• Select firmware .hex file\r\n• Select communication port (from AgIO settings)\r\n• Start TeensyLoaderCLI with parameters\r\n• Upload firmware to Teensy device\r\n• Progress indicator\r\n\r\nTeensyLoader integration:\r\nteensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex", "Firmware-frissítés\r\n\r\nEz a funkció fejlesztés alatt áll.\r\n\r\nA tervezett képességek:\r\n\r\n• Firmware .hex fájl kiválasztása\r\n• Kommunikációs port kiválasztása (az AgIO beállításaiból)\r\n• A TeensyLoaderCLI indítása paraméterekkel\r\n• Firmware feltöltése a Teensy eszközre\r\n• Folyamatjelző\r\n\r\nTeensyLoader-integráció:\r\nteensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex" },
+            { "None", "Nincs" },
+            { "Switch", "Kapcsoló" },
+            { "Button", "Gomb" },
+            { "Select an old profile file", "Válassz régi profilt" },
+            { "Select to convert (Vehicle and/or Tool)", "Mit alakítsunk át? (jármű / eszköz)" },
+            { "App:", "Kezelt:" },
+            { "Actual:", "Tényleges:" },
+            { "ha/hr", "ha/ó" },
+            { "\u221E Hrs", "\u221E ó" },
+            { "ac/hr", "ac/ó" },
+            { "Drive slowly straight forward, Allow system to steer", "Haladj lassan egyenesen előre, és hagyd, hogy a rendszer kormányozzon" },
+            { "Minimum Movement Setting", "Minimális mozgás beállítása" },
+            { "Zero or +5", "Nulla vagy +5" },
+            { "Set Proportional for good response. \r\nSet PWM Maximum to limit turning speed.", "Állítsd be az érzékenységet úgy, hogy a kormány jól reagáljon.\r\nA PWM-maximummal korlátozhatod, milyen gyorsan mozoghat a kormány." },
+            { "Drive forward and enable Auto Steer", "Indulj el előre, és kapcsold be az automata kormányzást" },
+            { "Gain Setting", "Kormányérzékenység beállítása" },
+            { "End", "Vége" },
+            { "Restart Wizard", "Varázsló újraindítása" },
+            { "Finished !", "Kész!" },
+            { "Progress:", "Haladás:" },
+            { "Counts P Deg", "Impulzus / fok" },
+            { "WAS Offset", "WAS eltolás" },
+            { "Heading:", "Irány:" },
+            { "Auto", "Automata" },
+            { "Corrected Easting", "Korrigált keleti koordináta" },
+            { "Correction Distance", "Korrekció távolsága" },
+            { "Roll Degrees", "Dőlés (fok)" },
+            { "Scroll On Off", "Görgetés be/ki" },
+            { "Pole", "Rúd" },
+            { "Smooth", "Simított" },
+            { "Direct", "Közvetlen" },
+            { "Camera Behaviour", "Kamera viselkedése" },
+            { "Reset to Default", "Alapértékre állítás" },
+            { "( +90 to -90)", "(+90 – −90)" },
+            { "( +180 to -180 )", "(+180 – −180)" },
+            { "Vehicle: -", "Jármű: -" },
+            { "Tool: -", "Munkagép: -" },
+            { "Environment: -", "Környezet: -" },
+            { "Environment", "Környezet" },
+            { "System / GPS", "Rendszer / GPS" },
+            { "SetPoint", "Célérték" },
+            { "Actual", "Tényleges" },
+            { "Enter Field Name", "Add meg a tábla nevét" },
+            { "Area:", "Terület:" },
+            { "Points:", "Pontok:" },
+            { "Available Tracks", "Elérhető nyomvonalak" },
+            { "Available Fields", "Elérhető táblák" },
+            { "Import", "Importálás" },
+            { "Deselect All", "Kijelölés megszüntetése" },
+            { "Select All", "Mindet kijelöl" },
+            { "Select a field from the left, then select tracks to copy", "Válassz egy táblát balra, majd jelöld ki a másolandó nyomvonalakat" },
+            { "Field Name", "Tábla neve" },
+            { "Exit To Windows In:", "Kilépés:" },
+            { "Shutdown In:", "Leállítás ennyi idő múlva:" },
+            { "Shutdown", "Leállítás" },
+            { "(De)Select Tracks to use", "Jelöld ki a használni kívánt nyomvonalakat" },
+            { "Shrink B", "B pont rövidítése" },
+            { "Shrink A", "A pont rövidítése" },
+            { "Extend B", "B pont hosszabbítása" },
+            { "Extend A", "A pont hosszabbítása" },
+            { "Next", "Következő" },
+            { "Previous", "Előző" },
+            { "Auto Find", "Automatikus keresés" },
+            { "Field", "Tábla" },
+            { "Overwrite", "Felülírás" },
+            { "Get Selected", "Kijelöltek letöltése" },
+            { "Get All", "Összes letöltése" },
+            { "Downloading...Please Wait", "Letöltés... Kérlek, várj" },
+            { "Lon:", "Hossz.:" },
+            { "Lat:", "Szél.:" },
+            { "Distance To Flag:", "Távolság a jelölőig:" },
+            { "Point A", "A pont" },
+            { "Import Flags", "Jelölők importálása" },
+            { "Export Flags", "Jelölők exportálása" },
+            { "Bounds", "Határok" },
+            { "Thru?", "Átmenő?" },
+            { "Area", "Terület" },
+            { "Spacing (m)", "Távolság (m)" },
+            { "Add Points", "Pontok hozzáadása" },
+            { "Points to Process: ", "Feldolgozandó pontok: " },
+            { "Points", "Pontok" },
+            { "AgShare Upload", "AgShare-feltöltés" },
+            { "AgShare Download", "AgShare-letöltés" },
+            { "From KML", "KML-fájlból" },
+            { "Open", "Megnyitás" },
+            { "Drive In", "Behajtás a táblába" },
+            { "Resume", "Folytatás" },
+            { "Existing", "Meglévő" },
+            { "New Field", "Új tábla" },
+            { "Previous Field", "Előző tábla" },
+            { "Working Width", "Munkaszélesség" },
+            { "New Bnd", "Új határvonal" },
+            { "Background ", "Háttér " },
+            { "Fieldname", "Tábla neve" },
+            { "Upload Selected", "Kijelöltek feltöltése" },
+            { "Edit Field Name", "Tábla nevének szerkesztése" },
+            { "Lines", "Vonalak" },
+            { "Mapping", "Térképezés" },
+            { "Flags", "Jelölők" },
+            { "Sort", "Rendezés" },
+            { "Remain:", "Hátralévő:" },
+            { "Rate:", "Mennyiség:" },
+            { "Total:", "Összesen:" },
+            { "Applied:", "Megművelt:" },
+            { "Worked", "Megművelt" },
+            { "Dist:", "Táv.:" },
+            { "Trip", "Út" },
+            { "Distance (km)", "Távolság (km)" },
+            { " Use Selected", " Kijelölt használata" },
+            { "Use Selected", "Kijelölt használata" },
+            { "Delete Field", "Tábla törlése" },
+            { "Record Name", "Felvétel neve" },
+            { "Delete Record", "Felvétel törlése" },
+            { "Path Off", "Útvonal ki" },
+            { "Day", "Nappal" },
+            { "Night", "Éjszaka" },
+            { "Current: -", "Jelenlegi: -" },
+            { "Selected: -", "Kijelölt: -" },
+            { "Ant. Pivot:", "Antenna–forgáspont:" },
+            { "Ant. Offset:", "Antenna eltolás:" },
+            { "Track Width:", "Nyomtáv:" },
+            { "Attach:", "Csatlakozás:" },
+            { "Trail Hitch:", "Vontatott csatlakozás:" },
+            { "Load", "Betöltés" },
+            { "Convert Old profiles", "Régi profilok átalakítása" },
+            { "Environments", "Környezetek" },
+            { "File Name", "Fájlnév" },
+            { "Convert Old Profile Files to New Format", "Régi profilfájlok átalakítása az új formátumra" },
+            { "Convert", "Átalakítás" },
+            { "Step 2: Select to convert (Vehicle and/or Tool):", "2. lépés: válaszd ki, mit alakítsunk át (jármű és/vagy munkagép):" },
+            { "Convert Tool", "Munkagép átalakítása" },
+            { "Tool profile name:", "Munkagép-profil neve:" },
+            { "Vehicle profile name:", "Jármű-profil neve:" },
+            { "Convert Vehicle", "Jármű átalakítása" },
+            { "Step 1: Select an old profile file:", "1. lépés: válassz egy régi profilfájlt:" },
+            { "Name:", "Név:" },
+            { "Create", "Létrehozás" },
+            { "Copy from:", "Másolás innen:" },
+            { "Invalid: ", "Érvénytelen: " },
+            { "GPS single: ", "GPS (autonóm): " },
+            { "RTK Float: ", "RTK lebegés: " },
+            { "Estimate: ", "Becsült: " },
+            { "Man IP: ", "Kézi: " },
+            { "Sim: ", "Szim.: " },
+            { "Unknown: ", "Ismeretlen: " },
+            { "Age: ", "Kor: " },
+            { "No network connection.", "Nincs hálózati kapcsolat." },
+            { "Connected. Waiting for corrections.", "Csatlakozva. Várakozás a korrekciós jelre." },
+            { "Corrections stopped. Reconnecting.", "A korrekciós jel megszűnt. Újracsatlakozás..." },
+            { "Connected, but nothing is coming in. Some services need your position: check that your GPS position is switched on.", "Csatlakozva, de nem érkezik adat. Egyes szolgáltatók ismerni akarják a pozíciódat: ellenőrizd, hogy a GPS-pozíció küldése be van-e kapcsolva." },
+            { "The service closed the connection. Reconnecting.", "A szolgáltató megszakította a kapcsolatot. Újracsatlakozás..." },
+            { "The service closed the connection without sending corrections.", "A szolgáltató korrekciós jel küldése nélkül megszakította a kapcsolatot." },
+            { "Receiving corrections", "Korrekciós jel érkezik" },
+            { "The service sent an answer AgIO cannot read.", "A szolgáltató olyan választ küldött, amit az AgIO nem tud értelmezni." },
+            { "The service did not send a list of mountpoints.", "A szolgáltató nem küldött mountpoint-listát." },
+            { "The service sent an empty answer.", "A szolgáltató üres választ küldött." },
+            { "This mountpoint does not exist on the service. Pick one from the list.", "Ez a mountpoint nem létezik a szolgáltatónál. Válassz egyet a listából." },
+            { "This address answered with a web page, not an NTRIP service. Check the address and port.", "Ez a cím weboldallal válaszolt, nem NTRIP szolgáltatóval. Ellenőrizd a címet és a portot." },
+            { "User name, password or mountpoint is not correct.", "A felhasználónév, a jelszó vagy a mountpoint hibás." },
+            { "This mountpoint does not exist on the service. Check the spelling, capitals matter.", "Ez a mountpoint nem létezik a szolgáltatónál. Ellenőrizd a helyesírást, a kis- és nagybetű számít." },
+            { "The service cannot take another connection right now. It is busy, or this login is already in use.", "A szolgáltató most nem fogad újabb kapcsolatot. Túlterhelt, vagy ez a bejelentkezés már használatban van." },
+            { "The service is starting up. AgIO tries again in about a minute.", "A szolgáltató éppen indul. Az AgIO körülbelül egy perc múlva újra próbálkozik." },
+            { "This service needs your e-mail address as user name.", "Ez a szolgáltató az e-mail címedet kéri felhasználónévként." },
+            { "User name or password is not correct.", "A felhasználónév vagy a jelszó hibás." },
+            { "The service denied access.", "A szolgáltató megtagadta a hozzáférést." },
+            { "The service answered something AgIO does not understand.", "A szolgáltató olyan választ adott, amit az AgIO nem ért." },
+            { "The radio is open. Waiting for corrections.", "A rádió megnyílt. Várakozás a korrekciós jelre." },
+            { "The radio is open, but nothing arrives.", "A rádió megnyílt, de nem érkezik adat." },
+            { "Receiving corrections from the radio.", "Korrekciós jel érkezik a rádióból." },
+            { "Back on the main service", "Újra a fő szolgáltató van használatban" },
+            { "Corrections now come from the main service again.", "A korrekciós jel újra a fő szolgáltatótól érkezik." },
+            { "The main service is back", "A fő szolgáltató újra működik" },
+            { "Switch back to it? Your GPS may lose RTK for a moment. AgIO never switches back by itself.", "Visszaváltasz rá? A GPS egy pillanatra elveszítheti az RTK-t. Az AgIO soha nem vált vissza magától." },
+            { "The main service has a problem", "A fő szolgáltatóval gond van" },
+            { "Switched to the fallback", "Átváltva a tartalék szolgáltatóra" },
+            { "You switched to the fallback.", "Te váltottál a tartalék szolgáltatóra." },
+            { "no corrections", "nincs korrekciós jel" },
+            { "All good: corrections are coming in.", "Minden rendben: a korrekciós jel megérkezik." },
+            { "The profile has no name.", "A profilnak nincs neve." },
+            { "GPS observations (legacy)", "GPS-mérések (régi formátum)" },
+            { "GLONASS observations (legacy)", "GLONASS-mérések (régi formátum)" },
+            { "proprietary", "gyártóspecifikus" },
+            { "base position", "bázispozíció" },
+            { "base position + antenna height", "bázispozíció + antennamagasság" },
+            { "antenna descriptor", "antennaleírás" },
+            { "system parameters", "rendszerparaméterek" },
+            { "GPS ephemeris", "GPS-pályaadatok" },
+            { "GLONASS ephemeris", "GLONASS-pályaadatok" },
+            { "receiver + antenna descriptor", "vevő- és antennaleírás" },
+            { "BeiDou ephemeris", "BeiDou-pályaadatok" },
+            { "QZSS ephemeris", "QZSS-pályaadatok" },
+            { "Galileo ephemeris", "Galileo-pályaadatok" },
+            { "GLONASS code-phase biases", "GLONASS kódfázis-eltérések" },
+            { "text", "szöveg" },
+            { "empty", "üres" },
+            { "Press New Shortcut Key", "Nyomd meg az új gyorsbillentyűt" },
+            { "Press Button to Edit Shortcut", "Nyomd meg a gombot a gyorsbillentyű szerkesztéséhez" },
+            { " ???? \r\n Not Connected", " ???? \r\n Nincs kapcsolat" },
+            { "1: Set distance, 2: Tap Build, 3: Create Clip Lines", "1: Add meg a távolságot, 2: Koppints az Építés gombra, 3: Hozd létre a vágóvonalakat" },
+            { "XTE Chart", "XTE-diagram" },
+            { "Drive Steady", "Haladj egyenletesen" },
+            { "Ready to Apply", "Készen áll az alkalmazásra" },
+            { "Collecting...", "Adatgyűjtés..." },
+            { "Error, CPD set to 100", "Hiba, a CPD 100-ra állt" },
+            { "Ackermann Set to: ", "Az Ackermann értéke: " },
+            { "Error, Ackermann set to 100", "Hiba, az Ackermann 100-ra állt" },
+            { "Select Square Below And Pick New Color", "Válassz egy négyzetet lent, és add meg az új színt" },
+            { "Select Preset Color", "Válassz egy előre beállított színt" },
+            { "Pick New Color and Select Square Below to Save Preset", "Válaszd ki az új színt, majd egy négyzetet lent a mentéshez" },
+            { "Fields directory not found", "A táblák mappája nem található" },
+            { "Error loading fields", "Hiba a táblák betöltésekor" },
+            { "No tracks found in this field", "Ebben a táblában nincs nyomvonal" },
+            { "Error loading tracks", "Hiba a nyomvonalak betöltésekor" },
+            { "Saving current tracks...", "A jelenlegi nyomvonalak mentése..." },
+            { "Converting tracks...", "Nyomvonalak átalakítása..." },
+            { "Saving tracks...", "Nyomvonalak mentése..." },
+            { "Selected Field: ", "Kiválasztott tábla: " },
+            { "Error loading fields: ", "Hiba a táblák betöltésekor: " },
+            { "Easy Drive Active", "Egyszerű vezetés aktív" },
+            { "Load Environment:", "Környezet betöltése:" },
+            { "Vehicle: ", "Jármű: " },
+            { "Tool: ", "Munkagép: " },
+            { "Environment: ", "Környezet: " },
+            { "Critical Save Error", "Súlyos mentési hiba" },
+            { "Shutdown Error", "Leállítási hiba" },
+            { "Direction Reset", "Irány visszaállítva" },
+            { "Forward is Set", "Az előre irány beállítva" },
+            { "AutoSteer Disabled", "Az automata kormányzás kikapcsolt" },
+            { "Nudge Window Open", "Az eltolás ablak nyitva van" },
+            { "Close Nudge Window", "Zárd be az eltolás ablakot" },
+            { "High Field Start Distance Warning", "Nagy távolság a tábla kezdőpontjától" },
+            { "AgShare upload failed", "Az AgShare-feltöltés sikertelen" },
+            { "An error occurred while starting upload to AgShare.", "Hiba történt az AgShare-feltöltés indításakor." },
+            { "An error occurred during upload to AgShare.", "Hiba történt az AgShare-feltöltés közben." },
+            { "Field NOT saved", "A tábla NEM lett elmentve" },
+            { "Saving the field failed, so it was left open. Check disk space and try again.", "A mentés nem sikerült, ezért a tábla nyitva maradt. Ellenőrizd a szabad lemezterületet, és próbáld újra." },
+            { "Resume Style", "Folytatás módja" },
+            { "Last Stopped Position", "Az utolsó megállás helyétől" },
+            { "Closest Point", "A legközelebbi pontról" },
+            { "Start At Beginning", "Az elejétől" },
+            { "Cannot use with zones", "Zónákkal nem használható" },
+            { "Only for Sections", "Csak szakaszokhoz" },
+            { "Easy Drive", "Egyszerű vezetés" },
+            { "Profiles not available in Easy Drive mode", "Egyszerű vezetés módban a profilok nem érhetők el" },
+            { "Sections are on", "A szakaszok be vannak kapcsolva" },
+            { "Turn Auto or Manual Off First", "Előbb kapcsold ki az automata vagy a kézi módot" },
+            { "Reset Direction", "Irány visszaállítása" },
+            { "Drive Forward > 1.5 kmh", "Haladj előre 1,5 km/h felett" },
+            { "Autosteer Turned Off", "Az automata kormányzás kikapcsolt" },
+            { "RTK Fix Alarm", "RTK fix riasztás" },
+            { "Track Changed", "A nyomvonal megváltozott" },
+            { "Paths Enabled", "Az útvonalak engedélyezve" },
+            { "Sim Reverse Touched", "Szimulátor: tolatás aktiválva" },
+            { "Hotkey Triggered", "Gyorsbillentyű aktiválva" },
+            { "Settings Sent To Steer Module", "A beállítások elküldve a kormánymodulnak" },
+            { "Return From Editing", "Visszatérés a szerkesztésből" },
+            { "Updater not found. Please ensure AgOpenGPS.Updater.exe is in the application directory.", "A frissítő nem található. Ellenőrizd, hogy az AgOpenGPS.Updater.exe a program mappájában van-e." },
+            { "Updater Not Found", "A frissítő nem található" },
+            { "Not enough points to make a boundary", "Nincs elég pont a határvonal elkészítéséhez" },
+            { "Can't calculate center of field. Missing Outer Boundary or AB line.", "A tábla közepe nem számolható ki: hiányzik a külső határvonal vagy az AB-vonal." },
+            { "You can't have more zones then sections", "Nem lehet több zóna, mint szakasz" },
+            { "Simulator is off", "A szimulátor ki van kapcsolva" },
+            { "Simulator can't work while using real Antenna", "A szimulátor nem működik, amíg valódi antennát használsz" },
+            { "Reset To Default", "Alapértékek visszaállítva" },
+            { "Values Set to Inital Default", "Az értékek visszaálltak az alapértelmezettre" },
+            { "Exceeded Range", "Tartományon kívül" },
+            { "Offset too large - cannot apply", "Az eltolás túl nagy, nem alkalmazható" },
+            { "Smart WAS Zero", "Okos WAS-nullázás" },
+            { "Defaults Set", "Alapértékek beállítva" },
+            { "CPD and Ackermann set to defaults", "A CPD és az Ackermann alapértékre állt" },
+            { "P Gain Change", "P-erősítés módosítva" },
+            { "Proportional Gain set to 1", "Az arányos erősítés 1-re állt" },
+            { "Profiles Created", "Profilok létrehozva" },
+            { "Default profiles created", "Az alapértelmezett profilok létrejöttek" },
+            { "Environment settings reset!", "A környezeti beállítások visszaálltak!" },
+            { "Environment settings loaded!", "A környezeti beállítások betöltődtek!" },
+            { "Profile files not found!\n\nThe profile(s) in the registry cannot be found.\nPlease select or create new profiles.\n\nEnvironment will use defaults if not selected.", "Nem találhatók a profilfájlok!\n\nA beállításjegyzékben (registry) megadott profilok nem találhatók.\nVálassz ki vagy hozz létre új profilokat.\n\nHa nem választasz, a program az alapértékeket használja." },
+            { "No profiles found.\n\nUse 'New' to create Vehicle and Tool profiles.\n\nEnvironment will use defaults if not selected.", "Nincs profil.\n\nAz 'Új' gombbal hozhatsz létre jármű- és munkagép-profilt.\n\nHa nem választasz, a program az alapértékeket használja." },
+            { "Serious Field Origin Error\r\n\r\nField Origin is More Then 20 km from your current GPS Position Delete this field and create a new one as Accuracy will be poor\r\n\r\nOr you may have a field open and drove far away", "Súlyos hiba a tábla kiindulópontjánál\r\n\r\nA tábla kiindulópontja több mint 20 km-re van a jelenlegi GPS-pozíciótól. Töröld ezt a táblát, és hozz létre újat, mert a pontosság rossz lesz.\r\n\r\nVagy lehet, hogy egy tábla nyitva van, és messzire elhajtottál." },
             { "Warning: Closing AgIO will stop communication with hardware.\r\nAre you sure you want to close?", "Figyelem: Ha bezárod az AgIO-t, megszakad a kapcsolat a hardverrel.\r\nBiztosan be akarod zárni?" },
             { "Up + Down", "Mind" },
             { "Down", "Inaktív" },
@@ -846,9 +2047,9 @@ namespace AgLibrary.Localization
             { "Serial Pass On", "Soros átvezetés be" },
             { "Different Port Then GPS ?", "Az RTCM a GPS-től eltérő porton megy?" },
             { "Start Minimized", "Indítás minimalizálva" },
-            { "PopUp AgIO on Warn", "AgIO felugrik figyelmeztetésnél" },
+            { "PopUp AgIO on Warn", "AgIO előugrik figyelmeztetéskor" },
             { "Auto Start GPS-Out", "GPS-Out automatikus indítása" },
-            { "Show\r\nOn\r\nWarn", "Megjelen\r\nfigyelm.\r\nesetén" },
+            { "Show\r\nOn\r\nWarn", "Jelzés\r\nesetén" },
 
             // ---- viewers / tools ----
             { "Event Log Viewer", "Eseménynapló" },
@@ -906,7 +2107,7 @@ namespace AgLibrary.Localization
             { "Data is late", "A korrekció késik" },
             { "No new data", "Nem jön új korrekció" },
             { "Your GPS: RTK fixed", "A GPS RTK fix állapotban van" },
-            { "Your GPS: RTK float", "A GPS RTK float állapotban van" },
+            { "Your GPS: RTK float", "A GPS RTK lebegés módban van" },
             { "Still working it out. Wait a moment.", "Még pontosítja a helyzetét, várj egy kicsit." },
             { "Your GPS: no RTK yet", "A GPS még nem használ RTK-t" },
             { "Normal GPS accuracy only.", "Egyelőre csak normál GPS-pontosság." },

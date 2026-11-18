@@ -424,7 +424,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Görbe nincs bekapcsolva</value>
   </data>
   <data name="gsDay" xml:space="preserve">
-    <value>Nap</value>
+    <value>Nappal</value>
   </data>
   <data name="gsDeadzone" xml:space="preserve">
     <value>Holtsáv</value>
@@ -554,7 +554,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Kilépés</value>
   </data>
   <data name="gsExitToWindows" xml:space="preserve">
-    <value>Kilépés a Windowsba ennyi másodperc múlva:</value>
+    <value>Kilépés</value>
   </data>
   <data name="gsExtraGuideLines" xml:space="preserve">
     <value>Extra irányvonalak</value>

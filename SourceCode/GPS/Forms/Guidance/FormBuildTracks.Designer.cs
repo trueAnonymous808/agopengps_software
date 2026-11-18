@@ -197,16 +197,16 @@
             // 
             // labelEnterName
             // 
-            this.labelEnterName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelEnterName.AutoSize = true;
+            this.labelEnterName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelEnterName.AutoSize = false;
             this.labelEnterName.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelEnterName.ForeColor = System.Drawing.Color.Black;
             this.labelEnterName.Location = new System.Drawing.Point(16, 14);
             this.labelEnterName.Name = "labelEnterName";
-            this.labelEnterName.Size = new System.Drawing.Size(66, 16);
+            this.labelEnterName.Size = new System.Drawing.Size(200, 16);
             this.labelEnterName.TabIndex = 450;
             this.labelEnterName.Text = "Add Name";
-            this.labelEnterName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelEnterName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label1
             // 
@@ -773,13 +773,13 @@
             // 
             // labelPivot
             // 
-            this.labelPivot.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelPivot.AutoSize = true;
+            this.labelPivot.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelPivot.AutoSize = false;
             this.labelPivot.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPivot.ForeColor = System.Drawing.Color.Black;
-            this.labelPivot.Location = new System.Drawing.Point(288, 406);
+            this.labelPivot.Location = new System.Drawing.Point(255, 406);
             this.labelPivot.Name = "labelPivot";
-            this.labelPivot.Size = new System.Drawing.Size(34, 16);
+            this.labelPivot.Size = new System.Drawing.Size(100, 16);
             this.labelPivot.TabIndex = 451;
             this.labelPivot.Text = "Pivot";
             this.labelPivot.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

@@ -264,12 +264,12 @@
             // 
             // lblNoAdapter
             // 
-            this.lblNoAdapter.AutoSize = true;
+            this.lblNoAdapter.AutoSize = false;
             this.lblNoAdapter.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNoAdapter.ForeColor = System.Drawing.Color.Red;
-            this.lblNoAdapter.Location = new System.Drawing.Point(366, 469);
+            this.lblNoAdapter.Location = new System.Drawing.Point(366, 455);
             this.lblNoAdapter.Name = "lblNoAdapter";
-            this.lblNoAdapter.Size = new System.Drawing.Size(298, 25);
+            this.lblNoAdapter.Size = new System.Drawing.Size(320, 56);
             this.lblNoAdapter.TabIndex = 166;
             this.lblNoAdapter.Text = "No Adapter For This Subnet";
             this.lblNoAdapter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

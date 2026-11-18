@@ -100,13 +100,13 @@
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label5.AutoEllipsis = true;
+            this.label5.AutoEllipsis = false;
             this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(74, 286);
+            this.label5.Location = new System.Drawing.Point(44, 286);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 23);
+            this.label5.Size = new System.Drawing.Size(118, 23);
             this.label5.TabIndex = 196;
             this.label5.Text = "SetPoint";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -114,13 +114,13 @@
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label1.AutoEllipsis = true;
+            this.label1.AutoEllipsis = false;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(237, 286);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 23);
+            this.label1.Size = new System.Drawing.Size(100, 23);
             this.label1.TabIndex = 195;
             this.label1.Text = "Actual";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -146,7 +146,7 @@
             this.lblSteerAng.BackColor = System.Drawing.SystemColors.ControlText;
             this.lblSteerAng.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSteerAng.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lblSteerAng.Location = new System.Drawing.Point(314, 286);
+            this.lblSteerAng.Location = new System.Drawing.Point(341, 286);
             this.lblSteerAng.Name = "lblSteerAng";
             this.lblSteerAng.Size = new System.Drawing.Size(68, 23);
             this.lblSteerAng.TabIndex = 193;
@@ -219,9 +219,9 @@
             this.lblMax.BackColor = System.Drawing.SystemColors.ControlText;
             this.lblMax.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMax.ForeColor = System.Drawing.Color.White;
-            this.lblMax.Location = new System.Drawing.Point(432, 1);
+            this.lblMax.Location = new System.Drawing.Point(389, 1);
             this.lblMax.Name = "lblMax";
-            this.lblMax.Size = new System.Drawing.Size(57, 23);
+            this.lblMax.Size = new System.Drawing.Size(100, 23);
             this.lblMax.TabIndex = 201;
             this.lblMax.Text = "Auto";
             this.lblMax.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

@@ -34,8 +34,8 @@ namespace AgOpenGPS.Forms.Profiles
             this.Text = gStr.gsConvertOldProfiles;
             labelTitle.Text = gStr.gsConvertOldProfilesTitle;
             labelExplanation.Text = gStr.gsConvertProfilesExplanation;
-            labelStep1.Text = gStr.gsConvertStep1 + ": " + "Select an old profile file";
-            labelStep2.Text = gStr.gsConvertStep2 + ": " + "Select to convert (Vehicle and/or Tool)";
+            labelStep1.Text = gStr.gsConvertStep1 + ": " + AgLibrary.Localization.UiTranslator.TrText("Select an old profile file");
+            labelStep2.Text = gStr.gsConvertStep2 + ": " + AgLibrary.Localization.UiTranslator.TrText("Select to convert (Vehicle and/or Tool)");
             labelVehicleName.Text = gStr.gsVehicleProfileName + ":";
             labelToolName.Text = gStr.gsToolProfileName + ":";
             buttonClose.Text = gStr.gsClose;

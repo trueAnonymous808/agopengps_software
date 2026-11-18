@@ -93,45 +93,49 @@
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
+            this.label15.AutoSize = false;
             this.label15.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(648, 286);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(238, 92);
+            this.label15.Size = new System.Drawing.Size(245, 92);
             this.label15.TabIndex = 127;
             this.label15.Text = "F11 -  Full Screen\r\n\r\nNumPad1 - Manual Section\r\nNumPad0 - Auto Section";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            this.label1.AutoSize = false;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(648, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 230);
+            this.label1.Size = new System.Drawing.Size(245, 230);
             this.label1.TabIndex = 128;
             this.label1.Text = "R - Reset sim\r\nU - U-Turn (180 degrees)\r\n\r\nUp Arrow - Faster\r\nDn Arrow - Slower\r\n" +
     "Left Arrow - Left\r\nRight Arrow - Right\r\n\r\n( . ) Period - Stop\r\n( / ) Slash - Go " +
     "Straight";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            this.label2.AutoSize = false;
             this.label2.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(663, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 25);
+            this.label2.Size = new System.Drawing.Size(220, 25);
             this.label2.TabIndex = 129;
             this.label2.Text = "Simulator";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            this.label4.AutoSize = false;
             this.label4.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(198, 25);
+            this.label4.Size = new System.Drawing.Size(204, 25);
             this.label4.TabIndex = 131;
             this.label4.Text = "Auto Steer Toggle";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnAutosteer
             // 
@@ -186,13 +190,14 @@
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
+            this.label5.AutoSize = false;
             this.label5.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(74, 99);
+            this.label5.Location = new System.Drawing.Point(3, 99);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 25);
+            this.label5.Size = new System.Drawing.Size(204, 25);
             this.label5.TabIndex = 131;
             this.label5.Text = "Cycle Lines";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnFieldMenu
             // 
@@ -210,13 +215,14 @@
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
+            this.label6.AutoSize = false;
             this.label6.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(78, 157);
+            this.label6.Location = new System.Drawing.Point(3, 157);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 25);
+            this.label6.Size = new System.Drawing.Size(204, 25);
             this.label6.TabIndex = 136;
             this.label6.Text = "Close Field";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnNewFlag
             // 
@@ -234,13 +240,14 @@
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
+            this.label7.AutoSize = false;
             this.label7.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(92, 215);
+            this.label7.Location = new System.Drawing.Point(3, 215);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 25);
+            this.label7.Size = new System.Drawing.Size(204, 25);
             this.label7.TabIndex = 138;
             this.label7.Text = "New Flag";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnManualSection
             // 
@@ -258,13 +265,14 @@
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
+            this.label8.AutoSize = false;
             this.label8.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(29, 273);
+            this.label8.Location = new System.Drawing.Point(3, 273);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(172, 25);
+            this.label8.Size = new System.Drawing.Size(204, 25);
             this.label8.TabIndex = 140;
             this.label8.Text = "Manual Section";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnAutoSection
             // 
@@ -282,13 +290,14 @@
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
+            this.label9.AutoSize = false;
             this.label9.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(57, 331);
+            this.label9.Location = new System.Drawing.Point(3, 331);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(144, 25);
+            this.label9.Size = new System.Drawing.Size(204, 25);
             this.label9.TabIndex = 142;
             this.label9.Text = "Auto Section";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnSnapToPivot
             // 
@@ -306,13 +315,14 @@
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
+            this.label10.AutoSize = false;
             this.label10.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(49, 389);
+            this.label10.Location = new System.Drawing.Point(3, 389);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(152, 25);
+            this.label10.Size = new System.Drawing.Size(204, 25);
             this.label10.TabIndex = 144;
             this.label10.Text = "Snap to Pivot";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnMoveLineLeft
             // 
@@ -330,13 +340,14 @@
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
+            this.label11.AutoSize = false;
             this.label11.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(37, 447);
+            this.label11.Location = new System.Drawing.Point(3, 447);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(164, 25);
+            this.label11.Size = new System.Drawing.Size(204, 25);
             this.label11.TabIndex = 146;
             this.label11.Text = "Move Line Left";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnMoveLineRight
             // 
@@ -354,13 +365,14 @@
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
+            this.label12.AutoSize = false;
             this.label12.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(22, 505);
+            this.label12.Location = new System.Drawing.Point(3, 505);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(179, 25);
+            this.label12.Size = new System.Drawing.Size(204, 25);
             this.label12.TabIndex = 148;
             this.label12.Text = "Move Line Right";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnVehicleSettings
             // 
@@ -378,13 +390,14 @@
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
+            this.label13.AutoSize = false;
             this.label13.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(23, 561);
+            this.label13.Location = new System.Drawing.Point(3, 561);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(178, 25);
+            this.label13.Size = new System.Drawing.Size(204, 25);
             this.label13.TabIndex = 150;
             this.label13.Text = "Vehicle Settings";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnSteerWizard
             // 
@@ -402,13 +415,14 @@
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
+            this.label14.AutoSize = false;
             this.label14.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(54, 621);
+            this.label14.Location = new System.Drawing.Point(3, 621);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(147, 25);
+            this.label14.Size = new System.Drawing.Size(204, 25);
             this.label14.TabIndex = 152;
             this.label14.Text = "Steer Wizard";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnReset
             // 
@@ -627,23 +641,25 @@
             // 
             // label24
             // 
-            this.label24.AutoSize = true;
+            this.label24.AutoSize = false;
             this.label24.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(384, 9);
+            this.label24.Location = new System.Drawing.Point(340, 9);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(174, 25);
+            this.label24.Size = new System.Drawing.Size(300, 25);
             this.label24.TabIndex = 172;
             this.label24.Text = "Section or Zone";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label25
             // 
-            this.label25.AutoSize = true;
+            this.label25.AutoSize = false;
             this.label25.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(338, 613);
+            this.label25.Location = new System.Drawing.Point(300, 613);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(104, 25);
+            this.label25.Size = new System.Drawing.Size(180, 25);
             this.label25.TabIndex = 173;
             this.label25.Text = "New Key";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form_Keys
             // 

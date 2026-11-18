@@ -174,7 +174,7 @@ namespace AgOpenGPS
         {
             if (chkUse.Checked)
             {
-                groupBoxSelectPreset.Text = "Select Square Below And Pick New Color";
+                groupBoxSelectPreset.Text = AgLibrary.Localization.UiTranslator.TrText("Select Square Below And Pick New Color");
                 chkUse.Image = Properties.Resources.ColorUnlocked;
                 isChange = true;
                 isUse = false;
@@ -183,7 +183,7 @@ namespace AgOpenGPS
             {
                 isChange = false;
                 isUse = false;
-                groupBoxSelectPreset.Text = "Select Preset Color";
+                groupBoxSelectPreset.Text = AgLibrary.Localization.UiTranslator.TrText("Select Preset Color");
                 chkUse.Image = Properties.Resources.ColorLocked;
             }
         }

@@ -173,16 +173,17 @@ namespace ModSim
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            this.label2.AutoSize = false;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(9, 124);
+            this.label2.Location = new System.Drawing.Point(1, 124);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 19);
+            this.label2.Size = new System.Drawing.Size(105, 19);
             this.label2.TabIndex = 481;
             this.label2.Text = "AOG Status:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbl1To8
             // 
@@ -323,16 +324,17 @@ namespace ModSim
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
+            this.label20.AutoSize = false;
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(4, 99);
+            this.label20.Location = new System.Drawing.Point(1, 99);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(102, 19);
+            this.label20.Size = new System.Drawing.Size(105, 19);
             this.label20.TabIndex = 557;
             this.label20.Text = "Steer Switch:";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblAckerman
             // 
@@ -727,25 +729,26 @@ namespace ModSim
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
+            this.label19.AutoSize = false;
             this.label19.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(9, 418);
+            this.label19.Location = new System.Drawing.Point(1, 418);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(86, 19);
+            this.label19.Size = new System.Drawing.Size(94, 19);
             this.label19.TabIndex = 560;
             this.label19.Text = "Scan Reply";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
+            this.label18.AutoSize = false;
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Black;
             this.label18.Location = new System.Drawing.Point(174, 307);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(95, 19);
+            this.label18.Size = new System.Drawing.Size(102, 19);
             this.label18.TabIndex = 538;
             this.label18.Text = "PulseCounts";
             // 
@@ -842,14 +845,14 @@ namespace ModSim
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
+            this.label16.AutoSize = false;
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(207, 353);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(62, 19);
+            this.label16.Size = new System.Drawing.Size(69, 19);
             this.label16.TabIndex = 538;
             this.label16.Text = "Current";
             // 
@@ -1193,7 +1196,7 @@ namespace ModSim
             this.lblCurrentLat.BackColor = System.Drawing.Color.Transparent;
             this.lblCurrentLat.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentLat.ForeColor = System.Drawing.Color.Black;
-            this.lblCurrentLat.Location = new System.Drawing.Point(36, 4);
+            this.lblCurrentLat.Location = new System.Drawing.Point(58, 4);
             this.lblCurrentLat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCurrentLat.Name = "lblCurrentLat";
             this.lblCurrentLat.Size = new System.Drawing.Size(111, 19);
@@ -1202,16 +1205,17 @@ namespace ModSim
             // 
             // lblLatt
             // 
-            this.lblLatt.AutoSize = true;
+            this.lblLatt.AutoSize = false;
             this.lblLatt.BackColor = System.Drawing.Color.Transparent;
             this.lblLatt.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLatt.ForeColor = System.Drawing.Color.Black;
-            this.lblLatt.Location = new System.Drawing.Point(6, 4);
+            this.lblLatt.Location = new System.Drawing.Point(1, 4);
             this.lblLatt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLatt.Name = "lblLatt";
-            this.lblLatt.Size = new System.Drawing.Size(30, 19);
+            this.lblLatt.Size = new System.Drawing.Size(58, 19);
             this.lblLatt.TabIndex = 559;
             this.lblLatt.Text = "Lat";
+            this.lblLatt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblCurrentLon
             // 
@@ -1219,7 +1223,7 @@ namespace ModSim
             this.lblCurrentLon.BackColor = System.Drawing.Color.Transparent;
             this.lblCurrentLon.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentLon.ForeColor = System.Drawing.Color.Black;
-            this.lblCurrentLon.Location = new System.Drawing.Point(36, 26);
+            this.lblCurrentLon.Location = new System.Drawing.Point(58, 26);
             this.lblCurrentLon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCurrentLon.Name = "lblCurrentLon";
             this.lblCurrentLon.Size = new System.Drawing.Size(121, 19);
@@ -1228,14 +1232,14 @@ namespace ModSim
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
+            this.label22.AutoSize = false;
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Black;
             this.label22.Location = new System.Drawing.Point(1, 26);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(35, 19);
+            this.label22.Size = new System.Drawing.Size(58, 19);
             this.label22.TabIndex = 563;
             this.label22.Text = "Lon";
             // 
@@ -1293,107 +1297,115 @@ namespace ModSim
             // 
             // label26
             // 
-            this.label26.AutoSize = true;
+            this.label26.AutoSize = false;
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(127, 23);
+            this.label26.Location = new System.Drawing.Point(88, 23);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(87, 19);
+            this.label26.Size = new System.Drawing.Size(126, 19);
             this.label26.TabIndex = 576;
             this.label26.Text = "Raise Time";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label30
             // 
-            this.label30.AutoSize = true;
+            this.label30.AutoSize = false;
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.Black;
-            this.label30.Location = new System.Drawing.Point(21, 86);
+            this.label30.Location = new System.Drawing.Point(1, 86);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(47, 19);
+            this.label30.Size = new System.Drawing.Size(67, 19);
             this.label30.TabIndex = 573;
             this.label30.Text = "Tram";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label31
             // 
-            this.label31.AutoSize = true;
+            this.label31.AutoSize = false;
             this.label31.BackColor = System.Drawing.Color.Transparent;
             this.label31.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(4, 65);
+            this.label31.Location = new System.Drawing.Point(1, 65);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(64, 19);
+            this.label31.Size = new System.Drawing.Size(67, 19);
             this.label31.TabIndex = 572;
             this.label31.Text = "Hyd Lift";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label32
             // 
-            this.label32.AutoSize = true;
+            this.label32.AutoSize = false;
             this.label32.BackColor = System.Drawing.Color.Transparent;
             this.label32.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.Black;
-            this.label32.Location = new System.Drawing.Point(16, 44);
+            this.label32.Location = new System.Drawing.Point(1, 44);
             this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(52, 19);
+            this.label32.Size = new System.Drawing.Size(67, 19);
             this.label32.TabIndex = 577;
             this.label32.Text = "Speed";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label33
             // 
-            this.label33.AutoSize = true;
+            this.label33.AutoSize = false;
             this.label33.BackColor = System.Drawing.Color.Transparent;
             this.label33.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.Black;
-            this.label33.Location = new System.Drawing.Point(19, 23);
+            this.label33.Location = new System.Drawing.Point(1, 23);
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(49, 19);
+            this.label33.Size = new System.Drawing.Size(67, 19);
             this.label33.TabIndex = 578;
             this.label33.Text = "Uturn";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label34
             // 
-            this.label34.AutoSize = true;
+            this.label34.AutoSize = false;
             this.label34.BackColor = System.Drawing.Color.Transparent;
             this.label34.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.Black;
-            this.label34.Location = new System.Drawing.Point(119, 86);
+            this.label34.Location = new System.Drawing.Point(88, 86);
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(95, 19);
+            this.label34.Size = new System.Drawing.Size(126, 19);
             this.label34.TabIndex = 581;
             this.label34.Text = "Relay Act Hi";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label42
             // 
-            this.label42.AutoSize = true;
+            this.label42.AutoSize = false;
             this.label42.BackColor = System.Drawing.Color.Transparent;
             this.label42.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.Black;
-            this.label42.Location = new System.Drawing.Point(131, 65);
+            this.label42.Location = new System.Drawing.Point(88, 65);
             this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(83, 19);
+            this.label42.Size = new System.Drawing.Size(126, 19);
             this.label42.TabIndex = 580;
             this.label42.Text = "Lift Enable";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label43
             // 
-            this.label43.AutoSize = true;
+            this.label43.AutoSize = false;
             this.label43.BackColor = System.Drawing.Color.Transparent;
             this.label43.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.Color.Black;
-            this.label43.Location = new System.Drawing.Point(126, 44);
+            this.label43.Location = new System.Drawing.Point(88, 44);
             this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(88, 19);
+            this.label43.Size = new System.Drawing.Size(126, 19);
             this.label43.TabIndex = 579;
             this.label43.Text = "LowerTime";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label44
             // 
@@ -1579,27 +1591,27 @@ namespace ModSim
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
+            this.label17.AutoSize = false;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(5, 251);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(45, 19);
+            this.label17.Size = new System.Drawing.Size(171, 19);
             this.label17.TabIndex = 594;
             this.label17.Text = "Steer";
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
+            this.label21.AutoSize = false;
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(5, 303);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(66, 19);
+            this.label21.Size = new System.Drawing.Size(171, 19);
             this.label21.TabIndex = 595;
             this.label21.Text = "Machine";
             // 

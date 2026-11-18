@@ -1633,7 +1633,6 @@
             this.tabWiz.Controls.Add(this.tabAckCPD);
             this.tabWiz.Controls.Add(this.tabMaxSteerAngle);
             this.tabWiz.Controls.Add(this.tabCancelGuidance);
-            this.tabWiz.Controls.Add(this.tabPanicStop);
             this.tabWiz.Controls.Add(this.tab_MinimumGain);
             this.tabWiz.Controls.Add(this.tabPGain);
             this.tabWiz.Controls.Add(this.tabEnd);
@@ -1664,14 +1663,15 @@
             this.btnStartWizard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStartWizard.Font = new System.Drawing.Font("Tahoma", 14.25F);
             this.btnStartWizard.Image = global::AgOpenGPS.Properties.Resources.OK64;
-            this.btnStartWizard.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnStartWizard.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnStartWizard.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnStartWizard.Location = new System.Drawing.Point(226, 106);
+            this.btnStartWizard.Location = new System.Drawing.Point(196, 106);
             this.btnStartWizard.Name = "btnStartWizard";
-            this.btnStartWizard.Size = new System.Drawing.Size(199, 80);
+            this.btnStartWizard.Size = new System.Drawing.Size(260, 80);
             this.btnStartWizard.TabIndex = 526;
             this.btnStartWizard.Text = "  Start Wizard";
-            this.btnStartWizard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStartWizard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnStartWizard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnStartWizard.UseVisualStyleBackColor = false;
             this.btnStartWizard.Click += new System.EventHandler(this.btnStartWizard_Click);
             // 
@@ -1942,7 +1942,7 @@
             this.label95.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label95.Location = new System.Drawing.Point(380, 144);
             this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(255, 131);
+            this.label95.Size = new System.Drawing.Size(255, 112);
             this.label95.TabIndex = 538;
             this.label95.Text = "Set Track Width";
             this.label95.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -2116,7 +2116,7 @@
             this.label99.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label99.BackColor = System.Drawing.Color.Linen;
             this.label99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label99.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label99.ForeColor = System.Drawing.Color.Black;
             this.label99.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label99.Location = new System.Drawing.Point(133, 155);
@@ -4710,7 +4710,7 @@
             this.btnStopWizard.Size = new System.Drawing.Size(148, 38);
             this.btnStopWizard.TabIndex = 527;
             this.btnStopWizard.Text = "Restart Wizard";
-            this.btnStopWizard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStopWizard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnStopWizard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnStopWizard.UseVisualStyleBackColor = false;
             this.btnStopWizard.Click += new System.EventHandler(this.btnStopWizard_Click);

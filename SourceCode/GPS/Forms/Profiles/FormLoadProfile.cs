@@ -24,7 +24,7 @@ namespace AgOpenGPS.Forms.Profiles
         private void FormLoadProfile_Load(object sender, EventArgs e)
         {
             Text = "Load Environment";
-            labelLoadProfile.Text = "Load Environment:";
+            labelLoadProfile.Text = AgLibrary.Localization.UiTranslator.TrText("Load Environment:");
             buttonProfileDelete.Text = gStr.gsDelete;
             buttonLoad.Text = gStr.gsLoad;
             buttonCancel.Text = gStr.gsCancel;

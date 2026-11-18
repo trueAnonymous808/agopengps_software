@@ -162,12 +162,13 @@ namespace AgOpenGPS.Forms.Profiles
             this.btnToggleTool.BackColor = System.Drawing.Color.LightGreen;
             this.btnToggleTool.FlatAppearance.BorderSize = 0;
             this.btnToggleTool.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnToggleTool.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.btnToggleTool.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.btnToggleTool.ForeColor = System.Drawing.Color.Black;
             this.btnToggleTool.Location = new System.Drawing.Point(10, 10);
             this.btnToggleTool.Name = "btnToggleTool";
-            this.btnToggleTool.Size = new System.Drawing.Size(125, 80);
+            this.btnToggleTool.Size = new System.Drawing.Size(160, 80);
             this.btnToggleTool.TabIndex = 0;
+            this.btnToggleTool.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnToggleTool.Text = "Convert Tool";
             this.btnToggleTool.UseVisualStyleBackColor = false;
             this.btnToggleTool.Click += new System.EventHandler(this.btnToggleTool_Click);
@@ -175,9 +176,9 @@ namespace AgOpenGPS.Forms.Profiles
             // textBoxToolName
             // 
             this.textBoxToolName.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxToolName.Location = new System.Drawing.Point(145, 48);
+            this.textBoxToolName.Location = new System.Drawing.Point(180, 48);
             this.textBoxToolName.Name = "textBoxToolName";
-            this.textBoxToolName.Size = new System.Drawing.Size(345, 36);
+            this.textBoxToolName.Size = new System.Drawing.Size(310, 36);
             this.textBoxToolName.TabIndex = 2;
             this.textBoxToolName.Click += new System.EventHandler(this.TextBox_Click);
             this.textBoxToolName.TextChanged += new System.EventHandler(this.textBoxName_TextChanged);
@@ -185,9 +186,9 @@ namespace AgOpenGPS.Forms.Profiles
             // labelToolName
             // 
             this.labelToolName.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelToolName.Location = new System.Drawing.Point(145, 10);
+            this.labelToolName.Location = new System.Drawing.Point(180, 10);
             this.labelToolName.Name = "labelToolName";
-            this.labelToolName.Size = new System.Drawing.Size(345, 30);
+            this.labelToolName.Size = new System.Drawing.Size(310, 30);
             this.labelToolName.TabIndex = 1;
             this.labelToolName.Text = "Tool profile name:";
             // 
@@ -205,9 +206,9 @@ namespace AgOpenGPS.Forms.Profiles
             // textBoxVehicleName
             // 
             this.textBoxVehicleName.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxVehicleName.Location = new System.Drawing.Point(145, 48);
+            this.textBoxVehicleName.Location = new System.Drawing.Point(180, 48);
             this.textBoxVehicleName.Name = "textBoxVehicleName";
-            this.textBoxVehicleName.Size = new System.Drawing.Size(345, 36);
+            this.textBoxVehicleName.Size = new System.Drawing.Size(310, 36);
             this.textBoxVehicleName.TabIndex = 2;
             this.textBoxVehicleName.Click += new System.EventHandler(this.TextBox_Click);
             this.textBoxVehicleName.TextChanged += new System.EventHandler(this.textBoxName_TextChanged);
@@ -215,9 +216,9 @@ namespace AgOpenGPS.Forms.Profiles
             // labelVehicleName
             // 
             this.labelVehicleName.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelVehicleName.Location = new System.Drawing.Point(145, 10);
+            this.labelVehicleName.Location = new System.Drawing.Point(180, 10);
             this.labelVehicleName.Name = "labelVehicleName";
-            this.labelVehicleName.Size = new System.Drawing.Size(345, 30);
+            this.labelVehicleName.Size = new System.Drawing.Size(310, 30);
             this.labelVehicleName.TabIndex = 1;
             this.labelVehicleName.Text = "Vehicle profile name:";
             // 
@@ -226,12 +227,13 @@ namespace AgOpenGPS.Forms.Profiles
             this.btnToggleVehicle.BackColor = System.Drawing.Color.LightGreen;
             this.btnToggleVehicle.FlatAppearance.BorderSize = 0;
             this.btnToggleVehicle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnToggleVehicle.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.btnToggleVehicle.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.btnToggleVehicle.ForeColor = System.Drawing.Color.Black;
             this.btnToggleVehicle.Location = new System.Drawing.Point(10, 10);
             this.btnToggleVehicle.Name = "btnToggleVehicle";
-            this.btnToggleVehicle.Size = new System.Drawing.Size(125, 80);
+            this.btnToggleVehicle.Size = new System.Drawing.Size(160, 80);
             this.btnToggleVehicle.TabIndex = 0;
+            this.btnToggleVehicle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnToggleVehicle.Text = "Convert Vehicle";
             this.btnToggleVehicle.UseVisualStyleBackColor = false;
             this.btnToggleVehicle.Click += new System.EventHandler(this.btnToggleVehicle_Click);
@@ -241,7 +243,7 @@ namespace AgOpenGPS.Forms.Profiles
             this.labelStep1.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
             this.labelStep1.Location = new System.Drawing.Point(20, 100);
             this.labelStep1.Name = "labelStep1";
-            this.labelStep1.Size = new System.Drawing.Size(320, 25);
+            this.labelStep1.Size = new System.Drawing.Size(400, 25);
             this.labelStep1.TabIndex = 20;
             this.labelStep1.Text = "Step 1: Select an old profile file:";
             // 

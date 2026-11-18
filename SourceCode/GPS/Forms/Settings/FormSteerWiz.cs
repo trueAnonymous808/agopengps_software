@@ -21,10 +21,36 @@ namespace AgOpenGPS
         private bool isWizardStarted = false;
 
         //Form stuff
+        private static void TranslateComboItems(ComboBox box)
+        {
+            for (int i = 0; i < box.Items.Count; i++)
+                box.Items[i] = AgLibrary.Localization.UiTranslator.TrText(box.Items[i].ToString());
+        }
+
         public FormSteerWiz(Form callingForm)
         {
             mf = callingForm as FormGPS;
             InitializeComponent();
+            // The antenna picture holds the side view (top) and the rear view (bottom); the height page must only show the side view.
+            try
+            {
+                Image both = Properties.Resources.AntennaTractor;
+                Bitmap sideOnly = new Bitmap(both.Width, both.Height);
+                using (Graphics g = Graphics.FromImage(sideOnly))
+                {
+                    g.Clear(Color.White);
+                    g.DrawImage(both, 0, 0, both.Width, both.Height);
+                    using (Brush white = new SolidBrush(Color.White))
+                    {
+                        int cut = (int)(both.Height * 0.505);
+                        g.FillRectangle(white, 0, cut, both.Width, both.Height - cut);
+                    }
+                }
+                tabAntennaHeight.BackgroundImage = sideOnly;
+            }
+            catch (Exception)
+            {
+            }
             nudMaxCounts.Controls[0].Enabled = false;
 
             nudAntennaHeight.Controls[0].Enabled = false;
@@ -131,15 +157,22 @@ namespace AgOpenGPS
             if ((sett & 4) == 0) chkInvertSteer.Checked = false;
             else chkInvertSteer.Checked = true;
 
-            if ((sett & 8) == 0) cboxConv.Text = "Differential";
-            else cboxConv.Text = "Single";
+            TranslateComboItems(cboxConv);
 
-            if ((sett & 16) == 0) cboxMotorDrive.Text = "IBT2";
-            else cboxMotorDrive.Text = "Cytron";
+            TranslateComboItems(cboxMotorDrive);
 
-            if ((sett & 32) == 32) cboxSteerEnable.Text = "Switch";
-            else if ((sett & 64) == 64) cboxSteerEnable.Text = "Button";
-            else cboxSteerEnable.Text = "None";
+            TranslateComboItems(cboxSteerEnable);
+
+
+            if ((sett & 8) == 0) cboxConv.Text = AgLibrary.Localization.UiTranslator.TrText("Differential");
+            else cboxConv.Text = AgLibrary.Localization.UiTranslator.TrText("Single");
+
+            if ((sett & 16) == 0) cboxMotorDrive.Text = AgLibrary.Localization.UiTranslator.TrText("IBT2");
+            else cboxMotorDrive.Text = AgLibrary.Localization.UiTranslator.TrText("Cytron");
+
+            if ((sett & 32) == 32) cboxSteerEnable.Text = AgLibrary.Localization.UiTranslator.TrText("Switch");
+            else if ((sett & 64) == 64) cboxSteerEnable.Text = AgLibrary.Localization.UiTranslator.TrText("Button");
+            else cboxSteerEnable.Text = AgLibrary.Localization.UiTranslator.TrText("None");
 
             if ((sett & 128) == 0) cboxEncoder.Checked = false;
             else cboxEncoder.Checked = true;
@@ -287,7 +320,7 @@ namespace AgOpenGPS
                     catch (Exception ed)
                     {
                         hsbarCountsPerDegree.Value = 100;
-                        lblCPDError.Text = "Error, CPD set to 100";
+                        lblCPDError.Text = AgLibrary.Localization.UiTranslator.TrText("Error, CPD set to 100");
                         Log.EventWriter("Error, CPD set to 100" + ed.ToString());
                     }
                 }
@@ -322,7 +355,7 @@ namespace AgOpenGPS
                     catch (Exception eh)
                     {
                         hsbarAckerman.Value = 100;
-                        lblAckermannError.Text = "Error, Ackermann set to 100";
+                        lblAckermannError.Text = AgLibrary.Localization.UiTranslator.TrText("Error, Ackermann set to 100");
                         Log.EventWriter("Error, Ackermann set to 100" + eh.ToString());
                     }
                 }
@@ -403,25 +436,25 @@ namespace AgOpenGPS
                 set <<= 1;
                 reset <<= 1;
                 reset += 1;
-                if (cboxConv.Text == "Single") sett |= set;
+                if (cboxConv.Text == AgLibrary.Localization.UiTranslator.TrText("Single")) sett |= set;
                 else sett &= reset;
 
                 set <<= 1;
                 reset <<= 1;
                 reset += 1;
-                if (cboxMotorDrive.Text == "Cytron") sett |= set;
+                if (cboxMotorDrive.Text == AgLibrary.Localization.UiTranslator.TrText("Cytron")) sett |= set;
                 else sett &= reset;
 
                 set <<= 1;
                 reset <<= 1;
                 reset += 1;
-                if (cboxSteerEnable.Text == "Switch") sett |= set;
+                if (cboxSteerEnable.Text == AgLibrary.Localization.UiTranslator.TrText("Switch")) sett |= set;
                 else sett &= reset;
 
                 set <<= 1;
                 reset <<= 1;
                 reset += 1;
-                if (cboxSteerEnable.Text == "Button") sett |= set;
+                if (cboxSteerEnable.Text == AgLibrary.Localization.UiTranslator.TrText("Button")) sett |= set;
                 else sett &= reset;
 
                 set <<= 1;
@@ -993,7 +1026,7 @@ namespace AgOpenGPS
                 cntr = 0;
                 btnStartSA.Image = Properties.Resources.boundaryStop;
                 lblDiameter.Text = "0";
-                lblCalcSteerAngleInner.Text = "Drive Steady";
+                lblCalcSteerAngleInner.Text = AgLibrary.Localization.UiTranslator.TrText("Drive Steady");
                 lblRightStartAngle.Text = mf.mc.actualSteerAngleDegrees.ToString("N1");
             }
             else
@@ -1019,7 +1052,7 @@ namespace AgOpenGPS
                 cntr = 0;
                 btnStartSA_Left.Image = Properties.Resources.boundaryStop;
                 lblDiameterLeft.Text = "0";
-                lblCalcSteerAngleLeft.Text = "Drive Steady";
+                lblCalcSteerAngleLeft.Text = AgLibrary.Localization.UiTranslator.TrText("Drive Steady");
                 lblStartAngleLeft.Text = startAngleLeft.ToString("N1") + "\u00B0";
             }
             else

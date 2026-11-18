@@ -98,12 +98,12 @@
             // 
             // labelExitToWindows
             // 
-            this.labelExitToWindows.AutoSize = true;
+            this.labelExitToWindows.AutoSize = false;
             this.labelExitToWindows.BackColor = System.Drawing.Color.Transparent;
             this.labelExitToWindows.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelExitToWindows.Location = new System.Drawing.Point(542, 145);
+            this.labelExitToWindows.Location = new System.Drawing.Point(540, 145);
             this.labelExitToWindows.Name = "labelExitToWindows";
-            this.labelExitToWindows.Size = new System.Drawing.Size(225, 25);
+            this.labelExitToWindows.Size = new System.Drawing.Size(200, 25);
             this.labelExitToWindows.TabIndex = 269;
             this.labelExitToWindows.Text = "Exit To Windows In:";
             this.labelExitToWindows.TextAlign = System.Drawing.ContentAlignment.TopCenter;
