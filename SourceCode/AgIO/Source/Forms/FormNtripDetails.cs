@@ -52,8 +52,17 @@ namespace AgIO
             var ci = CultureInfo.InvariantCulture;
 
             checks.Alert = fallback;
-            info.ForeColor = fallback ? NtripStatusCard.LightColor(NtripLight.Bad) : System.Drawing.SystemColors.ControlText;
-            info.BackColor = fallback ? System.Drawing.Color.FromArgb(255, 226, 222) : System.Drawing.SystemColors.Control;
+            bool night = AgLibrary.Localization.UiTheme.IsNight();
+            if (night)
+            {
+                info.ForeColor = fallback ? System.Drawing.Color.FromArgb(255, 150, 140) : System.Drawing.Color.FromArgb(230, 230, 230);
+                info.BackColor = fallback ? System.Drawing.Color.FromArgb(84, 36, 34) : System.Drawing.Color.FromArgb(44, 47, 53);
+            }
+            else
+            {
+                info.ForeColor = fallback ? NtripStatusCard.LightColor(NtripLight.Bad) : System.Drawing.SystemColors.ControlText;
+                info.BackColor = fallback ? System.Drawing.Color.FromArgb(255, 226, 222) : System.Drawing.SystemColors.Control;
+            }
             checks.SetChecks(mf.BuildNtripChecks(st));
 
             string where = profile == null ? (fallback && ms != null ? ms.Using.Replace("Fallback: ", "") : host != null && host.MainRadio != null ? "Radio " + host.MainRadio : "-") : profile.Mount + " on " + profile.Host + ":" + profile.Port.ToString(ci);
@@ -64,7 +73,7 @@ namespace AgIO
                 + "   Damaged data: " + (st.Rtcm.ChecksumFailures == 0 ? "none" : st.Rtcm.ChecksumFailures.ToString(ci))
                 + "   Service answered: " + (st.FirstLine.Length > 0 ? st.FirstLine : "-");
 
-            list.BeginUpdate();
+            // no BeginUpdate / EndUpdate: it repaints the whole list (and its scroll bar) every second, which flickers
 
             // Update the rows in place: clearing the list would scroll it back to the top at every refresh.
             int row = 0;
@@ -95,7 +104,6 @@ namespace AgIO
                 row++;
             }
             while (list.Items.Count > row) list.Items.RemoveAt(list.Items.Count - 1);
-            list.EndUpdate();
         }
 
         private static void SetText(ListViewItem.ListViewSubItem sub, string text)

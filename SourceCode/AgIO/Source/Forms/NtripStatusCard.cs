@@ -97,11 +97,12 @@ namespace AgIO
             int dot = 22;
             var box = new Rectangle(0, 0, Width - 1, Math.Max(10, Height - button.Height - 6));
 
-            using (var fill = new SolidBrush(Color.White))
+            bool night = AgLibrary.Localization.UiTheme.IsNight();
+            using (var fill = new SolidBrush(night ? Color.FromArgb(44, 47, 53) : Color.White))
             {
                 g.FillRectangle(fill, box);
             }
-            using (var border = new Pen(Color.FromArgb(90, 90, 90)))
+            using (var border = new Pen(night ? Color.FromArgb(110, 114, 122) : Color.FromArgb(90, 90, 90)))
             {
                 g.DrawRectangle(border, box);
             }
@@ -123,7 +124,7 @@ namespace AgIO
             int headlineHeight = TextRenderer.MeasureText(g, headlineShown, Font, new Size(textWidth, 0), flags).Height;
             headlineHeight = Math.Min(headlineHeight, 3 * Font.Height);
 
-            TextRenderer.DrawText(g, headlineShown, Font, new Rectangle(textLeft, pad, textWidth, headlineHeight), Color.Black, flags);
+            TextRenderer.DrawText(g, headlineShown, Font, new Rectangle(textLeft, pad, textWidth, headlineHeight), night ? Color.FromArgb(235, 235, 235) : Color.Black, flags);
 
             int y = pad + Math.Max(headlineHeight, dot + 4) + 6;
             int remaining = Math.Max(0, box.Bottom - y - 4);
@@ -141,7 +142,7 @@ namespace AgIO
 
         private Color TextColor()
         {
-            return alert ? LightColor(NtripLight.Bad) : Color.FromArgb(30, 30, 30);
+            return alert ? LightColor(NtripLight.Bad) : (AgLibrary.Localization.UiTheme.IsNight() ? Color.FromArgb(200, 203, 210) : Color.FromArgb(30, 30, 30));
         }
 
         protected override void Dispose(bool disposing)

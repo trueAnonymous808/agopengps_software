@@ -71,13 +71,14 @@ namespace AgIO
             string[] items = Items;
             if (items.Length == 0) return;
 
+            bool night = AgLibrary.Localization.UiTheme.IsNight();
             int radius = 14;
             var bounds = new Rectangle(1, 1, Width - 3, Height - 3);
             float part = bounds.Width / (float)items.Length;
 
             using (GraphicsPath outline = Rounded(bounds, radius))
             {
-                using (var white = new SolidBrush(Color.FromArgb(250, 250, 250)))
+                using (var white = new SolidBrush(night ? Color.FromArgb(62, 66, 74) : Color.FromArgb(250, 250, 250)))
                     g.FillPath(white, outline);
 
                 // the chosen part, clipped to the outline so the corners follow it
@@ -87,7 +88,7 @@ namespace AgIO
                     g.FillRectangle(green, chosen);
                 g.ResetClip();
 
-                using (var pen = new Pen(Color.Black, 2F))
+                using (var pen = new Pen(night ? Color.FromArgb(120, 124, 132) : Color.Black, 2F))
                 {
                     for (int i = 1; i < items.Length; i++)
                     {
@@ -101,7 +102,7 @@ namespace AgIO
             for (int i = 0; i < items.Length; i++)
             {
                 var cell = new Rectangle((int)(bounds.X + part * i), bounds.Y, (int)part, bounds.Height);
-                TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(items[i]), Font, cell, i == selectedIndex ? Color.White : Color.Black,
+                TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(items[i]), Font, cell, i == selectedIndex ? Color.White : (night ? Color.FromArgb(235, 235, 235) : Color.Black),
                     TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.WordBreak | TextFormatFlags.NoPadding);
             }
         }

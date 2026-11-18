@@ -106,6 +106,7 @@ namespace AgIO
             Graphics g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
 
+            bool night = AgLibrary.Localization.UiTheme.IsNight();
             Color fill;
             Color text;
             if (tone == ButtonTone.Positive)
@@ -120,19 +121,19 @@ namespace AgIO
             }
             else
             {
-                fill = isDown ? Color.FromArgb(205, 205, 205) : Color.FromArgb(250, 250, 250);
-                text = Color.Black;
+                fill = night ? (isDown ? Color.FromArgb(48, 52, 58) : Color.FromArgb(64, 68, 76)) : (isDown ? Color.FromArgb(205, 205, 205) : Color.FromArgb(250, 250, 250));
+                text = night ? Color.FromArgb(235, 235, 235) : Color.Black;
             }
             if (!Enabled)
             {
-                fill = Color.FromArgb(225, 225, 225);
-                text = Color.FromArgb(110, 110, 110);
+                fill = night ? Color.FromArgb(44, 47, 53) : Color.FromArgb(225, 225, 225);
+                text = night ? Color.FromArgb(120, 124, 132) : Color.FromArgb(110, 110, 110);
             }
 
             var bounds = new Rectangle(1, 1, Width - 3, Height - 3);
             using (GraphicsPath path = RoundedRectangle(bounds, cornerRadius))
             using (var brush = new SolidBrush(fill))
-            using (var pen = new Pen(Color.Black, 2F))
+            using (var pen = new Pen(night ? Color.FromArgb(120, 124, 132) : Color.Black, 2F))
             {
                 g.FillPath(brush, path);
                 g.DrawPath(pen, path);

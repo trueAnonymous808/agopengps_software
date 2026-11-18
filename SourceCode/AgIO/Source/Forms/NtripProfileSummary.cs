@@ -15,7 +15,8 @@ namespace AgIO
     {
         private static readonly Color MainColor = Color.FromArgb(21, 110, 75);
         private static readonly Color FallbackColor = Color.FromArgb(176, 96, 0);
-        private static readonly Color Muted = Color.FromArgb(90, 90, 90);
+        private static Color Muted { get { return AgLibrary.Localization.UiTheme.IsNight() ? Color.FromArgb(160, 164, 172) : Color.FromArgb(90, 90, 90); } }
+        private static Color Ink { get { return AgLibrary.Localization.UiTheme.IsNight() ? Color.FromArgb(235, 235, 235) : Color.Black; } }
 
         private readonly Font titleFont = new Font("Tahoma", 11.25F, FontStyle.Bold);
         private readonly Font hostFont = new Font("Tahoma", 15F, FontStyle.Bold);
@@ -51,7 +52,7 @@ namespace AgIO
             Graphics g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
 
-            using (var border = new Pen(Color.Black, 2F))
+            using (var border = new Pen(AgLibrary.Localization.UiTheme.IsNight() ? Color.FromArgb(120, 124, 132) : Color.Black, 2F))
                 g.DrawRectangle(border, 1, 1, Width - 3, Height - 3);
 
             if (profile == null)
@@ -115,7 +116,7 @@ namespace AgIO
             {
                 if (service.IsComplete)
                 {
-                    TextRenderer.DrawText(g, service.Host + ":" + service.Port, hostFont, new Point(left, y), Color.Black, TextFormatFlags.NoPadding);
+                    TextRenderer.DrawText(g, service.Host + ":" + service.Port, hostFont, new Point(left, y), Ink, TextFormatFlags.NoPadding);
                     y += hostFont.Height + 1;
 
                     if (service.RawTcp)
@@ -127,7 +128,7 @@ namespace AgIO
                     {
                         TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr("Mountpoint "), labelFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
                         int labelWidth = TextRenderer.MeasureText(g, AgLibrary.Localization.UiTranslator.Tr("Mountpoint "), labelFont, new Size(width, 0), TextFormatFlags.NoPadding).Width;
-                        TextRenderer.DrawText(g, service.Mount, mountFont, new Point(left + labelWidth, y), Color.Black, TextFormatFlags.NoPadding);
+                        TextRenderer.DrawText(g, service.Mount, mountFont, new Point(left + labelWidth, y), Ink, TextFormatFlags.NoPadding);
                     }
                     else
                     {

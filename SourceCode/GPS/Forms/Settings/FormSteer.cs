@@ -445,7 +445,7 @@ namespace AgOpenGPS
             double err = (mf.mc.actualSteerAngleDegrees - mf.guidanceLineSteerAngle * 0.01);
             lblError.Text = Math.Abs(err).ToString("N1") + "\u00B0";
             if (err > 0) lblError.ForeColor = Color.Red;
-            else lblError.ForeColor = Color.DarkGreen;
+            else lblError.ForeColor = mf.isDay ? Color.DarkGreen : Color.LimeGreen;
 
             lblAV_Act.Text = mf.actAngVel.ToString("N1");
             lblAV_Set.Text = mf.setAngVel.ToString("N1");

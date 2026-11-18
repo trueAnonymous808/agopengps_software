@@ -277,7 +277,7 @@
             this.lblSteerAngle.ForeColor = System.Drawing.Color.Black;
             this.lblSteerAngle.Location = new System.Drawing.Point(32, 8);
             this.lblSteerAngle.Name = "lblSteerAngle";
-            this.lblSteerAngle.Size = new System.Drawing.Size(71, 23);
+            this.lblSteerAngle.Size = new System.Drawing.Size(56, 23);
             this.lblSteerAngle.TabIndex = 306;
             this.lblSteerAngle.Text = "-55.5";
             this.lblSteerAngle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -291,7 +291,7 @@
             this.lblSteerAngleActual.ForeColor = System.Drawing.Color.Black;
             this.lblSteerAngleActual.Location = new System.Drawing.Point(131, 8);
             this.lblSteerAngleActual.Name = "lblSteerAngleActual";
-            this.lblSteerAngleActual.Size = new System.Drawing.Size(71, 23);
+            this.lblSteerAngleActual.Size = new System.Drawing.Size(52, 23);
             this.lblSteerAngleActual.TabIndex = 311;
             this.lblSteerAngleActual.Text = "-55.5";
             this.lblSteerAngleActual.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -344,9 +344,9 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(93, 11);
+            this.label11.Location = new System.Drawing.Point(88, 11);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(38, 16);
+            this.label11.Size = new System.Drawing.Size(43, 16);
             this.label11.TabIndex = 319;
             this.label11.Text = "Act:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -374,9 +374,9 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(177, 11);
+            this.label13.Location = new System.Drawing.Point(183, 11);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(50, 16);
+            this.label13.Size = new System.Drawing.Size(42, 16);
             this.label13.TabIndex = 321;
             this.label13.Text = "Err:";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

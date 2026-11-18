@@ -87,14 +87,15 @@
             // 
             // lblExitCtr
             // 
-            this.lblExitCtr.AutoSize = true;
+            this.lblExitCtr.AutoSize = false;
             this.lblExitCtr.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExitCtr.ForeColor = System.Drawing.Color.Black;
-            this.lblExitCtr.Location = new System.Drawing.Point(612, 175);
+            this.lblExitCtr.Location = new System.Drawing.Point(540, 175);
             this.lblExitCtr.Name = "lblExitCtr";
-            this.lblExitCtr.Size = new System.Drawing.Size(56, 58);
+            this.lblExitCtr.Size = new System.Drawing.Size(200, 58);
             this.lblExitCtr.TabIndex = 268;
             this.lblExitCtr.Text = "3";
+            this.lblExitCtr.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // labelExitToWindows
             // 
@@ -110,18 +111,19 @@
             // 
             // lblShutCtr
             // 
-            this.lblShutCtr.AutoSize = true;
+            this.lblShutCtr.AutoSize = false;
             this.lblShutCtr.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblShutCtr.ForeColor = System.Drawing.Color.Black;
-            this.lblShutCtr.Location = new System.Drawing.Point(65, 175);
+            this.lblShutCtr.Location = new System.Drawing.Point(31, 175);
             this.lblShutCtr.Name = "lblShutCtr";
-            this.lblShutCtr.Size = new System.Drawing.Size(87, 58);
+            this.lblShutCtr.Size = new System.Drawing.Size(155, 58);
             this.lblShutCtr.TabIndex = 266;
             this.lblShutCtr.Text = "10";
+            this.lblShutCtr.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // labelShutdownIn
             // 
-            this.labelShutdownIn.AutoSize = true;
+            this.labelShutdownIn.AutoSize = false;
             this.labelShutdownIn.BackColor = System.Drawing.Color.Transparent;
             this.labelShutdownIn.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelShutdownIn.Location = new System.Drawing.Point(31, 145);
@@ -129,28 +131,31 @@
             this.labelShutdownIn.Size = new System.Drawing.Size(155, 25);
             this.labelShutdownIn.TabIndex = 267;
             this.labelShutdownIn.Text = "Shutdown In:";
+            this.labelShutdownIn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // labelShutdown
             // 
-            this.labelShutdown.AutoSize = true;
+            this.labelShutdown.AutoSize = false;
             this.labelShutdown.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelShutdown.ForeColor = System.Drawing.Color.Black;
-            this.labelShutdown.Location = new System.Drawing.Point(63, 30);
+            this.labelShutdown.Location = new System.Drawing.Point(31, 30);
             this.labelShutdown.Name = "labelShutdown";
-            this.labelShutdown.Size = new System.Drawing.Size(90, 19);
+            this.labelShutdown.Size = new System.Drawing.Size(155, 19);
             this.labelShutdown.TabIndex = 265;
             this.labelShutdown.Text = "Shutdown";
+            this.labelShutdown.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // labelCancel
             // 
-            this.labelCancel.AutoSize = true;
+            this.labelCancel.AutoSize = false;
             this.labelCancel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCancel.ForeColor = System.Drawing.Color.Black;
-            this.labelCancel.Location = new System.Drawing.Point(340, 30);
+            this.labelCancel.Location = new System.Drawing.Point(296, 30);
             this.labelCancel.Name = "labelCancel";
-            this.labelCancel.Size = new System.Drawing.Size(63, 19);
+            this.labelCancel.Size = new System.Drawing.Size(151, 19);
             this.labelCancel.TabIndex = 262;
             this.labelCancel.Text = "Cancel";
+            this.labelCancel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnShutDown
             // 
@@ -169,12 +174,12 @@
             // 
             // labelExit
             // 
-            this.labelExit.AutoSize = true;
+            this.labelExit.AutoSize = false;
             this.labelExit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelExit.ForeColor = System.Drawing.Color.Black;
-            this.labelExit.Location = new System.Drawing.Point(620, 30);
+            this.labelExit.Location = new System.Drawing.Point(540, 30);
             this.labelExit.Name = "labelExit";
-            this.labelExit.Size = new System.Drawing.Size(41, 19);
+            this.labelExit.Size = new System.Drawing.Size(200, 19);
             this.labelExit.TabIndex = 260;
             this.labelExit.Text = "Exit";
             this.labelExit.TextAlign = System.Drawing.ContentAlignment.TopCenter;

@@ -56,11 +56,12 @@ namespace AgIO
 
             int h = Height - 3;
             var track = new Rectangle(1, 1, Width - 3, h);
-            Color fill = !Enabled ? Color.FromArgb(215, 215, 215) : isChecked ? Color.FromArgb(21, 110, 75) : Color.FromArgb(150, 150, 150);
+            bool night = AgLibrary.Localization.UiTheme.IsNight();
+            Color fill = !Enabled ? (night ? Color.FromArgb(70, 74, 82) : Color.FromArgb(215, 215, 215)) : isChecked ? Color.FromArgb(21, 110, 75) : (night ? Color.FromArgb(105, 109, 118) : Color.FromArgb(150, 150, 150));
 
             using (var path = new GraphicsPath())
             using (var brush = new SolidBrush(fill))
-            using (var pen = new Pen(Color.Black, 2F))
+            using (var pen = new Pen(night ? Color.FromArgb(120, 124, 132) : Color.Black, 2F))
             {
                 path.AddArc(track.X, track.Y, h, h, 90, 180);
                 path.AddArc(track.Right - h, track.Y, h, h, 270, 180);

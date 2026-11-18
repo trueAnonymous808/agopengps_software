@@ -39,6 +39,7 @@
 
   <ItemGroup>
     <Compile Include="..\AgLibrary\Localization\UiTranslator.cs" Link="Localization\UiTranslator.cs" />
+    <Compile Include="..\AgLibrary\Localization\UiTheme.cs" Link="Localization\UiTheme.cs" />
   </ItemGroup>
 
   <ItemGroup>

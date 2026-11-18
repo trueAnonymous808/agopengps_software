@@ -52,6 +52,23 @@ namespace AgOpenGPS
             set
             {
                 AppViewModel.IsDay = value;
+                PublishDayMode(value);
+            }
+        }
+
+        // The helper programs (AgIO, AgDiag ...) follow AgOpenGPS: day / night mode is shared through the registry.
+        private static void PublishDayMode(bool isDay)
+        {
+            try
+            {
+                using (var key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey(@"SOFTWARE\AgOpenGPS"))
+                {
+                    string v = isDay ? "1" : "0";
+                    if (!(key.GetValue("DayMode") is string current) || current != v) key.SetValue("DayMode", v);
+                }
+            }
+            catch (Exception)
+            {
             }
         }
 

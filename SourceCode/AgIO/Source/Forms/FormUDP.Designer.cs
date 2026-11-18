@@ -81,11 +81,11 @@
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
+            this.label6.AutoSize = false;
             this.label6.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(453, 550);
+            this.label6.Location = new System.Drawing.Point(372, 550);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(139, 23);
+            this.label6.Size = new System.Drawing.Size(300, 23);
             this.label6.TabIndex = 144;
             this.label6.Text = "Current Subnet";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -110,11 +110,11 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            this.label1.AutoSize = false;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(395, 370);
+            this.label1.Location = new System.Drawing.Point(318, 370);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(236, 23);
+            this.label1.Size = new System.Drawing.Size(390, 23);
             this.label1.TabIndex = 147;
             this.label1.Text = "Enter New Subnet Address";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

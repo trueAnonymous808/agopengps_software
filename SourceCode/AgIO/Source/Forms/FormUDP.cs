@@ -204,12 +204,12 @@ namespace AgIO
 
             if (isSubnetMatchCard)
             {
-                lblNetworkHelp.BackColor = System.Drawing.Color.LightGreen;
+                lblNetworkHelp.BackColor = AgLibrary.Localization.UiTheme.IsNight() ? System.Drawing.Color.FromArgb(34, 120, 80) : System.Drawing.Color.LightGreen;
                 lblNoAdapter.Visible = false;
             }
             else
             {
-                lblNetworkHelp.BackColor = System.Drawing.Color.Salmon;
+                lblNetworkHelp.BackColor = AgLibrary.Localization.UiTheme.IsNight() ? System.Drawing.Color.FromArgb(150, 45, 38) : System.Drawing.Color.Salmon;
                 lblNoAdapter.Visible = true;
             }
         }

@@ -93,25 +93,25 @@ namespace AgIO
             // colWhat
             //
             this.colWhat.Text = "What came in";
-            this.colWhat.Width = 300;
+            this.colWhat.Width = 250;
             //
             // colTimes
             //
             this.colTimes.Text = "Times";
             this.colTimes.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.colTimes.Width = 70;
+            this.colTimes.Width = 60;
             //
             // colEvery
             //
             this.colEvery.Text = "How often";
             this.colEvery.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.colEvery.Width = 100;
+            this.colEvery.Width = 105;
             //
             // colLast
             //
             this.colLast.Text = "Last seen";
             this.colLast.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.colLast.Width = 90;
+            this.colLast.Width = 105;
             //
             // rowHeight
             //

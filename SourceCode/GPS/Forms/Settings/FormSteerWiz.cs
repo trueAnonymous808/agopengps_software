@@ -385,7 +385,7 @@ namespace AgOpenGPS
             double err = (mf.mc.actualSteerAngleDegrees - mf.guidanceLineSteerAngle * 0.01);
             lblError.Text = Math.Abs(err).ToString("N1") + "\u00B0";
             if (err > 0) lblError.ForeColor = Color.Red;
-            else lblError.ForeColor = Color.DarkGreen;
+            else lblError.ForeColor = AgLibrary.Localization.UiTheme.IsNight() ? Color.LimeGreen : Color.DarkGreen;
 
             lblPWMDisplay.Text = mf.mc.pwmDisplay.ToString();
             counter252++;
@@ -517,7 +517,7 @@ namespace AgOpenGPS
             }
 
             if (hsbarMinPWM.Value > hsbarLowSteerPWM.Value) lblMinPWM.ForeColor = Color.OrangeRed;
-            else lblMinPWM.ForeColor = SystemColors.ControlText;
+            else lblMinPWM.ForeColor = AgLibrary.Localization.UiTheme.IsNight() ? Color.FromArgb(230, 230, 230) : SystemColors.ControlText;
 
             if (mf.mc.sensorData != -1)
             {

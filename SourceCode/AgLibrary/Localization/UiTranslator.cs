@@ -61,10 +61,14 @@ namespace AgLibrary.Localization
                     try
                     {
                         const int HCBT_ACTIVATE = 5;
-                        if (nCode == HCBT_ACTIVATE && CurrentHungarian())
+                        if (nCode == HCBT_ACTIVATE)
                         {
                             Form form = Control.FromHandle(wParam) as Form;
-                            if (form != null) Apply(form);
+                            if (form != null)
+                            {
+                                if (CurrentHungarian()) Apply(form);
+                                UiTheme.Apply(form);
+                            }
                         }
                     }
                     catch (Exception)
@@ -150,6 +154,7 @@ namespace AgLibrary.Localization
                         {
                             foreach (Form form in Application.OpenForms) RevertForm(form);
                         }
+                        UiTheme.Refresh();
                     }
                     catch (Exception)
                     {
@@ -1030,7 +1035,7 @@ namespace AgLibrary.Localization
             { "Only", "Csak" },
             { "Or", "Vagy" },
             { "Time", "Idő" },
-            { "Times", "Idők" },
+            { "Times", "Db" },
             { "Current", "Jelenlegi" },
             { "Description", "Leírás" },
             { "Command", "Parancs" },
@@ -1072,7 +1077,8 @@ namespace AgLibrary.Localization
             { "UDP Is Off", "Az UDP ki van kapcsolva" },
             { "UDP Off", "UDP ki" },
             { "Transfer Rate", "Átviteli sebesség" },
-            { "Last seen", "Utoljára jelentkezett" },
+            { "Last seen", "Utoljára" },
+            { "Connected", "Csatlakozva" },
             { "Scanning", "Keresés folyamatban" },
             { "Scan Reply", "Modul válasza" },
             { "Module Scan", "Modulkeresés" },
@@ -1135,7 +1141,7 @@ namespace AgLibrary.Localization
             { "Quality", "Fix minőség" },
             { "Quality:", "Fix minőség:" },
             { "FixQual", "Fix minőség" },
-            { "Age", "Korrekció kora" },
+            { "Age", "Korr. kora" },
             { "Age:", "Kor:" },
             { "Dual", "Két antenna" },
             { "Roll", "Oldaldőlés" },
@@ -1143,12 +1149,12 @@ namespace AgLibrary.Localization
             { "Roll:", "Oldaldőlés:" },
             { "Pitch", "Bólintás" },
             { "Yaw", "Elfordulás" },
-            { "YawRate", "Elfordulási sebesség" },
+            { "YawRate", "Forgási seb." },
             { "Offset", "Eltolás" },
             { "Simulate Data", "Adatok szimulálása" },
             { "Simulated", "Szimulált" },
             { "Decimal Precision", "Tizedesjegyek száma" },
-            { "How often", "Milyen gyakran" },
+            { "How often", "Gyakoriság" },
             { "Frequency", "Gyakoriság" },
             { "System Data", "Rendszeradatok" },
             { "AOG Status:", "AgOpenGPS állapota:" },

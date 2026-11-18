@@ -141,11 +141,14 @@ namespace AgIO
             g.SmoothingMode = SmoothingMode.AntiAlias;
 
             const TextFormatFlags flags = TextFormatFlags.WordBreak | TextFormatFlags.NoPadding | TextFormatFlags.Left | TextFormatFlags.Top;
+            bool night = AgLibrary.Localization.UiTheme.IsNight();
+            Color mainText = night ? Color.FromArgb(235, 235, 235) : Color.Black;
+            Color subText = night ? Color.FromArgb(185, 188, 195) : Color.FromArgb(40, 40, 40);
             int dot = 20;
             int left = 4 + dot + 10;
             int width = Math.Max(40, Width - left - 6);
 
-            TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(alert ? "FALLBACK IN USE" : "Are the corrections good?"), headerFont, new Point(4, 2), alert ? NtripStatusCard.LightColor(NtripLight.Bad) : Color.Black);
+            TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(alert ? "FALLBACK IN USE" : "Are the corrections good?"), headerFont, new Point(4, 2), alert ? NtripStatusCard.LightColor(NtripLight.Bad) : mainText);
             int y = headerFont.Height + 14;
 
             foreach (CheckItem item in items)
@@ -157,14 +160,14 @@ namespace AgIO
 
                 string titleShown = AgLibrary.Localization.UiTranslator.Tr(item.Title);
                 int titleHeight = TextRenderer.MeasureText(g, titleShown, titleFont, new Size(width, 0), flags).Height;
-                TextRenderer.DrawText(g, titleShown, titleFont, new Rectangle(left, y, width, titleHeight), Color.Black, flags);
+                TextRenderer.DrawText(g, titleShown, titleFont, new Rectangle(left, y, width, titleHeight), mainText, flags);
                 y += titleHeight;
 
                 if (item.Detail.Length > 0)
                 {
                     string detailShown = AgLibrary.Localization.UiTranslator.Tr(item.Detail);
                     int detailHeight = TextRenderer.MeasureText(g, detailShown, detailFont, new Size(width, 0), flags).Height;
-                    TextRenderer.DrawText(g, detailShown, detailFont, new Rectangle(left, y + 1, width, detailHeight), Color.FromArgb(40, 40, 40), flags);
+                    TextRenderer.DrawText(g, detailShown, detailFont, new Rectangle(left, y + 1, width, detailHeight), subText, flags);
                     y += detailHeight + 1;
                 }
 
