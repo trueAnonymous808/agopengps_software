@@ -29,6 +29,8 @@ namespace AgLibrary.Localization
             public bool UseVisual;
             public object Extra;
             public Image OrigImage;
+            public Image OrigIcon;
+            public Image CleanIcon;
         }
 
         private sealed class GridState
@@ -167,6 +169,55 @@ namespace AgLibrary.Localization
             public PaintEventHandler Paint;
         }
 
+        private static readonly ConditionalWeakTable<Image, object> HazeCache = new ConditionalWeakTable<Image, object>();
+        private sealed class NoHaze { }
+
+        // very faint, light, neutral pixels (the soft grey halo some icons carry) are removed; null when there is nothing to clean
+        private static Image HazeFree(Image source)
+        {
+            try
+            {
+                object cached;
+                if (HazeCache.TryGetValue(source, out cached)) return cached as Image;
+                Image result = null;
+                if (source.Width * source.Height <= 65536 && source.Width > 0 && source.Height > 0)
+                {
+                    var bmp = new Bitmap(source.Width, source.Height, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
+                    using (var g = Graphics.FromImage(bmp)) g.DrawImage(source, 0, 0, source.Width, source.Height);
+                    var data = bmp.LockBits(new Rectangle(0, 0, bmp.Width, bmp.Height), System.Drawing.Imaging.ImageLockMode.ReadWrite, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
+                    int bytes = Math.Abs(data.Stride) * bmp.Height;
+                    var px = new byte[bytes];
+                    System.Runtime.InteropServices.Marshal.Copy(data.Scan0, px, 0, bytes);
+                    int changed = 0;
+                    for (int y = 0; y < bmp.Height; y++)
+                    {
+                        for (int x = 0; x < bmp.Width; x++)
+                        {
+                            int i = y * data.Stride + x * 4;
+                            int a = px[i + 3];
+                            if (a == 0 || a > 40) continue;
+                            int b = px[i], gr = px[i + 1], r = px[i + 2];
+                            int min = Math.Min(b, Math.Min(gr, r)), max = Math.Max(b, Math.Max(gr, r));
+                            if (min >= 150 && max - min <= 30)
+                            {
+                                px[i] = px[i + 1] = px[i + 2] = px[i + 3] = 0;
+                                changed++;
+                            }
+                        }
+                    }
+                    System.Runtime.InteropServices.Marshal.Copy(px, 0, data.Scan0, bytes);
+                    bmp.UnlockBits(data);
+                    if (changed > 0) result = bmp; else bmp.Dispose();
+                }
+                HazeCache.Add(source, result != null ? (object)result : new NoHaze());
+                return result;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
         // Windows draws the text of a disabled flat button in a dark shade that disappears on the dark colours:
         // such a button is painted again completely (colour, border, icon, light grey text)
         private static void PaintDisabledFlat(object sender, PaintEventArgs e)
@@ -183,18 +234,23 @@ namespace AgLibrary.Localization
                 Color bc = b.FlatAppearance.BorderColor.IsEmpty ? Color.FromArgb(110, 114, 122) : b.FlatAppearance.BorderColor;
                 using (var pen = new Pen(bc)) e.Graphics.DrawRectangle(pen, 0, 0, r.Width - 1, r.Height - 1);
             }
+            int padL = b.Padding.Left, padR = b.Padding.Right;
+            int imageRight = -1;
             if (b.Image != null)
             {
-                int x = b.ImageAlign.ToString().EndsWith("Right") ? r.Width - b.Image.Width - 4 : (b.ImageAlign.ToString().StartsWith("Top") || b.ImageAlign.ToString().StartsWith("Bottom")) && b.ImageAlign.ToString().Contains("Center") ? (r.Width - b.Image.Width) / 2 : 4;
-                int y = b.ImageAlign.ToString().StartsWith("Top") ? 4 : b.ImageAlign.ToString().StartsWith("Bottom") ? r.Height - b.Image.Height - 4 : (r.Height - b.Image.Height) / 2;
+                string ia = b.ImageAlign.ToString();
+                int x = ia.EndsWith("Right") ? r.Width - b.Image.Width - padR - 3 : ia.EndsWith("Center") ? (r.Width - b.Image.Width) / 2 : padL + 3;
+                int y = ia.StartsWith("Top") ? 3 : ia.StartsWith("Bottom") ? r.Height - b.Image.Height - 3 : (r.Height - b.Image.Height) / 2;
                 e.Graphics.DrawImage(b.Image, x, y, b.Image.Width, b.Image.Height);
+                if (ia.EndsWith("Left") && b.TextImageRelation == TextImageRelation.ImageBeforeText) imageRight = x + b.Image.Width + 3;
             }
             if (!string.IsNullOrEmpty(b.Text))
             {
                 TextFormatFlags tf = TextFormatFlags.NoPrefix | TextFormatFlags.WordBreak | TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis;
                 string al = b.TextAlign.ToString();
                 tf |= al.EndsWith("Right") ? TextFormatFlags.Right : al.EndsWith("Left") ? TextFormatFlags.Left : TextFormatFlags.HorizontalCenter;
-                Rectangle tr = Rectangle.Inflate(r, -10, 0);
+                int left = imageRight >= 0 ? imageRight : padL + 3;
+                var tr = new Rectangle(left, 0, Math.Max(10, r.Width - left - padR - 3), r.Height);
                 TextRenderer.DrawText(e.Graphics, b.Text.Trim(), b.Font, tr, Color.FromArgb(150, 154, 162), tf);
             }
         }
@@ -634,6 +690,20 @@ namespace AgLibrary.Localization
                 }
             }
 
+            // icons on buttons: the faint light haze around the drawing shows as a lighter square on dark colours
+            var iconButton = c as ButtonBase;
+            if (iconButton != null && iconButton.Image != null)
+            {
+                Image icon = iconButton.Image;
+                Image clean = HazeFree(icon);
+                if (clean != null)
+                {
+                    st.OrigIcon = icon;
+                    st.CleanIcon = clean;
+                    iconButton.Image = clean;
+                }
+            }
+
             // pictures (icons on buttons, drawings) were made for a light background: those keep it
             if ((imageSwapped || !HasPicture(c)) && st.Back.A == 255 && Luminance(st.Back) >= 0.62)
             {
@@ -860,6 +930,13 @@ namespace AgLibrary.Localization
             {
                 c.BackgroundImage = st.OrigImage;
                 st.OrigImage = null;
+            }
+            var iconRestore = c as ButtonBase;
+            if (st.OrigIcon != null)
+            {
+                if (iconRestore != null && iconRestore.Image == st.CleanIcon) iconRestore.Image = st.OrigIcon;
+                st.OrigIcon = null;
+                st.CleanIcon = null;
             }
             if (st.BackTouched)
             {
