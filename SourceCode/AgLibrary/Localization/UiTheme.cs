@@ -199,7 +199,8 @@ namespace AgLibrary.Localization
             }
         }
 
-        private sealed class StripState        {
+        private sealed class StripState
+        {
             public ToolStripRenderer Renderer;
             public List<KeyValuePair<ToolStripItem, Color>> Items = new List<KeyValuePair<ToolStripItem, Color>>();
         }
