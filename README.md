@@ -11,7 +11,7 @@ This fork of AgOpenGPS WinForms is under active development.
 
 ![Active Development](https://img.shields.io/badge/status-active%20development-brightgreen?style=for-the-badge)
 
-[![GitHub Release](https://img.shields.io/badge/release-8.0.1-blue)](https://github.com/trueAnonymous808/agopengps_software/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/trueAnonymous808/agopengps_software)](https://github.com/trueAnonymous808/agopengps_software/releases/latest)
 [![Languages](https://img.shields.io/badge/languages-27%20complete-brightgreen)](#translation-status)
 
 Ag Precision Mapping and Section Control Software
@@ -36,7 +36,7 @@ See the PCB repo for PCB layouts, firmware for steering and rate control, machin
 
 ## Installation
 
-1. Download the [Latest AgOpenGPS Release (8.0.1)](https://github.com/trueAnonymous808/agopengps_software/releases)
+1. Download the [Latest AgOpenGPS Release](https://github.com/trueAnonymous808/agopengps_software/releases)
 2. Unzip or extract the contents to a folder (folder accessible by user not the root of C:\\)
 Even on your desktop
 3. Run AgOpenGPS.exe
