@@ -125,12 +125,30 @@ namespace AgOpenGPS
             return extended;
         }
 
+        // Called without await on every fix. An exception escaping an async void method cannot be caught by the
+        // caller, so catch and log here instead of letting it reach the unhandled-exception path.
         public async void BuildCurveCurrentList(vec3 pivot)
+        {
+            try
+            {
+                await BuildCurveCurrentListAsync(pivot);
+            }
+            catch (OperationCanceledException)
+            {
+                // a newer build replaced this one
+            }
+            catch (Exception ex)
+            {
+                Log.EventWriter("BuildCurveCurrentList failed: " + ex);
+            }
+        }
+
+        private async Task BuildCurveCurrentListAsync(vec3 pivot)
         {
             double minDistA = 1000000, minDistB;
 
             //move the ABLine over based on the overlap amount set in vehicle
-            double widthMinusOverlap = mf.tool.width - mf.tool.overlap;
+            double widthMinusOverlap = mf.tool.SwathWidth;
 
             CTrk track = mf.trk.gArr[mf.trk.idx];
 
@@ -1028,7 +1046,7 @@ namespace AgOpenGPS
                     mf.vehicle.modeActualHeadingError = glm.toDegrees(steerHeadingError);
 
                     //Convert to centimeters
-                    mf.guidanceLineDistanceOff = (short)Math.Round(distanceFromCurrentLinePivot * 1000.0, MidpointRounding.AwayFromZero);
+                    mf.guidanceLineDistanceOff = FormGPS.GuidanceDistanceMm(distanceFromCurrentLinePivot);
                     mf.guidanceLineSteerAngle = (short)(steerAngleCu * 100);
                 }
             }

@@ -105,7 +105,7 @@ namespace AgOpenGPS
                 track.endPtB.northing = track.ptB.northing + (Math.Cos(abHeading) * abLength);
 
                 //move the ABLine over based on the overlap amount set in
-                double widthMinusOverlap = mf.tool.width - mf.tool.overlap;
+                double widthMinusOverlap = mf.tool.SwathWidth;
 
                 //x2-x1
                 dx = track.endPtB.easting - track.endPtA.easting;
@@ -136,7 +136,7 @@ namespace AgOpenGPS
                 lastHowManyPathsAway = howManyPathsAway;
                 lastIsHeadingSameWay = isHeadingSameWay;
 
-                double widthMinusOverlap = mf.tool.width - mf.tool.overlap;
+                double widthMinusOverlap = mf.tool.SwathWidth;
 
                 double distAway = widthMinusOverlap * howManyPathsAway + (isHeadingSameWay ? -mf.tool.offset : mf.tool.offset) + track.nudgeDistance;
 
@@ -336,7 +336,7 @@ namespace AgOpenGPS
                 mf.vehicle.modeActualHeadingError = glm.toDegrees(steerHeadingError);
 
                 //Convert to millimeters
-                mf.guidanceLineDistanceOff = (short)Math.Round(distanceFromCurrentLinePivot * 1000.0, MidpointRounding.AwayFromZero);
+                mf.guidanceLineDistanceOff = FormGPS.GuidanceDistanceMm(distanceFromCurrentLinePivot);
                 mf.guidanceLineSteerAngle = (short)(steerAngleAB * 100);
             }
 

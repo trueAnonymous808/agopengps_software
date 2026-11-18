@@ -49,6 +49,31 @@ namespace AgOpenGPS.Updater.Services
         }
 
         /// <summary>
+        /// Checks the downloaded file against the size and, when GitHub provides one, the SHA-256 of the asset.
+        /// Returns an error message, or null when the file is fine.
+        /// </summary>
+        private static string VerifyDownload(string path, ReleaseAsset asset)
+        {
+            if (asset.Size > 0 && new FileInfo(path).Length != asset.Size)
+                return "Download failed: the file size does not match the release.";
+
+            const string prefix = "sha256:";
+            if (asset.Digest != null && asset.Digest.StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
+            {
+                string expected = asset.Digest.Substring(prefix.Length).Trim();
+                using (var sha = System.Security.Cryptography.SHA256.Create())
+                using (var stream = File.OpenRead(path))
+                {
+                    string actual = BitConverter.ToString(sha.ComputeHash(stream)).Replace("-", "");
+                    if (!string.Equals(actual, expected, StringComparison.OrdinalIgnoreCase))
+                        return "Download failed: the checksum does not match the release, the file was not installed.";
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
         /// Downloads an update release to the specified path.
         /// </summary>
         public async Task<(bool Success, string DownloadPath, string Message)> DownloadUpdate(
@@ -80,6 +105,14 @@ namespace AgOpenGPS.Updater.Services
                 using (var githubService = new GithubReleaseService())
                 {
                     await githubService.DownloadAsset(asset.BrowserDownloadUrl, downloadPath, progress);
+                }
+
+                // The zip is installed over the running program, so refuse one that is truncated or altered
+                string verifyError = VerifyDownload(downloadPath, asset);
+                if (verifyError != null)
+                {
+                    try { File.Delete(downloadPath); } catch (Exception) { /* leave it, the error below is what matters */ }
+                    return (false, null, verifyError);
                 }
 
                 return (true, downloadPath, $"Successfully downloaded {asset.Name}");

@@ -3,6 +3,7 @@ using System;
 using System.Globalization;
 using System.Reflection;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AgIO
@@ -33,9 +34,30 @@ namespace AgIO
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(RegistrySettings.culture);
                     Application.EnableVisualStyles();
                     Application.SetCompatibleTextRenderingDefault(false);
+                    InstallExceptionHandlers();
                     Application.Run(new FormLoop());
                 }
             }
+        }
+
+        // Without these, an unexpected exception in an event handler ends in the raw .NET crash dialog.
+        // Log it and keep running so GPS and corrections keep flowing.
+        private static void InstallExceptionHandlers()
+        {
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
+            Application.ThreadException += (s, e) => LogException("UI thread", e.Exception);
+            AppDomain.CurrentDomain.UnhandledException += (s, e) => LogException("Background thread", e.ExceptionObject as Exception);
+            TaskScheduler.UnobservedTaskException += (s, e) =>
+            {
+                LogException("Background task", e.Exception);
+                e.SetObserved();
+            };
+        }
+
+        private static void LogException(string where, Exception ex)
+        {
+            try { Log.EventWriter("UNHANDLED EXCEPTION (" + where + "): " + (ex?.ToString() ?? "unknown")); }
+            catch (Exception) { /* logging must never throw from here */ }
         }
 
         // If the application needs to be restarted, it should be done via this method.

@@ -18,6 +18,10 @@ namespace AgOpenGPS
         public double farRightSpeed = 0;
 
         public double overlap;
+
+        // Tool width minus overlap, floored at 10 cm. The settings allow an overlap up to 10 m with no check against
+        // the tool width, and a result of zero or less turned the track-number divisions into Infinity/NaN.
+        public double SwathWidth => Math.Max(width - overlap, 0.1);
         public double trailingHitchLength, tankTrailingHitchLength, trailingToolToPivotLength;
         public double offset;
 

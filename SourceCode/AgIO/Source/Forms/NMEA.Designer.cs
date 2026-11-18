@@ -115,7 +115,9 @@ namespace AgIO
             dollar = rawBuffer.IndexOf("$", StringComparison.Ordinal);
             if (cr == -1 || dollar == -1) return;
 
-            if (rawBuffer.Length > 301)
+            // Guard against a runaway buffer. 301 characters was less than one burst from a multi-constellation
+            // receiver (GGA, GSA, GSV, RMC, VTG in a row), so valid sentences were thrown away with the buffer.
+            if (rawBuffer.Length > 2048)
             {
                 //if (isLogNMEA)
                 //{

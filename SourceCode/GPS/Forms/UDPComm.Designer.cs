@@ -57,6 +57,10 @@ namespace AgOpenGPS
                 {
                     case 0xD6:
                         {
+                            // Fields are read up to offset 55; a short frame would throw in BitConverter
+                            if (data.Length < 56)
+                                break;
+
                             if (udpWatch.ElapsedMilliseconds < udpWatchLimit)
                             {
                                 missedSentenceCount++;
@@ -327,6 +331,10 @@ namespace AgOpenGPS
                 // Initialise the socket
                 loopBackSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 loopBackSocket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.Broadcast, true);
+                // An ICMP "port unreachable" from an earlier send (AgIO not running yet) is reported by Windows as a
+                // receive error (WSAECONNRESET), which ended the receive loop for good. Turn that behaviour off.
+                try { loopBackSocket.IOControl((IOControlCode)(-1744830452), new byte[] { 0 }, null); }
+                catch (Exception) { /* not supported on this platform */ }
                 loopBackSocket.Bind(new IPEndPoint(IPAddress.Loopback, 15555));
                 loopBackSocket.BeginReceiveFrom(loopBuffer, 0, loopBuffer.Length, SocketFlags.None,
                     ref endPointLoopBack, new AsyncCallback(ReceiveAppData), null);

@@ -455,7 +455,7 @@ namespace AgOpenGPS
             mf.vehicle.modeActualXTE = (distanceFromCurrentLinePivot);
 
             //Convert to centimeters
-            mf.guidanceLineDistanceOff = (short)Math.Round(distanceFromCurrentLinePivot * 1000.0, MidpointRounding.AwayFromZero);
+            mf.guidanceLineDistanceOff = FormGPS.GuidanceDistanceMm(distanceFromCurrentLinePivot);
             mf.guidanceLineSteerAngle = (short)(steerAngleRP * 100);
         }
 
@@ -618,7 +618,7 @@ namespace AgOpenGPS
             //}
 
             //Convert to centimeters
-            mf.guidanceLineDistanceOff = (short)Math.Round(distanceFromCurrentLinePivot * 1000.0, MidpointRounding.AwayFromZero);
+            mf.guidanceLineDistanceOff = FormGPS.GuidanceDistanceMm(distanceFromCurrentLinePivot);
             mf.guidanceLineSteerAngle = (short)(steerAngleRP * 100);
         }
 

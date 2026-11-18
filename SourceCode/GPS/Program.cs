@@ -1,8 +1,10 @@
+using AgLibrary.Logging;
 using AgOpenGPS.Forms;
 using System;
 using System.Linq;
 using System.Reflection;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AgOpenGPS
@@ -19,6 +21,41 @@ namespace AgOpenGPS
         public static readonly bool IsPreRelease = Application.ProductVersion.Contains('-');
         public static readonly bool IsDevelopVersion = Application.ProductVersion == "1.0.0.0";
 
+        private static DateTime lastErrorDialogUtc = DateTime.MinValue;
+
+        // Without these, an unexpected exception in an event handler ends in the raw .NET crash dialog.
+        // Log it and keep running: the machine is working in a field and the autosteer module has its own timeout.
+        private static void InstallExceptionHandlers()
+        {
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
+            Application.ThreadException += (s, e) => ReportException("UI thread", e.Exception, true);
+            AppDomain.CurrentDomain.UnhandledException += (s, e) => ReportException("Background thread", e.ExceptionObject as Exception, false);
+            TaskScheduler.UnobservedTaskException += (s, e) =>
+            {
+                ReportException("Background task", e.Exception, false);
+                e.SetObserved();
+            };
+        }
+
+        private static void ReportException(string where, Exception ex, bool showDialog)
+        {
+            try { Log.EventWriter("UNHANDLED EXCEPTION (" + where + "): " + (ex?.ToString() ?? "unknown")); }
+            catch (Exception) { /* logging must never throw from here */ }
+
+            // A repeating error (every GPS fix) must not stack up modal dialogs: at most one a minute
+            if (!showDialog || (DateTime.UtcNow - lastErrorDialogUtc).TotalSeconds < 60) return;
+            lastErrorDialogUtc = DateTime.UtcNow;
+
+            try
+            {
+                FormDialog.Show(
+                    "Error",
+                    "An unexpected error occurred and was written to the event log. AgOpenGPS keeps running.\r\n\r\n" + ex?.Message,
+                    DialogSeverity.Error);
+            }
+            catch (Exception) { /* nothing more we can do */ }
+        }
+
         [STAThread]
         private static void Main()
         {
@@ -29,6 +66,7 @@ namespace AgOpenGPS
                 Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(RegistrySettings.culture);
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
+                InstallExceptionHandlers();
                 Application.Run(new FormGPS());
             }
             else

@@ -27,6 +27,17 @@ namespace AgOpenGPS
         public short guidanceLineDistanceOff, guidanceLineSteerAngle;
         public double avGuidanceSteerAngle;
 
+        // Meters to millimeters for guidanceLineDistanceOff. A plain (short) cast wraps around beyond
+        // +-32.7 m and could land on the 32000/32020 "no line"/"autosteer off" markers, so clamp below them.
+        public static short GuidanceDistanceMm(double meters)
+        {
+            double mm = Math.Round(meters * 1000.0, MidpointRounding.AwayFromZero);
+            if (double.IsNaN(mm)) return 32000;
+            if (mm > 30000) return 30000;
+            if (mm < -30000) return -30000;
+            return (short)mm;
+        }
+
         public short errorAngVel;
         public double setAngVel, actAngVel;
         public bool isConstantContourOn;

@@ -104,7 +104,7 @@ namespace AgOpenGPS
             mf.vehicle.modeActualXTE = (distanceFromCurrentLinePivot);
 
             //Convert to millimeters from meters
-            mf.guidanceLineDistanceOff = (short)Math.Round(distanceFromCurrentLinePivot * 1000.0, MidpointRounding.AwayFromZero);
+            mf.guidanceLineDistanceOff = FormGPS.GuidanceDistanceMm(distanceFromCurrentLinePivot);
             mf.guidanceLineSteerAngle = (short)(steerAngleGu * 100);
         }
 
@@ -393,7 +393,7 @@ namespace AgOpenGPS
 
                 //Fix the circular error
                 if (steerHeadingError > Math.PI) steerHeadingError -= Math.PI;
-                else if (steerHeadingError < Math.PI) steerHeadingError += Math.PI;
+                else if (steerHeadingError < -Math.PI) steerHeadingError += Math.PI;
 
                 if (steerHeadingError > glm.PIBy2) steerHeadingError -= Math.PI;
                 else if (steerHeadingError < -glm.PIBy2) steerHeadingError += Math.PI;

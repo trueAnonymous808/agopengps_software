@@ -72,6 +72,18 @@ namespace AgIO
         // Data stream
         private byte[] buffer = new byte[1024];
 
+        // Separate buffer for the loopback socket: both sockets receive asynchronously at the same time,
+        // sharing one buffer let a datagram from one overwrite the other before it was copied out.
+        private byte[] loopBuffer = new byte[1024];
+
+        // Windows reports an ICMP "port unreachable" from an earlier send as a receive error (WSAECONNRESET),
+        // which ended the receive loop for good. Turn that behaviour off.
+        private static void DisableUdpConnReset(Socket socket)
+        {
+            try { socket.IOControl((IOControlCode)(-1744830452), new byte[] { 0 }, null); }
+            catch (Exception) { /* not supported on this platform */ }
+        }
+
         //used to send communication check pgn= C8 or 200
         private byte[] helloFromAgIO = { 0x80, 0x81, 0x7F, 200, 3, 56, 0, 0, 0x47 };
 
@@ -96,6 +108,7 @@ namespace AgIO
                 // Initialise the socket
                 UDPSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 UDPSocket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.Broadcast, true);
+                DisableUdpConnReset(UDPSocket);
                 UDPSocket.Bind(new IPEndPoint(IPAddress.Any, 9999));
                 UDPSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointUDP,
                     new AsyncCallback(ReceiveDataUDPAsync), null);
@@ -138,8 +151,9 @@ namespace AgIO
             {
                 loopBackSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 loopBackSocket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.Broadcast, true);
+                DisableUdpConnReset(loopBackSocket);
                 loopBackSocket.Bind(new IPEndPoint(IPAddress.Loopback, 17777));
-                loopBackSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointLoopBack, 
+                loopBackSocket.BeginReceiveFrom(loopBuffer, 0, loopBuffer.Length, SocketFlags.None, ref endPointLoopBack, 
                     new AsyncCallback(ReceiveDataLoopAsync), null);
                 Log.EventWriter("Loopback is Connected: " + IPAddress.Loopback.ToString() + ":17777");
 
@@ -251,10 +265,10 @@ namespace AgIO
                 int msgLen = loopBackSocket.EndReceiveFrom(asyncResult, ref endPointLoopBack);
 
                 byte[] localMsg = new byte[msgLen];
-                Array.Copy(buffer, localMsg, msgLen);
+                Array.Copy(loopBuffer, localMsg, msgLen);
 
                 // Listen for more connections again...
-                loopBackSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointLoopBack, 
+                loopBackSocket.BeginReceiveFrom(loopBuffer, 0, loopBuffer.Length, SocketFlags.None, ref endPointLoopBack, 
                     new AsyncCallback(ReceiveDataLoopAsync), null);
 
                 BeginInvoke((MethodInvoker)(() => ReceiveFromLoopBack(localMsg)));

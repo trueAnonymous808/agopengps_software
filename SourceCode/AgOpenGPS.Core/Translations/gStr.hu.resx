@@ -172,7 +172,7 @@
     <value>Auto-feltöltés</value>
   </data>
   <data name="gsAgShareButtonsHint" xml:space="preserve">
-    <value>Auto-feltöltés: mező változások feltöltése bezáráskor
+    <value>Auto-feltöltés: a terület változásainak feltöltése bezáráskor
 Felhő betöltés: mindig a legújabb verzió letöltése AgShareből megnyitáskor</value>
   </data>
   <data name="gsAgShareConnecting" xml:space="preserve">
@@ -218,13 +218,13 @@ Felhő betöltés: mindig a legújabb verzió letöltése AgShareből megnyitás
     <value>Feltöltés be</value>
   </data>
   <data name="gsAgShareAutoLoadActive" xml:space="preserve">
-    <value>A mezők automatikusan töltődnek be a felhőből</value>
+    <value>A területek automatikusan töltődnek be a felhőből</value>
   </data>
   <data name="gsAgShareFieldLoaded" xml:space="preserve">
-    <value>Mező betöltve az AgShareből</value>
+    <value>Terület betöltve az AgShareből</value>
   </data>
   <data name="gsAgShareLoadFailed" xml:space="preserve">
-    <value>A mező nem tölthető be a felhőből, helyi verzió kerül felhasználásra.</value>
+    <value>A terület nem tölthető be a felhőből, helyi verzió kerül felhasználásra.</value>
   </data>
   <data name="gsAgree" xml:space="preserve">
     <value>Elfogad</value>
@@ -304,10 +304,10 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Létrehoz</value>
   </data>
   <data name="gsBuildAround" xml:space="preserve">
-    <value>Körbe épít</value>
+    <value>Körbeépítés</value>
   </data>
   <data name="gsButFieldIsLoaded" xml:space="preserve">
-    <value>BUT fájl betöltve</value>
+    <value>De a terület be van töltve</value>
   </data>
   <data name="gsButton" xml:space="preserve">
     <value>Gomb</value>
@@ -391,7 +391,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>CPD osztószám</value>
   </data>
   <data name="gsCoverage" xml:space="preserve">
-    <value>lefedési cél</value>
+    <value>Lefedettség</value>
   </data>
   <data name="gsCreate" xml:space="preserve">
     <value>Készít</value>
@@ -427,7 +427,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Nap</value>
   </data>
   <data name="gsDeadzone" xml:space="preserve">
-    <value>Halott zóna</value>
+    <value>Holtsáv</value>
   </data>
   <data name="gsDefault" xml:space="preserve">
     <value>Alapértelmezett</value>
@@ -439,7 +439,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Törlés</value>
   </data>
   <data name="gsDeleteAllContoursAndSections" xml:space="preserve">
-    <value>Összes festést és kontúrvonalat törüljük</value>
+    <value>Összes festés és kontúrvonal törlése</value>
   </data>
   <data name="gsDeleteAppliedArea" xml:space="preserve">
     <value>Megművelt terület (festés) törlése</value>
@@ -460,7 +460,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Közvetlen</value>
   </data>
   <data name="gsDirectionMarkers" xml:space="preserve">
-    <value>Irány jelzók</value>
+    <value>Irányjelzők</value>
   </data>
   <data name="gsDirectories" xml:space="preserve">
     <value>Mappák</value>
@@ -475,7 +475,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Discourse Fórum</value>
   </data>
   <data name="gsDisplay" xml:space="preserve">
-    <value>Megjelenít</value>
+    <value>Megjelenítés</value>
   </data>
   <data name="gsDistance" xml:space="preserve">
     <value>Távolság</value>
@@ -484,7 +484,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Távolság a zászlóig</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
-    <value>Összes Letöltése</value>
+    <value>Összes letöltése</value>
   </data>
   <data name="gsDownloading" xml:space="preserve">
     <value>Letöltés</value>
@@ -514,7 +514,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Szín szerkesztése</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
-    <value>Földnév szerkesztése</value>
+    <value>Területnév szerkesztése</value>
   </data>
   <data name="gsElevationlog" xml:space="preserve">
     <value>Magassági térkép</value>
@@ -554,7 +554,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Kilépés</value>
   </data>
   <data name="gsExitToWindows" xml:space="preserve">
-    <value>Kilépés a windowsba másodperc múlva</value>
+    <value>Kilépés a Windowsba ennyi másodperc múlva:</value>
   </data>
   <data name="gsExtraGuideLines" xml:space="preserve">
     <value>Extra irányvonalak</value>
@@ -701,7 +701,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Lassan korrigálja a szögértéket a nem jól nullázott szögszenzor esetén</value>
   </data>
   <data name="gsInvertHydraulicRelays" xml:space="preserve">
-    <value>Lock kimenet invertálása</value>
+    <value>Relé invertálása</value>
   </data>
   <data name="gsInvertMotor" xml:space="preserve">
     <value>Motor irány megfordítása</value>
@@ -719,7 +719,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Billentyűzet</value>
   </data>
   <data name="gsKmH" xml:space="preserve">
-    <value>Km/h</value>
+    <value>km/h</value>
   </data>
   <data name="gsLanguage" xml:space="preserve">
     <value>Nyelv</value>
@@ -818,13 +818,13 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Mód</value>
   </data>
   <data name="gsMore" xml:space="preserve">
-    <value>További</value>
+    <value>Több</value>
   </data>
   <data name="gsMotorDriver" xml:space="preserve">
     <value>Motor meghajtó típusa</value>
   </data>
   <data name="gsMultiColorSections" xml:space="preserve">
-    <value>Több színű</value>
+    <value>Többszínű</value>
   </data>
   <data name="gsN_East" xml:space="preserve">
     <value>Északkelet</value>
@@ -848,7 +848,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Éjjel</value>
   </data>
   <data name="gsNoABLineActive" xml:space="preserve">
-    <value>Nincs akítv AB vonal</value>
+    <value>Nincs aktív AB vonal</value>
   </data>
   <data name="gsNoBoundary" xml:space="preserve">
     <value>Nincs határvonal</value>
@@ -872,7 +872,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Nyomvonalelhúzás</value>
   </data>
   <data name="gsNudgeDistance" xml:space="preserve">
-    <value>Nyonvonal elhúzás távolsága</value>
+    <value>Nyomvonal elhúzás távolsága</value>
   </data>
   <data name="gsNudgeRefTrack" xml:space="preserve">
     <value>Referencia vonal elmozgatása</value>
@@ -917,7 +917,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Elértük a vonal végét</value>
   </data>
   <data name="gsPause" xml:space="preserve">
-    <value>Pause</value>
+    <value>Szünet</value>
   </data>
   <data name="gsPivot" xml:space="preserve">
     <value>Csuklópont</value>
@@ -932,10 +932,10 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Tőszám</value>
   </data>
   <data name="gsPleaseEnterABLine" xml:space="preserve">
-    <value>Adj meg AB vonalat</value>
+    <value>Adj meg egy AB vonalat</value>
   </data>
   <data name="gsPleaseWait" xml:space="preserve">
-    <value>Kérlek várj</value>
+    <value>Kérlek, várj</value>
   </data>
   <data name="gsPoint" xml:space="preserve">
     <value>Pont</value>
@@ -947,7 +947,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Pontok feldolgozása</value>
   </data>
   <data name="gsPolygons" xml:space="preserve">
-    <value>Polygonok</value>
+    <value>Sokszögek</value>
   </data>
   <data name="gsPowerLoss" xml:space="preserve">
     <value>Leállítás a töltés megszűnésekor</value>
@@ -968,8 +968,8 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Környezet</value>
   </data>
   <data name="gsProfileMenuHint" xml:space="preserve">
-    <value>Vehicle, Tool and Environment settings are now stored as separate profiles.
-Load from Config panel &amp; Top Left Menu.</value>
+    <value>A jármű-, eszköz- és környezeti beállítások mostantól külön profilokban vannak tárolva.
+Betöltés: Beállítások panel és bal felső menü.</value>
   </data>
   <data name="gsProgramWillExitPleaseRestart" xml:space="preserve">
     <value>A program most kilép, indítsd el újra</value>
@@ -987,7 +987,7 @@ Load from Config panel &amp; Top Left Menu.</value>
     <value>Ráta</value>
   </data>
   <data name="gsReallyResetEverything" xml:space="preserve">
-    <value>Tényleg mindent töröl?</value>
+    <value>Tényleg mindent visszaállít?</value>
   </data>
   <data name="gsRecord" xml:space="preserve">
     <value>Rögzít</value>
@@ -1011,7 +1011,7 @@ Load from Config panel &amp; Top Left Menu.</value>
     <value>Reset</value>
   </data>
   <data name="gsResetAll" xml:space="preserve">
-    <value>Minden törlése</value>
+    <value>Minden visszaállítása</value>
   </data>
   <data name="gsResetAllForSure" xml:space="preserve">
     <value>Biztosan mindent visszaállít?</value>
@@ -1107,13 +1107,13 @@ Load from Config panel &amp; Top Left Menu.</value>
     <value>Leállítás</value>
   </data>
   <data name="gsShutdownIn" xml:space="preserve">
-    <value>Leállítás másodperc múlva</value>
+    <value>Leállítás ennyi másodperc múlva:</value>
   </data>
   <data name="gsSideHillComp" xml:space="preserve">
     <value>Extra kormányszög a dőlés arányában</value>
   </data>
   <data name="gsSimpleTramLines" xml:space="preserve">
-    <value>Egyszerű művelőt készítő</value>
+    <value>Egyszerű művelőút-készítő</value>
   </data>
   <data name="gsSimulatorOn" xml:space="preserve">
     <value>Szimulátor bekapcsolva</value>
@@ -1125,7 +1125,7 @@ Load from Config panel &amp; Top Left Menu.</value>
     <value>Lassú</value>
   </data>
   <data name="gsSlowDownBelow" xml:space="preserve">
-    <value>Lassíts le ez alá</value>
+    <value>Lassítás e sebesség alatt</value>
   </data>
   <data name="gsSmooth" xml:space="preserve">
     <value>Simítás</value>
@@ -1173,7 +1173,7 @@ Load from Config panel &amp; Top Left Menu.</value>
     <value>Kormányszög jelző</value>
   </data>
   <data name="gsSteerChart" xml:space="preserve">
-    <value>Vezetés grafikonja</value>
+    <value>Kormányzás grafikon</value>
   </data>
   <data name="gsSteerEnable" xml:space="preserve">
     <value>Kényelmi kapcsoló</value>
@@ -1212,7 +1212,7 @@ A szoftverben lévő biztonsági rendszerek ellenére is a gép kezelője a fele
 HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
   </data>
   <data name="gsTermsConditions" xml:space="preserve">
-    <value>Felhasználási feltételk</value>
+    <value>Felhasználási feltételek</value>
   </data>
   <data name="gsToFile" xml:space="preserve">
     <value>Végleges</value>
@@ -1257,7 +1257,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Rögzített útvonal kikapcsolása</value>
   </data>
   <data name="gsTurnOnContourOrMakeABLine" xml:space="preserve">
-    <value>AB görbe kontúrjának bekapcsolása</value>
+    <value>Kapcsold be a kontúrt, vagy készíts AB vonalat</value>
   </data>
   <data name="gsTurnSensor" xml:space="preserve">
     <value>Impulzus szenzor</value>
@@ -1287,7 +1287,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Jármű típus</value>
   </data>
   <data name="gsVersion" xml:space="preserve">
-    <value>Verzióhoz</value>
+    <value>Verzió</value>
   </data>
   <data name="gsWasZero" xml:space="preserve">
     <value>Szögszenzor Nulla</value>
@@ -1347,7 +1347,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Környezeti beállítások</value>
   </data>
   <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
-    <value>Beállítások mentve</value>
+    <value>Környezeti beállítások mentve.</value>
   </data>
   <data name="gsSaveVehicleSettings" xml:space="preserve">
     <value>Jármű beállítások</value>
@@ -1410,7 +1410,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Derékcsuklós</value>
   </data>
   <data name="gsFront" xml:space="preserve">
-    <value>Front</value>
+    <value>Első</value>
   </data>
   <data name="gsRearFixed" xml:space="preserve">
     <value>Függesztett</value>
@@ -1419,7 +1419,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Vontatott</value>
   </data>
   <data name="gsVehicleInUse" xml:space="preserve">
-    <value>Jármű v használatban</value>
+    <value>Jármű használatban</value>
   </data>
   <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
     <value>Aktív jármű nem törölhető</value>
@@ -1431,7 +1431,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Jármű átnevezése</value>
   </data>
   <data name="gsEnterNewVehicleName" xml:space="preserve">
-    <value>Új név megadása</value>
+    <value>Új jármű nevének megadása</value>
   </data>
   <data name="gsVehicleExists" xml:space="preserve">
     <value>Jármű már létezik</value>
@@ -1449,7 +1449,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Eszköz átnevezése</value>
   </data>
   <data name="gsEnterNewToolName" xml:space="preserve">
-    <value>Új eszköz megadása</value>
+    <value>Új eszköz nevének megadása</value>
   </data>
   <data name="gsToolExists" xml:space="preserve">
     <value>Eszköz már létezik</value>
@@ -1473,7 +1473,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Új eszköz</value>
   </data>
   <data name="gsEnterToolName" xml:space="preserve">
-    <value>Eszköz neve</value>
+    <value>Eszköz nevének megadása</value>
   </data>
   <data name="gsCreateDefaultVehicle" xml:space="preserve">
     <value>Új ÜRES profil készítése</value>
@@ -1554,7 +1554,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Átalakítás megerősítése</value>
   </data>
   <data name="gsConvertConfirmMsg" xml:space="preserve">
-    <value>Átalakítva '{0}': {1} {2}</value>
+    <value>Átalakítás: '{0}': {1} {2}</value>
   </data>
   <data name="gsConvertFrom" xml:space="preserve">
     <value>Átalakít</value>
@@ -1587,7 +1587,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Létezik</value>
   </data>
   <data name="gsFileName" xml:space="preserve">
-    <value>Fájl név</value>
+    <value>Fájlnév</value>
   </data>
   <data name="gsRename" xml:space="preserve">
     <value>Átnevezés</value>
@@ -1600,5 +1600,11 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
   </data>
   <data name="gsTBT" xml:space="preserve">
     <value>Duplakapcsolt</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Gyors indulás GPS vezetéssel. Add meg a munkaszélességet és a vonófej hosszát, majd hozz létre AB vonalat vagy görbét. Semmi sem kerül mentésre a lemezre.</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Következő</value>
   </data>
 </root>

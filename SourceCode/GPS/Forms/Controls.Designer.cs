@@ -766,29 +766,40 @@ namespace AgOpenGPS
                 }
             }
 
-            // Save field data with individual exception handling for each operation
-            await Task.Run(() =>
+            // Save field data with individual exception handling for each operation.
+            // A failed save leaves the field open so nothing is lost, and tells the person: callers
+            // either do not await this or run in async void handlers, where the exception would be lost or fatal.
+            try
             {
-                try { FileSaveBoundary(); }
-                catch (Exception ex) { Log.EventWriter($"CRITICAL: Boundary save failed: {ex}"); throw; }
+                await Task.Run(() =>
+                {
+                    try { FileSaveBoundary(); }
+                    catch (Exception ex) { Log.EventWriter($"CRITICAL: Boundary save failed: {ex}"); throw; }
 
-                try { FileSaveSections(); }
-                catch (Exception ex) { Log.EventWriter($"CRITICAL: Sections save failed: {ex}"); throw; }
+                    try { FileSaveSections(); }
+                    catch (Exception ex) { Log.EventWriter($"CRITICAL: Sections save failed: {ex}"); throw; }
 
-                try { FileSaveContour(); }
-                catch (Exception ex) { Log.EventWriter($"CRITICAL: Contour save failed: {ex}"); throw; }
+                    try { FileSaveContour(); }
+                    catch (Exception ex) { Log.EventWriter($"CRITICAL: Contour save failed: {ex}"); throw; }
 
-                try { FileSaveTracks(); }
-                catch (Exception ex) { Log.EventWriter($"CRITICAL: Tracks save failed: {ex}"); throw; }
+                    try { FileSaveTracks(); }
+                    catch (Exception ex) { Log.EventWriter($"CRITICAL: Tracks save failed: {ex}"); throw; }
 
-                try { ExportFieldAs_KML(); }
-                catch (Exception ex) { Log.EventWriter($"WARNING: KML export failed: {ex}"); }
+                    try { ExportFieldAs_KML(); }
+                    catch (Exception ex) { Log.EventWriter($"WARNING: KML export failed: {ex}"); }
 
-                //ExportFieldAs_ISOXMLv3(); NOTE: This is very very slow, commented out until we have a field exporter
+                    //ExportFieldAs_ISOXMLv3(); NOTE: This is very very slow, commented out until we have a field exporter
 
-                try { ExportFieldAs_ISOXMLv4(); }
-                catch (Exception ex) { Log.EventWriter($"WARNING: ISOXML export failed: {ex}"); }
-            });
+                    try { ExportFieldAs_ISOXMLv4(); }
+                    catch (Exception ex) { Log.EventWriter($"WARNING: ISOXML export failed: {ex}"); }
+                });
+            }
+            catch (Exception ex)
+            {
+                Log.EventWriter("Field save failed, field left open: " + ex);
+                TimedMessageBox(6000, "Field NOT saved", "Saving the field failed, so it was left open. Check disk space and try again.");
+                return;
+            }
 
             if (Settings.Default.AgShareEnabled && Settings.Default.AgShareUploadActive)
             {

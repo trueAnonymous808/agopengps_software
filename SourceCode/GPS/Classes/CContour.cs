@@ -218,7 +218,7 @@ namespace AgOpenGPS
             bool isSameWay = Math.PI - Math.Abs(Math.Abs(mf.fixHeading - stripList[stripNum][pt].heading) - Math.PI) < 1.57;
 
             double RefDist = (distanceFromRefLine + (isSameWay ? mf.tool.offset : -mf.tool.offset))
-                                / (mf.tool.width - mf.tool.overlap);
+                                / mf.tool.SwathWidth;
 
             double howManyPathsAway;
 
@@ -254,7 +254,7 @@ namespace AgOpenGPS
                     stop = pt + 20; if (stop > ptCount) stop = ptCount;
                 }
 
-                double distAway = (mf.tool.width - mf.tool.overlap) * howManyPathsAway
+                double distAway = mf.tool.SwathWidth * howManyPathsAway
                     + (isSameWay ? -mf.tool.offset : mf.tool.offset);
                 double distSqAway = (distAway * distAway) * 0.97;
 
@@ -547,7 +547,7 @@ namespace AgOpenGPS
                 mf.vehicle.modeActualXTE = (distanceFromCurrentLinePivot);
 
                 //fill in the autosteer variables
-                mf.guidanceLineDistanceOff = (short)Math.Round(distanceFromCurrentLinePivot * 1000.0, MidpointRounding.AwayFromZero);
+                mf.guidanceLineDistanceOff = FormGPS.GuidanceDistanceMm(distanceFromCurrentLinePivot);
                 mf.guidanceLineSteerAngle = (short)(steerAngleCT * 100);
             }
             else

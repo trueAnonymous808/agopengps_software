@@ -95,8 +95,9 @@ namespace AgLibrary.Ntrip
                 Serializer.Serialize(writer, copy);
             }
 
-            if (File.Exists(target)) File.Delete(target);
-            File.Move(temp, target);
+            // Replace in one step so a power cut cannot leave the profile deleted but not yet moved
+            if (File.Exists(target)) File.Replace(temp, target, null);
+            else File.Move(temp, target);
         }
 
         public void Delete(string name)

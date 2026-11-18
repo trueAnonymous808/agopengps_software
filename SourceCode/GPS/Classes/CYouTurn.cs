@@ -128,6 +128,9 @@ namespace AgOpenGPS
         //find next not worked lane after the defined lanes to skip
         private int GetNextNotWorkedTrack(bool isTurnLeft, int rowSkipsWidth, bool isAB)
         {
+            // no active track (idx is -1 right after a field closes): nothing to look up
+            if (mf.trk.idx < 0 || mf.trk.idx >= mf.trk.gArr.Count) return rowSkipsWidth;
+
             int goalLane;
 
             if (isAB)
@@ -396,7 +399,7 @@ namespace AgOpenGPS
 
                 case 1:
                     //build the next line to add sequencelines
-                    double widthMinusOverlap = mf.tool.width - mf.tool.overlap;
+                    double widthMinusOverlap = mf.tool.SwathWidth;
 
                     double distAway = widthMinusOverlap * (mf.curve.howManyPathsAway + ((isTurnLeft ^ mf.curve.isHeadingSameWay) ? rowSkipsWidth : -rowSkipsWidth)) + (mf.curve.isHeadingSameWay ? mf.tool.offset : -mf.tool.offset) + track.nudgeDistance;
 
@@ -603,7 +606,7 @@ namespace AgOpenGPS
 
                 case 1:
                     //build the next line to add sequencelines
-                    double widthMinusOverlap = mf.tool.width - mf.tool.overlap;
+                    double widthMinusOverlap = mf.tool.SwathWidth;
 
                     double distAway = widthMinusOverlap * (mf.curve.howManyPathsAway + ((isTurnLeft ^ mf.curve.isHeadingSameWay) ? rowSkipsWidth : -rowSkipsWidth)) + (mf.curve.isHeadingSameWay ? mf.tool.offset : -mf.tool.offset) + track.nudgeDistance;
 
@@ -1047,7 +1050,7 @@ namespace AgOpenGPS
 
                 case 1:
                     //build the next line to add sequencelines
-                    double widthMinusOverlap = mf.tool.width - mf.tool.overlap;
+                    double widthMinusOverlap = mf.tool.SwathWidth;
 
                     CTrk track = mf.trk.gArr[mf.trk.idx];
 
@@ -2921,7 +2924,7 @@ namespace AgOpenGPS
                 mf.vehicle.modeActualXTE = (distanceFromCurrentLine);
 
                 //Convert to centimeters
-                mf.guidanceLineDistanceOff = (short)Math.Round(distanceFromCurrentLine * 1000.0, MidpointRounding.AwayFromZero);
+                mf.guidanceLineDistanceOff = FormGPS.GuidanceDistanceMm(distanceFromCurrentLine);
                 mf.guidanceLineSteerAngle = (short)(steerAngleYT * 100);
                 return true;
             }

@@ -83,6 +83,10 @@ namespace AgOpenGPS.Updater.Models
         [JsonProperty("content_type")]
         public string ContentType { get; set; }
 
+        /// <summary>Checksum GitHub computes for the asset, like "sha256:ab12...". Null on releases that predate it.</summary>
+        [JsonProperty("digest")]
+        public string Digest { get; set; }
+
         [JsonProperty("created_at")]
         public DateTime CreatedAt { get; set; }
 
