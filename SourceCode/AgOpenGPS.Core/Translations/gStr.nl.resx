@@ -619,7 +619,7 @@ De volgorde waarin u ze indrukt, is de volgorde waarin ze van onder naar boven i
     <value>Fusering</value>
   </data>
   <data name="gsInches" xml:space="preserve">
-    <value>inch</value>
+    <value>Duim</value>
   </data>
   <data name="gsInner" xml:space="preserve">
     <value>Binnenste</value>
@@ -1574,12 +1574,4540 @@ Laad via het Config-paneel &amp; menu linksboven.</value>
     <value>Inzoomen</value>
   </data>
   <data name="gsTractor" xml:space="preserve">
-    <value>Tractor</value>
+    <value>Trekker</value>
   </data>
   <data name="gsTBT" xml:space="preserve">
     <value>TBT</value>
   </data>
   <data name="gsAPlus" xml:space="preserve">
     <value>A+</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Opslaan als:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Hernoemen</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Vernieuwen</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Openen:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Kiezen</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Kies uit lijst...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Lijst laden...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Gereed...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Gekopieerd</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Kopiëren mislukt</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopiëren voor support</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Bericht</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Opties</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Tonen</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Aan</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Uit</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Gebruik</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Alleen</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Of</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Tijd</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Keer</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Huidig</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Commando</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Antwoord</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Waarde invoeren</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Voer een waarde in</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Voer iets in</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Verbinding verbreken</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Niet verbonden</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Auto verbinden</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>GPS verbinden</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Poort</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Seriële poort</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS-poort</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS-poort 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM-poort</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Netwerkpoort</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radio op poort</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Snelheid (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP-adres</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP-adres : poort</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Hostnaam</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Hostnaam:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Huidig subnet</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Subnet instellen</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Voer nieuw subnetadres in</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Subnet automatisch invullen</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Geen adapter voor dit subnet</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Netwerk</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Ethernet-configuratie</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Zet UDP aan en druk op OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP staat uit</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP uit</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Overdrachtssnelheid</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Laatst gezien</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Verbonden</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Uit bij %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Constante stuurhoek!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>Rijdt</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A en B omgewisseld</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>A t/m Z en 0 t/m 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS draait al</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Alles groen? Druk op Bouwen of corrigeer handmatig!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Alleen letters en cijfers</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Er is een onverwachte fout opgetreden en vastgelegd in het gebeurtenislogboek. AgOpenGPS blijft draaien.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap-fout</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Modus perceelgrens maken</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Bouwen mislukt</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Knopfout</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Kan de registersubsleutelstructuur niet verwijderen</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Vastgelegd</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Gekopieerd naar klembord, plakken (CTRL-V) in Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Maak eerst een pad</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Aanmaakfout</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Kruisingsfout</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Geen kruisingen gevonden</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Curve is omgekeerd</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Afstandsfout</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Afstand is 0, niets om te verplaatsen</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Schakel de stuurschakelaar in</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Omgeving is momenteel in gebruik</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Fout bij zoeken naar lat/lon</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Fout, controleer het formaat</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Fout bij importeren van sporen:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Uitzondering</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Te grote stuurhoek - kan niet op nul zetten</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Voorbeeld van perceel downloaden mislukt. Zie logboek voor details.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Perceel downloaden mislukt.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Perceellijst laden mislukt.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Perceellijst laden mislukt.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Perceellijst laden mislukt:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Sporen laden mislukt:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Perceel opgeslagen maar kon niet worden geopend (Field.txt ontbreekt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Snijpunten zoeken...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Voltooi alle instellingen of zet terug naar standaard</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Vlaggen toegevoegd!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Vlaggen opgeslagen!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Sneltoets onvolledig</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Ongeldige lijn</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Ongeldige selectie.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Is er misschien maar 1 lijn?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Lijnfout</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Laadfout:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Zorg dat alle uiteinden kruisen en slechts één keer</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Kaart te groot</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Max 164 voet</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Max 50 meter</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Moet groter zijn dan 5 graden</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Geen opgenomen paden</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Geen selectie</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Er is momenteel geen perceel geopend.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Geen perceel geselecteerd.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Geen sporen gevonden.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Kon geen geldige perceelgrens genereren</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Geen geldige perceelgrens om op te slaan</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Niet genoeg knoppen toegevoegd</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Probleem met optioneel bestand</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Selecteer een perceel voordat je opslaat.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Selecteer eerst een perceel.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Selecteer minstens één perceel om te uploaden</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Selecteer minstens één spoor om te importeren.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Wacht tot het uploaden klaar is</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Opslagfout</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Kies een andere omgeving</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Ingesteld op 99, max 164 voet</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Ingesteld op 99, max 50 meter</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Startpunt = eindpunt</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Stuurhoek te laag</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Sturen uitgeschakeld</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Gelukt!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Gelukt</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Het perceel is lokaal verwijderd, maar kon niet uit AgShare worden verwijderd.
+Verwijder het handmatig.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Te breed</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Werktuigfout</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Tik op de kaart om de perceelgrens te maken</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Spoorinfo</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Spoor aanpassen mislukt:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Upload is al bezig</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Upload bezig</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Gebruik alleen AB-lijn of curve</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Je werktuig is te klein</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Modulerespons</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Module zoeken</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Modulesim</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Apparaatbeheer</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Controleer verbinding</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Verzonden positie</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Wat binnenkwam</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>mislukte pogingen</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Verstuur elke (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Stuur lege GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>NTRIP naar GPS sturen via:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>Seriële RTCM</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>USB gebruiken</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Web gebruiken</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP-instellingen</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP-details</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP-profielen</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP-versie</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP-fouten</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Kies een NTRIP-profiel</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>NTRIP-client gebruiken</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Oude NTRIP-client gebruiken</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Ruwe TCP-stream</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpoints</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Kies het basisstation dat het dichtst bij je perceel ligt.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Correcties gaan naar</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Gebruik een reserve als de hoofdservice uitvalt</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Wissel na</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Hoofd</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radio (niet XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Radiokanaal</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Radio-instellingen</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanaal</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanalen</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Een seriële radio is geen NTRIP-service. De correcties worden gebruikt zodra ze binnenkomen. Een reserveservice neemt over als de radio stil valt.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Breedtegraad</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Breedtegraad:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Lengtegraad</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Lengtegraad:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Lengte</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Hoogte (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Hoogte:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Koers</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Snelheid</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Snelheid:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Sats</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Sats:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value># Sats</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Fixkwaliteit</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Fixkwaliteit:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Fixkwal.</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Leeftijd</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Leeftijd:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Dual</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Rol gecorrigeerd</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Rol:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Stampen</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Gieren</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Gierrate</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Verschuiving</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Data simuleren</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Gesimuleerd</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Decimale precisie</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Hoe vaak</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Frequentie</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Systeemdata</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AOG-status:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>AutoSteer</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Stuur</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Stuur:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Stuurmodule</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Stuurknop</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Stuurschakelaar</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Stuurschakelaar:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Stuur ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Stuur &#xD;
+config</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Stuur&#xD;
+instelling</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Van&#xD;
+AutoSteer</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Doelhoek</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Werkelijke hoek</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Hoek:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Machine:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Machinemodule</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Mach</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Werktuig ping:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Werk</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Werkschakelaar</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Werk:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Schak.:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Hef activeren</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hydr. hef</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Hefttijd</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Zaktijd</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min. snelheid</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Hoge PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Lage PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Puls #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Pulsen</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Pulsen:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relais act. hoog</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Druk</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Keerpunt</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Spuitp.</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Actief</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Algemene voorwaarden</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube-tutorials</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse-forum</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Niet akkoord</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Akkoord</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Versie:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Verbinding testen</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Vul hierboven de gegevens in en vink Verbinding testen aan</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API-sleutel:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Plakken van klembord</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Registreer hier om AgShare te gebruiken</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Activeren</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Auto-upload</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Alleen lokaal</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Tot de volgende keer!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Voertuig / Werktuig...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulator aan</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Simulatiecoörd. invoeren</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Kioskmodus</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Alles resetten</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Resetten</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Assistenten</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Stuurwizard</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Grafieken</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Stuurgrafiek</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Koersgrafiek</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Rolcorrectiegrafiek</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Perceelgrens-tool</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>AB-curve afvlakken</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Contourpaden verbergen</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Webcam</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Fix-offset</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       sec</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Alles</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Configuratie</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Auto sturen</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Alle instellingen bekijken</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Mappen</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS-data</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Kleuren</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Multisectiekleuren</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Sneltoetsen</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Perceelgrens</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Kopakker</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Kopakker (bouwen)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Spuitpaden</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Spuitpaden</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Bewerkt wissen</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Vlag op lat/lon</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Opgenomen pad</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Sporen importeren</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Huidig perceel</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulator</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Auto sturen aan/uit</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Tik op de knop om te resetten&#xD;
+druk dan op de nieuwe toets</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Lijn wisselen</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Perceel sluiten</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Updater</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Perceelgrens maken uit kaart</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Sturen</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Max. hoeksnelh.</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Sturen in achteruit</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Hellingcomp.</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino sturen</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Pulsen/graad</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Hoge stuur-PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Lage stuur-PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Min. stuur-PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proportioneel)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Min. stuursnelheid</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Max. stuursnelheid</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Functie snelheidslimiet</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geometrie</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Voertuigtype</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Spoorbreedte</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antenne–draaipunt</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Koersbron</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Dual koers-offset</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual achteruitafst.</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min. staplimiet</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Fusiegewicht</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual als IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Merk</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Tractormerk</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Maaidorsermerk</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Knikframemerk</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Afmetingen</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Werkbreedte</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Werktuigoverlap</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Werktuig-offset</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Aantal secties</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Getrokken koppeling</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Tank getrokken</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Getrokken tot draaipunt</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Werktuigtype</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Getrokken</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Achter vast</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>Is TBT</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Voorop</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Secties</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Secties (geen zones)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Uit buiten perceel</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Snelle sectie</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Vooruitkijken / timing</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Vooruitkijken aan</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Vooruitkijken uit</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Werktuig uit-vertraging</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Hydr. hef vooruitk.</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Kopakker sectiebest.</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Geleiding (per werktuig)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Snap-afstand</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Snap-afstand ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Dode zone afst.</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Dode zone koers</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Dode zone vertraging</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley gebruikt</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley afst.-versterk.</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley koers-versterk.</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley integraal</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit integraal</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Doelpunt opnamefactor</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Doelpunt vasthouden</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Doelpunt multiplier</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Lage snelh. afkap</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Werkschakelaar</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Stuur werkschakelaar</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min. dekking</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Keerpunt (per werktuig)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Draaicirkel</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Afst. tot perceelgrens</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Overslaanbreedte</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Verlengingslengte</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Keerstijl</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Keer afvlakking</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Keer compensatie</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Weergave / menu</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Raster aan</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Lichtbalk aan</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Zijgeleidelijnen</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure aan</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Snelheidsmeter aan</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Lichtbalk (geen stuurbalk)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Dagmodus</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Toetsenbord aan</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Voertuigafbeelding</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Textuur aan</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Helderheid aan</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Hoogte loggen</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Computer afsluiten</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Afsluiten bij stroomuitval</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO auto start</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO auto uit</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Lichtbalk cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Camerazoom</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Camerahelling</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── AutoSteer</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Geleiding vooruitkijken</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>AutoSteer auto aan</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Constante contour</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Geleidelijnen</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Aantal geleidelijnen</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS-leeftijd alarm</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>Is RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK uit: stuur uit</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Sprongalarm</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Sim. breedtegraad</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Sim. lengtegraad</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP-bewaking ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Geluid</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Keergeluid</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Hydr. hefgeluid</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>AutoSteer-geluid</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Sectiegeluid</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Spuitpad</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Spuitpadgangen</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Spuitpad transparantie</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / globaal</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Achteruit aan</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>AutoSwitch Dual Fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Autoswitch snelheid</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Draaipunt tekenen</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Kopakkerafst. aan</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Grens tool-afstand</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Grens tool-afvlak.</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Actief laag</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Handmatige secties</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Extern werksysteem</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Stuur WS handmatig</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min. koers-staplengte</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare ingeschakeld</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Upload actief</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Openbaar perceel</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Overig</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / Fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Frametijd (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Tijdslot</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Fixkwaliteit</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Gevolgde sats</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Gemiste UDP-zinnen</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Koers</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU-koers</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Fix-tot-fix-koers</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Gefuseerde koers (gr.)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Hoeksnelheid</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Applicatie</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Voertuigbestand</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Werktuigbestand</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Instelling</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Alle instellingen</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Dit maakt het nieuwe profiel aan en laadt het.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Sluit eerst het perceel om de updater te starten</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Nieuwe vlag</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Handmatige sectie</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Automatische sectie</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Naar lijn snappen</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Lijn naar links</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Lijn naar rechts</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Voertuiginstelling</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Reset &#xD;
+naar standaard</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Sectie of zone</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Nieuwe toets</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 -  Volledig scherm&#xD;
+&#xD;
+NumPad1 - Handmatige sectie&#xD;
+NumPad0 - Automatische sectie</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Oostwaarde</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Noordwaarde</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Ruwe Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Gemist</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix2Fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Noord (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>West (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Oost (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Zuid (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Offset behouden, ook als het perceel gesloten is?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Voertuig</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Werktuig</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Voertuignaam</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Trekker</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Wielbasis:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Ant.draaipunt:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Ant.verschuiving:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Koppeling:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Werktuignaam</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Breedte:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Secties:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Verschuiving:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Overlap:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Vooruitkijken:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 sec</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Lijnverschuiving:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Spuitpadbreedte:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Eenheden:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metrisch</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Kies voertuigtype</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Dekking</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Geen afbeelding</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Voor nu</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Naar bestand</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Lijn afkappen</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Inzoomen</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Bouwen</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Alfa</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Bestandsnaam</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Voer opnamenaam in</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; UIT &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Naam toevoegen</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Curve</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Naam bewerken</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Draaipunt</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + curve</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB-lijn</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Lat/Lon +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Lat/Lon</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Lengtegraad ( +- 180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Breedtegraad (+- 90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Spuiten</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Gangen</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Spoor</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Zaaien</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Modus</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Knoppen kiezen</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG-menu</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Meerdere kleuren</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Sectiekleur</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Kleur bewerken</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Draaipuntafstand</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Antennehoogte</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Midden</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Antenne-offset</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual-antenne: positieantenne staat rechts</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Koppelingslengte</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Wielbasis</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Koppelingstype</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Overlap / opening</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Overlap</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Opening</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Werktuig-offsetrichting</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Werktuig rechts</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Werktuig links</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Zone 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Zone 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Zone 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Zone 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Zone 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Zone 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Zone 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Zone 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/u</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Duim</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Sectiebreedte</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% dekking</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zones</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Secties</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Automatische secties</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Handmatige secties</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Instellingen vooruitkijktijd</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Aan (sec)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Uit (sec)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Uitschakelvertraging (sec)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Alarm stopt Autosteer</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = uitgeschakeld</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Fix-sprongafstand (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Dual-antenne-instellingen</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Schakelsnelheid</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto Dual &lt;-&gt; Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Achteruitafstand (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Koers-offset (graden)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Enkele-antenne-instellingen</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Standaard: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Fusie</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Achteruitdetectie</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Fix-tot-fix-afstand</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minimale GPS-stap</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Antennetype</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Rol omkeren</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Rol nullen</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Offset verwijderen</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Minder</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Meer</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Rolfilter</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Zet de afvlakking op 3 à 4x de straal</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Zet de verlenging op 2 à 3x de straal&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Hydraulische hef-configuratie</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Plantdichtheid</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Hydraulische hef vooruitkijken (sec)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Hefttijd (sec)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Activeren</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Zaktijd (sec)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Relais omkeren</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Verzenden + opslaan</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Tonen?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Overschrijven</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Spuitpadbreedte</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Hardwareberichten</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Afsluiten bij stroomverlies</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>AgIO automatisch uit?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Onderste menu</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Verschuifknoppen</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Rechtermenu</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>AgIO automatisch starten?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Jij draait</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Geluid</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Keerpunt</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Zijdelings</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Contour verbergen</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB afvlakken</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Opgen. pad</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Spuitpaden</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Schermknoppen</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Toolsmenu</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Perceelmenu</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>UIT</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>AAN</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Debugwaarden</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Kopakkerafst.</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Lijnafvlakking</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Sectielijnen</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Richtingsmarkeringen</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Eenheden</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn-pijl</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Helderheid</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Perceeltextuur</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Polygonen</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Start op volledig scherm</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Snelheidsmeter</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Hulplijnen</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Raster</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Huidig voertuig</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Huidig werktuig</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Duim</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Werkbreedte:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Voet</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Werk.:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Doel:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Fout:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Of +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Stuurhoek:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Diameter:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Oppakken:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Vergroot langzaam de stuurhoek om de zijdelingse afwijking te verkleinen</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Langzaam</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Snel</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Stuurreactie</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integraal</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Min. vooruitkijken</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Vooruitkijken</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley-versterking</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Max. stuurhoek</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV werk.:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV doel:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Pulsen per graad</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS-nul</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Oppakfactor</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Afstand:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Snelheidsfactor</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Dode zone -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Houden:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Oppakken = factor * houden</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Aanvertraging (sec)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Koers (graden)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Versterking</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimum om te bewegen</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Maximumlimiet</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proportionele versterking</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Hellingsgraden per graad rol</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Knop - Indrukken aan, indrukken uit&#xD;
+Schakelaar - Ingedrukt aan, los uit</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Druksensor</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Stroomsensor</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Telsensor</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Motorrichting omkeren</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Stuur activeren</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Motordriver</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A2D-omzetter</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Draaisensor</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>WAS omkeren</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Alles naar standaard</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X- of Y-as</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Slimme WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Gereed</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Betrouwbaarheid: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Metingen: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Sturen in achteruit?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Uit</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Keercompensatie</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/u</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Max. snelheid</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/u</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Handmatige keerpunten</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Lijndikte</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pixels</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Verschuifafstand</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Geleidingsbalk</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Stuurbalk</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Aan/Uit</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Lichtbalk</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm per pixel</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Seconden</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Zoektijd volgende geleidingslijn</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Assistent</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Fout:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Laag</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Hellingsgraden per graad rol</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Vooruitkijken (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Vooruitkijken snelheidsversterking</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimale beweging</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maximum</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Rij recht vooruit en tik op Nul</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Druksensor stuur</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Stroomsensor stuur</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Hydraulisch activatierelais omkeren?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Stuur-activeringsmodus</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Wat voor type motordriver?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>A/D-omzetter aansluiting?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Telpulsen</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Gebruik je een Danfoss-klep?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Vrij rijden</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Wizard starten</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Sterk aanbevolen</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Standaardwaarden laden</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Wielbasis instellen</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Spoorbreedte instellen</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Spoorbreedte</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Antenne&#xD;
+positie</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Stel de afstand van de antenne tot de draaipuntas in</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Antenne&#xD;
+hoogte</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Antennehoogte instellen</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = uit</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Antenne-offset instellen</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D-omzetter</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Motordriverbord</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Driver-stuurrelais</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfoss-klep</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Zo niet, kies Rol omkeren</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Zet het voertuig sterk scheef naar rechts. Rol naar rechts moet POSITIEF zijn.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Rolfunctie</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Parkeer op vlak terrein en tik op "Rol nullen"</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Rol nul</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>WAS-richting omkeren</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Huidige koers:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WAS nullen</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Richting omkeren</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Richting stuurmotor</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Start * kalibratie</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WAS-kalibratie</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* OVERSLAAN * Pulsen per graad en Ackermann-instelling?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Starthoek:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Reset&#xD;
+naar&#xD;
+100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Ackermann-waarde:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Instellen</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Draai het stuur naar de gewenste limiet voor geleiding en tik op OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Stuurhoeklimiet geleiding</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Of stel de stuurhoeklimiet voor geleiding handmatig in</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Automatische annuleerfunctie</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Noodstopsnelheid</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Nul</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Auto-upload: wijzigingen van het perceel uploaden bij sluiten&#xD;
+Cloud laden: bij openen altijd de nieuwste van AgShare downloaden</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Sim resetten&#xD;
+U - Keerpunt (180 graden)&#xD;
+&#xD;
+Pijl omhoog - Sneller&#xD;
+Pijl omlaag - Langzamer&#xD;
+Pijl links - Links&#xD;
+Pijl rechts - Rechts&#xD;
+&#xD;
+( . ) Punt - Stop&#xD;
+( / ) Slash - Rechtdoor</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Deze offsetafstand wordt bij lat en lon opgeteld en bij het sluiten van het perceel opgeslagen in het bestand FIELD.KML.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>De voertuiginstellingen heten nu "profielen" en&#xD;
+kunnen in het hoofdmenu (linksboven) worden gemaakt/geladen.</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Tik op de knoppen links die je in het menu (rechts) wilt hebben. &#xD;
+&#xD;
+De volgorde waarin je ze indrukt is de volgorde in het menu, van onder naar boven.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Draai het stuur ongeveer 20 graden naar RECHTS.&#xD;
+Rijd een constante cirkel, druk op Rec en wacht.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Knop - Indrukken, loslaten: aan.   &#xD;
+               Indrukken, loslaten: uit&#xD;
+&#xD;
+Schakelaar - Ingedrukt is aan. &#xD;
+               Losgelaten is uit.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Rij langzaam en activeer Auto Steer. Keer de richting om als de stuurmotor de verkeerde kant op draait.&#xD;
+Test met de pijlen.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Stuurhoek moet POSITIEF zijn bij draaien naar RECHTS.&#xD;
+Zo niet, kies WAS omkeren.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Draai het stuur naar LINKS, ongeveer evenveel graden als rechts.&#xD;
+Rijd een constante cirkel, druk op Rec en wacht.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Wijzig het setpoint met de stuurknoppen. &#xD;
+&#xD;
+Stel de minimale beweging zo hoog mogelijk in zonder dat de stuurmotor of hydrauliek het stuur beweegt</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Rij nu een AB-lijn en stem de instellingen af op je snelheid en de bodemomstandigheden.&#xD;
+&#xD;
+Let op: CPD, Min PWM en Vooruitkijken zijn kritieke instellingen.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Oude profielen bevatten alle instellingen in één bestand. Het nieuwe formaat scheidt voertuig, werktuig en omgeving. Kies wat je wilt overnemen.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Firmware-update&#xD;
+&#xD;
+Deze functie is in ontwikkeling.&#xD;
+&#xD;
+Toekomstige mogelijkheden:&#xD;
+&#xD;
+• Firmware .hex-bestand kiezen&#xD;
+• Communicatiepoort kiezen (uit de AgIO-instellingen)&#xD;
+• TeensyLoaderCLI starten met parameters&#xD;
+• Firmware naar het Teensy-apparaat uploaden&#xD;
+• Voortgangsindicator&#xD;
+&#xD;
+TeensyLoader-integratie:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Schakelaar</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Knop</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Kies een oud profielbestand</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Kies wat te converteren (voertuig en/of werktuig)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Toegep.:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Werkelijk:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/u</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ u</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/u</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Rij langzaam rechtdoor en laat het systeem sturen</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Instelling minimale beweging</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Nul of +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Stel Proportioneel in voor een goede reactie. &#xD;
+Stel PWM-maximum in om de draaisnelheid te beperken.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Rij vooruit en activeer Auto Steer</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Versterkingsinstelling</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Einde</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Wizard herstarten</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Klaar !</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Voortgang:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Pulsen p. gr.</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WAS-offset</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Koers:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Gecorrigeerde oostwaarde</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Correctieafstand</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Rol (graden)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Scrollen aan/uit</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Paal</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Glad</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Camerareactie</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Reset naar standaard</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>( +90 tot -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>( +180 tot -180 )</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Voertuig: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Werktuig: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Omgeving: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Omgeving</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Systeem / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Setpoint</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Werkelijk</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Voer perceelnaam in</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Oppervlakte:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Punten:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Beschikbare sporen</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Beschikbare percelen</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importeren</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Niets selecteren</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Alles selecteren</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Kies links een perceel en selecteer dan de te kopiëren sporen</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Perceelnaam</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Naar Windows over:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Afsluiten over:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Kies de te gebruiken sporen</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>B inkorten</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>A inkorten</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>B verlengen</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>A verlengen</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Vorige</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Auto zoeken</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Perceel</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Overschrijven</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Selectie ophalen</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Alles ophalen</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Downloaden...Even wachten</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Lon:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Lat:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Afstand tot vlag:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Punt A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Vlaggen importeren</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Vlaggen exporteren</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Grenzen</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Doorlopend?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Oppervlakte</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Afstand (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Punten toevoegen</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Te verwerken punten:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Punten</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare-upload</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare-download</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Uit KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Openen</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Inrijden</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Hervatten</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Bestaand</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Nieuw perceel</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Vorig perceel</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Werkbreedte</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Nieuwe grens</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Achtergrond</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Perceelnaam</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Selectie uploaden</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Perceelnaam bewerken</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Lijnen</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Kartering</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Vlaggen</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Sorteren</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Resterend:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Dosering:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Totaal:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Bewerkt:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Bewerkt</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Afst.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Rit</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Afstand (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Selectie gebruiken</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Selectie gebruiken</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Perceel verwijderen</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Opnamenaam</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Opname verwijderen</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Pad uit</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Nacht</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Huidig: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Geselecteerd: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Ant. draaipunt:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Ant. verschuiving:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Spoorbreedte:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Koppeling:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Getrokken koppeling:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Oude profielen converteren</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Omgevingen</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Bestandsnaam</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Oude profielbestanden naar nieuw formaat converteren</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Converteren</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>Stap 2: kies wat te converteren (voertuig en/of werktuig):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Werktuig converteren</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Naam werktuigprofiel:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Naam voertuigprofiel:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Voertuig converteren</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>Stap 1: kies een oud profielbestand:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Naam:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Aanmaken</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopiëren van:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Ongeldig:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS enkel:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK Float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Geschat:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Hand IP:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Onbekend:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Leeftijd:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Geen netwerkverbinding.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Verbonden. Wachten op correcties.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Correcties gestopt. Opnieuw verbinden.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Verbonden, maar er komt niets binnen. Sommige diensten hebben je positie nodig: controleer of je GPS-positie is ingeschakeld.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>De dienst heeft de verbinding verbroken. Opnieuw verbinden.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>De dienst heeft de verbinding verbroken zonder correcties te sturen.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Correcties ontvangen</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>De dienst stuurde een antwoord dat AgIO niet kan lezen.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>De dienst stuurde geen lijst met mountpoints.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>De dienst stuurde een leeg antwoord.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Dit mountpoint bestaat niet bij de dienst. Kies er een uit de lijst.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Dit adres antwoordde met een webpagina, niet met een NTRIP-dienst. Controleer het adres en de poort.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Gebruikersnaam, wachtwoord of mountpoint is onjuist.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Dit mountpoint bestaat niet bij de dienst. Controleer de spelling, hoofdletters tellen mee.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>De dienst kan nu geen nieuwe verbinding aannemen. Hij is druk, of deze login is al in gebruik.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>De dienst wordt opgestart. AgIO probeert het over ongeveer een minuut opnieuw.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Deze dienst vraagt je e-mailadres als gebruikersnaam.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Gebruikersnaam of wachtwoord is onjuist.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>De dienst heeft de toegang geweigerd.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>De dienst gaf een antwoord dat AgIO niet begrijpt.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>De radio is geopend. Wachten op correcties.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>De radio is geopend, maar er komt niets binnen.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Correcties ontvangen via de radio.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Terug op de hoofdservice</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Correcties komen nu weer van de hoofdservice.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>De hoofdservice is weer beschikbaar</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Terugschakelen? Je GPS kan even de RTK kwijtraken. AgIO schakelt nooit uit zichzelf terug.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>De hoofdservice heeft een probleem</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Omgeschakeld naar de reserve</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Je bent omgeschakeld naar de reserve.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>geen correcties</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Alles goed: er komen correcties binnen.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Het profiel heeft geen naam.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS-waarnemingen (verouderd)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS-waarnemingen (verouderd)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>eigen formaat</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>basispositie</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>basispositie + antennehoogte</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>antennebeschrijving</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>systeemparameters</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS-efemeriden</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS-efemeriden</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>ontvanger + antennebeschrijving</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou-efemeriden</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS-efemeriden</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo-efemeriden</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS-codefase-afwijkingen</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>tekst</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>leeg</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Druk op de nieuwe sneltoets</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Druk op de knop om de sneltoets te bewerken</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Niet verbonden</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Stel afstand in, 2: Tik op Bouwen, 3: Maak kniplijnen</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE-grafiek</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Rij constant</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Klaar om toe te passen</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Verzamelen...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Fout, CPD ingesteld op 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann ingesteld op:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Fout, Ackermann ingesteld op 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Kies hieronder een vakje en kies een nieuwe kleur</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Kies een vooraf ingestelde kleur</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Kies een nieuwe kleur en kies hieronder een vakje om als voorinstelling op te slaan</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Perceelmap niet gevonden</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Fout bij laden van percelen</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Geen sporen gevonden in dit perceel</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Fout bij laden van sporen</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Huidige sporen opslaan...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Sporen converteren...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Sporen opslaan...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Geselecteerd perceel:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Fout bij laden van percelen:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Easy Drive actief</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Omgeving laden:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Voertuig:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Werktuig:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Omgeving:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Kritieke opslagfout</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Afsluitfout</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Richting gereset</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Vooruit is ingesteld</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>AutoSteer uitgeschakeld</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Verschuifvenster open</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Sluit het verschuifvenster</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Waarschuwing grote afstand tot perceelstart</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare-upload mislukt</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Er is een fout opgetreden bij het starten van de upload naar AgShare.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Er is een fout opgetreden tijdens de upload naar AgShare.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Perceel NIET opgeslagen</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Opslaan van het perceel is mislukt, daarom is het open gebleven. Controleer de schijfruimte en probeer opnieuw.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Hervatstijl</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Laatste stoppositie</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Dichtstbijzijnd punt</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Begin bij het begin</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Niet te gebruiken met zones</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Alleen voor secties</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Easy Drive</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Profielen niet beschikbaar in Easy Drive-modus</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Secties staan aan</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Zet eerst Auto of Handmatig uit</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Richting resetten</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Rij vooruit &gt; 1,5 km/u</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autosteer uitgeschakeld</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK-fixalarm</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Spoor gewijzigd</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Paden ingeschakeld</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Sim achteruit aangeraakt</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Sneltoets geactiveerd</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Instellingen naar stuurmodule gestuurd</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Terug van bewerken</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Updater niet gevonden. Zorg dat AgOpenGPS.Updater.exe in de programmamap staat.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Updater niet gevonden</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Niet genoeg punten om een perceelgrens te maken</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Kan het midden van het perceel niet berekenen. Buitengrens of AB-lijn ontbreekt.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Je kunt niet meer zones dan secties hebben</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulator staat uit</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulator werkt niet met een echte antenne</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Reset naar standaard</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Waarden teruggezet naar de oorspronkelijke standaard</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Bereik overschreden</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Offset te groot - kan niet worden toegepast</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Slimme WAS-nul</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Standaardwaarden ingesteld</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD en Ackermann ingesteld op standaard</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>P-versterking gewijzigd</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proportionele versterking ingesteld op 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profielen aangemaakt</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Standaardprofielen aangemaakt</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Omgevingsinstellingen gereset!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Omgevingsinstellingen geladen!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Profielbestanden niet gevonden!
+
+De profielen in het register zijn niet te vinden.
+Kies of maak nieuwe profielen.
+
+De omgeving gebruikt standaardwaarden als je niets kiest.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Geen profielen gevonden.
+
+Gebruik 'Nieuw' om voertuig- en werktuigprofielen te maken.
+
+De omgeving gebruikt standaardwaarden als je niets kiest.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Ernstige fout in perceelsoorsprong&#xD;
+&#xD;
+De perceelsoorsprong ligt meer dan 20 km van je huidige GPS-positie. Verwijder dit perceel en maak een nieuw, want de nauwkeurigheid zal slecht zijn&#xD;
+&#xD;
+Of je hebt een perceel open en bent ver weggereden</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Let op: als je AgIO sluit, stopt de communicatie met de hardware.&#xD;
+Weet je zeker dat je wilt sluiten?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Omhoog + omlaag</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Omlaag</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Automatisch verbergen</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto&#xD;
+start</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profiel</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profielen</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Huidig profiel</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Huidig profiel</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Nieuw profiel</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Nieuw:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Gebruikt profiel:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: profielen beheren</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Dit profiel overschrijven:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Geavanceerde instellingen</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS-instellingen</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Serial Pass Thru-configuratie</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Serial Pass aan</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>Andere poort dan GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Geminimaliseerd starten</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO tonen bij waarschuwing</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>GPS-Out automatisch starten</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Tonen&#xD;
+bij&#xD;
+waarsch.</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Gebeurtenislogboek</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Logviewer</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Seriële monitor</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP-monitor</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN-gids</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Gids -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Toetsenbord</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Berichttekst komt hier</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO-bericht</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo-bericht</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP-details</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP staat uit</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>RESERVE IN GEBRUIK</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Zijn de correcties goed?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Omschakelen naar reserve</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Hoofdservice opnieuw proberen</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Terug naar hoofdservice</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Verbonden, wacht op data</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Verbinden...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint niet gevonden</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Kan niet inloggen</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Gestopt</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Dienst wordt opgestart</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Dienst is druk</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Verbonden, er komt niets binnen</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Geen netwerk</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Opnieuw verbinden...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Dienst niet begrepen</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Dienst niet bereikbaar</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Correcties komen binnen</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Deze stream kan niet in detail worden gecontroleerd.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Positie basisstation ontvangen</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Positie basisstation</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Wachten erop. Hij komt elke 10 seconden.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Positie basisstation ontbreekt</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>RTK kan zonder niet starten.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Nog niet ontvangen.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Afstand tot basisstation</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Wachten op je GPS-positie.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Te ver voor goede RTK. Kies een dichterbij gelegen basisstation.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Ver weg. RTK is op deze afstand minder nauwkeurig.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Van de vaste positie in de NTRIP-instellingen.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Satellieten in de correcties</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Geen satellietdata in de correcties</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Het basisstation stuurt geen waarnemingen.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Nog niets ontvangen.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Verse data</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Wachten op de eerste data.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Data is laat</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Geen nieuwe data</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Je GPS: RTK fixed</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Je GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Nog aan het rekenen. Even wachten.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Je GPS: nog geen RTK</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Alleen normale GPS-nauwkeurigheid.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Je GPS heeft geen fix</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Je GPS staat in handmatige of simulatormodus</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Geen adres</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Vul eerst het adres in.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Geen poort</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Kon niet opslaan</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Fout bij openen poort</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP nog niet te gebruiken</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Kies eerst een profiel en tik op Gebruik.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Het gebruikte profiel heeft nog geen serviceadres of radiopoort. Bewerk het eerst.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Kan het niet lezen</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Dit profielbestand kon niet worden gelezen.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Kan niet hernoemen</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Die naam wordt al gebruikt.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Waarschuwing profiel laden</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profielherstel</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>Het AgIO-profiel is hersteld vanuit de .last-back-up omdat het hoofdbestand onleesbaar was.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Bestand opgeslagen</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Ongeldige ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Ongeldige naam</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Naam is niet ingevuld</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Ongeldige frequentie</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Frequentie is niet ingevuld</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Geen kanaal</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Radio staat aan, maar er is geen kanaal gekozen</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP ook ingeschakeld</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP is ook ingeschakeld, wordt uitgezet</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO-standaardprofiel gebruikt</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Standaardprofiel in gebruik</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Radio NTRIP AAN</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Seriële NTRIP AAN</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Serial Pass NTRIP AAN</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Zet NTRIP aan</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Fout bij verbinden met Serial Pass</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Fout bij verbinden met radio</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP ingesteld</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Geen bestand gevonden</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Voer een bestandsnaam in om op te slaan...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Opslaan en terug</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Kan geen verbinding maken met poort</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Verbinding al beëindigd?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Verbinding al beëindigd??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Geen actieve Arduino-poort</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Ernstige netwerkverbindingsfout</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Kritieke registerfout</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Kan de registersubsleutelstructuur niet verwijderen</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController is niet geïnstalleerd??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Radio staat aan. Zet hem eerst uit in de radio-instellingen.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Serial pass-through staat aan. Zet het eerst uit.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP staat aan. Zet het eerst uit in de NTRIP-profiellijst.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Afstand</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Wis</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Foutmel-&#xD;
+ding</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Bericht 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Module 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Seriële monitor - Baud: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>$GN--- sturen</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>$GP--- sturen</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Rol: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Stuur: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/u:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/u: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP-uitvoer</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Een vaste positie</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Een andere NTRIP-dienst</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Beide</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Reserve</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Ik schakel zelf</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Hoofdservice</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Mijn AIO-bord (netwerk)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Mijn GPS-ontvanger (serieel)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Mijn GPS-positie</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP-dienst</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Uitvoer en positie</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Seriële radio</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Automatisch schakelen</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>NU IN GEBRUIK</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>IN GEBRUIK</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>HOOFDSERVICE</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>RESERVE</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Uit. Er wordt geen tweede dienst gebruikt.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(nog geen poort)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Je schakelt handmatig</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Ruwe TCP (geen mountpoint of login)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Geen mountpoint gekozen</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Nog niet ingevuld</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Heeft je positie nodig</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Plaats</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(nog niet opgeslagen)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Kies eerst de poort van de radio.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Kies de radiopoort om Reserve te gebruiken</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Vul de caster-gegevens in om Reserve te gebruiken</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Nog geen profielen.&#xD;
+&#xD;
+Tik op Nieuw profiel om er een te maken.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Dit profiel is nog niet ingevuld.&#xD;
+Tik op Bewerken om de hoofdservice in te vullen.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>Er is nog geen NTRIP-profiel gekozen. Kies of maak er een in de NTRIP-instellingen.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>Kies in het NTRIP-profiel de poort van de hoofdradio.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP is weer online</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Er komen weer correcties binnen.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP-login geweigerd</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP-mountpoint niet gevonden</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP-caster druk</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP geen correcties</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP-stream verloren</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP niet verbonden</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP uit</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP luistert</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Verbindingsprobleem</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Geen verbinding met caster</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>geen IPv4-adres gevonden</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP-verbinding mislukt</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP-verbinding geweigerd</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>De caster verbrak de verbinding zonder data te sturen (controleer mountpoint/inloggegevens)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP-client niet ingesteld</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Kies een bestaand profiel of maak een nieuw profiel</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Maak of kies een profiel</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Zet het uit voordat je Serial Pass Thru gebruikt</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Zet het uit voordat je NTRIP gebruikt</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Zet het uit voordat je Radio NTRIP gebruikt</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Air NTRIP AAN</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Nieuwe waarden gewijzigd</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP aan</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP staat aan</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO wordt herstart om de UDP-netwerkfuncties in te schakelen</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO wordt herstart om de UDP-netwerkfuncties uit te schakelen</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim wordt herstart om de UDP-netwerkwijzigingen toe te passen</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Hand-IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Updaterfout</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS-update</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Even wachten...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Even wachten</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Wacht tot de huidige bewerking klaar is.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>GitHub-releases controleren...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>USB-stick controleren...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>Geen update gevonden op de USB-stick.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>AgOpenGPS en AgIO sluiten...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Programma's gesloten</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Downloaden van GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Download mislukt</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Download mislukt</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopiëren van USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopiëren mislukt</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopiëren mislukt</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Installatie mislukt</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Installatie mislukt</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Klaar! Herstarten...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Klaar!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Update is geannuleerd.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Geen release-opmerkingen beschikbaar.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Release candidate</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Download mislukt: de bestandsgrootte komt niet overeen met de release.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Download mislukt: de controlesom komt niet overeen met de release, het bestand is niet geïnstalleerd.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Geen geschikt downloadbestand gevonden in deze release.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Er draait al een andere updater.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Er draaiden geen programma's.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Programma's succesvol gesloten.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Updatebestand niet gevonden.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Installatiemap bestaat niet.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Back-up maken...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Bestanden uitpakken...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Bestanden installeren...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe niet gevonden in de installatiemap.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS is succesvol herstart.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Controleren op updates</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Update installeren</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Inclusief pre-release</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Firmware-update</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS-firmware-update</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS-updater</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Release-opmerkingen</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Release-opmerkingen bekijken</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Release-opmerkingen verschijnen hier.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Huidige versie: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Nieuwste versie: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Nieuwste versie: up-to-date</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Webupdate - klik op Controleren op updates</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Webupdate (GitHub Releases)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Webupdate (lokale update beschikbaar)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Lokaal: geen AgOpenGPS_*.zip gevonden op USB</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Lokaal: plaats AgOpenGPS.zip in de hoofdmap van de USB-stick</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController niet geïnstalleerd, download van:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linux-gebruikers</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Alleen Linux !</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Afsluiten</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profiel kon niet volledig worden geladen (bestand is mogelijk corrupt).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profiel is hersteld vanuit de .last-back-up omdat het hoofdbestand onleesbaar was.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Kies eerst de poort van de hoofdradio.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Vul eerst het adres van de hoofdservice in.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Of zet NTRIP uit in de profiellijst.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Ga naar Instellingen -&gt; COM-poorten om te herstellen</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>De huidige sessie gebruikt standaardwaarden voor ontbrekende/ongeldige waarden.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>Het AgIO-profiel kon niet volledig worden geladen (bestand is mogelijk corrupt).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>Het NTRIP-profiel "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" staat niet op deze computer. Kies of maak een profiel in de NTRIP-instellingen.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" heeft nog geen serviceadres.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>De reserve werkt ook niet:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Geen correcties gedurende</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO blijft het proberen.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> seconden</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minuten</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>RESERVE IN GEBRUIK: de hoofdservice wordt nu niet gebruikt</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>ID basisstation:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Positie:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Beschadigde data:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>De dienst antwoordde:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Verbinden over</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Kan caster-URL niet omzetten:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Gesimuleerde data</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   GEEN DATA</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>De updater moet vanuit AgOpenGPS worden gestart.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Start eerst AgOpenGPS en gebruik:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Menu → Tools → Controleren op updates</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>Dit is nodig om je huidige versie te herkennen.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Update installeren vanaf</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Bron:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Dit zal:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• AgOpenGPS en AgIO sluiten</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Een back-up van je huidige installatie maken</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• De update installeren</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• AgOpenGPS herstarten</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Wil je doorgaan?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Geen updatebestand gevonden.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Plaats AgOpenGPS_X.Y.Z.zip in de hoofdmap van je USB-stick.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Update mislukt: {0}
+Back-up is hersteld.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Update mislukt: {0}
+Herstellen van de back-up is ook mislukt!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Update mislukt: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Back-up is hersteld.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Herstellen van de back-up is ook mislukt!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Update succesvol geïnstalleerd.
+{0}
+Back-up: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Update beschikbaar: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Schakelt automatisch na {0} mislukte pogingen</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpoints, dichtstbijzijnde eerst.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpoints.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Kan {0} niet vinden</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Controle mislukt: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>{1} kB ontvangen</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Laatste data {1d} seconden geleden.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Laatste data {1d} seconden geleden. Trage verbinding?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Correcties zijn {1d} seconden oud.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Afstand tot basisstation: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Je GPS: fixtype {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} actief (oude client)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} actief</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (oude client)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>{1} openen...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1} wacht op data</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profiel: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Opgeslagen in: {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Dit profiel overschrijven: {1}</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID '{1}' is geen geldig getal</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Er is een fout opgetreden: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP-fout: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Laadfout: {1}</value>
+  </data>
+  <data name="gsAlpha" xml:space="preserve">
+    <value>Alfa</value>
+  </data>
+  <data name="gsAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="gsAutoSwitchDualFix" xml:space="preserve">
+    <value>Auto Dual &lt;&gt; Fix</value>
+  </data>
+  <data name="gsFixAlarm" xml:space="preserve">
+    <value>RTK Fix-alarm</value>
+  </data>
+  <data name="gsHold" xml:space="preserve">
+    <value>Vasthouden</value>
+  </data>
+  <data name="gsPolygons" xml:space="preserve">
+    <value>Polygonen</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="v_AboutIntro" xml:space="preserve">
+    <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CANbus-adapter</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Netwerkadres van modules -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Herstart vereist</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Upload voltooid</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Fout bij laden van spoor</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Grens maken van sporen</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Sporen importeren uit ander veld</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS-melding</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>GPS-positie verschuiven (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Easy Drive: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK-fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>AB tekenen - Klik op 2 punten op de grens om te beginnen</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Geen naam</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 punten - Raster uitlijnen</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Nieuw record aanmaken</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Omgeving laden</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML-uitzondering</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antenne</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Differentieel</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Enkel</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD ingesteld op: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>ReceiveData-fout: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Verzendfout: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>SendData-fout: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP-server</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Officieel</value>
   </data>
 </root>

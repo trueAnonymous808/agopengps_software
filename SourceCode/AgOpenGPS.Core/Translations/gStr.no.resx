@@ -1050,7 +1050,7 @@ Rekkefølgen du trykker på dem, vil være rekkefølgen de vises i menyen fra bu
     <value>Styringsveiviser</value>
   </data>
   <data name="gsStopRecordPauseBoundary" xml:space="preserve">
-    <value>Stop Record Pause Boundary</value>
+    <value>Stopp opptak Pause Grense</value>
   </data>
   <data name="gsSvennArrow" xml:space="preserve">
     <value>Svenn pil</value>
@@ -1352,5 +1352,4757 @@ Last fra konfig-panel &amp; top venstre meny.</value>
   </data>
   <data name="gsEnterToolName" xml:space="preserve">
     <value>Navn på redskap</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Lukk</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Lagre som:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Slett</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Gi nytt navn</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Hjelp</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Avslutt</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Åpne:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Velg</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Velg fra listen...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Laster listen...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Klar...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopier</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Kopiert</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Kunne ikke kopiere</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopier til support</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Melding</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Valg</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Av</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Bruk</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Bare</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Eller</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Ganger</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Gjeldende</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Kommando</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Svar</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Angi verdi</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Angi en verdi</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Skriv inn noe</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Koble til</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Koble fra</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Ikke tilkoblet</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Auto-tilkobling</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Koble til GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Seriell port</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS-port</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS-port 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM-port</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Nettverksport</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radio på port</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Hastighet (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP-adresse</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP-adresse : port</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Vertsnavn</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Vertsnavn:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Passord</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Brukernavn</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Gjeldende subnett</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Sett subnett</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Angi ny subnettadresse</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Fyll ut automatisk</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Ingen adapter for dette subnettet</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Nettverk</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Ethernet-oppsett</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Slå på UDP og trykk OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP er av</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP av</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Overføringshastighet</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Sist sett</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Tilkoblet</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Av ved %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Jevn styringsvinkel!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>I bevegelse</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A og B byttet om</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>A til Z og 0 til 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS kjører allerede</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Alt grønt? Trykk Bygg eller korriger manuelt!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Bare bokstaver og tall</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Det oppsto en uventet feil som ble skrevet til hendelsesloggen. AgOpenGPS kjører videre.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap-feil</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Modus for å lage grense</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Byggingen mislyktes</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Knappefeil</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Kan ikke slette registrenøkkelen</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Registrert</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Kopiert til utklippstavlen, lim inn (CTRL-V) i Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Lag en sti først</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Feil ved oppretting</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Krysningsfeil</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Fant ingen krysninger</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Kurven er snudd</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Avstandsfeil</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Avstand satt til 0, ingenting å flytte</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Slå på styringsbryteren</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Miljøet er i bruk nå</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Feil ved søk etter breddegrad/lengdegrad</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Feil, kontroller formatet</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Feil ved import av spor:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Unntak</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>For stor styringsvinkel - kan ikke nullstilles</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Kunne ikke laste ned forhåndsvisning av skiftet. Se loggen for detaljer.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Kunne ikke laste ned skiftet.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Kunne ikke laste skiftelisten.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Kunne ikke laste skiftelisten.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Kunne ikke laste skiftelisten:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Kunne ikke laste spor:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Skiftet er lagret, men kunne ikke åpnes (Field.txt mangler).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Finner skjæringspunkter...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Fullfør alle innstillinger, eller tilbakestill til standard</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Flaggene er lagt til!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Flaggene er lagret!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Hurtigtast ufullstendig</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Ugyldig linje</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Ugyldig valg.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Er det kanskje bare 1 linje?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Linjefeil</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Lastefeil:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Sørg for at alle ender krysser, og bare én gang</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Kartet er for stort</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Maks 164 fot</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Maks 50 meter</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Må være større enn 5 grader</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Ingen innspilte stier</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Ingen valgt</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Ingen skifter er åpent nå.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Ingen skifter er valgt.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Fant ingen spor.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Kunne ikke lage en gyldig grense</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Ingen gyldig grense å lagre</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>For få knapper er lagt til</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Problem med valgfri fil</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Velg et skifte før du lagrer.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Velg et skifte først.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Velg minst ett skifte å laste opp</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Velg minst ett spor å importere.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Vent til opplastingen er ferdig</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Lagringsfeil</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Velg et annet miljø</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Satt til 99, maks 164 fot</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Satt til 99, maks 50 meter</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Startpunkt = sluttpunkt</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>For liten styringsvinkel</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Styring av</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Suksess!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Suksess</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Skiftet ble slettet lokalt, men kunne ikke fjernes fra AgShare.
+Fjern det manuelt.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>For bredt</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Redskapsfeil</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Trykk på kartet for å lage grensen</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Sporinfo</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Sporjustering mislyktes:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Opplasting pågår allerede</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Opplasting pågår</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Bruk bare AB-linje eller kurve</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Advarsel</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Redskapet ditt er for lite</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Skanner</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Skannesvar</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Modulskanning</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Modulsimulator</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Enhetsbehandling</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Sjekk tilkobling</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Sendt posisjon</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Mottatt</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>mislykte forsøk</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Send hvert (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Send tom GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Send NTRIP til GPS via:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>Seriell RTCM</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Bruk USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Bruk nett</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP-innstillinger</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP-detaljer</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP-profiler</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP-versjon</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP-feil</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Velg en NTRIP-profil</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Bruk NTRIP-klient</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Bruk gammel NTRIP-klient</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Rå TCP-strøm</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpoints</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Velg basestasjonen nærmest skiftet ditt.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Korreksjoner går til</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Bruk reservetjeneste når hovedtjenesten faller ut</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Bytt etter</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Hoved</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radio (ikke XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Radiokanal</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Radioinnstillinger</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanaler</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>En seriell radio er ikke en NTRIP-tjeneste. Korreksjonene brukes slik de kommer inn. En reservetjeneste tar over når radioen blir stille.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Breddegrad</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Breddegrad:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Lengdegrad</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Lengdegrad:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Lengde</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Høyde</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Høyde (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Høyde:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Høyde</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Retning</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Hastighet</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Hastighet:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Satellitter</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Satellitter:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>Antall sat.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Fix-kvalitet</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Fix-kvalitet:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Fix-kval.</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Alder</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Alder:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Dobbel</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Rull</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Rullkorrigert</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Rull:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Stamp</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Gir</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Girrate</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Forskyvning</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simuler data</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simulert</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Desimaler</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Hvor ofte</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Frekvens</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Systemdata</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AgOpenGPS-status:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Autostyring</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Styring</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Styring:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Styringsmodul</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Styringsknapp</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Styringsbryter</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Styringsbryter:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Styring ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Styring &#xD;
+oppsett</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Styring&#xD;
+innstilling</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Fra&#xD;
+autostyring</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Satt vinkel</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Faktisk vinkel</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Vinkel:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Maskin</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Maskin:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Maskinmodul</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Mask.</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Redskap ping:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Arbeid</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Arbeidsbryter</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Arbeid:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Bryter:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Løft på</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hydr. løft</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Hevetid</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Senketid</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min. fart</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Høy PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Lav PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Puls #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Pulstelling</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Pulser:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relé aktiv høy</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Trykk</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>U-sving</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Spor</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Opp</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Vilkår og betingelser</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube-veiledninger</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse-forum</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Avslå</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Godta</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Versjon:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Test tilkobling</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Fyll inn detaljer over og huk av Test tilkobling</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API-nøkkel:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Lim inn fra utklippstavlen</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Registrer deg her for å bruke AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Aktiver</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Auto-opplasting</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Bare lokalt</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Tittel</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Vi sees neste gang!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Kjøretøy / redskap...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulator på</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Angi sim.-koordinater</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Kioskmodus</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Nullstill alt</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Nullstill</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Veivisere</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Styringsveiviser</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Diagrammer</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Styringsdiagram</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Retningsdiagram</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Rullkorreksjonsdiagram</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Grenseverktøy</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Glatt AB-kurve</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Skjul konturstier</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Webkamera</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Forskyv fix</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       sek</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Oppsett</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Autostyring</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Vis alle innstillinger</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Mapper</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS-data</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Farger</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Seksjonsfarger</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Hurtigtaster</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Grense</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Vendeteig</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Vendeteig (bygg)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Sprøytespor</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Sprøytespor</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Slett bearbeidet</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Flagg etter koordinater</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Innspilt sti</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Importer spor</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Gjeldende skifte</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulator</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Autostyring av/på</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Trykk på knappen for å nullstille,&#xD;
+deretter ny tast</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Bytt linje</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Lukk skifte</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Oppdaterer</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Lag grense fra kartlegging</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Styring</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Maks vinkelhast.</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Styr under rygging</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Sidehellingskomp.</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino-styring</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Pulser/grad</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Høy styre-PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Lav styre-PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Min. styre-PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proporsjonal)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Min. styrefart</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Maks styrefart</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Funksjon fartsgrense</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geometri</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Kjøretøytype</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Sporbredde</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antenne–dreiepunkt</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Retningskilde</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Dual retn.-forskyv.</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual rygg.-avst.</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min. steggrense</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Fusjonsvekt</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual som IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Merke</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Traktormerke</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Skurtreskermerke</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Leddtraktormerke</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Mål</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Redskapsbredde</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Redskap overlapp</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Redskap forskyvning</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Antall seksjoner</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Slepekrok</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Tanksleping</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Sleping–dreiepunkt</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Redskapstype</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Slept</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Bakmontert</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (traktor–redskap–traktor)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Frontmontert</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Seksjoner</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Seksjoner (ikke soner)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Av utenfor</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Rask seksjon</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Look Ahead / timing</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Look Ahead på</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Look Ahead av</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Redskap av-forsink.</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Hydr. løft LA</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Vendeteig seksj.styr.</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Føring (per redskap)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Snap-avstand</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Snap-avstand ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Dødsone avstand</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Dødsone retning</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Dødsone forsinkelse</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley brukt</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley avst.-forst.</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley retn.-forst.</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley integral</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit integral</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Målpkt. opptaksfaktor</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Målpunkt hold</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Målpunkt multipl.</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Lavfartsgrense</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Arbeidsbryter</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Styring arbeidsbryter</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min. dekning</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── U-sving (per redskap)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Svingradius</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Avstand fra grense</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Hoppbredde</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Forlengelse</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>U-svingtype</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>U-sving glatting</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>U-sving kompens.</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Skjerm / meny</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Rutenett på</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Lysbjelke på</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Sidehjelpelinjer</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure på</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Fartsmåler på</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Lysbjelke (ikke styrebjelke)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Dagmodus</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Tastatur på</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Kjøretøybilde</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Tekstur på</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Lysstyrke på</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Logg høyde</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Slå av datamaskin</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Avslutt ved strømbrudd</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO autostart</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO auto av</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Lysbjelke cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Kamerazoom</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Kameravinkel</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Autostyring</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Føring look-ahead</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Autostyring auto på</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Konstant kontur</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Hjelpelinjer</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Antall hjelpelinjer</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS-alder alarm</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK-tap stopper styring</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Hopp-fix alarm</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Sim. breddegrad</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Sim. lengdegrad</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP-vakt ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Lyd</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>U-sving lyd</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Hydr. løft lyd</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Autostyring lyd</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Seksjon lyd</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Sprøytespor</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Sporpasseringer</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Sporgjennomsiktighet</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / globalt</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Rygging på</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Autobytte dual fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Autobytte fart</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Tegn dreiepunkt</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Vendeteig avst. på</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Grense redskap avst.</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Grense redskap glatt.</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Aktiv lav</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Manuelle seksjoner</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Ekstern arb.system</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Styring AB manuell</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min. retn.-stegavst.</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare aktivert</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Opplasting aktiv</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Offentlig skifte</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Annet</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Rutetid (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Tidsintervall</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Fix-kvalitet</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Satellitter fulgt</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Tapte UDP-setninger</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Retning</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU-retning</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Fix-til-fix-retning</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Fusjonert retning (grad)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Vinkelhastighet</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Program</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Versjon</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Kjøretøyfil</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Redskapsfil</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Innstilling</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Verdi</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Alle innstillinger</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Dette oppretter og laster den nye profilen.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Lukk skiftet før du kjører oppdatering</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Nytt flagg</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Manuell seksjon</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Auto seksjon</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Snap til dreiepunkt</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Flytt linje venstre</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Flytt linje høyre</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Kjøretøyinnstillinger</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Tilbakestill &#xD;
+til standard</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Seksjon eller sone</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Ny tast</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Fullskjerm&#xD;
+&#xD;
+NumPad1 - Manuell seksjon&#xD;
+NumPad0 - Auto seksjon</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Spørsmål</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Øst</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Nord</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Rå Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Ramme</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Tapt</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix2Fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Nord (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Vest (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Øst (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Sør (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Beholde forskyvningen selv etter at skiftet er lukket?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Kjøretøy</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Redskap</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Kjøretøynavn</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Akselavstand:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Ant.-dreiepunkt:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Ant.-forskyvn.:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Hengerfeste:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Redskapsnavn</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Bredde:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Seksjoner:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Forskyvning:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Overlapp:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Lookahead:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 sek</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Linjeskift:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Sporbredde:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Enheter:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metrisk</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Velg kjøretøytype</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Dekkevne</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Ingen bilde</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Foreløpig</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Til fil</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Klipp linje</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Zoom inn</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Bygg</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Alfa</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Filnavn</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Angi navn på opptaket</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; AV &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Legg til navn</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Kurve</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Rediger navn</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Dreiepunkt</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + kurve</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB-linje</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Bredde/lengde +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Bredde/lengde</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Lengdegrad (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Breddegrad (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Sprøyting</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Overfarter</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Spor</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Såing</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Modus</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Velg knapper</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG-meny</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Forhåndsvisning</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Flere farger</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Seksjonsfarge</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Rediger farge</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Dreiepunktavstand</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Antennehøyde</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Midt</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Antenneforskyvning</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Venstre</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Høyre</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual: posisjonsantennen er på høyre side</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Trekkrok lengde</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Akselavstand</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Festetype</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Overlapp / gap</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Overlapp</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Mellomrom</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Redskap offset retning</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Redskap høyre</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Redskap venstre</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Sone 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Sone 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Sone 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Sone 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Sone 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Sone 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Sone 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Sone 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/t</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Tomme</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Seksjonsbredde</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% dekning</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Soner</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Seksjoner</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Auto seksjoner</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Manuelle seksjoner</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Innstillinger for Look Ahead-tid</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>På (sek)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Av (sek)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Avslagsforsinkelse (sek)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Alarm stopper autostyring</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = av</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Fix-hoppavstand (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Innstillinger for dobbel antenne</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Byttefart</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto dual &lt;-&gt; fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Ryggeavstand (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Retningsforskyvning (grad)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Innstillinger for enkel antenne</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Standard: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Fusjon</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Ryggedeteksjon</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Fix-til-fix-avstand</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minimum GPS-steg</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Antennetype</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Inverter rull</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Nullstill rull</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Fjern forskyvning</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Mindre</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Mer</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Rullfilter</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Sett glatting til 3 eller 4 ganger radius</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Sett forlengelse til 2 eller 3 ganger radius&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Oppsett hydraulisk løft</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Plantetall</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Hydraulisk løft Look Ahead (sek)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Hevetid (sek)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Aktiver</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Senketid (sek)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Inverter releer</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Send + lagre</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Vis?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Overstyr</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Sporbredde</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Maskinvaremeldinger</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Avslutt ved strømbrudd</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>AgIO auto av?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Bunnmeny</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Nudge-knapper</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Høyremeny</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>AgIO autostart?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Du sving</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Lyd</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>U-sving</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Sideveis</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Skjul kontur</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB-glatting</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Innspilt sti</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Sprøytespor</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Skjermknapper</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Verktøymeny</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Skifte-meny</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>AV</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>PÅ</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Feilsøkingsverdier</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Vendeteig avst.</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Linjeglatting</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Seksjonslinjer</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Retningsmarkører</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Høyde</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn-pil</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Lysstyrke</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Skifte-tekstur</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Polygoner</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Start i fullskjerm</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Fartsmåler</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Hjelpelinjer</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Rutenett</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Gjeldende kjøretøy</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Gjeldende redskap</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Tommer</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Redskapsbredde:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Fot</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Faktisk:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Satt:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Feil:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Eller +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Styringsvinkel:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Diameter:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Opptak:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Den øker styringsvinkelen sakte for å redusere sidefeil</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Sakte</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Raskt</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Respons styring</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Look Ahead min.</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Look Ahead</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley-forsterkning</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Maks styringsvinkel</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV faktisk:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV satt:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Pulser per grad</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS nullpunkt</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Opptaksfaktor</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Avstand:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Fartsfaktor</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Dødsone -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Hold:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Opptak = faktor * hold</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>På-forsinkelse (sek)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Retning (grad)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Forsterkning</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimum for bevegelse</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Maksimumsgrense</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proporsjonal forsterkning</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Sidehelling: grader sving per grad rull</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Knapp - trykk på, trykk av&#xD;
+Bryter - inntrykt på, sluppet av</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Trykksensor</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Strømsensor</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Pulssensor</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Inverter motorretning</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Styring på</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Motordriver</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A/D-omformer</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Svingsensor</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Inverter WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Nullstill alt til standard</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X- eller Y-akse</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Sikkerhet: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Prøver: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Styre under rygging?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Inn</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Ut</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>U-sving kompensasjon</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/t</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Maks fart</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/t</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Manuelle svinger</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Linjebredde</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>piksler</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Nudge-avstand</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Føringsbjelke</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Styrebjelke</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>På/Av</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Lysbjelke</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm per piksel</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Sekunder</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Søketid for neste føringslinje</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Veiviser</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Feil:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Lav</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Sidehelling grader per grad rull</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Look Ahead (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Look Ahead fartsforsterkning</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimum bevegelse</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maksimum</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Kjør rett frem og trykk Null</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Trykksensor for sving</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Strømsensor for sving</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Invertere hydraulikkreléet?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Modus for styring på</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Hvilken type motordriver?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Tilkobling av A/D-omformer?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Sving-pulser</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Bruker du en Danfoss-ventil?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Fri kjøring</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Start veiviser</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Sterkt anbefalt</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Last standardverdier</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Sett akselavstand</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Sett sporvidde</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Sporvidde</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Antenne&#xD;
+posisjon</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Angi antennens avstand fra dreieaksel</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Antenne&#xD;
+høyde</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Sett antennehøyde</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = av</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Sett antenneforskyvning</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D-omformer</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Motordriverkort</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Styrerelé</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfoss-ventil</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Hvis ikke, velg Inverter rull</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Len kjøretøyet kraftig mot høyre. Rull mot høyre må være POSITIV.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Rullfunksjon</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Parker på flatt underlag og trykk «Nullstill rull»</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Rull null</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Inverter WAS-retning</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Gjeldende retning:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WAS-nullstilling</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Inverter retning</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Styremotorens retning</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Start * kalibrering</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WAS-kalibrering</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* HOPP OVER * Pulser per grad og Ackermann-innstilling?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Startvinkel:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Tilbakestill til 100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Ackermann-verdi:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Sett</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Sving rattet til ønsket grense for føring og trykk OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Styringsvinkelgrense for føring</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Eller sett styringsvinkelgrensen manuelt</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Automatisk avbrytingsfunksjon</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Nødstoppfart</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Auto-opplasting: last opp endringer i skiftet ved lukking&#xD;
+Skylasting: last alltid ned siste versjon fra AgShare ved åpning</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Nullstill sim&#xD;
+U - U-sving (180 grader)&#xD;
+&#xD;
+Pil opp - Raskere&#xD;
+Pil ned - Saktere&#xD;
+Pil venstre - Venstre&#xD;
+Pil høyre - Høyre&#xD;
+&#xD;
+( . ) Punktum - Stopp&#xD;
+( / ) Skråstrek - Rett frem</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Denne forskyvningen legges til breddegrad og lengdegrad og lagres i filen FIELD.KML når skiftet lukkes.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Kjøretøyinnstillingene heter nå «profiler» og&#xD;
+kan opprettes/lastes i hovedmenyen (øverst til venstre).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Trykk på knappene på venstre side du vil ha i menyen (høyre side). &#xD;
+&#xD;
+Rekkefølgen du trykker dem i blir rekkefølgen i menyen nedenfra og opp.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Sving rattet mot HØYRE ca. 20 grader.&#xD;
+Mens du kjører i en jevn sirkel, trykk Rec og vent.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Knapp - trykk og slipp: på.   &#xD;
+               trykk og slipp: av&#xD;
+&#xD;
+Bryter - mens inntrykt: på. &#xD;
+               sluppet: av.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Kjør sakte og slå på autostyring. Inverter retning hvis styremotoren dreier feil vei.&#xD;
+Test med pilene.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Styringsvinkelen må være POSITIV ved sving mot HØYRE.&#xD;
+Hvis ikke, velg Inverter WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Sving rattet mot VENSTRE omtrent like mange grader som mot høyre.&#xD;
+Mens du kjører i en jevn sirkel, trykk Rec og vent.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Endre settpunkt med styreknappene. &#xD;
+&#xD;
+Still minimum bevegelse så høyt som mulig uten at styremotoren eller hydraulikken beveger styringen</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Kjør nå en AB-linje og finjuster innstillingene etter fart og jordforhold.&#xD;
+&#xD;
+Husk: CPD, Min PWM og Look Ahead er kritiske innstillinger.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Gamle profiler hadde alle innstillinger i én fil. Det nye formatet skiller kjøretøy, redskap og miljø. Velg hva du vil hente ut.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Firmware-oppdatering&#xD;
+&#xD;
+Denne funksjonen er under utvikling.&#xD;
+&#xD;
+Fremtidige muligheter:&#xD;
+&#xD;
+• Velg firmware .hex-fil&#xD;
+• Velg kommunikasjonsport (fra AgIO-innstillingene)&#xD;
+• Start TeensyLoaderCLI med parametere&#xD;
+• Last opp firmware til Teensy-enheten&#xD;
+• Fremdriftsindikator&#xD;
+&#xD;
+TeensyLoader-integrasjon:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Bryter</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Knapp</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Velg en gammel profilfil</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Velg hva som skal konverteres (kjøretøy og/eller redskap)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Brukt:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Faktisk:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/t</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ t</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/t</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Kjør sakte rett frem og la systemet styre</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Innstilling for minimum bevegelse</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Null eller +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Still proporsjonal for god respons. &#xD;
+Still PWM maksimum for å begrense svingehastigheten.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Kjør fremover og slå på autostyring</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Forsterkningsinnstilling</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Slutt</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Start veiviseren på nytt</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Ferdig !</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Fremdrift:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Pulser/grad</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WAS-forskyvning</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Retning:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Korrigert øst</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Korreksjonsavstand</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Rull (grader)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Rulling på/av</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Stang</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Glatt</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Direkte</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Kameraoppførsel</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Tilbakestill til standard</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>( +90 til -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>( +180 til -180 )</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Kjøretøy: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Redskap: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Miljø: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Miljø</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>System / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Settpunkt</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Faktisk</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Angi skiftenavn</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Areal:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Punkter:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Tilgjengelige spor</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Tilgjengelige skifter</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Fjern alle valg</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Velg alle</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Velg et skifte til venstre, og velg deretter spor som skal kopieres</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Skiftenavn</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Avslutt til Windows om:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Slå av om:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Slå av</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Velg bort/velg spor som skal brukes</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Kort inn B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Kort inn A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Forleng B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Forleng A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Forrige</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Auto-søk</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Skifte</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Overskriv</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Hent valgte</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Hent alle</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Laster ned... Vent litt</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Lengde:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Bredde:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Avstand til flagg:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Punkt A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Importer flagg</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Eksporter flagg</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Grenser</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Gjennom?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Areal</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Avstand (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Legg til punkter</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Punkter som skal behandles:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Punkter</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare-opplasting</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare-nedlasting</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Fra KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Åpne</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Kjør inn</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Fortsett</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Eksisterende</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Nytt skifte</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Forrige skifte</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Arbeidsbredde</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Ny grense</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Bakgrunn</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Skiftenavn</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Last opp valgte</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Rediger skiftenavn</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Linjer</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Kartlegging</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Flagg</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Sorter</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Igjen:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Rate:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Totalt:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Bearbeidet:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Bearbeidet</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Avst.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Tur</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Avstand (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Bruk valgt</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Bruk valgt</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Slett skifte</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Opptaksnavn</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Slett opptak</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Sti av</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Natt</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Gjeldende: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Valgt: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Ant.-dreiepunkt:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Ant.-forskyvn.:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Sporbredde:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Feste:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Slepefeste:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Konverter gamle profiler</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Miljøer</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Filnavn</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Konverter gamle profilfiler til nytt format</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Konverter</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>Steg 2: Velg hva som skal konverteres (kjøretøy og/eller redskap):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Konverter redskap</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Navn på redskapsprofil:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Navn på kjøretøyprofil:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Konverter kjøretøy</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>Steg 1: Velg en gammel profilfil:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Navn:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Opprett</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopier fra:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Ugyldig:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS enkel:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Estimert:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Manuell:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim.:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Ukjent:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Alder:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Ingen nettverkstilkobling.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Tilkoblet. Venter på korreksjoner.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Korreksjonene stoppet. Kobler til på nytt.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Tilkoblet, men ingenting kommer inn. Noen tjenester trenger posisjonen din: kontroller at GPS-posisjon er slått på.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Tjenesten avsluttet tilkoblingen. Kobler til på nytt.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Tjenesten avsluttet tilkoblingen uten å sende korreksjoner.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Mottar korreksjoner</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Tjenesten sendte et svar AgIO ikke kan lese.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Tjenesten sendte ingen liste over mountpoints.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Tjenesten sendte et tomt svar.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Dette mountpointet finnes ikke hos tjenesten. Velg ett fra listen.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Denne adressen svarte med en nettside, ikke en NTRIP-tjeneste. Kontroller adressen og porten.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Brukernavn, passord eller mountpoint er feil.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Dette mountpointet finnes ikke hos tjenesten. Kontroller stavemåten, store og små bokstaver har betydning.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Tjenesten kan ikke ta imot flere tilkoblinger akkurat nå. Den er opptatt, eller denne påloggingen er allerede i bruk.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Tjenesten starter opp. AgIO prøver igjen om ca. ett minutt.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Denne tjenesten krever e-postadressen din som brukernavn.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Brukernavn eller passord er feil.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Tjenesten nektet tilgang.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Tjenesten svarte noe AgIO ikke forstår.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Radioen er åpen. Venter på korreksjoner.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Radioen er åpen, men ingenting kommer inn.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Mottar korreksjoner fra radioen.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Tilbake på hovedtjenesten</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Korreksjonene kommer nå fra hovedtjenesten igjen.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Hovedtjenesten er tilbake</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Bytte tilbake til den? GPS-en kan miste RTK et øyeblikk. AgIO bytter aldri tilbake av seg selv.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Hovedtjenesten har et problem</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Byttet til reservetjenesten</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Du byttet til reservetjenesten.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>ingen korreksjoner</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Alt i orden: korreksjoner kommer inn.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profilen har ikke noe navn.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS-observasjoner (eldre)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS-observasjoner (eldre)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>produsentspesifikk</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>basestasjonsposisjon</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>basestasjonsposisjon + antennehøyde</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>antennebeskrivelse</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>systemparametere</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS-efemerider</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS-efemerider</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>mottaker- og antennebeskrivelse</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou-efemerider</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS-efemerider</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo-efemerider</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS kodefase-avvik</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>tekst</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>tom</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Trykk ny hurtigtast</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Trykk på knappen for å endre hurtigtast</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Ikke tilkoblet</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Sett avstand, 2: Trykk Bygg, 3: Lag klipplinjer</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE-diagram</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Kjør jevnt</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Klar til bruk</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Samler inn...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Feil, CPD satt til 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann satt til:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Feil, Ackermann satt til 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Velg en rute nedenfor og velg ny farge</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Velg forhåndsvalgt farge</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Velg ny farge og en rute nedenfor for å lagre forhåndsvalget</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Fant ikke skiftemappen</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Feil ved lasting av skifter</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Fant ingen spor i dette skiftet</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Feil ved lasting av spor</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Lagrer gjeldende spor...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Konverterer spor...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Lagrer spor...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Valgt skifte:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Feil ved lasting av skifter:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Enkel kjøring aktiv</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Last miljø:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Kjøretøy:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Redskap:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Miljø:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Kritisk lagringsfeil</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Feil ved avslutning</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Retning nullstilt</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Fremover er satt</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Autostyring av</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Nudge-vindu åpent</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Lukk nudge-vinduet</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Advarsel: lang avstand til skiftets startpunkt</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare-opplasting mislyktes</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Det oppsto en feil ved start av opplasting til AgShare.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Det oppsto en feil under opplasting til AgShare.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Skiftet er IKKE lagret</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Lagringen mislyktes, så skiftet ble stående åpent. Sjekk ledig diskplass og prøv igjen.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Fortsettelsesmåte</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Siste stoppested</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Nærmeste punkt</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Start fra begynnelsen</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Kan ikke brukes med soner</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Bare for seksjoner</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Enkel kjøring</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Profiler er ikke tilgjengelige i Enkel kjøring</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Seksjonene er på</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Slå av auto eller manuell først</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Nullstill retning</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Kjør fremover &gt; 1,5 km/t</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autostyring slått av</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK-fix alarm</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Spor endret</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Stier aktivert</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Sim.: rygging aktivert</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Hurtigtast utløst</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Innstillinger sendt til styringsmodulen</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Tilbake fra redigering</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Fant ikke oppdateringsprogrammet. Kontroller at AgOpenGPS.Updater.exe ligger i programmappen.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Fant ikke oppdatering</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>For få punkter til å lage en grense</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Kan ikke beregne midten av skiftet. Mangler ytre grense eller AB-linje.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Du kan ikke ha flere soner enn seksjoner</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulatoren er av</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulatoren fungerer ikke mens en ekte antenne brukes</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Tilbakestilt til standard</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Verdiene er satt til opprinnelig standard</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Utenfor område</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Forskyvningen er for stor - kan ikke brukes</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Smart WAS-nullstilling</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Standardverdier satt</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD og Ackermann satt til standard</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>P-forsterkning endret</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proporsjonal forsterkning satt til 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profiler opprettet</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Standardprofiler er opprettet</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Miljøinnstillingene er nullstilt!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Miljøinnstillingene er lastet!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Fant ikke profilfilene!
+
+Profilene i registeret finnes ikke.
+Velg eller opprett nye profiler.
+
+Miljøet bruker standardverdier hvis ingen velges.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Fant ingen profiler.
+
+Bruk «Ny» for å opprette kjøretøy- og redskapsprofiler.
+
+Miljøet bruker standardverdier hvis ingen velges.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Alvorlig feil ved skiftets utgangspunkt&#xD;
+&#xD;
+Skiftets utgangspunkt er mer enn 20 km fra gjeldende GPS-posisjon. Slett dette skiftet og lag et nytt, ellers blir nøyaktigheten dårlig&#xD;
+&#xD;
+Eller du har et skifte åpent og har kjørt langt unna</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Advarsel: Hvis du lukker AgIO, stopper kommunikasjonen med maskinvaren.&#xD;
+Er du sikker på at du vil lukke?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Opp + ned</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Ned</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Auto-skjul</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto&#xD;
+start</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profiler</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Gjeldende profil</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Gjeldende profil</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Ny profil</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Ny:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Bruker profil:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: administrer profiler</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Overskriv denne profilen:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Avanserte innstillinger</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS-innstillinger</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Oppsett av seriell gjennomføring</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Seriell gjennomføring på</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>Annen port enn GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Start minimert</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>Vis AgIO ved advarsel</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>GPS-Out autostart</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Vis&#xD;
+ved&#xD;
+advarsel</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Hendelseslogg</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Seriell monitor</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP-monitor</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN-veiledning</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Veiledning -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Tastatur</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Meldingsteksten vises her</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO-melding</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo-melding</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP-detaljer</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP er av</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>RESERVE I BRUK</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Er korreksjonene gode?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Bytt til reserve</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Prøv hovedtjenesten igjen</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Bytt tilbake til hoved</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Tilkoblet, venter på data</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Kobler til...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Fant ikke mountpoint</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Kan ikke logge inn</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Stoppet</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Tjenesten starter opp</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Tjenesten er opptatt</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Tilkoblet, ingenting kommer inn</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Ingen nettverk</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Kobler til på nytt...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Tjenestens svar forstås ikke</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Kan ikke nå tjenesten</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Korreksjoner kommer inn</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Denne strømmen kan ikke kontrolleres i detalj.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Basestasjonens posisjon mottatt</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Basestasjonens posisjon</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Venter på den. Den kommer hvert 10. sekund.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Basestasjonens posisjon mangler</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>RTK kan ikke starte uten den.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Ikke mottatt ennå.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Avstand til basestasjon</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Venter på GPS-posisjonen din.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>For langt unna for god RTK. Velg en basestasjon nærmere.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Langt unna. RTK er mindre nøyaktig på denne avstanden.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Fra den faste posisjonen i NTRIP-innstillingene.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Satellitter i korreksjonene</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Ingen satellittdata i korreksjonene</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Basestasjonen sender ingen observasjoner.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Ingenting mottatt ennå.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Ferske data</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Venter på første data.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Dataene er forsinket</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Ingen nye data</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Din GPS: RTK fix</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Din GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Jobber fortsatt med det. Vent litt.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Din GPS: ingen RTK ennå</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Bare vanlig GPS-nøyaktighet.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>GPS-en din har ingen fix</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>GPS-en din er i manuell modus eller simulatormodus</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Ingen adresse</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Fyll inn adressen først.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Ingen port</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Kunne ikke lagre</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Feil ved åpning av port</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>Kan ikke bruke NTRIP ennå</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Velg en profil og trykk Bruk først.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Profilen i bruk har ingen tjenesteadresse eller radioport ennå. Rediger den først.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Kan ikke lese den</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Denne profilfilen kunne ikke leses.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Kan ikke gi nytt navn</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Det navnet er allerede i bruk.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Advarsel ved lasting av profil</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profilgjenoppretting</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>AgIO-profilen ble gjenopprettet fra .last-sikkerhetskopien fordi hovedfilen ikke kunne leses.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Filen er lagret</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Ugyldig ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Ugyldig navn</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Navn er ikke fylt ut</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Ugyldig frekvens</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Frekvens er ikke fylt ut</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Ingen kanal</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Radioen er slått på, men ingen kanal er valgt</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP er også aktivert</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP er også aktivert, slår det av</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO bruker standardprofil</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Bruker standardprofil</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Radio-NTRIP på</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Seriell NTRIP på</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Seriell gjennomføring på</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Slå på NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Feil ved tilkobling til seriell gjennomføring</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Feil ved tilkobling til radio</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP satt</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Fant ingen fil</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Angi et filnavn for å lagre...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Lagre og gå tilbake</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Kan ikke koble til porten</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Tilkoblingen er allerede avsluttet?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Tilkoblingen er allerede avsluttet??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Ingen aktiv Arduino-port</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Alvorlig nettverksfeil</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Kritisk registerfeil</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Kan ikke slette registernøkkelen</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController er ikke installert??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Radioen er på. Slå den av i radioinnstillingene først.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Seriell gjennomføring er på. Slå den av først.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP er på. Slå det av i NTRIP-profillisten først.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Avstand</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Tøm</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Feil&#xD;
+melding</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Melding 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Modul 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Seriell monitor - baud: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Send $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Send $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Rull: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Styring: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/t:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/t: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP-utgang</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>En fast posisjon</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>En annen NTRIP-tjeneste</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automatisk</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Begge</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Reserve</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Jeg bytter selv</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Hovedtjeneste</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Mitt AIO-kort (nettverk)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Min GPS-mottaker (seriell)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Min GPS-posisjon</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP-tjeneste</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Utgang og posisjon</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Seriell radio</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Bytter automatisk</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>I BRUK NÅ</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>I BRUK</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>HOVEDTJENESTE</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>RESERVE</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Av. Ingen ekstra tjeneste brukes.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(ingen port ennå)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Du bytter manuelt</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Rå TCP (uten mountpoint eller pålogging)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Ingen mountpoint valgt</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Ikke fylt ut ennå</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Trenger posisjonen din</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Sted</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(ikke lagret ennå)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Velg radioens port først.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Velg radioport for å bruke reserve</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Fyll inn caster-informasjon for å bruke reserve</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Ingen profiler ennå.&#xD;
+&#xD;
+Trykk Ny profil for å lage en.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Denne profilen er ikke fylt ut ennå.&#xD;
+Trykk Rediger for å fylle inn hovedtjenesten.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>Ingen NTRIP-profil er valgt ennå. Velg eller lag en i NTRIP-innstillingene.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>Velg porten til hovedradioen i NTRIP-profilen.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP er tilbake</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Korreksjonene kommer inn igjen.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP-pålogging avvist</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP-mountpoint ikke funnet</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP-caster opptatt</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP ingen korreksjoner</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP-strøm tapt</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP ikke tilkoblet</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP av</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP lytter</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Tilkoblingsproblem</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Kobler ikke til castern</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>fant ingen IPv4-adresse</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP-tilkobling mislyktes</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP-tilkobling avvist</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Castern avsluttet tilkoblingen uten å sende data (sjekk mountpoint og påloggingsinfo)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP-klient er ikke satt opp</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Velg en eksisterende profil eller opprett en ny</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Opprett eller velg en profil</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Slå den av før du bruker seriell gjennomføring</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Slå den av før du bruker NTRIP</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Slå den av før du bruker radio-NTRIP</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Radio-NTRIP på</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Nye verdier er tatt i bruk</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP på</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP er på</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO starter på nytt for å slå på UDP-nettverk</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO starter på nytt for å slå av UDP-nettverk</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim starter på nytt for å ta i bruk UDP-nettverksendringer</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Manuell IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Oppdateringsfeil</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS-oppdatering</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Vent litt...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Vent litt</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Vent til pågående operasjon er ferdig.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Sjekker GitHub-utgivelser...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Sjekker USB-stasjon...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>Fant ingen oppdatering på USB-stasjonen.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Lukker AgOpenGPS og AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Programmene er lukket</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Laster ned fra GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Nedlasting mislyktes</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Nedlasting mislyktes</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopierer fra USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopiering mislyktes</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopiering mislyktes</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Installasjon mislyktes</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Installasjon mislyktes</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Ferdig! Starter på nytt...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Ferdig!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Oppdateringen ble avbrutt.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Ingen utgivelsesnotater tilgjengelig.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Utgivelseskandidat</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Nedlasting mislyktes: filstørrelsen stemmer ikke med utgivelsen.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Nedlasting mislyktes: sjekksummen stemmer ikke med utgivelsen, filen ble ikke installert.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Fant ingen passende nedlastingsfil i denne utgivelsen.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Et annet oppdateringsprogram kjører allerede.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Ingen programmer kjørte.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Programmene ble lukket.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Fant ikke oppdateringsfilen.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Installasjonsmappen finnes ikke.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Lager sikkerhetskopi...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Pakker ut filer...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Installerer filer...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>Fant ikke AgOpenGPS.exe i installasjonsmappen.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS er startet på nytt.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Se etter oppdateringer</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Installer oppdatering</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Inkluder forhåndsutgivelser</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Firmware-oppdatering</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS firmware-oppdatering</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS-oppdaterer</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Utgivelsesnotater</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Vis utgivelsesnotater</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Utgivelsesnotater vises her.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Gjeldende versjon: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Siste versjon: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Siste versjon: oppdatert</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Nettoppdatering - trykk Se etter oppdateringer</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Nettoppdatering (GitHub)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Nettoppdatering (lokal oppdatering tilgjengelig)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Lokal: fant ingen AgOpenGPS_*.zip på USB</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Lokal: legg AgOpenGPS.zip i roten av USB-stasjonen</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController er ikke installert, last ned fra:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linux-brukere</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Kun Linux !</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Avslutter</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profilen kunne ikke lastes helt (filen kan være ødelagt).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profilen ble gjenopprettet fra .last-sikkerhetskopien fordi hovedfilen ikke kunne leses.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Velg porten til hovedradioen først.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Fyll inn adressen til hovedtjenesten først.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Eller slå NTRIP av i profillisten.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Gå til Innstillinger -&gt; COM-porter for å rette opp</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Gjeldende økt bruker standardverdier for manglende/ugyldige verdier.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIO-profilen kunne ikke lastes helt (filen kan være ødelagt).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIP-profilen «</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>» finnes ikke på denne datamaskinen. Velg eller lag en profil i NTRIP-innstillingene.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>» har ingen tjenesteadresse ennå.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Reserven fungerer heller ikke:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Ingen korreksjoner på</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO fortsetter å prøve.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> sekunder</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minutter</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>RESERVE I BRUK: hovedtjenesten brukes ikke nå</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>Basestasjon-ID:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Posisjon:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Skadede data:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Tjenesten svarte:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Kobler til om</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Kan ikke slå opp caster-adressen:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Simulerte data</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   INGEN DATA</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Oppdateringsprogrammet må startes fra AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Start AgOpenGPS først og bruk:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Meny → Verktøy → Se etter oppdateringer</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>Dette trengs for å finne gjeldende versjon.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Installer oppdatering fra</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Kilde:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Dette vil:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Lukke AgOpenGPS og AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Lage en sikkerhetskopi av gjeldende installasjon</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Installere oppdateringen</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Starte AgOpenGPS på nytt</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Vil du fortsette?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Fant ingen oppdateringsfil.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Legg AgOpenGPS_X.Y.Z.zip i roten av USB-stasjonen.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Oppdateringen mislyktes: {0}
+Sikkerhetskopien ble gjenopprettet.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Oppdateringen mislyktes: {0}
+Gjenoppretting av sikkerhetskopien mislyktes også!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Oppdateringen mislyktes: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Sikkerhetskopien ble gjenopprettet.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Gjenoppretting av sikkerhetskopien mislyktes også!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Oppdateringen er installert.
+{0}
+Sikkerhetskopi: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Oppdatering tilgjengelig: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Bytter automatisk etter {0} mislykkede forsøk</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpoints, nærmeste først.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpoints.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Finner ikke {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Kontrollen mislyktes: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>{1} kB mottatt</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Siste data for {1d} sekunder siden.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Siste data for {1d} sekunder siden. Treg tilkobling?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Korreksjonene er {1d} sekunder gamle.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Avstand til basestasjon: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Din GPS: fix-type {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} aktiv (gammel klient)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} aktiv</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (gammel klient)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Åpner {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1} venter på data</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profil: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Til {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Overskriv: {1}</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID «{1}» er ikke et gyldig tall</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Det oppsto en feil: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP-feil: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Lastefeil: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Aktiver</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Aktivert</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>API-nøkkel</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Skylasting</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Autoopplasting</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Autoopplasting: last opp endringer i skiftet ved lukking
+Skylasting: hent alltid siste versjon fra AgShare ved åpning</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Kobler til...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Tilkobling vellykket</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Deaktivert</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Skriv inn server og API-nøkkel, og test deretter tilkoblingen</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Ugyldig API-nøkkel</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Kun lokalt</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Lim inn fra utklippstavle</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Registrer deg her for å bruke AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Innstillinger lagret</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare-innstillinger</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Test tilkobling</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Opplasting av</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Opplasting på</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Skifter lastes automatisk fra skyen</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Skifte lastet fra AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Kunne ikke laste skifte fra skyen, bruker lokal versjon.</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Hurtigstart med GPS-veiledning. Angi arbeidsbredde og trekkrokslengde, og lag deretter en AB-linje eller kurve. Ingenting lagres på disk.</value>
+  </data>
+  <data name="gsExitToWindows" xml:space="preserve">
+    <value>Avslutter til Windows om</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="gsPlantPop" xml:space="preserve">
+    <value>Plantetall</value>
+  </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Miljø</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Miljøinnstillinger</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Miljøinnstillinger lagret.</value>
+  </data>
+  <data name="gsTermsConditions" xml:space="preserve">
+    <value>Vilkår og betingelser</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="gsYouTubeTutorials" xml:space="preserve">
+    <value>YouTube-veiledninger</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Antennedreiepunkt</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Feste</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>Trekkrok</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Leddstyrt</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Bakmontert</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Tilhenger</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Lag standard kjøretøy</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Lage en «Standard» kjøretøyprofil med fabrikkinnstillinger?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Overskriv</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Profilen finnes allerede. Overskriv</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Lag standard redskap</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Lage en «Standard» redskapsprofil med fabrikkinnstillinger?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Standard kjøretøy lastet</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Standard redskap lastet</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Konverter gamle profiler</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Kjøretøy / redskap</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Konverter gamle profilfiler til nytt format</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Gamle profiler inneholdt alle innstillinger i én fil. Det nye formatet skiller mellom kjøretøy, redskap og miljø. Velg hva du vil hente ut.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>Trinn 1</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>Trinn 2</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Navn på kjøretøyprofil</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Navn på redskapsprofil</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Importer kjøretøy</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Importer redskap</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Ingen import</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Fant ingen filer i gammelt format.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>gamle filer</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>gamle fil(er): konvertert, skal konverteres</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>konvertert</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>skal konverteres</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Konverter</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Bekreft konvertering</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Konverter '{0}': {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Konverter</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Kjøretøy</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Redskap</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Konvertering fullført</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Konvertert</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Miljøinnstillingene er importert og lastet.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Konverteringsfeil</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Det oppstod feil</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Last kjøretøy/redskap</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Finnes</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Filnavn</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Kjøretøyet finnes allerede</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Redskapet finnes allerede</value>
+  </data>
+  <data name="v_AboutIntro" xml:space="preserve">
+    <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CANbus-adapter</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Modulenes nettverksadresse -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Omstart kreves</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Opplasting fullført</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Feil ved lasting av spor</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Bygg grense fra spor</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Importer spor fra et annet jorde</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS-melding</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Forskyv GPS-posisjon (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Easy Drive: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Tegn AB - Klikk på 2 punkter på grensen for å starte</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Uten navn</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 punkter - Juster rutenett</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Opprett ny post</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Last inn miljø</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML-feil</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antenne</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Differensial</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Enkel</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD satt til: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Feil ved mottak av data: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Sendefeil: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Feil ved sending av data: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP-server</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Offisiell</value>
   </data>
 </root>

@@ -1266,7 +1266,4843 @@
     <value>Профіль</value>
   </data>
   <data name="gsProfileMenuHint" xml:space="preserve">
-    <value>Vehicle, Tool and Environment settings are now stored as separate profiles.
-Load from Config panel &amp; Top Left Menu.</value>
+    <value>Налаштування машини, знаряддя та середовища тепер зберігаються в окремих профілях.
+Завантажуйте з панелі конфігурації та верхнього лівого меню.</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Зберегти як:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Перейменувати</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>За замовч.</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Помилка</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Вихід</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Відкрити:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Вибрати зі списку...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Завантаження списку...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Готово...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Скопійовано</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Не вдалося скопіювати</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Копіювати для підтримки</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Стан</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Параметри</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Показати</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Увімк.</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Вимк.</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Викор.</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Лише</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Або</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Час</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Разів</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Поточний</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Відповідь</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Фільтр</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Введіть значення</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Введіть значення</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Введіть значення</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Підключити</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Відключити</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Не підключено</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Автопідключення</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Підключити GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Послідовний порт</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>Порт GPS</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>Порт GPS 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>Порт RTCM</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Мережевий порт</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Радіо на порту</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Швидкість (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Адреса</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP-адреса</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP-адреса : порт</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Ім'я хоста</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Ім'я хоста:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Ім'я користувача</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Поточна підмережа</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Задати</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Введіть адресу нової підмережі</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Заповнити автоматично</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Немає адаптера для цієї підмережі</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Мережа</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Налаштування Ethernet</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Увімкніть UDP і натисніть OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP вимкнено</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP вимк.</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Швидкість передачі</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Востаннє</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Підключено</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Вимк. при %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Стабільний кут керма!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>Рух</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A і B поміняно місцями</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>Від A до Z і від 0 до 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS уже запущено</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Усе зелене? Натисніть «Побудувати» або виправте вручну!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Лише літери й цифри</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Сталася неочікувана помилка, її записано в журнал подій. AgOpenGPS продовжує працювати.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>Помилка BingMap</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Режим створення межі</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Побудова не вдалася</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Помилка кнопки</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Не вдалося видалити гілку реєстру</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Захоплено</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Скопійовано в буфер, вставте (CTRL-V) у Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Спершу створіть шлях</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Помилка створення</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Помилка перетинів</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Перетини не знайдено</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Криву розвернуто</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Помилка відстані</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Відстань 0, нічого переміщувати</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Увімкніть перемикач керування</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Це середовище зараз використовується</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Помилка пошуку широти/довготи</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Помилка, перевірте формат</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Помилка імпорту треків:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Виняток</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Завеликий кут керма – не можна обнулити</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Не вдалося завантажити перегляд поля. Подробиці в журналі.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Не вдалося завантажити поле.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Не вдалося завантажити список полів.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Не вдалося завантажити список полів.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Не вдалося завантажити список полів:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Не вдалося завантажити треки:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Поле збережено, але його не вдалося відкрити (немає Field.txt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Пошук перетинів...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Завершіть усі налаштування або скиньте до типових</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Прапорці додано!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Прапорці збережено!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Комбінація клавіш неповна</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Недійсна лінія</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Недійсний вибір.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Можливо, там лише 1 лінія?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Помилка лінії</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Помилка завантаження:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Переконайтеся, що кожен кінець перетинається лише один раз</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Карта завелика</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Макс. 164 фути</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Макс. 50 метрів</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Має бути більше 5 градусів</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Немає записаних шляхів</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Нічого не вибрано</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Зараз немає відкритого поля.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Поле не вибрано.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Треків не знайдено.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Не вдалося створити коректну межу</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Немає коректної межі для збереження</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Додано замало кнопок</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Проблема з додатковим файлом</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Перед збереженням виберіть поле.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Спершу виберіть поле.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Виберіть принаймні одне поле для вивантаження</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Виберіть принаймні один трек для імпорту.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Дочекайтеся завершення вивантаження</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Помилка збереження</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Виберіть інше середовище</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Задано 99, макс. 164 фути</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Задано 99, макс. 50 метрів</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Початкова точка = кінцева</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Замалий кут керма</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Керування вимкнено</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Успіх!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Успішно</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Поле видалено локально, але не вдалося видалити його з AgShare.
+Видаліть його вручну.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Завелика ширина</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Помилка знаряддя</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Торкніться карти, щоб створити межу</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Інформація про трек</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Не вдалося змінити трек:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Вивантаження вже триває</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Триває вивантаження</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Лише лінія AB або крива</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Увага</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Ваше знаряддя замале</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Відповідь модуля</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Пошук модулів</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Симуляція модуля</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Диспетчер пристроїв</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Перевірте підключення</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Надіслана позиція</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Отримані дані</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>невдалих спроб</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Надсилати кожні (с)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Надсилати порожній GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Надсилати NTRIP на GPS через:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM через послід. порт</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Оновити через USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Оновити через інтернет</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>Налаштування NTRIP</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>Дані NTRIP</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>Профілі NTRIP</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>Версія NTRIP</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>Помилки NTRIP</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Виберіть профіль NTRIP</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Викор. клієнт NTRIP</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Старий клієнт NTRIP</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Сирий потік TCP</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Доступні mountpoint</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Виберіть базову станцію, найближчу до вашого поля.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Поправки надходять на</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Викор. резервний сервіс, якщо основний недоступний</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Перемкнути після</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Основний</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Радіо</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Радіо (не XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Радіоканал</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Налаштування радіо</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Канали</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Послідовне радіо не є сервісом NTRIP: поправки використовуються в міру надходження. Якщо радіо замовкне, його замінить резервний сервіс.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Широта</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Широта:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Довгота</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Довгота:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Шир.</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Довг.</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Висота</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Висота (м)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Висота:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Висота</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Курс</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Швидкість</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Швидкість:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Супутн.</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Супутн.:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>К-сть супутн.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Якість фікса</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Якість фікса:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Якість фікса</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Вік поправок</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Вік:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Дві антени</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Крен</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>З корекцією крену</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Крен:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Тангаж</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Рискання</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Швидк. рискання</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Зсув</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Симулювати дані</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Симульовано</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Знаків після коми</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Дані системи</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>Стан AgOpenGPS:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Автокерування</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Кермо</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Кермо:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Модуль керма</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Кнопка керма</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Перемикач керма</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Перемикач керма:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Пінг керма:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Налашт. &#xD;
+керма</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Налашт.&#xD;
+керма</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Від&#xD;
+автокерув.</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Заданий кут</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Поточний кут</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Кут:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Агрегат</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Агрегат:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Модуль агрегата</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Агр.</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Пінг знаряддя:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Робота</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Перемикач роботи</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Робота:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Перемик.:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Підйом дозв.</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Гідропідйом</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Час підйому</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Час опускання</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Мін. швидкість</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Мін. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Макс. PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Низький PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Імпульсів</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>К-сть імпульсів</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Імпульси:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Реле: високий</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Тиск</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Аккерман</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Розворот</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Техн.</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Актив.</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Умови використання</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>Відеоуроки YouTube</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Форум Discourse</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Не погоджуюсь</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Погоджуюсь</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Версія:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Перевірити підключення</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Введіть дані вище й поставте позначку «Перевірити підключення»</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>Ключ API:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Вставити з буфера</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Зареєструйтесь тут, щоб користуватись AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Активувати</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Автовивантаження</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Лише локально</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ До зустрічі!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Транспорт / знаряддя...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Симулятор увімк.</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Координати симулятора</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Режим кіоска</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Скинути все</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Скинути</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Майстри</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Майстер керма</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Діаграми</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Діаграма керування</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Діаграма курсу</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Діаграма корекції крену</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Інструмент меж</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Згладити криву AB</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Сховати контури</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Вебкамера</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Зсув фікса</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Фікс      с</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Усі</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Автокерування</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Усі налаштування</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Папки</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>Дані GPS</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Кольори</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Кольори розділів</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Гарячі клавіші</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Межа</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Відступ</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Відступ (побудова)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Техн. колії</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Техн. колії</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Видал. оброблене</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Прапор за коорд.</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Записаний шлях</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Імпорт треків</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Поточне поле</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Симулятор</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Автокерув. вмик/вимк</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Торкніться кнопки для скидання,&#xD;
+потім натисніть нову клавішу</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Зміна ліній</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Закрити поле</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Оновлення</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Створити межу з картування</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Керування</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Макс. кутова шв.</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Керування заднім ходом</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Компенс. схилу</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Керування Arduino</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Імпульсів/градус</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Макс. PWM керма</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Низький PWM керма</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Мін. PWM керма</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (пропорційний)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Мін. швидкість керув.</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Макс. швидкість керув.</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Обмеж. швидк. функції</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Геометрія</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Тип транспорту</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Ширина колії</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Антена–шарнір</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Джерело курсу</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Зсув курсу Dual</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Відст. заднього ходу Dual</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Мін. крок</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Вага злиття</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual як IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Марка</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Марка трактора</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Марка комбайна</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Марка зчленованого</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Розміри</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Ширина знаряддя</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Перекриття знаряддя</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Зсув знаряддя</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>К-сть розділів</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Причіпне зчеплення</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Причіпна цистерна</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Причіп до шарніра</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Тип знаряддя</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Причіпне</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Заднє жорстке</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (трактор–знаряддя–трактор)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Фронтальне</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Розділи</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Розділи (не зони)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Вимк. при виході</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Швидкий розділ</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Випередження / час</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Випередження ув.</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Випередження вим.</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Затримка вимк. знаряддя</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Гідропідйом випер.</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Розділи на відступі</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Наведення (для знаряддя)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Відстань прив'язки</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Відст. прив'язки ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Відст. мертвої зони</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Курс мертвої зони</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Затримка мертвої зони</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Викор. Stanley</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley: підсил. відст.</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley: підсил. курсу</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Інтеграл Stanley</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>Інтеграл PurePursuit</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Коеф. захоплення цілі</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Утримання цілі</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Множник цілі</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Поріг малої швидкості</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Перемикач роботи</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Перемикач роботи керма</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Мін. покриття</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Розворот (для знаряддя)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Радіус розвороту</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Відстань від межі</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Ширина пропуску</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Довжина подовження</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Стиль розвороту</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Згладж. розвороту</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Компенс. розвороту</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Екран / меню</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Сітка ув.</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Світлобар ув.</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Бічні напрямні</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure ув.</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Спідометр ув.</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Світлобар (не кермо-бар)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Денний режим</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Клавіатура ув.</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Зображення транспорту</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Текстура ув.</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Яскравість ув.</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Журнал висоти</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Вимкнути комп'ютер</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Вимк. при втраті живлення</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>Автозапуск AgIO</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>Автовимк. AgIO</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Світлобар см/пкс</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Масштаб камери</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Нахил камери</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Автокерування</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Випередження наведення</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Автокерув. автоувімк.</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Постійний контур</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Напрямні</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>К-сть напрямних</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>Сигнал віку GPS</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK збій: керма вимк.</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Сигнал стрибка фікса</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Шир. симулятора</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Довг. симулятора</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>Контроль UDP мс</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Звук</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Звук розвороту</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Звук гідропідйому</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Звук автокерув.</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Звук розділів</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Техн. колія</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Проходи техн. колії</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Прозорість техн. колії</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / загальне</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Задній хід ув.</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Автоперемик. Dual: Fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Швидкість автоперемик.</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Показати шарнір</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Відст. відступу ув.</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Крок знаряддя меж</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Згладж. знаряддя меж</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Активний низький</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Ручні розділи</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Дистанц. система роботи</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Кермо ПР ручне</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Мін. крок курсу</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare увімк.</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Вивантаження активне</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Публічне поле</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Інше</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / фікс</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Час кадру (мс)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Часовий зріз</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Якість фікса</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Відстежено супутн.</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Пропущені UDP-речення</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Курс</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>Курс IMU</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Курс фікс–фікс</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Об'єднаний курс (град)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Кутова швидкість</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Програма</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Версія</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Файл транспорту</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Файл знаряддя</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Параметр</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Значення</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Усі налаштування</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Буде створено й завантажено новий профіль.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Щоб запустити оновлення, спершу закрийте поле</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Новий прапор</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Ручний розділ</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Авторозділ</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Прив'язка до шарніра</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Лінія вліво</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Лінія вправо</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Налаштування транспорту</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Типові &#xD;
+значення</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Розділ або зона</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Нова клавіша</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Повний екран&#xD;
+&#xD;
+NumPad1 - Ручний розділ&#xD;
+NumPad0 - Авторозділ</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Запит</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Схід (X)</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Північ (Y)</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>мс</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Сирі Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Кадр</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Пропущ.</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Фікс–фікс</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Північ (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Захід (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Схід (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Південь (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Зберегти зсув і після закриття поля?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Транспорт</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Знаряддя</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Назва транспорту</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Трактор</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Колісна база:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Антена–шарнір:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Зсув антени:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Зчеплення:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Назва знаряддя</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Ширина:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Розділи:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Зсув:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Перекриття:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Випередження:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 с</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Зсув лінії:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Ширина техн. колії:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Одиниці:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Метричні</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Виберіть тип транспорту</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Непрозорість</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Немає зображення</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Поки що</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>У файл</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Обрізати лінію</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Збільшити</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Побудувати</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Прозорість</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Ім'я файлу</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Введіть назву запису</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; ВИМК &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Стан:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Додати назву</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Крива</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Змінити назву</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Шарнір</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + крива</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>Лінія AB</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Шир./Довг. +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Шир./Довг.</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Довгота (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Широта (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Обприскування</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Проходи</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Трек</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Сівба</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Вибір кнопок</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>Меню AOG</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Різнокольоровий</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Колір розділу</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Змінити колір</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Відстань до шарніра</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Висота антени</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Центр</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Зсув антени</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Ліво</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Право</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual: антена позиції справа</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Довжина зчеплення</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Колісна база</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Тип причеплення</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Перекриття / пропуск</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Перекриття</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Пропуск</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Напрямок зсуву знаряддя</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Знаряддя праворуч</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Знаряддя ліворуч</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Зона 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Зона 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Зона 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Зона 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Зона 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Зона 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Зона 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Зона 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>км/год</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Дюйм</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Ширина розділу</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% покриття</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Зони</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Розділи</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Авторозділи</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Ручні розділи</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Налаштування часу випередження</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Увімк. (с)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Вимк. (с)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Затримка вимкнення (с)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Сигнал зупиняє автокерування</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = вимкнено</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Відстань стрибка фікса (см)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Налаштування Dual-антен</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Швидкість перемикання</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Авто Dual ↔ Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Відстань заднього ходу (м)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Зсув курсу (град)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Налаштування однієї антени</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Типово: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Злиття</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Визначення заднього ходу</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Відстань фікс–фікс</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Мінімальний крок GPS</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Тип антени</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Інвертувати крен</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Обнулити крен</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Прибрати зсув</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Менше</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Більше</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Фільтр крену</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Згладжування задайте 3–4 радіуси</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Довжину подовження задайте 2–3 радіуси&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Налаштування гідропідйому</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Густота рослин</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Випередження гідропідйому (с)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Час підйому (с)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Дозволити</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Час опускання (с)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Інвертувати реле</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Надіслати й зберегти</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Показувати?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Перевизначити</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Ширина техн. колії</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Повідомлення обладнання</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Вимкнення при втраті живлення</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>Автовимкнення AgIO?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Нижнє меню</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Кнопки зсуву</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Праве меню</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>Автозапуск AgIO?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Розворот</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Звук</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Авторозворот</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Бічний</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Сховати контур</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>Згладж. AB</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Запис. шлях</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Техн. колії</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Екранні кнопки</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Меню інструментів</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Меню поля</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>ВИМК</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>УВІМК</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Значення налагодження</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Відстань відступу</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Згладж. лінії</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Лінії розділів</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Маркери напрямку</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Висота</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Одиниці</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Стрілка Svenn</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Яскравість</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Текстура поля</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Багатокутники</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Запуск на весь екран</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Спідометр</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Напрямні</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Сітка</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Поточний транспорт</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Поточне знаряддя</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Дюйми</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Ширина знаряддя:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Фути</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Факт:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Задано:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Пох.:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Або +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Кут керма:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Діаметр:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Захоплення:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Кут керма повільно збільшуватиметься, щоб зменшити бічне відхилення</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Повільно</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Швидко</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Реакція керма</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Інтеграл</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Мін. випередження</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Випередження</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Підсилення Stanley</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Макс. кут керма</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV факт:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV задано:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Імпульсів на градус</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>Нуль WAS</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Коеф. захоплення</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Відстань:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Коеф. швидкості</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ----- Мертва зона ----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Утримання:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Захоплення = коеф. × утримання</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Затримка вмикання (с)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Курс (град)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Підсилення</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Мінімум для руху</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Верхня межа</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Пропорційне підсилення</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Поворот на схилі: градусів на градус крену</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Кнопка – натисн. вмикає, ще раз вимикає&#xD;
+Перемикач – натиснуто ув., відпущено вим.</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Датчик тиску</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Датчик струму</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Датчик імпульсів</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Інвертувати напрям двигуна</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Дозвіл керування</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Драйвер двигуна</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>АЦП</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Датчик повороту</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Інвертувати WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Скинути все до типових</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>Вісь IMU X або Y</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Розумний WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Достовірність: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Вибірок: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Керування заднім ходом?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Вхід</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Вихід</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Компенсація розвороту</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>км/год</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Макс. швидкість</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>км/год</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Ручні розвороти</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Товщина лінії</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>пікселів</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Відстань зсуву</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Панель наведення</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Панель керма</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Вкл./Вимк.</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Світлобар</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>см / піксель</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Секунди</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Час пошуку наступної лінії наведення</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Майстер</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Помилка:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Низький</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Градусів на схилі на градус крену</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Випередження (м)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Залежність випередження від швидкості</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>Мін. PWM для руху</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>Максимальний PWM</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Їдьте прямо вперед і натисніть «Нуль»</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Датчик тиску повороту</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Датчик струму повороту</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Інвертувати реле гідравліки?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Режим дозволу керування</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Який тип драйвера двигуна?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Підключення АЦП?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Імпульси повороту</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Використовуєте клапан Danfoss?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Вільний рух</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Запустити майстер</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Наполегливо рекомендовано</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Завантажити типові</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Задати колісну базу</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Задати ширину колії</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Колія коліс</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Позиція&#xD;
+антени</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Задайте відстань від антени до осі шарніра</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Висота&#xD;
+антени</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Задати висоту антени</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = вимк.</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Задати зсув антени</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>АЦП</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Плата драйвера двигуна</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Реле керування драйвером</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Клапан Danfoss</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Якщо ні, виберіть «Інвертувати крен»</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Нахиліть транспорт сильно вправо. Крен вправо має бути ДОДАТНИМ.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Функція крену</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Станьте на рівну поверхню й натисніть «Обнулити крен»</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Нуль крену</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Інвертувати напрям WAS</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Поточний курс:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>Обнулення WAS</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Інвертувати напрям</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Напрям двигуна керма</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Почати * калібрування</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>Калібрування WAS</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* ПРОПУСТИТИ *  Імпульси на градус і налаштування Аккермана?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Початковий кут:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Скинути до 100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Значення Аккермана:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Задати</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Поверніть кермо до потрібної межі для наведення й натисніть OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Межа кута керма для наведення</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Або задайте межу кута керма вручну</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Функція автоскасування</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Швидкість аварійної зупинки</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Нуль</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Автовивантаження: вивантажувати зміни поля при закритті&#xD;
+Завантаження з хмари: при відкритті завжди завантажувати найновіше з AgShare</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R – скинути симулятор&#xD;
+U – розворот (180 градусів)&#xD;
+&#xD;
+Стрілка вгору – швидше&#xD;
+Стрілка вниз – повільніше&#xD;
+Стрілка вліво – ліворуч&#xD;
+Стрілка вправо – праворуч&#xD;
+&#xD;
+( . ) Крапка – зупинка&#xD;
+( / ) Скісна риска – прямо</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Цей зсув додається до широти й довготи та зберігається у файл FIELD.KML при закритті поля.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Налаштування транспорту тепер називаються «профілями»,&#xD;
+їх можна створювати й завантажувати в головному меню (угорі ліворуч).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Торкніться кнопок ліворуч, які мають з'явитися в меню (праворуч). &#xD;
+&#xD;
+У меню вони йтимуть у порядку натискання, знизу вгору.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Поверніть кермо ВПРАВО приблизно на 20 градусів.&#xD;
+Рухаючись по сталому колу, натисніть Rec і зачекайте.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Кнопка – натисн. і відпустити: ув.   &#xD;
+               натисн. і відпустити: вим.&#xD;
+&#xD;
+Перемикач – натиснуто: ув. &#xD;
+               відпущено: вим.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Їдьте повільно й увімкніть автокерування. Якщо двигун керма крутиться не в той бік, інвертуйте напрям.&#xD;
+Перевірте стрілками.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Кут керма має бути ДОДАТНІМ при повороті ВПРАВО.&#xD;
+Якщо ні, виберіть «Інвертувати WAS».</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Поверніть кермо ВЛІВО приблизно на стільки ж градусів, як вправо.&#xD;
+Рухаючись по сталому колу, натисніть Rec і зачекайте.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Змініть задане значення кнопками керма. &#xD;
+&#xD;
+Встановіть мінімальний рух якомога вищим, але так, щоб двигун керма чи гідравліка не рухали кермо</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Тепер проїдьте лінію AB і точно налаштуйте параметри відповідно до швидкості й стану ґрунту.&#xD;
+&#xD;
+Пам'ятайте: CPD, мін. PWM і випередження є критичними параметрами.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Старі профілі містили всі налаштування в одному файлі. Новий формат розділяє транспорт, знаряддя й середовище. Виберіть, що потрібно витягти.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Оновлення прошивки&#xD;
+&#xD;
+Ця функція в розробці.&#xD;
+&#xD;
+У майбутньому буде можливо:&#xD;
+&#xD;
+• Вибрати файл прошивки .hex&#xD;
+• Вибрати порт зв'язку (з налаштувань AgIO)&#xD;
+• Запустити TeensyLoaderCLI з параметрами&#xD;
+• Завантажити прошивку в пристрій Teensy&#xD;
+• Індикатор прогресу&#xD;
+&#xD;
+Інтеграція TeensyLoader:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Немає</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Перемикач</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Кнопка</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Виберіть старий профіль</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Що конвертувати (транспорт / знаряддя)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Внесено:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Факт:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>га/год</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ год</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ак/год</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Їдьте повільно прямо вперед, дозвольте системі керувати</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Налаштування мінімального руху</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Нуль або +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Задайте пропорційне підсилення для доброї реакції. &#xD;
+Максимальним PWM обмежте швидкість повороту.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Їдьте вперед і увімкніть автокерування</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Налаштування підсилення</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Кінець</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Перезапустити майстер</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Готово!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Прогрес:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Імпульсів/град</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>Зсув WAS</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Курс:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Скоригований схід</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Відстань корекції</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Крен (град)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Прокрутка вкл/вимк</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Жердина</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Плавно</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Напряму</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Поведінка камери</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Скинути до типових</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 … -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 … -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Транспорт: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Знаряддя: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Середовище: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Середовище</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Система / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Задане значення</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Фактичне</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Введіть назву поля</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Площа:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Точки:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Доступні треки</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Доступні поля</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Імпорт</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Зняти вибір</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Вибрати все</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Виберіть поле ліворуч, потім позначте треки для копіювання</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Назва поля</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Вихід у Windows через:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Вимкнення через:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Вимкнення</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Позначте треки для використання</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Вкоротити B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Вкоротити A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Подовжити B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Подовжити A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Далі</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Автопошук</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Поле</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Перезаписати</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Завантажити вибрані</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Завантажити всі</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Завантаження... Зачекайте</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Довг.:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Шир.:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Відстань до прапора:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Точка A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Імпорт прапорів</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Експорт прапорів</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Межі</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Наскрізь?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Площа</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Крок (м)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Додати точки</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Точок до обробки:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Точки</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>Вивантаження в AgShare</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>Завантаження з AgShare</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>З KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Заїзд</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Продовжити</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Наявні</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Нове поле</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Попереднє поле</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Робоча ширина</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Нова межа</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Тло</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Назва поля</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Вивантажити вибрані</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Змінити назву поля</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Лінії</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Картування</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Прапори</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Сортувати</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Залишок:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Норма:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Усього:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Оброблено:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Оброблено</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Відст.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Поїздка</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Відстань (км)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Викор. вибране</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Викор. вибране</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Видалити поле</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Назва запису</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Видалити запис</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Шлях вимк.</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>День</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Ніч</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Поточний: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Вибраний: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Антена–шарнір:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Зсув антени:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Ширина колії:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Причеплення:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Причіпне зчеплення:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Завантажити</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Конвертувати старі профілі</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Середовища</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Ім'я файлу</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Конвертувати старі профілі в новий формат</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Конвертувати</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>Крок 2: виберіть, що конвертувати (транспорт і/або знаряддя):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Конвертувати знаряддя</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Назва профілю знаряддя:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Назва профілю транспорту:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Конвертувати транспорт</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>Крок 1: виберіть старий профіль:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Назва:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Створити</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Копіювати з:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Недійсно:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS (одиночн.):</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK Float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Оцінка:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Ручн. IP:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Сим.:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Невідомо:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Вік:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Немає підключення до мережі.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Підключено. Очікування поправок.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Поправки припинилися. Повторне підключення.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Підключено, але дані не надходять. Деякі сервіси потребують вашої позиції: перевірте, чи увімкнено надсилання позиції GPS.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Сервіс розірвав з'єднання. Повторне підключення.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Сервіс розірвав з'єднання, не надіславши поправок.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Поправки надходять</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Сервіс надіслав відповідь, яку AgIO не може прочитати.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Сервіс не надіслав список mountpoint.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Сервіс надіслав порожню відповідь.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Цього mountpoint немає на сервісі. Виберіть один зі списку.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Ця адреса відповіла веб-сторінкою, а не сервісом NTRIP. Перевірте адресу й порт.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Ім'я користувача, пароль або mountpoint неправильні.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Цього mountpoint немає на сервісі. Перевірте написання, регістр має значення.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Сервіс зараз не може прийняти ще одне з'єднання. Він зайнятий, або цей логін уже використовується.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Сервіс запускається. AgIO повторить спробу приблизно за хвилину.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Цей сервіс вимагає вашу адресу e-mail як ім'я користувача.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Ім'я користувача або пароль неправильні.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Сервіс відмовив у доступі.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Сервіс надіслав відповідь, якої AgIO не розуміє.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Радіо відкрито. Очікування поправок.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Радіо відкрито, але дані не надходять.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Поправки надходять з радіо.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Знову основний сервіс</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Поправки знову надходять з основного сервісу.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Основний сервіс знову працює</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Перемкнутися назад? GPS може на мить втратити RTK. AgIO ніколи не перемикається назад сам.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Проблема з основним сервісом</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Перемкнено на резервний</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Ви перемкнулися на резервний сервіс.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>немає поправок</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Усе добре: поправки надходять.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>У профілю немає назви.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>Спостереження GPS (застаріле)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>Спостереження GLONASS (застаріле)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>власний формат</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>позиція бази</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>позиція бази + висота антени</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>опис антени</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>параметри системи</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>ефемериди GPS</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>ефемериди GLONASS</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>опис приймача й антени</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>ефемериди BeiDou</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>ефемериди QZSS</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>ефемериди Galileo</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>кодово-фазові зсуви GLONASS</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>текст</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>порожньо</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Натисніть нову комбінацію клавіш</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Натисніть кнопку, щоб змінити комбінацію</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Не підключено</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: задайте відстань, 2: натисніть «Побудувати», 3: створіть лінії обрізання</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>Діаграма XTE</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Їдьте рівно</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Готово до застосування</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Збір даних...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Помилка, CPD встановлено 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Аккерман встановлено:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Помилка, Аккерман встановлено 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Виберіть квадрат нижче й оберіть новий колір</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Виберіть готовий колір</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Оберіть новий колір і виберіть квадрат нижче, щоб зберегти</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Папку полів не знайдено</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Помилка завантаження полів</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>У цьому полі немає треків</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Помилка завантаження треків</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Збереження поточних треків...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Конвертація треків...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Збереження треків...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Вибране поле:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Помилка завантаження полів:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Easy Drive активний</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Завантажити середовище:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Транспорт:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Знаряддя:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Середовище:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Критична помилка збереження</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Помилка вимкнення</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Напрямок скинуто</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Напрямок вперед задано</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Автокерування вимкнено</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Вікно зсуву відкрито</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Закрийте вікно зсуву</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Велика відстань до початку поля</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>Вивантаження в AgShare не вдалося</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Помилка під час запуску вивантаження в AgShare.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Помилка під час вивантаження в AgShare.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Поле НЕ збережено</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Не вдалося зберегти поле, тому його залишено відкритим. Перевірте вільне місце на диску й повторіть спробу.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Спосіб продовження</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>З місця останньої зупинки</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>З найближчої точки</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>З початку</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Не можна з зонами</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Лише для розділів</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Easy Drive</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Профілі недоступні в режимі Easy Drive</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Розділи увімкнено</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Спершу вимкніть авто- або ручний режим</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Скинути напрямок</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Їдьте вперед зі швидкістю понад 1,5 км/год</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Автокерування вимкнено</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>Сигнал RTK Fix</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Трек змінено</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Шляхи ввімкнено</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Симулятор: увімкнено задній хід</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Гарячу клавішу натиснуто</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Налаштування надіслано в модуль керма</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Повернення з редагування</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Програму оновлення не знайдено. Переконайтеся, що AgOpenGPS.Updater.exe є в папці програми.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Програму оновлення не знайдено</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Замало точок для створення межі</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Не вдалося обчислити центр поля. Немає зовнішньої межі або лінії AB.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Зон не може бути більше, ніж розділів</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Симулятор вимкнено</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Симулятор не працює, поки використовується справжня антена</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Скинуто до типових</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Значення скинуто до початкових типових</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Поза діапазоном</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Зсув завеликий – не можна застосувати</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Розумне обнулення WAS</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Типові значення задано</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD і Аккермана скинуто до типових</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>Зміна підсилення P</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Пропорційне підсилення встановлено 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Профілі створено</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Типові профілі створено</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Налаштування середовища скинуто!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Налаштування середовища завантажено!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Файли профілів не знайдено!
+
+Профілі з реєстру не знайдено.
+Виберіть або створіть нові профілі.
+
+Якщо нічого не вибрати, середовище використає типові значення.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Профілів немає.
+
+Натисніть «Новий», щоб створити профілі транспорту й знаряддя.
+
+Якщо нічого не вибрати, середовище використає типові значення.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Серйозна помилка початку поля&#xD;
+&#xD;
+Початок поля далі ніж за 20 км від поточної позиції GPS. Видаліть це поле й створіть нове, бо точність буде низькою&#xD;
+&#xD;
+Або поле відкрите, а ви від'їхали далеко</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Увага: закриття AgIO припинить зв'язок з обладнанням.&#xD;
+Ви впевнені, що хочете закрити?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Обидва</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Неактив.</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Автосховування</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Авто&#xD;
+запуск</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Профіль</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Профілі</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Поточний профіль</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Поточний профіль</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Новий профіль</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Новий:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Використ. профіль:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: керування профілями</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Перезаписати профіль:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Додаткові налаштування</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>Налаштування ISOBUS</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Налаштування послідовної передачі</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Послід. передача ув.</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>RTCM йде на іншому порту, ніж GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Запуск згорнутим</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO спливає при попередженні</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>Автозапуск GPS-Out</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Показ.&#xD;
+при&#xD;
+попередж.</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Журнал подій</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Послідовний монітор</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>Монітор UDP</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>Довідник PGN</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Довідник -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Клавіатура</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Тут буде текст повідомлення</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>Повідомлення AgIO</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>Повідомлення AgTwo</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Зупинити</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Запустити</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>Дані NTRIP</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP вимкнено</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>ВИКОРИСТОВУЄТЬСЯ РЕЗЕРВНИЙ</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Стан поправок:</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Перемкнути на резервний</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Спробувати основний ще раз</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Назад на основний</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Підключено, очікування даних</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Підключення...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint не знайдено</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Не вдалося увійти</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Зупинено</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Сервіс запускається</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Сервіс зайнятий</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Підключено, дані не надходять</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Немає мережі</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Повторне підключення...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Відповідь сервісу незрозуміла</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Сервіс недоступний</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Поправки надходять</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Цей потік неможливо перевірити докладно.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Позицію базової станції отримано</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Позиція базової станції</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Очікування. Надходить кожні 10 секунд.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Немає позиції базової станції</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>Без неї RTK не запуститься.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Ще не отримано.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Відстань до базової станції</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Очікування позиції вашого GPS.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Надто далеко для якісного RTK. Виберіть ближчу базову станцію.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Далеко. На такій відстані RTK менш точний.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>За фіксованою позицією з налаштувань NTRIP.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Супутники в поправках</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>У поправках немає даних про супутники</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Базова станція не надсилає спостережень.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Ще нічого не отримано.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Свіжі дані</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Очікування перших даних.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Дані запізнюються</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Немає нових даних</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Ваш GPS: RTK Fixed</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Ваш GPS: RTK Float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Ще визначає позицію. Зачекайте трохи.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Ваш GPS: RTK ще немає</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Лише звичайна точність GPS.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Ваш GPS не має фікса</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Ваш GPS у ручному режимі або режимі симулятора</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Немає адреси</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Спершу введіть адресу.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Немає порту</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Не вдалося зберегти</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Помилка відкриття порту</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP ще не можна використовувати</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Спершу виберіть профіль і натисніть «Викор.».</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>У використовуваному профілі ще немає адреси сервісу чи порту радіо. Спершу відредагуйте його.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Не вдалося прочитати</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Цей файл профілю не вдалося прочитати.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Не вдалося перейменувати</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Така назва вже використовується.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Попередження завантаження профілю</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Відновлення профілю</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>Основний файл профілю AgIO не читався, тому профіль відновлено з резервної копії .last.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Файл збережено</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Недійсний ідентифікатор</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Недійсна назва</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Назву не заповнено</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Недійсна частота</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Частоту не заповнено</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Канал не вибрано</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Радіо ввімкнено, але канал не вибрано</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP теж увімкнено</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP теж був увімкнений, тому його вимкнено</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO працює з типовим профілем</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Використовується типовий профіль</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Радіо NTRIP увімкнено</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Послідовний NTRIP увімкнено</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Послідовну передачу NTRIP увімкнено</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Увімкніть NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Помилка підключення до послідовної передачі</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Помилка підключення до радіо</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP-адресу задано</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Файл не знайдено</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Введіть назву файлу для збереження...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Зберегти й повернутися</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Не вдалося підключитися до порту</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>З'єднання вже розірвано?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>З'єднання вже розірвано??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Немає активного порту Arduino</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Серйозна помилка мережі</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Критична помилка реєстру</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Не вдалося видалити гілку реєстру</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController не встановлено??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Радіо увімкнено. Спершу вимкніть його в налаштуваннях радіо.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Послідовну передачу увімкнено. Спершу вимкніть її.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP увімкнено. Спершу вимкніть його у списку профілів NTRIP.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Відстань</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Очист.</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Повідом-&#xD;
+лення про помилку</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Повідомлення 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Модуль 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Послідовний монітор – baud: Teensy – 115200   Arduino – 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Надіслати $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Надіслати $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Крен: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Кермо: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>км/год:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>км/год: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>м/с:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>м/с: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>Вихід NTRIP</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Фіксована позиція</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Інший сервіс NTRIP</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Автоматично</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Обидва</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Резервний</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Перемикаю сам</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Основний сервіс</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Моя плата AIO (мережа)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Мій GPS-приймач (послід.)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Позиція мого GPS</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>Сервіс NTRIP</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Вихід і позиція</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Послідовне радіо</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Перемикати автоматично</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>ВИКОРИСТОВУЄТЬСЯ</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>ВИКОРИСТ.</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>ОСНОВНИЙ СЕРВІС</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>РЕЗЕРВНИЙ</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Вимкнено. Другий сервіс не використовується.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(порту ще немає)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Ви перемикаєте вручну</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Сирий TCP (без mountpoint і логіна)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Mountpoint не вибрано</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Ще не заповнено</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Потрібна ваша позиція</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Місце</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(ще не збережено)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Спершу виберіть порт радіо.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Виберіть порт радіо, щоб користуватись резервним</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Введіть дані кастера, щоб користуватись резервним</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Профілів ще немає.&#xD;
+&#xD;
+Натисніть «Новий профіль», щоб створити.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Цей профіль ще не заповнено.&#xD;
+Натисніть «Редагувати», щоб указати основний сервіс.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>Профіль NTRIP ще не вибрано. Виберіть або створіть його в налаштуваннях NTRIP.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>Виберіть порт основного радіо в профілі NTRIP.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP знову в мережі</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Поправки знову надходять.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP: вхід відхилено</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP: mountpoint не знайдено</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP: кастер зайнятий</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP: немає поправок</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP: потік втрачено</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP: не підключено</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP вимк.</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP: очікування</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Проблема з'єднання</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Не вдається підключитися до кастера</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>IPv4-адресу не знайдено</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>Помилка підключення NTRIP</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>Підключення NTRIP відхилено</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Кастер розірвав з'єднання, не надіславши даних (перевірте mountpoint і облікові дані)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>Клієнт NTRIP не налаштовано</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Виберіть наявний профіль або створіть новий</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Створіть або виберіть профіль</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Вимкніть це перед використанням послідовної передачі</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Вимкніть це перед використанням NTRIP</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Вимкніть це перед використанням радіо NTRIP</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Радіо NTRIP увімкнено</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Нові значення застосовано</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP увімк.</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP увімкнено</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO перезапуститься, щоб увімкнути мережу UDP</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO перезапуститься, щоб вимкнути мережу UDP</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim перезапуститься, щоб застосувати зміни мережі UDP</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Ручн. IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Помилка оновлення</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>Оновлення AgOpenGPS</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Зачекайте...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Зачекайте</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Зачекайте завершення поточної операції.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Перевірка випусків на GitHub...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Перевірка USB-накопичувача...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>На USB-накопичувачі оновлення не знайдено.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Закриття AgOpenGPS і AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Програми закрито</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Завантаження з GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Помилка завантаження</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Помилка завантаження</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Копіювання з USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Помилка копіювання</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Помилка копіювання</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Помилка встановлення</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Помилка встановлення</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Готово! Перезапуск...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Готово!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Оновлення скасовано.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Опису випуску немає.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Реліз-кандидат</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Завантаження не вдалося: розмір файлу не збігається з випуском.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Завантаження не вдалося: контрольна сума не збігається з випуском, файл не встановлено.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>У цьому випуску немає відповідного файлу для завантаження.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Інший екземпляр програми оновлення вже запущено.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Жодна програма не була запущена.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Програми успішно закрито.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Файл оновлення не знайдено.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Папки встановлення не існує.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Створення резервної копії...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Розпакування файлів...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Встановлення файлів...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe не знайдено в папці встановлення.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS успішно перезапущено.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Перевірити оновлення</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Встановити оновлення</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Включно з пререлізами</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Оновлення прошивки</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>Оновлення прошивки AgOpenGPS</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>Оновлення AgOpenGPS</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Примітки до випуску</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Переглянути примітки до випуску</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Примітки до випуску з'являться тут.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Поточна версія: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Остання версія: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Остання версія: актуальна</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Оновлення з інтернету – натисніть «Перевірити оновлення»</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Оновлення з інтернету (GitHub)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Оновлення з інтернету (є локальне оновлення)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Локально: на USB немає AgOpenGPS_*.zip</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Локально: покладіть AgOpenGPS.zip у корінь USB-накопичувача</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController не встановлено, завантажте звідси:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Для користувачів Linux</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Лише для Linux!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Вихід</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> профіль завантажено не повністю (файл може бути пошкоджений).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> профіль відновлено з резервної копії .last, бо основний файл не читався.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Спершу виберіть порт основного радіо.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Спершу введіть адресу основного сервісу.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Або вимкніть NTRIP у списку профілів.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Для виправлення відкрийте: Налаштування → COM-порти</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Поточний сеанс використовує типові значення замість відсутніх або недійсних.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>Профіль AgIO завантажено не повністю (файл може бути пошкоджений).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>Профіль NTRIP "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" відсутній на цьому комп'ютері. Виберіть або створіть профіль в налаштуваннях NTRIP.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" ще не має адреси сервісу.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Резервний сервіс теж не працює:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Немає поправок уже</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO продовжує спроби.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> секунд</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> хвилин</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>ВИКОРИСТОВУЄТЬСЯ РЕЗЕРВНИЙ: основний сервіс зараз не використовується</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>ID базової станції:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Позиція:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Пошкоджені дані:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Відповідь сервісу:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Підключення через</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Не вдалося визначити адресу кастера:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Симульовані дані</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   НЕМАЄ ДАНИХ</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Програму оновлення потрібно запускати з AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Спершу запустіть AgOpenGPS і виберіть:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Меню → Інструменти → Перевірити оновлення</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>Це потрібно, щоб визначити вашу поточну версію.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Встановити оновлення з</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Джерело:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Буде виконано:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Закриття AgOpenGPS і AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Створення резервної копії поточної версії</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Встановлення оновлення</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Перезапуск AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Продовжити?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Файл оновлення не знайдено.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Покладіть AgOpenGPS_X.Y.Z.zip у корінь USB-накопичувача.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Оновлення не вдалося: {0}
+Резервну копію відновлено.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Оновлення не вдалося: {0}
+Відновити резервну копію теж не вдалося!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Оновлення не вдалося: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Резервну копію відновлено.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Відновити резервну копію теж не вдалося!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Оновлення успішно встановлено.
+{0}
+Резервна копія: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Доступне оновлення: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Перемикається автоматично після {0} невдалих спроб</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpoint, найближчі першими.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpoint.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Не вдалося знайти {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Перевірка не вдалася: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>Отримано {1} кБ</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Останні дані {1d} с тому.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Останні дані {1d} с тому. Повільне з'єднання?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Вік поправок: {1d} с.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Відстань до базової станції: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Ваш GPS: тип фікса {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} працює (старий клієнт)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} працює</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (старий клієнт)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Відкриття {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: очікування даних</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Профіль: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Збережено в {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Перезаписати профіль {1}?</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>Ідентифікатор '{1}' не є числом.</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Сталася помилка: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>Помилка UDP: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Помилка завантаження: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Активувати</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Активовано</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>Ключ API</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Завант. з хмари</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Автовивантаж.</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Автовивантаж.: вивантажувати зміни поля при закритті
+Завант. з хмари: завжди завантажувати останню версію з AgShare при відкритті</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>З'єднання...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>З'єднання успішне</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Деактивовано</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Введіть сервер і ключ API, потім перевірте з'єднання</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Недійсний ключ API</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Лише локально</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Вставити з буфера обміну</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Зареєструйтеся тут, щоб користуватися AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Налаштування збережено</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>Налаштування AgShare</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Перевірити з'єднання</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Вивантаж. вимк.</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Вивантаж. увімк.</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Поля автоматично завантажуються з хмари</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Поле завантажено з AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Не вдалося завантажити поле з хмари, використовується локальна версія.</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Швидкий старт з GPS-веденням. Задайте робочу ширину та довжину зчіпки, потім створіть лінію AB або криву. Нічого не зберігається на диск.</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Далі</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Налаштування середовища</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Налаштування середовища збережено.</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>Налаштування транспорту</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>Налаштування транспорту збережено.</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>Налаштування знаряддя</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>Налаштування знаряддя збережено.</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Розумний WAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Автоматично калібрує нуль WAS, аналізуючи кути керма під час руху. Увімкніть автокерування і плавно їдьте вздовж лінії.</value>
+  </data>
+  <data name="gsCurrentVehicle" xml:space="preserve">
+    <value>Поточний транспорт</value>
+  </data>
+  <data name="gsCurrentTool" xml:space="preserve">
+    <value>Поточне знаряддя</value>
+  </data>
+  <data name="gsSelected" xml:space="preserve">
+    <value>Вибрано</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Антена–шарнір</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>Ширина колії</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Причепити</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Причіпна зчіпка</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>Зчіпка</value>
+  </data>
+  <data name="gsVehicle" xml:space="preserve">
+    <value>Транспорт</value>
+  </data>
+  <data name="gsTool" xml:space="preserve">
+    <value>Знаряддя</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>Трактор</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>Комбайн</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Шарнірний</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>Передній</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Задній жорсткий</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Причіпний</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>Транспорт використовується</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>Не можна видалити активний транспорт</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>Видалити транспорт</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>Перейменувати транспорт</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>Введіть нову назву транспорту</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>Транспорт уже існує</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>Знаряддя використовується</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>Не можна видалити активне знаряддя</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>Видалити знаряддя</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>Перейменувати знаряддя</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>Введіть нову назву знаряддя</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>Знаряддя вже існує</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>Помилка завантаження транспорту</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>Помилка завантаження знаряддя</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>Новий транспорт</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Введіть назву транспорту</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>Нове знаряддя</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Введіть назву знаряддя</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Створити типовий транспорт</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Створити профіль транспорту «Default» із заводськими налаштуваннями?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Перезаписати</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Профіль уже існує. Перезаписати</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Створити типове знаряддя</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Створити профіль знаряддя «Default» із заводськими налаштуваннями?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Типовий транспорт завантажено</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Типове знаряддя завантажено</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Конвертувати старі профілі</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Транспорт / знаряддя</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Конвертація старих файлів профілів у новий формат</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Старі профілі містили всі налаштування в одному файлі. Новий формат розділяє транспорт, знаряддя та середовище. Виберіть, що витягти.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>Крок 1</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>Крок 2</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Назва профілю транспорту</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Назва профілю знаряддя</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Імпорт транспорту</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Імпорт знаряддя</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Не імпортувати</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Файлів старого формату не знайдено.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>старих файлів</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>старих файлів: конвертовано, до конвертації</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>конвертовано</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>до конвертації</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Конвертувати</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Підтвердити конвертацію</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Конвертувати «{0}»: {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Конвертувати</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Транспорт</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Знаряддя</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Конвертацію завершено</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Успішно конвертовано</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Налаштування середовища імпортовано та завантажено.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Помилки конвертації</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Виникли помилки</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Завантажити транспорт/знаряддя</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Існує</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Назва файлу</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Перейменувати</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Транспорт уже існує</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Знаряддя вже існує</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>Адаптер CANbus</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Мережева адреса модулів -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Потрібен перезапуск</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Завантаження завершено</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Помилка завантаження ліній</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Створити межу з ліній</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Імпорт ліній з іншого поля</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>Повідомлення AgOpenGPS</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Зсув позиції GPS (см)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Easy Drive: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Малювання AB - для початку позначте 2 точки на межі</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Без назви</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 точки - вирівнювання сітки</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Створити новий запис</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Завантажити середовище</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>Помилка ISOXML</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Антена</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Диференційний</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Одиночний</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD встановлено: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Помилка ReceiveData: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Помилка надсилання: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Помилка SendData: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>Сервер UDP</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Офіційний</value>
   </data>
 </root>

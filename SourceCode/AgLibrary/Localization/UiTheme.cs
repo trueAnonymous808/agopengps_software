@@ -292,6 +292,7 @@ namespace AgLibrary.Localization
         private static void ApplyScrollTheme(Control c, bool dark)
         {
             if (c is ComboBox) SetWindowTheme(c.Handle, dark ? "DarkMode_CFD" : null, dark ? "Combobox" : null);
+            else if (c is ProgressBar) SetWindowTheme(c.Handle, dark ? "" : null, dark ? "" : null);
             else SetWindowTheme(c.Handle, dark ? "DarkMode_Explorer" : null, null);
         }
 
@@ -523,6 +524,57 @@ namespace AgLibrary.Localization
             return PageBack;
         }
 
+        // a disabled dark scroll bar has no thumb and its track blends into the page: the parent draws a thin frame around it
+        private static readonly ConditionalWeakTable<Control, object> OutlinedParents = new ConditionalWeakTable<Control, object>();
+
+        private static readonly ConditionalWeakTable<Control, object> OutlinedBars = new ConditionalWeakTable<Control, object>();
+
+        private static void OutlineScrollBars(Control bar)
+        {
+            Control parent = bar.Parent;
+            if (parent == null) return;
+            object known;
+            if (!OutlinedBars.TryGetValue(bar, out known))
+            {
+                OutlinedBars.Add(bar, new object());
+                // the frame lies outside the bar: when the bar hides or moves, the old frame must be wiped from the parent
+                EventHandler changed = (sender, e) =>
+                {
+                    Control host = ((Control)sender).Parent;
+                    if (host != null) host.Invalidate();
+                };
+                bar.VisibleChanged += changed;
+                bar.LocationChanged += changed;
+                bar.SizeChanged += changed;
+                bar.EnabledChanged += changed;
+                bar.ParentChanged += changed;
+            }
+            if (!OutlinedParents.TryGetValue(parent, out known))
+            {
+                OutlinedParents.Add(parent, new object());
+                parent.Paint += (sender, e) =>
+                {
+                    if (!IsNight()) return;
+                    var host = (Control)sender;
+                    using (var pen = new Pen(Color.FromArgb(96, 100, 110)))
+                    {
+                        foreach (Control child in host.Controls)
+                        {
+                            if ((child is ScrollBar || child is ProgressBar) && child.Visible) e.Graphics.DrawRectangle(pen, child.Left - 1, child.Top - 1, child.Width + 1, child.Height + 1);
+                        }
+                    }
+                };
+            }
+            parent.Invalidate();
+        }
+
+        // pressed (checked) state of a toggle button: the colour keeps its hue and stays clearly lighter than the idle button
+        private static Color CheckedDark(Color original)
+        {
+            if (Spread(original) > 24) return FromHsl(original.GetHue(), Math.Min(0.5f, Math.Max(0.35f, original.GetSaturation())), 0.32f);
+            return Color.FromArgb(255, 88, 94, 106);
+        }
+
         private static Color EffectiveBack(Control c)
         {
             for (Control p = c; p != null; p = p.Parent)
@@ -736,7 +788,14 @@ namespace AgLibrary.Localization
                 }
             }
 
-            if (c is ScrollBar || c is ListBox || c is TreeView || c is ComboBox) ScrollBarTheme(c, true);
+            if (c is ScrollBar || c is ListBox || c is TreeView || c is ComboBox || c is ProgressBar) ScrollBarTheme(c, true);
+            if (c is ProgressBar)
+            {
+                // the bar itself: a calm teal instead of the bright system blue
+                c.ForeColor = Color.FromArgb(255, 48, 140, 120);
+                st.ForeTouched = true;
+            }
+            if ((c is ScrollBar || c is ProgressBar) && c.Parent != null) OutlineScrollBars(c);
 
             var grid = c as DataGridView;
             if (grid != null)
@@ -888,7 +947,7 @@ namespace AgLibrary.Localization
                 }
                 if (fl.Checked.A == 255 && Luminance(fl.Checked) >= 0.62)
                 {
-                    flat.FlatAppearance.CheckedBackColor = Spread(fl.Checked) > 24 ? DarkBack(c, fl.Checked) : Color.FromArgb(88, 94, 106);
+                    flat.FlatAppearance.CheckedBackColor = CheckedDark(fl.Checked);
                     fl.CheckedTouched = true;
                 }
                 if (fl.Over.IsEmpty || (fl.Over.A == 255 && Luminance(fl.Over) >= 0.62))
@@ -952,7 +1011,7 @@ namespace AgLibrary.Localization
                 c.ForeColor = st.Fore;
                 st.ForeTouched = false;
             }
-            if (c is ScrollBar || c is ListBox || c is TreeView || c is ComboBox) ScrollBarTheme(c, false);
+            if (c is ScrollBar || c is ListBox || c is TreeView || c is ComboBox || c is ProgressBar) ScrollBarTheme(c, false);
 
             var gs = st.Extra as GridState;
             var grid = c as DataGridView;

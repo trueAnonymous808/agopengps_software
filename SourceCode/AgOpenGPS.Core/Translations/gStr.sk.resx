@@ -507,4 +507,5604 @@
   <data name="gsXTEChart" xml:space="preserve">
     <value>Graf odchýlky</value>
   </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Uložiť</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Uložiť ako:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Zmazať</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Upraviť</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Premenovať</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Predvolené</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Pomocník</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Ukončiť</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Otvoriť:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Vybrať</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Vybrať zo zoznamu...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Načítavam zoznam...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Pripravené...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopírovať</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Skopírované</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Kopírovanie zlyhalo</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopírovať pre podporu</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Správa</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Možnosti</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Zobraziť</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Zap.</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Vyp.</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Použiť</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Iba</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Alebo</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Počet</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Aktuálne</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Príkaz</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Odpoveď</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Zadajte hodnotu</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Zadajte hodnotu</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Zadajte niečo</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Pripojiť</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Odpojiť</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Nepripojené</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Automatické pripojenie</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Pripojiť GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Sériový port</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>Port GPS</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>Port GPS 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>Port RTCM</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Sieťový port</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Rádio na porte</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Rýchlosť (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP adresa</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP adresa : port</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Názov hostiteľa</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Názov hostiteľa:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Používateľské meno</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Aktuálna podsieť</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Nastaviť</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Zadajte novú adresu podsiete</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Vyplniť automaticky</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Pre túto podsieť nie je sieťový adaptér</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Sieť</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Nastavenie Ethernetu</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Zapnite UDP a stlačte OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP je vypnuté</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP vyp.</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Rýchlosť prenosu</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Naposledy</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Pripojené</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Vypnúť pri %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Rovnomerný uhol riadenia!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>V pohybe</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A a B vymenené</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>Od A po Z a od 0 po 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS už beží</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Všetko zelené? Stlačte Vytvoriť alebo opravte ručne!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Iba písmená a číslice</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Nastala neočakávaná chyba, zapísala sa do denníka udalostí. AgOpenGPS beží ďalej.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>Chyba BingMap</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Režim vytvorenia hranice</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Vytvorenie zlyhalo</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Chyba tlačidla</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Kľúč databázy Registry sa nedá odstrániť</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Zachytené</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Skopírované do schránky, vložte (CTRL-V) v Telegrame</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Najprv vytvorte dráhu</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Chyba vytvorenia</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Chyba priesečníkov</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Priesečníky sa nenašli</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Krivka je obrátená</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Chyba vzdialenosti</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Vzdialenosť je 0, nie je čo posunúť</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Zapnite spínač riadenia</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Toto prostredie sa práve používa</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Chyba pri hľadaní zemepisnej šírky a dĺžky</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Chyba, skontrolujte formát</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Chyba pri importe stôp:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Výnimka</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Príliš veľký uhol riadenia – nulovanie nie je možné</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Stiahnutie náhľadu poľa zlyhalo. Podrobnosti sú v protokole.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Stiahnutie poľa zlyhalo.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Načítanie zoznamu polí zlyhalo.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Načítanie zoznamu polí zlyhalo.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Načítanie zoznamu polí zlyhalo:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Načítanie stôp zlyhalo:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Pole je uložené, ale nedá sa otvoriť (chýba Field.txt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Hľadanie priesečníkov...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Dokončite nastavenie všetkého alebo obnovte predvolené hodnoty</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Značky boli úspešne pridané!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Značky boli úspešne uložené!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Klávesová skratka je neúplná</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Neplatná čiara</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Neplatný výber.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Je možno iba 1 čiara?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Chyba čiary</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Chyba pri načítaní:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Uistite sa, že sa všetky konce križujú, a to iba raz</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Mapa je príliš veľká</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Max. 164 stôp</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Max. 50 metrov</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Musí byť väčšie ako 5 stupňov</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Žiadne zaznamenané dráhy</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Žiadny výber</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Nie je otvorené žiadne pole.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Nie je vybrané žiadne pole.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Nenašli sa žiadne stopy.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Nedá sa vytvoriť platná hranica</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Žiadna platná hranica na uloženie</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Nie je pridaných dosť tlačidiel</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Problém s voliteľným súborom</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Pred uložením vyberte pole.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Najprv vyberte pole.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Vyberte aspoň jedno pole na odoslanie</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Vyberte aspoň jednu stopu na import.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Počkajte na dokončenie odosielania</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Chyba ukladania</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Vyberte iné prostredie</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Nastavené na 99, max. 164 stôp</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Nastavené na 99, max. 50 metrov</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Začiatočný bod = koncový bod</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Príliš malý uhol riadenia</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Riadenie je vypnuté</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Úspech!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Úspech</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Pole bolo lokálne zmazané, ale z AgShare sa ho nepodarilo odstrániť.
+Odstráňte ho ručne.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Príliš široké</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Chyba pracovného náradia</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Dotykom na mapu vytvoríte hranicu</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Informácie o stope</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Úprava stopy zlyhala:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Odosielanie už prebieha</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Prebieha odosielanie</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Použite iba AB čiaru alebo krivku</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Upozornenie</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Vaše náradie je príliš malé</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Vyhľadávanie</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Odpoveď modulu</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Vyhľadanie modulov</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Simulácia modulu</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Správca zariadení</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Skontrolovať pripojenie</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Odoslaná poloha</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Čo prišlo</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>neúspešných pokusov</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Odoslať každých (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Odoslať prázdnu GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Odoslať NTRIP do GPS cez:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM cez sériový port</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Použiť USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Použiť web</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>Nastavenie NTRIP</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>Podrobnosti NTRIP</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>Profily NTRIP</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>Verzia NTRIP</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>Chyby NTRIP</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Vyberte profil NTRIP</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Použiť klienta NTRIP</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Použiť starý klient NTRIP</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Surový TCP prúd</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpointy</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Vyberte základňovú stanicu najbližšie k vášmu poľu.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Korekcie idú do</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Použiť zálohu pri výpadku hlavnej služby</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Prepnúť po</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Hlavná</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Rádio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Rádio (nie XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Rádiový kanál</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Nastavenie rádia</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanál</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanály</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Sériové rádio nie je služba NTRIP. Jeho korekcie sa používajú tak, ako prichádzajú. Záložná služba prevezme, keď rádio stíchne.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Zemepisná šírka</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Zemepisná šírka:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Zemepisná dĺžka</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Zemepisná dĺžka:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Šírka</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Dĺžka</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Nadmorská výška</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Nadmorská výška (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Výška:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Výška</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Smer</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Rýchlosť</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Rýchlosť:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Satelity</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Satelity:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value># Sat.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Kvalita</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Kvalita:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Kvalita fixu</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Vek</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Vek:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Dvojitá</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Náklon</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Korigovaný náklon</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Náklon:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Sklon</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Zatáčanie</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Rýchlosť yaw</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Posun</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simulovať dáta</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simulované</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Desatinné miesta</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Ako často</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Frekvencia</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Systémové dáta</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>Stav AOG:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Autopilot</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Riadenie</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Riadenie:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Modul riadenia</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Tlačidlo riadenia</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Spínač riadenia</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Spínač riadenia:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Ping riad.:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Nastavenie &#xD;
+riadenia</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Nastavenie&#xD;
+riadenia</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Z&#xD;
+autopilota</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Cieľový uhol</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Skutočný uhol</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Uhol:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Stroj</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Stroj:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Modul stroja</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Stroj</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Ping náradia:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Práca</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Spínač práce</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Práca:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Spínač:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Povoliť zdvih</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hydr. zdvih</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Čas zdvihu</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Čas spustenia</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min. rýchlosť</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Vysoké PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Nízke PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Impulzov #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Počet impulzov</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Impulzy:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relé aktívne vys.</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Tlak</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Otáčka</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Koľaj.</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Hore</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Zmluvné podmienky</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>Videonávody na YouTube</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Fórum Discourse</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Nesúhlasím</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Súhlasím</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Verzia:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Otestovať pripojenie</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Zadajte údaje vyššie a označte Otestovať pripojenie</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>Kľúč API:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Vložiť zo schránky</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Zaregistrujte sa tu na používanie AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Aktivovať</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Automatické odoslanie</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Iba lokálne</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Titul</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Do videnia nabudúce!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Vozidlo / náradie...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulátor zapnutý</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Zadať súradnice simulátora</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Režim kiosku</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Obnoviť všetko</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Sprievodcovia</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Sprievodca riadením</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Grafy</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Graf riadenia</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Graf smeru</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Graf korekcie náklonu</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Nástroj hraníc</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Vyhladiť AB krivku</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Skryť vrstevnice</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Webkamera</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Posun fixu</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       s</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Všetko</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Konfigurácia</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Autopilot</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Zobraziť všetky nastavenia</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Adresáre</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>Dáta GPS</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Farby</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Farby viacerých sekcií</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Klávesové skratky</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Hranica</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Úvrať</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Úvrať (vytvoriť)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Koľajové riadky</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Koľajové riadky</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Zmazať spracované</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Značka podľa súradníc</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Zaznamenaná dráha</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Importovať stopy</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Aktuálne pole</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulátor</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Autopilot zap./vyp.</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Dotykom na tlačidlo ho vymažete&#xD;
+potom stlačte novú klávesu</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Prepínanie čiar</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Zavrieť pole</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Aktualizátor</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Vytvoriť hranicu z mapovania</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Riadenie</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Max. uhlová rýchlosť</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Riadenie pri cúvaní</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Kompenzácia svahu</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino riadenie</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Impulzov/stupeň</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Vysoké PWM riadenia</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Nízke PWM riadenia</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Min. PWM riadenia</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proporcionálna)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Min. rýchlosť riadenia</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Max. rýchlosť riadenia</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Limit rýchlosti funkcie</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geometria</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Typ vozidla</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Rozchod</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Anténa–otočný bod</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Zdroj smeru</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Posun smeru Dual</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual cúvanie vzdial.</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min. limit kroku</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Váha fúzie</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual ako IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Značka</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Značka traktora</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Značka kombajnu</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Značka kĺbového stroja</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Rozmery</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Šírka náradia</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Presah náradia</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Posun náradia</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Počet sekcií</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Ťahané zavesenie</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Ťahaná cisterna</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Ťahanie–otočný bod</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Typ náradia</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Ťahané</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Zadné pevné</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (traktor–stroj–traktor)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Predné</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Sekcie</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Sekcie (nie zóny)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Vyp. pri výjazde</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Rýchla sekcia</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Predstih / časovanie</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Predstih zap.</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Predstih vyp.</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Oneskorenie vyp. náradia</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Predstih hydr. zdvihu</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Ovl. sekcií na úvrati</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Navádzanie (pre náradie)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Vzdialenosť prichytenia</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Vzdial. prichytenia ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Vzdialenosť mŕtvej zóny</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Smer mŕtvej zóny</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Oneskorenie mŕtvej zóny</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Použiť Stanley</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Zosilnenie vzdial. Stanley</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Zosilnenie smeru Stanley</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Integrál Stanley</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>Integrál PurePursuit</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Faktor získania cieľa</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Držanie cieľa</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Násobok cieľa</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Limit pomalej rýchlosti</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Spínač práce</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Spínač práce riadenia</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min. pokrytie</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Otočka (pre náradie)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Polomer otáčania</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Vzdialenosť od hranice</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Šírka preskočenia</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Dĺžka predĺženia</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Štýl otočky</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Vyhladenie otočky</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Kompenzácia otočky</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Displej / ponuka</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Mriežka zap.</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Svetelná lišta zap.</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Bočné vodiace čiary</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure zap.</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Rýchlomer zap.</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Svetelná lišta (nie riadenie)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Denný režim</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Klávesnica zap.</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Obrázok vozidla</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Textúra zap.</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Jas zap.</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Zaznamenávať výšku</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Vypnúť počítač</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Vypnúť pri výpadku napájania</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>Auto štart AgIO</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>Auto vypnutie AgIO</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Svetelná lišta cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Priblíženie kamery</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Sklon kamery</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Autopilot</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Predstih navádzania</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Auto zapnutie autopilota</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Stála kontúra</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Vodiace čiary</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Počet vodiacich čiar</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>Alarm veku GPS</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK vypne autopilota</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Alarm skoku fixu</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Zem. šírka sim.</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Zem. dĺžka sim.</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>Sledovanie UDP ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Zvuk</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Zvuk otáčky</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Zvuk hydr. zdvihu</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Zvuk autopilota</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Zvuk sekcií</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Koľajový riadok</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Prejazdy koľaj. riadku</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Priehľadnosť koľaj. riadku</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / všeobecné</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Cúvanie zap.</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Auto prepnutie Dual Fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Rýchlosť auto prepnutia</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Kresliť otočný bod</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Vzdial. úvrate zap.</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Rozstup náradia hranice</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Vyhladenie náradia hranice</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Aktívny nízky</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Ručné sekcie</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Vzdialený systém práce</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Riadenie PS ručne</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min. vzdial. kroku smeru</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare povolený</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Odosielanie aktívne</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Verejné pole</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Iné</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Čas snímky (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Časový rez</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Kvalita fixu</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Sledované satelity</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Vynechané vety UDP</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Smer</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>Smer IMU</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Smer fix–fix</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Fúzny smer (stupne)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Uhlová rýchlosť</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Aplikácia</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Verzia</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Súbor vozidla</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Súbor náradia</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Nastavenie</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Všetky nastavenia</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Vytvorí a načíta nový profil.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Pred spustením aktualizátora zatvorte pole</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Nová značka</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Ručná sekcia</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Auto sekcia</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Prichytiť k čiare</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Posunúť čiaru doľava</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Posunúť čiaru doprava</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Nastavenie vozidla</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Obnoviť &#xD;
+predvolené</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Sekcia alebo zóna</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Nová klávesa</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 -  Celá obrazovka&#xD;
+&#xD;
+NumPad1 - Ručná sekcia&#xD;
+NumPad0 - Auto sekcia</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Otázka</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Východná súradnica</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Severná súradnica</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Surové Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Snímka</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Vynech.</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix2Fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Sever (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Západ (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Východ (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Juh (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Ponechať posun aj po zatvorení poľa?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Vozidlo</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Náradie</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Názov vozidla</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Typ:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Rázvor:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Anténa–bod:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Posun antény:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Záves:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Názov náradia</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Šírka:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Sekcie:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Posun:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Presah:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Predstih:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Posun čiary:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Šírka koľajového riadku:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Jednotky:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metrické</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Vyberte typ vozidla</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Priehľadnosť</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Bez obrázka</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Zatiaľ</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Do súboru</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Orezať čiaru</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Priblížiť</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Priehľadnosť</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Názov súboru</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Zadajte názov záznamu</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; VYP &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Stav:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Pridať názov</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Krivka</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Upraviť názov</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Otočný bod</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + krivka</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB čiara</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Šírka/dĺžka +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Šírka/dĺžka</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Zemepisná dĺžka (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Zemepisná šírka (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Postrek</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Prejazdy</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Stopa</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Siatie</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Režim</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Priblíženie</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Vybrať tlačidlá</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>Ponuka AOG</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Náhľad</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Viac farieb</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Farba sekcie</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Upraviť farbu</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Vzdialenosť otočného bodu</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Výška antény</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Stred</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Posun antény</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Vľavo</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Vpravo</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual anténa polohy je vpravo</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Dĺžka závesu</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Rázvor</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Typ pripojenia</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Presah / medzera</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Presah</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Medzera</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Smer posunu náradia</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Náradie vpravo</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Náradie vľavo</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Zóna 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Zóna 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Zóna 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Zóna 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Zóna 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Zóna 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Zóna 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Zóna 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Palec</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Šírka sekcie</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% pokrytia</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zóny</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Sekcie</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Automatické sekcie</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Ručné sekcie</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Nastavenie času predstihu</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Zap. (s)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Vyp. (s)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Oneskorenie vypnutia (s)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Alarm zastaví autopilota</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = vypnuté</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Vzdialenosť skoku fixu (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Nastavenie Dual antény</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Rýchlosť prepnutia</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto Dual &lt;-&gt; Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Vzdialenosť cúvania (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Posun smeru (stupne)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Nastavenie jednej antény</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Predvolené: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Fúzia</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Detekcia cúvania</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Vzdialenosť fix–fix</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minimálny krok GPS</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Typ antény</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Obrátiť náklon</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Vynulovať náklon</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Odstrániť posun</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Menej</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Viac</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Filter náklonu</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Vyhladenie nastavte na 3 až 4-násobok polomeru</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Dĺžku predĺženia nastavte na 2 až 3-násobok polomeru&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Nastavenie hydraulického zdvihu</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Hustota porastu</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Predstih hydraulického zdvihu (s)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Čas zdvihu (s)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Povoliť</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Čas spustenia (s)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Obrátiť relé</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Odoslať + uložiť</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Zobraziť?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Prepísať</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Šírka koľajového riadku</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Hardvérové správy</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Vypnutie pri strate napájania</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>Auto vypnutie AgIO?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Spodná ponuka</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Ovládanie posunu</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Pravá ponuka</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>Auto štart AgIO?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Otočka</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Zvuk</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Otočka</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Bočný</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Skryť vrstevnicu</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>Vyhladenie AB</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Zázn. dráha</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Koľajové riadky</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Tlačidlá obrazovky</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Ponuka nástrojov</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Ponuka poľa</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>VYP</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>ZAP</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Ladiace hodnoty</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Vzdial. úvrate</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Vyhladenie čiary</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Čiary sekcií</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Značky smeru</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Výška</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Jednotky</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Šípka Svenn</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Jas</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Textúra poľa</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Polygóny</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Spustiť na celú obrazovku</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Rýchlomer</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Vodiace čiary</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Mriežka</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Aktuálne vozidlo</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Aktuálne náradie</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Palce</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Šírka náradia:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Stopy</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Skut.:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Cieľ:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Chyba:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Alebo +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Uhol riadenia:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Priemer:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Zachytenie:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Pomaly zvyšuje uhol riadenia na zníženie priečnej odchýlky</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Pomaly</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Rýchlo</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Odozva riadenia</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integrál</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Min. predstih</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Predstih</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Zosilnenia Stanley</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Max. uhol riadenia</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV skut.:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV cieľ:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Impulzov na stupeň</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>Nulovanie WAS</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Faktor zachytenia</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Vzdialenosť:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Faktor rýchlosti</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Mŕtva zóna -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Držanie:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Zachytenie = faktor * držanie</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Oneskorenie zapnutia (s)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Smer (stupne)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Zosilnenie</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimum na pohyb</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Maximálny limit</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proporcionálne zosilnenie</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Svahový zásah (stupne na stupeň náklonu)</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Tlačidlo – stlačením zap., ďalším stlačením vyp.&#xD;
+Spínač – stlačený zap., uvoľnený vyp.</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Snímač tlaku</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Snímač prúdu</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Snímač impulzov</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Obrátiť smer motora</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Povolenie riadenia</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Ovládač motora</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A/D prevodník</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Snímač natočenia</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Obrátiť WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Obnoviť všetko na predvolené</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>Os X alebo Y IMU</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Pripravené</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Istota: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Vzorky: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Riadenie pri cúvaní?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Dnu</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Von</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Kompenzácia otočky</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Max. rýchlosť</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Ručné otáčky</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Šírka čiary</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pixelov</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Vzdialenosť posunu</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Navádzacia lišta</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Lišta riadenia</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Zap./Vyp.</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Svetelná lišta</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm na pixel</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Sekundy</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Čas hľadania ďalšej vodiacej čiary</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Sprievodca</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Chyba:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Nízke</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Svahový zásah (stupne na stupeň náklonu)</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Predstih (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Zosilnenie predstihu podľa rýchlosti</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>Minimálne PWM na pohyb</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>Maximálne PWM</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Choďte rovno dopredu a stlačte Nula</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Snímač tlaku natočenia</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Snímač prúdu natočenia</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Obrátiť relé hydraulického povolenia?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Režim povolenia riadenia</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Aký typ ovládača motora?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Pripojenie A/D prevodníka?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Impulzy otáčania</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Používate ventil Danfoss?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Voľná jazda</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Spustiť sprievodcu</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Dôrazne odporúčané</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Načítať predvolené</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Nastaviť rázvor</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Nastaviť rozchod</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Rozchod kolies</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Poloha&#xD;
+antény</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Nastavte vzdialenosť antény od osi otočného bodu</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Výška&#xD;
+antény</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Nastaviť výšku antény</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = vyp.</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Nastaviť posun antény</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D prevodník</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Dosky ovládača motora</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Riadiace relé</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Ventil Danfoss</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Ak nie, zvoľte Obrátiť náklon</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Nakloňte vozidlo silno doprava. Náklon doprava musí byť KLADNÝ.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Funkcia náklonu</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Zaparkujte na rovnom povrchu a stlačte „Vynulovať náklon“</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Nulový náklon</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Obrátiť smer WAS</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Aktuálny smer:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>Nulovanie WAS</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Obrátiť smer</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Smer motora riadenia</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Spustiť * kalibráciu</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>Kalibrácia WAS</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* PRESKOČIŤ *  Impulzy na stupeň a nastavenie Ackermann?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Počiatočný uhol:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Obnoviť&#xD;
+na&#xD;
+100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Hodnota Ackermann:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Nastaviť</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Natočte riadenie na požadovaný limit navádzania a stlačte OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Limit uhla riadenia pre navádzanie</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Alebo ručne nastavte limit uhla riadenia pre navádzanie</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Funkcia automatického zrušenia</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Rýchlosť panického zastavenia</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Nula</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Auto-Upload: po zatvorení odošle zmeny poľa&#xD;
+Cloud Load: pri otvorení vždy stiahne najnovšie z AgShare</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Obnoviť sim.&#xD;
+U - Otočka (180 stupňov)&#xD;
+&#xD;
+Šípka hore - Rýchlejšie&#xD;
+Šípka dole - Pomalšie&#xD;
+Šípka vľavo - Vľavo&#xD;
+Šípka vpravo - Vpravo&#xD;
+&#xD;
+( . ) Bodka - Zastaviť&#xD;
+( / ) Lomka - Rovno</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Tento posun sa pripočíta k zemepisnej šírke a dĺžke a pri zatvorení poľa sa uloží do súboru FIELD.KML.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Nastavenia vozidla sa teraz volajú „profily“ a dajú sa&#xD;
+vytvoriť/načítať v hlavnej ponuke (vľavo hore).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Dotykom na tlačidlá vľavo vyberte, ktoré sa majú zobraziť v ponuke (vpravo). &#xD;
+&#xD;
+Poradie, v akom ich stlačíte, bude poradie v ponuke zdola nahor.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Natočte volant asi o 20 stupňov DOPRAVA.&#xD;
+Pri jazde v rovnomernom kruhu stlačte Rec a počkajte.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Tlačidlo – stlačiť, pustiť = zap.   &#xD;
+               stlačiť, pustiť = vyp.&#xD;
+&#xD;
+Spínač – kým je stlačený, je zap. &#xD;
+               pustený = vyp.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Jazdite pomaly a zapnite autopilota. Ak sa motor riadenia točí zlým smerom, použite Obrátiť smer.&#xD;
+Otestujte šípkami.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Uhol riadenia musí byť KLADNÝ pri otáčaní DOPRAVA.&#xD;
+Ak nie je, zvoľte Obrátiť WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Natočte volant DOĽAVA zhruba o rovnaký počet stupňov ako doprava.&#xD;
+Pri jazde v rovnomernom kruhu stlačte Rec a počkajte.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Meňte cieľovú hodnotu tlačidlami riadenia. &#xD;
+&#xD;
+Minimálny pohyb nastavte čo najvyššie, ale tak, aby motor riadenia ani hydraulika ešte neotáčali riadením</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Teraz choďte jazdiť po AB čiare a doladite nastavenia podľa rýchlosti a stavu pôdy.&#xD;
+&#xD;
+Pamätajte: CPD, Min PWM a predstih sú kritické nastavenia.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Staré profily obsahovali všetky nastavenia v jednom súbore. Nový formát oddeľuje vozidlo, náradie a prostredie. Vyberte, čo chcete získať.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Aktualizácia firmvéru&#xD;
+&#xD;
+Táto funkcia je vo vývoji.&#xD;
+&#xD;
+Budúce možnosti:&#xD;
+&#xD;
+• Výber súboru firmvéru .hex&#xD;
+• Výber komunikačného portu (z nastavení AgIO)&#xD;
+• Spustenie TeensyLoaderCLI s parametrami&#xD;
+• Nahratie firmvéru do zariadenia Teensy&#xD;
+• Indikátor priebehu&#xD;
+&#xD;
+Integrácia TeensyLoader:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Žiadne</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Spínač</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Tlačidlo</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Vyberte starý súbor profilu</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Vyberte, čo previesť (vozidlo a/alebo náradie)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Aplik.:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Skutočné:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/h</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ h</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/h</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Jazdite pomaly rovno vpred, nechajte systém riadiť</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Nastavenie minimálneho pohybu</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Nula alebo +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Nastavte proporcionálne zosilnenie pre dobrú odozvu. &#xD;
+PWM maximum obmedzuje rýchlosť otáčania.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Jazdite vpred a zapnite autopilota</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Nastavenie zosilnenia</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Koniec</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Spustiť sprievodcu znova</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Hotovo!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Priebeh:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Impulzov na stupeň</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>Posun WAS</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Smer:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Korigovaná východná súradnica</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Vzdialenosť korekcie</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Náklon (stupne)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Posúvanie zap./vyp.</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Rúd</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Plynulé</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Priame</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Správanie kamery</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Obnoviť predvolené</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 až -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 až -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Vozidlo: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Náradie: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Prostredie: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Prostredie</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Systém / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Cieľová hodnota</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Skutočná</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Zadajte názov poľa</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Plocha:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Body:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Dostupné stopy</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Dostupné polia</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importovať</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Zrušiť výber všetkých</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Vybrať všetko</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Vyberte pole vľavo a potom stopy na skopírovanie</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Názov poľa</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Ukončiť do Windows za:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Vypnutie za:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Vypnúť</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Vyberte stopy na použitie</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Skrátiť B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Skrátiť A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Predĺžiť B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Predĺžiť A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Ďalej</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Späť</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Automatické hľadanie</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Prepísať</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Stiahnuť vybrané</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Stiahnuť všetky</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Sťahovanie... Počkajte</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Dĺžka:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Šírka:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Vzdialenosť k značke:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Bod A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Importovať značky</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Exportovať značky</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Hranice</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Cez?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Plocha</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Rozstup (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Pridať body</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Body na spracovanie:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>Odoslanie do AgShare</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>Stiahnutie z AgShare</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Z KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Otvoriť</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Vojsť do poľa</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Pokračovať</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Existujúce</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Nové pole</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Predchádzajúce pole</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Pracovná šírka</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Nová hranica</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Pozadie</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Názov poľa</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Odoslať vybrané</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Upraviť názov poľa</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Čiary</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Mapovanie</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Značky</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Zoradiť</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Zostáva:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Dávka:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Spolu:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Aplikované:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Spracované</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Vzd.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Cesta</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Vzdialenosť (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Použiť vybrané</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Použiť vybrané</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Zmazať pole</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Názov záznamu</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Zmazať záznam</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Dráha vyp.</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Deň</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Noc</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Aktuálne: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Vybrané: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Anténa–bod:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Posun antény:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Rozchod:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Pripojenie:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Ťahaný záves:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Načítať</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Previesť staré profily</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Prostredia</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Názov súboru</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Previesť staré súbory profilov na nový formát</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Previesť</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>Krok 2: vyberte, čo previesť (vozidlo a/alebo náradie):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Previesť náradie</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Názov profilu náradia:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Názov profilu vozidla:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Previesť vozidlo</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>Krok 1: vyberte starý súbor profilu:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Názov:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopírovať z:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Neplatné:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS samostatné:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK Float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Odhad:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Ručné IP:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Neznáme:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Vek:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Žiadne sieťové pripojenie.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Pripojené. Čaká sa na korekcie.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Korekcie sa zastavili. Pripájam znova.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Pripojené, ale nič neprichádza. Niektoré služby potrebujú vašu polohu: skontrolujte, či je odosielanie polohy GPS zapnuté.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Služba ukončila spojenie. Pripájam znova.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Služba ukončila spojenie bez odoslania korekcií.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Prijímajú sa korekcie</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Služba poslala odpoveď, ktorej AgIO nerozumie.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Služba neposlala zoznam mountpointov.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Služba poslala prázdnu odpoveď.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Tento mountpoint na službe neexistuje. Vyberte jeden zo zoznamu.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Táto adresa odpovedala webovou stránkou, nie službou NTRIP. Skontrolujte adresu a port.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Používateľské meno, heslo alebo mountpoint nie je správne.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Tento mountpoint na službe neexistuje. Skontrolujte pravopis, záleží na veľkých písmenách.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Služba teraz nemôže prijať ďalšie pripojenie. Je zaneprázdnená alebo sa toto prihlásenie už používa.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Služba sa spúšťa. AgIO to skúsi znova asi o minútu.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Táto služba vyžaduje ako používateľské meno vašu e-mailovú adresu.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Používateľské meno alebo heslo nie je správne.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Služba odmietla prístup.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Služba odpovedala niečím, čomu AgIO nerozumie.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Rádio je otvorené. Čaká sa na korekcie.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Rádio je otvorené, ale nič neprichádza.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Z rádia sa prijímajú korekcie.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Späť na hlavnej službe</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Korekcie opäť prichádzajú z hlavnej služby.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Hlavná služba je späť</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Prepnúť späť na ňu? GPS môže na chvíľu stratiť RTK. AgIO sa nikdy nevráti samo.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Hlavná služba má problém</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Prepnuté na zálohu</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Prepli ste na záložnú službu.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>žiadne korekcie</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Všetko v poriadku: korekcie prichádzajú.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profil nemá názov.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>Pozorovania GPS (staršie)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>Pozorovania GLONASS (staršie)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>proprietárne</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>poloha základne</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>poloha základne + výška antény</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>popis antény</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>systémové parametre</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>efemeridy GPS</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>efemeridy GLONASS</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>popis prijímača + antény</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>efemeridy BeiDou</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>efemeridy QZSS</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>efemeridy Galileo</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>kódovo-fázové odchýlky GLONASS</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>prázdne</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Stlačte novú klávesovú skratku</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Stlačením tlačidla upravíte skratku</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Nepripojené</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Nastavte vzdialenosť, 2: Ťuknite na Vytvoriť, 3: Vytvorte orezávacie čiary</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>Graf XTE</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Jazdite rovnomerne</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Pripravené na použitie</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Zhromažďovanie...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Chyba, CPD nastavené na 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann nastavený na:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Chyba, Ackermann nastavený na 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Vyberte štvorec nižšie a zvoľte novú farbu</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Vyberte prednastavenú farbu</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Vyberte novú farbu a štvorcom nižšie uložte predvoľbu</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Adresár polí sa nenašiel</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Chyba pri načítaní polí</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>V tomto poli sa nenašli žiadne stopy</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Chyba pri načítaní stôp</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Ukladajú sa aktuálne stopy...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Prevádzajú sa stopy...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Ukladajú sa stopy...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Vybrané pole:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Chyba pri načítaní polí:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Easy Drive aktívny</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Načítať prostredie:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Vozidlo:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Náradie:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Prostredie:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Kritická chyba ukladania</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Chyba vypnutia</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Smer obnovený</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Dopredu je nastavené</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Autopilot vypnutý</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Okno posunu je otvorené</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Zatvorte okno posunu</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Upozornenie: veľká vzdialenosť od začiatku poľa</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>Odoslanie do AgShare zlyhalo</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Pri spúšťaní odosielania do AgShare nastala chyba.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Pri odosielaní do AgShare nastala chyba.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Pole NEBOLO uložené</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Uloženie poľa zlyhalo, preto zostalo otvorené. Skontrolujte voľné miesto na disku a skúste znova.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Spôsob pokračovania</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Od poslednej zastavenej polohy</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Od najbližšieho bodu</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Od začiatku</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Nedá sa použiť so zónami</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Iba pre sekcie</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Easy Drive</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>V režime Easy Drive nie sú profily dostupné</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Sekcie sú zapnuté</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Najprv vypnite Auto alebo Ručné</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Obnoviť smer</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Jazdite dopredu nad 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autopilot vypnutý</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>Alarm RTK fixu</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Stopa zmenená</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Dráhy povolené</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Sim: cúvanie aktivované</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Klávesová skratka spustená</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Nastavenia odoslané do modulu riadenia</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Návrat z úprav</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Aktualizátor sa nenašiel. Uistite sa, že AgOpenGPS.Updater.exe je v adresári aplikácie.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Aktualizátor sa nenašiel</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Na vytvorenie hranice nie je dosť bodov</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Stred poľa sa nedá vypočítať. Chýba vonkajšia hranica alebo AB čiara.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Nemôže byť viac zón ako sekcií</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulátor je vypnutý</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulátor nemôže fungovať pri použití skutočnej antény</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Obnoviť predvolené</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Hodnoty nastavené na pôvodné predvolené</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Mimo rozsahu</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Posun je príliš veľký – nedá sa použiť</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Smart WAS nula</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Predvolené nastavené</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD a Ackermann nastavené na predvolené</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>Zmena P zosilnenia</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proporcionálne zosilnenie nastavené na 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profily vytvorené</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Predvolené profily boli vytvorené</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Nastavenia prostredia boli obnovené!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Nastavenia prostredia boli načítané!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Súbory profilov sa nenašli!
+
+Profily v registri sa nedajú nájsť.
+Vyberte alebo vytvorte nové profily.
+
+Ak nevyberiete, prostredie použije predvolené hodnoty.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Nenašli sa žiadne profily.
+
+Pomocou 'Nový' vytvorte profily vozidla a náradia.
+
+Ak nevyberiete, prostredie použije predvolené hodnoty.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Závažná chyba začiatku poľa&#xD;
+&#xD;
+Začiatok poľa je viac ako 20 km od vašej aktuálnej polohy GPS. Pole zmažte a vytvorte nové, inak bude presnosť slabá&#xD;
+&#xD;
+Prípadne máte otvorené pole a odišli ste ďaleko</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Upozornenie: Zatvorením AgIO sa preruší komunikácia s hardvérom.&#xD;
+Naozaj chcete zatvoriť?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Hore + dole</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Dole</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Automatické skrytie</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto&#xD;
+spustenie</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profily</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Aktuálny profil</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Aktuálny profil</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Nový profil</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Nový:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Používaný profil:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: správa profilov</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Prepísať tento profil:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Rozšírené nastavenia</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>Nastavenia ISOBUS</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Nastavenie sériového prepojenia</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Sériové prepojenie zap.</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>RTCM na inom porte ako GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Spustiť minimalizované</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO sa zobrazí pri upozornení</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>Auto štart GPS-Out</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Zobraziť&#xD;
+pri&#xD;
+upozornení</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Prehliadač denníka udalostí</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Prehliadač denníka</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Sériový monitor</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>Monitor UDP</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>Sprievodca PGN</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Sprievodca -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Klávesnica</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Text správy sa zobrazí tu</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>Správa AgIO</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>Správa AgTwo</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Zastaviť</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Spustiť</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>Podrobnosti NTRIP</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP je vypnuté</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>POUŽÍVA SA ZÁLOHA</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Sú korekcie v poriadku?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Prepnúť na zálohu</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Skúsiť hlavnú službu znova</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Prepnúť späť na hlavnú</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Pripojené, čaká na dáta</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Pripájam...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint sa nenašiel</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Prihlásenie nie je možné</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Zastavené</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Služba sa spúšťa</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Služba je zaneprázdnená</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Pripojené, nič neprichádza</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Žiadna sieť</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Pripájam znova...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Odpoveď služby nie je zrozumiteľná</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Službu sa nepodarilo kontaktovať</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Korekcie prichádzajú</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Tento prúd sa nedá podrobne skontrolovať.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Poloha základňovej stanice prijatá</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Poloha základňovej stanice</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Čaká sa na ňu. Prichádza každých 10 sekúnd.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Chýba poloha základňovej stanice</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>RTK bez nej nemôže začať.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Zatiaľ neprijatá.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Vzdialenosť od základňovej stanice</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Čaká sa na polohu GPS.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Príliš ďaleko pre dobré RTK. Vyberte bližšiu základňovú stanicu.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Ďaleko. RTK je na tejto vzdialenosti menej presné.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Z pevnej polohy v nastaveniach NTRIP.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Satelity v korekciách</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Žiadne satelitné dáta v korekciách</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Základňová stanica neposiela pozorovania.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Zatiaľ nič neprijaté.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Čerstvé dáta</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Čaká sa na prvé dáta.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Dáta meškajú</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Žiadne nové dáta</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Vaše GPS: RTK fix</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Vaše GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Stále sa to upresňuje. Chvíľu počkajte.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Vaše GPS: zatiaľ bez RTK</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Iba bežná presnosť GPS.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Vaše GPS nemá fix</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Vaše GPS je v ručnom alebo simulátorovom režime</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Chýba adresa</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Najprv vyplňte adresu.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Chýba port</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Uloženie zlyhalo</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Chyba pri otváraní portu</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP sa zatiaľ nedá použiť</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Najprv vyberte profil a ťuknite na Použiť.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Používaný profil zatiaľ nemá adresu služby ani rádiový port. Najprv ho upravte.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Nedá sa prečítať</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Tento súbor profilu sa nepodarilo prečítať.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Nedá sa premenovať</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Tento názov sa už používa.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Upozornenie pri načítaní profilu</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profil obnovený</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>Profil AgIO bol obnovený zo zálohy .last, pretože hlavný súbor sa nedal prečítať.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Súbor uložený</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Neplatné ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Neplatný názov</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Názov nie je vyplnený</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Neplatná frekvencia</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Frekvencia nie je vyplnená</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Žiadny kanál</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Rádio je zapnuté, ale nie je vybraný kanál</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP je tiež zapnuté</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP je tiež zapnuté, vypína sa</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>Používa sa predvolený profil AgIO</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Používa sa predvolený profil</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Rádio NTRIP zap.</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Sériové NTRIP zap.</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Sériové prepojenie NTRIP zap.</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Zapnite NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Chyba pripojenia k sériovému prepojeniu</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Chyba pripojenia k rádiu</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP nastavená</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Súbor sa nenašiel</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Zadajte názov súboru na uloženie...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Uložiť a vrátiť sa</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Nedá sa pripojiť k portu</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Spojenie je už ukončené?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Spojenie je už ukončené??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Nie je aktívny žiadny port Arduino</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Závažná chyba sieťového pripojenia</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Kritická chyba registra</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Podkľúč registra sa nedá odstrániť</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController nie je nainštalovaný??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Rádio je zapnuté. Najprv ho vypnite v nastaveniach rádia.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Sériové prepojenie je zapnuté. Najprv ho vypnite.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP je zapnuté. Najprv ho vypnite v zozname profilov NTRIP.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Vzdialenosť</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Zmazať</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Chybová&#xD;
+správa</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Správa 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Modul 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Sériový monitor – baud: Teensy – 115200   Arduino – 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Odoslať $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Odoslať $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Náklon: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Riadenie: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>Výstup NTRIP</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Pevná poloha</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Iná služba NTRIP</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automaticky</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Obe</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Záloha</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Prepínam sám</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Hlavná služba</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Moja doska AIO (sieť)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Môj GPS prijímač (sériový)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Moja poloha GPS</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>Služba NTRIP</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Výstup a poloha</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Sériové rádio</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Prepína sa samo</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>POUŽÍVA SA TERAZ</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>POUŽÍVA SA</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>HLAVNÁ SLUŽBA</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>ZÁLOHA</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Vypnuté. Druhá služba sa nepoužíva.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(zatiaľ žiadny port)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Prepínate ručne</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Surové TCP (bez mountpointu a prihlásenia)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Nie je vybraný mountpoint</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Zatiaľ nevyplnené</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Potrebuje vašu polohu</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Miesto</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(zatiaľ neuložené)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Najprv vyberte port rádia.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Na použitie zálohy vyberte port rádia</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Na použitie zálohy vyplňte údaje o casteri</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Zatiaľ nie sú žiadne profily.&#xD;
+&#xD;
+Vytvoríte ho ťuknutím na Nový profil.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Tento profil zatiaľ nie je vyplnený.&#xD;
+Ťuknite na Upraviť a vyplňte hlavnú službu.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>Zatiaľ nie je vybraný profil NTRIP. Vyberte alebo vytvorte ho v nastaveniach NTRIP.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>V profile NTRIP vyberte port hlavného rádia.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP je opäť online</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Korekcie opäť prichádzajú.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>Prihlásenie NTRIP zamietnuté</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>Mountpoint NTRIP sa nenašiel</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>Caster NTRIP je zaneprázdnený</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP bez korekcií</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>Prúd NTRIP stratený</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP nepripojené</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP vyp.</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP počúva</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Problém s pripojením</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Nepodarilo sa pripojiť k casteru</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>nenašla sa žiadna adresa IPv4</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>Pripojenie NTRIP zlyhalo</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>Pripojenie NTRIP bolo zamietnuté</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Caster ukončil spojenie bez odoslania dát (skontrolujte mountpoint/prihlasovacie údaje)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>Klient NTRIP nie je nastavený</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Vyberte existujúci alebo vytvorte nový profil</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Vytvorte alebo vyberte profil</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Pred použitím sériového prepojenia ho vypnite</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Pred použitím NTRIP ho vypnite</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Pred použitím rádia NTRIP ho vypnite</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Rádio NTRIP zap.</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Nové hodnoty boli zmenené</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP zap.</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP je zapnuté</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO sa reštartuje na zapnutie sieťových funkcií UDP</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO sa reštartuje na vypnutie sieťových funkcií UDP</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim sa reštartuje na použitie zmien siete UDP</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Ručné IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Chyba aktualizátora</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>Aktualizácia AgOpenGPS</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Počkajte...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Počkajte</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Počkajte na dokončenie prebiehajúcej operácie.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Kontrola vydaní na GitHube...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Kontrola USB disku...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>Na USB disku sa nenašla žiadna aktualizácia.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Zatvára sa AgOpenGPS a AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Aplikácie zatvorené</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Sťahovanie z GitHubu...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Sťahovanie zlyhalo</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Sťahovanie zlyhalo</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopírovanie z USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopírovanie zlyhalo</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopírovanie zlyhalo</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Inštalácia zlyhala</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Inštalácia zlyhala</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Hotovo! Reštartuje sa...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Hotovo!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Aktualizácia bola zrušená.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Poznámky k vydaniu nie sú k dispozícii.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Kandidát na vydanie</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Sťahovanie zlyhalo: veľkosť súboru nezodpovedá vydaniu.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Sťahovanie zlyhalo: kontrolný súčet nezodpovedá vydaniu, súbor sa nenainštaloval.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>V tomto vydaní sa nenašiel vhodný súbor na stiahnutie.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Iná inštancia aktualizátora už beží.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Nebežali žiadne aplikácie.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Aplikácie sa úspešne zatvorili.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Súbor aktualizácie sa nenašiel.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Inštalačný adresár neexistuje.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Vytvára sa záloha...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Rozbaľujú sa súbory...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Inštalujú sa súbory...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe sa v inštalačnom adresári nenašiel.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS sa úspešne reštartoval.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Hľadať aktualizácie</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Nainštalovať aktualizáciu</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Zahrnúť predbežné vydania</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Aktualizácia firmvéru</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>Aktualizácia firmvéru AgOpenGPS</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>Aktualizátor AgOpenGPS</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Poznámky k vydaniu</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Zobraziť poznámky k vydaniu</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Poznámky k vydaniu sa zobrazia tu.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Aktuálna verzia: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Najnovšia verzia: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Najnovšia verzia: aktuálne</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Webová aktualizácia – kliknite na Hľadať aktualizácie</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Webová aktualizácia (GitHub Releases)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Webová aktualizácia (dostupná aj lokálna aktualizácia)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Lokálne: na USB sa nenašiel žiadny AgOpenGPS_*.zip</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Lokálne: umiestnite AgOpenGPS.zip do koreňa USB disku</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController nie je nainštalovaný, stiahnite ho z:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Používatelia Linuxu</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Iba Linux!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Ukončuje sa</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profil sa nepodarilo úplne načítať (súbor môže byť poškodený).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profil bol obnovený zo zálohy .last, pretože hlavný súbor sa nedal prečítať.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Najprv vyberte port hlavného rádia.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Najprv vyplňte adresu hlavnej služby.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Alebo vypnite NTRIP v zozname profilov.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Na opravu otvorte Nastavenia -&gt; COM porty</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Aktuálna relácia používa predvolené hodnoty pre chýbajúce/neplatné hodnoty.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>Profil AgIO sa nepodarilo úplne načítať (súbor môže byť poškodený).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>Profil NTRIP "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" nie je v tomto počítači. Vyberte alebo vytvorte profil v nastaveniach NTRIP.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" zatiaľ nemá adresu služby.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Záloha tiež nefunguje:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Žiadne korekcie už</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO sa neustále pokúša.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> sekúnd</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minút</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>POUŽÍVA SA ZÁLOHA: hlavná služba sa teraz nepoužíva</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>ID základňovej stanice:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Poloha:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Poškodené dáta:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Odpoveď služby:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Pripájam o</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Adresu casteru sa nepodarilo preložiť:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Simulované dáta</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   ŽIADNE DÁTA</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Aktualizátor sa musí spustiť z AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Najprv spustite AgOpenGPS a použite:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Ponuka → Nástroje → Hľadať aktualizácie</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>Je to potrebné na zistenie vašej aktuálnej verzie.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Nainštalovať aktualizáciu z</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Zdroj:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Vykoná sa:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Zatvorí sa AgOpenGPS a AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Vytvorí sa záloha aktuálnej inštalácie</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Nainštaluje sa aktualizácia</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Reštartuje sa AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Chcete pokračovať?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Súbor aktualizácie sa nenašiel.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Umiestnite AgOpenGPS_X.Y.Z.zip do koreňa USB disku.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Aktualizácia zlyhala: {0}
+Záloha bola obnovená.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Aktualizácia zlyhala: {0}
+Obnovenie zálohy tiež zlyhalo!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Aktualizácia zlyhala: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Záloha bola obnovená.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Obnovenie zálohy tiež zlyhalo!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Aktualizácia bola úspešne nainštalovaná.
+{0}
+Záloha: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Dostupná aktualizácia: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Prepne sa samo po {0} neúspešných pokusoch</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpointov, najbližšie prvé.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpointov.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Nenašlo sa {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Kontrola zlyhala: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>Prijatých {1} kB</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Posledné dáta pred {1d} sekundami.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Posledné dáta pred {1d} sekundami. Pomalé pripojenie?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Korekcie sú staré {1d} sekúnd.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Vzdialenosť od základňovej stanice: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Typ fixu vášho GPS: {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} je aktívne (starý klient)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} je aktívne</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (starý klient)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Otvára sa {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: čaká na dáta</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profil: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Uložené do {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Prepísať: {1}</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID '{1}' nie je platné číslo</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Nastala chyba: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>Chyba UDP: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Chyba pri načítaní: {1}</value>
+  </data>
+  <data name="gsABDraw" xml:space="preserve">
+    <value>Kresliť AB</value>
+  </data>
+  <data name="gsABDrawHint" xml:space="preserve">
+    <value>Na začiatok kliknite na 2 body na hranici</value>
+  </data>
+  <data name="gsADConverter" xml:space="preserve">
+    <value>AD prevodník</value>
+  </data>
+  <data name="gsAPlus" xml:space="preserve">
+    <value>A+</value>
+  </data>
+  <data name="gsAckermann" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="gsAcquire" xml:space="preserve">
+    <value>Zachytiť</value>
+  </data>
+  <data name="gsAcquireFactor" xml:space="preserve">
+    <value>Faktor zachytenia</value>
+  </data>
+  <data name="gsActive" xml:space="preserve">
+    <value>Aktivovať</value>
+  </data>
+  <data name="gsAdvancedTramLines" xml:space="preserve">
+    <value>Vytvoriť rozšírené koľajové riadky</value>
+  </data>
+  <data name="gsAgShareDownloader" xml:space="preserve">
+    <value>Stiahnuť polia z AgShare</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Aktivovať</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Aktivované</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>Kľúč API</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Načítanie z cloudu</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Auto-nahrávanie</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Auto-nahrávanie: nahrať zmeny poľa pri zatvorení
+Načítanie z cloudu: pri otvorení vždy stiahnuť najnovšiu verziu z AgShare</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Pripájanie...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Pripojenie úspešné</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Deaktivované</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Zadajte server a kľúč API, potom otestujte pripojenie</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Neplatný kľúč API</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Iba lokálne</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Vložiť zo schránky</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Zaregistrujte sa tu a používajte AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Nastavenia uložené</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>Nastavenia AgShare</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Otestovať pripojenie</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Nahrávanie vyp.</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Nahrávanie zap.</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Polia sa automaticky načítavajú z cloudu</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Pole načítané z AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Pole sa nepodarilo načítať z cloudu, použije sa lokálna verzia.</value>
+  </data>
+  <data name="gsAgree" xml:space="preserve">
+    <value>Súhlasím</value>
+  </data>
+  <data name="gsAllSettings" xml:space="preserve">
+    <value>Zobraziť všetky nastavenia</value>
+  </data>
+  <data name="gsAlpha" xml:space="preserve">
+    <value>Priehľadnosť</value>
+  </data>
+  <data name="gsAntennaHeight" xml:space="preserve">
+    <value>Výška antény</value>
+  </data>
+  <data name="gsAntennaOffset" xml:space="preserve">
+    <value>Posun antény</value>
+  </data>
+  <data name="gsApplied" xml:space="preserve">
+    <value>Aplikované</value>
+  </data>
+  <data name="gsArrangeText" xml:space="preserve">
+    <value>Dotknite sa tlačidiel vľavo, ktoré sa majú zobraziť v menu (vpravo).
+
+Poradie, v akom ich stlačíte, bude poradie v menu zdola nahor.</value>
+  </data>
+  <data name="gsAttachmentStyle" xml:space="preserve">
+    <value>Typ náradia</value>
+  </data>
+  <data name="gsAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="gsAutoOffAgIO" xml:space="preserve">
+    <value>Automaticky vypnúť AgIO</value>
+  </data>
+  <data name="gsAutoStartAgIO" xml:space="preserve">
+    <value>Automaticky spustiť AgIO</value>
+  </data>
+  <data name="gsAutoSwitchDualFix" xml:space="preserve">
+    <value>Auto Dual &lt;&gt; Fix</value>
+  </data>
+  <data name="gsAutoSwitchDualFixSpeed" xml:space="preserve">
+    <value>Rýchlosť prepnutia</value>
+  </data>
+  <data name="gsBackground" xml:space="preserve">
+    <value>Pozadie</value>
+  </data>
+  <data name="gsBottomMenu" xml:space="preserve">
+    <value>Spodné menu</value>
+  </data>
+  <data name="gsBrightness" xml:space="preserve">
+    <value>Jas</value>
+  </data>
+  <data name="gsBuild" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="gsBuildAround" xml:space="preserve">
+    <value>Vytvoriť okolo</value>
+  </data>
+  <data name="gsButton" xml:space="preserve">
+    <value>Tlačidlo</value>
+  </data>
+  <data name="gsButtonDescription" xml:space="preserve">
+    <value>Stlačiť zap., stlačiť vyp.</value>
+  </data>
+  <data name="gsButtonPicker" xml:space="preserve">
+    <value>Výber tlačidiel</value>
+  </data>
+  <data name="gsCameraBehavior" xml:space="preserve">
+    <value>Správanie kamery</value>
+  </data>
+  <data name="gsCancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="gsCenter" xml:space="preserve">
+    <value>Na stred</value>
+  </data>
+  <data name="gsCheckForUpdates" xml:space="preserve">
+    <value>Skontrolovať aktualizácie</value>
+  </data>
+  <data name="gsChoose" xml:space="preserve">
+    <value>Vybrať</value>
+  </data>
+  <data name="gsClipLine" xml:space="preserve">
+    <value>Orezať líniu</value>
+  </data>
+  <data name="gsCloseAllWindowsFirst" xml:space="preserve">
+    <value>Najskôr zatvorte všetky okná</value>
+  </data>
+  <data name="gsCm" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="gsColorPicker" xml:space="preserve">
+    <value>Výber farby</value>
+  </data>
+  <data name="gsCopyFrom" xml:space="preserve">
+    <value>Kopírovať z</value>
+  </data>
+  <data name="gsCountsPerDegree" xml:space="preserve">
+    <value>Impulzov na stupeň</value>
+  </data>
+  <data name="gsCoverage" xml:space="preserve">
+    <value>Pokrytie</value>
+  </data>
+  <data name="gsCreate" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="gsCreateNewFromIsoXML" xml:space="preserve">
+    <value>Vytvoriť nové pole z ISO-XML</value>
+  </data>
+  <data name="gsCreateNewProfile" xml:space="preserve">
+    <value>Vytvoriť nový profil</value>
+  </data>
+  <data name="gsCurrentTurnSensor" xml:space="preserve">
+    <value>Prúdový snímač otáčania</value>
+  </data>
+  <data name="gsCurve" xml:space="preserve">
+    <value>Krivka</value>
+  </data>
+  <data name="gsDay" xml:space="preserve">
+    <value>Deň</value>
+  </data>
+  <data name="gsDeadzone" xml:space="preserve">
+    <value>Mŕtve pásmo</value>
+  </data>
+  <data name="gsDefault" xml:space="preserve">
+    <value>Predvolené</value>
+  </data>
+  <data name="gsDegree" xml:space="preserve">
+    <value>stupeň</value>
+  </data>
+  <data name="gsDelete" xml:space="preserve">
+    <value>Vymazať</value>
+  </data>
+  <data name="gsDeleteField" xml:space="preserve">
+    <value>Vymazať pole</value>
+  </data>
+  <data name="gsDiameter" xml:space="preserve">
+    <value>Priemer</value>
+  </data>
+  <data name="gsDirect" xml:space="preserve">
+    <value>Priamo</value>
+  </data>
+  <data name="gsDirectionMarkers" xml:space="preserve">
+    <value>Značky smeru</value>
+  </data>
+  <data name="gsDisagree" xml:space="preserve">
+    <value>Nesúhlasím</value>
+  </data>
+  <data name="gsDiscourseForum" xml:space="preserve">
+    <value>Fórum Discourse</value>
+  </data>
+  <data name="gsDisplay" xml:space="preserve">
+    <value>Zobrazenie</value>
+  </data>
+  <data name="gsDistanceToFlag" xml:space="preserve">
+    <value>Vzdialenosť k vlajke</value>
+  </data>
+  <data name="gsDownloadAll" xml:space="preserve">
+    <value>Stiahnuť všetko</value>
+  </data>
+  <data name="gsDownloading" xml:space="preserve">
+    <value>Sťahovanie</value>
+  </data>
+  <data name="gsDualAntennaSetting" xml:space="preserve">
+    <value>Nastavenia dvojitej antény</value>
+  </data>
+  <data name="gsDualpositionAntennaRight" xml:space="preserve">
+    <value>Anténa Dual Position je na pravej strane</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Rýchly štart s GPS navádzaním. Nastavte pracovnú šírku a dĺžku závesu, potom vytvorte AB líniu alebo krivku. Nič sa neukladá na disk.</value>
+  </data>
+  <data name="gsEditColor" xml:space="preserve">
+    <value>Upraviť farbu</value>
+  </data>
+  <data name="gsElevationlog" xml:space="preserve">
+    <value>Záznam nadmorskej výšky</value>
+  </data>
+  <data name="gsEmptyProfile" xml:space="preserve">
+    <value>Prázdny profil</value>
+  </data>
+  <data name="gsEnable" xml:space="preserve">
+    <value>Povoliť</value>
+  </data>
+  <data name="gsEnterName" xml:space="preserve">
+    <value>Zadajte názov</value>
+  </data>
+  <data name="gsEnterRecordName" xml:space="preserve">
+    <value>Zadajte názov záznamu</value>
+  </data>
+  <data name="gsExit" xml:space="preserve">
+    <value>Ukončiť</value>
+  </data>
+  <data name="gsExitToWindows" xml:space="preserve">
+    <value>Ukončenie do Windows o</value>
+  </data>
+  <data name="gsExtraGuideLines" xml:space="preserve">
+    <value>Extra vodiace línie</value>
+  </data>
+  <data name="gsFactor" xml:space="preserve">
+    <value>Faktor</value>
+  </data>
+  <data name="gsFast" xml:space="preserve">
+    <value>Rýchlo</value>
+  </data>
+  <data name="gsFieldMenu" xml:space="preserve">
+    <value>Menu poľa</value>
+  </data>
+  <data name="gsFieldPicker" xml:space="preserve">
+    <value>Načítať súbor</value>
+  </data>
+  <data name="gsFieldTexture" xml:space="preserve">
+    <value>Textúra poľa</value>
+  </data>
+  <data name="gsFix2Fix" xml:space="preserve">
+    <value>Vzdialenosť Fix to Fix</value>
+  </data>
+  <data name="gsFixAlarm" xml:space="preserve">
+    <value>Alarm RTK Fix</value>
+  </data>
+  <data name="gsFixAlarmStop" xml:space="preserve">
+    <value>Alarm vypne autosteer</value>
+  </data>
+  <data name="gsFlags" xml:space="preserve">
+    <value>Vytvoriť vlajky</value>
+  </data>
+  <data name="gsForceOverwrite" xml:space="preserve">
+    <value>Vynútiť prepísanie</value>
+  </data>
+  <data name="gsFormFlag" xml:space="preserve">
+    <value>Vlajky</value>
+  </data>
+  <data name="gsGap" xml:space="preserve">
+    <value>Medzera</value>
+  </data>
+  <data name="gsGetSelected" xml:space="preserve">
+    <value>Stiahnuť vybrané</value>
+  </data>
+  <data name="gsGpsStep" xml:space="preserve">
+    <value>Minimálny krok GPS</value>
+  </data>
+  <data name="gsGrid" xml:space="preserve">
+    <value>Mriežka</value>
+  </data>
+  <data name="gsGuidanceStopped" xml:space="preserve">
+    <value>Navádzanie zastavené</value>
+  </data>
+  <data name="gsHardwareMessages" xml:space="preserve">
+    <value>Hardvérové hlásenia</value>
+  </data>
+  <data name="gsHeading" xml:space="preserve">
+    <value>Smer</value>
+  </data>
+  <data name="gsHeadingOffset" xml:space="preserve">
+    <value>Posun smeru</value>
+  </data>
+  <data name="gsHitchLength" xml:space="preserve">
+    <value>Dĺžka závesu</value>
+  </data>
+  <data name="gsHold" xml:space="preserve">
+    <value>Držať</value>
+  </data>
+  <data name="gsHydraulicLift" xml:space="preserve">
+    <value>Hydraulický zdvih</value>
+  </data>
+  <data name="gsHydraulicLiftConfig" xml:space="preserve">
+    <value>Nastavenie hydraulického zdvihu</value>
+  </data>
+  <data name="gsHydraulicLiftLookAhead" xml:space="preserve">
+    <value>Predstih</value>
+  </data>
+  <data name="gsIMUAxis" xml:space="preserve">
+    <value>Výmena osí IMU</value>
+  </data>
+  <data name="gsImage" xml:space="preserve">
+    <value>Žiadny obrázok</value>
+  </data>
+  <data name="gsImuFusion" xml:space="preserve">
+    <value>Fúzia</value>
+  </data>
+  <data name="gsIntegral" xml:space="preserve">
+    <value>Integrál</value>
+  </data>
+  <data name="gsIntegralInfo" xml:space="preserve">
+    <value>Pomaly zvyšuje uhol riadenia, aby znížil priečnu odchýlku</value>
+  </data>
+  <data name="gsInvertHydraulicRelays" xml:space="preserve">
+    <value>Invertovať relé</value>
+  </data>
+  <data name="gsInvertMotor" xml:space="preserve">
+    <value>Invertovať smer motora</value>
+  </data>
+  <data name="gsInvertRelays" xml:space="preserve">
+    <value>Invertovať relé</value>
+  </data>
+  <data name="gsInvertRoll" xml:space="preserve">
+    <value>Invertovať náklon</value>
+  </data>
+  <data name="gsInvertWas" xml:space="preserve">
+    <value>Invertovať WAS</value>
+  </data>
+  <data name="gsKeyboard" xml:space="preserve">
+    <value>Klávesnica</value>
+  </data>
+  <data name="gsLatLon" xml:space="preserve">
+    <value>Šírka+Dĺžka</value>
+  </data>
+  <data name="gsLateral" xml:space="preserve">
+    <value>Bočný</value>
+  </data>
+  <data name="gsLatitude" xml:space="preserve">
+    <value>Zemepisná šírka</value>
+  </data>
+  <data name="gsLeft" xml:space="preserve">
+    <value>Vľavo</value>
+  </data>
+  <data name="gsLess" xml:space="preserve">
+    <value>Menej</value>
+  </data>
+  <data name="gsLightbar" xml:space="preserve">
+    <value>Svetelná lišta</value>
+  </data>
+  <data name="gsLineSmooth" xml:space="preserve">
+    <value>Vyhladenie línie</value>
+  </data>
+  <data name="gsLineWidth" xml:space="preserve">
+    <value>Hrúbka línie</value>
+  </data>
+  <data name="gsLoad" xml:space="preserve">
+    <value>Načítať</value>
+  </data>
+  <data name="gsLoadProfile" xml:space="preserve">
+    <value>Načítať profil</value>
+  </data>
+  <data name="gsLongtitude" xml:space="preserve">
+    <value>Zemepisná dĺžka</value>
+  </data>
+  <data name="gsLookAhead" xml:space="preserve">
+    <value>Predstih</value>
+  </data>
+  <data name="gsLookAheadTiming" xml:space="preserve">
+    <value>Nastavenie času predstihu</value>
+  </data>
+  <data name="gsLowerTime" xml:space="preserve">
+    <value>Čas spustenia</value>
+  </data>
+  <data name="gsManualTurns" xml:space="preserve">
+    <value>Ručné otáčky</value>
+  </data>
+  <data name="gsMapForBackground" xml:space="preserve">
+    <value>Pridať mapu Bing ako pozadie</value>
+  </data>
+  <data name="gsMaxLimit" xml:space="preserve">
+    <value>Max. limit</value>
+  </data>
+  <data name="gsMaxSpeed" xml:space="preserve">
+    <value>Max. rýchlosť</value>
+  </data>
+  <data name="gsMaxSteerAngle" xml:space="preserve">
+    <value>Max. uhol riadenia</value>
+  </data>
+  <data name="gsMinSpeed" xml:space="preserve">
+    <value>Min. rýchlosť</value>
+  </data>
+  <data name="gsMinToMove" xml:space="preserve">
+    <value>Minimum na pohyb</value>
+  </data>
+  <data name="gsMode" xml:space="preserve">
+    <value>Režim</value>
+  </data>
+  <data name="gsMore" xml:space="preserve">
+    <value>Viac</value>
+  </data>
+  <data name="gsMotorDriver" xml:space="preserve">
+    <value>Typ ovládača motora</value>
+  </data>
+  <data name="gsMultiColorSections" xml:space="preserve">
+    <value>Viacfarebné</value>
+  </data>
+  <data name="gsName" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="gsNew" xml:space="preserve">
+    <value>Nový</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Ďalej</value>
+  </data>
+  <data name="gsNextGuidanceLine" xml:space="preserve">
+    <value>Ďalšia vodiaca línia</value>
+  </data>
+  <data name="gsNight" xml:space="preserve">
+    <value>Noc</value>
+  </data>
+  <data name="gsNudge" xml:space="preserve">
+    <value>Posun</value>
+  </data>
+  <data name="gsNudgeDistance" xml:space="preserve">
+    <value>Vzdialenosť posunu</value>
+  </data>
+  <data name="gsNudgeRefTrack" xml:space="preserve">
+    <value>Posunúť referenčnú stopu</value>
+  </data>
+  <data name="gsOff" xml:space="preserve">
+    <value>Vyp.</value>
+  </data>
+  <data name="gsOn" xml:space="preserve">
+    <value>Zap.</value>
+  </data>
+  <data name="gsOnDelay" xml:space="preserve">
+    <value>Oneskorenie zapnutia</value>
+  </data>
+  <data name="gsOpacity" xml:space="preserve">
+    <value>Krytie</value>
+  </data>
+  <data name="gsOverlap" xml:space="preserve">
+    <value>Prekrytie</value>
+  </data>
+  <data name="gsOverride" xml:space="preserve">
+    <value>Prepísať</value>
+  </data>
+  <data name="gsPastEndOfCurve" xml:space="preserve">
+    <value>Za koncom krivky</value>
+  </data>
+  <data name="gsPivot" xml:space="preserve">
+    <value>Otočný bod</value>
+  </data>
+  <data name="gsPivotDistance" xml:space="preserve">
+    <value>Vzdialenosť otočného bodu</value>
+  </data>
+  <data name="gsPixel" xml:space="preserve">
+    <value>Pixel</value>
+  </data>
+  <data name="gsPlantPop" xml:space="preserve">
+    <value>Počet rastlín</value>
+  </data>
+  <data name="gsPleaseWait" xml:space="preserve">
+    <value>Čakajte, prosím</value>
+  </data>
+  <data name="gsPoint" xml:space="preserve">
+    <value>Bod</value>
+  </data>
+  <data name="gsPoints" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="gsPointsToProcess" xml:space="preserve">
+    <value>Body na spracovanie</value>
+  </data>
+  <data name="gsPolygons" xml:space="preserve">
+    <value>Polygóny</value>
+  </data>
+  <data name="gsPowerLoss" xml:space="preserve">
+    <value>Vypnutie pri strate napájania</value>
+  </data>
+  <data name="gsPresetColor" xml:space="preserve">
+    <value>Vybrať prednastavenú farbu</value>
+  </data>
+  <data name="gsPressureTurnSensor" xml:space="preserve">
+    <value>Tlakový snímač otáčania</value>
+  </data>
+  <data name="gsPreview" xml:space="preserve">
+    <value>Náhľad</value>
+  </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Prostredie</value>
+  </data>
+  <data name="gsProfileMenuHint" xml:space="preserve">
+    <value>Nastavenia vozidla, náradia a prostredia sa teraz ukladajú v samostatných profiloch.
+Načítať z panela Konfigurácia a z menu vľavo hore.</value>
+  </data>
+  <data name="gsProportionalGain" xml:space="preserve">
+    <value>Proporcionálne zosilnenie</value>
+  </data>
+  <data name="gsQuickAB" xml:space="preserve">
+    <value>Rýchle vytvorenie AB línie</value>
+  </data>
+  <data name="gsRaiseTime" xml:space="preserve">
+    <value>Čas zdvihu</value>
+  </data>
+  <data name="gsRate" xml:space="preserve">
+    <value>Dávka</value>
+  </data>
+  <data name="gsRecordedPathPicker" xml:space="preserve">
+    <value>Načítať zaznamenanú trasu</value>
+  </data>
+  <data name="gsRemain" xml:space="preserve">
+    <value>Zostáva</value>
+  </data>
+  <data name="gsRemoveOffset" xml:space="preserve">
+    <value>Odstrániť posun</value>
+  </data>
+  <data name="gsReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="gsReverseDistance" xml:space="preserve">
+    <value>Vzdialenosť pri cúvaní</value>
+  </data>
+  <data name="gsReverseSteer" xml:space="preserve">
+    <value>Detekcia cúvania</value>
+  </data>
+  <data name="gsRight" xml:space="preserve">
+    <value>Vpravo</value>
+  </data>
+  <data name="gsRightMenu" xml:space="preserve">
+    <value>Pravé menu</value>
+  </data>
+  <data name="gsRollFilter" xml:space="preserve">
+    <value>Filter náklonu</value>
+  </data>
+  <data name="gsSaveAllDone" xml:space="preserve">
+    <value>Všetko hotovo. Zatváram..</value>
+  </data>
+  <data name="gsSaveBeerTime" xml:space="preserve">
+    <value>Do videnia nabudúce!</value>
+  </data>
+  <data name="gsSaveField" xml:space="preserve">
+    <value>Ukladanie poľa</value>
+  </data>
+  <data name="gsSaveFieldSavedLocal" xml:space="preserve">
+    <value>Pole uložené lokálne.</value>
+  </data>
+  <data name="gsSaveFinalizeShutdown" xml:space="preserve">
+    <value>Dokončovanie vypnutia</value>
+  </data>
+  <data name="gsSaveSettings" xml:space="preserve">
+    <value>Ukladanie nastavení</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Nastavenia prostredia</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Nastavenia prostredia uložené.</value>
+  </data>
+  <data name="gsSaveSettingsSaved" xml:space="preserve">
+    <value>Nastavenia uložené.</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>Nastavenia vozidla</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>Nastavenia vozidla uložené.</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>Nastavenia náradia</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>Nastavenia náradia uložené.</value>
+  </data>
+  <data name="gsSaveUploadCompleted" xml:space="preserve">
+    <value>Nahrávanie dokončené.</value>
+  </data>
+  <data name="gsSaveUploadFailed" xml:space="preserve">
+    <value>Nahrávanie zlyhalo.</value>
+  </data>
+  <data name="gsSaveUploadToAgshare" xml:space="preserve">
+    <value>Nahrávanie poľa do AgShare</value>
+  </data>
+  <data name="gsScreenButtons" xml:space="preserve">
+    <value>Tlačidlá na obrazovke</value>
+  </data>
+  <data name="gsSectionColorsSet" xml:space="preserve">
+    <value>Nastaviť farby sekcií</value>
+  </data>
+  <data name="gsSectionLines" xml:space="preserve">
+    <value>Čiary sekcií</value>
+  </data>
+  <data name="gsSections" xml:space="preserve">
+    <value>Sekcie</value>
+  </data>
+  <data name="gsSelectButtons" xml:space="preserve">
+    <value>Výber tlačidiel</value>
+  </data>
+  <data name="gsSelectPreset" xml:space="preserve">
+    <value>Vybrať prednastavenú farbu</value>
+  </data>
+  <data name="gsSendAndSave" xml:space="preserve">
+    <value>Odoslať + uložiť</value>
+  </data>
+  <data name="gsShutdown" xml:space="preserve">
+    <value>Vypnutie</value>
+  </data>
+  <data name="gsShutdownIn" xml:space="preserve">
+    <value>Vypnutie o</value>
+  </data>
+  <data name="gsSideHillComp" xml:space="preserve">
+    <value>Kompenzácia svahu na stupeň</value>
+  </data>
+  <data name="gsSimpleTramLines" xml:space="preserve">
+    <value>Jednoduchý tvorca koľajových riadkov</value>
+  </data>
+  <data name="gsSingleAntennaSetting" xml:space="preserve">
+    <value>Nastavenia jednej antény</value>
+  </data>
+  <data name="gsSlow" xml:space="preserve">
+    <value>Pomaly</value>
+  </data>
+  <data name="gsSmooth" xml:space="preserve">
+    <value>Vyhladenie</value>
+  </data>
+  <data name="gsSound" xml:space="preserve">
+    <value>Zvuky</value>
+  </data>
+  <data name="gsSpeedFactor" xml:space="preserve">
+    <value>Faktor rýchlosti</value>
+  </data>
+  <data name="gsSpeedo" xml:space="preserve">
+    <value>Rýchlomer</value>
+  </data>
+  <data name="gsStart" xml:space="preserve">
+    <value>Štart</value>
+  </data>
+  <data name="gsStartFullscreen" xml:space="preserve">
+    <value>Spustiť na celú obrazovku</value>
+  </data>
+  <data name="gsStatus" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="gsSteerAngle" xml:space="preserve">
+    <value>Uhol riadenia</value>
+  </data>
+  <data name="gsSteerBar" xml:space="preserve">
+    <value>Ukazovateľ riadenia</value>
+  </data>
+  <data name="gsSteerChart" xml:space="preserve">
+    <value>Grafy riadenia</value>
+  </data>
+  <data name="gsSteerEnable" xml:space="preserve">
+    <value>Externé povolenie</value>
+  </data>
+  <data name="gsSteerInReverse" xml:space="preserve">
+    <value>Riadenie pri cúvaní</value>
+  </data>
+  <data name="gsSteerResponse" xml:space="preserve">
+    <value>Odozva riadenia</value>
+  </data>
+  <data name="gsSteerSwitch" xml:space="preserve">
+    <value>Spínač riadenia</value>
+  </data>
+  <data name="gsSvennArrow" xml:space="preserve">
+    <value>Šípka Svenn</value>
+  </data>
+  <data name="gsSwitch" xml:space="preserve">
+    <value>Spínač</value>
+  </data>
+  <data name="gsSwitchDescription" xml:space="preserve">
+    <value>Stlačené zap., uvoľnené vyp.</value>
+  </data>
+  <data name="gsTerms" xml:space="preserve">
+    <value>AgOpenGPS je výlučne vzdelávací softvér na učenie o navigačných systémoch, vetách GPS a teoretickom využití riadenia strojov.
+
+V žiadnom prípade sa nesmie používať na skutočných strojoch. Simulátor umožňuje študentovi bezpečne si vyskúšať navádzanie stroja.
+
+Softvér neobsahuje žiadne bezpečnostné systémy a žiadne sa ani nepredpokladajú.
+
+POUŽÍVATE NA VLASTNÉ RIZIKO.</value>
+  </data>
+  <data name="gsTermsConditions" xml:space="preserve">
+    <value>Zmluvné podmienky</value>
+  </data>
+  <data name="gsToolLeft" xml:space="preserve">
+    <value>Náradie vľavo</value>
+  </data>
+  <data name="gsToolOffset" xml:space="preserve">
+    <value>Smer posunu náradia</value>
+  </data>
+  <data name="gsToolRight" xml:space="preserve">
+    <value>Náradie vpravo</value>
+  </data>
+  <data name="gsToolsMenu" xml:space="preserve">
+    <value>Menu náradia</value>
+  </data>
+  <data name="gsTotal" xml:space="preserve">
+    <value>Spolu</value>
+  </data>
+  <data name="gsTrack" xml:space="preserve">
+    <value>Stopa</value>
+  </data>
+  <data name="gsTracks" xml:space="preserve">
+    <value>Stopy</value>
+  </data>
+  <data name="gsTramWidth" xml:space="preserve">
+    <value>Šírka koľajového riadka</value>
+  </data>
+  <data name="gsTurnOffDelay" xml:space="preserve">
+    <value>Oneskorenie vypnutia</value>
+  </data>
+  <data name="gsTurnOffRecordedPath" xml:space="preserve">
+    <value>Vypnúť zaznamenanú trasu</value>
+  </data>
+  <data name="gsTurnSensor" xml:space="preserve">
+    <value>Snímač otáčania</value>
+  </data>
+  <data name="gsUnits" xml:space="preserve">
+    <value>Jednotky</value>
+  </data>
+  <data name="gsUserNo" xml:space="preserve">
+    <value>Používateľ</value>
+  </data>
+  <data name="gsUturn" xml:space="preserve">
+    <value>Otočka U</value>
+  </data>
+  <data name="gsUturnCompensation" xml:space="preserve">
+    <value>Kompenzácia otočky U</value>
+  </data>
+  <data name="gsUturnExtension" xml:space="preserve">
+    <value>Nastavte predĺženie na 2 alebo 3-násobok polomeru</value>
+  </data>
+  <data name="gsUturnSmooth" xml:space="preserve">
+    <value>Nastavte vyhladenie na 3-4-násobok polomeru</value>
+  </data>
+  <data name="gsVehiclegroupbox" xml:space="preserve">
+    <value>Typ vozidla</value>
+  </data>
+  <data name="gsVersion" xml:space="preserve">
+    <value>Verzia</value>
+  </data>
+  <data name="gsWasZero" xml:space="preserve">
+    <value>Nula WAS</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Automaticky kalibruje nulu WAS analýzou uhlov riadenia počas jazdy. Zapnite autosteer a jazdite plynulo po línii.</value>
+  </data>
+  <data name="gsWheelbase" xml:space="preserve">
+    <value>Rázvor</value>
+  </data>
+  <data name="gsWidth" xml:space="preserve">
+    <value>Šírka</value>
+  </data>
+  <data name="gsWindowsStillOpen" xml:space="preserve">
+    <value>Okná sú stále otvorené</value>
+  </data>
+  <data name="gsWizard" xml:space="preserve">
+    <value>Sprievodca</value>
+  </data>
+  <data name="gsWorkSwitch" xml:space="preserve">
+    <value>Pracovný spínač</value>
+  </data>
+  <data name="gsWorkWidth" xml:space="preserve">
+    <value>Šírka</value>
+  </data>
+  <data name="gsWorked" xml:space="preserve">
+    <value>Spracované</value>
+  </data>
+  <data name="gsYouTubeTutorials" xml:space="preserve">
+    <value>Návody na YouTube</value>
+  </data>
+  <data name="gsZeroRoll" xml:space="preserve">
+    <value>Vynulovať náklon</value>
+  </data>
+  <data name="gsZone" xml:space="preserve">
+    <value>Zóna</value>
+  </data>
+  <data name="gsZones" xml:space="preserve">
+    <value>Zóny</value>
+  </data>
+  <data name="gsZoomIn" xml:space="preserve">
+    <value>Priblížiť</value>
+  </data>
+  <data name="gsCurrentVehicle" xml:space="preserve">
+    <value>Aktuálne vozidlo</value>
+  </data>
+  <data name="gsCurrentTool" xml:space="preserve">
+    <value>Aktuálne náradie</value>
+  </data>
+  <data name="gsSelected" xml:space="preserve">
+    <value>Vybrané</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Otočný bod antény</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>Rozchod</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Pripojiť</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Ťahaný záves</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>Záves</value>
+  </data>
+  <data name="gsVehicle" xml:space="preserve">
+    <value>Vozidlo</value>
+  </data>
+  <data name="gsTool" xml:space="preserve">
+    <value>Náradie</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>Kombajn</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Kĺbový</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>Predné</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Zadné pevné</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Ťahané</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>Vozidlo sa používa</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>Aktívne vozidlo nemožno vymazať</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>Vymazať vozidlo</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>Premenovať vozidlo</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>Zadajte nový názov vozidla</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>Vozidlo už existuje</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>Náradie sa používa</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>Aktívne náradie nemožno vymazať</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>Vymazať náradie</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>Premenovať náradie</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>Zadajte nový názov náradia</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>Náradie už existuje</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>Chyba pri načítaní vozidla</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>Chyba pri načítaní náradia</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Výsledok</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>Nové vozidlo</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Zadajte názov vozidla</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>Nové náradie</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Zadajte názov náradia</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Vytvoriť predvolené vozidlo</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Vytvoriť profil vozidla 'Default' s továrenskými nastaveniami?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Prepísať</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Profil už existuje. Prepísať</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Vytvoriť predvolené náradie</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Vytvoriť profil náradia 'Default' s továrenskými nastaveniami?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Predvolené vozidlo načítané</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Predvolené náradie načítané</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Previesť staré profily</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Vozidlo / náradie</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Previesť staré súbory profilov na nový formát</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Staré profily obsahovali všetky nastavenia v jednom súbore. Nový formát oddeľuje vozidlo, náradie a prostredie. Vyberte, čo chcete extrahovať.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>Krok 1</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>Krok 2</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Názov profilu vozidla</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Názov profilu náradia</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Importovať vozidlo</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Importovať náradie</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Neimportovať</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Nenašli sa žiadne súbory starého formátu.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>staré súbory</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>starých súborov: prevedené, na prevod</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>prevedené</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>na prevod</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Previesť</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Potvrdiť prevod</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Previesť '{0}': {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Previesť</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Vozidlo</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Náradie</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Prevod dokončený</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Úspešne prevedené</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Nastavenia prostredia boli importované a načítané.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Chyby prevodu</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Vyskytli sa chyby</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Načítať vozidlo/náradie</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Existuje</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Názov súboru</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Premenovať</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Vozidlo už existuje</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Náradie už existuje</value>
+  </data>
+  <data name="v_AboutIntro" xml:space="preserve">
+    <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>Adaptér CANbus</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Sieťová adresa modulov -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Vyžaduje sa reštart</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Nahrávanie dokončené</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Chyba načítania stopy</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Vytvoriť hranicu zo stôp</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Importovať stopy z iného poľa</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>Správa AgOpenGPS</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Posun pozície GPS (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Rýchly štart: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Kresliť AB - na začiatok kliknite na 2 body na hranici</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Bez názvu</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 body - zarovnať mriežku</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Vytvoriť nový záznam</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Načítať prostredie</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>Výnimka ISOXML</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Anténa</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Diferenciálny</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Jednoduchý</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD nastavené na: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Chyba ReceiveData: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Chyba odosielania: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Chyba SendData: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>Server UDP</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Oficiálny</value>
+  </data>
 </root>

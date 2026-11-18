@@ -397,7 +397,7 @@ namespace AgOpenGPS
             resetALLToolStripMenuItem.Text = gStr.gsResetAll;
 
             toolStripColors.Text = gStr.gsColors;
-            toolStripSectionColors.Text = "Section " + gStr.gsColors;
+            toolStripSectionColors.Text = AgLibrary.Localization.UiTranslator.IsHungarian() ? gStr.gsSectionColorsSet : "Section " + gStr.gsColors;
             toolStripConfig.Text = gStr.gsConfiguration;
             toolStripSteerSettings.Text = gStr.gsAutoSteer;
             toolStripWorkingDirectories.Text = gStr.gsDirectories;

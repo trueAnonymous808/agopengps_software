@@ -1527,4 +1527,4584 @@
   <data name="gsToolAlreadyExists" xml:space="preserve">
     <value>农具已存在</value>
   </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>另存为:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>打开:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>从列表中选择...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>正在加载列表...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>就绪...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>已复制</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>复制失败</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>复制以便反馈</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>仅</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>当前</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>响应</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>过滤</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>输入数值</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>输入数值</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>请输入内容</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>断开</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>未连接</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>自动连接</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>连接GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>串口</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS端口</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS端口2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM端口</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>网络端口</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>电台端口</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>速率 (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP地址 : 端口</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>主机名</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>主机名:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>当前子网</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>设置子网</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>输入新的子网地址</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>自动填写</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>此子网没有网卡</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>以太网设置</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>请开启UDP并点击确定</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP已关闭</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP关</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>传输速率</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>最近在线</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>%时关闭</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>转向角度稳定!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>移动中</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A点和B点已互换</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>A至Z及0至9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS已在运行</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>全部为绿色? 请点击生成或手动修正!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>仅限字母和数字</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>发生意外错误，已写入事件日志。AgOpenGPS继续运行。
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap错误</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>边界创建模式</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>生成失败</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>按钮错误</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>无法删除注册表子项树</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>已捕获</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>已复制到剪贴板，请在Telegram中粘贴 (CTRL-V)</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>请先创建路径</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>创建错误</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>交叉点错误</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>未找到交叉点</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>曲线已反向</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>距离错误</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>距离为0，无需移动</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>请启用转向开关</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>该环境正在使用</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>查找经纬度出错</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>错误，请检查格式</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>导入轨道线出错:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>转向角过大 - 无法归零</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>下载田块预览失败。详情请查看日志。</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>下载田块失败。</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>加载田块列表失败。</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>加载田块列表失败。
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>加载田块列表失败:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>加载轨道线失败:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>田块已保存但无法打开 (缺少Field.txt)。</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>正在查找交叉点...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>请完成全部设置，或恢复默认值</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>定位点添加成功!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>定位点保存成功!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>快捷键不完整</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>无效线路</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>无效的选择。</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>是否只有1条线?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>线路错误</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>加载错误:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>请确保所有端点各交叉一次</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>地图过大</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>最大164英尺</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>最大50米</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>必须大于5度</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>没有已记录的路径</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>未选择</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>当前没有打开的田块。</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>未选择田块。</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>未找到轨道线。</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>无法生成有效边界</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>没有可保存的有效边界</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>添加的按钮不足</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>可选文件问题</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>保存前请先选择田块。</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>请先选择田块。</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>请至少选择一个要上传的田块</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>请至少选择一条要导入的轨道线。</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>请等待上传完成</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>保存错误</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>请选择其他环境</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>已设为99，最大164英尺</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>已设为99，最大50米</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>起点与终点相同</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>转向角过小</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>转向已禁用</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>成功!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>田块已在本地删除，但无法从AgShare移除。
+请手动移除。</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>过宽</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>农具错误</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>点击地图以创建边界</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>轨道线信息</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>轨道线调整失败:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>上传已在进行中</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>正在上传</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>仅可使用AB线或曲线</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>农具过小</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>正在扫描</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>扫描应答</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>模块扫描</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>模块模拟</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>设备管理器</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>检查连接</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>已发送位置</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>接收的数据</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>次失败</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>发送间隔 (秒)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>发送空GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>NTRIP数据发送至GPS的方式:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>串口RTCM</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>通过USB更新</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>通过网络更新</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP设置</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP详情</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP配置</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP版本</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP错误</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>选择NTRIP配置</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>使用NTRIP客户端</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>使用旧版NTRIP客户端</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>原始TCP数据流</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>挂载点</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>可用挂载点</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>请选择离田块最近的基站。</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>差分数据发送至</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>主服务中断时使用备用服务</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>失败后切换:</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>主</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>电台</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>电台 (非XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>电台频道</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>电台设置</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>串口电台不是NTRIP服务，其差分数据收到后直接使用。电台无信号时由备用服务接替。</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>纬度:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>经度</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>经度:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>经度</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>海拔</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>海拔 (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>海拔:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>海拔</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>航向</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>速度:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>卫星</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>卫星:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>卫星数</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>定位质量</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>定位质量:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>定位质量</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>差分龄期</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>龄期:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>双天线</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>横滚</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>横滚校正</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>横滚:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>俯仰</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>偏航</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>偏航率</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>模拟数据</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>模拟</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>小数位数</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>系统数据</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AgOpenGPS状态:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>自动转向</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>转向</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>转向:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>转向模块</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>转向按钮</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>转向开关</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>转向开关:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>转向Ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>转向 &#xD;
+设置</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>转向&#xD;
+设置</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>来自&#xD;
+自动转向</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>目标角度</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>实际角度</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>角度:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>机具</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>机具:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>机具模块</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>机具</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>农具Ping:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>作业</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>作业开关</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>作业:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>开关:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>启用升降</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>液压升降</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>提升时间</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>下降时间</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>最小速度</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>最小PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>高PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>低PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>脉冲数</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>脉冲计数</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>计数:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>继电器高电平有效</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>压力</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>阿克曼</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>掉头</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>作业道</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>使用条款</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube教程</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse论坛</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>不同意</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>同意</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>版本:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>测试连接</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>请在上方输入信息并勾选测试连接</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API密钥:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>服务器:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>从剪贴板粘贴</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>在此注册以使用AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>自动上传</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>仅本地</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ 下次再见!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>车辆 / 农具...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>模拟器已开启</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>输入模拟坐标</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>全屏模式</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>全部重置</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>向导</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>转向向导</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>转向图表</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>航向图表</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>横滚校正图表</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>边界工具</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>平滑AB曲线</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>隐藏轮廓路径</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>摄像头</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>定位偏移</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>定位       秒</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>自动转向</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>查看所有设置</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS数据</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>多区段颜色</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>边界</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>地头</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>地头 (创建)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>作业道</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>作业道</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>删除已作业区域</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>按经纬度设定位点</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>已记录路径</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>导入轨道线</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>当前田块</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>参考</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>模拟器</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>自动转向开/关</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>点击按钮重置&#xD;
+然后按下新按键</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>切换线路</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>关闭田块</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>更新程序</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>纯追踪</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>由作业地图创建边界</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── 转向</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>最大角速度</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>倒车时转向</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>坡面补偿</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino转向</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>每度计数</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>转向高PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>转向低PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>转向最小PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (比例)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>最小转向速度</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>最大转向速度</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>功能速度限制</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── 几何参数</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>车辆类型</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>轮距</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>天线到支点</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>航向来源</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>双天线航向偏移</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>双天线倒车距离</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>最小步长限制</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>融合权重</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>双天线作IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── 品牌</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>拖拉机品牌</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>收割机品牌</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>铰接式品牌</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── 尺寸</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>农具宽度</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>农具重叠</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>农具偏移</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>区段数量</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>牵引挂接</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>罐车牵引</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>牵引到支点</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── 农具类型</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>牵引式</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>后置固定式</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (拖拉机-农具-拖拉机)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>前置式</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── 区段</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>区段 (非分区)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>离开时关闭</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>快速区段</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── 预观 / 时序</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>预观开启</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>预观关闭</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>农具关闭延迟</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>液压升降预观</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>地头区段控制</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── 导航 (每个农具)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>吸附距离</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>参考线吸附距离</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>死区距离</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>死区航向</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>死区延迟</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>使用Stanley</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley距离增益</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley航向增益</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley积分</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit积分</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>目标点获取系数</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>目标点保持</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>目标点倍数</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>低速截止</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── 作业开关</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>转向作业开关</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>最小覆盖率</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── 掉头 (每个农具)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>转弯半径</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>距边界距离</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>跳行宽度</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>延伸长度</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>掉头方式</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>掉头平滑</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>掉头补偿</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── 显示 / 菜单</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>网格开</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>导航光带开</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>侧向引导线</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure开</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>速度表开</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>导航光带 (非方向杆)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>白天模式</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>键盘开</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>车辆图像</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>纹理开</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>亮度开</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>记录海拔</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>关闭电脑</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>断电时关机</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO自动启动</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO自动关闭</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>光带 cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>相机缩放</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>相机俯仰</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── 自动转向</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>导航预观</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>自动转向自动开启</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>恒定轮廓</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── 引导线</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>引导线数量</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS龄期报警</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK丢失停止转向</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>定位跳变报警</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>模拟纬度</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>模拟经度</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP监测 ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── 声音</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>掉头提示音</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>液压升降提示音</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>自动转向提示音</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>区段提示音</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── 作业道</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>作业道行数</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>作业道透明度</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / 全局</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>倒车开</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>双天线自动切换定位</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>自动切换速度</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>绘制支点</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>地头距离开</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>边界工具间距</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>边界工具平滑</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>低电平有效</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>手动区段</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>远程作业系统</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>转向作业开关手动</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>最小航向步长</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare已启用</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>上传已启用</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>公开田块</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── 其他</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>语言区域</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / 定位</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>帧时间 (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>时间片</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>定位质量</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>跟踪卫星数</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>丢失的UDP语句</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── 航向</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU航向</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>点间航向</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>融合航向 (度)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>角速度</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── 应用程序</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>车辆文件</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>农具文件</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>设置项</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>所有设置</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>这将创建并加载新的配置。</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>请先关闭田块再运行更新程序</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>新定位点</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>手动区段</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>自动区段</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>吸附到支点</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>线路左移</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>线路右移</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>车辆设置</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   恢复&#xD;
+默认</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>区段或分区</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>新按键</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - 全屏&#xD;
+&#xD;
+NumPad1 - 手动区段&#xD;
+NumPad0 - 自动区段</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>东坐标</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>北坐标</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>原始Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>帧</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>丢失</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>点间</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>北 (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>西 (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>东 (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>南 (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>关闭田块后仍保留偏移?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>车辆</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>农具</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>车辆名称</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>类型:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>拖拉机</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>轴距:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>天线到支点:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>天线偏移:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>挂接:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>农具名称</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>宽度:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>区段:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>偏移:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>重叠:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>预观:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 秒</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>线路偏移:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>作业道宽度:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>单位:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>公制</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>选择车辆类型</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>不透明度</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>无图像</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>仅本次</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>存入文件</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>剪切线</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>输入记录名称</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; 关 &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>状态:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>添加名称</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>曲线</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>编辑名称</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>支点</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB线 + 曲线</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB线</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>经纬度 +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>经纬度</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>经度 (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>纬度 (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>喷洒</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>行数</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>轨道线</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>播种</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>选择按钮</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG菜单</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>多彩</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>区段颜色</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>编辑颜色</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>支点距离</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>天线高度</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>天线偏移</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** 双天线的定位天线在右侧</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>挂接长度</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>轴距</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>挂接类型</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>重叠 / 漏耕</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>重叠</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>漏耕</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>农具偏移方向</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>农具偏右</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>农具偏左</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>分区8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>分区7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>分区1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>分区2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>分区6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>分区3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>分区5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>分区4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>英寸</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>区段宽度</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% 覆盖率</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>分区</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>区段</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        自动区段</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        手动区段</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>预观时间设置</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>开 (秒)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>关 (秒)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>关闭延迟 (秒)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>报警将停止自动转向</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0为禁用</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>定位跳变距离 (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>双天线设置</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>切换速度</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>自动 双天线 &lt;-&gt; 定位</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>倒车距离 (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>航向偏移 (度)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>单天线设置</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>默认: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>融合</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>倒车检测</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>定位点间距离</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>最小GPS步长</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>天线类型</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>反转横滚</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>横滚归零</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>清除偏移</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>少</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>多</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>横滚滤波</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>平滑值请设为半径的3至4倍</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>延伸长度请设为半径的2至3倍&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>液压升降配置</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>植株密度</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>液压升降预观 (秒)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>提升时间 (秒)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>下降时间 (秒)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>反转继电器</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>发送并保存</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>显示?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>覆盖</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>作业道宽度</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>硬件消息</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>断电关机</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>自动关闭AgIO?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>底部菜单</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>微调控制</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>右侧菜单</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>自动启动AgIO?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>掉头</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>掉头</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>横向</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>隐藏轮廓</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB平滑</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>记录路径</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>作业道</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>屏幕按钮</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>工具菜单</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>田块菜单</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>调试数值</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>地头距离</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>线条平滑</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>区段线</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>方向标</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>海拔</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn箭头</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>田块纹理</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>多边形</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>全屏启动</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>速度表</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>引导线</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>网格</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>当前车辆</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>当前农具</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>英寸</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>农具宽度:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>英尺</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>实际:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>设定:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>误差:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>或 +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>转向角:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>直径:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>捕获:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>它将缓慢增加转向角度，以减少横向轨迹误差</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>慢</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>快</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>转向响应</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>积分</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>最小预观</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>预观</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley增益</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>最大转向角</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV实际:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV设定:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>每度计数</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS归零</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>捕获系数</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>距离:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>速度系数</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ 死区 -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>保持:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>捕获 = 系数 * 保持</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>开启延迟 (秒)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>航向 (度)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>增益</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>最小移动值</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>最大限制</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>比例增益</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>每横滚1度的坡面转向度数</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>按钮 - 按下开，再按下关&#xD;
+开关 - 按下开，松开关</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>压力传感器</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>电流传感器</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>计数传感器</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>反转电机方向</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>启用转向</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>电机驱动器</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>模数转换器</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>转向传感器</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>反转WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>全部恢复默认</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X或Y轴</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>智能WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>置信度: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>样本: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>倒车时转向?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>内</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>外</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>掉头补偿</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>最大速度</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>手动转弯</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>线宽</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>微调距离</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>引导条</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>方向杆</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>开/关</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>导航光带</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>厘米/像素</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>下一条引导线搜索时间</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>向导</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>误差:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>每横滚1度的坡面转向度数</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>预观 (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>预观速度增益</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM最小动作值</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM最大值</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>请直线前行并点击归零</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>压力式转向传感器</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>电流式转向传感器</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>反转液压启用继电器?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>转向启用模式</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>电机驱动器是什么类型?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>模数转换器如何连接?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>转向计数</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>是否使用丹佛斯阀?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>自由驾驶</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  启动向导</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>强烈推荐</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>加载默认值</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>设置轴距</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>设置轮距</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>轮距</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>天线&#xD;
+位置</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>设置天线到支点轴的距离</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>天线&#xD;
+高度</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>设置天线高度</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = 关</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>设置天线偏移</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>模数转换器</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>电机驱动板</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>驱动控制继电器</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>丹佛斯阀</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>否则请选择反转横滚</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>让车辆明显向右倾斜。向右横滚必须为正值。</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>横滚功能</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>停在水平地面上并点击“横滚归零”</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>横滚归零</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>反转WAS方向</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>当前航向:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WAS归零</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>反转方向</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>转向电机方向</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* 开始 * 校准</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WAS校准</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* 跳过 * 每度计数和阿克曼设置?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>起始角度:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>重置&#xD;
+为&#xD;
+100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>阿克曼值:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>将方向盘转到导航所需的限位后点击确定 -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>导航转向角限制</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>或手动设置导航转向角限制</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>自动取消功能</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>紧急停止速度</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>归零</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>自动上传: 关闭时上传田块更改&#xD;
+云端加载: 打开时始终从AgShare下载最新数据</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - 重置模拟&#xD;
+U - 掉头 (180度)&#xD;
+&#xD;
+上箭头 - 加速&#xD;
+下箭头 - 减速&#xD;
+左箭头 - 向左&#xD;
+右箭头 - 向右&#xD;
+&#xD;
+( . ) 句点 - 停止&#xD;
+( / ) 斜杠 - 直行</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>此偏移距离将加到经纬度上，并在关闭田块时保存到FIELD.KML文件中。</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>车辆设置现称为“配置”，&#xD;
+可在主菜单 (左上角) 中创建或加载。</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>点击左侧你希望出现在菜单 (右侧) 中的按钮。&#xD;
+&#xD;
+点击的顺序即为它们在菜单中从下到上的显示顺序。</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>将方向盘向右转约20度。&#xD;
+保持稳定圆周行驶，点击记录并等待。</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>按钮 - 按下松开: 开。   &#xD;
+               再按下松开: 关&#xD;
+&#xD;
+开关 - 按下时为开。 &#xD;
+               松开时为关。</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>缓慢行驶并启用自动转向。如果转向电机方向错误，请反转方向。&#xD;
+用箭头测试。</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>向右转时转向角必须为正值。&#xD;
+否则请选择反转WAS。</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>将方向盘向左转，角度与向右大致相同。&#xD;
+保持稳定圆周行驶，点击记录并等待。</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>用转向按钮改变设定值。&#xD;
+&#xD;
+将最小动作值尽量调高，但不能让转向电机或液压使方向盘动作</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>现在去行驶一条AB线，并根据速度和土壤状况微调设置。&#xD;
+&#xD;
+请注意: CPD、最小PWM和预观是关键设置。</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>旧配置将所有设置放在一个文件中。新格式将车辆、农具和环境分开。请选择要提取的内容。</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>固件更新功能&#xD;
+&#xD;
+此功能正在开发中。&#xD;
+&#xD;
+未来将支持:&#xD;
+&#xD;
+• 选择固件 .hex 文件&#xD;
+• 选择通信端口 (来自AgIO设置)&#xD;
+• 带参数启动TeensyLoaderCLI&#xD;
+• 将固件上传到Teensy设备&#xD;
+• 进度指示&#xD;
+&#xD;
+TeensyLoader集成:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>开关</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>按钮</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>选择旧配置文件</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>选择要转换的内容 (车辆和/或农具)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>已作业:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>实际:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>公顷/时</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ 时</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>英亩/时</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>缓慢直线前行，让系统自动转向</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>最小动作值设置</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>归零或 +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>调整比例值以获得良好响应。&#xD;
+设置PWM最大值以限制转向速度。</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>向前行驶并启用自动转向</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>增益设置</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>重新启动向导</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>完成!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>进度:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>每度计数</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WAS偏移</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>航向:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>校正后东坐标</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>校正距离</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>横滚角度</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>滚动开/关</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>杆</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>平滑</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>直接</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>相机行为</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>恢复默认</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 至 -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 至 -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>车辆: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>农具: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>环境: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>系统 / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>设定值</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>实际</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>输入田块名称</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>面积:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>点数:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>可用轨道线</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>可用田块</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>取消全选</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>请从左侧选择田块，再选择要复制的轨道线</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>田块名称</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>退出到Windows倒计时:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>关机倒计时:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>关机</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>选择或取消选择要使用的轨道线</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>缩短B点</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>缩短A点</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>延长B点</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>延长A点</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>上一个</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>自动查找</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>田块</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>覆盖</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>获取所选</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>获取全部</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>正在下载...请稍候</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>经度:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>纬度:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>到定位点距离:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>A点</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>导入定位点</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>导出定位点</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>边界</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>穿过?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>间距 (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>添加点</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>待处理点数:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare上传</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare下载</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>来自KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>驶入</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>来自现有</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>新建田块</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>上一个田块</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>作业宽度</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>新边界</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>田块名称</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>上传所选</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>编辑田块名称</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>线路</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>作业地图</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>定位点</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>剩余:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>用量:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>合计:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>已作业:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>已作业</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>距离:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>行程</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>距离 (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> 使用所选</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>使用所选</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>删除田块</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>记录名称</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>删除记录</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>路径关</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>白天</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>夜间</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>当前: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>已选: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>天线到支点:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>天线偏移:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>轮距:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>挂接:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>牵引挂接:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>转换旧配置</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>将旧配置文件转换为新格式</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>第2步: 选择要转换的内容 (车辆和/或农具):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>转换农具</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>农具配置名称:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>车辆配置名称:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>转换车辆</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>第1步: 选择旧配置文件:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>复制自:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>无效:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS单点:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK浮点:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>推测:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>手动:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>模拟:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>未知:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>龄期:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>无网络连接。</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>已连接。等待差分数据。</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>差分数据中断。正在重新连接。</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>已连接，但未收到数据。部分服务需要你的位置: 请检查是否已开启GPS位置发送。</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>服务端已断开连接。正在重新连接。</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>服务端未发送差分数据就断开了连接。</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>正在接收差分数据</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>服务端返回了AgIO无法解析的应答。</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>服务端未返回挂载点列表。</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>服务端返回了空应答。</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>服务端不存在此挂载点。请从列表中选择。</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>此地址返回的是网页，而不是NTRIP服务。请检查地址和端口。</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>用户名、密码或挂载点不正确。</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>服务端不存在此挂载点。请检查拼写，注意区分大小写。</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>服务端暂时无法接受新连接。可能服务繁忙，或此账号已在使用。</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>服务端正在启动。AgIO将在约一分钟后重试。</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>此服务要求使用你的电子邮件地址作为用户名。</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>用户名或密码不正确。</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>服务端拒绝访问。</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>服务端返回了AgIO无法理解的应答。</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>电台已打开。等待差分数据。</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>电台已打开，但未收到数据。</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>正在从电台接收差分数据。</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>已回到主服务</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>差分数据现已重新来自主服务。</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>主服务已恢复</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>要切换回去吗? GPS可能会短暂失去RTK。AgIO不会自动切换回去。</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>主服务出现问题</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>已切换到备用服务</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>你已切换到备用服务。</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>无差分数据</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>一切正常: 正在接收差分数据。</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>配置没有名称。</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS观测数据 (旧版)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS观测数据 (旧版)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>厂商专有</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>基站位置</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>基站位置 + 天线高度</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>天线描述</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>系统参数</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS星历</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS星历</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>接收机 + 天线描述</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>北斗星历</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS星历</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo星历</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS码相位偏差</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>请按下新的快捷键</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>点击按钮以编辑快捷键</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ 未连接</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: 设置距离，2: 点击生成，3: 创建剪切线</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE图表</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>请平稳行驶</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>可以应用</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>正在采集...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>错误，CPD已设为100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>阿克曼已设为:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>错误，阿克曼已设为100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>请选择下方方块并选取新颜色</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>选择预设颜色</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>选取新颜色，再选择下方方块以保存预设</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>未找到田块目录</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>加载田块出错</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>此田块中没有轨道线</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>加载轨道线出错</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>正在保存当前轨道线...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>正在转换轨道线...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>正在保存轨道线...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>已选田块:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>加载田块出错:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>简易驾驶已启用</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>加载环境:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>车辆:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>农具:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>环境:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>严重保存错误</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>关机错误</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>方向已重置</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>前进方向已设置</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>自动转向已禁用</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>微调窗口已打开</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>请关闭微调窗口</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>田块起点距离过远警告</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare上传失败</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>开始上传到AgShare时出错。</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>上传到AgShare时出错。</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>田块未保存</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>保存田块失败，田块仍保持打开。请检查磁盘空间后重试。</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>继续方式</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>上次停止位置</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>最近点</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>从头开始</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>不能用于分区</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>仅适用于区段</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>简易驾驶</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>简易驾驶模式下无法使用配置</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>区段已开启</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>请先关闭自动或手动</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>重置方向</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>请以大于1.5 km/h的速度前进</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>自动转向已关闭</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK定位报警</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>轨道线已更改</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>路径已启用</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>模拟倒车已触发</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>快捷键已触发</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>设置已发送到转向模块</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>退出编辑</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>未找到更新程序。请确认AgOpenGPS.Updater.exe位于程序目录中。</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>未找到更新程序</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>点数不足，无法创建边界</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>无法计算田块中心。缺少外边界或AB线。</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>分区数不能多于区段数</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>模拟器已关闭</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>使用真实天线时模拟器无法工作</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>已恢复默认</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>数值已设为初始默认值</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>超出范围</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>偏移过大 - 无法应用</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>智能WAS归零</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>已设为默认值</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD和阿克曼已设为默认值</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>P增益已更改</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>比例增益已设为1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>配置已创建</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>已创建默认配置</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>环境设置已重置!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>环境设置已加载!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>未找到配置文件!
+
+找不到注册表中记录的配置。
+请选择或新建配置。
+
+如未选择，环境将使用默认值。</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>未找到配置。
+
+请点击“新建”创建车辆和农具配置。
+
+如未选择，环境将使用默认值。</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>田块原点严重错误&#xD;
+&#xD;
+田块原点距当前GPS位置超过20 km。精度会很差，请删除此田块并新建一个&#xD;
+&#xD;
+或者你打开了一个田块并开出很远</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>警告: 关闭AgIO将中断与硬件的通信。&#xD;
+确定要关闭吗?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>升 + 降</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>停用</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>自动隐藏</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>自动&#xD;
+运行</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>当前配置</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>当前配置</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>新建配置</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>新建:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>使用配置:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: 管理配置</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>覆盖此配置:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS设置</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>串口透传设置</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>串口透传开</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>RTCM使用与GPS不同的端口?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>最小化启动</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>警告时弹出AgIO</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>自动启动GPS-Out</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>警告&#xD;
+时&#xD;
+显示</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>事件日志查看器</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>日志查看器</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>串口监视器</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP监视器</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN说明</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>说明 -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>键盘</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>消息文本显示在此处</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO消息</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo消息</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP详情</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP已关闭</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>正在使用备用服务</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>差分数据是否正常?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>切换到备用服务</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>重试主服务</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>切回主服务</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>已连接，等待数据</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>正在连接...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>未找到挂载点</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>无法登录</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>已停止</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>服务正在启动</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>服务繁忙</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>已连接，但无数据</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>无网络</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>正在重新连接...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>无法理解服务应答</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>无法连接服务</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>正在接收差分数据</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>此数据流无法进行详细检查。</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>已收到基站位置</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>基站位置</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>等待中。每10秒发送一次。</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>缺少基站位置</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>没有它RTK无法启动。</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>尚未收到。</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>到基站的距离</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>等待你的GPS位置。</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>距离太远，无法获得良好的RTK。请选择更近的基站。</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>距离较远。此距离下RTK精度会降低。</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>来自NTRIP设置中的固定位置。</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>差分数据中的卫星</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>差分数据中没有卫星数据</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>基站没有发送观测数据。</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>尚未收到任何数据。</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>数据新鲜</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>等待第一批数据。</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>数据延迟</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>没有新数据</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>你的GPS: RTK固定解</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>你的GPS: RTK浮点解</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>仍在解算中，请稍等。</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>你的GPS: 尚无RTK</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>仅有普通GPS精度。</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>你的GPS未定位</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>你的GPS处于手动或模拟模式</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>没有地址</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>请先填写地址。</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>没有端口</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>保存失败</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>打开端口出错</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>暂时无法使用NTRIP</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>请先选择配置并点击使用。</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>当前使用的配置还没有服务地址或电台端口。请先编辑。</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>无法读取</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>无法读取此配置文件。</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>无法重命名</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>该名称已被使用。</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>配置加载警告</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>配置已恢复</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>主文件无法读取，AgIO配置已从.last备份中恢复。</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>文件已保存</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>无效的ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>无效的名称</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>未填写名称</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>无效的频率</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>未填写频率</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>没有频道</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>电台已开启，但未选择频道</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP也已启用</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP也已启用，现将其关闭</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO正在使用默认配置</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>正在使用默认配置</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>电台NTRIP已开启</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>串口NTRIP已开启</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>串口透传NTRIP已开启</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>请开启NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>连接串口透传出错</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>连接电台出错</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP已设置</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>未找到文件</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>请输入要保存的文件名...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>保存并返回</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>无法连接到端口</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>连接是否已终止?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>连接是否已终止??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>没有活动的Arduino端口</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>严重网络连接错误</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>严重注册表错误</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>无法删除注册表子项树</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>未安装AOG-TaskController。</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>电台已开启。请先在电台设置中关闭。</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>串口透传已开启。请先关闭。</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP已开启。请先在NTRIP配置列表中关闭。</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>错误&#xD;
+消息</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>消息2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>模块3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>串口监视器 - 波特率: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>发送 $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>发送 $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>横滚: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>转向: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP输出</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>固定位置</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>另一个NTRIP服务</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>两者</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>备用</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>手动切换</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>主服务</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>我的AIO板 (网络)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>我的GPS接收机 (串口)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>我的GPS位置</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP服务</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>输出和位置</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>串口电台</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>自动切换</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>主服务</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>备用</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>已关闭，不使用第二个服务。</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(尚无端口)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>由你手动切换</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>原始TCP (无挂载点和登录)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>未选择挂载点</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>尚未填写</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>需要你的位置</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(尚未保存)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>请先选择电台端口。</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>请选择电台端口以使用备用服务</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>请填写Caster信息以使用备用服务</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>还没有配置。&#xD;
+&#xD;
+点击新建配置来创建。</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>此配置尚未填写。&#xD;
+点击编辑来填写主服务。</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>尚未选择NTRIP配置。请在NTRIP设置中选择或新建。</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>请在NTRIP配置中选择主电台端口。</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP已恢复在线</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>差分数据已恢复接收。</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP登录被拒绝</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP挂载点未找到</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP Caster繁忙</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP无差分数据</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP数据流中断</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP未连接</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP关</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP监听中</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>连接问题</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>无法连接到Caster</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>未找到IPv4地址</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP连接失败</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP连接被拒绝</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Caster未发送任何数据就断开了连接 (请检查挂载点和登录信息)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP客户端未设置</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>请选择现有配置或新建配置</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>请新建或选择配置</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>使用串口透传前请先关闭</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>使用NTRIP前请先关闭</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>使用电台NTRIP前请先关闭</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>电台NTRIP已开启</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>新数值已生效</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP开</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP已开启</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO将重新启动以启用UDP网络功能</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO将重新启动以关闭UDP网络功能</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim将重新启动以应用UDP网络更改</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>手动IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>更新程序错误</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS更新</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>请稍候...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>请稍候</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>请等待当前操作完成。</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>正在检查GitHub版本...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>正在检查U盘...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>U盘上没有找到更新。</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>正在关闭AgOpenGPS和AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>程序已关闭</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>正在从GitHub下载...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>下载失败</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>下载失败</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>正在从U盘复制...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>复制失败</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>复制失败</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>安装失败</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>安装失败</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>完成! 正在重新启动...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>完成!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>更新已取消。</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>没有可用的发行说明。</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>候选版本</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>下载失败: 文件大小与发布版本不符。</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>下载失败: 校验和与发布版本不符，文件未安装。</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>此版本中没有合适的下载文件。</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>另一个更新程序正在运行。</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>没有正在运行的程序。</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>程序已成功关闭。</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>未找到更新文件。</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>安装目录不存在。</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>正在创建备份...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>正在解压文件...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>正在安装文件...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>安装目录中未找到AgOpenGPS.exe。</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS已成功重新启动。</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>安装更新</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>包含预发布版</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>固件更新</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS固件更新</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS更新程序</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>发行说明</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>查看发行说明</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>发行说明将显示在此处。</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>当前版本: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>最新版本: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>最新版本: 已是最新</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>网络更新 - 请点击检查更新</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>网络更新 (GitHub)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>网络更新 (另有本地更新可用)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>本地: U盘上没有AgOpenGPS_*.zip</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>本地: 请将AgOpenGPS.zip放在U盘根目录</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>未安装AOG-TaskController，请从此处下载:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linux用户</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>仅限Linux!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  正在退出</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> 配置未能完整加载 (文件可能已损坏)。&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> 配置已从.last备份恢复，因为主文件无法读取。</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>请先选择主电台端口。</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>请先填写主服务地址。</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>或在配置列表中关闭NTRIP。</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>请前往 设置 -&gt; COM端口 进行修复</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>缺失或无效的值将在本次运行中使用默认值。</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIO配置未能完整加载 (文件可能已损坏)。</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIP配置 "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" 不在此电脑上。请在NTRIP设置中选择或新建配置。</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" 尚无服务地址。</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>备用服务也无法使用:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>无差分数据已持续</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO会继续重试。</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> 分钟</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>正在使用备用服务: 当前未使用主服务</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>基站ID:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>损坏的数据:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>服务端应答:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>重新连接倒计时</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>无法解析Caster地址:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  模拟数据</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   无数据</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>更新程序必须从AgOpenGPS启动。</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>请先启动AgOpenGPS，然后使用:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>菜单 → 工具 → 检查更新</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>这是为了检测当前版本所必需的。</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>安装更新，来源:</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>来源:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>这将:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• 关闭AgOpenGPS和AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• 备份当前安装</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• 安装更新</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• 重新启动AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>是否继续?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>未找到更新文件。</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>请将AgOpenGPS_X.Y.Z.zip放在U盘根目录。</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>更新失败: {0}
+已恢复备份。</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>更新失败: {0}
+恢复备份也失败了!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>更新失败: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+已恢复备份。</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+恢复备份也失败了!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>更新安装成功。
+{0}
+备份: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>有可用更新: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>失败{0}次后自动切换</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} 个挂载点，最近的在前。</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} 个挂载点。</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>找不到 {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>检查失败: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>已接收 {1} kB</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>最近一次数据在 {1d} 秒前。</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>最近一次数据在 {1d} 秒前。连接可能较慢。</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>差分数据已延迟 {1d} 秒。</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>到基站的距离: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>你的GPS: 定位类型 {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} 正常 (旧版客户端)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} 正常</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (旧版客户端)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>正在打开 {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: 等待数据</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} 配置: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>保存到 {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>覆盖: {1}?</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID '{1}' 不是有效数字</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>发生错误: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP错误: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>加载错误: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>已激活</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>API 密钥</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>云端加载</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>自动上传</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>自动上传：关闭时上传地块更改
+云端加载：打开时始终从 AgShare 下载最新版本</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>正在连接...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>连接成功</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>已停用</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>输入服务器和 API 密钥，然后测试连接</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>API 密钥无效</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>仅本地</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>从剪贴板粘贴</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>在此注册以使用 AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>设置已保存</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare 设置</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>测试连接</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>上传关闭</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>上传开启</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>地块自动从云端加载</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>已从 AgShare 加载地块</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>无法从云端加载地块，使用本地版本。</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>使用 GPS 导航快速开始。设置作业幅宽和悬挂长度，然后创建 AB 线或曲线。不会保存任何内容到磁盘。</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CANbus 适配器</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>模块网络地址 -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>需要重启</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>上传完成</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>轨迹加载错误</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>从轨迹生成边界</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>从其他地块导入轨迹</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS 消息</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>GPS位置偏移 (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>轻松驾驶: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>绘制AB - 点击边界上的2个点开始</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>无名称</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2点 - 对齐网格</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>新建记录</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>加载环境</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML 异常</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>天线</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>差分</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>单点</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD 设置为: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>接收数据错误: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>发送错误: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>发送数据错误: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP服务器</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 官方</value>
+  </data>
 </root>

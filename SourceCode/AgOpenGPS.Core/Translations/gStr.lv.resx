@@ -1232,4 +1232,4877 @@ IZMANTOJIET UZ SAVU RISKU.</value>
   <data name="v_AboutIntro" xml:space="preserve">
     <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
   </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>Labi</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>Labi</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Jā</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Nē</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Aizvērt</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Saglabāt</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Saglabāt kā:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Rediģēt</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Pārdēvēt</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Atsvaidzināt</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Noklusējums</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Kļūda</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Palīdzība</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Iziet</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Atvērt:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Izvēlēties</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Izvēlieties no saraksta...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Ielādē sarakstu...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Gatavs...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopēt</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Nokopēts</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Neizdevās nokopēt</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopēt atbalstam</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Ziņojums</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Statuss</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Opcijas</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Rādīt</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Ieslēgts</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Izslēgts</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Lietot</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Tikai</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Vai</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Laiks</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Reizes</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Pašreizējais</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Apraksts</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Komanda</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Atbilde</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filtrs</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Ievadiet vērtību</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Ievadiet vērtību</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Ievadiet kaut ko</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Savienot</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Atvienot</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Nav savienojuma</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Automātiska savienošana</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Savienot GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Ports</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Seriālais ports</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS ports</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS ports 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM ports</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Tīkla ports</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radio uz porta</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Ātrums (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adrese</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP adrese</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP adrese : ports</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Resursdatora nosaukums</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Resursdatora nosaukums:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Parole</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Lietotājvārds</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Pašreizējais apakštīkls</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Iestatīt</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Ievadiet jauno apakštīkla adresi</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Aizpildīt automātiski</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Šim apakštīklam nav adaptera</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Tīkls</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Ethernet konfigurācija</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Ieslēdziet UDP un nospiediet Labi</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP ir izslēgts</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP izslēgts</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Pārraides ātrums</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Pēdējoreiz</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Savienots</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Izslēgts pie %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Nemainīgs stūres leņķis!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>Kustībā</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A un B apmainīti</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>No A līdz Z un no 0 līdz 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS jau darbojas</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Viss zaļš? Nospiediet Izveidot vai labojiet manuāli!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Tikai burti un cipari</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Radās neparedzēta kļūda, un tā ierakstīta notikumu žurnālā. AgOpenGPS turpina darboties.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap kļūda</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Robežas izveides režīms</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Izveide neizdevās</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Pogas kļūda</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Nevar dzēst reģistra apakšatslēgu koku</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Ierakstīts</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Nokopēts starpliktuvē, ielīmējiet (CTRL-V) Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Vispirms izveidojiet ceļu</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Izveides kļūda</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Krustojumu kļūda</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Krustojumi nav atrasti</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Līkne ir apgriezta</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Attāluma kļūda</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Attālums iestatīts uz 0, nav ko pārvietot</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Ieslēdziet stūres slēdzi</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Vide pašlaik tiek izmantota</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Kļūda, meklējot platumu un garumu</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Kļūda, pārbaudiet formātu</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Kļūda, importējot ceļus:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Izņēmums</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Pārāk liels stūres leņķis - nevar nonullēt</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Neizdevās lejupielādēt lauka priekšskatījumu. Skatiet žurnālu.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Neizdevās lejupielādēt lauku.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Neizdevās ielādēt lauku sarakstu.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Neizdevās ielādēt lauku sarakstu.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Neizdevās ielādēt lauku sarakstu:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Neizdevās ielādēt ceļus:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Lauks saglabāts, bet to nevar atvērt (trūkst Field.txt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Meklē krustpunktus...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Pabeidziet iestatīšanu vai atiestatiet noklusējumu</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Karogi pievienoti!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Karogi saglabāti!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Īsinājumtaustiņš nepilnīgs</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Nederīga līnija</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Nederīga izvēle.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Varbūt ir tikai 1 līnija?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Līnijas kļūda</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Ielādes kļūda:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Pārliecinieties, ka visi gali krustojas un tikai vienu reizi</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Karte ir pārāk liela</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Maksimums 164 pēdas</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Maksimums 50 metri</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Jābūt lielākam par 5 grādiem</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Nav ierakstītu ceļu</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Nekas nav izvēlēts</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Pašlaik nav atvērts neviens lauks.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Lauks nav izvēlēts.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Ceļi nav atrasti.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Nevarēja izveidot derīgu robežu</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Nav derīgas robežas, ko saglabāt</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Pievienots par maz pogu</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Neobligāta faila problēma</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Pirms saglabāšanas izvēlieties lauku.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Vispirms izvēlieties lauku.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Izvēlieties vismaz vienu augšupielādējamo lauku</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Izvēlieties vismaz vienu importējamo ceļu.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Uzgaidiet, kamēr augšupielāde beidzas</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Saglabāšanas kļūda</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Izvēlieties citu vidi</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Iestatīts uz 99, maksimums 164 pēdas</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Iestatīts uz 99, maksimums 50 metri</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Sākuma punkts = beigu punkts</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Stūres leņķis pārāk mazs</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Stūrēšana izslēgta</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Izdevās!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Izdevās</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Lauks izdzēsts lokāli, bet no AgShare to neizdevās noņemt.
+Noņemiet to manuāli.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Pārāk plats</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Iekārtas kļūda</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Pieskarieties kartei, lai izveidotu robežu</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Ceļa informācija</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Ceļa korekcija neizdevās:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Augšupielāde jau notiek</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Notiek augšupielāde</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Izmantojiet tikai AB līniju vai līkni</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Brīdinājums</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Jūsu iekārta ir pārāk maza</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Meklē</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Moduļa atbilde</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Moduļu meklēšana</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Moduļa simulators</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Ierīču pārvaldnieks</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Pārbaudīt savienojumu</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Nosūtītā pozīcija</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Saņemtie dati</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>neveiksmīgi mēģinājumi</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Sūtīt ik (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Sūtīt tukšu GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Sūtīt NTRIP uz GPS, izmantojot:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM pa seriālo portu</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Atjaunināt no USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Atjaunināt no interneta</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP iestatījumi</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP dati</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP profili</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP versija</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP kļūdas</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Izvēlieties NTRIP profilu</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Lietot NTRIP klientu</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Vecais NTRIP klients</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Neapstrādāta TCP plūsma</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Pieejamie mountpoint</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Izvēlieties bāzes staciju, kas ir vistuvāk jūsu laukam.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Korekcijas tiek sūtītas uz</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Izmantot rezerves pakalpojumu, ja galvenais atslēdzas</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Pārslēgt pēc</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Galvenais</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radio (nav XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Radio kanāls</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Radio iestatījumi</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanāls</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanāli</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Seriālais radio nav NTRIP pakalpojums. Tā korekcijas tiek izmantotas, tiklīdz tās ienāk. Ja radio apklust, pārņem rezerves pakalpojums.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Platums</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Platums:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Garums</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Garums:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Plat.</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Gar.</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Augstums</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Augstums (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Augstums:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Augst.</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Virziens</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Ātrums</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Ātrums:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Pavadoņi</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Pavadoņi:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value># Pav.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Kvalitāte</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Kvalitāte:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Fix kval.</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Vecums</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Vecums:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Duāls</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Sānsvere</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Sānsvere koriģēta</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Sānsvere:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Garensvere</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Pagrieziens</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Pagr. ātrums</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Nobīde</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simulēt datus</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simulēts</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Decimāldaļu skaits</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Cik bieži</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Biežums</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Sistēmas dati</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AOG statuss:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Autostūrēšana</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Stūre</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Stūre:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Stūres modulis</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Stūres poga</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Stūres slēdzis</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Stūres slēdzis:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Stūres ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Stūres &#xD;
+konfig.</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Stūres&#xD;
+iestat.</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>No&#xD;
+autostūres</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Mērķa leņķis</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Faktiskais leņķis</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Leņķis:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Iekārta</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Iekārta:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Iekārtas modulis</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Iekārta</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Iekārtas ping:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Darbs</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Darba slēdzis</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Darbs:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Slēdzis:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Celšana atļ.</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hidr. celšana</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Celšanas laiks</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Nolaišanas laiks</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min. ātrums</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Augsts PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Zems PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Impulsi #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Impulsu skaits</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Impulsi:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relejs: augsts</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Spiediens</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Apgriešanās</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Tehn.</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Aktīvs</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Lietošanas noteikumi</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube pamācības</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse forums</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Nepiekrītu</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Piekrītu</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Versija:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Pārbaudīt savienojumu</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Ievadiet datus augšā un atzīmējiet savienojuma pārbaudi</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API atslēga:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Serveris:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Ielīmēt no starpliktuves</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Reģistrējieties šeit, lai lietotu AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Aktivizēt</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Automātiska augšupielāde</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Tikai lokāli</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Uz tikšanos nākamreiz!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Transportlīdzeklis / iekārta...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulators ieslēgts</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Simulatora koordinātas</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Kioska režīms</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Atiestatīt visu</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Atiestatīt</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Vedņi</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Stūres vednis</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Diagrammas</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Stūres diagramma</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Virziena diagramma</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Sānsveres korekcijas diagramma</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Robežu rīks</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Izlīdzināt AB līkni</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Slēpt kontūru ceļus</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Tīmekļa kamera</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Fix nobīde</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       s</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Visi</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Konfigurācija</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Autostūrēšana</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Skatīt visus iestatījumus</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Mapes</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS dati</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Krāsas</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Daudzsekciju krāsas</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Īsinājumtaustiņi</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Robeža</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Laukmala</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Laukmala (izveide)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Tehn. sliedes</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Tehn. sliedes</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Dzēst apstrādāto</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Karogs pēc koordinātām</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Ierakstītais ceļš</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Importēt ceļus</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Pašreizējais lauks</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulators</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Autostūre ieslēgt/izslēgt</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Pieskarieties pogai, lai atiestatītu,&#xD;
+pēc tam nospiediet jauno taustiņu</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Mainīt līniju</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Aizvērt lauku</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Atjauninātājs</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Izveidot robežu no kartēšanas</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Stūrēšana</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Maks. leņķiskais ātr.</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Stūrēšana atpakaļgaitā</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Nogāzes kompens.</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino stūre</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Impulsi/grāds</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Augsts stūres PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Zems stūres PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Min. stūres PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proporcionāls)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Min. stūrēšanas ātr.</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Maks. stūrēšanas ātr.</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Funkcijas ātruma robeža</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Ģeometrija</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Transportlīdz. tips</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Riteņu sliede</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antena–pagrieziena punkts</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Virziena avots</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Dual virziena nobīde</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual atpakaļg. attālums</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min. soļa robeža</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Apvienošanas svars</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual kā IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Marka</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Traktora marka</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Kombaina marka</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Šarnīrtipa marka</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Izmēri</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Iekārtas platums</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Iekārtas pārklājums</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Iekārtas nobīde</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Sekciju skaits</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Velkamā sakabe</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Tvertnes piekabe</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Piekabe–pagrieziena punkts</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Iekārtas tips</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Velkama</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Aizmugurē fiksēta</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (traktors–iekārta–traktors)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Priekšā</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Sekcijas</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Sekcijas (nevis zonas)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Izslēgt aiz robežas</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Ātrā sekcija</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Skatīšanās uz priekšu / laiks</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Skatīšanās uz priekšu ieslēgta</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Skatīšanās uz priekšu izslēgta</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Iekārtas izslēgšanas aizkave</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Hidr. celšana, skat. uz priekšu</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Laukmalas sekciju vad.</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Vadība (katrai iekārtai)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Piesaistes attālums</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Piesaistes att. ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Nejutīguma zonas att.</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Nejutīguma zonas virz.</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Nejutīguma zonas aizkave</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley lietots</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley att. pastipr.</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley virz. pastipr.</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley integrālis</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit integrālis</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Mērķa punkta iegūšanas koef.</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Mērķa punkta noturēšana</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Mērķa punkta reizinātājs</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Lēnā ātruma robeža</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Darba slēdzis</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Stūres darba slēdzis</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min. segums</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Apgriešanās (katrai iekārtai)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Pagrieziena rādiuss</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Attālums no robežas</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Izlaiduma platums</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Pagarinājuma garums</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Apgriešanās veids</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Apgriešanās izlīdzināšana</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Apgriešanās kompens.</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Displejs / izvēlne</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Režģis ieslēgts</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Gaismas josla ieslēgta</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Sānu vadlīnijas</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure ieslēgts</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Spidometrs ieslēgts</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Gaismas josla (nav stūres josla)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Dienas režīms</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Tastatūra ieslēgta</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Transportlīdz. attēls</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Tekstūra ieslēgta</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Spilgtums ieslēgts</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Reģistrēt augstumu</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Izslēgt datoru</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Izslēgt, ja nav barošanas</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO auto palaišana</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO auto izslēgšana</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Gaismas josla cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Kameras tālummaiņa</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Kameras slīpums</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Autostūrēšana</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Vadības skatīšanās uz priekšu</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Autostūre auto ieslēgta</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Nemainīga kontūra</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Vadlīnijas</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Vadlīniju skaits</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS vecuma trauksme</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>Ir RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK avārija: atslēgt stūri</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Fix lēciena trauksme</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Sim. platums</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Sim. garums</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP uzraudzība ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Skaņa</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Apgriešanās skaņa</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Hidr. celšanas skaņa</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Autostūres skaņa</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Sekciju skaņa</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Tehnoloģiskā sliede</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Tehn. sliedes braucieni</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Tehn. sliedes caurspīdīgums</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / vispārīgi</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Atpakaļgaita ieslēgta</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Dual auto pārslēgšana: Fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Auto pārslēgšanas ātrums</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Zīmēt pagrieziena punktu</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Laukmalas att. ieslēgts</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Robežas iekārtas atstarpe</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Robežas iekārtas izlīdz.</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Aktīvs ar zemu</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Manuālās sekcijas</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Attālā darba sistēma</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Stūres DS manuāli</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min. virz. soļa att.</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare iespējots</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Augšupielāde aktīva</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Publisks lauks</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Citi</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Valoda</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / Fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Kadra laiks (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Laika kvants</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Fix kvalitāte</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Izsekotie pavadoņi</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Izlaisti UDP teikumi</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Virziens</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU virziens</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Fix–fix virziens</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Apvienotais virziens (grādi)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Leņķiskais ātrums</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Lietotne</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Versija</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Transportlīdz. fails</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Iekārtas fails</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Iestatījums</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Vērtība</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Visi iestatījumi</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Tas izveidos un ielādēs jauno profilu.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Lai palaistu atjauninātāju, vispirms aizveriet lauku</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Jauns karogs</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Manuālā sekcija</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Auto sekcija</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Piesaistīt pie punkta</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Līnija pa kreisi</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Līnija pa labi</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Transportlīdz. iestat.</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Atiestatīt &#xD;
+noklusējumu</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Sekcija vai zona</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Jauns taustiņš</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Pilnekrāns&#xD;
+&#xD;
+NumPad1 - Manuālā sekcija&#xD;
+NumPad0 - Auto sekcija</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Jautājums</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Austrumu koordināta</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Ziemeļu koordināta</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Neapstr. Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Kadrs</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Izlaists</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix–fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Ziemeļi (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Rietumi (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Austrumi (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Dienvidi (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Saglabāt nobīdi arī pēc lauka aizvēršanas?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Transportlīdzeklis</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Iekārta</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Transportlīdzekļa nosaukums</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Tips:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Traktors</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Riteņu bāze:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Antena–pagr. punkts:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Antenas nobīde:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Sakabe:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Iekārtas nosaukums</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Platums:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Sekcijas:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Nobīde:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Pārklājums:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Skatīšanās uz priekšu:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Līnijas nobīde:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Tehn. sliežu platums:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Vienības:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metriskās</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Izvēlieties transportlīdzekļa tipu</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Caurspīdīgums</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Nav attēla</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Pagaidām</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Uz failu</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Apgriezt līniju</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Pietuvināt</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Izveidot</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Caurspīdīgums</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Faila nosaukums</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Ievadiet ieraksta nosaukumu</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; IZSL. &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Statuss:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Pievienot nosaukumu</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Līkne</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Rediģēt nosaukumu</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Pagrieziena punkts</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + līkne</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB līnija</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Plat./Gar. +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Plat./Gar.</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Garums (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Platums (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Smidzināšana</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Braucieni</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Ceļš</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Sēšana</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Režīms</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Tālummaiņa</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Izvēlēties pogas</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG izvēlne</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Daudzkrāsu</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Sekcijas krāsa</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Rediģēt krāsu</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Pagrieziena punkta attālums</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Antenas augstums</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Centrs</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Antenas nobīde</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Pa kreisi</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Pa labi</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Duālā antena: pozīcijas antena atrodas labajā pusē</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Sakabes garums</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Riteņu bāze</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Piekabināšanas veids</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Pārklājums / sprauga</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Pārklājums</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Sprauga</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Iekārtas nobīdes virziens</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Iekārta pa labi</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Iekārta pa kreisi</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>8. zona</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>7. zona</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>1. zona</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>2. zona</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>6. zona</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>3. zona</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>5. zona</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>4. zona</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Colla</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Sekcijas platums</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% segums</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zonas</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Sekcijas</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Automātiskās sekcijas</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Manuālās sekcijas</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Skatīšanās uz priekšu laika iestatījumi</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Ieslēgt (s)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Izslēgt (s)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Izslēgšanas aizkave (s)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Trauksme atslēdz autostūrēšanu</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = izslēgts</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Fix lēciena attālums (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Duālās antenas iestatījumi</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Pārslēgšanas ātrums</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto Dual &lt;-&gt; Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Atpakaļgaitas attālums (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Virziena nobīde (grādi)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Vienas antenas iestatījumi</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Noklusējums: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Apvienošana</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Atpakaļgaitas noteikšana</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Fix–fix attālums</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minimālais GPS solis</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Antenas tips</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Apgriezt sānsveri</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Nonullēt sānsveri</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Noņemt nobīdi</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Mazāk</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Vairāk</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Sānsveres filtrs</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Iestatiet izlīdzināšanu uz 3–4 reizes lielāku par rādiusu</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Iestatiet pagarinājuma garumu uz 2–3 reizes lielāku par rādiusu&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Hidrauliskās celšanas konfigurācija</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Augu skaits</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Hidrauliskā celšana, skatīšanās uz priekšu (s)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Celšanas laiks (s)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Iespējot</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Nolaišanas laiks (s)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Apgriezt relejus</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Sūtīt un saglabāt</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Rādīt?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Ignorēt</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Tehn. sliežu platums</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Aparatūras ziņojumi</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Izslēgšana, zaudējot barošanu</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>AgIO automātiski izslēgt?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Apakšējā izvēlne</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Nobīdes pogas</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Labā izvēlne</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>AgIO automātiski palaist?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Apgriešanās</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Skaņa</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Automātiskā apgriešanās</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Sānu</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Slēpt kontūru</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB izlīdzināšana</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Ierakst. ceļš</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Tehnoloģiskās sliedes</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Ekrāna pogas</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Rīku izvēlne</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Lauka izvēlne</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>IZSL.</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>IESL.</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Atkļūdošanas vērtības</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Laukmalas att.</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Līnijas izlīdzināšana</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Sekciju līnijas</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Virziena rādītāji</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Augstums</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Vienības</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn bulta</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Spilgtums</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Lauka tekstūra</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Daudzstūri</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Palaist pilnekrānā</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Spidometrs</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Vadlīnijas</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Režģis</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Pašreizējais transportlīdzeklis</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Pašreizējā iekārta</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Collas</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Iekārtas platums:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Pēdas</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Fakt.:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Mērķis:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Kļūda:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Vai +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Stūres leņķis:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Diametrs:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Iegūšana:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Tas lēnām palielinās stūres leņķi, lai samazinātu sānisko novirzi</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Lēni</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Ātri</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Stūres reakcija</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integrālis</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Min. skatīšanās uz priekšu</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Skatīšanās uz priekšu</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley pastiprinājumi</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Maks. stūres leņķis</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV fakt.:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV mērķis:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Impulsi uz grādu</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS nulle</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Iegūšanas koeficients</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Attālums:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Ātruma koeficients</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Nejutības zona -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Noturēšana:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Iegūšana = koeficients × noturēšana</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Ieslēgšanas aizkave (s)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Virziens (grādi)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Pastiprinājums</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimums kustībai</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Maksimālā robeža</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proporcionālais pastiprinājums</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Pagrieziens grādos uz 1 sānsveres grādu nogāzē</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Poga - nospiež ieslēdz, nospiež izslēdz&#xD;
+Slēdzis - nospiests ieslēgts, atlaists izslēgts</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Spiediena sensors</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Strāvas sensors</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Impulsu sensors</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Apgriezt motora virzienu</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Stūrēšanas atļauja</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Motora draiveris</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A/D pārveidotājs</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Stūres sensors</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Apgriezt WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Atiestatīt visu uz noklusējumu</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X vai Y ass</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Viedais WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Gatavs</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Ticamība: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Paraugi: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Stūrēt atpakaļgaitā?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Iekšā</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Ārā</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Apgriešanās kompensācija</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Maks. ātrums</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Manuālie pagriezieni</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Līnijas platums</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pikseļi</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Nobīdes attālums</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Vadības josla</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Stūres josla</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Iesl./Izsl.</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Gaismas josla</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm uz pikseli</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Sekundes</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Nākamās vadības līnijas meklēšanas laiks</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Vednis</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Kļūda:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Zems</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Nogāzes grādi uz sānsveres grādu</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Skatīšanās uz priekšu (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Skatīšanās uz priekšu ātruma pastipr.</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimums kustībai</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maksimums</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Braucot taisni uz priekšu, pieskarieties Nulle</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Stūres spiediena sensors</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Stūres strāvas sensors</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Apgriezt hidraulikas ieslēgšanas releju?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Stūrēšanas atļaujas režīms</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Kāds ir motora draivera tips?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Kā pieslēgts A/D pārveidotājs?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Pagrieziena impulsi</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Vai izmantojat Danfoss vārstu?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Brīvā braukšana</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Palaist vedni</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Ļoti ieteicams</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Ielādēt noklusējumu</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Iestatīt riteņu bāzi</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Iestatīt riteņu sliedi</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Riteņu sliede</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Antenas&#xD;
+pozīcija</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Iestatiet antenas attālumu no pagrieziena ass</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Antenas&#xD;
+augstums</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Iestatīt antenas augstumu</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = izslēgts</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Iestatīt antenas nobīdi</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D pārveidotājs</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Motora draivera plate</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Vadības relejs</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfoss vārsts</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Ja nē, izvēlieties Apgriezt sānsveri</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Noliecit transportlīdzekli stipri pa labi. Sānsverei pa labi jābūt POZITĪVAI.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Sānsveres funkcija</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Novietojiet uz līdzenas virsmas un pieskarieties “Nonullēt sānsveri”</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Sānsveres nulle</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Apgriezt WAS virzienu</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Pašreizējais virziens:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WAS nullēšana</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Apgriezt virzienu</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Stūres motora virziens</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Sākt * kalibrēšanu</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WAS kalibrēšana</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* IZLAIST *  Impulsi uz grādu un Ackermann iestatījums?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Sākuma leņķis:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Atiestatīt uz 100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Ackermann vērtība:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Iestatīt</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Pagrieziet stūri līdz vēlamajai vadības robežai un pieskarieties Labi -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Vadības stūres leņķa robeža</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Vai iestatiet vadības stūres leņķa robežu manuāli</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Automātiskās atslēgšanas funkcija</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Avārijas apturēšanas ātrums</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Nulle</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Automātiska augšupielāde: aizverot augšupielādē lauka izmaiņas&#xD;
+Ielāde no mākoņa: atverot vienmēr lejupielādē jaunāko no AgShare</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Atiestatīt simulatoru&#xD;
+U - Apgriešanās (180 grādi)&#xD;
+&#xD;
+Bultiņa uz augšu - Ātrāk&#xD;
+Bultiņa uz leju - Lēnāk&#xD;
+Bultiņa pa kreisi - Pa kreisi&#xD;
+Bultiņa pa labi - Pa labi&#xD;
+&#xD;
+( . ) Punkts - Apstāties&#xD;
+( / ) Slīpsvītra - Taisni</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Šī nobīde tiek pieskaitīta platumam un garumam un, aizverot lauku, saglabāta failā FIELD.KML.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Transportlīdzekļa iestatījumi tagad saucas “profili”, un&#xD;
+tos var izveidot vai ielādēt galvenajā izvēlnē (augšā pa kreisi).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Pieskarieties pogām kreisajā pusē, kuras vēlaties redzēt izvēlnē (labajā pusē). &#xD;
+&#xD;
+Pogu nospiešanas secība būs to secība izvēlnē no apakšas uz augšu.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Pagrieziet stūri PA LABI apmēram par 20 grādiem.&#xD;
+Braucot pa vienmērīgu apli, nospiediet Rec un uzgaidiet.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Poga - nospiež un atlaiž: ieslēgts.   &#xD;
+               nospiež un atlaiž: izslēgts&#xD;
+&#xD;
+Slēdzis - nospiests: ieslēgts. &#xD;
+               atlaists: izslēgts.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Braucot lēni, ieslēdziet autostūrēšanu. Ja stūres motors griežas nepareizi, apgrieziet virzienu.&#xD;
+Pārbaudiet ar bultiņām.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Stūres leņķim jābūt POZITĪVAM, pagriežot PA LABI.&#xD;
+Ja nē, izvēlieties Apgriezt WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Pagrieziet stūri PA KREISI apmēram par tikpat grādiem kā pa labi.&#xD;
+Braucot pa vienmērīgu apli, nospiediet Rec un uzgaidiet.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Mainiet mērķa vērtību ar stūres pogām. &#xD;
+&#xD;
+Iestatiet minimālo kustību pēc iespējas augstāku, bet tā, lai stūres motors vai hidraulika vēl nekustinātu stūri</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Tagad izbrauciet AB līniju un precizējiet iestatījumus atbilstoši savam ātrumam un augsnes apstākļiem.&#xD;
+&#xD;
+Atcerieties: CPD, Min. PWM un skatīšanās uz priekšu ir kritiski svarīgi iestatījumi.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Vecie profili visus iestatījumus glabāja vienā failā. Jaunajā formātā transportlīdzeklis, iekārta un vide ir atsevišķi. Izvēlieties, ko vēlaties iegūt.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Programmaparatūras atjaunināšana&#xD;
+&#xD;
+Šī funkcija ir izstrādes stadijā.&#xD;
+&#xD;
+Nākotnē būs iespējams:&#xD;
+&#xD;
+• Izvēlēties programmaparatūras .hex failu&#xD;
+• Izvēlēties sakaru portu (no AgIO iestatījumiem)&#xD;
+• Palaist TeensyLoaderCLI ar parametriem&#xD;
+• Augšupielādēt programmaparatūru Teensy ierīcē&#xD;
+• Progresa rādītājs&#xD;
+&#xD;
+TeensyLoader integrācija:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Nav</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Slēdzis</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Poga</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Izvēlieties vecu profila failu</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Ko pārveidot? (transportlīdz. / iekārta)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Apstr.:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Faktiskais:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/h</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ h</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/h</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Braucot lēni taisni uz priekšu, ļaujiet sistēmai stūrēt</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Minimālās kustības iestatījums</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Nulle vai +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Iestatiet proporcionālo daļu labai reakcijai. &#xD;
+Iestatiet PWM maksimumu, lai ierobežotu pagrieziena ātrumu.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Braucot uz priekšu, ieslēdziet autostūrēšanu</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Pastiprinājuma iestatījums</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Beigas</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Restartēt vedni</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Pabeigts!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Norise:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Impulsi / grāds</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WAS nobīde</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Virziens:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Koriģētā austrumu koordināta</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Korekcijas attālums</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Sānsvere (grādi)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Ritināšana iesl./izsl.</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Stienis</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Gluds</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Tiešs</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Kameras darbība</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Atiestatīt noklusējumu</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 līdz -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 līdz -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Transportlīdz.: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Iekārta: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Vide: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Sistēma / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Mērķa vērtība</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Faktiskais</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Ievadiet lauka nosaukumu</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Platība:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Punkti:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Pieejamie ceļi</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Pieejamie lauki</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importēt</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Noņemt visu izvēli</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Izvēlēties visu</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Izvēlieties lauku kreisajā pusē, pēc tam izvēlieties kopējamos ceļus</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Lauka nosaukums</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Iziet uz Windows pēc:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Izslēgšana pēc:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Izslēgt</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Izvēlieties izmantojamos ceļus</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Saīsināt B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Saīsināt A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Pagarināt B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Pagarināt A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Tālāk</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Atpakaļ</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Automātiska meklēšana</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Lauks</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Pārrakstīt</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Lejupielādēt izvēlēto</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Lejupielādēt visu</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Lejupielādē... Lūdzu, uzgaidiet</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Gar.:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Plat.:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Attālums līdz karogam:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Punkts A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Importēt karogus</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Eksportēt karogus</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Robežas</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Cauri?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Platība</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Atstarpe (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Pievienot punktus</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Apstrādājamie punkti:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Punkti</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare augšupielāde</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare lejupielāde</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>No KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Atvērt</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Iebraukt</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Turpināt</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Esošs</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Jauns lauks</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Iepriekšējais lauks</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Darba platums</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Jauna robeža</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Fons</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Lauka nosaukums</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Augšupielādēt izvēlēto</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Rediģēt lauka nosaukumu</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Līnijas</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Kartēšana</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Karogi</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Kārtot</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Atlikums:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Norma:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Kopā:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Apstrādāts:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Apstrādāts</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Att.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Brauciens</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Attālums (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Lietot izvēlēto</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Lietot izvēlēto</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Dzēst lauku</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Ieraksta nosaukums</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Dzēst ierakstu</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Ceļš izslēgts</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Diena</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Nakts</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Pašreizējais: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Izvēlēts: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Antena–pagr. punkts:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Antenas nobīde:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Riteņu sliede:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Piekabināšana:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Velkamā sakabe:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Ielādēt</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Pārveidot vecos profilus</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Vides</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Faila nosaukums</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Pārveidot vecos profila failus jaunajā formātā</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Pārveidot</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>2. solis: izvēlieties, ko pārveidot (transportlīdzeklis un/vai iekārta):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Pārveidot iekārtu</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Iekārtas profila nosaukums:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Transportlīdzekļa profila nosaukums:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Pārveidot transportlīdzekli</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>1. solis: izvēlieties vecu profila failu:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Nosaukums:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Izveidot</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopēt no:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Nederīgs:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS atsevišķs:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK Float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Aprēķināts:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Manuāli:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim.:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Nezināms:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Vecums:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Nav tīkla savienojuma.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Savienots. Gaida korekcijas.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Korekcijas apstājās. Savienojas atkārtoti.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Savienots, bet dati nenāk. Daži pakalpojumi pieprasa jūsu pozīciju: pārbaudiet, vai GPS pozīcijas sūtīšana ir ieslēgta.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Pakalpojums aizvēra savienojumu. Savienojas atkārtoti.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Pakalpojums aizvēra savienojumu, nenosūtot korekcijas.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Saņem korekcijas</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Pakalpojums atsūtīja atbildi, ko AgIO nespēj nolasīt.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Pakalpojums nenosūtīja mountpoint sarakstu.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Pakalpojums atsūtīja tukšu atbildi.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Šāda mountpoint pakalpojumā nav. Izvēlieties vienu no saraksta.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Šī adrese atbildēja ar tīmekļa lapu, nevis NTRIP pakalpojumu. Pārbaudiet adresi un portu.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Lietotājvārds, parole vai mountpoint nav pareizs.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Šāda mountpoint pakalpojumā nav. Pārbaudiet rakstību, burtu reģistrs ir svarīgs.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Pakalpojums pašlaik nevar pieņemt vēl vienu savienojumu. Tas ir aizņemts vai šī pieteikšanās jau tiek lietota.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Pakalpojums tikko startē. AgIO mēģinās vēlreiz pēc apmēram minūtes.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Šis pakalpojums prasa jūsu e-pasta adresi kā lietotājvārdu.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Lietotājvārds vai parole nav pareiza.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Pakalpojums liedza piekļuvi.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Pakalpojums atbildēja ar kaut ko, ko AgIO nesaprot.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Radio ir atvērts. Gaida korekcijas.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Radio ir atvērts, bet dati nenāk.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Saņem korekcijas no radio.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Atkal galvenais pakalpojums</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Korekcijas atkal tiek saņemtas no galvenā pakalpojuma.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Galvenais pakalpojums ir atjaunots</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Pārslēgties atpakaļ? GPS uz brīdi var zaudēt RTK. AgIO nekad nepārslēdzas atpakaļ pats.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Galvenajam pakalpojumam ir problēma</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Pārslēgts uz rezerves pakalpojumu</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Jūs pārslēdzāties uz rezerves pakalpojumu.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>nav korekciju</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Viss kārtībā: korekcijas tiek saņemtas.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profilam nav nosaukuma.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS novērojumi (vecais formāts)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS novērojumi (vecais formāts)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>ražotāja specifisks</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>bāzes pozīcija</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>bāzes pozīcija + antenas augstums</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>antenas apraksts</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>sistēmas parametri</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS efemerīdas</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS efemerīdas</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>uztvērēja un antenas apraksts</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou efemerīdas</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS efemerīdas</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo efemerīdas</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS koda fāzes nobīdes</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>teksts</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>tukšs</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Nospiediet jauno īsinājumtaustiņu</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Nospiediet pogu, lai rediģētu īsinājumtaustiņu</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Nav savienojuma</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Iestatiet attālumu, 2: Pieskarieties Izveidot, 3: Izveidojiet apgriešanas līnijas</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE diagramma</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Braucat vienmērīgi</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Gatavs lietošanai</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Vāc datus...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Kļūda, CPD iestatīts uz 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann iestatīts uz:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Kļūda, Ackermann iestatīts uz 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Izvēlieties kvadrātu zemāk un izvēlieties jauno krāsu</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Izvēlieties gatavu krāsu</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Izvēlieties jauno krāsu un zemāk kvadrātu, lai to saglabātu</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Lauku mape nav atrasta</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Kļūda, ielādējot laukus</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Šajā laukā nav ceļu</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Kļūda, ielādējot ceļus</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Saglabā pašreizējos ceļus...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Pārveido ceļus...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Saglabā ceļus...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Izvēlētais lauks:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Kļūda, ielādējot laukus:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Vienkāršā braukšana aktīva</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Ielādēt vidi:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Transportlīdzeklis:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Iekārta:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Vide:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Kritiska saglabāšanas kļūda</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Izslēgšanas kļūda</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Virziens atiestatīts</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Uz priekšu iestatīts</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Autostūrēšana izslēgta</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Nobīdes logs atvērts</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Aizveriet nobīdes logu</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Liels attālums līdz lauka sākumam</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare augšupielāde neizdevās</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Radās kļūda, sākot augšupielādi uz AgShare.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Radās kļūda augšupielādes uz AgShare laikā.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Lauks NAV saglabāts</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Lauka saglabāšana neizdevās, tāpēc tas palika atvērts. Pārbaudiet diska vietu un mēģiniet vēlreiz.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Atsākšanas veids</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>No pēdējās apstāšanās vietas</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>No tuvākā punkta</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>No sākuma</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Nevar izmantot ar zonām</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Tikai sekcijām</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Vienkāršā braukšana</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Vienkāršās braukšanas režīmā profili nav pieejami</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Sekcijas ir ieslēgtas</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Vispirms izslēdziet automātisko vai manuālo režīmu</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Atiestatīt virzienu</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Braucat uz priekšu ātrāk par 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autostūrēšana izslēgta</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK fix trauksme</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Ceļš mainīts</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Ceļi iespējoti</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Simulators: atpakaļgaita aktivizēta</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Īsinājumtaustiņš aktivizēts</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Iestatījumi nosūtīti stūres modulim</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Atgriešanās no rediģēšanas</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Atjauninātājs nav atrasts. Pārliecinieties, ka AgOpenGPS.Updater.exe atrodas programmas mapē.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Atjauninātājs nav atrasts</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Nepietiek punktu, lai izveidotu robežu</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Nevar aprēķināt lauka centru. Trūkst ārējās robežas vai AB līnijas.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Zonu nevar būt vairāk nekā sekciju</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulators ir izslēgts</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulators nedarbojas, kamēr tiek izmantota īstā antena</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Atiestatīts uz noklusējumu</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Vērtības iestatītas uz sākotnējo noklusējumu</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Pārsniegts diapazons</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Nobīde ir pārāk liela - nevar piemērot</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Viedā WAS nullēšana</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Noklusējums iestatīts</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD un Ackermann iestatīti uz noklusējumu</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>P pastiprinājums mainīts</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proporcionālais pastiprinājums iestatīts uz 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profili izveidoti</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Noklusējuma profili izveidoti</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Vides iestatījumi atiestatīti!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Vides iestatījumi ielādēti!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Profila faili nav atrasti!
+
+Reģistrā norādītie profili nav atrodami.
+Izvēlieties vai izveidojiet jaunus profilus.
+
+Ja neizvēlēsieties, vide izmantos noklusējumu.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Profili nav atrasti.
+
+Izmantojiet “Jauns”, lai izveidotu transportlīdzekļa un iekārtas profilus.
+
+Ja neizvēlēsieties, vide izmantos noklusējumu.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Nopietna lauka sākumpunkta kļūda&#xD;
+&#xD;
+Lauka sākumpunkts ir vairāk nekā 20 km no jūsu pašreizējās GPS pozīcijas. Dzēsiet šo lauku un izveidojiet jaunu, jo precizitāte būs slikta.&#xD;
+&#xD;
+Vai arī lauks ir atvērts un jūs esat tālu aizbraucis.</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Uzmanību: aizverot AgIO, tiks pārtraukta saziņa ar aparatūru.&#xD;
+Vai tiešām vēlaties aizvērt?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Visi</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Neaktīvs</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Automātiski slēpt</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto&#xD;
+palaišana</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profils</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Pašreizējais profils</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Pašreizējais profils</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Jauns profils</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Jauns:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Lietotais profils:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: profilu pārvaldība</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Pārrakstāmais profils:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Papildu iestatījumi</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS iestatījumi</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Seriālās caurlaides konfigurācija</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Seriālā caurlaide ieslēgta</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>RTCM uz cita porta nekā GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Palaist minimizētu</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO parādās brīdinājuma gadījumā</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>GPS-Out automātiska palaišana</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Rādīt&#xD;
+brīdinājuma&#xD;
+gadījumā</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Notikumu žurnāls</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Žurnāls</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Seriālais monitors</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP monitors</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN ceļvedis</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Ceļvedis -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Tastatūra</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Ziņojuma teksts parādīsies šeit</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO ziņojums</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo ziņojums</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Apturēt</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Sākt</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP dati</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP ir izslēgts</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>REZERVES AVOTS AKTĪVS</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Vai korekcijas ir kārtībā?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Pārslēgt uz rezerves avotu</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Mēģināt galveno pakalpojumu vēlreiz</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Atpakaļ uz galveno pakalpojumu</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Savienots, gaida datus</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Savienojas...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint nav atrasts</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Nevar pieteikties</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Apturēts</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Pakalpojums startē</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Pakalpojums ir aizņemts</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Savienots, bet dati nenāk</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Nav tīkla</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Savienojas atkārtoti...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Pakalpojuma atbilde nav saprotama</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Pakalpojums nav sasniedzams</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Korekcijas tiek saņemtas</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Šo plūsmu nevar pārbaudīt detalizēti.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Bāzes stacijas pozīcija saņemta</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Bāzes stacijas pozīcija</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Gaida. Tā tiek sūtīta ik pēc 10 sekundēm.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Bāzes stacijas pozīcijas nav</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>Bez tās RTK nevar sākt darboties.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Vēl nav saņemta.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Attālums līdz bāzes stacijai</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Gaida jūsu GPS pozīciju.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Pārāk tālu labam RTK. Izvēlieties tuvāku bāzes staciju.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Tālu. Šādā attālumā RTK ir mazāk precīzs.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>No NTRIP iestatījumos norādītās fiksētās pozīcijas.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Pavadoņi korekcijās</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Korekcijās nav pavadoņu datu</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Bāzes stacija nesūta novērojumus.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Vēl nekas nav saņemts.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Dati ir svaigi</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Gaida pirmos datus.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Dati kavējas</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Jaunu datu nav</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Jūsu GPS: RTK fixed</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Jūsu GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Vēl precizē pozīciju. Uzgaidiet brīdi.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Jūsu GPS: RTK vēl nav</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Pagaidām tikai parastā GPS precizitāte.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Jūsu GPS vēl nav atradis pozīciju</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Jūsu GPS ir manuālā vai simulatora režīmā</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Nav adreses</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Vispirms ievadiet adresi.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Nav porta</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Neizdevās saglabāt</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Kļūda, atverot portu</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP vēl nevar lietot</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Vispirms izvēlieties profilu un pieskarieties Lietot.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Lietotajam profilam vēl nav pakalpojuma adreses vai radio porta. Vispirms to papildiniet.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Nevar nolasīt</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Šo profila failu nevarēja nolasīt.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Nevar pārdēvēt</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Šāds nosaukums jau tiek lietots.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Profila ielādes brīdinājums</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profils atjaunots</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>AgIO profils tika atjaunots no .last rezerves kopijas, jo galveno failu nevarēja nolasīt.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Fails saglabāts</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Nederīgs ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Nederīgs nosaukums</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Nosaukums nav ievadīts</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Nederīga frekvence</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Frekvence nav ievadīta</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Nav kanāla</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Radio ir ieslēgts, bet kanāls nav izvēlēts</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP arī bija ieslēgts</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP arī bija ieslēgts, tāpēc tas tika izslēgts</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO izmanto noklusējuma profilu</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Tiek izmantots noklusējuma profils</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Radio NTRIP ieslēgts</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Seriālais NTRIP ieslēgts</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Seriālā caurlaide ieslēgta</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Ieslēdziet NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Neizdevās savienoties ar seriālo caurlaidi</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Neizdevās savienoties ar radio</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP iestatīta</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Fails nav atrasts</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Ievadiet faila nosaukumu, lai saglabātu...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Saglabāt un atgriezties</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Nevar savienoties ar portu</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Savienojums jau ir pārtraukts?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Savienojums jau ir pārtraukts??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Nav aktīva Arduino porta</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Nopietna tīkla savienojuma kļūda</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Kritiska reģistra kļūda</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Nevar dzēst reģistra apakšatslēgu koku</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController nav instalēts??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Radio ir ieslēgts. Vispirms izslēdziet to radio iestatījumos.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Seriālā caurlaide ir ieslēgta. Vispirms to izslēdziet.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP ir ieslēgts. Vispirms izslēdziet to NTRIP profilu sarakstā.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Attālums</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Kļūdas&#xD;
+ziņojums</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Ziņojums 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Modulis 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Seriālais monitors - baud: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Sūtīt $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Sūtīt $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Sānsvere: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Stūre: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP izvade</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Fiksēta pozīcija</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Cits NTRIP pakalpojums</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automātiski</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Abi</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Rezerves</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Pārslēdzu pats</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Galvenais pakalpojums</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Mana AIO plate (tīklā)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Mans GPS uztvērējs (seriālais)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Mana GPS pozīcija</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP pakalpojums</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Izvade un pozīcija</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Seriālais radio</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Pārslēgt automātiski</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>LIETO TAGAD</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>LIETOTS</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>GALVENAIS PAKALPOJUMS</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>REZERVES</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Izslēgts. Otrs pakalpojums netiek lietots.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(porta vēl nav)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Pārslēdzat paši</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Neapstrādāts TCP (bez mountpoint un pieteikšanās)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Mountpoint nav izvēlēts</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Vēl nav aizpildīts</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Nepieciešama jūsu pozīcija</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Vieta</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(vēl nav saglabāts)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Vispirms izvēlieties radio portu.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Lai lietotu rezerves avotu, izvēlieties radio portu</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Lai lietotu rezerves avotu, ievadiet Caster datus</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Profilu vēl nav.&#xD;
+&#xD;
+Pieskarieties Jauns profils, lai izveidotu.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Šis profils vēl nav aizpildīts.&#xD;
+Pieskarieties Rediģēt, lai ievadītu galveno pakalpojumu.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>NTRIP profils vēl nav izvēlēts. Izvēlieties vai izveidojiet to NTRIP iestatījumos.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>NTRIP profilā izvēlieties galvenā radio portu.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP atkal darbojas</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Korekcijas atkal tiek saņemtas.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP: pieteikšanās noraidīta</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP: mountpoint nav atrasts</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP: caster ir aizņemts</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP: nav korekciju</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP: plūsma pārtrūka</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP: nav savienojuma</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP izslēgts</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP: klausās</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Savienojuma problēma</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Nevar savienoties ar casteru</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>IPv4 adrese nav atrasta</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP savienojums neizdevās</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP savienojums noraidīts</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Caster aizvēra savienojumu, nenosūtot datus. Pārbaudiet mountpoint un pieteikšanās datus.</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP klients nav iestatīts</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Izvēlieties esošu profilu vai izveidojiet jaunu.</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Izveidojiet vai izvēlieties profilu.</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Pirms seriālās caurlaides lietošanas to izslēdziet.</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Pirms NTRIP lietošanas to izslēdziet.</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Pirms radio NTRIP lietošanas to izslēdziet.</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Radio NTRIP ieslēgts</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Jaunās vērtības stājušās spēkā.</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP ieslēgts</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP ir ieslēgts</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO restartēsies, lai ieslēgtu UDP tīklošanu.</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO restartēsies, lai izslēgtu UDP tīklošanu.</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim restartēsies, lai piemērotu tīkla izmaiņas.</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Manuāla IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Atjauninātāja kļūda</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS atjauninājums</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Lūdzu, uzgaidiet...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Lūdzu, uzgaidiet</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Uzgaidiet, kamēr pašreizējā darbība beigsies.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Pārbauda GitHub laidienus...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Pārbauda USB disku...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>USB diskā atjauninājums nav atrasts.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Aizver AgOpenGPS un AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Programmas aizvērtas</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Lejupielādē no GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Lejupielāde neizdevās</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Lejupielāde neizdevās</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopē no USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopēšana neizdevās</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopēšana neizdevās</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Instalēšana neizdevās</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Instalēšana neizdevās</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Gatavs! Restartē...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Gatavs!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Atjaunināšana tika atcelta.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Šim laidienam nav izmaiņu apraksta.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Pirmslaidiena versija</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Lejupielāde neizdevās: faila izmērs neatbilst laidienam.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Lejupielāde neizdevās: kontrolsumma neatbilst laidienam, fails netika instalēts.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Šajā laidienā nav piemērota lejupielādes faila.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Cits atjauninātājs jau darbojas.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Neviena programma nedarbojās.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Programmas veiksmīgi aizvērtas.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Atjauninājuma fails nav atrasts.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Instalēšanas mape nepastāv.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Veido rezerves kopiju...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Izpako failus...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Instalē failus...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe nav atrasts instalēšanas mapē.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS veiksmīgi restartēts.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Meklēt atjauninājumus</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Instalēt atjauninājumu</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Ieskaitot pirmslaidienus</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Programmaparatūras atjaunināšana</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS programmaparatūras atjaunināšana</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS atjauninātājs</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Izmaiņu apraksts</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Skatīt izmaiņu aprakstu</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Izmaiņu apraksts parādīsies šeit.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Pašreizējā versija: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Jaunākā versija: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Jaunākā versija: atjaunināts</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Atjaunināšana no interneta - nospiediet Meklēt atjauninājumus</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Atjaunināšana no interneta (GitHub)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Atjaunināšana no interneta (pieejams arī lokāls atjauninājums)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Lokāli: USB nav faila AgOpenGPS_*.zip</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Lokāli: ievietojiet AgOpenGPS.zip USB diska saknē</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController nav instalēts, lejupielādējiet no:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linux lietotājiem</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Tikai Linux!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Iziet</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profilu nevarēja ielādēt pilnībā (fails var būt bojāts).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profils tika atjaunots no .last rezerves kopijas, jo galveno failu nevarēja nolasīt.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Vispirms izvēlieties galvenā radio portu.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Vispirms ievadiet galvenā pakalpojuma adresi.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Vai izslēdziet NTRIP profilu sarakstā.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Lai labotu, atveriet Iestatījumi → COM porti</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Trūkstošo vai nederīgo vērtību vietā tiek izmantots noklusējums.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIO profilu nevarēja ielādēt pilnībā (fails var būt bojāts).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIP profila "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" šajā datorā nav. Izvēlieties vai izveidojiet profilu NTRIP iestatījumos.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" vēl nav pakalpojuma adreses.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Rezerves avots arī nedarbojas:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Nav korekciju jau</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO turpina mēģināt.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> sekundes</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minūtes</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>REZERVES AVOTS AKTĪVS: galvenais pakalpojums pašlaik netiek lietots</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>Bāzes stacijas ID:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Pozīcija:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Bojāti dati:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Pakalpojuma atbilde:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Savienojas pēc</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Nevar atrisināt castera adresi:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Simulēti dati</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   NAV DATU</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Atjauninātājs jāpalaiž no AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Vispirms palaidiet AgOpenGPS un izmantojiet:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Izvēlne → Rīki → Meklēt atjauninājumus</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>Tas nepieciešams, lai noteiktu jūsu pašreizējo versiju.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Instalēt atjauninājumu no</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Avots:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Tiks veikts:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• AgOpenGPS un AgIO aizvēršana</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Pašreizējās instalācijas rezerves kopijas izveide</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Atjauninājuma instalēšana</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• AgOpenGPS restartēšana</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Vai turpināt?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Atjauninājuma fails nav atrasts.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Ievietojiet AgOpenGPS_X.Y.Z.zip USB diska saknē.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Atjaunināšana neizdevās: {0}
+Rezerves kopija tika atjaunota.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Atjaunināšana neizdevās: {0}
+Rezerves kopijas atjaunošana arī neizdevās!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Atjaunināšana neizdevās: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Rezerves kopija tika atjaunota.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Rezerves kopijas atjaunošana arī neizdevās!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Atjauninājums veiksmīgi instalēts.
+{0}
+Rezerves kopija: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Pieejams atjauninājums: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Pārslēdzas automātiski pēc {0} neveiksmīgiem mēģinājumiem</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpoint, tuvākie pirmie.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpoint.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Nevar atrast: {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Pārbaude neizdevās: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>Saņemti {1} kB</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Pēdējie dati saņemti pirms {1d} sekundēm.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Pēdējie dati saņemti pirms {1d} sekundēm. Iespējams, savienojums ir lēns.</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Korekcijas ir {1d} sekundes vecas.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Attālums līdz bāzes stacijai: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>GPS fix tips: {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} darbojas (vecais klients)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} darbojas</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (vecais klients)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Atver {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: gaida datus</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profils: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Saglabāts uz: {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Pārrakstīt profilu: {1}?</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID '{1}' nav derīgs skaitlis.</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Radās kļūda: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP kļūda: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Ielādes kļūda: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Aktivizēt</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>API atslēga</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Ielāde no mākoņa</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Auto augšupielāde</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Auto augšupielāde: augšupielādēt lauka izmaiņas aizverot
+Ielāde no mākoņa: atverot vienmēr lejupielādēt jaunāko versiju no AgShare</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Savienojas...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Savienojums veiksmīgs</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Deaktivizēts</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Ievadiet serveri un API atslēgu, pēc tam pārbaudiet savienojumu</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Nederīga API atslēga</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Tikai lokāli</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Ielīmēt no starpliktuves</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Reģistrējieties šeit, lai lietotu AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Iestatījumi saglabāti</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Serveris</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare iestatījumi</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Pārbaudīt savienojumu</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Augšupielāde izslēgta</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Augšupielāde ieslēgta</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Lauki tiek automātiski ielādēti no mākoņa</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Lauks ielādēts no AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Neizdevās ielādēt lauku no mākoņa, tiek izmantota lokālā versija.</value>
+  </data>
+  <data name="gsAgree" xml:space="preserve">
+    <value>Piekrītu</value>
+  </data>
+  <data name="gsCopyFrom" xml:space="preserve">
+    <value>Kopēt no</value>
+  </data>
+  <data name="gsCreateNewProfile" xml:space="preserve">
+    <value>Izveidot jaunu profilu</value>
+  </data>
+  <data name="gsDiscourseForum" xml:space="preserve">
+    <value>Discourse forums</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Ātrā sākšana ar GPS vadību. Iestatiet darba platumu un sakabes garumu, pēc tam izveidojiet AB līniju vai līkni. Nekas netiek saglabāts diskā.</value>
+  </data>
+  <data name="gsEmptyProfile" xml:space="preserve">
+    <value>Tukšs profils</value>
+  </data>
+  <data name="gsLoad" xml:space="preserve">
+    <value>Ielādēt</value>
+  </data>
+  <data name="gsLoadProfile" xml:space="preserve">
+    <value>Ielādēt profilu</value>
+  </data>
+  <data name="gsName" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="gsNew" xml:space="preserve">
+    <value>Jauns</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Tālāk</value>
+  </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="gsProfileMenuHint" xml:space="preserve">
+    <value>Transportlīdzekļa, iekārtas un vides iestatījumi tagad tiek glabāti atsevišķos profilos.
+Ielādēt: konfigurācijas panelī un augšējā kreisajā izvēlnē.</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Vides iestatījumi</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Vides iestatījumi saglabāti.</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>Transportlīdzekļa iestatījumi</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>Transportlīdzekļa iestatījumi saglabāti.</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>Iekārtas iestatījumi</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>Iekārtas iestatījumi saglabāti.</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Viedais WAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Automātiski kalibrē WAS nulli, analizējot vadības stūrēšanas leņķus braukšanas laikā. Ieslēdziet autosteer un brauciet vienmērīgi pa līniju.</value>
+  </data>
+  <data name="gsYouTubeTutorials" xml:space="preserve">
+    <value>YouTube pamācības</value>
+  </data>
+  <data name="gsCurrentVehicle" xml:space="preserve">
+    <value>Pašreizējais transportlīdzeklis</value>
+  </data>
+  <data name="gsCurrentTool" xml:space="preserve">
+    <value>Pašreizējā iekārta</value>
+  </data>
+  <data name="gsSelected" xml:space="preserve">
+    <value>Izvēlēts</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Antenas rotācijas punkts</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>Sliedes platums</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Piekabināt</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Vilkšanas sakabe</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>Sakabe</value>
+  </data>
+  <data name="gsVehicle" xml:space="preserve">
+    <value>Transportlīdzeklis</value>
+  </data>
+  <data name="gsTool" xml:space="preserve">
+    <value>Iekārta</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>Traktors</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>Kombains</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Šarnīrsavienots</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>Priekšā</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Aizmugurē fiksēta</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Piekabināma</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>Transportlīdzeklis tiek lietots</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>Aktīvo transportlīdzekli nevar dzēst</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>Dzēst transportlīdzekli</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>Pārdēvēt transportlīdzekli</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>Ievadiet jauno transportlīdzekļa nosaukumu</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>Transportlīdzeklis jau pastāv</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>Iekārta tiek lietota</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>Aktīvo iekārtu nevar dzēst</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>Dzēst iekārtu</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>Pārdēvēt iekārtu</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>Ievadiet jauno iekārtas nosaukumu</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>Iekārta jau pastāv</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>Kļūda ielādējot transportlīdzekli</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>Kļūda ielādējot iekārtu</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Rezultāts</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>Jauns transportlīdzeklis</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Ievadiet transportlīdzekļa nosaukumu</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>Jauna iekārta</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Ievadiet iekārtas nosaukumu</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Izveidot noklusējuma transportlīdzekli</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Izveidot 'Default' transportlīdzekļa profilu ar rūpnīcas iestatījumiem?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Pārrakstīt</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Profils jau pastāv. Pārrakstīt</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Izveidot noklusējuma iekārtu</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Izveidot 'Default' iekārtas profilu ar rūpnīcas iestatījumiem?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Noklusējuma transportlīdzeklis ielādēts</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Noklusējuma iekārta ielādēta</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Pārveidot vecos profilus</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Transportlīdzeklis / iekārta</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Pārveidot vecos profila failus uz jauno formātu</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Vecie profili saturēja visus iestatījumus vienā failā. Jaunajā formātā transportlīdzeklis, iekārta un vide ir atdalīti. Izvēlieties, ko vēlaties izgūt.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>1. solis</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>2. solis</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Transportlīdzekļa profila nosaukums</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Iekārtas profila nosaukums</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Importēt transportlīdzekli</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Importēt iekārtu</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Neimportēt</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Veca formāta faili nav atrasti.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>vecie faili</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>vecie faili: pārveidoti, jāpārveido</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>pārveidots</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>jāpārveido</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Pārveidot</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Apstiprināt pārveidošanu</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Pārveidot '{0}': {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Pārveidot</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Transportlīdzeklis</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Iekārta</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Pārveidošana pabeigta</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Pārveidots veiksmīgi</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Vides iestatījumi ir importēti un ielādēti.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Pārveidošanas kļūdas</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Radās kļūdas</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Ielādēt transportlīdzekli/iekārtu</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Pastāv</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Faila nosaukums</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Pārdēvēt</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Transportlīdzeklis jau pastāv</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Iekārta jau pastāv</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CAN kopnes adapteris</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Moduļu tīkla adrese -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Nepieciešama restartēšana</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Augšupielāde pabeigta</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Celiņu ielādes kļūda</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Izveidot robežu no celiņiem</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Importēt celiņus no cita lauka</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS ziņojums</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Pārbīdīt GPS pozīciju (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Vienkāršā braukšana: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Zīmēt AB – lai sāktu, noklikšķini uz 2 punktiem uz robežas</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Bez nosaukuma</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 punkti – izlīdzināt režģi</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Izveidot jaunu ierakstu</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Ielādēt vidi</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML kļūda</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antena</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Diferenciālis</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Viens</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD iestatīts: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Datu saņemšanas kļūda: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Sūtīšanas kļūda: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Datu sūtīšanas kļūda: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP serveris</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Oficiāls</value>
+  </data>
 </root>

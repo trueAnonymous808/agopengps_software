@@ -498,13 +498,13 @@
             // label8
             // 
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label8.AutoSize = true;
+            this.label8.AutoSize = false;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(296, 157);
+            this.label8.Location = new System.Drawing.Point(254, 157);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(128, 25);
+            this.label8.Size = new System.Drawing.Size(170, 25);
             this.label8.TabIndex = 328;
             this.label8.Text = "Steer Angle:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1215,35 +1215,38 @@
             // labelPressureTurnSensor
             // 
             this.labelPressureTurnSensor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelPressureTurnSensor.AutoSize = true;
+            this.labelPressureTurnSensor.AutoSize = false;
             this.labelPressureTurnSensor.ForeColor = System.Drawing.Color.Black;
-            this.labelPressureTurnSensor.Location = new System.Drawing.Point(429, 93);
+            this.labelPressureTurnSensor.Location = new System.Drawing.Point(410, 91);
             this.labelPressureTurnSensor.Name = "labelPressureTurnSensor";
-            this.labelPressureTurnSensor.Size = new System.Drawing.Size(110, 13);
+            this.labelPressureTurnSensor.Size = new System.Drawing.Size(148, 16);
             this.labelPressureTurnSensor.TabIndex = 512;
             this.labelPressureTurnSensor.Text = "Pressure Turn Sensor";
+            this.labelPressureTurnSensor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelCurrentTurnSensor
             // 
             this.labelCurrentTurnSensor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelCurrentTurnSensor.AutoSize = true;
+            this.labelCurrentTurnSensor.AutoSize = false;
             this.labelCurrentTurnSensor.ForeColor = System.Drawing.Color.Black;
-            this.labelCurrentTurnSensor.Location = new System.Drawing.Point(282, 93);
+            this.labelCurrentTurnSensor.Location = new System.Drawing.Point(261, 91);
             this.labelCurrentTurnSensor.Name = "labelCurrentTurnSensor";
-            this.labelCurrentTurnSensor.Size = new System.Drawing.Size(105, 13);
+            this.labelCurrentTurnSensor.Size = new System.Drawing.Size(148, 16);
             this.labelCurrentTurnSensor.TabIndex = 511;
             this.labelCurrentTurnSensor.Text = "Current Turn Sensor";
+            this.labelCurrentTurnSensor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelEncoder
             // 
             this.labelEncoder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelEncoder.AutoSize = true;
+            this.labelEncoder.AutoSize = false;
             this.labelEncoder.ForeColor = System.Drawing.Color.Black;
-            this.labelEncoder.Location = new System.Drawing.Point(158, 93);
+            this.labelEncoder.Location = new System.Drawing.Point(112, 91);
             this.labelEncoder.Name = "labelEncoder";
-            this.labelEncoder.Size = new System.Drawing.Size(65, 13);
+            this.labelEncoder.Size = new System.Drawing.Size(148, 16);
             this.labelEncoder.TabIndex = 506;
             this.labelEncoder.Text = "Turn Sensor";
+            this.labelEncoder.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label70
             // 
@@ -3821,13 +3824,13 @@
             // label106
             // 
             this.label106.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label106.AutoSize = true;
+            this.label106.AutoSize = false;
             this.label106.BackColor = System.Drawing.Color.Transparent;
             this.label106.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label106.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label106.Location = new System.Drawing.Point(333, 155);
+            this.label106.Location = new System.Drawing.Point(291, 155);
             this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(128, 25);
+            this.label106.Size = new System.Drawing.Size(170, 25);
             this.label106.TabIndex = 545;
             this.label106.Text = "Steer Angle:";
             this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

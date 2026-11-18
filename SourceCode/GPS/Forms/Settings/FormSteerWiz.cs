@@ -1121,7 +1121,7 @@ namespace AgOpenGPS
                 return;
             }
 
-            hsbarMaxSteerAngle.Value = Math.Abs((int)(mf.mc.actualSteerAngleDegrees));
+            hsbarMaxSteerAngle.Value = Math.Max(hsbarMaxSteerAngle.Minimum, Math.Min(hsbarMaxSteerAngle.Maximum, Math.Abs((int)(mf.mc.actualSteerAngleDegrees))));
         }
 
         private void hsbarLookAheadMult_ValueChanged(object sender, EventArgs e)

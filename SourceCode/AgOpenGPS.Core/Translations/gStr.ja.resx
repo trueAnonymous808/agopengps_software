@@ -186,7 +186,7 @@
     <value>アタッチメントの形状</value>
   </data>
   <data name="gsAuto" xml:space="preserve">
-    <value>Auto</value>
+    <value>オート</value>
   </data>
   <data name="gsAutoOffAgIO" xml:space="preserve">
     <value>AgIOの自動終了</value>
@@ -885,8 +885,8 @@
     <value>プロファイル</value>
   </data>
   <data name="gsProfileMenuHint" xml:space="preserve">
-    <value>Vehicle, Tool and Environment settings are now stored as separate profiles.
-Load from Config panel &amp; Top Left Menu.</value>
+    <value>車両・作業機・環境の設定は個別のプロファイルとして保存されるようになりました。
+設定パネルと左上メニューから読み込めます。</value>
   </data>
   <data name="gsProgramWillExitPleaseRestart" xml:space="preserve">
     <value>プログラムを終了します　再起動してください</value>
@@ -1265,5 +1265,4844 @@ Load from Config panel &amp; Top Left Menu.</value>
   </data>
   <data name="gsWorked" xml:space="preserve">
     <value>作業記録</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>名前を付けて保存:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>名前変更</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>既定</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>開く:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>リストから選択...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>リスト読込中...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>準備完了...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>コピー済み</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>コピーできません</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>サポート用にコピー</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>のみ</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>または</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>回</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>現在</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>応答</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>フィルター</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>値を入力</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>値を入力</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>値を入力してください</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>切断</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>未接続</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>自動接続</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>GPS接続</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>シリアルポート</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPSポート</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPSポート2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCMポート</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>ネットワークポート</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>ポートの無線:</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>速度 (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IPアドレス</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IPアドレス : ポート</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>ホスト名</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>ホスト名:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>現在のサブネット</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>サブネット設定</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>新しいサブネットアドレスを入力</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>サブネット自動入力</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>このサブネット用のアダプターがありません</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>ネットワーク</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>イーサネット設定</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>UDPをオンにしてOKを押してください</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDPはオフです</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDPオフ</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>転送速度</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>最終受信</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>接続済み</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>%でオフ</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>操舵角が安定しています!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>移動中</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>AとBを入れ替え</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>AからZ、0から9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPSはすでに起動しています</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>すべて緑ですか? 作成を押すか、手動で修正してください!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>英数字のみ</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>予期しないエラーが発生し、イベントログに記録されました。AgOpenGPSは動作を続けます。
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMapエラー</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>境界線作成モード</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>作成に失敗しました</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>ボタンエラー</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>レジストリのサブキーを削除できません</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>取得済み</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>クリップボードにコピーしました。Telegramで貼り付け (CTRL-V)</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>先に経路を作成してください</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>作成エラー</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>交差エラー</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>交差が見つかりません</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>曲線を反転しました</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>距離エラー</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>距離が0のため、移動するものがありません</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>操舵スイッチを有効にしてください</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>この環境は現在使用中です</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>緯度経度の検索エラー</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>エラー: 形式を確認してください</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>経路のインポートエラー:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>例外</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>操舵角が大きすぎます - ゼロにできません</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>フィールドのプレビューをダウンロードできませんでした。詳細はログを確認してください。</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>フィールドをダウンロードできませんでした。</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>フィールド一覧を読み込めませんでした。</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>フィールド一覧を読み込めませんでした。
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>フィールド一覧を読み込めませんでした:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>経路を読み込めませんでした:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>フィールドは保存されましたが、開けません (Field.txtがありません)。</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>交点を検索中...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>すべての設定を完了するか、既定値に戻してください</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>フラグを追加しました!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>フラグを保存しました!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>ホットキーが未完了です</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>無効なライン</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>無効な選択です。</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>ラインが1本だけではありませんか?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>ラインエラー</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>読込エラー:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>すべての端が1回だけ交差していることを確認してください</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>マップが大きすぎます</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>最大164フィート</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>最大50メートル</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>5度より大きくしてください</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>記録された経路がありません</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>選択なし</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>開いているフィールドがありません。</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>フィールドが選択されていません。</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>経路が見つかりません。</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>有効な境界線を作成できません</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>保存できる有効な境界線がありません</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>追加されたボタンが足りません</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>任意ファイルの問題</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>保存する前にフィールドを選択してください。</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>先にフィールドを選択してください。</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>アップロードするフィールドを1つ以上選択してください</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>インポートする経路を1つ以上選択してください。</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>アップロードが完了するまでお待ちください</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>保存エラー</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>別の環境を選択</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>99に設定しました (最大164フィート)</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>99に設定しました (最大50メートル)</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>始点と終点が同じです</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>操舵角が小さすぎます</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>操舵は無効です</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>成功!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>フィールドはローカルで削除されましたが、AgShareから削除できませんでした。
+手動で削除してください。</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>広すぎます</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>ツールエラー</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>マップをタッチして境界線を作成</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>経路情報</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>経路の調整に失敗しました:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>アップロードはすでに実行中です</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>アップロード中</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>ABラインまたは曲線のみ使用してください</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>ツールが小さすぎます</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>検索中</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>スキャン応答</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>モジュール検索</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>モジュールシミュレーター</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>デバイスマネージャー</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>接続を確認</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>送信位置</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>受信データ</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>回失敗</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>送信間隔 (秒)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>空のGSAを送信</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>NTRIPをGPSへ送る方法:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>シリアルRTCM</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>USBで更新</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Webで更新</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP設定</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP詳細</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIPプロファイル</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIPバージョン</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIPエラー</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>NTRIPプロファイルを選択</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>NTRIPクライアントを使用</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>旧NTRIPクライアントを使用</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>生のTCPストリーム</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>マウントポイント</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>マウントポイント一覧</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>フィールドに最も近い基地局を選択してください。</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>補正データの送信先</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>メインのサービスが失敗したら予備を使用</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>切替までの失敗回数</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>無線</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>無線 (XBee以外)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>無線チャンネル</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>無線設定</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>チャンネル</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>チャンネル</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>シリアル無線はNTRIPサービスではありません。補正データは届いた順に使用されます。無線が途絶えると、予備サービスが引き継ぎます。</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>緯度</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>緯度:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>経度</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>経度:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>緯度</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>経度</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>高度 (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>標高:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>標高</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>方位</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>速度:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>衛星数</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>衛星数:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>衛星数</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>品質</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>品質:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>測位品質</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>経過</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>経過:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>デュアル</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>ロール</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>ロール補正済み</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>ロール:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>ピッチ</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>ヨー</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>ヨーレート</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>オフセット</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>データをシミュレート</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>シミュレート</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>小数桁数</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>頻度</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>頻度</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>システムデータ</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AgOpenGPS状態:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>自動操舵</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>操舵</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>操舵:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>操舵モジュール</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>操舵ボタン</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>操舵スイッチ</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>操舵スイッチ:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>操舵Ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>操舵 &#xD;
+設定</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>操舵&#xD;
+設定</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>自動操舵&#xD;
+から</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>目標角</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>実角度</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>角度:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>マシン</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>マシン:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>マシンモジュール</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>マシン</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>ツールPing:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>作業</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>作業スイッチ</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>作業:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>スイッチ:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>昇降有効</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>油圧昇降</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>上昇時間</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>下降時間</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>最小速度</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>最小PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>高PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>低PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>パルス数</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>パルスカウント</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>カウント:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>リレー: High動作</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>圧力</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>アッカーマン</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Uターン</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>トラム</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>利用規約</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube解説動画</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourseフォーラム</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>同意しない</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>同意する</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>バージョン:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>接続テスト</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>上に詳細を入力し、接続テストにチェックを入れてください</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>APIキー:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>サーバー:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>クリップボードから貼り付け</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>AgShareを使うにはここで登録</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>有効化</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>自動アップロード</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>ローカルのみ</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ また次回!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>車両 / ツール...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>シミュレーターオン</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>シミュレーター座標を入力</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>キオスクモード</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>すべてリセット</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>ウィザード</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>操舵ウィザード</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>チャート</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>操舵チャート</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>方位チャート</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>ロール補正チャート</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>境界線ツール</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>AB曲線を平滑化</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>輪郭パスを非表示</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Webカメラ</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Fixオフセット</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       秒</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>自動操舵</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>全設定を表示</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPSデータ</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>セクション色</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>ホットキー</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>境界線</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>ヘッドランド</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>ヘッドランド (作成)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>トラムライン</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>トラムライン</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>作業済みを削除</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>緯度経度でフラグ</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>記録経路</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>経路をインポート</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>現在のフィールド</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>シミュレーター</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>自動操舵 切替</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>ボタンをタッチしてリセット&#xD;
+次に新しいキーを押す</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>ライン切替</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>フィールドを閉じる</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>アップデーター</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>ピュアパースート</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>マップから境界線を作成</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── 操舵</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>最大角速度</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>後退時の操舵</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>傾斜補正</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino操舵</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>カウント/度</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>操舵高PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>操舵低PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>操舵最小PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (比例)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>最小操舵速度</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>最大操舵速度</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>機能速度上限</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── ジオメトリ</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>車両タイプ</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>トレッド幅</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>アンテナ-ピボット</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>方位ソース</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Dual方位オフセット</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual後退距離</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>最小ステップ制限</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>フュージョン重み</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>DualをIMUとして使用</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── ブランド</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>トラクターブランド</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>コンバインブランド</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>アーティキュレートブランド</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── 寸法</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>ツール幅</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>ツール重なり</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>ツールオフセット</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>セクション数</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>牽引ヒッチ</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>タンク牽引</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>牽引-ピボット</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── ツールタイプ</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>牽引式</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>後部固定式</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (トラクター-機械-トラクター)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>前部装着</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── セクション</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>セクション (ゾーンではない)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>外でオフ</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>高速セクション</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── 先読み / タイミング</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>先読みオン</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>先読みオフ</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>ツールオフ遅延</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>油圧昇降 先読み</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>ヘッドランドセクション制御</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── ガイダンス (ツール別)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>スナップ距離</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>スナップ距離 基準</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>不感帯距離</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>不感帯方位</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>不感帯遅延</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley使用</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley距離ゲイン</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley方位ゲイン</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley積分</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit積分</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>目標点取得係数</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>目標点保持</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>目標点倍率</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>低速カット</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── 作業スイッチ</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>操舵作業スイッチ</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>最小被覆率</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Uターン (ツール別)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>旋回半径</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>境界線からの距離</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>スキップ幅</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>延長長さ</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Uターン方式</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Uターン平滑化</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Uターン補正</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── 表示 / メニュー</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>グリッドオン</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>ライトバーオン</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>サイドガイドライン</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pureオン</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>速度計オン</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>ライトバー (操舵バーではない)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>昼モード</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>キーボードオン</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>車両画像</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>テクスチャオン</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>明るさオン</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>標高を記録</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>コンピューターをシャットダウン</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>電源喪失でシャットダウン</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO自動起動</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO自動終了</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>ライトバー cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>カメラズーム</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>カメラ角度</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── 自動操舵</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>ガイダンス先読み</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>自動操舵 自動オン</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>常時輪郭</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── ガイドライン</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>ガイドライン数</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS経過警報</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK喪失で操舵停止</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Fixジャンプ警報</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>シミュ緯度</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>シミュ経度</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP監視 ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── サウンド</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Uターン音</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>油圧昇降音</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>自動操舵音</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>セクション音</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── トラム</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>トラム通過数</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>トラム透明度</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / 全般</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>後退オン</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Dual Fix自動切替</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>自動切替速度</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>ピボット描画</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>ヘッドランド距離オン</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>境界ツール間隔</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>境界ツール平滑化</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Lowで動作</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>手動セクション</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>リモート作業系</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>操舵作業SW手動</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>最小方位ステップ距離</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare有効</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>アップロード有効</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>公開フィールド</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── その他</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / Fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>フレーム時間 (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>タイムスライス</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>測位品質</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>捕捉衛星数</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>UDP欠落センテンス</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── 方位</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU方位</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Fix間方位</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>統合方位 (度)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>角速度</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── アプリケーション</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>車両ファイル</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>ツールファイル</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>全設定</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>新しいプロファイルを作成して読み込みます。</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>アップデーターを実行する前にフィールドを閉じてください</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>新規フラグ</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>手動セクション</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>自動セクション</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>ピボットにスナップ</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>ラインを左へ</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>ラインを右へ</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>車両設定</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   既定値に&#xD;
+リセット</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>セクションまたはゾーン</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>新しいキー</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - 全画面&#xD;
+&#xD;
+NumPad1 - 手動セクション&#xD;
+NumPad0 - 自動セクション</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>東距</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>北距</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>生Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>フレーム</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>欠落</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix間</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>北 (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>西 (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>東 (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>南 (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>フィールドを閉じた後もオフセットを保持しますか?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>車両</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>車両名</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>タイプ:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>トラクター</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>ホイールベース:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>アンテナ-ピボット:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>アンテナオフセット:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>ヒッチ:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>ツール名</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>幅:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>セクション:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>オフセット:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>重なり:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>先読み:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1秒</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>ライン移動:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>トラム幅:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>単位:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>メートル法</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>車両タイプを選択</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>不透明度</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>画像なし</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>今回のみ</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>ファイルへ</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>ラインを切り取り</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>拡大</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>作成</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>記録名を入力</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; オフ &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>状態:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>名前を追加</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>曲線</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>名前を編集</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>ピボット</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + 曲線</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>ABライン</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>緯度/経度 +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>緯度/経度</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>経度 (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>緯度 (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>散布</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>経路</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>播種</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>ボタンを選択</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOGメニュー</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>複数色</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>セクション色</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>色を編集</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>ピボット距離</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>アンテナの高さ</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>中央</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>アンテナオフセット</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual: 位置アンテナは右側</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>ヒッチ長</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>ホイールベース</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>装着方式</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>重なり / 隙間</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>重なり</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>隙間</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>ツールのオフセット方向</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>ツール右</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>ツール左</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>ゾーン8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>ゾーン7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>ゾーン1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>ゾーン2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>ゾーン6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>ゾーン3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>ゾーン5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>ゾーン4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>インチ</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>セクション幅</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>被覆率 %</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>ゾーン</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>セクション</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        自動セクション</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        手動セクション</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>先読み時間設定</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>オン (秒)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>オフ (秒)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>オフ遅延 (秒)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>警報で自動操舵を停止</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0で無効</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Fixジャンプ距離 (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>デュアルアンテナ設定</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>切替速度</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>自動 Dual &lt;-&gt; Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>後退距離 (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>方位オフセット (度)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>シングルアンテナ設定</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>既定: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>フュージョン</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>後退検出</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Fix間距離</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>GPS最小ステップ</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>アンテナタイプ</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>ロール反転</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>ロールをゼロに</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>オフセット削除</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>減らす</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>増やす</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>ロールフィルター</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>平滑化は半径の3~4倍に設定してください</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>延長長さは半径の2~3倍に設定してください&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>油圧昇降設定</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>植栽密度</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>油圧昇降の先読み (秒)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>上昇時間 (秒)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>有効化</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>下降時間 (秒)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>リレー反転</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>送信して保存</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>表示しますか?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>上書き</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>トラム幅</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>ハードウェアメッセージ</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>電源喪失でシャットダウン</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>AgIOを自動終了しますか?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>下部メニュー</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>ナッジ操作</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>右メニュー</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>AgIOを自動起動しますか?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Uターン案内</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>サウンド</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Uターン</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>横移動</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>輪郭を非表示</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB平滑化</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>経路記録</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>トラムライン</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>画面ボタン</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>ツールメニュー</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>フィールドメニュー</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>デバッグ値</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>ヘッドランド距離</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>ライン平滑化</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>セクションライン</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>方向マーカー</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>標高</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>単位</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn矢印</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>明るさ</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>フィールドテクスチャ</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>ポリゴン</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>全画面で起動</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>速度計</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>ガイドライン</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>グリッド</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>現在の車両</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>現在のツール</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>インチ</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>ツール幅:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>フィート</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>実:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>目標:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>誤差:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>または +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>操舵角:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>直径:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>捕捉:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>横偏差を減らすため、操舵角を徐々に増やします</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>遅い</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>速い</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>操舵応答</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>積分</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>最小先読み</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>先読み</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanleyゲイン</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>最大操舵角</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV実:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV目標:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>度あたりカウント</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WASゼロ点</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>捕捉係数</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>距離:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>速度係数</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ 不感帯 -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>保持:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>捕捉 = 係数 * 保持</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>オン遅延 (秒)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>方位 (度)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>ゲイン</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>動作最小値</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>最大制限</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>比例ゲイン</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>ロール1度あたりの傾斜補正角(度)</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>ボタン - 押すとオン、再度押すとオフ&#xD;
+スイッチ - 押している間オン、離すとオフ</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>圧力センサー</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>電流センサー</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>カウントセンサー</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>モーター方向反転</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>操舵有効</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>モータードライバー</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A/D変換器</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>回転センサー</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>WAS反転</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>すべて既定値に戻す</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X軸またはY軸</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>スマートWAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>準備完了</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>信頼度: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>サンプル: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>後退時に操舵しますか?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>入</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>出</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Uターン補正</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>最高速度</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>手動旋回</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>線の太さ</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>ピクセル</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>ナッジ距離</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>ガイダンスバー</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>操舵バー</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>オン/オフ</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>ライトバー</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm/ピクセル</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>次のガイダンスライン検索時間</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>ウィザード</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>誤差:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>ロール1度あたりの傾斜補正角</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>先読み (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>先読み速度ゲイン</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM最小動作値</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM最大値</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>まっすぐ前進し、ゼロをタッチしてください</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>圧力式回転センサー</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>電流式回転センサー</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>油圧有効リレーを反転しますか?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>操舵有効モード</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>モータードライバーの種類は?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>A/D変換器の接続は?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>回転カウント</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Danfossバルブを使用しますか?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>フリードライブ</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  ウィザード開始</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>強く推奨</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>既定値を読込</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>ホイールベースを設定</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>トレッド幅を設定</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>トレッド</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>アンテナ&#xD;
+位置</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>ピボット軸からアンテナまでの距離を設定</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>アンテナ&#xD;
+高さ</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>アンテナの高さを設定</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = オフ</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>アンテナオフセットを設定</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D変換器</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>モータードライバー基板</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>ドライバー制御リレー</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfossバルブ</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>違う場合は「ロール反転」を選択してください</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>車両を右に大きく傾けてください。右へのロールは正(+)になる必要があります。</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>ロール機能</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>水平な場所に停車し、「ロールをゼロに」をタッチしてください</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>ロールゼロ</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>WAS方向を反転</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>現在の方位:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WASゼロ点調整</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>方向を反転</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>操舵モーター方向</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* 開始 * キャリブレーション</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WASキャリブレーション</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* スキップ * 度あたりカウントとアッカーマン設定?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>開始角度:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>100%にリセット</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>アッカーマン値:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>ガイダンスで使いたい限界までハンドルを切り、OKをタッチしてください -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>ガイダンス操舵角制限</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>または手動でガイダンス操舵角制限を設定</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>自動解除機能</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>緊急停止速度</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>ゼロ</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>自動アップロード: 閉じるときにフィールドの変更をアップロード&#xD;
+クラウド読込: 開くときに常にAgShareから最新を取得</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - シミュレーターをリセット&#xD;
+U - Uターン (180度)&#xD;
+&#xD;
+上矢印 - 加速&#xD;
+下矢印 - 減速&#xD;
+左矢印 - 左&#xD;
+右矢印 - 右&#xD;
+&#xD;
+( . ) ピリオド - 停止&#xD;
+( / ) スラッシュ - 直進</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>このオフセット距離は緯度と経度に加算され、フィールドを閉じるときにFIELD.KMLファイルに保存されます。</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>車両設定は「プロファイル」という名称になり、&#xD;
+メインメニュー (左上) で作成・読込できます。</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>メニュー (右側) に表示したいボタンを左側でタッチしてください。&#xD;
+&#xD;
+タッチした順に、メニューの下から上へ並びます。</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>ハンドルを右に約20度切ってください。&#xD;
+一定の円を描いて走行しながら、記録を押して待ってください。</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>ボタン - 押して離すとオン。   &#xD;
+               押して離すとオフ&#xD;
+&#xD;
+スイッチ - 押している間オン。 &#xD;
+               離すとオフ。</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>ゆっくり走行し、自動操舵を有効にしてください。操舵モーターが逆に回る場合は方向を反転してください。&#xD;
+矢印でテストします。</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>右に切ったときは操舵角が正(+)になる必要があります。&#xD;
+違う場合は「WAS反転」を選択してください。</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>ハンドルを左に、右とほぼ同じ角度だけ切ってください。&#xD;
+一定の円を描いて走行しながら、記録を押して待ってください。</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>操舵ボタンで目標値を変更します。&#xD;
+&#xD;
+最小動作値は、操舵モーターや油圧でハンドルが動かない範囲でできるだけ高く調整してください</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>ABラインを走行し、速度や土壌条件に合わせて設定を微調整してください。&#xD;
+&#xD;
+注意: CPD、最小PWM、先読みは特に重要な設定です。</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>旧プロファイルはすべての設定を1つのファイルに含んでいました。新形式では車両、ツール、環境に分かれます。取り出したいものを選択してください。</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>ファームウェア更新機能&#xD;
+&#xD;
+この機能は開発中です。&#xD;
+&#xD;
+今後対応予定の機能:&#xD;
+&#xD;
+• ファームウェアの.hexファイルを選択&#xD;
+• 通信ポートを選択 (AgIO設定から)&#xD;
+• パラメーター付きでTeensyLoaderCLIを起動&#xD;
+• Teensyデバイスへファームウェアを書き込み&#xD;
+• 進捗表示&#xD;
+&#xD;
+TeensyLoader連携:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>スイッチ</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>ボタン</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>旧プロファイルを選択</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>変換対象を選択 (車両/ツール)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>適用:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>実測:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/時</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ 時間</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/時</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>ゆっくりまっすぐ前進し、システムに操舵させてください</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>最小動作値の設定</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>ゼロまたは +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>良好な応答になるよう比例を設定してください。&#xD;
+PWM最大値で操舵速度を制限できます。</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>前進して自動操舵を有効にしてください</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>ゲイン設定</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>ウィザードを再開</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>完了!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>進捗:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>カウント/度</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WASオフセット</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>方位:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>補正済み東距</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>補正距離</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>ロール (度)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>スクロール オン/オフ</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>ポール</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>滑らか</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>直接</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>カメラの動作</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>既定値に戻す</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 ~ -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 ~ -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>車両: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>ツール: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>環境: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>環境</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>システム / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>目標値</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>実測</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>フィールド名を入力</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>面積:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>ポイント:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>利用可能な経路</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>利用可能なフィールド</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>すべて解除</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>左でフィールドを選び、コピーする経路を選択してください</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>フィールド名</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Windowsへ終了まで:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>シャットダウンまで:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>シャットダウン</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>使用する経路を選択/解除</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>B短縮</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>A短縮</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>B延長</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>A延長</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>前へ</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>自動検索</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>フィールド</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>上書き</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>選択分を取得</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>すべて取得</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>ダウンロード中...お待ちください</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>経度:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>緯度:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>フラグまでの距離:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>A点</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>フラグをインポート</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>フラグをエクスポート</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>範囲</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>貫通?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>面積</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>間隔 (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>ポイント追加</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>処理するポイント:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>ポイント</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShareアップロード</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShareダウンロード</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>KMLから</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>進入</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>再開</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>既存</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>新規フィールド</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>前回のフィールド</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>作業幅</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>新規境界</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>フィールド名</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>選択分をアップロード</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>フィールド名を編集</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>ライン</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>マッピング</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>フラグ</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>並べ替え</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>残り:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>レート:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>合計:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>作業済み:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>作業済み</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>距離:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>トリップ</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>距離 (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> 選択を使用</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>選択を使用</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>フィールドを削除</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>記録名</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>記録を削除</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>経路オフ</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>昼</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>夜</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>現在: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>選択: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>アンテナ-ピボット:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>アンテナオフセット:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>トレッド幅:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>装着:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>牽引ヒッチ:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>読込</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>旧プロファイルを変換</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>環境</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>旧プロファイルファイルを新形式に変換</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>変換</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>手順2: 変換対象を選択 (車両および/またはツール):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>ツールを変換</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>ツールのプロファイル名:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>車両のプロファイル名:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>車両を変換</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>手順1: 旧プロファイルファイルを選択:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>名前:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>作成</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>コピー元:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>無効:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS単独:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTKフロート:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>推定:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>手動IP:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>シミュ:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>不明:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>経過:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>ネットワークに接続されていません。</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>接続しました。補正データを待っています。</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>補正データが止まりました。再接続しています。</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>接続しましたが、データが届きません。サービスによっては現在位置が必要です。GPS位置の送信がオンか確認してください。</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>サービスが接続を閉じました。再接続しています。</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>サービスは補正データを送らずに接続を閉じました。</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>補正データを受信中</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>サービスがAgIOで読み取れない応答を返しました。</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>サービスがマウントポイント一覧を返しませんでした。</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>サービスが空の応答を返しました。</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>このマウントポイントはサービスにありません。リストから選んでください。</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>このアドレスはNTRIPサービスではなくWebページで応答しました。アドレスとポートを確認してください。</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>ユーザー名、パスワード、またはマウントポイントが正しくありません。</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>このマウントポイントはサービスにありません。綴りを確認してください。大文字と小文字は区別されます。</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>サービスは現在新しい接続を受け付けられません。混雑中か、このログインがすでに使用中です。</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>サービスは起動中です。AgIOは約1分後に再試行します。</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>このサービスはユーザー名にメールアドレスが必要です。</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>ユーザー名またはパスワードが正しくありません。</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>サービスがアクセスを拒否しました。</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>サービスがAgIOで理解できない応答を返しました。</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>無線を開きました。補正データを待っています。</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>無線を開きましたが、データが届きません。</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>無線から補正データを受信中です。</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>メインのサービスに復帰</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>補正データは再びメインのサービスから届いています。</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>メインのサービスが復旧しました</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>切り替えて戻しますか? GPSのRTKが一時的に外れることがあります。AgIOが自動で戻すことはありません。</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>メインのサービスに問題があります</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>予備に切り替えました</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>予備に切り替えました。</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>補正データなし</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>問題ありません: 補正データが届いています。</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>プロファイルに名前がありません。</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS観測データ (旧形式)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS観測データ (旧形式)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>メーカー独自</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>基地局位置</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>基地局位置 + アンテナ高</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>アンテナ記述</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>システムパラメーター</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS軌道情報</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS軌道情報</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>受信機 + アンテナ記述</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou軌道情報</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS軌道情報</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo軌道情報</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASSコード位相バイアス</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>新しいショートカットキーを押してください</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>ボタンを押してショートカットを編集</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ 未接続</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: 距離を設定、2: 作成をタップ、3: クリップラインを作成</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTEチャート</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>一定に走行</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>適用可能</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>収集中...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>エラー、CPDを100に設定しました</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>アッカーマン設定値:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>エラー、アッカーマンを100に設定しました</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>下の四角を選び、新しい色を選択してください</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>プリセット色を選択</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>新しい色を選び、下の四角を選んでプリセットに保存</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>フィールドフォルダーが見つかりません</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>フィールド読込エラー</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>このフィールドに経路がありません</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>経路読込エラー</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>現在の経路を保存中...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>経路を変換中...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>経路を保存中...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>選択中のフィールド:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>フィールド読込エラー:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>イージードライブ有効</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>環境を読込:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>車両:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>ツール:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>環境:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>重大な保存エラー</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>シャットダウンエラー</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>方向リセット</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>前進方向を設定しました</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>自動操舵は無効です</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>ナッジ画面が開いています</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>ナッジ画面を閉じてください</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>フィールド開始位置が遠すぎます</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShareアップロード失敗</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>AgShareへのアップロード開始時にエラーが発生しました。</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>AgShareへのアップロード中にエラーが発生しました。</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>フィールドは保存されていません</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>フィールドの保存に失敗したため、開いたままにしています。ディスクの空き容量を確認して再試行してください。</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>再開方法</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>最後に停止した位置</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>最寄りの点</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>最初から開始</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>ゾーンでは使用できません</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>セクション専用</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>イージードライブ</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>イージードライブではプロファイルを使用できません</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>セクションがオンです</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>先に自動または手動をオフにしてください</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>方向をリセット</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>1.5 km/h超で前進してください</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>自動操舵をオフにしました</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK Fix警報</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>経路が変更されました</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>経路が有効になりました</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>シミュレーター後退が押されました</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>ホットキーが作動しました</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>設定を操舵モジュールに送信しました</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>編集から戻る</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>アップデーターが見つかりません。AgOpenGPS.Updater.exeがアプリケーションのフォルダーにあることを確認してください。</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>アップデーターが見つかりません</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>境界線を作るにはポイントが足りません</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>フィールドの中心を計算できません。外側の境界線またはABラインがありません。</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>ゾーン数をセクション数より多くできません</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>シミュレーターはオフです</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>実アンテナの使用中はシミュレーターを使えません</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>既定値に戻しました</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>値を初期の既定値に設定しました</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>範囲外です</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>オフセットが大きすぎるため適用できません</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>スマートWASゼロ点</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>既定値を設定しました</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPDとアッカーマンを既定値に設定しました</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>Pゲイン変更</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>比例ゲインを1に設定しました</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>プロファイルを作成しました</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>既定のプロファイルを作成しました</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>環境設定をリセットしました!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>環境設定を読み込みました!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>プロファイルファイルが見つかりません!
+
+レジストリに登録されたプロファイルが見つかりません。
+新しいプロファイルを選択または作成してください。
+
+選択しない場合、環境は既定値を使用します。</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>プロファイルがありません。
+
+「新規」で車両とツールのプロファイルを作成してください。
+
+選択しない場合、環境は既定値を使用します。</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>フィールド原点の重大なエラー&#xD;
+&#xD;
+フィールド原点が現在のGPS位置から20 km以上離れています。精度が低下するため、このフィールドを削除して新しく作成してください。&#xD;
+&#xD;
+または、フィールドを開いたまま遠くへ移動した可能性があります。</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>警告: AgIOを閉じるとハードウェアとの通信が停止します。&#xD;
+本当に閉じますか?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>上 + 下</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>自動非表示</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>自動&#xD;
+実行</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>プロファイル</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>プロファイル</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>現在のプロファイル</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>現在のプロファイル</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>新規プロファイル</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>新規:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>使用中のプロファイル:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: プロファイル管理</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>上書きするプロファイル:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>詳細設定</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS設定</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>シリアルパススルー設定</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>シリアルパススルーオン</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>GPSと別のポートですか?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>最小化で起動</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>警告時にAgIOを前面表示</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>GPS-Out自動起動</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>警告時&#xD;
+に&#xD;
+表示</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>イベントログビューアー</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>ログ表示</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>シリアルモニター</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDPモニター</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGNガイド</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>ガイド -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>キーボード</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>ここにメッセージが表示されます</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIOメッセージ</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwoメッセージ</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP詳細</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIPはオフです</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>予備を使用中</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>補正データは良好?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>予備に切替</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>メインを再試行</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>メインに戻す</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>接続済み、データ待ち</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>接続中...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>マウントポイントが見つかりません</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>ログインできません</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>停止中</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>サービス起動中</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>サービスが混雑中</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>接続済み、データなし</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>ネットワークなし</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>再接続中...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>サービスの応答を解釈できません</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>サービスに接続できません</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>補正データ受信中</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>このストリームは詳細を確認できません。</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>基地局位置を受信</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>基地局位置</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>待機中。10秒ごとに届きます。</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>基地局位置がありません</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>これがないとRTKは開始できません。</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>まだ受信していません。</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>基地局までの距離</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>GPS位置を待っています。</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>RTKに適さない遠さです。もっと近い基地局を選んでください。</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>遠距離です。この距離ではRTKの精度が下がります。</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>NTRIP設定の固定位置から計算。</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>補正データ内の衛星</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>補正データに衛星データがありません</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>基地局が観測データを送っていません。</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>まだ何も受信していません。</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>データは新しい</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>最初のデータを待っています。</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>データが遅れています</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>新しいデータなし</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>GPS: RTK Fix</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>GPS: RTKフロート</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>計算中です。しばらくお待ちください。</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>GPS: まだRTKではありません</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>通常のGPS精度のみです。</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>GPSが測位できていません</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>GPSは手動またはシミュレーターモードです</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>アドレスなし</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>先にアドレスを入力してください。</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>ポートなし</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>保存できません</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>ポートを開くエラー</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>まだNTRIPを使用できません</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>先にプロファイルを選び、「使用」をタップしてください。</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>使用中のプロファイルにサービスのアドレスまたは無線ポートがありません。先に編集してください。</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>読み込めません</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>このプロファイルファイルを読み込めませんでした。</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>名前を変更できません</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>その名前はすでに使われています。</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>プロファイル読込の警告</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>プロファイルを復元</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>メインファイルが読めなかったため、AgIOプロファイルを.lastバックアップから復元しました。</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>ファイルを保存しました</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>無効なID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>無効な名前</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>名前が未入力です</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>無効な周波数</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>周波数が未入力です</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>チャンネルなし</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>無線はオンですが、チャンネルが選択されていません</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIPも有効です</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIPも有効なため、無効にします</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIOは既定のプロファイルを使用中</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>既定のプロファイルを使用中</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>無線NTRIPオン</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>シリアルNTRIPオン</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>シリアルパスNTRIPオン</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>NTRIPをオンにする</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>シリアルパスへの接続エラー</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>無線への接続エラー</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IPを設定しました</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>ファイルが見つかりません</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>保存するファイル名を入力してください...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>保存して戻る</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>ポートに接続できません</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>接続はすでに終了していますか?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>接続はすでに終了していますか??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>有効なArduinoポートがありません</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>重大なネットワーク接続エラー</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>重大なレジストリエラー</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>レジストリのサブキーを削除できません</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskControllerがインストールされていません??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>無線がオンです。先に無線設定でオフにしてください。</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>シリアルパススルーがオンです。先にオフにしてください。</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIPがオンです。先にNTRIPプロファイル一覧でオフにしてください。</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>距離</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>エラー&#xD;
+メッセージ</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>メッセージ2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>モジュール3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>シリアルモニター - baud: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>$GN---を送信</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>$GP---を送信</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>ロール: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>操舵: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP出力</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>固定位置</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>別のNTRIPサービス</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>両方</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>予備</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>手動で切替</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>メインのサービス</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>AIOボード (ネットワーク)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>GPS受信機 (シリアル)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>現在のGPS位置</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIPサービス</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>出力と位置</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>シリアル無線</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>自動で切替</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>予備</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>オフ。2つ目のサービスは使いません。</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(ポート未設定)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>手動で切り替えます</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>生のTCP (マウントポイントやログインなし)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>マウントポイント未選択</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>未入力</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>現在位置が必要</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>場所</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(未保存)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>先に無線のポートを選択してください。</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>予備を使うには無線ポートを選択してください</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>予備を使うにはキャスター情報を入力してください</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>プロファイルがありません。&#xD;
+&#xD;
+「新規プロファイル」をタップして作成してください。</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>このプロファイルは未入力です。&#xD;
+「編集」をタップしてメインのサービスを入力してください。</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>NTRIPプロファイルが未選択です。NTRIP設定で選択または作成してください。</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>NTRIPプロファイルでメイン無線のポートを選択してください。</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIPがオンラインに復帰しました</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>補正データが再び届いています。</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIPログイン拒否</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIPマウントポイントなし</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIPキャスター混雑</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP補正なし</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIPストリーム切断</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP未接続</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIPオフ</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP待受中</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>接続の問題</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>キャスターに接続できません</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>IPv4アドレスが見つかりません</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP接続に失敗しました</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP接続が拒否されました</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>キャスターがデータを送らずに接続を閉じました (マウントポイントと認証情報を確認してください)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIPクライアント未設定</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>既存のプロファイルを選択するか、新規作成してください</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>プロファイルを作成または選択してください</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>シリアルパススルーを使う前にオフにしてください</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>NTRIPを使う前にオフにしてください</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>無線NTRIPを使う前にオフにしてください</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>無線NTRIPオン</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>新しい値に変更しました</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDPオン</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDPはオンです</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>UDPネットワーク機能を有効にするためAgIOを再起動します</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>UDPネットワーク機能を無効にするためAgIOを再起動します</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>UDPネットワークの変更を反映するためModSimを再起動します</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>手動IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>アップデーターエラー</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPSアップデート</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>お待ちください...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>お待ちください</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>現在の処理が完了するまでお待ちください。</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>GitHubのリリースを確認中...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>USBドライブを確認中...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>USBドライブにアップデートがありません。</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>AgOpenGPSとAgIOを終了中...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>アプリケーションを終了しました</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>GitHubからダウンロード中...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>ダウンロード失敗</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>ダウンロード失敗</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>USBからコピー中...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>コピー失敗</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>コピー失敗</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>インストール失敗</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>インストール失敗</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>完了! 再起動中...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>完了!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>アップデートはキャンセルされました。</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>リリースノートはありません。</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>リリース候補版</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>ダウンロード失敗: ファイルサイズがリリースと一致しません。</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>ダウンロード失敗: チェックサムがリリースと一致しないため、ファイルはインストールされませんでした。</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>このリリースに適切なダウンロードファイルがありません。</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>別のアップデーターがすでに実行中です。</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>実行中のアプリケーションはありませんでした。</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>アプリケーションを正常に終了しました。</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>アップデートファイルが見つかりません。</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>インストール先フォルダーがありません。</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>バックアップを作成中...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>ファイルを展開中...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>ファイルをインストール中...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>インストール先フォルダーにAgOpenGPS.exeが見つかりません。</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPSを再起動しました。</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>アップデートを確認</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>アップデートをインストール</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>プレリリースを含める</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>ファームウェア更新</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPSファームウェア更新</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPSアップデーター</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>リリースノート</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>リリースノートを表示</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>リリースノートはここに表示されます。</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>現在のバージョン: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>最新バージョン: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>最新バージョン: 最新です</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Web更新 - 「アップデートを確認」をクリック</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Web更新 (GitHubリリース)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Web更新 (ローカル更新あり)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>ローカル: USBにAgOpenGPS_*.zipがありません</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>ローカル: USBドライブのルートにAgOpenGPS.zipを置いてください</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskControllerがインストールされていません。こちらからダウンロードしてください:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linuxユーザー向け</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Linux専用!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  終了中</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> プロファイルを完全に読み込めませんでした (ファイルが壊れている可能性があります)。&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> プロファイルは、メインファイルが読めなかったため.lastバックアップから復元されました。</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>先にメイン無線のポートを選択してください。</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>先にメインのサービスのアドレスを入力してください。</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>またはプロファイル一覧でNTRIPをオフにしてください。</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>修正は 設定 -&gt; COMポート で行ってください</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>今回は、欠落または無効な値に既定値を使用しています。</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIOプロファイルを完全に読み込めませんでした (ファイルが壊れている可能性があります)。</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIPプロファイル「</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>」はこのコンピューターにありません。NTRIP設定でプロファイルを選択または作成してください。</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>」にはまだサービスのアドレスがありません。</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>予備も動作していません:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>補正データが途絶えて</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIOは再試行を続けます。</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> 分</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>予備を使用中: 現在メインのサービスは使っていません</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>基地局ID:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>破損データ:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>サービスの応答:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>再接続まで</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>キャスターURLを解決できません:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  シミュレートデータ</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   データなし</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>アップデーターはAgOpenGPSから起動する必要があります。</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>先にAgOpenGPSを起動し、次を使用してください:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>メニュー → ツール → アップデートを確認</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>現在のバージョンを検出するために必要です。</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>アップデートをインストール:</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>ソース:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>実行内容:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• AgOpenGPSとAgIOを終了</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• 現在のインストールのバックアップを作成</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• アップデートをインストール</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• AgOpenGPSを再起動</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>続行しますか?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>アップデートファイルが見つかりません。</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>USBドライブのルートにAgOpenGPS_X.Y.Z.zipを置いてください。</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>アップデートに失敗しました: {0}
+バックアップを復元しました。</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>アップデートに失敗しました: {0}
+バックアップの復元にも失敗しました!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>アップデートに失敗しました: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+バックアップを復元しました。</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+バックアップの復元にも失敗しました!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>アップデートが完了しました。
+{0}
+バックアップ: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>アップデートあり: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>{0}回失敗すると自動で切り替わります</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>マウントポイント{0}件、近い順。</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>マウントポイント{0}件。</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>{0}が見つかりません</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>確認に失敗しました: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>{1} kB受信</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>最後のデータは{1d}秒前です。</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>最後のデータは{1d}秒前です。接続が遅い可能性があります。</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>補正データは{1d}秒前のものです。</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>基地局までの距離: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>GPS: 測位タイプ {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} 動作中 (旧クライアント)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} 動作中</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (旧クライアント)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>{1}を開いています...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: データ待ち</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} プロファイル: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>保存先: {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>上書き: {1}</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID「{1}」は有効な数値ではありません</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>エラーが発生しました: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDPエラー: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>読込エラー: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>有効化</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>APIキー</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>クラウド読込</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>自動アップロード</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>自動アップロード: 閉じるときにフィールドの変更をアップロード
+クラウド読込: 開くときに常にAgShareから最新版をダウンロード</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>接続中...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>接続に成功しました</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>サーバーとAPIキーを入力して、接続をテストしてください</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>APIキーが無効です</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>ローカルのみ</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>クリップボードから貼り付け</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>AgShareを使うにはここで登録してください</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>設定を保存しました</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare設定</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>接続テスト</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>アップロード オフ</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>アップロード オン</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>フィールドはクラウドから自動で読み込まれます</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>AgShareからフィールドを読み込みました</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>クラウドからフィールドを読み込めないため、ローカル版を使用します。</value>
+  </data>
+  <data name="gsAutoSwitchDualFix" xml:space="preserve">
+    <value>自動 デュアル &lt;&gt; Fix</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>GPSガイダンスをすぐに開始できます。作業幅とヒッチの長さを設定し、AB線またはカーブを作成してください。ディスクには何も保存されません。</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>環境設定</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>環境設定を保存しました。</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>車両設定</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>車両設定を保存しました。</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>ツール設定</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>ツール設定を保存しました。</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>スマートWAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>走行中のガイダンス操舵角を解析して、WASのゼロ点を自動キャリブレーションします。オートステアを有効にして、ラインに沿って滑らかに走行してください。</value>
+  </data>
+  <data name="gsCurrentVehicle" xml:space="preserve">
+    <value>現在の車両</value>
+  </data>
+  <data name="gsCurrentTool" xml:space="preserve">
+    <value>現在のツール</value>
+  </data>
+  <data name="gsSelected" xml:space="preserve">
+    <value>選択中</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>アンテナピボット</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>トレッド幅</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>取付</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>トレーリングヒッチ</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>ヒッチ</value>
+  </data>
+  <data name="gsVehicle" xml:space="preserve">
+    <value>車両</value>
+  </data>
+  <data name="gsTool" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>トラクター</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>ハーベスター</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>アーティキュレート</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>フロント</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>リア固定</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>トレーリング</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>車両は使用中です</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>使用中の車両は削除できません</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>車両を削除</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>車両名の変更</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>新しい車両名を入力</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>車両はすでに存在します</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>ツールは使用中です</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>使用中のツールは削除できません</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>ツールを削除</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>ツール名の変更</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>新しいツール名を入力</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>ツールはすでに存在します</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>車両の読み込みエラー</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>ツールの読み込みエラー</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>新しい車両</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>車両名を入力</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>新しいツール</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>ツール名を入力</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>デフォルト車両を作成</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>工場出荷時の設定で「Default」車両プロファイルを作成しますか?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>上書き</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>プロファイルはすでに存在します。上書き</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>デフォルトツールを作成</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>工場出荷時の設定で「Default」ツールプロファイルを作成しますか?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>デフォルト車両を読み込みました</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>デフォルトツールを読み込みました</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>旧プロファイルの変換</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>車両 / ツール</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>旧プロファイルファイルを新形式に変換</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>旧プロファイルはすべての設定を1つのファイルに含んでいました。新形式では車両、ツール、環境が分かれています。取り出す項目を選択してください。</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>ステップ1</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>ステップ2</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>車両プロファイル名</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>ツールプロファイル名</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>車両をインポート</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>ツールをインポート</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>インポートしない</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>旧形式のファイルが見つかりません。</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>旧ファイル</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>旧ファイル: 変換済み、変換対象</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>変換済み</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>変換対象</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>変換</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>変換の確認</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>「{0}」を変換: {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>変換</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>車両</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>変換完了</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>変換に成功しました</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>環境設定をインポートして読み込みました。</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>変換エラー</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>エラーが発生しました</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>車両/ツールの読込</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>存在します</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>名前の変更</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>車両はすでに存在します</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>ツールはすでに存在します</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CANbus アダプター</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>モジュールのネットワークアドレス -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>再起動が必要です</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>アップロード完了</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>ライン読み込みエラー</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>ラインから境界を作成</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>別の圃場からラインをインポート</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS メッセージ</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>GPS位置のシフト (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>イージードライブ: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>AB作成 - 開始するには境界上の2点をクリック</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>名前なし</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2点 - グリッド位置合わせ</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>新規レコードを作成</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>環境を読み込み</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML 例外</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>アンテナ</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>ディファレンシャル</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>単独</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD 設定値: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>受信データエラー: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>送信エラー: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>データ送信エラー: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDPサーバー</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 公式</value>
   </data>
 </root>

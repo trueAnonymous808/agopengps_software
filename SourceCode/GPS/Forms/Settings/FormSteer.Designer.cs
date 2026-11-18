@@ -526,9 +526,9 @@
             // 
             this.labelAcquire.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAcquire.ForeColor = System.Drawing.Color.Black;
-            this.labelAcquire.Location = new System.Drawing.Point(85, 159);
+            this.labelAcquire.Location = new System.Drawing.Point(65, 159);
             this.labelAcquire.Name = "labelAcquire";
-            this.labelAcquire.Size = new System.Drawing.Size(111, 24);
+            this.labelAcquire.Size = new System.Drawing.Size(131, 24);
             this.labelAcquire.TabIndex = 548;
             this.labelAcquire.Text = "Acquire:";
             this.labelAcquire.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1225,9 +1225,9 @@
             // 
             this.labelAcquire2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAcquire2.ForeColor = System.Drawing.Color.Black;
-            this.labelAcquire2.Location = new System.Drawing.Point(139, 312);
+            this.labelAcquire2.Location = new System.Drawing.Point(124, 312);
             this.labelAcquire2.Name = "labelAcquire2";
-            this.labelAcquire2.Size = new System.Drawing.Size(80, 23);
+            this.labelAcquire2.Size = new System.Drawing.Size(110, 23);
             this.labelAcquire2.TabIndex = 512;
             this.labelAcquire2.Text = "Acquire:";
             this.labelAcquire2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1247,9 +1247,9 @@
             // 
             this.labelHold.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelHold.ForeColor = System.Drawing.Color.Black;
-            this.labelHold.Location = new System.Drawing.Point(265, 311);
+            this.labelHold.Location = new System.Drawing.Point(255, 311);
             this.labelHold.Name = "labelHold";
-            this.labelHold.Size = new System.Drawing.Size(55, 23);
+            this.labelHold.Size = new System.Drawing.Size(75, 23);
             this.labelHold.TabIndex = 511;
             this.labelHold.Text = "Hold:";
             this.labelHold.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

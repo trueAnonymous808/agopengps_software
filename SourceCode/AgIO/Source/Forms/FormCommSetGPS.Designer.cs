@@ -818,26 +818,28 @@
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
+            this.label4.AutoSize = false;
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(630, 456);
+            this.label4.Location = new System.Drawing.Point(560, 456);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 23);
+            this.label4.Size = new System.Drawing.Size(162, 23);
             this.label4.TabIndex = 76;
             this.label4.Text = "Machine:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
+            this.label5.AutoSize = false;
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label5.Location = new System.Drawing.Point(659, 414);
+            this.label5.Location = new System.Drawing.Point(560, 414);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 23);
+            this.label5.Size = new System.Drawing.Size(162, 23);
             this.label5.TabIndex = 77;
             this.label5.Text = "Steer:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label6
             // 

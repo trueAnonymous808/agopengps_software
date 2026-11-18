@@ -496,7 +496,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Modifier nom du champ</value>
   </data>
   <data name="gsElevationlog" xml:space="preserve">
-    <value>Elevation Log</value>
+    <value>Journal d'altitude</value>
   </data>
   <data name="gsEnable" xml:space="preserve">
     <value>Activer</value>
@@ -565,7 +565,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Erreur de fichier</value>
   </data>
   <data name="gsFix2Fix" xml:space="preserve">
-    <value>Fix to fix distance</value>
+    <value>Distance Fix à Fix</value>
   </data>
   <data name="gsFixAlarm" xml:space="preserve">
     <value>Alarme Fix RTK</value>
@@ -640,7 +640,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Relevage Config</value>
   </data>
   <data name="gsHydraulicLiftLookAhead" xml:space="preserve">
-    <value>Look Ahead</value>
+    <value>Anticipation</value>
   </data>
   <data name="gsIMUAxis" xml:space="preserve">
     <value>Inverser axe IMU</value>
@@ -661,7 +661,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Intérieure</value>
   </data>
   <data name="gsIntegral" xml:space="preserve">
-    <value>Integral</value>
+    <value>Intégrale</value>
   </data>
   <data name="gsIntegralInfo" xml:space="preserve">
     <value>Augmente l'angle de braquage pour réduire l'erreur de dérive</value>
@@ -706,7 +706,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Moins</value>
   </data>
   <data name="gsLightbar" xml:space="preserve">
-    <value>Lightbar</value>
+    <value>Barre de guidage</value>
   </data>
   <data name="gsLineSmooth" xml:space="preserve">
     <value>Lissage de ligne</value>
@@ -718,7 +718,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Longitude</value>
   </data>
   <data name="gsLookAhead" xml:space="preserve">
-    <value>Look Ahead</value>
+    <value>Anticipation</value>
   </data>
   <data name="gsLookAheadTiming" xml:space="preserve">
     <value>Configuration des délais</value>
@@ -835,7 +835,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Déplacer chemin de référence</value>
   </data>
   <data name="gsOff" xml:space="preserve">
-    <value>Off</value>
+    <value>Désactivé</value>
   </data>
   <data name="gsOffset" xml:space="preserve">
     <value>Décalage</value>
@@ -952,7 +952,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Supprimer calibrage</value>
   </data>
   <data name="gsReset" xml:space="preserve">
-    <value>Reset</value>
+    <value>Réinitialiser</value>
   </data>
   <data name="gsResetAll" xml:space="preserve">
     <value>Réinitialiser tout</value>
@@ -1093,7 +1093,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Compteur vitesse</value>
   </data>
   <data name="gsStart" xml:space="preserve">
-    <value>Start</value>
+    <value>Démarrer</value>
   </data>
   <data name="gsStartDeleteABoundary" xml:space="preserve">
     <value>Démarrer ou supprimer bordure</value>
@@ -1135,7 +1135,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Enregistrement de la Bordure</value>
   </data>
   <data name="gsSwitch" xml:space="preserve">
-    <value>Switch</value>
+    <value>Commutateur</value>
   </data>
   <data name="gsSwitchDescription" xml:space="preserve">
     <value>interrupteur On / Off</value>
@@ -1210,10 +1210,10 @@ UTILISER À VOS PROPRES RISQUES.</value>
     <value>Utilisateur</value>
   </data>
   <data name="gsUturn" xml:space="preserve">
-    <value>U-Turn</value>
+    <value>Demi-tour</value>
   </data>
   <data name="gsUturnCompensation" xml:space="preserve">
-    <value>U-Turn Compensation</value>
+    <value>Compensation du demi-tour</value>
   </data>
   <data name="gsUturnExtension" xml:space="preserve">
     <value>Longueur d'anticipation 2 à 3x le rayon</value>
@@ -1228,7 +1228,7 @@ UTILISER À VOS PROPRES RISQUES.</value>
     <value>Version</value>
   </data>
   <data name="gsWasZero" xml:space="preserve">
-    <value>Was Zero</value>
+    <value>Zéro WAS</value>
   </data>
   <data name="gsWebCam" xml:space="preserve">
     <value>Caméra</value>
@@ -1373,5 +1373,4741 @@ UTILISER À VOS PROPRES RISQUES.</value>
   </data>
   <data name="gsToConvert" xml:space="preserve">
     <value>à convertir</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Enregistrer sous :</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Renommer</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Par défaut</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Ouvrir :</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Choisir</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Choisir dans la liste...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Chargement de la liste...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Prêt...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Copié</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Copie impossible</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Copier pour le support</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Désactivé</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Utiliser</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Seulement</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Ou</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Fois</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Actuel</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Commande</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Réponse</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Saisir une valeur</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Saisir une valeur</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Saisissez une valeur</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Connecter</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Déconnecter</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Non connecté</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Connexion auto</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Connecter le GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Port série</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>Port GPS</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>Port GPS 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>Port RTCM</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Port réseau</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radio sur le port</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Vitesse (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>Adresse IP</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>Adresse IP : port</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Nom d'hôte</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Nom d'hôte :</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Sous-réseau actuel</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Définir</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Saisissez la nouvelle adresse du sous-réseau</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Remplissage auto</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Aucune carte réseau pour ce sous-réseau</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Réseau</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Configuration Ethernet</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Activez l'UDP puis appuyez sur OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>L'UDP est désactivé</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP désactivé</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Dernière vue</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Connecté</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Arrêt à %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Angle de braquage stable !!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>En mouvement</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A et B inversés</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>De A à Z et de 0 à 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS est déjà en cours d'exécution</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Tout est vert ? Appuyez sur Construire ou corrigez à la main !</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Alphanumérique seulement</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Une erreur inattendue s'est produite et a été écrite dans le journal des événements. AgOpenGPS continue de fonctionner.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>Erreur BingMap</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Mode création de bordure</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Échec de la construction</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Erreur de bouton</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Impossible de supprimer la sous-arborescence du registre</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Capturé</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Copié dans le presse-papiers, collez (CTRL-V) dans Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Créez d'abord un parcours</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Erreur de création</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Erreur de croisements</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Aucun croisement trouvé</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>La courbe est inversée</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Erreur de distance</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Distance à 0, rien à déplacer</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Activez le switch de direction</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Environnement actuellement utilisé</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Erreur de recherche lat/lon</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Erreur, vérifiez le format</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Erreur d'importation des voies :</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Angle de braquage excessif - zéro impossible</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Échec du téléchargement de l'aperçu de la parcelle. Voir les journaux.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Échec du téléchargement de la parcelle.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Échec du chargement de la liste des parcelles.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Échec du chargement de la liste des parcelles.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Échec du chargement de la liste des parcelles :</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Échec du chargement des voies :</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Parcelle enregistrée mais impossible à ouvrir (Field.txt manquant).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Recherche des intersections...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Terminez tous les réglages ou rétablissez les valeurs par défaut</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Drapeaux ajoutés !</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Drapeaux enregistrés !</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Raccourci incomplet</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Ligne invalide</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Sélection invalide.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Peut-être n'y a-t-il qu'une seule ligne ?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Erreur de ligne</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Erreur de chargement :</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Vérifiez que chaque extrémité croise une seule fois</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Carte trop grande</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Max 164 pieds</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Max 50 mètres</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Doit être supérieur à 5 degrés</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Aucun parcours enregistré</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Aucune sélection</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Aucune parcelle n'est ouverte.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Aucune parcelle sélectionnée.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Aucune voie trouvée.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Impossible de générer une bordure valide</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Aucune bordure valide à enregistrer</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Pas assez de boutons ajoutés</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Problème de fichier facultatif</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Sélectionnez une parcelle avant d'enregistrer.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Sélectionnez d'abord une parcelle.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Sélectionnez au moins une parcelle à envoyer</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Sélectionnez au moins une voie à importer.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Attendez la fin de l'envoi</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Erreur d'enregistrement</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Choisissez un autre environnement</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Réglé à 99, max 164 pieds</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Réglé à 99, max 50 mètres</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Point de départ = point d'arrivée</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Angle de braquage trop faible</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Direction désactivée</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Succès !</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Succès</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>La parcelle a été supprimée localement, mais pas d'AgShare.
+Supprimez-la manuellement.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Trop large</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Erreur d'outil</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Touchez la carte pour créer la bordure</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Infos de la voie</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Échec de l'ajustement de la voie :</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Envoi déjà en cours</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Envoi en cours</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Utilisez uniquement une ligne AB ou une courbe</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Votre outil est trop petit</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Recherche en cours</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Réponse du module</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Recherche de modules</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Simulation de module</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Gestionnaire de périphériques</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Vérifier la connexion</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Position envoyée</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Données reçues</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>essais échoués</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Envoi toutes les (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Envoyer une GSA vide</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Envoyer NTRIP au GPS via :</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM série</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Mise à jour par USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Mise à jour par internet</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>Réglages NTRIP</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>Détails NTRIP</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>Profils NTRIP</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>Version NTRIP</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>Erreurs NTRIP</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Choisissez un profil NTRIP</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Utiliser le client NTRIP</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Ancien client NTRIP</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Flux TCP brut</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpoints disponibles</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Choisissez la base la plus proche de votre parcelle.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Les corrections vont vers</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Utiliser un service de secours si le principal tombe</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Basculer après</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radio (pas XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Canal radio</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Réglages radio</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Canaux</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Une radio série n'est pas un service NTRIP : ses corrections sont utilisées dès leur arrivée. Un service de secours prend le relais si la radio se tait.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Latitude :</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Longitude :</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Lat</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Lon</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Altitude</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Altitude (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Altitude :</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Alt.</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Cap</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Vitesse</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Vitesse :</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Satellites</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Satellites :</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>Nb sat.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Qualité fix</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Qualité fix :</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Qualité fix</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Âge corr.</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Âge :</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Double antenne</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Roulis</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Roulis corrigé</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Roulis :</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Tangage</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Lacet</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Vit. lacet</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Décalage</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simuler les données</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simulé</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Décimales</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Fréquence</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Fréquence</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Données système</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>État d'AgOpenGPS :</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Autoguidage</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Direction :</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Module de direction</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Bouton de direction</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Switch de direction</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Switch direction :</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Ping direction :</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Config. &#xD;
+direction</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Réglage&#xD;
+direction</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Depuis&#xD;
+autoguidage</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Angle visé</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Angle réel</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Angle :</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Machine :</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Module machine</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Mach.</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Ping outil :</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Travail</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Switch de travail</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Travail :</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Switch :</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Activ. relevage</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Relevage hyd.</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Temps de montée</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Temps de descente</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Vitesse min.</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>PWM min.</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>PWM haut</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>PWM bas</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Impulsions</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Nb impulsions</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Impuls. :</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relais actif haut</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Pression</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Demi-tour</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Voie</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Conditions d'utilisation</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>Tutoriels YouTube</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Forum Discourse</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Refuser</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Accepter</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Version :</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Tester la connexion</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Saisissez les infos ci-dessus et cochez Tester la connexion</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>Clé API :</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Serveur :</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Coller du presse-papiers</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Inscrivez-vous ici pour utiliser AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Activer</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Envoi auto</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Local seulement</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ À la prochaine !</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Véhicule / Outil...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulateur activé</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Coordonnées simulées</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Mode kiosque</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Tout réinitialiser</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Assistants</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Assistant direction</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Graphiques</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Graph. direction</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Graph. cap</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Graph. correction roulis</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Outil bordure</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Lisser courbe AB</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Masquer contours</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Webcam</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Décalage du fix</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       s</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Autoguidage</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Voir tous les réglages</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Dossiers</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>Données GPS</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Couleurs</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Couleurs multi-sections</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Raccourcis</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Bordure</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Tournière</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Tournière (création)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Trains de pulvé</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Trains de pulvé</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Effacer le travail fait</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Drapeau par lat/lon</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Parcours enregistré</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Importer des voies</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Parcelle actuelle</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Réf.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulateur</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Autoguidage on/off</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Touchez le bouton pour réinitialiser,&#xD;
+puis appuyez sur la nouvelle touche</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Changer de ligne</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Fermer la parcelle</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Créer la bordure depuis la cartographie</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Direction</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Vit. angulaire max.</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Direction en marche arrière</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Comp. dévers</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Direction Arduino</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Impuls./degré</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>PWM direction haut</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>PWM direction bas</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>PWM direction min.</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proportionnel)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Vitesse dir. min.</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Vitesse dir. max.</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Limite vit. fonction</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Géométrie</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Type de véhicule</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Largeur de voie</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antenne - pivot</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Source du cap</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Décalage cap dual</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dist. marche arr. dual</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Pas min.</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Poids de fusion</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual comme IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Marque</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Marque du tracteur</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Marque de la moissonneuse</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Marque de l'articulé</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Dimensions</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Largeur de l'outil</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Recouvrement outil</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Décalage outil</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Nb de sections</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Attelage traîné</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Citerne traînée</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Traîné - pivot</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Type d'outil</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Traîné</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Fixe arrière</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (tracteur-outil-tracteur)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Frontal</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Sections</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Sections (pas zones)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Coupure en sortie</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Section rapide</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Anticipation / délais</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Anticipation on</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Anticipation off</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Délai coupure outil</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Anticip. relevage hyd.</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Ctrl sections tournière</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Guidage (par outil)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Distance d'accroche</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Réf. dist. d'accroche</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Distance zone morte</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Cap zone morte</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Délai zone morte</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley utilisé</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Gain dist. Stanley</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Gain cap Stanley</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Intégrale Stanley</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>Intégrale PurePursuit</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Fact. acquisition pt cible</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Maintien pt cible</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Multiplic. pt cible</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Seuil basse vitesse</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Switch de travail</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Switch travail direction</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Couverture min.</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Demi-tour (par outil)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Rayon de braquage</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Dist. de la bordure</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Largeur d'évitement</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Longueur de prolongement</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Style de demi-tour</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Lissage demi-tour</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Compens. demi-tour</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Affichage / menu</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Grille on</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Barre lumineuse on</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Lignes de guidage latérales</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure actif</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Compteur on</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Barre lumineuse (pas barre dir.)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Mode jour</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Clavier on</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Image du véhicule</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Texture activée</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Luminosité on</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Journal altitude</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Éteindre l'ordinateur</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Arrêt sans alimentation</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>Démarrage auto AgIO</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>Arrêt auto AgIO</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Barre lum. cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Zoom caméra</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Inclinaison caméra</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Autoguidage</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Anticipation du guidage</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Autoguidage auto on</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Contour constant</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Lignes de guidage</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Nb de lignes de guidage</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>Alarme âge GPS</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>Perte RTK : coupe autoguidage</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Alarme saut de fix</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Latitude sim.</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Longitude sim.</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>Surveillance UDP ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Son</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Son demi-tour</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Son relevage hyd.</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Son autoguidage</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Son sections</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Trains de pulvé</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Passes trains de pulvé</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Transparence trains pulvé</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / global</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Marche arrière on</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Bascule auto dual/fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Vitesse bascule auto</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Afficher le pivot</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Dist. tournière on</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Espacement outil bord.</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Lissage outil bord.</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Actif bas</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Sections manuelles</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Syst. travail distant</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Switch dir. manuel</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Dist. pas cap min.</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare activé</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Envoi actif</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Parcelle publique</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Autre</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Durée image (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Tranche de temps</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Qualité du fix</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Satellites suivis</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Phrases UDP perdues</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Cap</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>Cap IMU</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Cap fix à fix</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Cap fusionné (°)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Vitesse angulaire</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Application</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Fichier véhicule</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Fichier outil</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Réglage</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Tous les réglages</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Le nouveau profil sera créé et chargé.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Fermez la parcelle avant de lancer la mise à jour</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Nouveau drapeau</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Section manuelle</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Section auto</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Accrocher au pivot</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Ligne à gauche</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Ligne à droite</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Réglages véhicule</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Valeurs &#xD;
+par défaut</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Section ou zone</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Nouvelle touche</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Plein écran&#xD;
+&#xD;
+NumPad1 - Section manuelle&#xD;
+NumPad0 - Section auto</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Invite</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Est</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Nord</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Hz brut</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Perdus</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix2Fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Nord (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Ouest (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Est (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Sud (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Conserver le décalage après la fermeture de la parcelle ?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Véhicule</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Outil</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Nom du véhicule</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Type :</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Tracteur</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Empattement :</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Antenne-pivot :</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Décal. antenne :</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Attelage :</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Nom de l'outil</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Largeur :</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Sections :</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Décalage :</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Recouvrement :</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Anticipation :</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Décalage ligne :</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Largeur voie :</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Unités :</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Métrique</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Choisissez le type de véhicule</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Opacité</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Pas d'image</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Pour l'instant</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Vers un fichier</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Couper la ligne</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Zoom avant</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Construire</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Transparence</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Nom de fichier</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Saisissez le nom de l'enregistrement</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; ARRÊT &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>État :</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Ajouter un nom</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Courbe</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Modifier le nom</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Pivot</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + courbe</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>Ligne AB</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Lat/Lon +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Lat/Lon</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Longitude (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Latitude (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Pulvérisation</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Passages</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Voie</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Semis</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Choisir les boutons</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>Menu AOG</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Aperçu</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Multicolore</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Couleur de section</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Modifier la couleur</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Distance du pivot</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Hauteur d'antenne</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Centre</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Décalage d'antenne</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Gauche</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Droite</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Double antenne : antenne de position à droite</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Longueur d'attelage</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Empattement</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Type d'attelage</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Recouvrement / espace</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Recouvrement</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Espace</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Sens du décalage d'outil</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Outil à droite</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Outil à gauche</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Zone 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Zone 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Zone 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Zone 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Zone 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Zone 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Zone 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Zone 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Pouce</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Largeur de section</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% couverture</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zones</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Sections</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Sections auto</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Sections manuelles</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Réglages du temps d'anticipation</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Marche (s)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Arrêt (s)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Délai de coupure (s)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>L'alarme coupe l'autoguidage</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = désactivé</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Distance de saut du fix (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Réglages double antenne</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Vitesse de bascule</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto dual &lt;-&gt; fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Distance marche arrière (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Décalage de cap (degrés)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Réglages antenne simple</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Par défaut : 70 %</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Fusion</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Détection marche arrière</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Distance fix à fix</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Pas GPS minimal</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Type d'antenne</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Inverser le roulis</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Zéro roulis</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Supprimer le décalage</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Moins</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Filtre de roulis</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Réglez le lissage à 3 ou 4 fois le rayon</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Réglez la longueur de prolongement à 2 ou 3 fois le rayon&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Config. du relevage hydraulique</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Densité de semis</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Anticipation du relevage hydraulique (s)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Temps de montée (s)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Activer</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Temps de descente (s)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Inverser les relais</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Envoyer + enreg.</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Afficher ?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Forcer</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Largeur de voie</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Messages matériel</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Arrêt si perte d'alimentation</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>Arrêt auto d'AgIO ?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Menu du bas</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Boutons de décalage</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Menu de droite</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>Démarrage auto d'AgIO ?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Demi-tour</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Demi-tour</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Latéral</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Masquer contour</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>Lissage AB</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Parcours enr.</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Trains de pulvé</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Boutons d'écran</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Menu outils</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Menu parcelle</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>ARRÊT</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Valeurs de débogage</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Dist. tournière</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Lissage de ligne</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Lignes de sections</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Repères de direction</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Altitude</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Unités</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Flèche Svenn</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Luminosité</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Texture de parcelle</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Polygones</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Démarrer en plein écran</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Compteur</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Lignes guides</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Grille</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Véhicule actuel</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Outil actuel</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Pouces</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Largeur outil :</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Pieds</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Réel :</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Visé :</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Err. :</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Ou +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Angle braq. :</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Diamètre :</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Acquisition :</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>L'angle de braquage augmentera lentement pour réduire l'écart latéral</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Lent</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Rapide</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Réactivité direction</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Intégrale</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Anticipation min.</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Anticipation</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Gains Stanley</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Angle de braquage max.</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV réel :</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV visé :</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Impulsions par degré</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>Zéro WAS</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Facteur d'acquisition</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Distance :</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Facteur de vitesse</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ----- Zone morte -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Maintien :</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Acquisition = facteur × maintien</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Délai d'activation (s)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Cap (degrés)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimum pour bouger</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Limite maximale</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Gain proportionnel</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Degrés de braquage par degré de roulis (dévers)</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Bouton - appui : marche. appui : arrêt&#xD;
+Switch - enfoncé : marche, relâché : arrêt</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Capteur de pression</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Capteur de courant</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Capteur d'impulsions</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Inverser sens moteur</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Activation direction</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Pilote de moteur</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>Convertisseur A/N</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Capteur d'angle</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Inverser WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Tout remettre par défaut</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>Axe X ou Y de l'IMU</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>WAS intelligent</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Confiance : 0 %</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Échantillons : 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Direction en marche arrière ?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Entrée</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Sortie</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Compens. demi-tour</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Vitesse max.</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Demi-tours manuels</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Épaisseur de ligne</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pixels</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Distance de décalage</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Barre de guidage</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Barre direction</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Marche/Arrêt</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Barre lumineuse</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm par pixel</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Secondes</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Délai de recherche de la ligne suivante</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Assistant</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Erreur :</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Bas</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Degrés dévers par degré de roulis</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Anticipation (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Gain d'anticipation selon vitesse</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimum pour bouger</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maximum</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Roulez droit devant et touchez Zéro</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Capteur de pression de direction</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Capteur de courant de direction</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Inverser le relais d'activation hydraulique ?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Mode d'activation direction</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Quel type de pilote de moteur ?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Connexion du convertisseur A/N ?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Impulsions de braquage</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Utilisez-vous une vanne Danfoss ?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Conduite libre</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Lancer l'assistant</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Fortement recommandé</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Charger les valeurs par défaut</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Régler l'empattement</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Régler la largeur de voie</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Voie des roues</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Position de&#xD;
+l'antenne</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Saisissez la distance de l'antenne à l'essieu pivot</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Hauteur de&#xD;
+l'antenne</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Régler la hauteur d'antenne</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = désactivé</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Régler le décalage d'antenne</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>Convertisseur A/N</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Carte pilote de moteur</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Relais de commande</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Vanne Danfoss</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Sinon, choisissez Inverser le roulis</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Inclinez fortement le véhicule vers la droite. Le roulis à droite doit être POSITIF.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Fonction de roulis</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Stationnez sur un sol plat et touchez « Zéro roulis »</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Zéro roulis</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Inverser le sens du WAS</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Cap actuel :</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>Mise à zéro du WAS</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Inverser le sens</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Sens du moteur de direction</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Lancer * l'étalonnage</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>Étalonnage du WAS</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* PASSER * Impulsions par degré et réglage Ackermann ?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Angle de départ :</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Remise&#xD;
+à&#xD;
+100 %</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Valeur Ackermann :</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Régler</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Braquez jusqu'à la limite voulue pour le guidage puis touchez OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Limite d'angle de braquage du guidage</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Ou saisissez la limite d'angle à la main</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Désactivation automatique</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Vitesse d'arrêt d'urgence</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Zéro</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Envoi auto : envoie les modifications de la parcelle à la fermeture&#xD;
+Chargement cloud : télécharge toujours la dernière version d'AgShare à l'ouverture</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Réinitialiser le simulateur&#xD;
+U - Demi-tour (180 degrés)&#xD;
+&#xD;
+Flèche haut - Plus vite&#xD;
+Flèche bas - Moins vite&#xD;
+Flèche gauche - Gauche&#xD;
+Flèche droite - Droite&#xD;
+&#xD;
+( . ) Point - Arrêt&#xD;
+( / ) Barre oblique - Tout droit</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Ce décalage est ajouté à la latitude et à la longitude et enregistré dans le fichier FIELD.KML à la fermeture de la parcelle.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Les réglages du véhicule s'appellent désormais « profils »&#xD;
+et se créent ou se chargent dans le menu principal (en haut à gauche).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Touchez les boutons de gauche que vous voulez voir dans le menu (à droite). &#xD;
+&#xD;
+L'ordre de vos appuis sera l'ordre d'affichage dans le menu, de bas en haut.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Tournez le volant à DROITE d'environ 20 degrés.&#xD;
+En roulant en cercle régulier, appuyez sur Rec et patientez.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Bouton - appuyer, relâcher : marche.   &#xD;
+               appuyer, relâcher : arrêt&#xD;
+&#xD;
+Switch - enfoncé : marche. &#xD;
+               relâché : arrêt.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Roulez lentement et activez l'autoguidage. Inversez le sens si le moteur de direction tourne à l'envers.&#xD;
+Testez avec les flèches.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>L'angle de braquage doit être POSITIF en tournant à DROITE.&#xD;
+Sinon, choisissez Inverser WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Tournez le volant à GAUCHE d'environ le même angle qu'à droite.&#xD;
+En roulant en cercle régulier, appuyez sur Rec et patientez.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Modifiez la consigne avec les boutons de direction. &#xD;
+&#xD;
+Réglez le mouvement minimum le plus haut possible sans que le moteur de direction ou l'hydraulique ne fasse bouger la direction</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Roulez maintenant sur une ligne AB et affinez les réglages selon votre vitesse et l'état du sol.&#xD;
+&#xD;
+N'oubliez pas : CPD, PWM min. et anticipation sont des réglages critiques.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Les anciens profils réunissaient tous les réglages dans un seul fichier. Le nouveau format sépare véhicule, outil et environnement. Choisissez ce que vous voulez extraire.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Mise à jour du firmware&#xD;
+&#xD;
+Cette fonction est en cours de développement.&#xD;
+&#xD;
+Elle permettra bientôt de :&#xD;
+&#xD;
+• Choisir le fichier firmware .hex&#xD;
+• Choisir le port de communication (depuis les réglages AgIO)&#xD;
+• Lancer TeensyLoaderCLI avec les paramètres&#xD;
+• Envoyer le firmware vers le Teensy&#xD;
+• Afficher la progression&#xD;
+&#xD;
+Intégration de TeensyLoader :&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Commutateur</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Bouton</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Choisissez un ancien profil</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>À convertir (véhicule et/ou outil)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Appliqué :</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Réel :</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/h</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ h</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/h</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Avancez lentement en ligne droite et laissez le système braquer</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Réglage du mouvement minimum</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Zéro ou +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Réglez le gain proportionnel pour une bonne réactivité. &#xD;
+Réglez le PWM maximum pour limiter la vitesse de braquage.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Avancez et activez l'autoguidage</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Réglage du gain</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Relancer l'assistant</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Terminé !</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Progression :</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Impuls. / degré</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>Décalage WAS</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Cap :</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Est corrigé</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Distance de correction</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Roulis (degrés)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Défilement on/off</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Poteau</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Lissé</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Comportement caméra</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Valeur par défaut</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 à -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 à -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Véhicule : -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Outil : -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Environnement : -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Environnement</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Système / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Consigne</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Réel</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Saisissez le nom de la parcelle</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Surface :</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Points :</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Voies disponibles</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Parcelles disponibles</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Tout désélectionner</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Choisissez une parcelle à gauche, puis les voies à copier</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Nom de la parcelle</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Quitter vers Windows dans :</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Arrêt dans :</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Arrêter</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>(Dé)sélectionnez les voies à utiliser</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Raccourcir B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Raccourcir A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Prolonger B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Prolonger A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Recherche auto</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Parcelle</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Écraser</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Télécharger la sélection</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Tout télécharger</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Téléchargement... Patientez</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Lon :</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Lat :</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Distance au drapeau :</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Point A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Importer les drapeaux</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Exporter les drapeaux</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Limites</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Traversant ?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Surface</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Espacement (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Ajouter des points</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Points à traiter :</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>Envoi AgShare</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>Téléchargement AgShare</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Depuis KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Entrer dans la parcelle</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Reprendre</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Existante</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Nouvelle parcelle</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Parcelle précédente</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Largeur de travail</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Nouv. bordure</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Fond</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Nom de parcelle</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Envoyer la sélection</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Modifier le nom de la parcelle</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Lignes</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Cartographie</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Drapeaux</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Trier</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Restant :</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Débit :</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Traité :</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Travaillé</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Dist. :</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Trajet</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Distance (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Utiliser la sélection</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Utiliser la sélection</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Supprimer la parcelle</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Nom de l'enregistrement</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Supprimer l'enregistrement</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Parcours off</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Jour</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Nuit</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Actuel : -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Sélection : -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Antenne-pivot :</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Décal. antenne :</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Largeur de voie :</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Attelage :</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Attelage traîné :</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Charger</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Convertir d'anciens profils</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Environnements</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Nom de fichier</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Convertir d'anciens profils au nouveau format</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Convertir</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>Étape 2 : choisissez quoi convertir (véhicule et/ou outil) :</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Convertir l'outil</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Nom du profil d'outil :</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Nom du profil de véhicule :</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Convertir le véhicule</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>Étape 1 : choisissez un ancien profil :</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Nom :</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Copier depuis :</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Invalide :</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS autonome :</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK flottant :</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Estimé :</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Manuel :</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim. :</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Inconnu :</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Âge :</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Pas de connexion réseau.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Connecté. En attente des corrections.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Corrections interrompues. Reconnexion.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Connecté, mais rien ne arrive. Certains services ont besoin de votre position : vérifiez que l'envoi de la position GPS est activé.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Le service a fermé la connexion. Reconnexion.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Le service a fermé la connexion sans envoyer de corrections.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Réception des corrections</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Le service a envoyé une réponse qu'AgIO ne peut pas lire.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Le service n'a pas envoyé de liste de mountpoints.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Le service a envoyé une réponse vide.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Ce mountpoint n'existe pas sur le service. Choisissez-en un dans la liste.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Cette adresse a répondu par une page web, pas par un service NTRIP. Vérifiez l'adresse et le port.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Nom d'utilisateur, mot de passe ou mountpoint incorrect.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Ce mountpoint n'existe pas sur le service. Vérifiez l'orthographe, les majuscules comptent.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Le service n'accepte pas de nouvelle connexion pour l'instant. Il est occupé, ou cet identifiant est déjà utilisé.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Le service démarre. AgIO réessaiera dans environ une minute.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Ce service demande votre adresse e-mail comme nom d'utilisateur.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Nom d'utilisateur ou mot de passe incorrect.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Le service a refusé l'accès.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Le service a envoyé une réponse qu'AgIO ne comprend pas.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>La radio est ouverte. En attente des corrections.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>La radio est ouverte, mais rien n'arrive.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Réception des corrections par la radio.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>De retour sur le service principal</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Les corrections viennent de nouveau du service principal.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Le service principal est rétabli</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Y revenir ? Le GPS peut perdre le RTK un instant. AgIO ne revient jamais seul au service principal.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Le service principal a un problème</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Basculé sur le service de secours</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Vous avez basculé sur le service de secours.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>pas de corrections</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Tout va bien : les corrections arrivent.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Le profil n'a pas de nom.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>Observations GPS (ancien format)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>Observations GLONASS (ancien format)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>propriétaire</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>position de la base</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>position de la base + hauteur d'antenne</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>descripteur d'antenne</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>paramètres système</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>éphémérides GPS</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>éphémérides GLONASS</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>descripteur de récepteur et d'antenne</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>éphémérides BeiDou</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>éphémérides QZSS</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>éphémérides Galileo</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>biais de phase de code GLONASS</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>vide</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Appuyez sur le nouveau raccourci</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Appuyez sur le bouton pour modifier le raccourci</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Non connecté</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1 : saisir la distance, 2 : toucher Construire, 3 : créer les lignes de coupe</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>Graphique XTE</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Roulez droit</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Prêt à appliquer</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Collecte...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Erreur, CPD réglé à 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann réglé à :</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Erreur, Ackermann réglé à 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Choisissez un carré ci-dessous puis une nouvelle couleur</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Choisissez une couleur prédéfinie</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Choisissez la couleur puis un carré ci-dessous pour l'enregistrer</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Dossier des parcelles introuvable</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Erreur de chargement des parcelles</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Aucune voie dans cette parcelle</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Erreur de chargement des voies</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Enregistrement des voies actuelles...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Conversion des voies...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Enregistrement des voies...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Parcelle choisie :</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Erreur de chargement des parcelles :</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Conduite facile active</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Charger l'environnement :</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Véhicule :</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Outil :</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Environnement :</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Erreur critique d'enregistrement</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Erreur d'arrêt</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Sens réinitialisé</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Marche avant définie</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Autoguidage désactivé</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Fenêtre de décalage ouverte</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Fermez la fenêtre de décalage</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Alerte : parcelle trop éloignée du départ</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>Échec de l'envoi AgShare</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Une erreur est survenue au lancement de l'envoi vers AgShare.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Une erreur est survenue pendant l'envoi vers AgShare.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Parcelle NON enregistrée</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>L'enregistrement a échoué, la parcelle reste donc ouverte. Vérifiez l'espace disque et réessayez.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Mode de reprise</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Dernière position d'arrêt</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Point le plus proche</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Repartir du début</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Inutilisable avec des zones</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Pour les sections seulement</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Conduite facile</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Profils indisponibles en conduite facile</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Les sections sont activées</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Désactivez d'abord le mode auto ou manuel</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Réinitialiser le sens</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Avancez à plus de 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autoguidage coupé</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>Alarme fix RTK</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Voie modifiée</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Parcours activés</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Simulateur : marche arrière activée</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Raccourci déclenché</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Réglages envoyés au module de direction</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Retour de l'édition</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Programme de mise à jour introuvable. Vérifiez qu'AgOpenGPS.Updater.exe se trouve dans le dossier de l'application.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Mise à jour introuvable</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Pas assez de points pour créer une bordure</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Impossible de calculer le centre de la parcelle. Bordure extérieure ou ligne AB manquante.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Il ne peut pas y avoir plus de zones que de sections</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Le simulateur est désactivé</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Le simulateur ne fonctionne pas avec une vraie antenne</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Valeurs par défaut rétablies</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Valeurs remises par défaut</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Plage dépassée</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Décalage trop grand - application impossible</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Zéro WAS intelligent</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Valeurs par défaut appliquées</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD et Ackermann remis par défaut</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>Gain P modifié</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Gain proportionnel réglé à 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profils créés</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Profils par défaut créés</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Réglages d'environnement réinitialisés !</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Réglages d'environnement chargés !</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Fichiers de profil introuvables !
+
+Les profils du registre sont introuvables.
+Choisissez ou créez de nouveaux profils.
+
+Sans choix, l'environnement utilisera les valeurs par défaut.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Aucun profil trouvé.
+
+Utilisez « Nouveau » pour créer des profils de véhicule et d'outil.
+
+Sans choix, l'environnement utilisera les valeurs par défaut.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Erreur grave d'origine de parcelle&#xD;
+&#xD;
+L'origine de la parcelle est à plus de 20 km de votre position GPS actuelle. Supprimez cette parcelle et créez-en une nouvelle, car la précision sera mauvaise&#xD;
+&#xD;
+Ou bien une parcelle est ouverte et vous vous êtes éloigné</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Attention : fermer AgIO coupe la communication avec le matériel.&#xD;
+Voulez-vous vraiment fermer ?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Tous</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Inactif</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Masquage auto</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Lancement&#xD;
+auto</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profils</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Profil actuel</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Profil actuel</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Nouveau profil</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Nouveau :</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Profil utilisé :</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO : gérer les profils</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Écraser ce profil :</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Réglages avancés</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>Réglages ISOBUS</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Configuration du passage série</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Passage série activé</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>RTCM sur un autre port que le GPS ?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Démarrer réduit</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO s'affiche en cas d'alerte</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>Démarrage auto GPS-Out</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Afficher&#xD;
+si&#xD;
+alerte</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Journal des événements</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Journal</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Moniteur série</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>Moniteur UDP</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>Guide PGN</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Guide -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Clavier</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Le texte du message s'affiche ici</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>Message AgIO</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>Message AgTwo</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Arrêter</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Démarrer</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>Détails NTRIP</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP désactivé</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>SERVICE DE SECOURS ACTIF</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Les corrections sont-elles bonnes ?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Passer au service de secours</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Réessayer le service principal</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Revenir au service principal</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Connecté, en attente de données</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Connexion...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint introuvable</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Connexion impossible</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Arrêté</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Le service démarre</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Le service est occupé</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Connecté, rien n'arrive</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Pas de réseau</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Reconnexion...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Réponse du service incompréhensible</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Service injoignable</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Corrections reçues</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Ce flux ne peut pas être vérifié en détail.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Position de la base reçue</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Position de la base</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>En attente. Elle arrive toutes les 10 secondes.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Position de la base manquante</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>Le RTK ne peut pas démarrer sans elle.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Pas encore reçue.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Distance à la base</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>En attente de votre position GPS.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Trop loin pour un bon RTK. Choisissez une base plus proche.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Loin. Le RTK est moins précis à cette distance.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Selon la position fixe des réglages NTRIP.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Satellites dans les corrections</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Aucune donnée satellite dans les corrections</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>La base n'envoie aucune observation.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Rien reçu pour l'instant.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Données récentes</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>En attente des premières données.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Données en retard</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Pas de nouvelles données</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Votre GPS : RTK fixe</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Votre GPS : RTK flottant</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Calcul en cours. Patientez un instant.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Votre GPS : pas encore de RTK</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Précision GPS normale seulement.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Votre GPS n'a pas de fix</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Votre GPS est en mode manuel ou simulateur</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Pas d'adresse</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Saisissez d'abord l'adresse.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Pas de port</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Enregistrement impossible</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Erreur d'ouverture du port</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP pas encore utilisable</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Choisissez d'abord un profil et touchez Utiliser.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Le profil utilisé n'a pas encore d'adresse de service ni de port radio. Modifiez-le d'abord.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Lecture impossible</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Ce fichier de profil n'a pas pu être lu.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Renommage impossible</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Ce nom est déjà utilisé.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Alerte au chargement du profil</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profil restauré</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>Le profil AgIO a été restauré depuis la sauvegarde .last car le fichier principal était illisible.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Fichier enregistré</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Identifiant invalide</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Nom invalide</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Le nom n'est pas renseigné</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Fréquence invalide</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>La fréquence n'est pas renseignée</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Pas de canal</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>La radio est activée mais aucun canal n'est choisi</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP aussi activé</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP est aussi activé, il est désactivé</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>Profil AgIO par défaut utilisé</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Profil par défaut utilisé</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>NTRIP radio activé</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>NTRIP série activé</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Passage série NTRIP activé</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Activez NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Erreur de connexion au passage série</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Erreur de connexion à la radio</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP définie</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Aucun fichier trouvé</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Saisissez un nom de fichier pour enregistrer...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Enregistrer et revenir</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Connexion au port impossible</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Connexion déjà terminée ?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Connexion déjà terminée ??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Aucun port Arduino actif</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Erreur grave de connexion réseau</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Erreur critique du registre</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Impossible de supprimer la sous-arborescence du registre</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController n'est pas installé ??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>La radio est activée. Désactivez-la d'abord dans les réglages radio.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Le passage série est activé. Désactivez-le d'abord.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP est activé. Désactivez-le d'abord dans la liste des profils NTRIP.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Eff.</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Message&#xD;
+d'erreur</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Message 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Module 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Moniteur série - baud : Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Envoyer $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Envoyer $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Roulis : 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Direction : 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h :</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h : 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s :</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s : 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>Sortie NTRIP</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Une position fixe</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Un autre service NTRIP</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automatique</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Les deux</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Secours</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Je bascule moi-même</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Service principal</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Ma carte AIO (réseau)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Mon récepteur GPS (série)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Ma position GPS</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>Service NTRIP</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Sortie et position</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Radio série</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Bascule automatique</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>EN SERVICE</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>EN SERVICE</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>SERVICE PRINCIPAL</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>SECOURS</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Désactivé. Aucun second service n'est utilisé.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(pas encore de port)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Vous basculez à la main</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>TCP brut (sans mountpoint ni identifiants)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Aucun mountpoint choisi</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Pas encore renseigné</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Nécessite votre position</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Lieu</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(pas encore enregistré)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Choisissez d'abord le port de la radio.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Choisissez le port radio pour utiliser le secours</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Renseignez les infos du caster pour utiliser le secours</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Aucun profil pour l'instant.&#xD;
+&#xD;
+Touchez Nouveau profil pour en créer un.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Ce profil n'est pas encore renseigné.&#xD;
+Touchez Modifier pour saisir le service principal.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>Aucun profil NTRIP choisi. Choisissez ou créez-en un dans les réglages NTRIP.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>Choisissez le port de la radio principale dans le profil NTRIP.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP est de nouveau en ligne</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Les corrections arrivent de nouveau.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP : connexion refusée</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP : mountpoint introuvable</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP : caster occupé</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP : pas de corrections</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP : flux perdu</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP : non connecté</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP désactivé</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP : écoute</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Problème de connexion</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Connexion au caster impossible</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>aucune adresse IPv4 trouvée</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>Échec de la connexion NTRIP</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>Connexion NTRIP refusée</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Le caster a fermé la connexion sans envoyer de données (vérifiez le mountpoint et les identifiants)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>Client NTRIP non configuré</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Choisissez un profil existant ou créez-en un</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Créez ou choisissez un profil</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Désactivez-le avant d'utiliser le passage série</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Désactivez-le avant d'utiliser NTRIP</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Désactivez-le avant d'utiliser le NTRIP radio</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>NTRIP radio activé</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Nouvelles valeurs appliquées</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP activé</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>L'UDP est activé</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO va redémarrer pour activer le réseau UDP</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO va redémarrer pour désactiver le réseau UDP</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim va redémarrer pour appliquer les changements réseau UDP</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>IP manuelle</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Erreur de mise à jour</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>Mise à jour d'AgOpenGPS</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Patientez...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Patientez</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Attendez la fin de l'opération en cours.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Recherche de versions sur GitHub...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Vérification de la clé USB...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>Aucune mise à jour sur la clé USB.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Fermeture d'AgOpenGPS et d'AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Applications fermées</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Téléchargement depuis GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Échec du téléchargement</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Échec du téléchargement</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Copie depuis la clé USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Échec de la copie</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Échec de la copie</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Échec de l'installation</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Échec de l'installation</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Terminé ! Redémarrage...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Terminé !</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Mise à jour annulée.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Aucune note de version disponible.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Version candidate</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Échec du téléchargement : la taille du fichier ne correspond pas à la version.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Échec du téléchargement : la somme de contrôle ne correspond pas à la version, le fichier n'a pas été installé.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Aucun fichier à télécharger adapté dans cette version.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Une autre instance de la mise à jour est déjà en cours.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Aucune application n'était en cours d'exécution.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Applications fermées avec succès.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Fichier de mise à jour introuvable.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Le dossier d'installation n'existe pas.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Création de la sauvegarde...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Extraction des fichiers...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Installation des fichiers...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe introuvable dans le dossier d'installation.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS a redémarré avec succès.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Rechercher des mises à jour</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Installer la mise à jour</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Inclure les préversions</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Mise à jour du firmware</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>Mise à jour du firmware AgOpenGPS</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>Mise à jour d'AgOpenGPS</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Notes de version</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Voir les notes de version</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Les notes de version s'afficheront ici.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Version actuelle : -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Dernière version : -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Dernière version : à jour</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Mise à jour internet - cliquez sur Rechercher des mises à jour</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Mise à jour internet (GitHub)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Mise à jour internet (mise à jour locale disponible)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Local : aucun AgOpenGPS_*.zip sur la clé USB</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Local : placez AgOpenGPS.zip à la racine de la clé USB</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController n'est pas installé, téléchargez-le ici :</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Utilisateurs Linux</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Linux uniquement !</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Fermeture</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> : profil chargé partiellement (fichier peut-être corrompu).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> : profil restauré depuis la sauvegarde .last car le fichier principal était illisible.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Choisissez d'abord le port de la radio principale.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Saisissez d'abord l'adresse du service principal.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Ou désactivez NTRIP dans la liste des profils.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Pour corriger : Réglages -&gt; Ports COM</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>La session actuelle utilise les valeurs par défaut pour les valeurs manquantes ou invalides.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>Le profil AgIO n'a pas pu être chargé entièrement (fichier peut-être corrompu).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>Le profil NTRIP "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" n'est pas sur cet ordinateur. Choisissez ou créez un profil dans les réglages NTRIP.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" n'a pas encore d'adresse de service.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Le service de secours ne fonctionne pas non plus :</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Pas de corrections depuis</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO réessaie en continu.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> secondes</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minutes</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>SERVICE DE SECOURS ACTIF : le service principal n'est pas utilisé</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>ID de la base :</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Position :</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Données corrompues :</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Réponse du service :</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Reconnexion dans</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Adresse du caster introuvable :</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Données simulées</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   PAS DE DONNÉES</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>La mise à jour doit être lancée depuis AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Lancez d'abord AgOpenGPS puis utilisez :</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Menu → Outils → Rechercher des mises à jour</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>C'est nécessaire pour détecter votre version actuelle.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Installer la mise à jour depuis</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Source :</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Cela va :</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Fermer AgOpenGPS et AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Sauvegarder votre installation actuelle</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Installer la mise à jour</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Relancer AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Voulez-vous continuer ?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Aucun fichier de mise à jour trouvé.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Placez AgOpenGPS_X.Y.Z.zip à la racine de votre clé USB.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Échec de la mise à jour : {0}
+La sauvegarde a été restaurée.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Échec de la mise à jour : {0}
+La restauration de la sauvegarde a aussi échoué !</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Échec de la mise à jour : {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+La sauvegarde a été restaurée.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+La restauration de la sauvegarde a aussi échoué !</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Mise à jour installée avec succès.
+{0}
+Sauvegarde : {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Mise à jour disponible : {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Bascule automatique après {0} essais échoués</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpoints, les plus proches d'abord.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpoints.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Introuvable : {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Échec de la vérification : {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>{1} ko reçus</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Dernières données il y a {1d} secondes.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Dernières données il y a {1d} secondes. Connexion lente ?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Les corrections datent de {1d} secondes.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Distance à la base : {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Votre GPS : type de fix {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} actif (ancien client)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} actif</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (ancien client)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Ouverture de {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1} : en attente de données</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profil : {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Enregistré dans {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Écraser le profil : {1} ?</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>L'identifiant '{1}' n'est pas un nombre valide.</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Une erreur est survenue : {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>Erreur UDP : {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Erreur de chargement : {1}</value>
+  </data>
+  <data name="gsAgree" xml:space="preserve">
+    <value>Accepter</value>
+  </data>
+  <data name="gsAutoSwitchDualFix" xml:space="preserve">
+    <value>Auto Dual &lt;&gt; Fix</value>
+  </data>
+  <data name="gsAutoSwitchDualFixSpeed" xml:space="preserve">
+    <value>Vitesse de bascule</value>
+  </data>
+  <data name="gsCopyFrom" xml:space="preserve">
+    <value>Copier depuis</value>
+  </data>
+  <data name="gsCreateNewProfile" xml:space="preserve">
+    <value>Créer un nouveau profil</value>
+  </data>
+  <data name="gsDiscourseForum" xml:space="preserve">
+    <value>Forum Discourse</value>
+  </data>
+  <data name="gsDownloadAll" xml:space="preserve">
+    <value>Tout télécharger</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Démarrage rapide avec le guidage GPS. Réglez la largeur de travail et la longueur d'attelage, puis créez une ligne AB ou une courbe. Rien n'est enregistré sur le disque.</value>
+  </data>
+  <data name="gsEmptyProfile" xml:space="preserve">
+    <value>Profil vide</value>
+  </data>
+  <data name="gsGetSelected" xml:space="preserve">
+    <value>Télécharger la sélection</value>
+  </data>
+  <data name="gsHold" xml:space="preserve">
+    <value>Maintenir</value>
+  </data>
+  <data name="gsLoadProfile" xml:space="preserve">
+    <value>Charger le profil</value>
+  </data>
+  <data name="gsName" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="gsNew" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="gsPastEndOfCurve" xml:space="preserve">
+    <value>Fin de la courbe dépassée</value>
+  </data>
+  <data name="gsPlantPop" xml:space="preserve">
+    <value>Population de plants</value>
+  </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Environnement</value>
+  </data>
+  <data name="gsProfileMenuHint" xml:space="preserve">
+    <value>Les réglages du véhicule, de l'outil et de l'environnement sont désormais enregistrés dans des profils séparés.
+Chargez-les depuis le panneau Config et le menu en haut à gauche.</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Réglages de l'environnement</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Réglages de l'environnement enregistrés.</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>Réglages du véhicule</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>Réglages du véhicule enregistrés.</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>Réglages de l'outil</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>Réglages de l'outil enregistrés.</value>
+  </data>
+  <data name="gsSimpleTramLines" xml:space="preserve">
+    <value>Créateur de traces simples</value>
+  </data>
+  <data name="gsSvennArrow" xml:space="preserve">
+    <value>Flèche Svenn</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>WAS intelligent</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Calibre automatiquement le zéro du WAS en analysant les angles de braquage du guidage en roulant. Activez l'autosteer et roulez régulièrement le long de la ligne.</value>
+  </data>
+  <data name="gsYouTubeTutorials" xml:space="preserve">
+    <value>Tutoriels YouTube</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Pivot de l'antenne</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>Voie</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Attelage</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Attelage tracté</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>Tracteur</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>Moissonneuse</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Articulé</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>Avant</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Arrière fixe</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Tracté</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>Véhicule utilisé</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>Impossible de supprimer le véhicule actif</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>Supprimer le véhicule</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>Renommer le véhicule</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>Saisir le nouveau nom du véhicule</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>Le véhicule existe déjà</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>Outil utilisé</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>Impossible de supprimer l'outil actif</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>Supprimer l'outil</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>Renommer l'outil</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>Saisir le nouveau nom de l'outil</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>L'outil existe déjà</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>Erreur de chargement du véhicule</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>Erreur de chargement de l'outil</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Résultat</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>Nouveau véhicule</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Saisir le nom du véhicule</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>Nouvel outil</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Saisir le nom de l'outil</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Créer le véhicule par défaut</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Créer un profil de véhicule 'Default' avec les réglages d'usine ?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Écraser</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Le profil existe déjà. Écraser</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Créer l'outil par défaut</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Créer un profil d'outil 'Default' avec les réglages d'usine ?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Véhicule par défaut chargé</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Outil par défaut chargé</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Véhicule / Outil</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Importer le véhicule</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Importer l'outil</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Pas d'import</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Aucun fichier d'ancien format trouvé.</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Les réglages de l'environnement ont été importés et chargés.</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Existe</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Nom du fichier</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Renommer</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>Adaptateur CANbus</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Adresse réseau des modules -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Redémarrage requis</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Téléversement terminé</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Erreur de chargement de la trace</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Créer une limite à partir des traces</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Importer des traces d'un autre champ</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>Message AgOpenGPS</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Décaler la position GPS (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Easy Drive: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>Fix RTK: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Tracer AB - Cliquez sur 2 points de la limite pour commencer</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Sans nom</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 points - Aligner la grille</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Créer un nouvel enregistrement</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Charger l'environnement</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>Exception ISOXML</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antenne</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Différentiel</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD défini sur: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Erreur ReceiveData: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Erreur d'envoi: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Erreur SendData: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>Serveur UDP</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Officiel</value>
   </data>
 </root>

@@ -1190,4 +1190,4918 @@ KASUTA OMAL RISKIL.</value>
   <data name="gsZoomIn" xml:space="preserve">
     <value>Suumi sisse</value>
   </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Jah</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Tühista</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Sulge</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Salvesta</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Salvesta kui:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Kustuta</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Muuda</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Nimeta ümber</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Värskenda</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Vaikimisi</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Viga</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Abi</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Välju</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Ava:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Vali</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Vali nimekirjast...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Nimekirja laadimine...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Valmis...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopeeri</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Kopeeritud</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Kopeerimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopeeri tugiteenusele</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Teade</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Olek</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Valikud</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Näita</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Sees</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Väljas</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Kasuta</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Ainult</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Või</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Aeg</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Korda</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Praegune</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Kirjeldus</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Käsk</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Vastus</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Sisesta väärtus</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Sisesta väärtus</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Sisesta midagi</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Ühenda</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Katkesta ühendus</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Pole ühendatud</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Automaatne ühendus</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Ühenda GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Jadaport</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS-port</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS-port 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM-port</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Võrguport</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Raadio pordil</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Kiirus (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Aadress</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP-aadress</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP-aadress : port</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Hostinimi</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Hostinimi:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Parool</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Kasutajanimi</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Praegune alamvõrk</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Määra</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Sisesta uus alamvõrgu aadress</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Täida automaatselt</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Selle alamvõrgu jaoks pole adapterit</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Võrk</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Etherneti seaded</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Lülita UDP sisse ja vajuta OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP on väljas</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP väljas</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Edastuskiirus</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Viimati nähtud</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Ühendatud</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Välja % juures</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Ühtlane rooli kraad!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>Liikumas</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A ja B vahetatud</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>A kuni Z ja 0 kuni 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS juba töötab</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Kõik rohelised? Vajuta Koosta või paranda käsitsi!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Ainult tähed ja numbrid</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Tekkis ootamatu viga, mis kirjutati sündmuste logisse. AgOpenGPS töötab edasi.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap viga</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Põllupiiri loomise režiim</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Koostamine ebaõnnestus</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Nupu viga</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Registri alamvõtmepuud ei saa kustutada</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Jäädvustatud</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Kopeeritud lõikelauale, kleebi (CTRL-V) Telegramis</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Loo kõigepealt rada</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Loomise viga</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Ristumiste viga</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Ristumisi ei leitud</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Kõver on ümber pööratud</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Kauguse viga</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Kaugus on 0, pole mida liigutada</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Lülita roolilüliti sisse</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Keskkond on praegu kasutusel</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Viga laius- ja pikkuskraadi otsimisel</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Viga, kontrolli vormingut</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Viga töökäikude importimisel:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Erand</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Liiga suur rooli kraad – nullimine pole võimalik</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Põllu eelvaate allalaadimine ebaõnnestus. Üksikasjad on logis.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Põllu allalaadimine ebaõnnestus.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Põldude nimekirja laadimine ebaõnnestus.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Põldude nimekirja laadimine ebaõnnestus.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Põldude nimekirja laadimine ebaõnnestus:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Töökäikude laadimine ebaõnnestus:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Põld salvestati, kuid seda ei saa avada (puudub Field.txt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Lõikepunktide otsimine...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Lõpeta kõigi seadistamine või lähtesta vaikeväärtustele</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Lipud lisatud!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Lipud salvestatud!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Kiirklahv pole täielik</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Vigane joon</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Vigane valik.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Äkki on ainult 1 joon?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Joone viga</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Laadimisviga:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Veendu, et kõik otsad ristuvad ja ainult üks kord</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Kaart on liiga suur</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Maks 164 jalga</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Maks 50 meetrit</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Peab olema suurem kui 5 kraadi</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Salvestatud radu pole</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Valik puudub</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Ühtegi põldu pole praegu avatud.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Põldu pole valitud.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Töökäike ei leitud.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Kehtivat põllupiiri ei õnnestunud luua</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Salvestamiseks pole kehtivat põllupiiri</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Nuppe on lisatud liiga vähe</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Valikulise faili probleem</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Vali enne salvestamist põld.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Vali kõigepealt põld.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Vali üleslaadimiseks vähemalt üks põld</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Vali importimiseks vähemalt üks töökäik.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Oota, kuni üleslaadimine lõpeb</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Salvestamise viga</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Vali teine keskkond</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Määratud 99-le, maks 164 jalga</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Määratud 99-le, maks 50 meetrit</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Algpunkt = lõpp-punkt</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Rooli kraad liiga väike</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Roolimine keelatud</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Õnnestus!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Õnnestus</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Põld kustutati kohalikult, kuid AgShare'ist ei õnnestunud seda eemaldada.
+Eemalda see käsitsi.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Liiga lai</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Tööriista viga</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Puuduta kaarti põllupiiri loomiseks</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Töökäigu info</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Töökäigu kohandamine ebaõnnestus:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Üleslaadimine juba käib</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Üleslaadimine käib</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Kasuta ainult AB-joont või kõverat</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Hoiatus</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Sinu tööriist on liiga väike</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Otsin</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Mooduli vastus</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Moodulite otsing</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Mooduli simulatsioon</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Seadmehaldur</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Kontrolli ühendust</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Saadetud asukoht</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Vastuvõetud andmed</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>ebaõnnestunud katset</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Saada iga (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Saada tühi GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Saada NTRIP GPS-ile kasutades:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM jadaporti</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Kasuta USB-d</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Kasuta veebi</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP seaded</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP üksikasjad</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP profiilid</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP versioon</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP vead</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Vali NTRIP profiil</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Kasuta NTRIP klienti</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Kasuta vana NTRIP klienti</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Toores TCP-voog</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpointid</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Vali oma põllule lähim baasjaam.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Korrektsioonid lähevad</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Kasuta varuteenust, kui põhiteenus katkeb</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Vaheta pärast</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Põhi</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Raadio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Raadio (mitte XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Raadiokanal</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Raadio seaded</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanalid</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Jadaraadio ei ole NTRIP teenus. Selle korrektsioone kasutatakse samal kujul, nagu need saabuvad. Kui raadio vaikib, võtab üle varuteenus.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Laiuskraad</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Laiuskraad:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Pikkuskraad</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Pikkuskraad:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Laius</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Pikk.</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Kõrgus</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Kõrgus (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Kõrgus:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Kõrg.</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Suund</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Kiirus</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Kiirus:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Satelliidid</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Satelliidid:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>Sat.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Fiksi kvaliteet</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Fiksi kvaliteet:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Fiksi kval.</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Korr. vanus</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Vanus:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Kaks antenni</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Külgkalle</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Kalde korrigeeritud</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Külgkalle:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Pikikalle</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Pööre</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Pöörlemiskiirus</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Nihe</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simuleeri andmeid</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simuleeritud</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Kümnendkohtade arv</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Sagedus</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Sagedus</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Süsteemi andmed</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AgOpenGPS olek:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Automaatne roolimine</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Rool</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Rool:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Roolimoodul</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Roolinupp</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Roolilüliti</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Roolilüliti:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Rooli ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Rooli &#xD;
+seaded</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Rooli&#xD;
+seaded</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Automaat-&#xD;
+roolilt</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Seatud nurk</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Tegelik nurk</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Nurk:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Masin</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Masin:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Masinamoodul</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Masin</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Tööriista ping:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Töö</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Töölüliti</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Töö:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Lüliti:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Tõste lubatud</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hüdrotõste</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Tõstmisaeg</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Langetusaeg</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min kiirus</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Kõrge PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Madal PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Impulsse</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Impulsside arv</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Impulsse:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relee: kõrge</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Rõhk</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Pööre</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Tehno</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Üleval</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Kasutustingimused</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube'i õpetused</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse'i foorum</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Ei nõustu</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Nõustun</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Versioon:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Testi ühendust</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Sisesta andmed ülal ja märgi Testi ühendust</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API võti:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Kleebi lõikelaualt</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Registreeru siin AgShare'i kasutamiseks</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Aktiveeri</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Automaatne üleslaadimine</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Ainult kohalik</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Pealkiri</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Kohtumiseni!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Sõiduk / tööriist...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulaator sees</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Simulaatori koordinaadid</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Kioskirežiim</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Lähtesta kõik</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Lähtesta</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Viisardid</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Rooli viisard</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Diagrammid</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Rooli diagramm</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Suuna diagramm</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Kalde korrektsiooni diagramm</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Põllupiiri tööriist</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Silu AB-kõverat</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Peida kontuurirajad</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Veebikaamera</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Fiksi nihe</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fiks      s</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Kõik</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Seaded</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Automaatne roolimine</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Vaata kõiki seadeid</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Kaustad</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS-andmed</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Värvid</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Sektsioonide värvid</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Kiirklahvid</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Põllupiir</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Põllu ots</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Põllu ots (koosta)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Tehnorajad</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Tehnorajad</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Kustuta töödeldud ala</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Lipp koordinaatide järgi</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Salvestatud rada</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Impordi töökäigud</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Praegune põld</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Viide</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulaator</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Automaatrool sisse/välja</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Puuduta nuppu lähtestamiseks,&#xD;
+siis vajuta uut klahvi</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Vaheta jooni</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Sulge põld</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Uuendaja</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Loo põllupiir kaardistusest</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Roolimine</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Max nurkkiirus</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Roolimine tagurdades</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Külgkalde komp.</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino rool</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Impulsse/kraad</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Rooli kõrge PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Rooli madal PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Rooli min PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proportsionaalne)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Rooli min kiirus</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Rooli max kiirus</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Funkts. kiiruspiir</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geomeetria</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Sõiduki tüüp</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Rööpmelaius</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antenn–pöördepunkt</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Suuna allikas</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Dual suuna nihe</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual tagurd. vahem.</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min sammupiir</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Liitmise kaal</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual kui IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Mark</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Traktori mark</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Kombaini mark</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Liigendtraktori mark</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Mõõdud</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Tööriista laius</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Tööriista kattuvus</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Tööriista nihe</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Sektsioonide arv</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Järelkoormuse haakeseade</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Tankhaagis</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Haagis–pöördepunkt</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Tööriista tüüp</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Järelveetav</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Taga fikseeritud</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>On TBT</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Ees</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Sektsioonid</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Sektsioonid (mitte tsoonid)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Välja väljumisel</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Kiire sektsioon</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Ettevaatamine / ajastus</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Ettevaatamine sees</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Ettevaatamine väljas</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Tööriista väljalülit. viide</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Hüdrotõste ettevaat.</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Põllu otsa sekts. juht.</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Juhtimine (tööriista kohta)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Hõivamiskaugus</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Hõivamiskauguse viide</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Surnud tsooni kaugus</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Surnud tsooni suund</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Surnud tsooni viide</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley kasutusel</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley kauguse võimendus</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley suuna võimendus</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley integraal</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit integraal</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Sihtpunkti hõive tegur</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Sihtpunkti hoidmine</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Sihtpunkti kordaja</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Aeglase kiiruse piir</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Töölüliti</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Rooli töölüliti</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min kate</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Pööre (tööriista kohta)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Pöörderaadius</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Kaugus põllupiirist</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Vahelejätu laius</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Pikenduse pikkus</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Pöörde stiil</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Pöörde silumine</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Pöörde kompensatsioon</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Ekraan / menüü</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Ruudustik sees</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Valgusriba sees</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Külgjuhtjooned</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure sees</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Spidomeeter sees</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Valgusriba (mitte roolriba)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Päevarežiim</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Klaviatuur sees</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Sõiduki pilt</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Tekstuur sees</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Eredus sees</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Logi kõrgus</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Lülita arvuti välja</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Lülita välja toite kadumisel</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO automaatkäivitus</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO automaatsulgemine</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Valgusriba cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Kaamera suum</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Kaamera kalle</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Automaatrool</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Juhtimise ettevaatamine</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Automaatrool auto sisse</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Püsiv kontuur</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Juhtjooned</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Juhtjoonte arv</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS vanuse alarm</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>On RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK kadu: rool välja</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Fiksi hüppe alarm</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Sim laiuskraad</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Sim pikkuskraad</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP jälgimine ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Heli</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Pöörde heli</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Hüdrotõste heli</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Automaatrooli heli</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Sektsioonide heli</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Tehnorada</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Tehnoraja käigud</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Tehnoraja läbipaist.</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / üldine</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Tagurdus sees</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Dual auto vahetus: fiks</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Auto vahetuse kiirus</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Joonista pöördepunkt</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Põllu otsa kaugus sees</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Piiri tööriista samm</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Piiri tööriista silumine</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Aktiivne madal</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Käsitsi sektsioonid</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Kaug-töösüsteem</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Rooli TL käsitsi</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min suuna sammu vahem.</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare lubatud</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Üleslaadimine aktiivne</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Avalik põld</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Muu</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Keel</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fiks</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Kaadri aeg (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Ajalõik</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Fiksi kvaliteet</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Jälgitavad satelliidid</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Vahele jäänud UDP-laused</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Suund</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU suund</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Fiksist fiksini suund</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Liidetud suund (kraad)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Nurkkiirus</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Rakendus</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Versioon</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Sõiduki fail</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Tööriista fail</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Säte</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Väärtus</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Kõik seaded</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>See loob ja laadib uue profiili.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Sulge enne uuendaja käivitamist põld</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Uus lipp</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Käsitsi sektsioon</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Automaatne sektsioon</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Hõiva pöördepunktile</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Liiguta joont vasakule</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Liiguta joont paremale</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Sõiduki seaded</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Lähtesta &#xD;
+vaikeväärtused</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Sektsioon või tsoon</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Uus klahv</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Täisekraan&#xD;
+&#xD;
+NumPad1 - Käsitsi sektsioon&#xD;
+NumPad0 - Automaatne sektsioon</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Küsimus</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Ida koordinaat</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Põhja koordinaat</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Toores Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Kaader</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Vahele</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fiks–fiks</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Põhi (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Lääs (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Ida (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Lõuna (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Kas säilitada nihe ka pärast põllu sulgemist?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Sõiduk</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Tööriist</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Sõiduki nimi</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Tüüp:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Teljevahe:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Antenn–pöördepunkt:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Antenni nihe:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Haakeseade:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Tööriista nimi</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Laius:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Sektsioonid:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Nihe:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Kattuvus:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Ettevaatamine:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Joone nihe:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Tehnoraja laius:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Ühikud:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Meetermõõdustik</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Vali sõiduki tüüp</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Läbipaistmatus</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Pilti pole</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Praegu</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Faili</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Lõika joon</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Suurenda</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Koosta</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Läbipaistvus</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Failinimi</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Sisesta salvestuse nimi</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; VÄLJAS &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Olek:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Lisa nimi</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Kõver</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Muuda nime</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Pöördepunkt</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + kõver</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB-joon</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Laius/pikkus +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Laius/pikkus</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Pikkuskraad (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Laiuskraad (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Pritsimine</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Käigud</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Töökäik</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Külv</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Režiim</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Suum</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Vali nupud</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG menüü</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Eelvaade</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Mitu värvi</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Sektsiooni värv</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Muuda värvi</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Tüüp</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Pöördepunkti kaugus</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Antenni kõrgus</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Keskel</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Antenni nihe</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Vasak</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Parem</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual: asukohaantenn on paremal</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Haakeseadme pikkus</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Teljevahe</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Kinnitusviis</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Kattuvus / vahe</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Kattuvus</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Vahe</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Tööriista nihke suund</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Tööriist paremal</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Tööriist vasakul</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Tsoon 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Tsoon 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Tsoon 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Tsoon 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Tsoon 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Tsoon 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Tsoon 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Tsoon 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Toll</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Sektsiooni laius</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% kate</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Tsoonid</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Sektsioonid</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Automaatsed sektsioonid</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Käsitsi sektsioonid</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Ettevaatamisaja seaded</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Sees (s)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Väljas (s)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Väljalülitusviide (s)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Alarm peatab automaatrooli</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = keelatud</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Fiksi hüppe kaugus (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Dual-antenni seaded</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Vahetuskiirus</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Automaatne Dual &lt;-&gt; Fiks</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Tagurduskaugus (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Suuna nihe (kraadi)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Ühe antenni seaded</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Vaikimisi: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Liitmine</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Tagurduse tuvastus</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Fiksist fiksini kaugus</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minimaalne GPS-samm</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Antenni tüüp</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Pööra külgkalle ümber</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Nulli külgkalle</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Eemalda nihe</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Vähem</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Rohkem</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Külgkalde filter</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Sea silumine raadiuse 3- kuni 4-kordseks</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Sea pikenduse pikkus raadiuse 2- kuni 3-kordseks&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Hüdrotõste seaded</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Taimede arv</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Hüdrotõste ettevaatamine (s)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Tõstmisaeg (s)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Luba</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Langetusaeg (s)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Pööra releed ümber</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Saada + salvesta</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Kuva?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Alista</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Tehnoraja laius</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Riistvara teated</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Väljalülitus toite kadumisel</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>AgIO automaatsulgemine?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Alumine menüü</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Nihutusnupud</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Parem menüü</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>AgIO automaatkäivitus?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Pööre</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Heli</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Automaatpööre</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Külgsuunaline</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Peida kontuur</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB silumine</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Salv. rada</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Tehnorajad</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Ekraaninupud</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Tööriistade menüü</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Põllumenüü</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>VÄLJAS</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>SEES</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Silumisväärtused</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Põllu otsa kaugus</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Joone silumine</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Sektsioonijooned</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Suunamärgid</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Kõrgus</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Ühikud</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenni nool</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Eredus</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Põllu tekstuur</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Hulknurgad</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Käivita täisekraanil</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Spidomeeter</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Juhtjooned</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Ruudustik</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Praegune sõiduk</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Praegune tööriist</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Tolli</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Tööriista laius:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Jalga</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Tegel.:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Seatud:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Viga:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Või +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Rooli kraad:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Läbimõõt:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Hõive:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>See suurendab rooli kraadi aeglaselt, et vähendada ristviga</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Aeglane</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Kiire</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Rooli reaktsioon</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integraal</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Ettevaatamine min</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Ettevaatamine</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley võimendused</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Max rooli kraad</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV tegel.:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV seatud:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Impulsse kraadi kohta</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS null</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Hõive tegur</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Kaugus:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Kiiruse tegur</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Surnud tsoon -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Hoidmine:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Hõive = tegur * hoidmine</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Sisselülitusviide (s)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Suund (kraadi)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Võimendus</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimaalne liikumiseks</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Ülempiir</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proportsionaalne võimendus</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Külgkalde pööre kraadi kohta külgkalde kraadi kohta</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Nupp - vajutus sisse, vajutus välja&#xD;
+Lüliti - vajutatud sees, vabastatud väljas</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Rõhuandur</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Vooluandur</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Impulssandur</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Pööra mootori suund ümber</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Roolimise lubamine</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Mootori juhtplokk</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A/D muundur</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Pöördeandur</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Pööra WAS ümber</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Lähtesta kõik vaikeväärtustele</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X- või Y-telg</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Nutikas WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Valmis</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Usaldusväärsus: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Proove: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Roolimine tagurdades?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Sisse</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Välja</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Pöörde kompensatsioon</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Max kiirus</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Käsitsi pöörded</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Joone laius</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pikslit</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Nihutuskaugus</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Juhtriba</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Roolriba</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Sees/väljas</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Valgusriba</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm piksli kohta</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Sekundit</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Järgmise juhtjoone otsinguaeg</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Viisard</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Viga:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Madal</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Külgkalde kraadi külgkalde kraadi kohta</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Ettevaatamine (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Ettevaatamise kiirusvõimendus</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimaalne liikumine</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maksimum</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Sõida otse edasi ja puuduta Null</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Rõhu pöördeandur</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Voolu pöördeandur</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Kas pöörata hüdraulika lubamisrelee ümber?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Roolimise lubamise režiim</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Mis tüüpi mootori juhtplokk see on?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>A/D muunduri ühendus?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Pöörde impulsid</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Kas kasutad Danfossi ventiili?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Vabasõit</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Käivita viisard</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Soovitatav</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Lae vaikeväärtused</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Sea teljevahe</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Sea rööpmelaius</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Rööpmelaius</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Antenni&#xD;
+asukoht</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Sea antenni kaugus pöördetelljest</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Antenni&#xD;
+kõrgus</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Sea antenni kõrgus</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = väljas</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Sea antenni nihe</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D muundur</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Mootori juhtplaat</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Juhtrelee</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfossi ventiil</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Kui ei, vali Pööra külgkalle ümber</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Kalluta sõidukit tugevalt paremale. Külgkalle paremale peab olema POSITIIVNE.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Külgkalde funktsioon</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Pargi tasasele pinnale ja puuduta „Nulli külgkalle”</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Külgkalde null</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Pööra WAS-i suund ümber</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Praegune suund:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WAS-i nullimine</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Pööra suund ümber</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Rooli mootori suund</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Alusta * kalibreerimist</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WAS-i kalibreerimine</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* JÄTA VAHELE *  Impulsse kraadi kohta ja Ackermanni säte?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Algnurk:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Lähtesta 100%-le</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Ackermanni väärtus:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Sea</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Pööra rool soovitud juhtimispiirini ja puuduta OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Juhtimise rooli kraadi piir</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Või sea juhtimise rooli kraadi piir käsitsi</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Automaatse tühistamise funktsioon</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Hädapeatuse kiirus</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Automaatne üleslaadimine: põllu muudatused laaditakse sulgemisel üles&#xD;
+Pilvest laadimine: avamisel laaditakse alati AgShare'ist uusim</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Lähtesta simulaator&#xD;
+U - Pööre (180 kraadi)&#xD;
+&#xD;
+Ülesnool - Kiiremini&#xD;
+Allanool - Aeglasemalt&#xD;
+Vasaknool - Vasakule&#xD;
+Paremnool - Paremale&#xD;
+&#xD;
+( . ) Punkt - Peatu&#xD;
+( / ) Kaldkriips - Sõida otse</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>See nihe liidetakse laius- ja pikkuskraadile ning salvestatakse põllu sulgemisel faili FIELD.KML.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Sõiduki seaded on nüüd „profiilid” ning neid saab&#xD;
+luua ja laadida peamenüüs (üleval vasakul).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Puuduta vasakul pool nuppe, mida soovid menüüs (paremal pool) näha. &#xD;
+&#xD;
+Nende vajutamise järjekord on nende järjekord menüüs alt üles.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Pööra rooli PAREMALE umbes 20 kraadi.&#xD;
+Sõites ühtlases ringis vajuta REC ja oota.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Nupp - vajuta ja vabasta: sees.   &#xD;
+               vajuta ja vabasta: väljas&#xD;
+&#xD;
+Lüliti - vajutatuna: sees. &#xD;
+               vabastatuna: väljas.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Sõida aeglaselt ja lülita automaatrool sisse. Kui rooli mootor pöörab valesti, vali Pööra suund ümber.&#xD;
+Katseta nooltega.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Rooli kraad peab olema POSITIIVNE, kui pöörad PAREMALE.&#xD;
+Kui ei ole, vali Pööra WAS ümber.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Pööra rooli VASAKULE umbes sama palju kraade kui paremale.&#xD;
+Sõites ühtlases ringis vajuta REC ja oota.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Muuda seadeväärtust roolinuppudega. &#xD;
+&#xD;
+Sea minimaalne liikumine nii kõrgele kui võimalik, ilma et rooli mootor või hüdraulika rooli liigutaks</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Nüüd sõida AB-joont ja häälesta seadeid vastavalt oma kiirusele ja mullaoludele.&#xD;
+&#xD;
+Pea meeles: CPD, min PWM ja ettevaatamine on kriitilised seaded.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Vanad profiilid sisaldasid kõiki seadeid ühes failis. Uus vorming eraldab sõiduki, tööriista ja keskkonna. Vali, mida soovid eraldada.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Püsivara uuendamine&#xD;
+&#xD;
+See funktsioon on arenduses.&#xD;
+&#xD;
+Tulevikus lisanduvad:&#xD;
+&#xD;
+• Püsivara .hex-faili valimine&#xD;
+• Sideporti valimine (AgIO seadetest)&#xD;
+• TeensyLoaderCLI käivitamine parameetritega&#xD;
+• Püsivara üleslaadimine Teensy seadmesse&#xD;
+• Edenemise näidik&#xD;
+&#xD;
+TeensyLoaderi integratsioon:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Puudub</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Lüliti</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Nupp</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Vali vana profiilifail</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Vali teisendatav (sõiduk ja/või tööriist)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Töödeld.:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Tegelik:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/h</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ h</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/h</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Sõida aeglaselt otse edasi ja lase süsteemil roolida</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Minimaalse liikumise säte</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Null või +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Sea proportsionaalne hea reaktsiooni jaoks. &#xD;
+Piira pöördekiirust PWM maksimumiga.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Sõida edasi ja lülita automaatrool sisse</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Võimenduse säte</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Lõpp</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Käivita viisard uuesti</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Valmis!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Edenemine:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Impulsse / kraad</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WAS-i nihe</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Suund:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Automaatne</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Korrigeeritud ida koordinaat</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Korrektsiooni kaugus</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Külgkalle (kraadi)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Kerimine sees/väljas</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Sujuv</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Otsene</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Kaamera käitumine</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Lähtesta vaikeväärtusele</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 kuni -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 kuni -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Sõiduk: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Tööriist: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Keskkond: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Keskkond</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Süsteem / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Seadeväärtus</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Tegelik</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Sisesta põllu nimi</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Pindala:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Punkte:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Saadaolevad töökäigud</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Saadaolevad põllud</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Impordi</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Tühista valik</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Vali kõik</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Vali vasakult põld, seejärel vali kopeeritavad töökäigud</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Põllu nimi</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Välju Windowsi:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Väljalülitus:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Lülita välja</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Vali kasutatavad töökäigud</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Lühenda B-d</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Lühenda A-d</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Pikenda B-d</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Pikenda A-d</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Järgmine</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Eelmine</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Automaatotsing</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Põld</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Kirjuta üle</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Laadi valitud</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Laadi kõik</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Allalaadimine... Palun oota</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Pikk.:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Laius:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Kaugus lipuni:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Punkt A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Impordi lipud</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Ekspordi lipud</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Piirid</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Läbi?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Pindala</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Vahe (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Lisa punkte</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Töödeldavad punktid:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Punktid</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare'i üleslaadimine</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare'i allalaadimine</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>KML-ist</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Ava</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Sõida sisse</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Jätka</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Olemasolev</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Uus põld</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Eelmine põld</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Töölaius</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Uus piir</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Taust</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Põllu nimi</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Laadi valitud üles</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Muuda põllu nime</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Jooned</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Kaardistus</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Lipud</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Sorteeri</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Järel:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Norm:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Kokku:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Töödeldud:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Töödeldud</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Kaugus:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Teekond</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Vahemaa (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Kasuta valitut</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Kasuta valitut</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Kustuta põld</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Salvestuse nimi</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Kustuta salvestus</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Rada väljas</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Päev</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Öö</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Praegune: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Valitud: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Antenn–pöördepunkt:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Antenni nihe:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Rööpmelaius:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Kinnitus:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Järelhaakeseade:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Lae</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Teisenda vanad profiilid</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Keskkonnad</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Failinimi</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Teisenda vanad profiilifailid uude vormingusse</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Teisenda</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>2. samm: vali teisendatav (sõiduk ja/või tööriist):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Teisenda tööriist</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Tööriista profiili nimi:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Sõiduki profiili nimi:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Teisenda sõiduk</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>1. samm: vali vana profiilifail:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Nimi:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Loo</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopeeri:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Vigane:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS üksik:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK Float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Hinnang:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Käsitsi:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Tundmatu:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Vanus:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Võrguühendus puudub.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Ühendatud. Ootan korrektsioone.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Korrektsioonid katkesid. Ühendan uuesti.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Ühendatud, kuid andmeid ei tule. Mõned teenused vajavad sinu asukohta: kontrolli, et GPS-asukoha saatmine on sees.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Teenus sulges ühenduse. Ühendan uuesti.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Teenus sulges ühenduse korrektsioone saatmata.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Korrektsioonid saabuvad</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Teenus saatis vastuse, mida AgIO ei oska lugeda.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Teenus ei saatnud mountpointide nimekirja.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Teenus saatis tühja vastuse.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Seda mountpointi teenuses ei ole. Vali nimekirjast mõni teine.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>See aadress vastas veebilehega, mitte NTRIP teenusega. Kontrolli aadressi ja porti.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Kasutajanimi, parool või mountpoint on vale.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Seda mountpointi teenuses ei ole. Kontrolli kirjaviisi, suur- ja väiketäht loevad.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Teenus ei saa praegu uut ühendust vastu võtta. See on hõivatud või see sisselogimine on juba kasutusel.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Teenus käivitub. AgIO proovib uuesti umbes minuti pärast.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>See teenus nõuab kasutajanimena sinu e-posti aadressi.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Kasutajanimi või parool on vale.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Teenus keelas juurdepääsu.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Teenus vastas midagi, millest AgIO aru ei saa.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Raadio on avatud. Ootan korrektsioone.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Raadio on avatud, kuid midagi ei saabu.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Korrektsioonid saabuvad raadiost.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Tagasi põhiteenusel</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Korrektsioonid tulevad taas põhiteenusest.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Põhiteenus on tagasi</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Kas vahetada sellele tagasi? GPS võib hetkeks RTK kaotada. AgIO ei vaheta kunagi ise tagasi.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Põhiteenusel on probleem</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Vahetatud varuteenusele</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Sa vahetasid varuteenusele.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>korrektsioone pole</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Kõik korras: korrektsioonid saabuvad.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profiilil pole nime.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS-vaatlused (vana)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS-vaatlused (vana)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>tootjaspetsiifiline</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>baasasukoht</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>baasasukoht + antenni kõrgus</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>antenni kirjeldus</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>süsteemi parameetrid</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS-i efemeriidid</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS-i efemeriidid</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>vastuvõtja ja antenni kirjeldus</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou efemeriidid</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS-i efemeriidid</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo efemeriidid</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS-i koodifaasi nihked</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>tekst</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>tühi</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Vajuta uut kiirklahvi</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Vajuta nuppu kiirklahvi muutmiseks</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Pole ühendatud</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Sea kaugus, 2: Puuduta Koosta, 3: Loo lõikejooned</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE diagramm</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Sõida ühtlaselt</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Valmis rakendamiseks</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Kogun andmeid...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Viga, CPD seatud 100-le</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann seatud:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Viga, Ackermann seatud 100-le</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Vali all ruut ja vali uus värv</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Vali eelseadistatud värv</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Vali uus värv ja vali all ruut eelseadistuse salvestamiseks</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Põldude kausta ei leitud</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Viga põldude laadimisel</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Sellel põllul pole töökäike</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Viga töökäikude laadimisel</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Salvestan praeguseid töökäike...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Teisendan töökäike...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Salvestan töökäike...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Valitud põld:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Viga põldude laadimisel:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Lihtsõit aktiivne</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Lae keskkond:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Sõiduk:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Tööriist:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Keskkond:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Kriitiline salvestusviga</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Väljalülitamise viga</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Suund lähtestatud</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Edasisuund on seatud</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Automaatrool keelatud</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Nihutusaken on avatud</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Sulge nihutusaken</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Suure põllu algkauguse hoiatus</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare'i üleslaadimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>AgShare'i üleslaadimise alustamisel tekkis viga.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>AgShare'i üleslaadimisel tekkis viga.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Põldu EI salvestatud</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Põllu salvestamine ebaõnnestus, seetõttu jäi see avatuks. Kontrolli kettaruumi ja proovi uuesti.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Jätkamise viis</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Viimasest peatumiskohast</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Lähimast punktist</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Algusest peale</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Tsoonidega ei saa kasutada</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Ainult sektsioonidele</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Lihtsõit</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Profiilid pole lihtsõidu režiimis saadaval</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Sektsioonid on sees</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Lülita kõigepealt automaatne või käsirežiim välja</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Lähtesta suund</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Sõida edasi &gt; 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Automaatrool välja lülitatud</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK fiksi alarm</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Töökäik muutus</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Rajad lubatud</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Sim: tagurdus aktiveeritud</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Kiirklahv rakendus</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Seaded saadetud roolimoodulile</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Tagasi muutmisest</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Uuendajat ei leitud. Veendu, et AgOpenGPS.Updater.exe asub rakenduse kaustas.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Uuendajat ei leitud</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Põllupiiri loomiseks pole piisavalt punkte</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Põllu keskpunkti ei saa arvutada. Puudub välispiir või AB-joon.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Tsoone ei saa olla rohkem kui sektsioone</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulaator on väljas</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulaator ei tööta päris antenni kasutamise ajal</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Lähtestatud vaikeväärtusele</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Väärtused seatud algsetele vaikeväärtustele</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Väljaspool vahemikku</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Nihe on liiga suur - ei saa rakendada</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Nutika WAS-i nullimine</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Vaikeväärtused seatud</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD ja Ackermann seatud vaikeväärtustele</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>P-võimenduse muutus</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proportsionaalne võimendus seatud 1-le</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profiilid loodud</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Vaikeprofiilid loodud</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Keskkonna seaded lähtestatud!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Keskkonna seaded laaditud!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Profiilifaile ei leitud!
+
+Registris olevaid profiile ei leitud.
+Vali või loo uued profiilid.
+
+Kui ei vali, kasutab keskkond vaikeväärtusi.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Profiile ei leitud.
+
+Kasuta nuppu 'Uus', et luua sõiduki ja tööriista profiile.
+
+Kui ei vali, kasutab keskkond vaikeväärtusi.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Tõsine põllu lähtepunkti viga&#xD;
+&#xD;
+Põllu lähtepunkt on praegusest GPS-asukohast üle 20 km kaugusel. Kustuta see põld ja loo uus, sest täpsus on halb&#xD;
+&#xD;
+Või sul on põld avatud ja sa oled kaugele sõitnud</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Hoiatus: AgIO sulgemine katkestab side riistvaraga.&#xD;
+Kas oled kindel, et soovid sulgeda?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Mõlemad</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Automaatne peitmine</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto&#xD;
+käivitus</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profiil</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profiilid</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Praegune profiil</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Praegune profiil</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Uus profiil</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Uus:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Kasutatav profiil:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: halda profiile</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Kirjuta see profiil üle:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Täpsemad seaded</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS-i seaded</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Jadaläbilaske seaded</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Jadaläbilase sees</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>Kas RTCM tuleb GPS-ist erinevale pordile?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Käivita minimeeritult</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO hüppab hoiatusel esile</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>GPS-Outi automaatkäivitus</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Näita&#xD;
+hoiatusel</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Sündmuste logi</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Logi</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Jadamonitor</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP monitor</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN juhend</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Juhend -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Klaviatuur</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Teate tekst kuvatakse siin</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO teade</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo teade</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Peata</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Käivita</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP üksikasjad</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP on väljas</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>VARUTEENUS KASUTUSEL</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Kas korrektsioonid on korras?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Vaheta varuteenusele</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Proovi põhiteenust uuesti</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Vaheta tagasi põhiteenusele</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Ühendatud, ootan andmeid</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Ühendan...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpointi ei leitud</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Sisselogimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Peatatud</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Teenus käivitub</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Teenus on hõivatud</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Ühendatud, midagi ei tule</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Võrku pole</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Ühendan uuesti...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Teenuse vastus on arusaamatu</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Teenusega ei saa ühendust</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Korrektsioonid saabuvad</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Seda voogu ei saa üksikasjalikult kontrollida.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Baasjaama asukoht kätte saadud</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Baasjaama asukoht</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Ootan seda. See tuleb iga 10 sekundi järel.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Baasjaama asukoht puudub</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>RTK ei saa ilma selleta käivituda.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Pole veel saabunud.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Kaugus baasjaamast</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Ootan sinu GPS-asukohta.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Liiga kaugel hea RTK jaoks. Vali lähem baasjaam.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Kaugel. RTK on sellel kaugusel vähem täpne.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>NTRIP seadetes määratud kindlast asukohast.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Satelliidid korrektsioonides</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Korrektsioonides pole satelliidiandmeid</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Baasjaam ei saada vaatlusi.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Midagi pole veel saabunud.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Andmed on värsked</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Ootan esimesi andmeid.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Andmed hilinevad</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Uusi andmeid pole</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Sinu GPS: RTK fikseeritud</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Sinu GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Alles täpsustab. Oota hetk.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Sinu GPS: RTK-d veel pole</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Ainult tavaline GPS-täpsus.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Sinu GPS-il pole fiksi</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Sinu GPS on käsitsi- või simulaatorirežiimis</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Aadress puudub</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Sisesta kõigepealt aadress.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Porti pole</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Salvestamine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Viga pordi avamisel</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP-i ei saa veel kasutada</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Vali kõigepealt profiil ja puuduta Kasuta.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Kasutatavas profiilis pole veel teenuse aadressi ega raadiopordi. Muuda seda kõigepealt.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Lugemine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Seda profiilifaili ei õnnestunud lugeda.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Ümbernimetamine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>See nimi on juba kasutusel.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Profiili laadimise hoiatus</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profiili taastamine</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>AgIO profiil taastati .last varukoopiast, sest põhifail oli loetamatu.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Fail salvestatud</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Vigane ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Vigane nimi</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Nimi on täitmata</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Vigane sagedus</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Sagedus on täitmata</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Kanalit pole</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Raadio on sisse lülitatud, kuid kanal pole valitud</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP on samuti sees</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP on samuti sees, lülitan selle välja</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO kasutab vaikeprofiili</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Kasutusel on vaikeprofiil</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Raadio NTRIP sees</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Jada-NTRIP sees</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Jadaläbilase NTRIP sees</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Lülita NTRIP sisse</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Viga jadaläbilasega ühendumisel</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Viga raadioga ühendumisel</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP seatud</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Faili ei leitud</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Sisesta salvestamiseks failinimi...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Salvesta ja tagasi</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Pordiga ei saa ühendust</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Ühendus on juba katkestatud?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Ühendus on juba katkestatud??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Aktiivset Arduino porti pole</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Tõsine võrguühenduse viga</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Kriitiline registriviga</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Registri alamvõtmepuud ei saa kustutada</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController pole installitud??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Raadio on sees. Lülita see kõigepealt raadio seadetes välja.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Jadaläbilase on sees. Lülita see kõigepealt välja.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP on sees. Lülita see kõigepealt NTRIP profiilide nimekirjas välja.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Kaugus</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Tühjenda</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Vea&#xD;
+teade</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Teade 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Moodul 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Jadamonitor - baud: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Saada $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Saada $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Külgkalle: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Rool: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP väljund</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Kindel asukoht</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Teine NTRIP teenus</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automaatne</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Mõlemad</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Varuteenus</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Vahetan ise</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Põhiteenus</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Minu AIO plaat (võrgus)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Minu GPS-vastuvõtja (jadaport)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Minu GPS-asukoht</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP teenus</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Väljund ja asukoht</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Jadaraadio</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Vahetab ise</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>KASUTUSEL</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>KASUTUSEL</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>PÕHITEENUS</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>VARUTEENUS</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Väljas. Teist teenust ei kasutata.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(porti veel pole)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Vahetad käsitsi</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Toores TCP (ilma mountpointi ja sisselogimiseta)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Mountpointi pole valitud</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Pole veel täidetud</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Vajab sinu asukohta</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Koht</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(pole veel salvestatud)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Vali kõigepealt raadio port.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Varuteenuse kasutamiseks vali raadio port</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Varuteenuse kasutamiseks sisesta serveri andmed</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Profiile veel pole.&#xD;
+&#xD;
+Puuduta Uus profiil, et luua üks.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>See profiil pole veel täidetud.&#xD;
+Puuduta Muuda, et sisestada põhiteenus.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>NTRIP profiili pole veel valitud. Vali või loo see NTRIP seadetes.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>Vali NTRIP profiilis põhiraadio port.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP on taas töös</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Korrektsioonid saabuvad taas.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP: sisselogimine lükati tagasi</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP: mountpointi ei leitud</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP: server on hõivatud</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP: korrektsioone pole</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP: voog katkes</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP: pole ühendatud</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP väljas</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP: kuulan</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Ühenduse probleem</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Serveriga ei saa ühendust</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>IPv4-aadressi ei leitud</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP ühendus ebaõnnestus</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP ühendus lükati tagasi</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Server sulges ühenduse andmeid saatmata (kontrolli mountpointi ja sisselogimisandmeid)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP klient pole seadistatud</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Vali olemasolev profiil või loo uus</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Loo või vali profiil</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Lülita see enne jadaläbilaske kasutamist välja</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Lülita see enne NTRIP-i kasutamist välja</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Lülita see enne raadio NTRIP-i kasutamist välja</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Raadio NTRIP sees</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Uued väärtused rakendusid</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP sees</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP on sees</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>UDP-võrgu sisselülitamiseks AgIO taaskäivitub</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>UDP-võrgu väljalülitamiseks AgIO taaskäivitub</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>Võrgumuudatuste rakendamiseks ModSim taaskäivitub</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Käsitsi IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Uuendaja viga</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS-i uuendus</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Palun oota...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Palun oota</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Oota, kuni käimasolev toiming lõpeb.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Kontrollin GitHubi väljaandeid...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Kontrollin USB-draivi...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>USB-draivil pole uuendust.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Sulen AgOpenGPS-i ja AgIO-d...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Rakendused suletud</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Laadin GitHubist alla...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Allalaadimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Allalaadimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopeerin USB-lt...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopeerimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopeerimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Installimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Installimine ebaõnnestus</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Valmis! Taaskäivitan...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Valmis!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Uuendus tühistati.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Väljaande märkmeid pole.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Eelväljaanne</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Allalaadimine ebaõnnestus: faili suurus ei ühti väljaandega.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Allalaadimine ebaõnnestus: kontrollsumma ei ühti väljaandega, faili ei installitud.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Selles väljaandes pole sobivat allalaaditavat faili.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Teine uuendaja on juba käivitatud.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Ühtegi rakendust ei töötanud.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Rakendused suleti edukalt.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Uuenduse faili ei leitud.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Installikausta pole olemas.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Teen varukoopiat...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Pakin faile lahti...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Installin faile...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe-d installikaustas ei leitud.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS taaskäivitus edukalt.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Otsi uuendusi</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Installi uuendus</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Kaasa eelväljaanded</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Püsivara uuendus</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS-i püsivara uuendus</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS-i uuendaja</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Väljaande märkmed</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Vaata väljaande märkmeid</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Väljaande märkmed kuvatakse siin.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Praegune versioon: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Uusim versioon: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Uusim versioon: ajakohane</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Veebiuuendus - klõpsa Otsi uuendusi</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Veebiuuendus (GitHubi väljaanded)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Veebiuuendus (kohalik uuendus saadaval)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Kohalik: USB-l pole AgOpenGPS_*.zip faili</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Kohalik: pane AgOpenGPS.zip USB-draivi juurkausta</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController pole installitud, laadi alla siit:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linuxi kasutajatele</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Ainult Linuxile!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Väljun</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profiili ei õnnestunud täielikult laadida (fail võib olla rikutud).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profiil taastati .last varukoopiast, sest põhifail oli loetamatu.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Vali kõigepealt põhiraadio port.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Sisesta kõigepealt põhiteenuse aadress.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Või lülita NTRIP profiilide nimekirjas välja.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Paranda: Seaded -&gt; COM-pordid</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Praegune seanss kasutab puuduvate või vigaste väärtuste asemel vaikeväärtusi.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIO profiili ei õnnestunud täielikult laadida (fail võib olla rikutud).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIP profiili "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" ei ole sellel arvutil. Vali või loo profiil NTRIP seadetes.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" juures pole veel teenuse aadressi.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Varuteenus ei tööta samuti:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Korrektsioone pole olnud</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO proovib edasi.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> sekundit</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minutit</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>VARUTEENUS KASUTUSEL: põhiteenust praegu ei kasutata</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>Baasjaama ID:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Asukoht:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Rikutud andmed:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Teenus vastas:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Ühendan uuesti:</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Serveri aadressi ei saa lahendada:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Simuleeritud andmed</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   ANDMEID POLE</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Uuendaja tuleb käivitada AgOpenGPS-ist.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Käivita kõigepealt AgOpenGPS ja kasuta:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Menüü → Tööriistad → Otsi uuendusi</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>See on vajalik praeguse versiooni tuvastamiseks.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Installi uuendus allikast</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Allikas:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>See teeb järgmist:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Sulgeb AgOpenGPS-i ja AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Teeb praegusest installist varukoopia</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Installib uuenduse</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Käivitab AgOpenGPS-i uuesti</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Kas soovid jätkata?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Uuenduse faili ei leitud.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Pane AgOpenGPS_X.Y.Z.zip oma USB-draivi juurkausta.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Uuendus ebaõnnestus: {0}
+Varukoopia taastati.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Uuendus ebaõnnestus: {0}
+Varukoopia taastamine ebaõnnestus samuti!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Uuendus ebaõnnestus: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Varukoopia taastati.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Varukoopia taastamine ebaõnnestus samuti!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Uuendus installiti edukalt.
+{0}
+Varukoopia: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Uuendus saadaval: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Vahetab ise pärast {0} ebaõnnestunud katset</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpointi, lähim eespool.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpointi.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Ei leia: {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Kontroll ebaõnnestus: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>{1} kB vastu võetud</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Viimased andmed {1d} sekundit tagasi.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Viimased andmed {1d} sekundit tagasi. Aeglane ühendus?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Korrektsioonid on {1d} sekundit vanad.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Kaugus baasjaamast: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Sinu GPS: fiksi tüüp {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} aktiivne (vana klient)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} aktiivne</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (vana klient)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Avan {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: ootan andmeid</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profiil: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Salvestatud: {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Kirjuta üle: {1}?</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID '{1}' ei ole kehtiv number</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Tekkis viga: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP viga: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Laadimisviga: {1}</value>
+  </data>
+  <data name="gsAcquire" xml:space="preserve">
+    <value>Haaramine</value>
+  </data>
+  <data name="gsAcquireFactor" xml:space="preserve">
+    <value>Haaramistegur</value>
+  </data>
+  <data name="gsAgShareDownloader" xml:space="preserve">
+    <value>Laadi põllud alla AgShare'ist</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Aktiveeri</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Aktiveeritud</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>API võti</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Pilvest laadimine</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Auto-üleslaadimine</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Auto-üleslaadimine: põllu muudatused laaditakse sulgemisel üles
+Pilvest laadimine: avamisel laaditakse alati AgShare'ist uusim versioon</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Ühendamine...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Ühendus õnnestus</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Deaktiveeritud</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Sisesta server ja API võti ning testi ühendust</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Vale API võti</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Ainult kohalik</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Kleebi lõikelaualt</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Registreeru siin, et kasutada AgShare'i</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Sätted salvestatud</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare'i sätted</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Testi ühendust</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Üleslaadimine väljas</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Üleslaadimine sees</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Põllud laaditakse automaatselt pilvest</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Põld laaditud AgShare'ist</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Põldu ei saanud pilvest laadida, kasutatakse kohalikku versiooni.</value>
+  </data>
+  <data name="gsAgree" xml:space="preserve">
+    <value>Nõustun</value>
+  </data>
+  <data name="gsCopyFrom" xml:space="preserve">
+    <value>Kopeeri asukohast</value>
+  </data>
+  <data name="gsCountsPerDegree" xml:space="preserve">
+    <value>Impulsse kraadi kohta</value>
+  </data>
+  <data name="gsCreateNewProfile" xml:space="preserve">
+    <value>Loo uus profiil</value>
+  </data>
+  <data name="gsDiscourseForum" xml:space="preserve">
+    <value>Discourse'i foorum</value>
+  </data>
+  <data name="gsDownloadAll" xml:space="preserve">
+    <value>Võta kõik</value>
+  </data>
+  <data name="gsDownloading" xml:space="preserve">
+    <value>Allalaadimine</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Kiire start GPS-juhtimisega. Sea töölaius ja haakekonksu pikkus, seejärel loo AB-joon või kõver. Kettale ei salvestata midagi.</value>
+  </data>
+  <data name="gsEmptyProfile" xml:space="preserve">
+    <value>Tühi profiil</value>
+  </data>
+  <data name="gsFactor" xml:space="preserve">
+    <value>Tegur</value>
+  </data>
+  <data name="gsForceOverwrite" xml:space="preserve">
+    <value>Sunni ülekirjutamine</value>
+  </data>
+  <data name="gsGetSelected" xml:space="preserve">
+    <value>Võta valitud</value>
+  </data>
+  <data name="gsHydraulicLiftLookAhead" xml:space="preserve">
+    <value>Vaata ette</value>
+  </data>
+  <data name="gsLoad" xml:space="preserve">
+    <value>Laadi</value>
+  </data>
+  <data name="gsLoadProfile" xml:space="preserve">
+    <value>Laadi profiil</value>
+  </data>
+  <data name="gsLookAheadTiming" xml:space="preserve">
+    <value>Ettevaatamise aja sätted</value>
+  </data>
+  <data name="gsName" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="gsNew" xml:space="preserve">
+    <value>Uus</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Edasi</value>
+  </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Keskkond</value>
+  </data>
+  <data name="gsProfileMenuHint" xml:space="preserve">
+    <value>Sõiduki, agregaadi ja keskkonna sätted salvestatakse nüüd eraldi profiilidena.
+Laadi paneelilt Seadistus ja vasakult ülemisest menüüst.</value>
+  </data>
+  <data name="gsRecordedPathPicker" xml:space="preserve">
+    <value>Laadi salvestatud rada</value>
+  </data>
+  <data name="gsReverseSteer" xml:space="preserve">
+    <value>Tagurdamise tuvastus</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Keskkonna sätted</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Keskkonna sätted salvestatud.</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>Sõiduki sätted</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>Sõiduki sätted salvestatud.</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>Agregaadi sätted</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>Agregaadi sätted salvestatud.</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Nutikas WAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Kalibreerib WAS-i nulli automaatselt, analüüsides sõidu ajal juhtimise roolinurki. Lülita automaatrool sisse ja sõida sujuvalt mööda joont.</value>
+  </data>
+  <data name="gsYouTubeTutorials" xml:space="preserve">
+    <value>YouTube'i õpetused</value>
+  </data>
+  <data name="gsCurrentVehicle" xml:space="preserve">
+    <value>Praegune sõiduk</value>
+  </data>
+  <data name="gsCurrentTool" xml:space="preserve">
+    <value>Praegune agregaat</value>
+  </data>
+  <data name="gsSelected" xml:space="preserve">
+    <value>Valitud</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Antenni pöördepunkt</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>Rööpmelaius</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Ühenda</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Järelhaakeseade</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>Tüüp</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>Haakeseade</value>
+  </data>
+  <data name="gsVehicle" xml:space="preserve">
+    <value>Sõiduk</value>
+  </data>
+  <data name="gsTool" xml:space="preserve">
+    <value>Agregaat</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>Kombain</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Liigendraam</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>Ees</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Taga fikseeritud</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Järelhaake</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>Sõiduk on kasutusel</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>Aktiivset sõidukit ei saa kustutada</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>Kustuta sõiduk</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>Nimeta sõiduk ümber</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>Sisesta sõiduki uus nimi</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>Sõiduk on juba olemas</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>Agregaat on kasutusel</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>Aktiivset agregaati ei saa kustutada</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>Kustuta agregaat</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>Nimeta agregaat ümber</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>Sisesta agregaadi uus nimi</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>Agregaat on juba olemas</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>Viga sõiduki laadimisel</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>Viga agregaadi laadimisel</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Tulemus</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>Uus sõiduk</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Sisesta sõiduki nimi</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>Uus agregaat</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Sisesta agregaadi nimi</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Loo vaikesõiduk</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Luua tehase sätetega profiil "Default"?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Kirjuta üle</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Profiil on juba olemas. Kirjuta üle</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Loo vaikeagregaat</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Luua tehase sätetega agregaadi profiil "Default"?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Vaikesõiduk laaditud</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Vaikeagregaat laaditud</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Konverteeri vanad profiilid</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Sõiduk / agregaat</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Konverteeri vanad profiilifailid uude vormingusse</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Vanad profiilid sisaldasid kõiki sätteid ühes failis. Uus vorming eraldab sõiduki, agregaadi ja keskkonna. Vali, mida soovid eraldada.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>Samm 1</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>Samm 2</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Sõiduki profiili nimi</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Agregaadi profiili nimi</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Impordi sõiduk</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Impordi agregaat</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Ära impordi</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Vanas vormingus faile ei leitud.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>vana faili</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>vana faili: konverteeritud, konverteerida</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>konverteeritud</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>konverteerida</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Konverteeri</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Kinnita konverteerimine</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Konverteeri '{0}': {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Konverteeri</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Sõiduk</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Agregaat</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Konverteerimine lõpetatud</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Konverteeritud edukalt</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Keskkonna sätted on imporditud ja laaditud.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Konverteerimise vead</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Ilmnes vigu</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Laadi sõiduk/agregaat</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>On olemas</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Failinimi</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Nimeta ümber</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Sõiduk on juba olemas</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Agregaat on juba olemas</value>
+  </data>
+  <data name="v_AboutIntro" xml:space="preserve">
+    <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CAN-siini adapter</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Moodulite võrguaadress -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Vajalik on taaskäivitus</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Üleslaadimine lõpetatud</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Raja laadimise viga</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Koosta piir radadest</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Impordi rajad teiselt põllult</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS teade</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Nihuta GPS-asukohta (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Lihtsõit: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Joonista AB – alustamiseks klõpsa piiril kahele punktile</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Nimeta</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 punkti – joonda ruudustik</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Loo uus kirje</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Laadi keskkond</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML viga</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antenn</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Diferentsiaal</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Üksik</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD määratud: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Andmete vastuvõtu viga: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Saatmisviga: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Andmete saatmise viga: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP server</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Ametlik</value>
+  </data>
 </root>

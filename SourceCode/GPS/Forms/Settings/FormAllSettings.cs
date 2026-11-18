@@ -21,9 +21,12 @@ namespace AgOpenGPS
         private static readonly ToolSettings tsDefault = new ToolSettings();
         private static readonly Settings esDefault = new Settings();
 
-        private static readonly Color ColorChanged = Color.LightYellow;
-        private static readonly Color ColorNormal = Color.WhiteSmoke;
-        private static readonly Color ColorHeader = Color.FromArgb(200, 220, 240);
+        private static bool Night { get { return AgLibrary.Localization.UiTheme.IsNight(); } }
+        private static Color ColorChanged { get { return Night ? Color.FromArgb(82, 74, 34) : Color.LightYellow; } }
+        private static Color ColorNormal { get { return Night ? Color.FromArgb(40, 43, 48) : Color.WhiteSmoke; } }
+        private static Color ColorHeader { get { return Night ? Color.FromArgb(44, 62, 88) : Color.FromArgb(200, 220, 240); } }
+        private static Color ColorHeaderText { get { return Night ? Color.FromArgb(170, 205, 245) : Color.DarkBlue; } }
+        private static Color ColorAlternate { get { return Night ? Color.FromArgb(34, 37, 42) : Color.FromArgb(245, 245, 250); } }
 
         public FormAllSettings(Form callingForm)
         {
@@ -63,7 +66,7 @@ namespace AgOpenGPS
             dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
             dgv.EnableHeadersVisualStyles = false;
             dgv.RowTemplate.Height = 22;
-            dgv.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(245, 245, 250);
+            dgv.AlternatingRowsDefaultCellStyle.BackColor = ColorAlternate;
         }
 
         private static void SetupSystemGrid(DataGridView dgv)
@@ -77,7 +80,7 @@ namespace AgOpenGPS
             dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
             dgv.EnableHeadersVisualStyles = false;
             dgv.RowTemplate.Height = 22;
-            dgv.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(245, 245, 250);
+            dgv.AlternatingRowsDefaultCellStyle.BackColor = ColorAlternate;
         }
 
         // ── Helpers ───────────────────────────────────────────────────────────
@@ -88,7 +91,7 @@ namespace AgOpenGPS
             var style = dgv.Rows[i].DefaultCellStyle;
             style.BackColor = ColorHeader;
             style.Font = new Font("Tahoma", 10F, FontStyle.Bold);
-            style.ForeColor = Color.DarkBlue;
+            style.ForeColor = ColorHeaderText;
         }
 
         private static void AddRow(DataGridView dgv, string name, object def, object current)
@@ -102,7 +105,13 @@ namespace AgOpenGPS
 
         private static string CellText(object o)
         {
-            if (o is bool b && AgLibrary.Localization.UiTranslator.IsHungarian()) return b ? "Igen" : "Nem";
+            if (o is bool b)
+            {
+                // Yes / No in the chosen language; English keeps True / False
+                string yesNo = b ? "Yes" : "No";
+                string tr = AgLibrary.Localization.UiTranslator.TrText(yesNo);
+                if (tr != yesNo) return tr;
+            }
             return o?.ToString() ?? "";
         }
 

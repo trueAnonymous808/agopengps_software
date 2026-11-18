@@ -46,4 +46,6 @@
     </None>
   </ItemGroup>
 
+  <Import Project="..\..\AgLibrary\Localization\UiStrings.targets" />
+
 </Project>

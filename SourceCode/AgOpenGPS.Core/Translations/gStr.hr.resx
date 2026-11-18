@@ -189,10 +189,10 @@
     <value>Auto</value>
   </data>
   <data name="gsAutoOffAgIO" xml:space="preserve">
-    <value>Auto Off AgIO</value>
+    <value>Auto isključenje AgIO</value>
   </data>
   <data name="gsAutoStartAgIO" xml:space="preserve">
-    <value>Auto Start AgIO</value>
+    <value>Auto pokretanje AgIO</value>
   </data>
   <data name="gsAutoSteer" xml:space="preserve">
     <value>Autopilot</value>
@@ -636,7 +636,7 @@
     <value>Jezik</value>
   </data>
   <data name="gsLatLon" xml:space="preserve">
-    <value>Lat+Long</value>
+    <value>Širina+Dužina</value>
   </data>
   <data name="gsLateral" xml:space="preserve">
     <value>Bočno</value>
@@ -777,7 +777,7 @@
     <value>Pomeri referentnu liniju</value>
   </data>
   <data name="gsOff" xml:space="preserve">
-    <value>OFF</value>
+    <value>Isključeno</value>
   </data>
   <data name="gsOffset" xml:space="preserve">
     <value>Odstojanje</value>
@@ -789,7 +789,7 @@
     <value>ON</value>
   </data>
   <data name="gsOnDelay" xml:space="preserve">
-    <value>On-Delay</value>
+    <value>Odgoda uključenja</value>
   </data>
   <data name="gsOpacity" xml:space="preserve">
     <value>Transparetnost</value>
@@ -1231,5 +1231,4878 @@ KORIŠTENJE NA VLASTITU ODGOVORNOST.</value>
   </data>
   <data name="v_AboutIntro" xml:space="preserve">
     <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Spremi kao:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Obriši</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Preimenuj</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Osvježi</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Zadano</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Izlaz</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Otvori:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Odaberi</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Odaberi s popisa...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Učitavanje popisa...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Spremno...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Kopirano</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Kopiranje nije uspjelo</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopiraj za podršku</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Poruka</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Opcije</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Prikaži</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Uklj.</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Isklj.</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Koristi</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Samo</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Ili</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Vrijeme</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Puta</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Trenutno</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Naredba</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Odgovor</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filtar</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Unesi vrijednost</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Unesi vrijednost</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Unesi nešto</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Spoji</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Odspoji</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Nije spojeno</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Automatsko spajanje</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Spoji GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Serijski port</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS port</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS port 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM port</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Mrežni port</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radio na portu</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Brzina (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP adresa</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP adresa : port</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Naziv računala</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Naziv računala:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Lozinka</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Trenutna podmreža</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Postavi</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Unesi novu adresu podmreže</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Automatsko popunjavanje</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Nema adaptera za ovu podmrežu</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Mreža</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Postavke Etherneta</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Uključi UDP i pritisni OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP je isključen</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP isklj.</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Brzina prijenosa</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Zadnji put</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Spojeno</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Isklj. na %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Ujednačen kut upravljanja!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>U pokretu</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A i B zamijenjeni</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>A do Z i 0 do 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS je već pokrenut</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Sve zeleno? Pritisni Izradi ili ispravi ručno!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Samo slova i brojke</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Došlo je do neočekivane greške i zapisana je u dnevnik događaja. AgOpenGPS nastavlja raditi.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap greška</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Način izrade međe</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Izrada nije uspjela</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Greška tipke</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Nije moguće obrisati podključeve registra</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Snimljeno</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Kopirano u međuspremnik, zalijepi (CTRL-V) u Telegramu</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Prvo izradi putanju</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Greška pri izradi</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Greška križanja</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Križanja nisu pronađena</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Krivulja je obrnuta</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Greška udaljenosti</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Udaljenost je 0, nema se što pomaknuti</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Uključi sklopku upravljanja</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Okruženje se trenutno koristi</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Greška pri traženju zemljopisne širine/dužine</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Greška, provjeri format</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Greška pri uvozu tragova:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Iznimka</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Prevelik kut upravljanja – nije moguće nulirati</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Preuzimanje pregleda parcele nije uspjelo. Pojedinosti su u zapisniku.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Preuzimanje parcele nije uspjelo.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Učitavanje popisa parcela nije uspjelo.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Učitavanje popisa parcela nije uspjelo.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Učitavanje popisa parcela nije uspjelo:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Učitavanje tragova nije uspjelo:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Parcela je spremljena, ali se ne može otvoriti (nedostaje Field.txt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Traženje sjecišta...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Dovrši sva podešavanja ili vrati zadano</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Oznake su dodane!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Oznake su spremljene!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Prečac nije potpun</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Neispravna linija</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Neispravan odabir.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Možda postoji samo 1 linija?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Greška linije</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Greška pri učitavanju:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Pazi da se svi krajevi križaju i to samo jednom</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Karta je prevelika</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Najviše 164 stope</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Najviše 50 metara</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Mora biti veće od 5 stupnjeva</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Nema snimljenih putanja</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Nema odabira</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Nijedna parcela nije otvorena.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Nijedna parcela nije odabrana.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Tragovi nisu pronađeni.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Nije moguće izraditi ispravnu među</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Nema ispravne međe za spremanje</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Dodano je premalo tipki</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Problem s neobveznom datotekom</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Prije spremanja odaberi parcelu.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Prvo odaberi parcelu.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Odaberi barem jednu parcelu za slanje</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Odaberi barem jedan trag za uvoz.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Pričekaj da slanje završi</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Greška pri spremanju</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Odaberi drugo okruženje</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Postavljeno na 99, najviše 164 stope</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Postavljeno na 99, najviše 50 metara</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Početna točka = završna točka</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Kut upravljanja je premalen</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Upravljanje je isključeno</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Uspjeh!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Uspjeh</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Parcela je obrisana lokalno, ali je nije bilo moguće ukloniti s AgSharea.
+Ukloni je ručno.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Preširoko</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Greška alata</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Dodirni kartu za izradu međe</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Podaci o tragu</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Podešavanje traga nije uspjelo:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Slanje je već u tijeku</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Slanje u tijeku</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Koristi samo AB liniju ili krivulju</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Upozorenje</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Tvoj alat je premalen</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Skeniranje</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Odgovor modula</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Skeniranje modula</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Simulator modula</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Upravitelj uređaja</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Provjeri vezu</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Poslana pozicija</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Primljeni podaci</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>neuspjelih pokušaja</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Šalji svakih (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Šalji praznu GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Šalji NTRIP na GPS preko:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>Serijski RTCM</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Koristi USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Koristi web</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP postavke</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP detalji</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP profili</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP verzija</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP greške</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Odaberi NTRIP profil</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Koristi NTRIP klijent</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Koristi stari NTRIP klijent</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Sirovi TCP tok</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpointovi</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Odaberi baznu stanicu najbližu tvojoj parceli.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Korekcije idu na</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Koristi rezervu kad glavna usluga zakaže</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Prebaci nakon</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Glavni</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radio (ne XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Radio kanal</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Postavke radija</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanali</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Serijski radio nije NTRIP usluga. Njegove se korekcije koriste kako stignu. Rezervna usluga preuzima kad radio utihne.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Širina</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Širina:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Dužina</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Dužina:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Šir.</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Duž.</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Visina</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Visina (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Visina:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Vis.</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Smjer</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Brzina</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Brzina:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Sateliti</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Sateliti:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>Br. sat.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Kvaliteta</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Kvaliteta:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Kval. fiksa</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Starost</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Starost:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Dvije ant.</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Valjanje</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Korig. valjanje</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Valjanje:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Poniranje</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Zanošenje</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Brz. zanošenja</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Pomak</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simuliraj podatke</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simulirano</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Broj decimala</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Koliko često</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Učestalost</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Podaci sustava</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>Status AOG-a:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Autopilot</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Upravljanje</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Upravljanje:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Modul upravljanja</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Tipka upravljanja</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Sklopka upravljanja</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Sklopka upravljanja:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Ping upravljanja:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Postavke &#xD;
+upravljanja</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Postavke&#xD;
+upravljanja</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Od&#xD;
+autopilota</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Zadani kut</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Stvarni kut</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Kut:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Stroj</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Stroj:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Modul stroja</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Stroj</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Ping alata:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Rad</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Sklopka rada</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Rad:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Sklopka:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Dozvola dizanja</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hidr. podizač</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Vrijeme dizanja</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Vrijeme spuštanja</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min. brzina</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Visoki PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Niski PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Impuls #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Broj impulsa</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Impulsi:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relej: visoko</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Tlak</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Okret</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Tehn.</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Aktivno</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Uvjeti korištenja</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube upute</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse forum</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Ne slažem se</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Slažem se</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Verzija:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Testiraj vezu</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Unesi podatke gore i označi Testiraj vezu</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API ključ:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Poslužitelj:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Zalijepi iz međuspremnika</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Registriraj se ovdje za korištenje AgSharea</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Aktiviraj</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Automatsko slanje</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Samo lokalno</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Vidimo se sljedeći put!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Vozilo / alat...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulator uklj.</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Koordinate simulatora</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Kiosk način</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Poništi sve</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Poništi</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Čarobnjaci</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Čarobnjak upravljanja</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Grafikoni</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Grafikon upravljanja</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Grafikon smjera</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Grafikon korekcije valjanja</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Alat za međe</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Zagladi AB krivulju</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Sakrij konturne putanje</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Web kamera</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Pomak fiksa</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fiks      s</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Sve</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Autopilot</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Prikaži sve postavke</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Mape</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS podaci</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Boje</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Boje sekcija</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Prečaci</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Međa</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Uvratina</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Uvratina (izrada)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Tehn. staze</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Tehn. staze</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Obriši obrađeno</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Oznaka po koordinatama</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Snimljena putanja</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Uvezi tragove</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Trenutna parcela</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulator</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Autopilot uklj./isklj.</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Dodirni tipku za poništenje,&#xD;
+zatim pritisni novu tipku</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Izmjena linija</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Zatvori parcelu</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Ažuriranje</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Izradi među iz mapiranja</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Upravljanje</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Maks. kutna brzina</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Upravljanje u vožnji unatrag</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Komp. bočnog nagiba</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino upravljanje</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Impulsa/stupanj</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Visoki PWM upravljanja</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Niski PWM upravljanja</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Min. PWM upravljanja</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proporcionalno)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Min. brzina upravljanja</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Maks. brzina upravljanja</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Ogr. brzine funkcije</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geometrija</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Tip vozila</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Razmak kotača</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antena–os okreta</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Izvor smjera</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Pomak smjera dual</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual udalj. unatrag</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min. granica koraka</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Težina fuzije</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual kao IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Marka</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Marka traktora</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Marka kombajna</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Marka zglobnog</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Dimenzije</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Širina alata</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Preklop alata</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Pomak alata</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Broj sekcija</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Vučni spoj</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Vuča cisterne</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Vuča do osi okreta</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Tip alata</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Vučeni</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Stražnji kruti</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (traktor–stroj–traktor)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Prednji</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Sekcije</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Sekcije (ne zone)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Isklj. pri izlasku</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Brza sekcija</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Predviđanje / vremenski</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Predviđanje uklj.</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Predviđanje isklj.</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Odgoda isklj. alata</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Hidr. dizanje predv.</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Sekcije na uvratini</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Navođenje (po alatu)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Udaljenost hvatanja</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Udalj. hvatanja ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Mrtva zona udalj.</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Mrtva zona smjer</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Mrtva zona odgoda</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley uključen</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley pojač. udalj.</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley pojač. smjera</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley integral</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit integral</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Faktor hvatanja cilja</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Držanje ciljne točke</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Množitelj ciljne točke</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Granica niske brzine</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Sklopka rada</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Sklopka rada upravlj.</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min. pokrivenost</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Okret (po alatu)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Radijus okreta</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Udaljenost od međe</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Širina preskoka</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Duljina produžetka</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Stil okreta</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Glađenje okreta</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Kompenzacija okreta</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Prikaz / izbornik</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Mreža uklj.</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Svjetlosna traka uklj.</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Bočne vodilice</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure uklj.</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Brzinomjer uklj.</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Svjetlosna traka (ne kormilo)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Dnevni način</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Tipkovnica uklj.</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Slika vozila</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Tekstura uklj.</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Svjetlina uklj.</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Bilježi visinu</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Isključi računalo</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Isklj. bez napajanja</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO auto start</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO auto isklj.</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Svj. traka cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Zoom kamere</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Nagib kamere</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Autopilot</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Predviđanje navođenja</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Autopilot auto uklj.</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Stalna kontura</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Vodilice</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Broj vodilica</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>Alarm starosti GPS-a</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK gubitak: autopilot isklj.</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Alarm skoka fiksa</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Sim. širina</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Sim. dužina</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP nadzor ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Zvuk</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Zvuk okreta</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Zvuk hidr. dizanja</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Zvuk autopilota</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Zvuk sekcija</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Tehn. staza</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Prolazi tehn. staze</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Prozirnost tehn. staze</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / opće</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Unatrag uklj.</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Dual auto prebacivanje: Fiks</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Brzina auto prebacivanja</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Crtaj os okreta</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Udalj. uvratine uklj.</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Razmak alata međe</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Glađenje alata međe</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Aktivno nisko</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Ručne sekcije</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Daljinski sustav rada</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Upravlj. SR ručno</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min. udalj. koraka smjera</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare uključen</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Slanje aktivno</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Javna parcela</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Ostalo</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fiks</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Trajanje okvira (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Vremenski odsječak</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Kvaliteta fiksa</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Praćeni sateliti</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Propuštene UDP rečenice</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Smjer</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU smjer</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Smjer fiks–fiks</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Fuzirani smjer (°)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Kutna brzina</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Aplikacija</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Verzija</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Datoteka vozila</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Datoteka alata</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Postavka</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Sve postavke</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Ovo će izraditi i učitati novi profil.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Zatvori parcelu prije pokretanja ažuriranja</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Nova oznaka</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Ručna sekcija</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Auto sekcija</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Hvataj os okreta</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Linija ulijevo</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Linija udesno</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Postavke vozila</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Vrati &#xD;
+zadano</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Sekcija ili zona</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Nova tipka</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Cijeli zaslon&#xD;
+&#xD;
+NumPad1 - Ručna sekcija&#xD;
+NumPad0 - Auto sekcija</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Upit</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Istočna koord.</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Sjeverna koord.</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Sirovi Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Okvir</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Propušteno</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fiks–fiks</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Sjever (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Zapad (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Istok (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Jug (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Zadržati pomak i nakon zatvaranja parcele?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Vozilo</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Alat</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Naziv vozila</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Tip:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Međuosovinski razmak:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Antena–os okreta:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Pomak antene:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Spojnica:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Naziv alata</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Širina:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Sekcije:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Pomak:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Preklop:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Predviđanje:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Pomak linije:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Širina tehn. staze:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Jedinice:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metričke</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Odaberi tip vozila</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Prozirnost</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Nema slike</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Zasad</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>U datoteku</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Skrati liniju</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Povećaj</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Izradi</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Prozirnost</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Naziv datoteke</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Unesi naziv snimke</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; ISKLJ. &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Dodaj naziv</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Krivulja</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Uredi naziv</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Os okreta</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + krivulja</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB linija</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Šir./Duž. +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Šir./Duž.</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Dužina (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Širina (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Prskanje</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Prolazi</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Trag</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Sjetva</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Način</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Zumiranje</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Odaberi tipke</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG izbornik</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Pregled</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Više boja</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Boja sekcije</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Uredi boju</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Udaljenost osi okreta</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Visina antene</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Sredina</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Pomak antene</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Lijevo</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Desno</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual: pozicijska antena je s desne strane</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Duljina spojnice</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Međuosovinski razmak</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Način spajanja</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Preklop / razmak</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Preklop</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Razmak</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Smjer pomaka alata</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Alat desno</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Alat lijevo</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Zona 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Zona 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Zona 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Zona 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Zona 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Zona 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Zona 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Zona 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Inč</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Širina sekcije</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% pokrivenosti</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Sekcije</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Auto sekcije</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Ručne sekcije</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Postavke vremena predviđanja</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Uklj. (s)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Isklj. (s)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Odgoda isključenja (s)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Alarm zaustavlja autopilot</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = isključeno</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Udaljenost skoka fiksa (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Postavke dvije antene</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Brzina prebacivanja</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto dual &lt;-&gt; fiks</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Udaljenost unatrag (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Pomak smjera (stupnjevi)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Postavke jedne antene</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Zadano: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Fuzija</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Prepoznavanje vožnje unatrag</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Udaljenost fiks–fiks</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minimalni GPS korak</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Tip antene</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Obrni valjanje</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Nuliraj valjanje</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Ukloni pomak</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Manje</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Više</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Filtar valjanja</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Postavi glađenje na 3 ili 4 radijusa</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Postavi duljinu produžetka na 2 ili 3 radijusa&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Postavke hidrauličkog podizača</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Broj biljaka</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Predviđanje hidr. podizača (s)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Vrijeme dizanja (s)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Omogući</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Vrijeme spuštanja (s)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Obrni releje</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Pošalji i spremi</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Prikazati?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Premosti</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Širina tehn. staze</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Poruke hardvera</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Gašenje pri nestanku struje</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>AgIO auto isključenje?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Donji izbornik</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Tipke pomaka</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Desni izbornik</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>AgIO auto pokretanje?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Okret</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Zvuk</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Okret</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Bočno</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Sakrij konturu</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB glađenje</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Snimi putanju</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Tehn. staze</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Tipke na zaslonu</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Izbornik alata</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Izbornik parcele</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>ISKLJ.</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>UKLJ.</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Vrijednosti za otklanjanje grešaka</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Udalj. uvratine</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Glađenje linije</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Linije sekcija</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Oznake smjera</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Visina</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Jedinice</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn strelica</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Svjetlina</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Tekstura parcele</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Poligoni</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Pokreni preko cijelog zaslona</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Brzinomjer</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Vodilice</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Mreža</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Trenutno vozilo</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Trenutni alat</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Inči</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Širina alata:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Stope</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Stv.:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Zad.:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Pog.:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Ili +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Kut upravljanja:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Promjer:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Hvatanje:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Polako će povećavati kut upravljanja kako bi smanjio bočno odstupanje</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Sporo</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Brzo</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Odziv upravljanja</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Min. predviđanje</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Predviđanje</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley pojačanja</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Maks. kut upravljanja</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>KB stv.:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>KB zad.:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Impulsa po stupnju</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS nula</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Faktor hvatanja</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Udaljenost:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Faktor brzine</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Mrtva zona -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Držanje:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Hvatanje = faktor × držanje</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Odgoda uključenja (s)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Smjer (stupnjevi)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Pojačanje</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimum za pokret</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Gornja granica</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proporcionalno pojačanje</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Bočni nagib: stupnjeva zakreta po stupnju valjanja</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Tipka – pritisni uklj., pritisni isklj.&#xD;
+Sklopka – pritisnuta uklj., otpuštena isklj.</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Senzor tlaka</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Senzor struje</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Senzor impulsa</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Obrni smjer motora</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Dozvola upravljanja</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Upravljač motora</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A/D pretvornik</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Senzor zakreta</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Obrni WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Vrati sve na zadano</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU os X ili Y</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Pametni WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Spremno</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Pouzdanost: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Uzorci: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Upravljanje unatrag?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Unutra</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Van</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Kompenzacija okreta</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Maks. brzina</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Ručni okreti</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Debljina linije</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>piksela</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Udaljenost pomaka</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Traka navođenja</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Traka upravljanja</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Uklj./Isklj.</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Svjetlosna traka</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm po pikselu</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Sekunde</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Vrijeme traženja sljedeće linije navođenja</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Čarobnjak</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Greška:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Nisko</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Bočni nagib: stupnjeva po stupnju valjanja</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Predviđanje (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Pojačanje predviđanja o brzini</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimum za pokret</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maksimum</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Vozi ravno naprijed i dodirni Nula</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Senzor tlaka zakreta</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Senzor struje zakreta</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Obrnuti relej uključenja hidraulike?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Način dozvole upravljanja</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Koja je vrsta upravljača motora?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Kako je spojen A/D pretvornik?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Impulsi zakreta</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Koristiš li Danfoss ventil?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Slobodna vožnja</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Pokreni čarobnjak</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Preporučeno</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Učitaj zadano</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Postavi međuosovinski razmak</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Postavi razmak kotača</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Razmak kotača</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Položaj&#xD;
+antene</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Postavi udaljenost antene od osi okreta</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Visina&#xD;
+antene</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Postavi visinu antene</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = isklj.</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Postavi pomak antene</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D pretvornik</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Pločica upravljača motora</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Upravljački relej</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfoss ventil</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Ako nije, odaberi Obrni valjanje</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Nagni vozilo jako udesno. Valjanje udesno mora biti POZITIVNO.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Funkcija valjanja</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Parkiraj na ravnoj površini i dodirni „Nuliraj valjanje”</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Nula valjanja</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Obrni smjer WAS-a</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Trenutni smjer:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>Nuliranje WAS-a</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Obrni smjer</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Smjer motora upravljanja</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Početak * kalibracije</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>Kalibracija WAS-a</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* PRESKOČI * Impulse po stupnju i Ackermann postavku?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Početni kut:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Vrati na 100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Ackermann vrijednost:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Postavi</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Okreni volan do željene granice za navođenje i dodirni OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Granica kuta upravljanja za navođenje</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Ili ručno postavi granicu kuta upravljanja za navođenje</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Funkcija automatskog otkazivanja</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Brzina paničnog zaustavljanja</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Nula</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Automatsko slanje: promjene parcele šalju se pri zatvaranju&#xD;
+Učitavanje iz oblaka: pri otvaranju uvijek se preuzima najnovije s AgSharea</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R – Poništi simulator&#xD;
+U – Okret (180 stupnjeva)&#xD;
+&#xD;
+Strelica gore – Brže&#xD;
+Strelica dolje – Sporije&#xD;
+Strelica lijevo – Lijevo&#xD;
+Strelica desno – Desno&#xD;
+&#xD;
+( . ) Točka – Stani&#xD;
+( / ) Kosa crta – Ravno</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Ova se udaljenost pomaka dodaje širini i dužini i sprema u datoteku FIELD.KML pri zatvaranju parcele.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Postavke vozila sada se zovu „profili” i&#xD;
+mogu se izraditi/učitati u glavnom izborniku (gore lijevo).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Dodirni tipke s lijeve strane koje želiš imati u izborniku (desna strana). &#xD;
+&#xD;
+Redoslijed kojim ih pritisneš bit će redoslijed u izborniku odozdo prema gore.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Okreni volan UDESNO oko 20 stupnjeva.&#xD;
+Dok voziš u ravnomjernom krugu, pritisni Rec i pričekaj.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Tipka – pritisni i otpusti: uklj.   &#xD;
+               pritisni i otpusti: isklj.&#xD;
+&#xD;
+Sklopka – dok je pritisnuta: uklj. &#xD;
+               otpuštena: isklj.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Vozi polako i uključi autopilot. Obrni smjer ako se motor upravljanja okreće pogrešno.&#xD;
+Isprobaj strelicama.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Kut upravljanja mora biti POZITIVAN pri okretu UDESNO.&#xD;
+Ako nije, odaberi Obrni WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Okreni volan ULIJEVO otprilike isto stupnjeva kao udesno.&#xD;
+Dok voziš u ravnomjernom krugu, pritisni Rec i pričekaj.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Promijeni zadanu vrijednost tipkama upravljanja. &#xD;
+&#xD;
+Postavi minimalni pokret što više, a da motor upravljanja ili hidraulika ne pomiču upravljač</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Sada vozi po AB liniji i fino podesi postavke prema brzini i uvjetima tla.&#xD;
+&#xD;
+Zapamti: CPD, Min PWM i predviđanje ključne su postavke.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Stari profili imali su sve postavke u jednoj datoteci. Novi format odvaja vozilo, alat i okruženje. Odaberi što želiš izdvojiti.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Ažuriranje firmwarea&#xD;
+&#xD;
+Ova je funkcija u razvoju.&#xD;
+&#xD;
+Buduće mogućnosti:&#xD;
+&#xD;
+• Odabir firmware .hex datoteke&#xD;
+• Odabir komunikacijskog porta (iz AgIO postavki)&#xD;
+• Pokretanje TeensyLoaderCLI s parametrima&#xD;
+• Učitavanje firmwarea na Teensy uređaj&#xD;
+• Prikaz napretka&#xD;
+&#xD;
+Integracija TeensyLoadera:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Nema</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Sklopka</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Tipka</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Odaberi staru datoteku profila</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Odaberi za pretvorbu (vozilo i/ili alat)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Prim.:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Stvarno:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/h</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ h</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/h</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Vozi polako ravno naprijed i pusti sustav da upravlja</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Postavka minimalnog pokreta</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Nula ili +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Postavi proporcionalno pojačanje za dobar odziv. &#xD;
+Postavi PWM maksimum za ograničenje brzine okretanja.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Vozi naprijed i uključi autopilot</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Postavka pojačanja</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Ponovno pokreni čarobnjak</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Gotovo!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Napredak:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Impulsa/stup.</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>Pomak WAS-a</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Smjer:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Korigirana istočna koord.</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Udaljenost korekcije</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Valjanje (stupnjevi)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Pomicanje uklj./isklj.</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Stup</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Glatko</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Izravno</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Ponašanje kamere</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Vrati na zadano</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 do -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 do -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Vozilo: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Alat: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Okruženje: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Okruženje</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Sustav / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Zadana vrijednost</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Stvarno</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Unesi naziv parcele</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Površina:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Točke:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Dostupni tragovi</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Dostupne parcele</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Uvezi</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Poništi odabir</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Odaberi sve</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Odaberi parcelu s lijeve strane, zatim odaberi tragove za kopiranje</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Naziv parcele</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Izlaz u Windows za:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Gašenje za:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Gašenje</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Odaberi/poništi tragove za korištenje</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Skrati B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Skrati A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Produži B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Produži A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Dalje</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Natrag</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Auto traženje</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Parcela</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Prepiši</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Preuzmi odabrano</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Preuzmi sve</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Preuzimanje... Pričekaj</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Duž.:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Šir.:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Udaljenost do oznake:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Točka A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Uvezi oznake</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Izvezi oznake</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Međe</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Prolazna?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Površina</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Razmak (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Dodaj točke</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Točke za obradu:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Točke</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare slanje</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare preuzimanje</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Iz KML-a</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Otvori</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Ulazak</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Nastavi</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Postojeća</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Nova parcela</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Prethodna parcela</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Radna širina</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Nova međa</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Pozadina</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Naziv parcele</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Pošalji odabrano</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Uredi naziv parcele</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Linije</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Mapiranje</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Oznake</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Sortiraj</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Preostalo:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Norma:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Ukupno:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Obrađeno:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Obrađeno</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Udalj.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Putovanje</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Udaljenost (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Koristi odabrano</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Koristi odabrano</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Obriši parcelu</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Naziv snimke</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Obriši snimku</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Putanja isklj.</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Noć</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Trenutno: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Odabrano: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Antena–os okreta:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Pomak antene:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Razmak kotača:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Spoj:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Vučna spojnica:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Učitaj</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Pretvori stare profile</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Okruženja</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Naziv datoteke</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Pretvori stare datoteke profila u novi format</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Pretvori</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>2. korak: odaberi za pretvorbu (vozilo i/ili alat):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Pretvori alat</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Naziv profila alata:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Naziv profila vozila:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Pretvori vozilo</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>1. korak: odaberi staru datoteku profila:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Izradi</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopiraj iz:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Neispravno:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS samostalno:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Procjena:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Ručno:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim.:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Nepoznato:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Starost:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Nema mrežne veze.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Spojeno. Čekanje korekcija.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Korekcije su stale. Ponovno spajanje.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Spojeno, ali ništa ne stiže. Neke usluge trebaju tvoju poziciju: provjeri je li slanje GPS pozicije uključeno.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Usluga je prekinula vezu. Ponovno spajanje.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Usluga je prekinula vezu bez slanja korekcija.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Primanje korekcija</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Usluga je poslala odgovor koji AgIO ne može pročitati.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Usluga nije poslala popis mountpointova.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Usluga je poslala prazan odgovor.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Ovaj mountpoint ne postoji na usluzi. Odaberi jedan s popisa.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Ova adresa odgovara web stranicom, a ne NTRIP uslugom. Provjeri adresu i port.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Korisničko ime, lozinka ili mountpoint nisu ispravni.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Ovaj mountpoint ne postoji na usluzi. Provjeri pravopis, razlikuju se velika i mala slova.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Usluga trenutno ne može primiti novu vezu. Zauzeta je ili se ova prijava već koristi.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Usluga se pokreće. AgIO će ponovno pokušati za otprilike minutu.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Ova usluga traži tvoju e-mail adresu kao korisničko ime.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Korisničko ime ili lozinka nisu ispravni.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Usluga je odbila pristup.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Usluga je odgovorila nečim što AgIO ne razumije.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Radio je otvoren. Čekanje korekcija.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Radio je otvoren, ali ništa ne stiže.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Primanje korekcija s radija.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Ponovno na glavnoj usluzi</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Korekcije ponovno dolaze s glavne usluge.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Glavna usluga je ponovno dostupna</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Vratiti se na nju? GPS bi na trenutak mogao izgubiti RTK. AgIO se nikad ne vraća sam.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Glavna usluga ima problem</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Prebačeno na rezervu</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Prebacio si na rezervu.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>nema korekcija</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Sve u redu: korekcije stižu.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profil nema naziv.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS opažanja (stari format)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS opažanja (stari format)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>vlasnički</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>pozicija baze</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>pozicija baze + visina antene</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>opis antene</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>parametri sustava</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS efemeride</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS efemeride</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>opis prijemnika i antene</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou efemeride</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS efemeride</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo efemeride</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS odstupanja kodne faze</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>tekst</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>prazno</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Pritisni novi prečac</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Pritisni tipku za uređivanje prečaca</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Nije spojeno</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Postavi udaljenost, 2: Dodirni Izradi, 3: Izradi linije skraćivanja</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE grafikon</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Vozi ravnomjerno</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Spremno za primjenu</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Prikupljanje...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Greška, CPD postavljen na 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann postavljen na:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Greška, Ackermann postavljen na 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Odaberi kvadrat ispod i izaberi novu boju</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Odaberi unaprijed zadanu boju</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Izaberi novu boju i odaberi kvadrat ispod za spremanje</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Mapa parcela nije pronađena</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Greška pri učitavanju parcela</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Na ovoj parceli nema tragova</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Greška pri učitavanju tragova</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Spremanje trenutnih tragova...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Pretvaranje tragova...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Spremanje tragova...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Odabrana parcela:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Greška pri učitavanju parcela:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Jednostavna vožnja aktivna</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Učitaj okruženje:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Vozilo:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Alat:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Okruženje:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Kritična greška pri spremanju</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Greška pri gašenju</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Smjer poništen</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Naprijed je postavljeno</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Autopilot isključen</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Prozor pomaka je otvoren</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Zatvori prozor pomaka</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Upozorenje: velika udaljenost od početka parcele</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare slanje nije uspjelo</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Došlo je do greške pri pokretanju slanja na AgShare.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Došlo je do greške tijekom slanja na AgShare.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Parcela NIJE spremljena</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Spremanje parcele nije uspjelo pa je ostala otvorena. Provjeri slobodan prostor na disku i pokušaj ponovno.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Način nastavka</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Zadnje mjesto zaustavljanja</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Najbliža točka</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Počni od početka</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Ne može se koristiti sa zonama</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Samo za sekcije</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Jednostavna vožnja</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Profili nisu dostupni u načinu Jednostavna vožnja</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Sekcije su uključene</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Prvo isključi auto ili ručni način</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Poništi smjer</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Vozi naprijed brže od 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autopilot isključen</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>Alarm RTK fiksa</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Trag promijenjen</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Putanje uključene</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Simulator: vožnja unatrag aktivirana</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Prečac aktiviran</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Postavke poslane modulu upravljanja</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Povratak iz uređivanja</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Ažuriranje nije pronađeno. Provjeri nalazi li se AgOpenGPS.Updater.exe u mapi programa.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Ažuriranje nije pronađeno</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Nema dovoljno točaka za izradu međe</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Nije moguće izračunati središte parcele. Nedostaje vanjska međa ili AB linija.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Ne može biti više zona nego sekcija</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulator je isključen</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulator ne radi dok se koristi prava antena</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Vraćeno na zadano</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Vrijednosti su vraćene na početno zadane</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Izvan raspona</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Pomak je prevelik – nije moguće primijeniti</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Pametno nuliranje WAS-a</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Zadano postavljeno</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD i Ackermann vraćeni na zadano</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>Promjena P pojačanja</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proporcionalno pojačanje postavljeno na 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profili izrađeni</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Zadani profili su izrađeni</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Postavke okruženja su poništene!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Postavke okruženja su učitane!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Datoteke profila nisu pronađene!
+
+Profili iz registra nisu pronađeni.
+Odaberi ili izradi nove profile.
+
+Ako ništa ne odabereš, okruženje će koristiti zadane vrijednosti.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Nema profila.
+
+Koristi 'Novo' za izradu profila vozila i alata.
+
+Ako ništa ne odabereš, okruženje će koristiti zadane vrijednosti.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Ozbiljna greška ishodišta parcele&#xD;
+&#xD;
+Ishodište parcele udaljeno je više od 20 km od trenutne GPS pozicije. Obriši ovu parcelu i izradi novu jer će točnost biti slaba&#xD;
+&#xD;
+Ili si možda otvorio parcelu i odvezao se daleko</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Upozorenje: zatvaranjem AgIO-a prekida se komunikacija s hardverom.&#xD;
+Jesi li siguran da želiš zatvoriti?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Oboje</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Neaktivno</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Auto sakrivanje</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto&#xD;
+pokretanje</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Trenutni profil</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Trenutni profil</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Novi profil</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Novi:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Korišteni profil:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: upravljanje profilima</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Prepiši ovaj profil:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Napredne postavke</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS postavke</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Postavke serijskog prosljeđivanja</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Serijsko prosljeđivanje uklj.</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>RTCM na drugom portu od GPS-a?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Pokreni smanjeno</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO se otvara pri upozorenju</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>GPS-Out auto pokretanje</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Prikaži&#xD;
+pri&#xD;
+upozorenju</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Dnevnik događaja</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Dnevnik</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Serijski monitor</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP monitor</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN vodič</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Vodič -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Tipkovnica</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Ovdje ide tekst poruke</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO poruka</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo poruka</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Zaustavi</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Pokreni</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP detalji</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP je isključen</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>REZERVA U UPORABI</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Jesu li korekcije dobre?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Prebaci na rezervu</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Ponovno pokušaj glavnu uslugu</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Vrati na glavnu</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Spojeno, čekanje podataka</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Spajanje...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint nije pronađen</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Prijava nije uspjela</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Zaustavljeno</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Usluga se pokreće</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Usluga je zauzeta</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Spojeno, ništa ne stiže</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Nema mreže</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Ponovno spajanje...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Odgovor usluge nije razumljiv</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Usluga nije dostupna</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Korekcije stižu</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Ovaj tok nije moguće detaljno provjeriti.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Pozicija bazne stanice primljena</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Pozicija bazne stanice</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Čekanje. Stiže svakih 10 sekundi.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Nedostaje pozicija bazne stanice</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>RTK se ne može pokrenuti bez nje.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Još nije primljeno.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Udaljenost do bazne stanice</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Čekanje tvoje GPS pozicije.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Predaleko za dobar RTK. Odaberi bližu baznu stanicu.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Daleko. RTK je na ovoj udaljenosti manje točan.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Iz fiksne pozicije u NTRIP postavkama.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Sateliti u korekcijama</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Nema podataka o satelitima u korekcijama</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Bazna stanica ne šalje opažanja.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Još ništa nije primljeno.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Svježi podaci</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Čekanje prvih podataka.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Podaci kasne</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Nema novih podataka</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Tvoj GPS: RTK fiksan</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Tvoj GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Još određuje poziciju. Pričekaj trenutak.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Tvoj GPS: još nema RTK-a</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Samo uobičajena GPS točnost.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Tvoj GPS nema fiks</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Tvoj GPS je u ručnom načinu ili načinu simulatora</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Nema adrese</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Prvo unesi adresu.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Nema porta</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Spremanje nije uspjelo</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Greška pri otvaranju porta</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP se još ne može koristiti</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Prvo odaberi profil i dodirni Koristi.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Profil u uporabi još nema adresu usluge ni radio port. Prvo ga uredi.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Nije moguće pročitati</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Ova datoteka profila nije se mogla pročitati.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Preimenovanje nije moguće</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Taj naziv već postoji.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Upozorenje pri učitavanju profila</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Oporavak profila</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>AgIO profil oporavljen je iz .last sigurnosne kopije jer glavna datoteka nije bila čitljiva.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Datoteka spremljena</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Neispravan ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Neispravan naziv</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Naziv nije unesen</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Neispravna frekvencija</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Frekvencija nije unesena</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Nema kanala</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Radio je uključen, ali kanal nije odabran</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP je također uključen</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP je također uključen, isključujem ga</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO koristi zadani profil</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Koristi se zadani profil</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Radio NTRIP uklj.</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Serijski NTRIP uklj.</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Serijsko prosljeđivanje NTRIP uklj.</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Uključi NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Greška pri spajanju na serijsko prosljeđivanje</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Greška pri spajanju na radio</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP postavljen</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Datoteka nije pronađena</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Unesi naziv datoteke za spremanje...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Spremi i vrati se</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Spajanje na port nije uspjelo</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Veza je već prekinuta?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Veza je već prekinuta??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Nema aktivnog Arduino porta</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Ozbiljna greška mrežne veze</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Kritična greška registra</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Nije moguće obrisati podključeve registra</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController nije instaliran??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Radio je uključen. Prvo ga isključi u postavkama radija.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Serijsko prosljeđivanje je uključeno. Prvo ga isključi.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP je uključen. Prvo ga isključi na popisu NTRIP profila.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Udaljenost</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Obriši</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Greška&#xD;
+poruka</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Poruka 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Modul 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Serijski monitor – baud: Teensy – 115200   Arduino – 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Pošalji $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Pošalji $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Valjanje: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Upravljanje: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP izlaz</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Fiksna pozicija</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Druga NTRIP usluga</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automatski</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Oboje</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Rezerva</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Prebacujem sam</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Glavna usluga</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Moja AIO ploča (mreža)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Moj GPS prijemnik (serijski)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Moja GPS pozicija</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP usluga</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Izlaz i pozicija</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Serijski radio</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Prebacuje se samo</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>U UPORABI</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>U UPORABI</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>GLAVNA USLUGA</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>REZERVA</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Isključeno. Druga usluga se ne koristi.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(još nema porta)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Prebacuješ ručno</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Sirovi TCP (bez mountpointa i prijave)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Mountpoint nije odabran</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Još nije uneseno</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Treba tvoju poziciju</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Mjesto</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(još nije spremljeno)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Prvo odaberi port radija.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Odaberi port radija za korištenje rezerve</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Unesi podatke castera za korištenje rezerve</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Još nema profila.&#xD;
+&#xD;
+Dodirni Novi profil za izradu.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Ovaj profil još nije popunjen.&#xD;
+Dodirni Uredi za unos glavne usluge.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>NTRIP profil još nije odabran. Odaberi ili izradi jedan u NTRIP postavkama.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>U NTRIP profilu odaberi port glavnog radija.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP je ponovno dostupan</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Korekcije ponovno stižu.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP prijava odbijena</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP mountpoint nije pronađen</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP caster zauzet</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP bez korekcija</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP tok izgubljen</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP nije spojen</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP isklj.</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP sluša</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Problem s vezom</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Spajanje na caster nije uspjelo</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>IPv4 adresa nije pronađena</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP veza nije uspjela</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP veza odbijena</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Caster je prekinuo vezu bez slanja podataka (provjeri mountpoint i pristupne podatke)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP klijent nije postavljen</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Odaberi postojeći ili izradi novi profil</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Izradi ili odaberi profil</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Isključi ga prije korištenja serijskog prosljeđivanja</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Isključi ga prije korištenja NTRIP-a</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Isključi ga prije korištenja radio NTRIP-a</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Radio NTRIP uklj.</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Nove vrijednosti su primijenjene</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP uklj.</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP je uključen</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO će se ponovno pokrenuti radi uključivanja UDP mreže</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO će se ponovno pokrenuti radi isključivanja UDP mreže</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim će se ponovno pokrenuti radi primjene promjena UDP mreže</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Ručni IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Greška ažuriranja</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS ažuriranje</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Pričekaj...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Pričekaj</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Pričekaj da se trenutna radnja završi.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Provjera izdanja na GitHubu...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Provjera USB pogona...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>Na USB pogonu nema ažuriranja.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Zatvaranje AgOpenGPS-a i AgIO-a...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Programi su zatvoreni</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Preuzimanje s GitHuba...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Preuzimanje nije uspjelo</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Preuzimanje nije uspjelo</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopiranje s USB-a...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopiranje nije uspjelo</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopiranje nije uspjelo</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Instalacija nije uspjela</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Instalacija nije uspjela</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Gotovo! Ponovno pokretanje...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Gotovo!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Ažuriranje je otkazano.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Nema bilješki o izdanju.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Kandidat za izdanje</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Preuzimanje nije uspjelo: veličina datoteke ne odgovara izdanju.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Preuzimanje nije uspjelo: kontrolni zbroj ne odgovara izdanju, datoteka nije instalirana.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>U ovom izdanju nema odgovarajuće datoteke za preuzimanje.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Druga instanca ažuriranja već je pokrenuta.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Nijedan program nije bio pokrenut.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Programi su uspješno zatvoreni.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Datoteka ažuriranja nije pronađena.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Mapa instalacije ne postoji.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Izrada sigurnosne kopije...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Raspakiravanje datoteka...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Instalacija datoteka...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe nije pronađen u mapi instalacije.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS je uspješno ponovno pokrenut.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Provjeri ažuriranja</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Instaliraj ažuriranje</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Uključi pretizdanja</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Ažuriranje firmwarea</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS ažuriranje firmwarea</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS ažuriranje</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Bilješke o izdanju</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Prikaži bilješke o izdanju</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Bilješke o izdanju prikazat će se ovdje.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Trenutna verzija: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Najnovija verzija: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Najnovija verzija: ažurno</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Web ažuriranje – klikni Provjeri ažuriranja</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Web ažuriranje (GitHub izdanja)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Web ažuriranje (dostupno i lokalno)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Lokalno: na USB-u nema AgOpenGPS_*.zip</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Lokalno: stavi AgOpenGPS.zip u korijen USB pogona</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController nije instaliran, preuzmi ga s:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Korisnici Linuxa</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Samo za Linux!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Izlaz</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profil nije u potpunosti učitan (datoteka je možda oštećena).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profil je oporavljen iz .last sigurnosne kopije jer glavna datoteka nije bila čitljiva.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Prvo odaberi port glavnog radija.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Prvo unesi adresu glavne usluge.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Ili isključi NTRIP na popisu profila.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Za popravak idi na Postavke -&gt; COM portovi</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Trenutna sesija koristi zadane vrijednosti umjesto nedostajućih/neispravnih.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIO profil nije u potpunosti učitan (datoteka je možda oštećena).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIP profil "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" nije na ovom računalu. Odaberi ili izradi profil u NTRIP postavkama.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" još nema adresu usluge.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Ni rezerva ne radi:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Nema korekcija već</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO nastavlja pokušavati.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> sekundi</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minuta</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>REZERVA U UPORABI: glavna usluga se sada ne koristi</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>ID bazne stanice:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Pozicija:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Oštećeni podaci:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Usluga je odgovorila:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Spajanje za</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Nije moguće razriješiti adresu castera:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Simulirani podaci</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   NEMA PODATAKA</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Ažuriranje se mora pokrenuti iz AgOpenGPS-a.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Prvo pokreni AgOpenGPS i koristi:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Izbornik → Alati → Provjeri ažuriranja</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>To je potrebno za prepoznavanje trenutne verzije.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Instaliraj ažuriranje iz</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Izvor:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Ovo će:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Zatvoriti AgOpenGPS i AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Izraditi sigurnosnu kopiju trenutne instalacije</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Instalirati ažuriranje</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Ponovno pokrenuti AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Želiš li nastaviti?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Datoteka ažuriranja nije pronađena.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Stavi AgOpenGPS_X.Y.Z.zip u korijen USB pogona.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Ažuriranje nije uspjelo: {0}
+Sigurnosna kopija je vraćena.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Ažuriranje nije uspjelo: {0}
+Vraćanje sigurnosne kopije također nije uspjelo!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Ažuriranje nije uspjelo: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Sigurnosna kopija je vraćena.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Vraćanje sigurnosne kopije također nije uspjelo!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Ažuriranje je uspješno instalirano.
+{0}
+Sigurnosna kopija: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Dostupno ažuriranje: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Prebacuje se samo nakon {0} neuspjelih pokušaja</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpointova, najbliži prvi.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpointova.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Nije moguće pronaći {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Provjera nije uspjela: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>Primljeno {1} kB</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Zadnji podaci prije {1d} sekundi.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Zadnji podaci prije {1d} sekundi. Spora veza?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Korekcije su stare {1d} sekundi.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Udaljenost do bazne stanice: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Tvoj GPS: tip fiksa {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} aktivno (stari klijent)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} aktivno</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (stari klijent)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Otvaranje {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: čekanje podataka</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profil: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Spremljeno u: {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Prepisati profil: {1}?</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID '{1}' nije ispravan broj</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Došlo je do greške: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP greška: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Greška pri učitavanju: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Aktiviraj</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Aktivirano</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>API ključ</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Učitavanje iz oblaka</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Automatski prijenos</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Automatski prijenos: prenosi promjene polja pri zatvaranju
+Učitavanje iz oblaka: pri otvaranju uvijek preuzmi najnovije s AgShare</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Povezivanje...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Veza uspješna</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Deaktivirano</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Unesite poslužitelj i API ključ, zatim testirajte vezu</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Neispravan API ključ</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Samo lokalno</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Zalijepi iz međuspremnika</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Registrirajte se ovdje za korištenje AgSharea</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Postavke spremljene</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Poslužitelj</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare postavke</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Testiraj vezu</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Prijenos isključen</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Prijenos uključen</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Polja se automatski učitavaju iz oblaka</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Polje učitano s AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Polje nije moguće učitati iz oblaka, koristi se lokalna verzija.</value>
+  </data>
+  <data name="gsAgree" xml:space="preserve">
+    <value>Slažem se</value>
+  </data>
+  <data name="gsCopyFrom" xml:space="preserve">
+    <value>Kopiraj iz</value>
+  </data>
+  <data name="gsCreateNewProfile" xml:space="preserve">
+    <value>Izradi novi profil</value>
+  </data>
+  <data name="gsDiscourseForum" xml:space="preserve">
+    <value>Discourse forum</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Brzi početak s GPS navođenjem. Postavite radnu širinu i duljinu spojnice, zatim izradite AB liniju ili krivulju. Ništa se ne sprema na disk.</value>
+  </data>
+  <data name="gsEmptyProfile" xml:space="preserve">
+    <value>Prazan profil</value>
+  </data>
+  <data name="gsLoad" xml:space="preserve">
+    <value>Učitaj</value>
+  </data>
+  <data name="gsLoadProfile" xml:space="preserve">
+    <value>Učitaj profil</value>
+  </data>
+  <data name="gsName" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="gsNew" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Dalje</value>
+  </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Okruženje</value>
+  </data>
+  <data name="gsProfileMenuHint" xml:space="preserve">
+    <value>Postavke vozila, alata i okruženja sada se spremaju kao zasebni profili.
+Učitajte ih iz Config panela i izbornika gore lijevo.</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Postavke okruženja</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Postavke okruženja spremljene.</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>Postavke vozila</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>Postavke vozila spremljene.</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>Postavke alata</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>Postavke alata spremljene.</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Automatski kalibrira WAS nulu analizom kutova upravljanja tijekom vožnje. Uključite autosteer i vozite mirno po liniji.</value>
+  </data>
+  <data name="gsYouTubeTutorials" xml:space="preserve">
+    <value>YouTube tutoriali</value>
+  </data>
+  <data name="gsCurrentVehicle" xml:space="preserve">
+    <value>Trenutno vozilo</value>
+  </data>
+  <data name="gsCurrentTool" xml:space="preserve">
+    <value>Trenutni alat</value>
+  </data>
+  <data name="gsSelected" xml:space="preserve">
+    <value>Odabrano</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Zakretište antene</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>Širina traga</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Pričvrsti</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Vučena spojnica</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>Spojnica</value>
+  </data>
+  <data name="gsVehicle" xml:space="preserve">
+    <value>Vozilo</value>
+  </data>
+  <data name="gsTool" xml:space="preserve">
+    <value>Alat</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>Kombajn</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Zglobno</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>Prednji</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Stražnji fiksni</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Vučeni</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>Vozilo se koristi</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>Nije moguće obrisati aktivno vozilo</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>Obriši vozilo</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>Preimenuj vozilo</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>Unesite novi naziv vozila</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>Vozilo već postoji</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>Alat se koristi</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>Nije moguće obrisati aktivni alat</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>Obriši alat</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>Preimenuj alat</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>Unesite novi naziv alata</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>Alat već postoji</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>Greška pri učitavanju vozila</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>Greška pri učitavanju alata</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Rezultat</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>Novo vozilo</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Unesite naziv vozila</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>Novi alat</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Unesite naziv alata</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Izradi zadano vozilo</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Izraditi profil vozila 'Default' s tvorničkim postavkama?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Prepiši</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Profil već postoji. Prepisati</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Izradi zadani alat</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Izraditi profil alata 'Default' s tvorničkim postavkama?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Zadano vozilo učitano</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Zadani alat učitan</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Pretvori stare profile</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Vozilo / Alat</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Pretvori stare profile u novi format</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Stari profili sadržavali su sve postavke u jednoj datoteci. Novi format odvaja vozilo, alat i okruženje. Odaberite što želite izdvojiti.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>Korak 1</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>Korak 2</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Naziv profila vozila</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Naziv profila alata</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Uvezi vozilo</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Uvezi alat</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Bez uvoza</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Nema datoteka u starom formatu.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>starih datoteka</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>starih datoteka: pretvoreno, za pretvorbu</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>pretvoreno</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>za pretvorbu</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Pretvori</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Potvrdi pretvorbu</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Pretvoriti '{0}': {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Pretvori</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Vozilo</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Alat</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Pretvorba završena</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Uspješno pretvoreno</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Postavke okruženja uvezene su i učitane.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Pogreške pri pretvorbi</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Došlo je do pogrešaka</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Učitaj vozilo/alat</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Postoji</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Naziv datoteke</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Preimenuj</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Vozilo već postoji</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Alat već postoji</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CAN sabirnički adapter</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Mrežna adresa modula -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Potrebno je ponovno pokretanje</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Prijenos dovršen</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Greška pri učitavanju staze</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Izradi granicu iz staza</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Uvezi staze iz drugog polja</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS poruka</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Pomakni GPS poziciju (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Laka vožnja: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Crtaj AB – za početak klikni 2 točke na granici</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Bez naziva</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 točke – poravnaj mrežu</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Stvori novi zapis</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Učitaj okruženje</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML greška</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antena</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Diferencijal</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Pojedinačno</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD postavljen na: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Greška primanja podataka: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Greška slanja: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Greška slanja podataka: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP poslužitelj</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Službeno</value>
   </data>
 </root>

@@ -606,7 +606,7 @@ Ordinea în care le apăsați va fi ordinea în care apar în meniu de jos în s
     <value>Fuziune</value>
   </data>
   <data name="gsInches" xml:space="preserve">
-    <value>Inch</value>
+    <value>Inci</value>
   </data>
   <data name="gsInner" xml:space="preserve">
     <value>Interior</value>
@@ -1188,7 +1188,7 @@ UTILIZAȚI PE PROPRIUL RISC.</value>
     <value>Versiunea</value>
   </data>
   <data name="gsWasZero" xml:space="preserve">
-    <value>WAS Zero</value>
+    <value>Zero WAS</value>
   </data>
   <data name="gsWebCam" xml:space="preserve">
     <value>Cameră web</value>
@@ -1266,8 +1266,8 @@ UTILIZAȚI PE PROPRIUL RISC.</value>
     <value>Mediu</value>
   </data>
   <data name="gsProfileMenuHint" xml:space="preserve">
-    <value>Vehicle, Tool and Environment settings are now stored as separate profiles.
-Load from Config panel &amp; Top Left Menu.</value>
+    <value>Setările vehiculului, uneltei și mediului sunt acum stocate ca profiluri separate.
+Încărcați din panoul Config și din meniul din stânga sus.</value>
   </data>
   <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
     <value>Setări mediu salvate.</value>
@@ -1526,5 +1526,4585 @@ Load from Config panel &amp; Top Left Menu.</value>
   </data>
   <data name="gsSaveEnvironmentSettings" xml:space="preserve">
     <value>Setări mediu</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Salvare</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Salvare ca:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Editare</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Redenumire</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Reîmprospătare</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Implicit</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Ieșire</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Deschide:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Alege</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Alege din listă...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Se încarcă lista...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Gata...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Copiere</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Copiat</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Nu s-a putut copia</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Copiere pentru suport</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Stare</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Opțiuni</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Arată</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Pornit</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Oprit</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Folosește</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Doar</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Sau</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Timp</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Ori</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Curent</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Descriere</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Comandă</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Răspuns</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filtru</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Introdu valoarea</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Introdu o valoare</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Introdu o valoare</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Conectare</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Deconectare</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Neconectat</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Conectare automată</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Conectare GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Port serial</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>Port GPS</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>Port GPS 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>Port RTCM</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Port de rețea</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radio pe portul</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Viteză (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adresă</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>Adresă IP</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>Adresă IP : port</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Nume gazdă</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Nume gazdă:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Parolă</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Utilizator</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Subrețea curentă</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Setează</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Introdu adresa noii subrețele</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Completare automată</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Niciun adaptor pentru această subrețea</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Rețea</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Configurare Ethernet</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Pornește UDP și apasă OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP este oprit</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP oprit</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Rată de transfer</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Ultima dată</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Conectat</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Oprit la %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Unghi de direcție constant!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>În mișcare</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A și B inversate</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>De la A la Z și de la 0 la 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS rulează deja</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Totul e verde? Apasă Construiește sau corectează manual!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Doar litere și cifre</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>A apărut o eroare neașteptată, scrisă în jurnalul de evenimente. AgOpenGPS continuă să ruleze.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>Eroare BingMap</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Mod creare limită</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Construirea a eșuat</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Eroare buton</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Nu se poate șterge subcheia din registry</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Capturat</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Copiat în clipboard, lipește (CTRL-V) în Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Creează mai întâi o cale</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Eroare la creare</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Eroare intersecții</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Nu s-au găsit intersecții</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Curba este inversată</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Eroare distanță</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Distanța este 0, nimic de mutat</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Activează comutatorul de direcție</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Acest mediu este în uz</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Eroare la căutarea lat/lon</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Eroare, verifică formatul</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Eroare la importul traseelor:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Excepție</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Unghi de direcție prea mare - nu se poate zero</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Descărcarea previzualizării câmpului a eșuat. Vezi detalii în jurnal.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Descărcarea câmpului a eșuat.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Încărcarea listei de câmpuri a eșuat.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Încărcarea listei de câmpuri a eșuat.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Încărcarea listei de câmpuri a eșuat:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Încărcarea traseelor a eșuat:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Câmp salvat, dar nu a putut fi deschis (lipsește Field.txt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Se caută intersecții...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Termină setarea tuturor sau revino la implicit</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Steaguri adăugate!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Steaguri salvate!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Tastă rapidă incompletă</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Linie nevalidă</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Selecție nevalidă.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Poate există doar 1 linie?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Eroare linie</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Eroare la încărcare:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Asigură-te că toate capetele se intersectează, o singură dată</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Hartă prea mare</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Max 164 picioare</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Max 50 metri</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Trebuie să fie peste 5 grade</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Nicio cale înregistrată</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Nicio selecție</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Niciun câmp deschis momentan.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Niciun câmp selectat.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Nu s-au găsit trasee.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Nu s-a putut genera o limită validă</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Nicio limită validă de salvat</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Nu sunt adăugate destule butoane</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Problemă la fișier opțional</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Alege un câmp înainte de salvare.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Alege mai întâi un câmp.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Alege cel puțin un câmp de încărcat</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Alege cel puțin un traseu de importat.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Așteaptă finalizarea încărcării</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Eroare la salvare</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Alege alt mediu</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Setat la 99, max 164 picioare</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Setat la 99, max 50 metri</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Punctul de start = punctul final</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Unghi de direcție prea mic</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Direcția este dezactivată</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Succes!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Succes</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Câmpul a fost șters local, dar nu a putut fi eliminat din AgShare.
+Elimină-l manual.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Prea lat</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Eroare utilaj</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Atinge harta pentru a crea limita</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Info traseu</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Ajustarea traseului a eșuat:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Încărcarea este deja în curs</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Încărcare în curs</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Folosește doar linie AB sau curbă</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Atenție</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Utilajul tău este prea mic</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Se caută</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Răspuns modul</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Căutare module</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Simulator module</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Manager dispozitive</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Verifică conexiunea</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Poziție trimisă</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Ce a sosit</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>încercări eșuate</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Trimite la fiecare (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Trimite GSA gol</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Trimite NTRIP la GPS prin:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM serial</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Folosește USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Folosește web</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>Setări NTRIP</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>Detalii NTRIP</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>Profiluri NTRIP</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>Versiune NTRIP</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>Erori NTRIP</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Alege un profil NTRIP</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Folosește clientul NTRIP</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Folosește vechiul client NTRIP</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Flux TCP brut</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpointuri</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Alege stația de bază cea mai apropiată de câmp.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Corecțiile merg la</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Folosește un serviciu de rezervă când cel principal cade</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Comută după</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radio (nu XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Canal radio</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Setări radio</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Canale</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Un radio serial nu este un serviciu NTRIP. Corecțiile sunt folosite pe măsură ce sosesc. Un serviciu de rezervă preia când radioul tace.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Latitudine</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Latitudine:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Longitudine</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Longitudine:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Lat</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Lon</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Altitudine</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Altitudine (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Elevație:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Elev</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Direcție</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Viteză</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Viteză:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Sateliți</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Sateliți:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value># Sateliți</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Calitate</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Calitate:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Calit. fix</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Vârstă</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Vârstă:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Dual</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Ruliu</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Ruliu corectat</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Ruliu:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Tangaj</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Giraţie</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Rată giraţie</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Decalaj</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simulează date</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simulat</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Precizie zecimale</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Cât de des</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Frecvență</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Date sistem</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>Stare AOG:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Direcție automată</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Direcție</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Direcție:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Modul direcție</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Buton direcție</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Comutator direcție</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Comutator direcție:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Ping direcție:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Configurare &#xD;
+direcție</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Setări&#xD;
+direcție</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>De la&#xD;
+AutoSteer</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Unghi țintă</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Unghi actual</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Unghi:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Utilaj</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Utilaj:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Modul utilaj</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Utilaj</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Ping utilaj:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Lucru</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Comutator lucru</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Lucru:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Comut.:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Activ. ridicare</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Ridic. hidr.</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Timp ridicare</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Timp coborâre</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Viteză min.</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>PWM min.</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>PWM mare</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>PWM mic</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Puls #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Număr pulsuri</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Pulsuri:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Releu activ sus</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Presiune</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Întoarcere</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Tehn.</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Activ</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Termeni și condiții</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>Tutoriale YouTube</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Forum Discourse</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Nu sunt de acord</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Sunt de acord</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Versiune:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Testare conexiune</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Introdu detaliile de mai sus și bifează testarea conexiunii</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>Cheie API:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Lipește din clipboard</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Înregistrează-te aici pentru a folosi AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Activare</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Încărcare automată</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Doar local</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Pe data viitoare!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Vehicul / Utilaj...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulator pornit</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Coordonate simulator</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Mod kiosk</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Resetează tot</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Resetare</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Asistenți</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Asistent direcție</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Grafice</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Grafic direcție</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Grafic orientare</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Grafic corecție ruliu</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Instrument limită</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Netezire curbă AB</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Ascunde căile de contur</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Cameră web</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Decalaj fix</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       sec</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Configurare</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Direcție automată</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Vezi toate setările</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Directoare</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>Date GPS</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Culori</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Culori multi-secțiune</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Taste rapide</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Limită</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Capăt de câmp</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Capăt de câmp (creare)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Linii tehnologice</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Linii tehnologice</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Șterge zona aplicată</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Steag după lat/lon</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Cale înregistrată</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Importă trasee</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Câmp curent</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulator</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Comută Auto Steer</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Atinge butonul pentru resetare&#xD;
+apoi apasă tasta nouă</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Schimbă linia</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Închide câmpul</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Actualizare</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Creează limită din hartă</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Direcție</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Viteză unghiulară max.</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Direcție în marșarier</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Comp. pantă laterală</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Direcție Arduino</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Pulsuri/grad</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>PWM direcție mare</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>PWM direcție mic</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>PWM direcție min.</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proporțional)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Viteză min. direcție</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Viteză max. direcție</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Limită viteză funcție</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geometrie</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Tip vehicul</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Ecartament</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antenă–pivot</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Sursă orientare</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Decalaj orient. dual</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dist. inversă dual</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Limită pas min.</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Pondere fuziune</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual ca IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Marcă</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Marcă tractor</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Marcă combină</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Marcă articulat</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Dimensiuni</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Lățime utilaj</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Suprapunere utilaj</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Decalaj utilaj</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Nr. secțiuni</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Cuplare remorcată</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Remorcare cisternă</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Remorcare–pivot</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Tip utilaj</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Remorcat</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Fix în spate</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>Este TBT</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>În față</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Secțiuni</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Secțiuni, nu zone</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Oprit la ieșire</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Secțiune rapidă</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Anticipare / sincronizare</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Anticipare pornită</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Anticipare oprită</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Întârz. oprire utilaj</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Anticipare ridic. hidr.</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Ctrl secț. capăt câmp</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Ghidare (per utilaj)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Distanță fixare</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Dist. fixare ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Dist. zonă moartă</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Orient. zonă moartă</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Întârz. zonă moartă</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley activ</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Câștig dist. Stanley</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Câștig orient. Stanley</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Integrală Stanley</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>Integrală PurePursuit</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Factor captare țintă</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Menținere țintă</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Multiplic. țintă</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Limită viteză mică</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Comutator lucru</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Comut. lucru direcție</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Acoperire min.</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Întoarcere (per utilaj)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Rază de viraj</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Dist. față de limită</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Lățime omisă</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Lungime extensie</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Stil întoarcere</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Netezire întoarcere</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Compensare întoarcere</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Afișaj / meniu</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Grilă pornită</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Lightbar pornit</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Linii ghidaj laterale</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure pornit</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Vitezometru pornit</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Lightbar, nu SteerBar</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Mod zi</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Tastatură pornită</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Imagine vehicul</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Textură pornită</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Luminozitate pornită</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Înregistrează altitudinea</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Oprește calculatorul</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Oprire la lipsa curentului</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>Pornire auto AgIO</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>Oprire auto AgIO</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Lightbar cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Zoom cameră</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Înclinare cameră</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Direcție automată</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Anticipare ghidare</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>AutoSteer pornit auto</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Contur constant</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Linii de ghidaj</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Nr. linii de ghidaj</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>Alarmă vârstă GPS</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>Este RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK oprește AutoSteer</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Alarmă salt fix</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Latitudine sim.</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Longitudine sim.</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>Monitor UDP ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Sunet</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Sunet întoarcere</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Sunet ridic. hidr.</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Sunet AutoSteer</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Sunet secțiuni</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Linii tehn.</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Treceri linii tehn.</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Transparență linii tehn.</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / global</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Marșarier pornit</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Comutare auto dual fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Viteză comutare auto</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Desenează pivotul</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Dist. capăt câmp pornită</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Spațiere utilaj limită</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Netezire utilaj limită</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Activ jos</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Secțiuni manuale</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Sistem lucru la distanță</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Direcție CL manual</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Dist. min. pas orient.</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare activat</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Încărcare activă</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Câmp public</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Altele</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Timp cadru (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Felie timp</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Calitate fix</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Sateliți urmăriți</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Propoziții UDP pierdute</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Orientare</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>Orientare IMU</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Orientare fix–fix</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Orientare fuzionată (grade)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Viteză unghiulară</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Aplicație</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Versiune</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Fișier vehicul</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Fișier utilaj</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Setare</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Toate setările</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Aceasta va crea și încărca noul profil.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Închide câmpul înainte de a rula actualizarea</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Steag nou</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Secțiune manuală</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Secțiune auto</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Fixare pe pivot</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Linie la stânga</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Linie la dreapta</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Setări vehicul</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Resetare &#xD;
+la implicit</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Secțiune sau zonă</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Tastă nouă</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Ecran complet&#xD;
+&#xD;
+NumPad1 - Secțiune manuală&#xD;
+NumPad0 - Secțiune auto</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Întrebare</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Est</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Nord</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Hz brut</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Cadru</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Pierdut</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix2Fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Nord (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Vest (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Est (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Sud (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Păstrezi decalajul și după închiderea câmpului?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Vehicul</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Utilaj</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Nume vehicul</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Tip:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Tractor</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Ampatament:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Antenă–pivot:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Decalaj antenă:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Cuplaj:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Nume utilaj</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Lățime:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Secțiuni:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Decalaj:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Suprapunere:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Anticipare:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 sec</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Deplasare linie:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Lățime linie tehn.:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Unități:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metric</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Alege tipul vehiculului</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Opacitate</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Fără imagine</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Deocamdată</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>În fișier</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Taie linia</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Mărește</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Creare</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Transparență</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Nume fișier</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Introdu numele înregistrării</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; OPRIT &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Stare:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Adaugă nume</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Curbă</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Editează nume</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Pivot</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + curbă</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>Linie AB</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Lat/Lon +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Lat/Lon</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Longitudine ( +- 180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Latitudine (+- 90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Stropit</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Treceri</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Traseu</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Semănat</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Mod</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Alege butoanele</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>Meniu AOG</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Previzualizare</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Multicolor</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Culoare secțiune</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Editează culoarea</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Distanță pivot</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Înălțime antenă</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Centru</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Decalaj antenă</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Stânga</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Dreapta</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Antena de poziție a dualului este pe dreapta</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Lungime cuplaj</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Ampatament</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Tip atașare</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Suprapunere / gol</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Suprapunere</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Gol</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Direcție decalaj utilaj</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Utilaj la dreapta</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Utilaj la stânga</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Zona 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Zona 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Zona 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Zona 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Zona 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Zona 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Zona 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Zona 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Inci</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Lățime secțiune</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% acoperire</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Secțiuni</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Secțiuni auto</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Secțiuni manuale</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Setări timp de anticipare</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Pornit (sec)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Oprit (sec)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Întârziere oprire (sec)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Alarma oprește Autosteer</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 pentru dezactivare</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Distanță salt fix (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Setări antenă duală</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Viteză comutare</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto Dual &lt;-&gt; Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Distanță marșarier (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Decalaj orientare (grade)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Setări antenă unică</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Implicit: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Fuziune</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Detectare marșarier</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Distanță fix–fix</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Pas GPS minim</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Tip antenă</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Inversează ruliul</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Zero ruliu</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Elimină decalajul</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Mai puțin</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Mai mult</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Filtru ruliu</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Setează netezirea la 3 sau 4x raza</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Setează lungimea extensiei la 2 sau 3x raza&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Configurare ridicare hidraulică</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Densitate plante</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Anticipare ridicare hidraulică (sec)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Timp ridicare (sec)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Activare</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Timp coborâre (sec)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Inversează releele</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Trimite + salvează</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Afișare?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Suprascriere</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Lățime linie tehnologică</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Mesaje hardware</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Oprire la pierderea alimentării</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>Oprire auto AgIO?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Meniu jos</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Comenzi decalare</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Meniu dreapta</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>Pornire auto AgIO?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Întoarcere</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Sunet</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Întoarcere în U</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Lateral</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Ascunde conturul</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>Netezire AB</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Cale înreg.</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Linii tehnologice</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Butoane ecran</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Meniu instrumente</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Meniu câmp</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>OPRIT</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>PORNIT</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Valori depanare</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Dist. capăt câmp</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Netezire linie</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Linii secțiuni</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Indicatoare direcție</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Elevație</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Unități</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Săgeată Svenn</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Luminozitate</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Textură câmp</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Poligoane</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Pornire pe tot ecranul</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Vitezometru</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Linii ghidaj</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Grilă</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Vehicul curent</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Utilaj curent</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Inci</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Lățime utilaj:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Picioare</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Real:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Țintă:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Eroare:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Sau +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Unghi direcție:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Diametru:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Captare:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Va crește lent unghiul de direcție pentru a reduce eroarea laterală</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Lent</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Rapid</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Răspuns direcție</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Anticipare min.</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Anticipare</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Câștiguri Stanley</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Unghi max. direcție</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV real:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV țintă:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Pulsuri per grad</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>Zero WAS</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Factor captare</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Distanță:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Factor viteză</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Zonă moartă -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Menținere:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Captare = Factor * Menținere</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Întârziere pornire (sec)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Orientare (grade)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Câștig</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minim pentru mișcare</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Limită maximă</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Câștig proporțional</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Grade viraj pantă per grad ruliu</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Buton - apasă pornit, apasă oprit&#xD;
+Comutator - apăsat pornit, eliberat oprit</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Senzor presiune</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Senzor curent</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Senzor pulsuri</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Inversează sensul motorului</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Activare direcție</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Driver motor</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>Convertor A/D</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Senzor viraj</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Inversează WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Resetează tot la implicit</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>Axa X sau Y IMU</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>WAS inteligent</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Încredere: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Eșantioane: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Direcție în marșarier?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Intră</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Ieși</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Compensare întoarcere</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Viteză max.</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Viraje manuale</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Grosime linie</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pixeli</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Distanță decalare</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Bară ghidaj</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Bară direcție</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Pornit/Oprit</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Lightbar</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm per pixel</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Secunde</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Timp căutare următoarea linie de ghidaj</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Asistent</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Eroare:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Mic</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Grade pantă per grad ruliu</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Anticipare (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Câștig viteză anticipare</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM mișcare minimă</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maxim</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Condu drept înainte și atinge Zero</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Senzor presiune viraj</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Senzor curent viraj</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Inversezi releul de activare hidraulic?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Mod activare direcție</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Ce tip de driver de motor?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Conexiune convertor A/D?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Pulsuri viraj</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Folosești o valvă Danfoss?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Condus liber</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Pornește asistentul</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Recomandat insistent</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Încarcă implicitele</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Setează ampatamentul</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Setează ecartamentul</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Ecartament roți</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Poziție&#xD;
+antenă</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Setează distanța antenei față de axa pivot</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Înălțime&#xD;
+antenă</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Setează înălțimea antenei</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = oprit</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Setează decalajul antenei</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>Convertor A/D</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Placă driver motor</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Releu control driver</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Valvă Danfoss</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Dacă nu, alege Inversează ruliul</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Încline puternic vehiculul spre dreapta. Ruliul spre dreapta trebuie să fie POZITIV.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Funcție ruliu</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Parchează pe teren plan și atinge „Zero ruliu”</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Zero ruliu</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Inversează direcția WAS</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Orientare curentă:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>Zeroare WAS</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Inversează direcția</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Sens motor direcție</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Începe * calibrarea</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>Calibrare WAS</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* OMITE * Pulsuri per grad și setare Ackermann?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Unghi de start:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Resetare&#xD;
+la&#xD;
+100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Valoare Ackermann:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Setează</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Întoarce volanul până la limita dorită pentru ghidare și atinge OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Limită unghi direcție pentru ghidare</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Sau setează manual limita unghiului de direcție pentru ghidare</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Funcție de anulare automată</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Viteză oprire de urgență</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Încărcare automată: încarcă modificările câmpului la închidere&#xD;
+Încărcare din cloud: descarcă mereu ultima versiune din AgShare la deschidere</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Resetare sim&#xD;
+U - Întoarcere în U (180 grade)&#xD;
+&#xD;
+Săgeată sus - Mai rapid&#xD;
+Săgeată jos - Mai lent&#xD;
+Săgeată stânga - Stânga&#xD;
+Săgeată dreapta - Dreapta&#xD;
+&#xD;
+( . ) Punct - Oprire&#xD;
+( / ) Slash - Drept înainte</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Acest decalaj este adăugat la lat. și lon. și salvat în fișierul FIELD.KML la închiderea câmpului.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Setările vehiculului se numesc acum „profiluri” și&#xD;
+pot fi create/încărcate din meniul principal (stânga sus).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Atinge butoanele din stânga pe care vrei să le vezi în meniu (partea dreaptă). &#xD;
+&#xD;
+Ordinea în care le apeși va fi ordinea în meniu, de jos în sus.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Întoarce volanul spre DREAPTA cu aproximativ 20 de grade.&#xD;
+În timp ce conduci într-un cerc constant, apasă Rec și așteaptă.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Buton - Apasă, eliberează: pornit.   &#xD;
+               Apasă, eliberează: oprit&#xD;
+&#xD;
+Comutator - Cât e apăsat: pornit. &#xD;
+               Eliberat: oprit.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Condu încet și activează Auto Steer. Inversează direcția dacă motorul de direcție se învârte în sens greșit.&#xD;
+Testează cu săgețile.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Unghiul de direcție trebuie să fie POZITIV la viraj spre DREAPTA.&#xD;
+Dacă nu, alege Inversează WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Întoarce volanul spre STÂNGA cam cu aceleași grade ca spre dreapta.&#xD;
+În timp ce conduci într-un cerc constant, apasă Rec și așteaptă.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Schimbă punctul de referință cu butoanele de direcție. &#xD;
+&#xD;
+Regleză Mișcarea minimă cât mai sus, fără ca motorul de direcție sau hidraulica să miște volanul</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Acum condu pe o linie AB și reglează fin setările după viteza ta și condițiile solului.&#xD;
+&#xD;
+Reține: CPD, PWM min. și Anticiparea sunt setări critice.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Profilurile vechi conțineau toate setările într-un singur fișier. Noul format separă Vehiculul, Utilajul și Mediul. Alege ce vrei să extragi.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Funcție actualizare firmware&#xD;
+&#xD;
+Această funcție este în dezvoltare.&#xD;
+&#xD;
+Capabilități viitoare:&#xD;
+&#xD;
+• Alegerea fișierului firmware .hex&#xD;
+• Alegerea portului de comunicație (din setările AgIO)&#xD;
+• Pornirea TeensyLoaderCLI cu parametri&#xD;
+• Încărcarea firmware-ului pe dispozitivul Teensy&#xD;
+• Indicator de progres&#xD;
+&#xD;
+Integrare TeensyLoader:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Niciunul</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Comutator</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Buton</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Alege un fișier de profil vechi</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Alege ce convertești (vehicul și/sau utilaj)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>App:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Real:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/h</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ h</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/h</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Condu încet drept înainte, lasă sistemul să conducă</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Setare mișcare minimă</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Zero sau +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Setează proporțional pentru răspuns bun. &#xD;
+Setează PWM maxim pentru a limita viteza de viraj.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Condu înainte și activează Auto Steer</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Setare câștig</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Sfârșit</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Repornește asistentul</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Terminat !</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Progres:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Pulsuri/grad</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>Decalaj WAS</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Orientare:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Est corectat</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Distanță corecție</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Ruliu (grade)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Derulare pornit/oprit</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Stâlp</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Netezit</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Comportament cameră</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Resetare la implicit</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>( +90 la -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>( +180 la -180 )</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Vehicul: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Utilaj: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Mediu: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Mediu</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Sistem / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Valoare țintă</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Introdu numele câmpului</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Suprafață:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Puncte:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Trasee disponibile</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Câmpuri disponibile</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importă</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Deselectează tot</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Alege un câmp din stânga, apoi alege traseele de copiat</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Nume câmp</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Ieșire în Windows în:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Oprire în:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Oprire</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>(Dez)selectează traseele de folosit</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Scurtează B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Scurtează A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Prelungește B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Prelungește A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Următorul</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Căutare automată</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Câmp</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Suprascrie</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Descarcă selecția</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Descarcă tot</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Se descarcă... Așteaptă</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Lon:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Lat:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Distanță până la steag:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Punctul A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Importă steaguri</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Exportă steaguri</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Limite</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Traversare?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Suprafață</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Spațiere (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Adaugă puncte</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Puncte de procesat:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Puncte</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>Încărcare AgShare</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>Descărcare AgShare</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Din KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Deschide</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Intră în câmp</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Reia</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Existent</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Câmp nou</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Câmp anterior</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Lățime de lucru</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Limită nouă</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Fundal</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Nume câmp</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Încarcă selecția</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Editează numele câmpului</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Linii</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Cartografiere</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Steaguri</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Sortare</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Rămas:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Doză:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Aplicat:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Lucrat</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Dist:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Parcurs</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Distanță (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Folosește selecția</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Folosește selecția</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Șterge câmpul</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Nume înregistrare</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Șterge înregistrarea</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Cale oprită</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Zi</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Noapte</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Curent: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Selectat: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Antenă–pivot:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Decalaj antenă:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Ecartament:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Atașare:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Cuplaj remorcat:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Încarcă</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Convertește profiluri vechi</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Medii</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Nume fișier</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Convertește fișierele de profil vechi în formatul nou</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Convertește</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>Pasul 2: alege ce convertești (vehicul și/sau utilaj):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Convertește utilajul</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Nume profil utilaj:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Nume profil vehicul:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Convertește vehiculul</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>Pasul 1: alege un fișier de profil vechi:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Nume:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Creare</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Copiază din:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Nevalid:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS simplu:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK Float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Estimat:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>IP man.:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Necunoscut:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Vârstă:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Fără conexiune la rețea.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Conectat. Se așteaptă corecțiile.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Corecțiile s-au oprit. Se reconectează.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Conectat, dar nu sosește nimic. Unele servicii au nevoie de poziția ta: verifică dacă poziția GPS este pornită.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Serviciul a închis conexiunea. Se reconectează.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Serviciul a închis conexiunea fără să trimită corecții.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Se primesc corecții</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Serviciul a trimis un răspuns pe care AgIO nu îl poate citi.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Serviciul nu a trimis o listă de mountpointuri.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Serviciul a trimis un răspuns gol.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Acest mountpoint nu există la serviciu. Alege unul din listă.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Această adresă a răspuns cu o pagină web, nu cu un serviciu NTRIP. Verifică adresa și portul.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Utilizatorul, parola sau mountpointul sunt greșite.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Acest mountpoint nu există la serviciu. Verifică scrierea, majusculele contează.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Serviciul nu poate accepta acum o altă conexiune. Este ocupat sau această autentificare este deja folosită.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Serviciul pornește. AgIO încearcă din nou în aproximativ un minut.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Acest serviciu cere adresa ta de e-mail ca utilizator.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Utilizatorul sau parola sunt greșite.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Serviciul a refuzat accesul.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Serviciul a răspuns ceva ce AgIO nu înțelege.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Radioul este deschis. Se așteaptă corecțiile.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Radioul este deschis, dar nu sosește nimic.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Se primesc corecții de la radio.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Din nou pe serviciul principal</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Corecțiile vin din nou de la serviciul principal.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Serviciul principal a revenit</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Revii la el? GPS-ul poate pierde RTK pentru o clipă. AgIO nu revine niciodată singur.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Serviciul principal are o problemă</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Comutat pe serviciul de rezervă</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Ai comutat pe serviciul de rezervă.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>fără corecții</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Totul e bine: corecțiile sosesc.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profilul nu are nume.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>Observații GPS (vechi)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>Observații GLONASS (vechi)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>proprietar</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>poziție bază</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>poziție bază + înălțime antenă</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>descriptor antenă</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>parametri sistem</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>efemeride GPS</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>efemeride GLONASS</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>descriptor receptor + antenă</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>efemeride BeiDou</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>efemeride QZSS</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>efemeride Galileo</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>deviații cod-fază GLONASS</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>gol</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Apasă noua tastă rapidă</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Apasă butonul pentru a edita tasta rapidă</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Neconectat</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Setează distanța, 2: Atinge Creare, 3: Creează liniile de tăiere</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>Grafic XTE</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Condu constant</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Gata de aplicare</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Se colectează...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Eroare, CPD setat la 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann setat la:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Eroare, Ackermann setat la 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Alege un pătrat mai jos și selectează o culoare nouă</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Alege o culoare presetată</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Alege o culoare nouă și un pătrat mai jos pentru a salva presetarea</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Directorul câmpurilor nu a fost găsit</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Eroare la încărcarea câmpurilor</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Nu s-au găsit trasee în acest câmp</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Eroare la încărcarea traseelor</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Se salvează traseele curente...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Se convertesc traseele...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Se salvează traseele...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Câmp selectat:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Eroare la încărcarea câmpurilor:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Easy Drive activ</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Încarcă mediul:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Vehicul:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Utilaj:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Mediu:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Eroare critică la salvare</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Eroare la oprire</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Direcție resetată</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Înainte este setat</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>AutoSteer dezactivat</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Fereastra de decalare este deschisă</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Închide fereastra de decalare</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Avertisment: distanță mare de start câmp</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>Încărcarea AgShare a eșuat</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>A apărut o eroare la pornirea încărcării în AgShare.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>A apărut o eroare în timpul încărcării în AgShare.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Câmpul NU a fost salvat</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Salvarea câmpului a eșuat, deci a rămas deschis. Verifică spațiul pe disc și încearcă din nou.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Mod reluare</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Ultima poziție de oprire</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Cel mai apropiat punct</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Începe de la început</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Nu se poate folosi cu zone</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Doar pentru secțiuni</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Easy Drive</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Profilurile nu sunt disponibile în modul Easy Drive</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Secțiunile sunt pornite</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Oprește mai întâi Auto sau Manual</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Resetează direcția</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Condu înainte &gt; 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autosteer oprit</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>Alarmă fix RTK</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Traseu schimbat</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Căi activate</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Marșarier sim. atins</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Tastă rapidă activată</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Setări trimise la modulul de direcție</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Revenire din editare</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Actualizatorul nu a fost găsit. Asigură-te că AgOpenGPS.Updater.exe se află în directorul aplicației.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Actualizator negăsit</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Nu sunt destule puncte pentru a face o limită</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Nu se poate calcula centrul câmpului. Lipsește limita exterioară sau linia AB.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Nu poți avea mai multe zone decât secțiuni</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulatorul este oprit</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulatorul nu funcționează cât timp folosești antena reală</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Resetare la implicit</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Valorile au fost setate la implicit</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Interval depășit</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Decalaj prea mare - nu se poate aplica</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Zero WAS inteligent</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Implicite setate</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD și Ackermann setate la implicit</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>Schimbare câștig P</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Câștigul proporțional setat la 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profiluri create</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Profilurile implicite au fost create</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Setările mediului au fost resetate!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Setările mediului au fost încărcate!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Fișierele de profil nu au fost găsite!
+
+Profilurile din registry nu pot fi găsite.
+Alege sau creează profiluri noi.
+
+Mediul va folosi valorile implicite dacă nu alegi.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Nu s-au găsit profiluri.
+
+Folosește „Nou” pentru a crea profiluri de vehicul și utilaj.
+
+Mediul va folosi valorile implicite dacă nu alegi.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Eroare gravă la originea câmpului&#xD;
+&#xD;
+Originea câmpului este la peste 20 km de poziția GPS curentă. Șterge acest câmp și creează unul nou, deoarece precizia va fi slabă&#xD;
+&#xD;
+Sau poate ai un câmp deschis și ai condus departe</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Atenție: închiderea AgIO oprește comunicarea cu hardware-ul.&#xD;
+Sigur vrei să închizi?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Sus + jos</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Jos</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Ascundere automată</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Rulare&#xD;
+auto</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profiluri</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Profil curent</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Profil curent</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Profil nou</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Nou:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Profil folosit:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: gestionare profiluri</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Suprascrie acest profil:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Setări avansate</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>Setări ISOBUS</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Configurare transfer serial</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Transfer serial pornit</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>Alt port decât GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Pornire minimizat</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO apare la avertisment</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>Pornire auto GPS-Out</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Arată&#xD;
+la&#xD;
+avertisment</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Vizualizator jurnal evenimente</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Vizualizator jurnal</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Monitor serial</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>Monitor UDP</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>Ghid PGN</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Ghid -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Tastatură</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Textul mesajului apare aici</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>Mesaj AgIO</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>Mesaj AgTwo</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>Detalii NTRIP</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP este oprit</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>REZERVĂ ÎN UZ</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Sunt bune corecțiile?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Comută pe rezervă</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Încearcă din nou serviciul principal</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Revino la principal</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Conectat, se așteaptă date</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Se conectează...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint negăsit</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Autentificare imposibilă</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Oprit</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Serviciul pornește</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Serviciul este ocupat</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Conectat, nu sosește nimic</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Fără rețea</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Se reconectează...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Serviciu neînțeles</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Serviciul nu poate fi atins</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Corecțiile sosesc</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Acest flux nu poate fi verificat în detaliu.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Poziția stației de bază primită</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Poziția stației de bază</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Se așteaptă. Vine la fiecare 10 secunde.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Lipsește poziția stației de bază</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>RTK nu poate porni fără ea.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Încă nu a sosit.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Distanță până la stația de bază</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Se așteaptă poziția GPS.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Prea departe pentru un RTK bun. Alege o stație de bază mai aproape.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Departe. RTK este mai puțin precis la această distanță.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Din poziția fixă din setările NTRIP.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Sateliți în corecții</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Nu sunt date de sateliți în corecții</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Stația de bază nu trimite observații.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Încă nu a sosit nimic.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Date proaspete</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Se așteaptă primele date.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Datele întârzie</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Nu sunt date noi</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>GPS-ul tău: RTK fix</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>GPS-ul tău: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Încă se calculează. Așteaptă puțin.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>GPS-ul tău: încă fără RTK</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Doar precizie GPS normală.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>GPS-ul tău nu are fix</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>GPS-ul tău este în mod manual sau simulator</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Fără adresă</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Completează mai întâi adresa.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Fără port</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Nu s-a putut salva</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Eroare la deschiderea portului</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP nu poate fi folosit încă</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Alege mai întâi un profil și atinge Folosește.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Profilul în uz nu are încă adresă de serviciu sau port radio. Editează-l mai întâi.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Nu poate fi citit</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Acest fișier de profil nu a putut fi citit.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Nu se poate redenumi</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Acest nume este deja folosit.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Avertisment la încărcarea profilului</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Recuperare profil</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>Profilul AgIO a fost recuperat din copia .last deoarece fișierul principal nu putea fi citit.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Fișier salvat</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Id nevalid</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Nume nevalid</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Numele nu este completat</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Frecvență nevalidă</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Frecvența nu este completată</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Fără canal</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Radioul este pornit, dar nu este ales niciun canal</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP este activat și el</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP este activat și el, se dezactivează</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO folosește profilul implicit</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Se folosește profilul implicit</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>NTRIP radio PORNIT</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>NTRIP serial PORNIT</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Transfer serial NTRIP PORNIT</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Pornește NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Eroare la conectarea la transferul serial</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Eroare la conectarea la radio</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP setat</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Fișier negăsit</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Introdu un nume de fișier pentru salvare...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Salvează și revino</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Nu se poate conecta la port</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Conexiunea este deja încheiată?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Conexiunea este deja încheiată??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Niciun port Arduino activ</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Eroare gravă de conexiune la rețea</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Eroare critică de registry</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Nu se poate șterge subcheia din registry</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController nu este instalat??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Radioul este pornit. Oprește-l mai întâi din setările radio.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Transferul serial este pornit. Oprește-l mai întâi.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP este pornit. Oprește-l mai întâi din lista de profiluri NTRIP.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Distanță</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Mesaj&#xD;
+eroare</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Mesaj 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Modul 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Monitor serial - Baud: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Trimite $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Trimite $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Ruliu: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Direcție: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>Ieșire NTRIP</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>O poziție fixă</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Alt serviciu NTRIP</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automat</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Ambele</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Rezervă</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Comut eu</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Serviciu principal</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Placa mea AIO (rețea)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Receptorul meu GPS (serial)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Poziția mea GPS</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>Serviciu NTRIP</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Ieșire și poziție</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Radio serial</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Comută singur</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>ÎN UZ ACUM</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>ÎN UZ</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>SERVICIU PRINCIPAL</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>REZERVĂ</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Oprit. Nu se folosește un al doilea serviciu.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(încă fără port)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Comuți tu manual</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>TCP brut (fără mountpoint sau autentificare)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Niciun mountpoint ales</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Încă necompletat</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Are nevoie de poziția ta</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Loc</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(încă nesalvat)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Alege mai întâi portul radioului.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Alege portul radioului pentru a folosi rezerva</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Completează datele caster-ului pentru a folosi rezerva</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Încă nu există profiluri.&#xD;
+&#xD;
+Atinge Profil nou pentru a crea unul.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Acest profil nu este încă completat.&#xD;
+Atinge Editare pentru a completa serviciul principal.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>Încă nu este ales niciun profil NTRIP. Alege sau creează unul în setările NTRIP.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>Alege portul radioului principal în profilul NTRIP.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP este din nou online</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Corecțiile sosesc din nou.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>Autentificare NTRIP respinsă</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>Mountpoint NTRIP negăsit</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>Caster NTRIP ocupat</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP fără corecții</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>Flux NTRIP pierdut</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP neconectat</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP oprit</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP ascultă</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Problemă de conexiune</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Nu se conectează la caster</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>nu s-a găsit nicio adresă IPv4</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>Conexiune NTRIP eșuată</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>Conexiune NTRIP respinsă</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Caster-ul a închis conexiunea fără a trimite date (verifică mountpoint/credențiale)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>Client NTRIP nesetat</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Alege un profil existent sau creează unul nou</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Creează sau alege un profil</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Oprește-l înainte de a folosi transferul serial</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Oprește-l înainte de a folosi NTRIP</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Oprește-l înainte de a folosi NTRIP radio</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>NTRIP aer PORNIT</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Valori noi schimbate</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP pornit</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP este pornit</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO va reporni pentru a activa funcțiile de rețea UDP</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO va reporni pentru a dezactiva funcțiile de rețea UDP</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim va reporni pentru a activa modificările de rețea UDP</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>IP man.</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Eroare actualizator</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>Actualizare AgOpenGPS</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Așteaptă...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Așteaptă</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Așteaptă finalizarea operației curente.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Se verifică versiunile GitHub...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Se verifică unitatea USB...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>Nu s-a găsit nicio actualizare pe unitatea USB.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Se închid AgOpenGPS și AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Aplicații închise</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Se descarcă de pe GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Descărcare eșuată</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Descărcare eșuată</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Se copiază de pe USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Copiere eșuată</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Copiere eșuată</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Instalare eșuată</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Instalare eșuată</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Gata! Se repornește...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Gata!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Actualizarea a fost anulată.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Nu sunt note de versiune.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Versiune candidat</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Descărcare eșuată: dimensiunea fișierului nu corespunde versiunii.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Descărcare eșuată: suma de control nu corespunde versiunii, fișierul nu a fost instalat.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Nu s-a găsit niciun fișier potrivit de descărcat în această versiune.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>O altă instanță a actualizatorului rulează deja.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Nicio aplicație nu rula.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Aplicațiile au fost închise cu succes.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Fișierul de actualizare nu a fost găsit.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Directorul de instalare nu există.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Se creează copia de siguranță...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Se extrag fișierele...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Se instalează fișierele...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe nu a fost găsit în directorul de instalare.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS a repornit cu succes.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Caută actualizări</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Instalează actualizarea</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Include pre-lansări</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Actualizare firmware</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>Actualizare firmware AgOpenGPS</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>Actualizator AgOpenGPS</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Note de versiune</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Vezi notele de versiune</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Notele de versiune vor apărea aici.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Versiune curentă: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Ultima versiune: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Ultima versiune: la zi</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Actualizare web - Apasă Caută actualizări</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Actualizare web (GitHub Releases)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Actualizare web (actualizare locală disponibilă)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Local: Niciun AgOpenGPS_*.zip găsit pe USB</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Local: Pune AgOpenGPS.zip în rădăcina unității USB</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController nu este instalat, descarcă-l de la:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Utilizatori Linux</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Doar Linux !</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Se închide</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profilul nu a putut fi încărcat complet (fișierul poate fi corupt).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profilul a fost recuperat din copia .last deoarece fișierul principal nu putea fi citit.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Alege mai întâi portul radioului principal.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Completează mai întâi adresa serviciului principal.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Sau oprește NTRIP în lista de profiluri.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Mergi la Setări -&gt; Porturi COM pentru remediere</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Sesiunea curentă folosește valori implicite pentru cele lipsă/nevalide.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>Profilul AgIO nu a putut fi încărcat complet (fișierul poate fi corupt).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>Profilul NTRIP "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" nu se află pe acest calculator. Alege sau creează un profil în setările NTRIP.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" nu are încă adresă de serviciu.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Nici rezerva nu funcționează:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Fără corecții de</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO continuă să încerce.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> secunde</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minute</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>REZERVĂ ÎN UZ: serviciul principal nu este folosit acum</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>ID stație de bază:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Poziție:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Date deteriorate:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Serviciul a răspuns:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Conectare în</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Nu se poate rezolva URL-ul caster:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Date simulate</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   FĂRĂ DATE</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Actualizatorul trebuie pornit din AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Pornește mai întâi AgOpenGPS și folosește:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Meniu → Instrumente → Caută actualizări</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>Este necesar pentru a detecta versiunea curentă.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Instalează actualizarea din</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Sursă:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Aceasta va:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Închide AgOpenGPS și AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Crea o copie de siguranță a instalării curente</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Instala actualizarea</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Reporni AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Vrei să continui?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Niciun fișier de actualizare găsit.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Pune AgOpenGPS_X.Y.Z.zip în rădăcina unității USB.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Actualizarea a eșuat: {0}
+Copia de siguranță a fost restaurată.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Actualizarea a eșuat: {0}
+Restaurarea copiei de siguranță a eșuat și ea!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Actualizarea a eșuat: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Copia de siguranță a fost restaurată.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Restaurarea copiei de siguranță a eșuat și ea!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Actualizare instalată cu succes.
+{0}
+Copie de siguranță: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Actualizare disponibilă: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Comută singur după {0} încercări eșuate</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpointuri, cele mai apropiate primele.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpointuri.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Nu se poate găsi {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Verificarea a eșuat: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>{1} kB primiți</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Ultimele date au sosit acum {1d} secunde.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Ultimele date au sosit acum {1d} secunde. Conexiune lentă?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Corecțiile au {1d} secunde.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Distanță până la stația de bază: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>GPS-ul tău: tip fix {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} activ (client vechi)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} activ</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (client vechi)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Se deschide {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: se așteaptă date</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profil: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Către {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Suprascrii: {1}</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>Id-ul „{1}” nu este un număr valid</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>A apărut o eroare: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>Eroare UDP: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Eroare la încărcare: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Activează</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Activat</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>Cheie API</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Încărcare din cloud</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Încărcare automată</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Încărcare automată: încarcă modificările câmpului la închidere
+Încărcare din cloud: descarcă mereu ultima versiune din AgShare la deschidere</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Se conectează...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Conectare reușită</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Dezactivat</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Introduceți serverul și cheia API, apoi testați conexiunea</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Cheie API invalidă</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Doar local</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Lipește din clipboard</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Înregistrați-vă aici pentru a folosi AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Setări salvate</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>Setări AgShare</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Testează conexiunea</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Încărcare oprită</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Încărcare pornită</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Câmpurile se încarcă automat din cloud</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Câmp încărcat din AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Câmpul nu a putut fi încărcat din cloud, se folosește versiunea locală.</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Pornire rapidă cu ghidare GPS. Setați lățimea de lucru și lungimea cârligului, apoi creați o linie AB sau o curbă. Nimic nu este salvat pe disc.</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Următorul</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>Adaptor CANbus</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Adresa de rețea a modulelor -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Repornire necesară</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Încărcare finalizată</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Eroare la încărcarea traseului</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Creare limită din trasee</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Importă trasee dintr-un alt câmp</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>Mesaj AgOpenGPS</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Deplasare poziție GPS (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Pornire rapidă: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Desenare AB - Click pe 2 puncte de pe limită pentru a începe</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Fără nume</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 puncte - Aliniere grilă</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Creare înregistrare nouă</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Încărcare mediu</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>Excepție ISOXML</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antenă</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Diferențial</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Simplu</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD setat la: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Eroare ReceiveData: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Eroare la trimitere: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Eroare SendData: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>Server UDP</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Oficial</value>
   </data>
 </root>

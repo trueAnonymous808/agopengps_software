@@ -12,7 +12,7 @@ This fork of AgOpenGPS WinForms is under active development.
 ![Active Development](https://img.shields.io/badge/status-active%20development-brightgreen?style=for-the-badge)
 
 [![GitHub Release](https://img.shields.io/badge/release-8.0.1-blue)](https://github.com/trueAnonymous808/agopengps_software/releases/latest)
-[![Translation status](https://hosted.weblate.org/widget/agopengps/language-badge.svg)](https://hosted.weblate.org/engage/agopengps/)
+[![Languages](https://img.shields.io/badge/languages-27%20complete-brightgreen)](#translation-status)
 
 Ag Precision Mapping and Section Control Software
 
@@ -75,6 +75,22 @@ If you want to help translate AgOpenGPS, follow these steps:
 4. Translate strings directly in the web interface
 
 ### Translation Status
+
+This fork ships all 27 languages of the language menu complete: the main program and the helper apps
+(AgIO, GPS_Out, ModSim, AgDiag, Updater) follow the language chosen in AgOpenGPS, and an open window switches
+without a restart.
+
+![Translation status of this fork](docs/images/translation-status.svg)
+
+Български, Čeština, Dansk, Deutsch, Eesti, English, Español, Français, Hrvatski, Italiano, Latviski, Lietuvių,
+Magyar, Nederlands, Norsk, Polski, Português, Română, Русский, Suomi, Slovenčina, Srpski, Svenska, Türkçe,
+Українська, 中文 (简体), 日本語, 한국어
+
+All texts are in `SourceCode/AgOpenGPS.Core/Translations/gStr.<language>.resx`. Many of them are machine
+translations: corrections from native speakers are welcome. After changing a translation, refresh the image with
+`powershell -ExecutionPolicy Bypass -File docs\translation-status.ps1`.
+
+Status of the upstream AgOpenGPS project on Weblate:
 
 [![Translation status](https://hosted.weblate.org/widget/agopengps/multi-auto.svg)](https://hosted.weblate.org/engage/agopengps/)
 

@@ -11,4 +11,6 @@
     <PackageReference Include="System.Memory" Version="4.6.0" />
   </ItemGroup>
 
+  <Import Project="Localization\UiStrings.targets" />
+
 </Project>

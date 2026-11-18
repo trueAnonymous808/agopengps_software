@@ -1181,4 +1181,4927 @@ NAUDOJIMAS SAVO RIZIKA.</value>
   <data name="v_AboutIntro" xml:space="preserve">
     <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
   </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>Gerai</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>Gerai</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Taip</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Išsaugoti</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Išsaugoti kaip:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Pervadinti</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Atnaujinti</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Numatytasis</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Klaida</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Išeiti</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Atidaryti:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Pasirinkti</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Pasirinkti iš sąrašo...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Įkeliamas sąrašas...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Paruošta...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopijuoti</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Nukopijuota</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Nepavyko nukopijuoti</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopijuoti pagalbai</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Pranešimas</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Būsena</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Parinktys</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Rodyti</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>Įj.</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Išj.</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Naudoti</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Tik</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Arba</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Laikas</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Kartai</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Dabartinis</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Aprašas</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Komanda</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Atsakas</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filtras</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Įvesk reikšmę</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Įvesk reikšmę</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Įvesk reikšmę</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Prisijungti</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Atsijungti</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Neprisijungta</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Automatinis prisijungimas</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Prijungti GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Prievadas</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Nuoseklusis prievadas</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS prievadas</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS prievadas 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM prievadas</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Tinklo prievadas</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radijas prievade:</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Greitis (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adresas</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP adresas</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP adresas : prievadas</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Kompiuterio vardas</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Kompiuterio vardas:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Slaptažodis</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Naudotojo vardas</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Dabartinis potinklis</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Nustatyti potinklį</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Įvesk naują potinklio adresą</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Užpildyti automatiškai</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Šiam potinkliui nėra tinklo adapterio</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Tinklas</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Ethernet konfigūracija</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Įjunk UDP ir spausk Gerai</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP išjungtas</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP išj.</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Perdavimo sparta</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Matyta</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Prisijungta</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Išjungta ties %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Pastovus vairavimo kampas!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>Juda</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A ir B sukeisti</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>Nuo A iki Z ir nuo 0 iki 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS jau veikia</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Viskas žalia? Spausk Sukurti arba pataisyk ranka!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Tik raidės ir skaičiai</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Įvyko netikėta klaida, ji įrašyta į įvykių žurnalą. AgOpenGPS veikia toliau.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap klaida</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Ribos kūrimo režimas</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Sukurti nepavyko</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Mygtuko klaida</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Nepavyko ištrinti registro poraktyvio medžio</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Užfiksuota</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Nukopijuota į iškarpinę, įklijuok (CTRL-V) Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Pirmiausia sukurk kelią</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Kūrimo klaida</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Susikirtimų klaida</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Susikirtimų nerasta</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Kreivė apversta</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Atstumo klaida</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Atstumas nustatytas į 0, nėra ką perkelti</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Įjunk vairavimo jungiklį</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Ši aplinka šiuo metu naudojama</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Klaida ieškant platumos ir ilgumos</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Klaida, patikrink formatą</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Klaida importuojant vėžes:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Išimtis</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>Per didelis vairavimo kampas – nulinti negalima</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Nepavyko atsisiųsti lauko peržiūros. Išsamiau žurnale.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Nepavyko atsisiųsti lauko.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Nepavyko įkelti laukų sąrašo.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Nepavyko įkelti laukų sąrašo.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Nepavyko įkelti laukų sąrašo:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Nepavyko įkelti vėžių:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Laukas išsaugotas, bet jo atidaryti nepavyko (trūksta Field.txt).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Ieškoma sankirtų...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Baik nustatyti viską arba atstatyk numatytąsias reikšmes</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Vėliavėlės sėkmingai pridėtos!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Vėliavėlės sėkmingai išsaugotos!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Spartusis klavišas neužbaigtas</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Netinkama linija</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Netinkamas pasirinkimas.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Gal yra tik 1 linija?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Linijos klaida</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Įkėlimo klaida:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Įsitikink, kad visi galai kertasi ir tik vieną kartą</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Žemėlapis per didelis</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Daugiausia 164 pėdos</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Daugiausia 50 metrų</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Turi būti didesnis nei 5 laipsniai</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Nėra įrašytų kelių</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Nieko nepasirinkta</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Šiuo metu joks laukas neatidarytas.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Laukas nepasirinktas.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Vėžių nerasta.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Nepavyko sukurti tinkamos ribos</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Nėra tinkamos ribos išsaugoti</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>Pridėta per mažai mygtukų</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Neprivalomo failo problema</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Prieš išsaugodamas pasirink lauką.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Pirmiausia pasirink lauką.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Pasirink bent vieną lauką įkėlimui</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Pasirink bent vieną vėžę importui.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Palauk, kol baigsis įkėlimas</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Išsaugojimo klaida</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Pasirink kitą aplinką</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Nustatyta 99, daugiausia 164 pėdos</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Nustatyta 99, daugiausia 50 metrų</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Pradžios taškas = galo taškas</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>Per mažas vairavimo kampas</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Vairavimas išjungtas</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Pavyko!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Pavyko</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Laukas ištrintas vietoje, bet nepavyko pašalinti iš AgShare.
+Pašalink jį ranka.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>Per platus</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Padargo klaida</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Palieskite žemėlapį ribai sukurti</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Vėžės informacija</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Vėžės koregavimas nepavyko:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Įkėlimas jau vyksta</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Vyksta įkėlimas</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Naudok tik AB liniją arba kreivę</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Dėmesio</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Tavo padargas per mažas</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Ieškoma</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Modulio atsakas</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Modulių paieška</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Modulio simuliacija</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Įrenginių tvarkyklė</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Patikrink ryšį</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Išsiųsta pozicija</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Kas gauta</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>nesėkmingų bandymų</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Siųsti kas (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Siųsti tuščią GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Siųsti NTRIP į GPS per:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM nuoseklia jungtimi</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Naudoti USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Naudoti internetą</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP nustatymai</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP duomenys</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP profiliai</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP versija</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP klaidos</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Pasirink NTRIP profilį</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Naudoti NTRIP klientą</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Naudoti seną NTRIP klientą</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Neapdorotas TCP srautas</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Mountpoints</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Pasirink arčiausią lauko bazinę stotį.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Pataisos siunčiamos į</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Naudoti atsarginę paslaugą, kai pagrindinė sutrinka</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Perjungti po</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Pagrindinė</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radijas</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radijas (ne XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Radijo kanalas</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Radijo nustatymai</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanalas</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanalai</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>Nuoseklusis radijas nėra NTRIP paslauga. Jo pataisos naudojamos taip, kaip gaunamos. Kai radijas nutyla, perima atsarginė paslauga.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Platuma</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Platuma:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Ilguma</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Ilguma:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Plat.</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Ilg.</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Aukštis</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Aukštis (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Aukštis:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Aukš.</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Kryptis</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Greitis</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Greitis:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Palydovai</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Palydovai:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value># Palyd.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Kokybė</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Kokybė:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Fiksavimo kokybė</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Amžius</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Amžius:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Dvi antenos</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Posvyris</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Pataisytas posvyris</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Posvyris:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Kampas</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Posūkis</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Posūkio greitis</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Poslinkis</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simuliuoti duomenis</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simuliuota</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Skaitmenų po kablelio</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Kaip dažnai</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Dažnis</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Sistemos duomenys</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AgOpenGPS būsena:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Automatinis vairavimas</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Vairas</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Vairas:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Vairavimo modulis</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Vairo mygtukas</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Vairo jungiklis</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Vairo jungiklis:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Vairo ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Vairavimo &#xD;
+konfig.</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Vairavimo&#xD;
+nustatymai</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Iš&#xD;
+auto vairavimo</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Nustatytas kampas</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Faktinis kampas</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Kampas:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Mašina</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Mašina:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Mašinos modulis</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Maš.</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Padargo ping:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Darbas</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Darbo jungiklis</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Darbas:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Jungiklis:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Kėlimo įj.</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hidr. kėlimas</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Pakėlimo laikas</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Nuleidimo laikas</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min. greitis</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Aukštas PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Žemas PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Impulsų #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Impulsų skaičius</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Impulsai:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relė: aukšta</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Slėgis</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Apsisukimas</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Techn.</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Aktyvu</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Naudojimo sąlygos</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube pamokos</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse forumas</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Nesutinku</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Sutinku</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Versija:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Tikrinti ryšį</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Aukščiau įvesk duomenis ir pažymėk ryšio tikrinimą</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API raktas:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Serveris:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Įklijuoti iš iškarpinės</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Registruokis čia, kad galėtum naudoti AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Aktyvuoti</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Automatinis įkėlimas</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Tik vietoje</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Iki kito karto!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Transporto priemonė / padargas...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simuliatorius įjungtas</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Simuliatoriaus koordinatės</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Kiosko režimas</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Atstatyti viską</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Atstatyti</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Vedliai</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Vairavimo vedlys</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Diagramos</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Vairavimo diagrama</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Krypties diagrama</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Posvyrio korekcijos diagrama</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Ribos įrankis</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Išlyginti AB kreivę</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Slėpti kontūro kelius</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Internetinė kamera</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Fiksavimo poslinkis</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fiksavimas       s</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Visi</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Konfigūracija</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Automatinis vairavimas</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Peržiūrėti visus nustatymus</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Aplankai</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS duomenys</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Spalvos</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Kelių sekcijų spalvos</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Spartieji klavišai</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Riba</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Galulaukė</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Galulaukė (kūrimas)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Techn. vėžės</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Techn. vėžės</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Ištrinti apdirbtą plotą</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Vėliavėlė pagal koordinates</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Įrašytas kelias</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Importuoti vėžes</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Dabartinis laukas</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simuliatorius</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Auto vairavimas įj./išj.</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Palieskite mygtuką, kad atstatytumėte,&#xD;
+o tada paspauskite naują klavišą</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Keisti linijas</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Uždaryti lauką</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Atnaujintojas</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Sukurti ribą iš žemėlapio</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Vairavimas</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Maks. kampinis greitis</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Vairavimas atbulomis</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Šlaito kompensacija</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino vairavimas</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Impulsai/laipsnis</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Aukštas vairo PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Žemas vairo PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Min. vairo PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proporcinis)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Min. vairavimo greitis</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Maks. vairavimo greitis</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Funkcijos greičio riba</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geometrija</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Transporto priemonės tipas</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Vėžės plotis</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antena–sukimosi taškas</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Krypties šaltinis</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Dual krypties poslinkis</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual atbulinis atst.</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min. žingsnio riba</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Jungimo svoris</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual kaip IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Gamintojas</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Traktoriaus gamintojas</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Kombaino gamintojas</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Šarnyrinio gamintojas</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Matmenys</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Padargo plotis</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Padargo persidengimas</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Padargo poslinkis</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Sekcijų skaičius</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Velkamas kablys</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Cisternos velkamas</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Velkamas iki sukimosi taško</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Padargo tipas</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Velkamas</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Galinis fiksuotas</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (traktorius–padargas–traktorius)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Priekinis</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Sekcijos</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Sekcijos (ne zonos)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Išj. išvažiavus</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Greita sekcija</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Žvilgsnis į priekį / laikas</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Žvilgsnis į priekį įj.</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Žvilgsnis į priekį išj.</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Padargo išj. delsa</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Hidr. kėlimo žvilgsnis</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Galulaukės sekcijų valdymas</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Vedimas (padargui)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Prilipimo atstumas</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Prilipimo atst. ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Negyvos zonos atstumas</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Negyvos zonos kryptis</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Negyvos zonos delsa</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Stanley naudojimas</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley atst. stiprinimas</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley krypt. stiprinimas</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley integralas</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit integralas</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Tikslo taško gavimo koef.</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Tikslo taško laikymas</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Tikslo taško daugiklis</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Lėto greičio riba</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Darbo jungiklis</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Vairo darbo jungiklis</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min. aprėptis</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Apsisukimas (padargui)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Posūkio spindulys</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Atstumas nuo ribos</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Praleidimo plotis</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Pratęsimo ilgis</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Apsisukimo stilius</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Apsisukimo glodinimas</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Apsisukimo kompensacija</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Ekranas / meniu</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Tinklelis įj.</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Šviesjuostė įj.</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Šoninės vedimo linijos</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure įj.</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Spidometras įj.</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Šviesjuostė (ne vairo juosta)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Dienos režimas</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Klaviatūra įj.</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Transporto priemonės vaizdas</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Tekstūra įj.</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Ryškumas įj.</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Registruoti aukštį</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Išjungti kompiuterį</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Išjungti dingus maitinimui</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>Auto paleisti AgIO</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>Auto išjungti AgIO</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Šviesjuostė cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Kameros mastelis</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Kameros polinkis</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Automatinis vairavimas</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Vedimo žvilgsnis į priekį</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Auto vairavimas auto įj.</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Pastovus kontūras</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Vedimo linijos</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Vedimo linijų skaičius</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS amžiaus signalas</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK išjungia vairavimą</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Šuolio signalas</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Simul. platuma</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Simul. ilguma</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP stebėjimas ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Garsas</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Apsisukimo garsas</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Hidr. kėlimo garsas</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Auto vairavimo garsas</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Sekcijų garsas</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Techn. vėžė</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Techn. vėžės pravažiavimai</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Techn. vėžės skaidrumas</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / bendra</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Atbulinė įj.</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Dual auto perjungimas: Fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Auto perjungimo greitis</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Piešti sukimosi tašką</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Galulaukės atst. įj.</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Ribos padargo tarpas</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Ribos padargo glodinimas</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Aktyvus žemas</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Rankinės sekcijos</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Nuotolinė darbo sistema</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Vairo DJ rankinis</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min. krypties žingsnio atst.</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare įjungtas</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Įkėlimas aktyvus</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Viešas laukas</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Kita</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fiksavimas</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Kadro laikas (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Laiko tarpas</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Fiksavimo kokybė</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Sekami palydovai</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Praleisti UDP sakiniai</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Kryptis</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU kryptis</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Fix-fix kryptis</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Sujungta kryptis (laipsn.)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Kampinis greitis</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Programa</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Versija</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Transporto priemonės failas</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Padargo failas</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Nustatymas</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Reikšmė</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Visi nustatymai</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Bus sukurtas ir įkeltas naujas profilis.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Prieš paleisdamas atnaujintoją uždaryk lauką</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Nauja vėliavėlė</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Rankinė sekcija</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Auto sekcija</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Prilipti prie sukimosi taško</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Linija kairėn</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Linija dešinėn</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Transporto priemonės nustatymai</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Atstatyti &#xD;
+numatytuosius</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Sekcija ar zona</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Naujas klavišas</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 -  Visas ekranas&#xD;
+&#xD;
+NumPad1 - Rankinė sekcija&#xD;
+NumPad0 - Auto sekcija</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Klausimas</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Rytų koordinatė</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Šiaurės koordinatė</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Neapdorotas Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Kadras</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Praleista</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix2Fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Šiaurė (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Vakarai (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Rytai (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Pietūs (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Palikti poslinkį net uždarius lauką?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Transporto priemonė</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Padargas</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Transporto priemonės pavadinimas</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Tipas:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Traktorius</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Ratų bazė:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Ant. sukimosi taškas:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Ant. poslinkis:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Kablys:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Padargo pavadinimas</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Plotis:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Sekcijos:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Poslinkis:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Persidengimas:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Žvilgsnis į priekį:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Linijos poslinkis:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Techn. vėžės plotis:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Vienetai:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metrinė</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Pasirink transporto priemonės tipą</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Skaidrumas</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Nėra vaizdo</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Kol kas</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Į failą</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Nukirpti liniją</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Priartinti</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Sukurti</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Skaidrumas</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Failo vardas</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Įvesk įrašo pavadinimą</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; IŠJ. &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Būsena:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Pridėti pavadinimą</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Kreivė</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Redaguoti pavadinimą</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Sukimosi taškas</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + kreivė</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB linija</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Plat./Ilg. +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Plat./Ilg.</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Ilguma (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Platuma (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Purškimas</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Pravažiavimai</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Vėžė</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Sėja</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Režimas</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Mastelis</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Pasirink mygtukus</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG meniu</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Peržiūra</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Kelios spalvos</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Sekcijos spalva</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Redaguoti spalvą</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Tipas</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Sukimosi taško atstumas</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Antenos aukštis</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Centras</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Antenos poslinkis</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Kairė</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Dešinė</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual antena: padėties antena dešinėje</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Kablio ilgis</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Ratų bazė</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Prijungimo tipas</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Persidengimas / tarpas</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Persidengimas</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Tarpas</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Padargo poslinkio kryptis</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Padargas dešinėje</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Padargas kairėje</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>8 zona</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>7 zona</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>1 zona</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>2 zona</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>6 zona</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>3 zona</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>5 zona</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>4 zona</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Colis</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Sekcijos plotis</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% aprėptis</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zonos</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Sekcijos</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Auto sekcijos</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Rankinės sekcijos</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Žvilgsnio į priekį laiko nustatymai</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>Įj. (s)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Išj. (s)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Išjungimo delsa (s)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Signalas sustabdo auto vairavimą</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 – išjungti</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Fix šuolio atstumas (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Dual antenos nustatymai</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Perjungimo greitis</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Auto Dual &lt;-&gt; Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Atbulinis atstumas (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Krypties poslinkis (laipsniai)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Vienos antenos nustatymai</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Numatyta: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Jungimas</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Atbulinio judėjimo aptikimas</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Fix-fix atstumas</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minimalus GPS žingsnis</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Antenos tipas</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Apversti posvyrį</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Nulinti posvyrį</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Pašalinti poslinkį</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Mažiau</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Daugiau</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Posvyrio filtras</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Nustatyk glodinimą 3–4 kartus didesnį už spindulį</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Nustatyk pratęsimo ilgį 2–3 kartus didesnį už spindulį&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Hidraulinio kėlimo konfigūracija</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Augalų tankis</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Hidraulinio kėlimo žvilgsnis į priekį (s)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Pakėlimo laikas (s)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Įjungti</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Nuleidimo laikas (s)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Apversti reles</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Siųsti + išsaugoti</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Rodyti?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Perrašyti</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Techn. vėžės plotis</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Aparatinės įrangos pranešimai</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Išjungimas dingus maitinimui</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>Auto išjungti AgIO?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Apatinis meniu</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Pastūmimo valdymas</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Dešinysis meniu</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>Auto paleisti AgIO?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Apsisukimas</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Garsas</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Apsisukimas</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Šoninis</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Slėpti kontūrą</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB glodinimas</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Įrašyti kelią</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Techn. vėžės</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Ekrano mygtukai</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Padargų meniu</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Laukų meniu</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>IŠJ.</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>ĮJ.</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Derinimo reikšmės</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Galulaukės atst.</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Linijos glodinimas</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Sekcijų linijos</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Krypties žymekliai</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Aukštis</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Vienetai</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn rodyklė</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Ryškumas</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Lauko tekstūra</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Daugiakampiai</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Paleisti viso ekrano</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Spidometras</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Pagalbinės linijos</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Tinklelis</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Dabartinė transporto priemonė</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Dabartinis padargas</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Coliai</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Padargo plotis:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Pėdos</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Faktinis:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Nustatyta:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Klaida:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Arba +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Vairavimo kampas:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Skersmuo:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Pagavimas:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Jis lėtai didins vairavimo kampą, kad sumažintų šoninę paklaidą</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Lėtai</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Greitai</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Vairavimo atsakas</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integralas</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Min. žvilgsnis į priekį</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Žvilgsnis į priekį</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley stiprinimai</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Maks. vairavimo kampas</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV faktinis:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV nustatytas:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Impulsai per laipsnį</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS nulis</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Pagavimo koeficientas</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Atstumas:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Greičio koeficientas</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Negyvoji zona -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Laikymas:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Pagavimas = koeficientas * laikymas</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Įjungimo delsa (s)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Kryptis (laipsniai)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Stiprinimas</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimumas judėti</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Didžiausia riba</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proporcinis stiprinimas</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Šlaito posūkis laipsniais vienam posvyrio laipsniui</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Mygtukas – paspaudus įj., paspaudus išj.&#xD;
+Jungiklis – įspaustas įj., atleistas išj.</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Slėgio jutiklis</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Srovės jutiklis</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Impulsų jutiklis</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Apversti variklio kryptį</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Vairavimo įjungimas</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Variklio valdiklis</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A2D keitiklis</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Posūkio jutiklis</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Apversti WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Atstatyti viską į numatytąsias</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X arba Y ašis</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Išmanusis WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Paruošta</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Patikimumas: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Mėginiai: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Vairavimas atbulomis?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>Į</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Iš</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Apsisukimo kompensacija</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Maks. greitis</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Rankiniai apsisukimai</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Linijos storis</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pikseliai</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Pastūmimo atstumas</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Vedimo juosta</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Vairavimo juosta</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>Įj./Išj.</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Šviesjuostė</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm per pikselį</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Sekundės</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Kitos vedimo linijos paieškos laikas</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Vedlys</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Klaida:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Žemas</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Šlaito laipsniai vienam posvyrio laipsniui</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Žvilgsnis į priekį (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Žvilgsnio į priekį greičio stiprinimas</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimalus judėjimas</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM maksimumas</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Važiuok tiesiai pirmyn ir paspausk Nulis</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Posūkio slėgio jutiklis</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Posūkio srovės jutiklis</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Apversti hidraulikos įjungimo relę?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Vairavimo įjungimo režimas</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Kokio tipo variklio valdiklis?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Kaip prijungtas A/D keitiklis?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Posūkio impulsai</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Ar naudoji Danfoss vožtuvą?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Laisvas važiavimas</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Paleisti vedlį</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Labai rekomenduojama</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Įkelti numatytuosius</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Nustatyti ratų bazę</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Nustatyti vėžės plotį</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Ratų vėžė</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Antenos&#xD;
+padėtis</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Nustatyk antenos atstumą nuo sukimosi taško ašies</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Antenos&#xD;
+aukštis</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Nustatyti antenos aukštį</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = išj.</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Nustatyti antenos poslinkį</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D keitiklis</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Variklio valdiklio plokštė</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Valdymo relė</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfoss vožtuvas</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Jei ne, pasirink Apversti posvyrį</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Stipriai pakreipk transporto priemonę į dešinę. Posvyris į dešinę turi būti TEIGIAMAS.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Posvyrio funkcija</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Pastatyk ant lygaus paviršiaus ir paspausk „Nulinti posvyrį“</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Posvyrio nulis</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Apversti WAS kryptį</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Dabartinė kryptis:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WAS nulinimas</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Apversti kryptį</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Vairo variklio kryptis</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Pradėti * kalibravimą</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WAS kalibravimas</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* PRALEISTI * Impulsų per laipsnį ir Ackermann nustatymą?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Pradžios kampas:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Atstatyti į 100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Ackermann reikšmė:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Nustatyti</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Pasuk vairą iki norimos vedimo ribos ir spausk Gerai -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Vedimo vairavimo kampo riba</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Arba nustatyk vedimo vairavimo kampo ribą rankiniu būdu</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Automatinio atšaukimo funkcija</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Avarinio sustabdymo greitis</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Nulis</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Auto įkėlimas: įkelti lauko pakeitimus uždarant&#xD;
+Įkėlimas iš debesies: atidarant visada atsisiųsti naujausią iš AgShare</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R - Atstatyti simuliatorių&#xD;
+U - Apsisukimas (180 laipsnių)&#xD;
+&#xD;
+Rodyklė aukštyn - Greičiau&#xD;
+Rodyklė žemyn - Lėčiau&#xD;
+Rodyklė kairėn - Kairėn&#xD;
+Rodyklė dešinėn - Dešinėn&#xD;
+&#xD;
+( . ) Taškas - Sustoti&#xD;
+( / ) Brūkšnys - Tiesiai</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Šis poslinkio atstumas pridedamas prie platumos ir ilgumos ir uždarant lauką išsaugomas FIELD.KML faile.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Transporto priemonės nustatymai dabar vadinami „profiliais“ ir&#xD;
+juos galima kurti / įkelti pagrindiniame meniu (viršuje kairėje).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Paspausk kairėje esančius mygtukus, kuriuos nori matyti meniu (dešinėje). &#xD;
+&#xD;
+Paspaudimo tvarka bus meniu rodymo tvarka iš apačios į viršų.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Pasuk vairą į DEŠINĘ apie 20 laipsnių.&#xD;
+Važiuodamas pastoviu ratu, paspausk Rec ir palauk.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Mygtukas - paspausti, atleisti: įj.   &#xD;
+               paspausti, atleisti: išj.&#xD;
+&#xD;
+Jungiklis - kol paspaustas, įj. &#xD;
+               atleistas - išj.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Važiuok lėtai ir įjunk auto vairavimą. Jei vairo variklis sukasi ne ta kryptimi, apversk kryptį.&#xD;
+Išbandyk rodyklėmis.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Vairavimo kampas turi būti TEIGIAMAS, kai sukama į DEŠINĘ.&#xD;
+Jei ne, pasirink Apversti WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Pasuk vairą į KAIRĘ maždaug tiek pat laipsnių kaip į dešinę.&#xD;
+Važiuodamas pastoviu ratu, paspausk Rec ir palauk.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Keisk nustatytą reikšmę vairavimo mygtukais. &#xD;
+&#xD;
+Minimalų judėjimą nustatyk kuo didesnį, kad vairo variklis ar hidraulika dar nejudintų vairo</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Dabar pavažiuok AB linija ir sureguliuok nustatymus pagal greitį ir dirvos sąlygas.&#xD;
+&#xD;
+Prisimink: CPD, Min PWM ir žvilgsnis į priekį yra svarbiausi nustatymai.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Seni profiliai turėjo visus nustatymus viename faile. Naujas formatas atskiria transporto priemonę, padargą ir aplinką. Pasirink, ką nori išgauti.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Programinės įrangos atnaujinimo funkcija&#xD;
+&#xD;
+Ši funkcija kuriama.&#xD;
+&#xD;
+Būsimos galimybės:&#xD;
+&#xD;
+• Pasirinkti programinės įrangos .hex failą&#xD;
+• Pasirinkti ryšio prievadą (iš AgIO nustatymų)&#xD;
+• Paleisti TeensyLoaderCLI su parametrais&#xD;
+• Įkelti programinę įrangą į Teensy įrenginį&#xD;
+• Eigos rodiklis&#xD;
+&#xD;
+TeensyLoader integracija:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Nėra</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Jungiklis</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Mygtukas</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Pasirink seną profilio failą</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Pasirink, ką konvertuoti (transporto priemonę ir (arba) padargą)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Naud.:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Faktinis:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/val.</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ val.</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/val.</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Važiuok lėtai tiesiai pirmyn, leisk sistemai vairuoti</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Minimalaus judėjimo nustatymas</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Nulis arba +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Nustatyk proporcinį stiprinimą gerai reakcijai. &#xD;
+PWM maksimumu apribok posūkio greitį.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Važiuok pirmyn ir įjunk auto vairavimą</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Stiprinimo nustatymas</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Pabaiga</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Paleisti vedlį iš naujo</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Baigta!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Eiga:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Impulsai / laipsnis</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WAS poslinkis</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Kryptis:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Pataisyta rytų koordinatė</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Pataisos atstumas</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Posvyris (laipsniai)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Slinkimas įj./išj.</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Stulpas</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Glodus</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Tiesioginis</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Kameros elgsena</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Atstatyti numatytąjį</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>( +90 iki -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>( +180 iki -180 )</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Transporto priemonė: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Padargas: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Aplinka: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Aplinka</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>Sistema / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Nustatyta reikšmė</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Faktinis</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Įvesk lauko pavadinimą</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Plotas:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Taškai:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Galimos vėžės</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Galimi laukai</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importuoti</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Atžymėti viską</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Pažymėti viską</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Kairėje pasirink lauką, tada pasirink vėžes kopijavimui</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Lauko pavadinimas</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Išeiti į Windows po:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Išjungti po:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Išjungti</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Pažymėk / atžymėk naudojamas vėžes</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Sutrumpinti B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Sutrumpinti A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Pratęsti B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Pratęsti A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Kitas</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Ankstesnis</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Automatinė paieška</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Laukas</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Perrašyti</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Gauti pasirinktus</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Gauti visus</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Siunčiama... Palauk</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Ilg.:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Plat.:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Atstumas iki vėliavėlės:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Taškas A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Importuoti vėliavėles</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Eksportuoti vėliavėles</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Ribos</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Per?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Plotas</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Tarpas (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Pridėti taškus</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Apdorotini taškai:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Taškai</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare įkėlimas</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare atsisiuntimas</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Iš KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Atidaryti</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Įvažiuoti</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Tęsti</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Esamas</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Naujas laukas</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Ankstesnis laukas</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Darbo plotis</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Nauja riba</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Fonas</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Lauko vardas</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Įkelti pasirinktus</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Redaguoti lauko pavadinimą</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Linijos</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Žemėlapis</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Vėliavėlės</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Rūšiuoti</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Liko:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Norma:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Iš viso:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Apdirbta:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Apdirbta</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Atst.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Kelionė</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Atstumas (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Naudoti pasirinktą</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Naudoti pasirinktą</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Ištrinti lauką</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Įrašo pavadinimas</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Ištrinti įrašą</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Kelias išj.</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Diena</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Naktis</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Dabartinis: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Pasirinktas: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Ant. sukimosi taškas:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Ant. poslinkis:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Vėžės plotis:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Prijungimas:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Velkamas kablys:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Įkelti</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Konvertuoti senus profilius</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Aplinkos</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Failo vardas</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Konvertuoti senus profilio failus į naują formatą</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Konvertuoti</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>2 žingsnis: pasirink, ką konvertuoti (transporto priemonę ir (arba) padargą):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Konvertuoti padargą</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Padargo profilio pavadinimas:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Transporto priemonės profilio pavadinimas:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Konvertuoti transporto priemonę</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>1 žingsnis: pasirink seną profilio failą:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Pavadinimas:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Sukurti</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopijuoti iš:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Netinkama:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS vienas:</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK Float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Apskaičiuota:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Rankinis IP:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Simul.:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Nežinoma:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Amžius:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Nėra tinklo ryšio.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Prisijungta. Laukiama pataisų.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Pataisos nutrūko. Jungiamasi iš naujo.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Prisijungta, bet duomenų negaunama. Kai kurioms paslaugoms reikia tavo padėties: patikrink, ar GPS padėties siuntimas įjungtas.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Paslauga nutraukė ryšį. Jungiamasi iš naujo.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Paslauga nutraukė ryšį nesiuntusi pataisų.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Gaunamos pataisos</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Paslauga atsiuntė atsakymą, kurio AgIO negali perskaityti.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Paslauga neatsiuntė mountpoint sąrašo.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Paslauga atsiuntė tuščią atsakymą.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Šio mountpoint paslaugoje nėra. Pasirink vieną iš sąrašo.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Šis adresas atsakė tinklalapiu, o ne NTRIP paslauga. Patikrink adresą ir prievadą.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Naudotojo vardas, slaptažodis arba mountpoint neteisingas.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Šio mountpoint paslaugoje nėra. Patikrink rašybą, didžiosios raidės svarbios.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Paslauga šiuo metu negali priimti dar vieno ryšio. Ji užimta arba šis prisijungimas jau naudojamas.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Paslauga paleidžiama. AgIO bandys dar kartą maždaug po minutės.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Šiai paslaugai kaip naudotojo vardas reikalingas tavo el. pašto adresas.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Naudotojo vardas arba slaptažodis neteisingas.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Paslauga atsisakė suteikti prieigą.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Paslauga atsiuntė atsakymą, kurio AgIO nesupranta.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Radijas atidarytas. Laukiama pataisų.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Radijas atidarytas, bet duomenų negaunama.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Gaunamos pataisos iš radijo.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Vėl pagrindinė paslauga</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Pataisos vėl gaunamos iš pagrindinės paslaugos.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Pagrindinė paslauga vėl veikia</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Perjungti atgal? GPS gali trumpam prarasti RTK. AgIO niekada pats neperjungia atgal.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Pagrindinė paslauga sutrikusi</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Perjungta į atsarginę</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Tu perjungei į atsarginę paslaugą.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>nėra pataisų</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Viskas gerai: pataisos gaunamos.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profilis neturi pavadinimo.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS stebėjimai (senas formatas)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS stebėjimai (senas formatas)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>gamintojo</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>bazės padėtis</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>bazės padėtis + antenos aukštis</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>antenos aprašas</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>sistemos parametrai</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS efemeridės</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS efemeridės</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>imtuvo ir antenos aprašas</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou efemeridės</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS efemeridės</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo efemeridės</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS kodo fazės paklaidos</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>tekstas</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>tuščia</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Paspausk naują spartųjį klavišą</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Paspausk mygtuką spartajam klavišui redaguoti</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Neprisijungta</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Nustatyk atstumą, 2: Spausk Sukurti, 3: Sukurk nukirpimo linijas</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE diagrama</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Važiuok tolygiai</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Paruošta taikyti</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Renkama...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Klaida, CPD nustatytas į 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann nustatytas į:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Klaida, Ackermann nustatytas į 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Žemiau pasirink kvadratą ir naują spalvą</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Pasirink paruoštą spalvą</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Pasirink naują spalvą ir žemiau kvadratą, kad išsaugotum</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Laukų aplanko nerasta</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Klaida įkeliant laukus</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Šiame lauke vėžių nerasta</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Klaida įkeliant vėžes</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Išsaugomos dabartinės vėžės...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Konvertuojamos vėžės...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Išsaugomos vėžės...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Pasirinktas laukas:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Klaida įkeliant laukus:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Lengvas važiavimas aktyvus</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Įkelti aplinką:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Transporto priemonė:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Padargas:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Aplinka:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Kritinė išsaugojimo klaida</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Išjungimo klaida</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Kryptis atstatyta</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Pirmyn nustatyta</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Auto vairavimas išjungtas</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Pastūmimo langas atidarytas</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Uždaryk pastūmimo langą</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Įspėjimas: didelis atstumas iki lauko pradžios</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare įkėlimas nepavyko</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Pradedant įkėlimą į AgShare įvyko klaida.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Įkeliant į AgShare įvyko klaida.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Laukas NEIŠSAUGOTAS</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Lauko išsaugoti nepavyko, todėl jis paliktas atidarytas. Patikrink laisvą disko vietą ir bandyk dar kartą.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Tęsimo būdas</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Paskutinė sustojimo vieta</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Artimiausias taškas</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Pradėti nuo pradžios</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Negalima naudoti su zonomis</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Tik sekcijoms</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Lengvas važiavimas</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Lengvo važiavimo režimu profiliai nepasiekiami</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Sekcijos įjungtos</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Pirmiausia išjunk auto arba rankinį režimą</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Atstatyti kryptį</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Važiuok pirmyn greičiau nei 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Auto vairavimas išjungtas</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK fiksavimo signalas</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Vėžė pakeista</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Keliai įjungti</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Simuliatorius: atbulinė paliesta</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Spartusis klavišas suveikė</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Nustatymai išsiųsti vairavimo moduliui</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Grįžimas iš redagavimo</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Atnaujintojas nerastas. Įsitikink, kad AgOpenGPS.Updater.exe yra programos aplanke.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Atnaujintojas nerastas</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>Per mažai taškų ribai sukurti</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Negalima apskaičiuoti lauko centro. Trūksta išorinės ribos arba AB linijos.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Zonų negali būti daugiau nei sekcijų</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simuliatorius išjungtas</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simuliatorius neveikia, kai naudojama tikra antena</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Atstatyti numatytąjį</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Reikšmės nustatytos į pradines numatytąsias</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Viršytas intervalas</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Poslinkis per didelis – pritaikyti negalima</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Išmanusis WAS nulis</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Numatytieji nustatyti</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD ir Ackermann nustatyti į numatytuosius</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>P stiprinimo pakeitimas</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proporcinis stiprinimas nustatytas į 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profiliai sukurti</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Numatytieji profiliai sukurti</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Aplinkos nustatymai atstatyti!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Aplinkos nustatymai įkelti!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Profilių failų nerasta!
+
+Registre nurodytų profilių rasti nepavyko.
+Pasirink arba sukurk naujus profilius.
+
+Jei nepasirinksi, aplinka naudos numatytuosius.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Profilių nerasta.
+
+Spausk „Naujas“, kad sukurtum transporto priemonės ir padargo profilius.
+
+Jei nepasirinksi, aplinka naudos numatytuosius.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Rimta lauko pradžios taško klaida&#xD;
+&#xD;
+Lauko pradžios taškas yra daugiau nei 20 km nuo dabartinės GPS padėties. Ištrink šį lauką ir sukurk naują, nes tikslumas bus prastas&#xD;
+&#xD;
+Arba gali būti, kad laukas atidarytas, o tu nuvažiavai toli</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Dėmesio: uždarius AgIO nutrūks ryšys su aparatine įranga.&#xD;
+Ar tikrai nori uždaryti?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Aukštyn + žemyn</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Žemyn</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Automatinis slėpimas</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto&#xD;
+paleidimas</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profilis</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profiliai</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Dabartinis profilis</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Dabartinis profilis</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Naujas profilis</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Naujas:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Naudojamas profilis:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: profilių tvarkymas</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Perrašyti šį profilį:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Išplėstiniai nustatymai</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS nustatymai</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Nuosekliojo perdavimo konfigūracija</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Nuoseklusis perdavimas įj.</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>Kitas prievadas nei GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Paleisti sumažintą</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>AgIO iššoka įspėjus</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>Auto paleisti GPS-Out</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Rodyti&#xD;
+įspėjus</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Įvykių žurnalas</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Žurnalas</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Nuoseklusis monitorius</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP monitorius</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN vadovas</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Vadovas -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Klaviatūra</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Pranešimo tekstas čia</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO pranešimas</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo pranešimas</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Stabdyti</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Pradėti</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP duomenys</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP išjungtas</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>NAUDOJAMA ATSARGINĖ</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Ar pataisos geros?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Perjungti į atsarginę</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Bandyti pagrindinę paslaugą dar kartą</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Grįžti į pagrindinę</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Prisijungta, laukiama duomenų</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Jungiamasi...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint nerastas</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Nepavyksta prisijungti</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Sustabdyta</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Paslauga paleidžiama</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Paslauga užimta</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Prisijungta, bet duomenų negaunama</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Nėra tinklo</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Jungiamasi iš naujo...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Paslauga nesuprasta</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Paslauga nepasiekiama</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Gaunamos pataisos</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Šio srauto išsamiai patikrinti negalima.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Bazinės stoties padėtis gauta</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Bazinės stoties padėtis</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Laukiama. Ji ateina kas 10 sekundžių.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Trūksta bazinės stoties padėties</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>Be jos RTK negali pasileisti.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Dar negauta.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Atstumas iki bazinės stoties</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Laukiama tavo GPS padėties.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>Per toli geram RTK. Pasirink artimesnę bazinę stotį.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Toli. Šiuo atstumu RTK mažiau tikslus.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Pagal NTRIP nustatymuose nurodytą fiksuotą padėtį.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Palydovai pataisose</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Pataisose nėra palydovų duomenų</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Bazinė stotis nesiunčia stebėjimų.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Dar nieko negauta.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Šviežūs duomenys</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Laukiama pirmųjų duomenų.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Duomenys vėluoja</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Naujų duomenų nėra</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Tavo GPS: RTK fiksuotas</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Tavo GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Dar skaičiuoja. Šiek tiek palauk.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Tavo GPS: dar nėra RTK</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Tik įprastas GPS tikslumas.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Tavo GPS neturi fiksavimo</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Tavo GPS rankiniame arba simuliatoriaus režime</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Nėra adreso</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Pirmiausia įvesk adresą.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Nėra prievado</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Nepavyko išsaugoti</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Klaida atidarant prievadą</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP dar negalima naudoti</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Pirmiausia pasirink profilį ir spausk Naudoti.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Naudojamas profilis dar neturi paslaugos adreso ar radijo prievado. Pirmiausia jį redaguok.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Nepavyksta perskaityti</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Šio profilio failo perskaityti nepavyko.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Negalima pervadinti</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Toks pavadinimas jau naudojamas.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Profilio įkėlimo įspėjimas</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profilis atkurtas</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>AgIO profilis atkurtas iš .last atsarginės kopijos, nes pagrindinio failo perskaityti nepavyko.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Failas išsaugotas</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Netinkamas ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Netinkamas pavadinimas</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Pavadinimas neužpildytas</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Netinkamas dažnis</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Dažnis neužpildytas</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Nėra kanalo</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Radijas įjungtas, bet kanalas nepasirinktas</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP taip pat įjungtas</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP taip pat įjungtas, išjungiama</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>Naudojamas AgIO numatytasis profilis</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Naudojamas numatytasis profilis</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Radijo NTRIP įjungtas</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Nuosekliojo NTRIP įjungtas</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Nuosekliojo perdavimo NTRIP įjungtas</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Įjunk NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Klaida jungiantis prie nuosekliojo perdavimo</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Klaida jungiantis prie radijo</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP nustatytas</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Failas nerastas</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Įvesk failo pavadinimą išsaugojimui...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Išsaugoti ir grįžti</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Nepavyksta prisijungti prie prievado</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Ryšys jau nutrauktas?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Ryšys jau nutrauktas??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Nėra aktyvaus Arduino prievado</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Rimta tinklo ryšio klaida</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Kritinė registro klaida</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Nepavyko ištrinti registro poraktyvio medžio</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController neįdiegtas??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Radijas įjungtas. Pirmiausia išjunk jį radijo nustatymuose.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Nuoseklusis perdavimas įjungtas. Pirmiausia jį išjunk.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP įjungtas. Pirmiausia išjunk jį NTRIP profilių sąraše.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Atstumas</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Valyti</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Klaidos&#xD;
+pranešimas</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Pranešimas 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Modulis 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Nuoseklusis monitorius - baud: Teensy - 115200   Arduino - 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Siųsti $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Siųsti $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Posvyris: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Vairas: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP išvestis</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>Fiksuota padėtis</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>Kita NTRIP paslauga</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automatinis</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Abu</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Atsarginė</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Perjungsiu pats</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Pagrindinė paslauga</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Mano AIO plokštė (tinklu)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Mano GPS imtuvas (nuosekliuoju)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Mano GPS padėtis</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP paslauga</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Išvestis ir padėtis</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Nuoseklusis radijas</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Perjungti automatiškai</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>DABAR NAUDOJAMA</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>NAUDOJAMA</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>PAGRINDINĖ PASLAUGA</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>ATSARGINĖ</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Išjungta. Antra paslauga nenaudojama.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(dar nėra prievado)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Perjungi pats</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Neapdorotas TCP (be mountpoint ir prisijungimo)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Mountpoint nepasirinktas</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Dar neužpildyta</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Reikia tavo padėties</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Vieta</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(dar neišsaugota)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Pirmiausia pasirink radijo prievadą.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Atsarginei naudoti pasirink radijo prievadą</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Atsarginei naudoti užpildyk Caster informaciją</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Profilių dar nėra.&#xD;
+&#xD;
+Spausk Naujas profilis, kad sukurtum.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Šis profilis dar neužpildytas.&#xD;
+Spausk Redaguoti ir nurodyk pagrindinę paslaugą.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>NTRIP profilis dar nepasirinktas. Pasirink arba sukurk NTRIP nustatymuose.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>NTRIP profilyje pasirink pagrindinio radijo prievadą.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP vėl veikia</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Pataisos vėl gaunamos.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP prisijungimas atmestas</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP mountpoint nerastas</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP caster užimtas</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP nėra pataisų</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP srautas prarastas</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP neprisijungta</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP išjungtas</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP klausoma</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Ryšio problema</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Nepavyksta prisijungti prie caster</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>IPv4 adreso nerasta</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP ryšys nepavyko</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP ryšys atmestas</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Caster nutraukė ryšį nesiuntęs duomenų (patikrink mountpoint ir prisijungimo duomenis)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP klientas nesukonfigūruotas</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Pasirink esamą arba sukurk naują profilį</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Sukurk arba pasirink profilį</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Išjunk prieš naudodamas nuosekliojo perdavimo režimą</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Išjunk prieš naudodamas NTRIP</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Išjunk prieš naudodamas radijo NTRIP</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Eterio NTRIP įjungtas</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>Naujos reikšmės pakeistos</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP įj.</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP įjungtas</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO bus paleistas iš naujo, kad įsijungtų UDP tinklo funkcijos</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO bus paleistas iš naujo, kad išsijungtų UDP tinklo funkcijos</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim bus paleistas iš naujo, kad įsigaliotų UDP tinklo pakeitimai</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Rankinis IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Atnaujintojo klaida</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS atnaujinimas</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Palauk...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Palauk</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Palauk, kol baigsis dabartinė operacija.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Tikrinami GitHub leidimai...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Tikrinamas USB diskas...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>USB diske atnaujinimo nerasta.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Uždaromi AgOpenGPS ir AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Programos uždarytos</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Atsisiunčiama iš GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Atsisiuntimas nepavyko</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Atsisiuntimas nepavyko</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopijuojama iš USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopijavimas nepavyko</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopijavimas nepavyko</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Diegimas nepavyko</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Diegimas nepavyko</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Baigta! Paleidžiama iš naujo...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Baigta!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Atnaujinimas atšauktas.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Leidimo pastabų nėra.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Leidimo kandidatas</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Atsisiuntimas nepavyko: failo dydis neatitinka leidimo.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Atsisiuntimas nepavyko: kontrolinė suma neatitinka leidimo, failas neįdiegtas.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Šiame leidime tinkamo atsisiunčiamo failo nerasta.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Kitas atnaujintojas jau veikia.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Jokios programos neveikė.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Programos sėkmingai uždarytos.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Atnaujinimo failo nerasta.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Diegimo aplanko nėra.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Kuriama atsarginė kopija...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Išpakuojami failai...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Diegiami failai...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe diegimo aplanke nerastas.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS sėkmingai paleistas iš naujo.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Tikrinti atnaujinimus</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Įdiegti atnaujinimą</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Įtraukti išankstinius leidimus</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Programinės įrangos atnaujinimas</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS programinės įrangos atnaujinimas</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS atnaujintojas</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Leidimo pastabos</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Peržiūrėti leidimo pastabas</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Leidimo pastabos bus rodomos čia.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Dabartinė versija: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Naujausia versija: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Naujausia versija: atnaujinta</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Atnaujinimas internetu - spausk Tikrinti atnaujinimus</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Atnaujinimas internetu (GitHub leidimai)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Atnaujinimas internetu (yra vietinis atnaujinimas)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Vietinis: USB nerasta AgOpenGPS_*.zip</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Vietinis: įdėk AgOpenGPS.zip į USB disko šaknį</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController neįdiegtas, atsisiųsk iš:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linux naudotojams</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Tik Linux!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Išeinama</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profilio nepavyko visiškai įkelti (failas gali būti sugadintas).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profilis atkurtas iš .last atsarginės kopijos, nes pagrindinio failo perskaityti nepavyko.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Pirmiausia pasirink pagrindinio radijo prievadą.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Pirmiausia įvesk pagrindinės paslaugos adresą.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Arba išjunk NTRIP profilių sąraše.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Taisyk: Nustatymai -&gt; COM prievadai</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Dabartinė sesija trūkstamoms ar netinkamoms reikšmėms naudoja numatytąsias.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIO profilio nepavyko visiškai įkelti (failas gali būti sugadintas).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIP profilio "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" šiame kompiuteryje nėra. Pasirink arba sukurk profilį NTRIP nustatymuose.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" dar neturi paslaugos adreso.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Atsarginė taip pat neveikia:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Nėra pataisų jau</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO bando toliau.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> sekundžių</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minučių</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>NAUDOJAMA ATSARGINĖ: pagrindinė paslauga dabar nenaudojama</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>Bazinės stoties ID:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Padėtis:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Pažeisti duomenys:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Paslaugos atsakymas:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Jungiamasi po</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Nepavyksta nustatyti caster URL:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Simuliuoti duomenys</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   NĖRA DUOMENŲ</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Atnaujintojas turi būti paleistas iš AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Pirmiausia paleisk AgOpenGPS ir naudok:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Meniu → Įrankiai → Tikrinti atnaujinimus</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>To reikia dabartinei versijai nustatyti.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Įdiegti atnaujinimą iš</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Šaltinis:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Bus atlikta:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Uždaromi AgOpenGPS ir AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Sukuriama dabartinio diegimo atsarginė kopija</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Įdiegiamas atnaujinimas</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Paleidžiamas iš naujo AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Ar nori tęsti?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Atnaujinimo failo nerasta.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Įdėk AgOpenGPS_X.Y.Z.zip į USB disko šaknį.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Atnaujinimas nepavyko: {0}
+Atsarginė kopija atkurta.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Atnaujinimas nepavyko: {0}
+Atsarginės kopijos atkurti taip pat nepavyko!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Atnaujinimas nepavyko: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Atsarginė kopija atkurta.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Atsarginės kopijos atkurti taip pat nepavyko!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Atnaujinimas sėkmingai įdiegtas.
+{0}
+Atsarginė kopija: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Yra atnaujinimas: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Automatiškai perjungia po {0} nesėkmingų bandymų</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpoint, artimiausi pirmi.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpoint.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Nepavyksta rasti: {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Patikra nepavyko: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>gauta {1} kB</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Paskutiniai duomenys prieš {1d} s.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Paskutiniai duomenys prieš {1d} s. Lėtas ryšys?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Pataisoms {1d} s.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Atstumas iki bazinės stoties: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Tavo GPS: fiksavimo tipas {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} veikia (senas klientas)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} veikia</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (senas klientas)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Atidaroma {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: laukiama duomenų</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profilis: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Į {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Perrašyti: {1}</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID „{1}“ nėra tinkamas skaičius</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Įvyko klaida: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP klaida: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Įkėlimo klaida: {1}</value>
+  </data>
+  <data name="gsAgShareDownloader" xml:space="preserve">
+    <value>Atsisiųsti laukus iš AgShare</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Aktyvuoti</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Aktyvuota</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>API raktas</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Debesies įkėlimas</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Auto įkėlimas</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Auto įkėlimas: uždarant įkelti lauko pakeitimus
+Debesies įkėlimas: atidarant visada atsisiųsti naujausią versiją iš AgShare</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Jungiamasi...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Ryšys sėkmingas</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Išjungta</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Įveskite serverį ir API raktą, tada patikrinkite ryšį</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Neteisingas API raktas</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Tik vietinis</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Įklijuoti iš iškarpinės</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Užsiregistruokite čia, kad naudotumėte AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Nustatymai išsaugoti</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Serveris</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare nustatymai</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Tikrinti ryšį</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Įkėlimas išj.</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Įkėlimas įj.</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Laukai automatiškai įkeliami iš debesies</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Laukas įkeltas iš AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Nepavyko įkelti lauko iš debesies, naudojama vietinė versija.</value>
+  </data>
+  <data name="gsAgree" xml:space="preserve">
+    <value>Sutinku</value>
+  </data>
+  <data name="gsAllSettings" xml:space="preserve">
+    <value>Peržiūrėti visus nustatymus</value>
+  </data>
+  <data name="gsCopyFrom" xml:space="preserve">
+    <value>Kopijuoti iš</value>
+  </data>
+  <data name="gsCreateNewProfile" xml:space="preserve">
+    <value>Sukurti naują profilį</value>
+  </data>
+  <data name="gsCurve" xml:space="preserve">
+    <value>Kreivė</value>
+  </data>
+  <data name="gsDiscourseForum" xml:space="preserve">
+    <value>Discourse forumas</value>
+  </data>
+  <data name="gsDownloadAll" xml:space="preserve">
+    <value>Gauti visus</value>
+  </data>
+  <data name="gsDownloading" xml:space="preserve">
+    <value>Atsisiunčiama</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Greita pradžia su GPS navigacija. Nustatykite darbo plotį ir sukabinimo ilgį, tada sukurkite AB liniją arba kreivę. Nieko neišsaugoma diske.</value>
+  </data>
+  <data name="gsEmptyProfile" xml:space="preserve">
+    <value>Tuščias profilis</value>
+  </data>
+  <data name="gsForceOverwrite" xml:space="preserve">
+    <value>Perrašyti</value>
+  </data>
+  <data name="gsGetSelected" xml:space="preserve">
+    <value>Gauti pasirinktus</value>
+  </data>
+  <data name="gsLoad" xml:space="preserve">
+    <value>Įkelti</value>
+  </data>
+  <data name="gsLoadProfile" xml:space="preserve">
+    <value>Įkelti profilį</value>
+  </data>
+  <data name="gsName" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="gsNew" xml:space="preserve">
+    <value>Naujas</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Toliau</value>
+  </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Aplinka</value>
+  </data>
+  <data name="gsProfileMenuHint" xml:space="preserve">
+    <value>Technikos, padargo ir aplinkos nustatymai dabar saugomi atskiruose profiliuose.
+Įkelkite iš Nustatymų skydelio ir viršutinio kairiojo meniu.</value>
+  </data>
+  <data name="gsSaveAllDone" xml:space="preserve">
+    <value>Viskas atlikta. Uždaroma..</value>
+  </data>
+  <data name="gsSaveBeerTime" xml:space="preserve">
+    <value>Iki kito karto!</value>
+  </data>
+  <data name="gsSaveField" xml:space="preserve">
+    <value>Išsaugomas laukas</value>
+  </data>
+  <data name="gsSaveFieldSavedLocal" xml:space="preserve">
+    <value>Laukas išsaugotas vietoje.</value>
+  </data>
+  <data name="gsSaveFinalizeShutdown" xml:space="preserve">
+    <value>Baigiamas išjungimas</value>
+  </data>
+  <data name="gsSaveSettings" xml:space="preserve">
+    <value>Išsaugomi nustatymai</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Aplinkos nustatymai</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Aplinkos nustatymai išsaugoti.</value>
+  </data>
+  <data name="gsSaveSettingsSaved" xml:space="preserve">
+    <value>Nustatymai išsaugoti.</value>
+  </data>
+  <data name="gsSaveVehicleSettings" xml:space="preserve">
+    <value>Technikos nustatymai</value>
+  </data>
+  <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
+    <value>Technikos nustatymai išsaugoti.</value>
+  </data>
+  <data name="gsSaveToolSettings" xml:space="preserve">
+    <value>Padargo nustatymai</value>
+  </data>
+  <data name="gsSaveToolSettingsSaved" xml:space="preserve">
+    <value>Padargo nustatymai išsaugoti.</value>
+  </data>
+  <data name="gsSaveUploadCompleted" xml:space="preserve">
+    <value>Įkėlimas baigtas.</value>
+  </data>
+  <data name="gsSaveUploadFailed" xml:space="preserve">
+    <value>Įkėlimas nepavyko.</value>
+  </data>
+  <data name="gsSaveUploadToAgshare" xml:space="preserve">
+    <value>Laukas keliamas į AgShare</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Išmanus WAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Automatiškai kalibruoja WAS nulį, važiuojant analizuodamas vairavimo kampus. Įjunkite autovairavimą ir važiuokite tolygiai palei liniją.</value>
+  </data>
+  <data name="gsYouTubeTutorials" xml:space="preserve">
+    <value>YouTube pamokos</value>
+  </data>
+  <data name="gsCurrentVehicle" xml:space="preserve">
+    <value>Dabartinė technika</value>
+  </data>
+  <data name="gsCurrentTool" xml:space="preserve">
+    <value>Dabartinis padargas</value>
+  </data>
+  <data name="gsSelected" xml:space="preserve">
+    <value>Pasirinkta</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Antenos sukimosi taškas</value>
+  </data>
+  <data name="gsTrackWidth" xml:space="preserve">
+    <value>Vėžės plotis</value>
+  </data>
+  <data name="gsAttach" xml:space="preserve">
+    <value>Prikabinti</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Velkama kablys</value>
+  </data>
+  <data name="gsType" xml:space="preserve">
+    <value>Tipas</value>
+  </data>
+  <data name="gsHitch" xml:space="preserve">
+    <value>Sukabinimas</value>
+  </data>
+  <data name="gsVehicle" xml:space="preserve">
+    <value>Technika</value>
+  </data>
+  <data name="gsTool" xml:space="preserve">
+    <value>Padargas</value>
+  </data>
+  <data name="gsTractor" xml:space="preserve">
+    <value>Traktorius</value>
+  </data>
+  <data name="gsHarvester" xml:space="preserve">
+    <value>Kombainas</value>
+  </data>
+  <data name="gsArticulated" xml:space="preserve">
+    <value>Lankstinis</value>
+  </data>
+  <data name="gsFront" xml:space="preserve">
+    <value>Priekinis</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsRearFixed" xml:space="preserve">
+    <value>Galinis fiksuotas</value>
+  </data>
+  <data name="gsTrailing" xml:space="preserve">
+    <value>Velkamas</value>
+  </data>
+  <data name="gsVehicleInUse" xml:space="preserve">
+    <value>Technika naudojama</value>
+  </data>
+  <data name="gsCannotDeleteActiveVehicle" xml:space="preserve">
+    <value>Negalima ištrinti aktyvios technikos</value>
+  </data>
+  <data name="gsDeleteVehicleConfirm" xml:space="preserve">
+    <value>Ištrinti techniką</value>
+  </data>
+  <data name="gsRenameVehicle" xml:space="preserve">
+    <value>Pervadinti techniką</value>
+  </data>
+  <data name="gsEnterNewVehicleName" xml:space="preserve">
+    <value>Įveskite naują technikos pavadinimą</value>
+  </data>
+  <data name="gsVehicleExists" xml:space="preserve">
+    <value>Technika jau yra</value>
+  </data>
+  <data name="gsToolInUse" xml:space="preserve">
+    <value>Padargas naudojamas</value>
+  </data>
+  <data name="gsCannotDeleteActiveTool" xml:space="preserve">
+    <value>Negalima ištrinti aktyvaus padargo</value>
+  </data>
+  <data name="gsDeleteToolConfirm" xml:space="preserve">
+    <value>Ištrinti padargą</value>
+  </data>
+  <data name="gsRenameTool" xml:space="preserve">
+    <value>Pervadinti padargą</value>
+  </data>
+  <data name="gsEnterNewToolName" xml:space="preserve">
+    <value>Įveskite naują padargo pavadinimą</value>
+  </data>
+  <data name="gsToolExists" xml:space="preserve">
+    <value>Padargas jau yra</value>
+  </data>
+  <data name="gsErrorLoadingVehicle" xml:space="preserve">
+    <value>Klaida įkeliant techniką</value>
+  </data>
+  <data name="gsErrorLoadingTool" xml:space="preserve">
+    <value>Klaida įkeliant padargą</value>
+  </data>
+  <data name="gsFileResult" xml:space="preserve">
+    <value>Rezultatas</value>
+  </data>
+  <data name="gsNewVehicle" xml:space="preserve">
+    <value>Nauja technika</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Įveskite technikos pavadinimą</value>
+  </data>
+  <data name="gsNewTool" xml:space="preserve">
+    <value>Naujas padargas</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Įveskite padargo pavadinimą</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Sukurti numatytąją techniką</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Sukurti „Default“ technikos profilį su gamykliniais nustatymais?</value>
+  </data>
+  <data name="gsOverwrite" xml:space="preserve">
+    <value>Perrašyti</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Profilis jau yra. Perrašyti</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Sukurti numatytąjį padargą</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Sukurti „Default“ padargo profilį su gamykliniais nustatymais?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Numatytoji technika įkelta</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Numatytasis padargas įkeltas</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Konvertuoti senus profilius</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Technika / padargas</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Konvertuoti senus profilių failus į naują formatą</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Seni profiliai turėjo visus nustatymus viename faile. Naujame formate technika, padargas ir aplinka atskirti. Pasirinkite, ką išskirti.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>1 žingsnis</value>
+  </data>
+  <data name="gsConvertStep2" xml:space="preserve">
+    <value>2 žingsnis</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Technikos profilio pavadinimas</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Padargo profilio pavadinimas</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Importuoti techniką</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Importuoti padargą</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Neimportuoti</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Senų formatų failų nerasta.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>seni failai</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>senas(i) failas(-ai): konvertuota, konvertuotina</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>konvertuota</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>konvertuotina</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Konvertuoti</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Patvirtinti konvertavimą</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Konvertuoti '{0}': {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Konvertuoti</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Technika</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Padargas</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Konvertavimas baigtas</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Sėkmingai konvertuota</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Aplinkos nustatymai importuoti ir įkelti.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Konvertavimo klaidos</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Įvyko klaidų</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Įkelti techniką/padargą</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Yra</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Failo pavadinimas</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Pervadinti</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Technika jau yra</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Padargas jau yra</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CAN magistralės adapteris</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Modulių tinklo adresas -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Reikia paleisti iš naujo</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Įkėlimas baigtas</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Trasų įkėlimo klaida</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Sukurti ribą iš trasų</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Importuoti trasas iš kito lauko</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS pranešimas</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Perstumti GPS padėtį (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Lengvas važiavimas: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Piešti AB – norėdami pradėti, spustelėkite 2 ribos taškus</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Be pavadinimo</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 taškai – lygiuoti tinklelį</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Sukurti naują įrašą</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Įkelti aplinką</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML klaida</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antena</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Diferencialas</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Vienas</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD nustatyta: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Duomenų priėmimo klaida: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Siuntimo klaida: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Duomenų siuntimo klaida: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP serveris</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Oficialus</value>
+  </data>
 </root>

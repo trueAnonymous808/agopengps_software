@@ -648,7 +648,7 @@ Ordningen de trycks på är den ordningen de kommer visar i menyn uppifrån och 
     <value>Lateral</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
-    <value>Latitude</value>
+    <value>Latitud</value>
   </data>
   <data name="gsLeft" xml:space="preserve">
     <value>Vänster</value>
@@ -666,7 +666,7 @@ Ordningen de trycks på är den ordningen de kommer visar i menyn uppifrån och 
     <value>Linjebredd</value>
   </data>
   <data name="gsLongtitude" xml:space="preserve">
-    <value>Longtitude</value>
+    <value>Longitud</value>
   </data>
   <data name="gsLookAhead" xml:space="preserve">
     <value>Framförhållning</value>
@@ -927,7 +927,7 @@ Ordningen de trycks på är den ordningen de kommer visar i menyn uppifrån och 
     <value>Höger meny</value>
   </data>
   <data name="gsRollFilter" xml:space="preserve">
-    <value>Roll filter</value>
+    <value>Rollfilter</value>
   </data>
   <data name="gsS_East" xml:space="preserve">
     <value>SE</value>
@@ -1379,5 +1379,4732 @@ Ladda via Config-panelen &amp; menyn längst upp till vänster.</value>
   </data>
   <data name="gsConvertStep2" xml:space="preserve">
     <value>Steg 2</value>
+  </data>
+  <data name="UiS_0001" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0002" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UiS_0003" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="UiS_0004" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="UiS_0005" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="UiS_0006" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="UiS_0007" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="UiS_0008" xml:space="preserve">
+    <value>Spara som:</value>
+  </data>
+  <data name="UiS_0009" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="UiS_0010" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="UiS_0011" xml:space="preserve">
+    <value>Byt namn</value>
+  </data>
+  <data name="UiS_0012" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="UiS_0013" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="UiS_0014" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="UiS_0015" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="UiS_0016" xml:space="preserve">
+    <value>Avsluta</value>
+  </data>
+  <data name="UiS_0017" xml:space="preserve">
+    <value>Öppna:</value>
+  </data>
+  <data name="UiS_0018" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="UiS_0019" xml:space="preserve">
+    <value>Välj från listan...</value>
+  </data>
+  <data name="UiS_0020" xml:space="preserve">
+    <value>Läser in listan...</value>
+  </data>
+  <data name="UiS_0021" xml:space="preserve">
+    <value>Klar...</value>
+  </data>
+  <data name="UiS_0022" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="UiS_0023" xml:space="preserve">
+    <value>Kopierat</value>
+  </data>
+  <data name="UiS_0024" xml:space="preserve">
+    <value>Kunde inte kopiera</value>
+  </data>
+  <data name="UiS_0025" xml:space="preserve">
+    <value>Kopiera för support</value>
+  </data>
+  <data name="UiS_0026" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="UiS_0027" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="UiS_0028" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="UiS_0029" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="UiS_0030" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="UiS_0031" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="UiS_0032" xml:space="preserve">
+    <value>Av</value>
+  </data>
+  <data name="UiS_0033" xml:space="preserve">
+    <value>Använd</value>
+  </data>
+  <data name="UiS_0034" xml:space="preserve">
+    <value>Endast</value>
+  </data>
+  <data name="UiS_0035" xml:space="preserve">
+    <value>Eller</value>
+  </data>
+  <data name="UiS_0036" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="UiS_0037" xml:space="preserve">
+    <value>Gånger</value>
+  </data>
+  <data name="UiS_0038" xml:space="preserve">
+    <value>Aktuell</value>
+  </data>
+  <data name="UiS_0039" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="UiS_0040" xml:space="preserve">
+    <value>Kommando</value>
+  </data>
+  <data name="UiS_0041" xml:space="preserve">
+    <value>Svar</value>
+  </data>
+  <data name="UiS_0042" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="UiS_0043" xml:space="preserve">
+    <value>Ange värde</value>
+  </data>
+  <data name="UiS_0044" xml:space="preserve">
+    <value>Ange ett värde</value>
+  </data>
+  <data name="UiS_0045" xml:space="preserve">
+    <value>Ange något</value>
+  </data>
+  <data name="UiS_0046" xml:space="preserve">
+    <value>Anslut</value>
+  </data>
+  <data name="UiS_0047" xml:space="preserve">
+    <value>Koppla från</value>
+  </data>
+  <data name="UiS_0048" xml:space="preserve">
+    <value>Ej ansluten</value>
+  </data>
+  <data name="UiS_0049" xml:space="preserve">
+    <value>Anslut automatiskt</value>
+  </data>
+  <data name="UiS_0050" xml:space="preserve">
+    <value>Anslut GPS</value>
+  </data>
+  <data name="UiS_0051" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="UiS_0052" xml:space="preserve">
+    <value>Serieport</value>
+  </data>
+  <data name="UiS_0053" xml:space="preserve">
+    <value>GPS-port</value>
+  </data>
+  <data name="UiS_0054" xml:space="preserve">
+    <value>GPS-port 2</value>
+  </data>
+  <data name="UiS_0055" xml:space="preserve">
+    <value>RTCM-port</value>
+  </data>
+  <data name="UiS_0056" xml:space="preserve">
+    <value>Nätverksport</value>
+  </data>
+  <data name="UiS_0057" xml:space="preserve">
+    <value>Radio på port</value>
+  </data>
+  <data name="UiS_0058" xml:space="preserve">
+    <value>Hastighet (baud)</value>
+  </data>
+  <data name="UiS_0059" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="UiS_0060" xml:space="preserve">
+    <value>IP-adress</value>
+  </data>
+  <data name="UiS_0061" xml:space="preserve">
+    <value>IP-adress : port</value>
+  </data>
+  <data name="UiS_0062" xml:space="preserve">
+    <value>Värdnamn</value>
+  </data>
+  <data name="UiS_0063" xml:space="preserve">
+    <value>Värdnamn:</value>
+  </data>
+  <data name="UiS_0064" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="UiS_0065" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="UiS_0066" xml:space="preserve">
+    <value>Aktuellt subnät</value>
+  </data>
+  <data name="UiS_0067" xml:space="preserve">
+    <value>Ställ in</value>
+  </data>
+  <data name="UiS_0068" xml:space="preserve">
+    <value>Ange ny subnätsadress</value>
+  </data>
+  <data name="UiS_0069" xml:space="preserve">
+    <value>Fyll i automatiskt</value>
+  </data>
+  <data name="UiS_0070" xml:space="preserve">
+    <value>Ingen adapter för detta subnät</value>
+  </data>
+  <data name="UiS_0071" xml:space="preserve">
+    <value>Nätverk</value>
+  </data>
+  <data name="UiS_0072" xml:space="preserve">
+    <value>Ethernet-inställningar</value>
+  </data>
+  <data name="UiS_0073" xml:space="preserve">
+    <value>Slå på UDP och tryck OK</value>
+  </data>
+  <data name="UiS_0074" xml:space="preserve">
+    <value>UDP är av</value>
+  </data>
+  <data name="UiS_0075" xml:space="preserve">
+    <value>UDP av</value>
+  </data>
+  <data name="UiS_0076" xml:space="preserve">
+    <value>Överföringshastighet</value>
+  </data>
+  <data name="UiS_0077" xml:space="preserve">
+    <value>Senast sedd</value>
+  </data>
+  <data name="UiS_0078" xml:space="preserve">
+    <value>Ansluten</value>
+  </data>
+  <data name="UiS_0079" xml:space="preserve">
+    <value>Av vid %</value>
+  </data>
+  <data name="UiS_0080" xml:space="preserve">
+    <value>Jämn styrvinkel!!</value>
+  </data>
+  <data name="UiS_0081" xml:space="preserve">
+    <value>I rörelse</value>
+  </data>
+  <data name="UiS_0082" xml:space="preserve">
+    <value>A och B bytta</value>
+  </data>
+  <data name="UiS_0083" xml:space="preserve">
+    <value>A till Z och 0 till 9</value>
+  </data>
+  <data name="UiS_0084" xml:space="preserve">
+    <value>AgOpenGPS körs redan</value>
+  </data>
+  <data name="UiS_0085" xml:space="preserve">
+    <value>Allt grönt? Tryck Skapa eller korrigera manuellt!</value>
+  </data>
+  <data name="UiS_0086" xml:space="preserve">
+    <value>Endast bokstäver och siffror</value>
+  </data>
+  <data name="UiS_0087" xml:space="preserve">
+    <value>Ett oväntat fel inträffade och skrevs till händelseloggen. AgOpenGPS fortsätter att köra.
+
+</value>
+  </data>
+  <data name="UiS_0088" xml:space="preserve">
+    <value>BingMap-fel</value>
+  </data>
+  <data name="UiS_0089" xml:space="preserve">
+    <value>Läge för att skapa gräns</value>
+  </data>
+  <data name="UiS_0090" xml:space="preserve">
+    <value>Skapandet misslyckades</value>
+  </data>
+  <data name="UiS_0091" xml:space="preserve">
+    <value>Knappfel</value>
+  </data>
+  <data name="UiS_0092" xml:space="preserve">
+    <value>Kan inte radera registrets undernyckelträd</value>
+  </data>
+  <data name="UiS_0093" xml:space="preserve">
+    <value>Sparad</value>
+  </data>
+  <data name="UiS_0094" xml:space="preserve">
+    <value>Kopierat till urklipp, klistra in (CTRL-V) i Telegram</value>
+  </data>
+  <data name="UiS_0095" xml:space="preserve">
+    <value>Skapa en bana först</value>
+  </data>
+  <data name="UiS_0096" xml:space="preserve">
+    <value>Fel vid skapande</value>
+  </data>
+  <data name="UiS_0097" xml:space="preserve">
+    <value>Korsningsfel</value>
+  </data>
+  <data name="UiS_0098" xml:space="preserve">
+    <value>Inga korsningar hittades</value>
+  </data>
+  <data name="UiS_0099" xml:space="preserve">
+    <value>Kurvan är vänd</value>
+  </data>
+  <data name="UiS_0100" xml:space="preserve">
+    <value>Avståndsfel</value>
+  </data>
+  <data name="UiS_0101" xml:space="preserve">
+    <value>Avståndet är 0, inget att flytta</value>
+  </data>
+  <data name="UiS_0102" xml:space="preserve">
+    <value>Aktivera styrbrytaren</value>
+  </data>
+  <data name="UiS_0103" xml:space="preserve">
+    <value>Miljön används just nu</value>
+  </data>
+  <data name="UiS_0104" xml:space="preserve">
+    <value>Fel vid sökning av koordinater</value>
+  </data>
+  <data name="UiS_0105" xml:space="preserve">
+    <value>Fel, kontrollera formatet</value>
+  </data>
+  <data name="UiS_0106" xml:space="preserve">
+    <value>Fel vid import av spår:</value>
+  </data>
+  <data name="UiS_0107" xml:space="preserve">
+    <value>Undantag</value>
+  </data>
+  <data name="UiS_0108" xml:space="preserve">
+    <value>För stor styrvinkel – kan inte nollställas</value>
+  </data>
+  <data name="UiS_0109" xml:space="preserve">
+    <value>Det gick inte att hämta förhandsvisningen av fältet. Se loggen för detaljer.</value>
+  </data>
+  <data name="UiS_0110" xml:space="preserve">
+    <value>Det gick inte att hämta fältet.</value>
+  </data>
+  <data name="UiS_0111" xml:space="preserve">
+    <value>Det gick inte att läsa in fältlistan.</value>
+  </data>
+  <data name="UiS_0112" xml:space="preserve">
+    <value>Det gick inte att läsa in fältlistan.
+</value>
+  </data>
+  <data name="UiS_0113" xml:space="preserve">
+    <value>Det gick inte att läsa in fältlistan:</value>
+  </data>
+  <data name="UiS_0114" xml:space="preserve">
+    <value>Det gick inte att läsa in spår:</value>
+  </data>
+  <data name="UiS_0115" xml:space="preserve">
+    <value>Fältet sparades men kunde inte öppnas (Field.txt saknas).</value>
+  </data>
+  <data name="UiS_0116" xml:space="preserve">
+    <value>Söker skärningspunkter...</value>
+  </data>
+  <data name="UiS_0117" xml:space="preserve">
+    <value>Slutför alla inställningar eller återställ till standard</value>
+  </data>
+  <data name="UiS_0118" xml:space="preserve">
+    <value>Flaggor tillagda!</value>
+  </data>
+  <data name="UiS_0119" xml:space="preserve">
+    <value>Flaggor sparade!</value>
+  </data>
+  <data name="UiS_0120" xml:space="preserve">
+    <value>Kortkommandot är ofullständigt</value>
+  </data>
+  <data name="UiS_0121" xml:space="preserve">
+    <value>Ogiltig linje</value>
+  </data>
+  <data name="UiS_0122" xml:space="preserve">
+    <value>Ogiltigt val.</value>
+  </data>
+  <data name="UiS_0123" xml:space="preserve">
+    <value>Finns det kanske bara 1 linje?</value>
+  </data>
+  <data name="UiS_0124" xml:space="preserve">
+    <value>Linjefel</value>
+  </data>
+  <data name="UiS_0125" xml:space="preserve">
+    <value>Inläsningsfel:</value>
+  </data>
+  <data name="UiS_0126" xml:space="preserve">
+    <value>Se till att alla ändar korsar, och bara en gång</value>
+  </data>
+  <data name="UiS_0127" xml:space="preserve">
+    <value>Kartan är för stor</value>
+  </data>
+  <data name="UiS_0128" xml:space="preserve">
+    <value>Max 164 fot</value>
+  </data>
+  <data name="UiS_0129" xml:space="preserve">
+    <value>Max 50 meter</value>
+  </data>
+  <data name="UiS_0130" xml:space="preserve">
+    <value>Måste vara större än 5 grader</value>
+  </data>
+  <data name="UiS_0131" xml:space="preserve">
+    <value>Inga inspelade banor</value>
+  </data>
+  <data name="UiS_0132" xml:space="preserve">
+    <value>Inget val</value>
+  </data>
+  <data name="UiS_0133" xml:space="preserve">
+    <value>Inget fält är öppet just nu.</value>
+  </data>
+  <data name="UiS_0134" xml:space="preserve">
+    <value>Inget fält valt.</value>
+  </data>
+  <data name="UiS_0135" xml:space="preserve">
+    <value>Inga spår hittades.</value>
+  </data>
+  <data name="UiS_0136" xml:space="preserve">
+    <value>Ingen giltig gräns kunde skapas</value>
+  </data>
+  <data name="UiS_0137" xml:space="preserve">
+    <value>Ingen giltig gräns att spara</value>
+  </data>
+  <data name="UiS_0138" xml:space="preserve">
+    <value>För få knappar tillagda</value>
+  </data>
+  <data name="UiS_0139" xml:space="preserve">
+    <value>Problem med valfri fil</value>
+  </data>
+  <data name="UiS_0140" xml:space="preserve">
+    <value>Välj ett fält innan du sparar.</value>
+  </data>
+  <data name="UiS_0141" xml:space="preserve">
+    <value>Välj ett fält först.</value>
+  </data>
+  <data name="UiS_0142" xml:space="preserve">
+    <value>Välj minst ett fält att ladda upp</value>
+  </data>
+  <data name="UiS_0143" xml:space="preserve">
+    <value>Välj minst ett spår att importera.</value>
+  </data>
+  <data name="UiS_0144" xml:space="preserve">
+    <value>Vänta tills uppladdningen är klar</value>
+  </data>
+  <data name="UiS_0145" xml:space="preserve">
+    <value>Fel vid sparande</value>
+  </data>
+  <data name="UiS_0146" xml:space="preserve">
+    <value>Välj en annan miljö</value>
+  </data>
+  <data name="UiS_0147" xml:space="preserve">
+    <value>Satt till 99, max 164 fot</value>
+  </data>
+  <data name="UiS_0148" xml:space="preserve">
+    <value>Satt till 99, max 50 meter</value>
+  </data>
+  <data name="UiS_0149" xml:space="preserve">
+    <value>Startpunkt = slutpunkt</value>
+  </data>
+  <data name="UiS_0150" xml:space="preserve">
+    <value>För liten styrvinkel</value>
+  </data>
+  <data name="UiS_0151" xml:space="preserve">
+    <value>Styrningen är avstängd</value>
+  </data>
+  <data name="UiS_0152" xml:space="preserve">
+    <value>Klart!</value>
+  </data>
+  <data name="UiS_0153" xml:space="preserve">
+    <value>Klart</value>
+  </data>
+  <data name="UiS_0154" xml:space="preserve">
+    <value>Fältet raderades lokalt men kunde inte tas bort från AgShare.
+Ta bort det manuellt.</value>
+  </data>
+  <data name="UiS_0155" xml:space="preserve">
+    <value>För bred</value>
+  </data>
+  <data name="UiS_0156" xml:space="preserve">
+    <value>Redskapsfel</value>
+  </data>
+  <data name="UiS_0157" xml:space="preserve">
+    <value>Tryck på kartan för att skapa gränsen</value>
+  </data>
+  <data name="UiS_0158" xml:space="preserve">
+    <value>Spårinfo</value>
+  </data>
+  <data name="UiS_0159" xml:space="preserve">
+    <value>Spårjusteringen misslyckades:</value>
+  </data>
+  <data name="UiS_0160" xml:space="preserve">
+    <value>Uppladdning pågår redan</value>
+  </data>
+  <data name="UiS_0161" xml:space="preserve">
+    <value>Uppladdning pågår</value>
+  </data>
+  <data name="UiS_0162" xml:space="preserve">
+    <value>Använd endast AB-linje eller kurva</value>
+  </data>
+  <data name="UiS_0163" xml:space="preserve">
+    <value>Varning</value>
+  </data>
+  <data name="UiS_0164" xml:space="preserve">
+    <value>Ditt redskap är för litet</value>
+  </data>
+  <data name="UiS_0165" xml:space="preserve">
+    <value>Söker</value>
+  </data>
+  <data name="UiS_0166" xml:space="preserve">
+    <value>Modulsvar</value>
+  </data>
+  <data name="UiS_0167" xml:space="preserve">
+    <value>Modulsökning</value>
+  </data>
+  <data name="UiS_0168" xml:space="preserve">
+    <value>Modulsimulator</value>
+  </data>
+  <data name="UiS_0169" xml:space="preserve">
+    <value>Enhetshanterare</value>
+  </data>
+  <data name="UiS_0170" xml:space="preserve">
+    <value>Kontrollera anslutningen</value>
+  </data>
+  <data name="UiS_0171" xml:space="preserve">
+    <value>Skickad position</value>
+  </data>
+  <data name="UiS_0172" xml:space="preserve">
+    <value>Inkomna data</value>
+  </data>
+  <data name="UiS_0173" xml:space="preserve">
+    <value>misslyckade försök</value>
+  </data>
+  <data name="UiS_0174" xml:space="preserve">
+    <value>Skicka var (s)</value>
+  </data>
+  <data name="UiS_0175" xml:space="preserve">
+    <value>Skicka tom GSA</value>
+  </data>
+  <data name="UiS_0176" xml:space="preserve">
+    <value>Skicka NTRIP till GPS via:</value>
+  </data>
+  <data name="UiS_0177" xml:space="preserve">
+    <value>RTCM via serieport</value>
+  </data>
+  <data name="UiS_0178" xml:space="preserve">
+    <value>Uppdatera via USB</value>
+  </data>
+  <data name="UiS_0179" xml:space="preserve">
+    <value>Uppdatera via internet</value>
+  </data>
+  <data name="UiS_0180" xml:space="preserve">
+    <value>NTRIP-inställningar</value>
+  </data>
+  <data name="UiS_0181" xml:space="preserve">
+    <value>NTRIP-detaljer</value>
+  </data>
+  <data name="UiS_0182" xml:space="preserve">
+    <value>NTRIP-profiler</value>
+  </data>
+  <data name="UiS_0183" xml:space="preserve">
+    <value>NTRIP-version</value>
+  </data>
+  <data name="UiS_0184" xml:space="preserve">
+    <value>NTRIP-fel</value>
+  </data>
+  <data name="UiS_0185" xml:space="preserve">
+    <value>Välj en NTRIP-profil</value>
+  </data>
+  <data name="UiS_0186" xml:space="preserve">
+    <value>Använd NTRIP</value>
+  </data>
+  <data name="UiS_0187" xml:space="preserve">
+    <value>Gammal NTRIP-klient</value>
+  </data>
+  <data name="UiS_0188" xml:space="preserve">
+    <value>Rå TCP-ström</value>
+  </data>
+  <data name="UiS_0189" xml:space="preserve">
+    <value>Mountpoint</value>
+  </data>
+  <data name="UiS_0190" xml:space="preserve">
+    <value>Tillgängliga mountpoints</value>
+  </data>
+  <data name="UiS_0191" xml:space="preserve">
+    <value>Välj den basstation som ligger närmast ditt fält.</value>
+  </data>
+  <data name="UiS_0192" xml:space="preserve">
+    <value>Korrektionerna skickas till</value>
+  </data>
+  <data name="UiS_0193" xml:space="preserve">
+    <value>Använd en reservtjänst om huvudtjänsten faller bort</value>
+  </data>
+  <data name="UiS_0194" xml:space="preserve">
+    <value>Byt efter</value>
+  </data>
+  <data name="UiS_0195" xml:space="preserve">
+    <value>Huvud</value>
+  </data>
+  <data name="UiS_0196" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="UiS_0197" xml:space="preserve">
+    <value>Radio (inte XBee)</value>
+  </data>
+  <data name="UiS_0198" xml:space="preserve">
+    <value>Radiokanal</value>
+  </data>
+  <data name="UiS_0199" xml:space="preserve">
+    <value>Radioinställningar</value>
+  </data>
+  <data name="UiS_0200" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="UiS_0201" xml:space="preserve">
+    <value>Kanaler</value>
+  </data>
+  <data name="UiS_0202" xml:space="preserve">
+    <value>En seriell radio är ingen NTRIP-tjänst. Dess korrektioner används direkt när de kommer in. En reservtjänst tar över när radion blir tyst.</value>
+  </data>
+  <data name="UiS_0203" xml:space="preserve">
+    <value>Latitud</value>
+  </data>
+  <data name="UiS_0204" xml:space="preserve">
+    <value>Latitud:</value>
+  </data>
+  <data name="UiS_0205" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="UiS_0206" xml:space="preserve">
+    <value>Longitud:</value>
+  </data>
+  <data name="UiS_0207" xml:space="preserve">
+    <value>Lat</value>
+  </data>
+  <data name="UiS_0208" xml:space="preserve">
+    <value>Lon</value>
+  </data>
+  <data name="UiS_0209" xml:space="preserve">
+    <value>Höjd</value>
+  </data>
+  <data name="UiS_0210" xml:space="preserve">
+    <value>Höjd (m)</value>
+  </data>
+  <data name="UiS_0211" xml:space="preserve">
+    <value>Höjd:</value>
+  </data>
+  <data name="UiS_0212" xml:space="preserve">
+    <value>Höjd</value>
+  </data>
+  <data name="UiS_0213" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="UiS_0214" xml:space="preserve">
+    <value>Hastighet</value>
+  </data>
+  <data name="UiS_0215" xml:space="preserve">
+    <value>Hastighet:</value>
+  </data>
+  <data name="UiS_0216" xml:space="preserve">
+    <value>Satelliter</value>
+  </data>
+  <data name="UiS_0217" xml:space="preserve">
+    <value>Satelliter:</value>
+  </data>
+  <data name="UiS_0218" xml:space="preserve">
+    <value>Antal sat.</value>
+  </data>
+  <data name="UiS_0219" xml:space="preserve">
+    <value>Fixkvalitet</value>
+  </data>
+  <data name="UiS_0220" xml:space="preserve">
+    <value>Fixkvalitet:</value>
+  </data>
+  <data name="UiS_0221" xml:space="preserve">
+    <value>Fixkval.</value>
+  </data>
+  <data name="UiS_0222" xml:space="preserve">
+    <value>Korr.ålder</value>
+  </data>
+  <data name="UiS_0223" xml:space="preserve">
+    <value>Ålder:</value>
+  </data>
+  <data name="UiS_0224" xml:space="preserve">
+    <value>Dual</value>
+  </data>
+  <data name="UiS_0225" xml:space="preserve">
+    <value>Roll</value>
+  </data>
+  <data name="UiS_0226" xml:space="preserve">
+    <value>Rollkorrigerad</value>
+  </data>
+  <data name="UiS_0227" xml:space="preserve">
+    <value>Roll:</value>
+  </data>
+  <data name="UiS_0228" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="UiS_0229" xml:space="preserve">
+    <value>Yaw</value>
+  </data>
+  <data name="UiS_0230" xml:space="preserve">
+    <value>Yaw-hast.</value>
+  </data>
+  <data name="UiS_0231" xml:space="preserve">
+    <value>Förskjutning</value>
+  </data>
+  <data name="UiS_0232" xml:space="preserve">
+    <value>Simulera data</value>
+  </data>
+  <data name="UiS_0233" xml:space="preserve">
+    <value>Simulerad</value>
+  </data>
+  <data name="UiS_0234" xml:space="preserve">
+    <value>Antal decimaler</value>
+  </data>
+  <data name="UiS_0235" xml:space="preserve">
+    <value>Hur ofta</value>
+  </data>
+  <data name="UiS_0236" xml:space="preserve">
+    <value>Frekvens</value>
+  </data>
+  <data name="UiS_0237" xml:space="preserve">
+    <value>Systemdata</value>
+  </data>
+  <data name="UiS_0238" xml:space="preserve">
+    <value>AgOpenGPS-status:</value>
+  </data>
+  <data name="UiS_0239" xml:space="preserve">
+    <value>Autostyrning</value>
+  </data>
+  <data name="UiS_0240" xml:space="preserve">
+    <value>Styr</value>
+  </data>
+  <data name="UiS_0241" xml:space="preserve">
+    <value>Styr:</value>
+  </data>
+  <data name="UiS_0242" xml:space="preserve">
+    <value>Styrmodul</value>
+  </data>
+  <data name="UiS_0243" xml:space="preserve">
+    <value>Styrknapp</value>
+  </data>
+  <data name="UiS_0244" xml:space="preserve">
+    <value>Styrbrytare</value>
+  </data>
+  <data name="UiS_0245" xml:space="preserve">
+    <value>Styrbrytare:</value>
+  </data>
+  <data name="UiS_0246" xml:space="preserve">
+    <value>Styr-ping:</value>
+  </data>
+  <data name="UiS_0247" xml:space="preserve">
+    <value>Styr- &#xD;
+inställning</value>
+  </data>
+  <data name="UiS_0248" xml:space="preserve">
+    <value>Styr-&#xD;
+inställning</value>
+  </data>
+  <data name="UiS_0249" xml:space="preserve">
+    <value>Från&#xD;
+autostyrning</value>
+  </data>
+  <data name="UiS_0250" xml:space="preserve">
+    <value>Önskad vinkel</value>
+  </data>
+  <data name="UiS_0251" xml:space="preserve">
+    <value>Faktisk vinkel</value>
+  </data>
+  <data name="UiS_0252" xml:space="preserve">
+    <value>Vinkel:</value>
+  </data>
+  <data name="UiS_0253" xml:space="preserve">
+    <value>Redskap</value>
+  </data>
+  <data name="UiS_0254" xml:space="preserve">
+    <value>Redskap:</value>
+  </data>
+  <data name="UiS_0255" xml:space="preserve">
+    <value>Redskapsmodul</value>
+  </data>
+  <data name="UiS_0256" xml:space="preserve">
+    <value>Redsk.</value>
+  </data>
+  <data name="UiS_0257" xml:space="preserve">
+    <value>Redskaps-ping:</value>
+  </data>
+  <data name="UiS_0258" xml:space="preserve">
+    <value>Arbete</value>
+  </data>
+  <data name="UiS_0259" xml:space="preserve">
+    <value>Arbetsbrytare</value>
+  </data>
+  <data name="UiS_0260" xml:space="preserve">
+    <value>Arbete:</value>
+  </data>
+  <data name="UiS_0261" xml:space="preserve">
+    <value>Brytare:</value>
+  </data>
+  <data name="UiS_0262" xml:space="preserve">
+    <value>Lyft på</value>
+  </data>
+  <data name="UiS_0263" xml:space="preserve">
+    <value>Hydr. lyft</value>
+  </data>
+  <data name="UiS_0264" xml:space="preserve">
+    <value>Lyfttid</value>
+  </data>
+  <data name="UiS_0265" xml:space="preserve">
+    <value>Sänktid</value>
+  </data>
+  <data name="UiS_0266" xml:space="preserve">
+    <value>Min. hastighet</value>
+  </data>
+  <data name="UiS_0267" xml:space="preserve">
+    <value>Min. PWM</value>
+  </data>
+  <data name="UiS_0268" xml:space="preserve">
+    <value>Hög PWM</value>
+  </data>
+  <data name="UiS_0269" xml:space="preserve">
+    <value>Låg PWM</value>
+  </data>
+  <data name="UiS_0270" xml:space="preserve">
+    <value>Puls #</value>
+  </data>
+  <data name="UiS_0271" xml:space="preserve">
+    <value>Pulsantal</value>
+  </data>
+  <data name="UiS_0272" xml:space="preserve">
+    <value>Pulser:</value>
+  </data>
+  <data name="UiS_0273" xml:space="preserve">
+    <value>Relä aktivt högt</value>
+  </data>
+  <data name="UiS_0274" xml:space="preserve">
+    <value>Tryck</value>
+  </data>
+  <data name="UiS_0275" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_0276" xml:space="preserve">
+    <value>Vändning</value>
+  </data>
+  <data name="UiS_0277" xml:space="preserve">
+    <value>Sprutspår</value>
+  </data>
+  <data name="UiS_0278" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="UiS_0279" xml:space="preserve">
+    <value>Användarvillkor</value>
+  </data>
+  <data name="UiS_0280" xml:space="preserve">
+    <value>YouTube-guider</value>
+  </data>
+  <data name="UiS_0281" xml:space="preserve">
+    <value>Discourse-forum</value>
+  </data>
+  <data name="UiS_0282" xml:space="preserve">
+    <value>Avböj</value>
+  </data>
+  <data name="UiS_0283" xml:space="preserve">
+    <value>Godkänn</value>
+  </data>
+  <data name="UiS_0284" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="UiS_0285" xml:space="preserve">
+    <value>Testa anslutning</value>
+  </data>
+  <data name="UiS_0286" xml:space="preserve">
+    <value>Fyll i uppgifterna ovan och kryssa i Testa anslutning</value>
+  </data>
+  <data name="UiS_0287" xml:space="preserve">
+    <value>API-nyckel:</value>
+  </data>
+  <data name="UiS_0288" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="UiS_0289" xml:space="preserve">
+    <value>Klistra in från urklipp</value>
+  </data>
+  <data name="UiS_0290" xml:space="preserve">
+    <value>Registrera dig här för att använda AgShare</value>
+  </data>
+  <data name="UiS_0291" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="UiS_0292" xml:space="preserve">
+    <value>Automatisk uppladdning</value>
+  </data>
+  <data name="UiS_0293" xml:space="preserve">
+    <value>Endast lokalt</value>
+  </data>
+  <data name="UiS_0294" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="UiS_0295" xml:space="preserve">
+    <value>✔ Vi ses nästa gång!</value>
+  </data>
+  <data name="UiS_0296" xml:space="preserve">
+    <value>Fordon / redskap...</value>
+  </data>
+  <data name="UiS_0297" xml:space="preserve">
+    <value>Simulator på</value>
+  </data>
+  <data name="UiS_0298" xml:space="preserve">
+    <value>Ange simulatorkoordinater</value>
+  </data>
+  <data name="UiS_0299" xml:space="preserve">
+    <value>Kioskläge</value>
+  </data>
+  <data name="UiS_0300" xml:space="preserve">
+    <value>Återställ allt</value>
+  </data>
+  <data name="UiS_0301" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="UiS_0302" xml:space="preserve">
+    <value>Guider</value>
+  </data>
+  <data name="UiS_0303" xml:space="preserve">
+    <value>Styrguide</value>
+  </data>
+  <data name="UiS_0304" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="UiS_0305" xml:space="preserve">
+    <value>Styrdiagram</value>
+  </data>
+  <data name="UiS_0306" xml:space="preserve">
+    <value>Kursdiagram</value>
+  </data>
+  <data name="UiS_0307" xml:space="preserve">
+    <value>Rollkorrigeringsdiagram</value>
+  </data>
+  <data name="UiS_0308" xml:space="preserve">
+    <value>Gränsverktyg</value>
+  </data>
+  <data name="UiS_0309" xml:space="preserve">
+    <value>Jämna ut AB-kurva</value>
+  </data>
+  <data name="UiS_0310" xml:space="preserve">
+    <value>Dölj konturspår</value>
+  </data>
+  <data name="UiS_0311" xml:space="preserve">
+    <value>Webbkamera</value>
+  </data>
+  <data name="UiS_0312" xml:space="preserve">
+    <value>Förskjut fix</value>
+  </data>
+  <data name="UiS_0313" xml:space="preserve">
+    <value>Fix       s</value>
+  </data>
+  <data name="UiS_0314" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="UiS_0315" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="UiS_0316" xml:space="preserve">
+    <value>Autostyrning</value>
+  </data>
+  <data name="UiS_0317" xml:space="preserve">
+    <value>Visa alla inställningar</value>
+  </data>
+  <data name="UiS_0318" xml:space="preserve">
+    <value>Mappar</value>
+  </data>
+  <data name="UiS_0319" xml:space="preserve">
+    <value>GPS-data</value>
+  </data>
+  <data name="UiS_0320" xml:space="preserve">
+    <value>Färger</value>
+  </data>
+  <data name="UiS_0321" xml:space="preserve">
+    <value>Sektionsfärger</value>
+  </data>
+  <data name="UiS_0322" xml:space="preserve">
+    <value>Kortkommandon</value>
+  </data>
+  <data name="UiS_0323" xml:space="preserve">
+    <value>Gräns</value>
+  </data>
+  <data name="UiS_0324" xml:space="preserve">
+    <value>Vändteg</value>
+  </data>
+  <data name="UiS_0325" xml:space="preserve">
+    <value>Vändteg (skapa)</value>
+  </data>
+  <data name="UiS_0326" xml:space="preserve">
+    <value>Sprutspår</value>
+  </data>
+  <data name="UiS_0327" xml:space="preserve">
+    <value>Sprutspår</value>
+  </data>
+  <data name="UiS_0328" xml:space="preserve">
+    <value>Radera bearbetad yta</value>
+  </data>
+  <data name="UiS_0329" xml:space="preserve">
+    <value>Flagga efter koordinater</value>
+  </data>
+  <data name="UiS_0330" xml:space="preserve">
+    <value>Inspelad bana</value>
+  </data>
+  <data name="UiS_0331" xml:space="preserve">
+    <value>Importera spår</value>
+  </data>
+  <data name="UiS_0332" xml:space="preserve">
+    <value>Aktuellt fält</value>
+  </data>
+  <data name="UiS_0333" xml:space="preserve">
+    <value>Ref.</value>
+  </data>
+  <data name="UiS_0334" xml:space="preserve">
+    <value>Simulator</value>
+  </data>
+  <data name="UiS_0335" xml:space="preserve">
+    <value>Autostyrning på/av</value>
+  </data>
+  <data name="UiS_0336" xml:space="preserve">
+    <value>Tryck på knappen för att nollställa,&#xD;
+tryck sedan på ny tangent</value>
+  </data>
+  <data name="UiS_0337" xml:space="preserve">
+    <value>Växla linje</value>
+  </data>
+  <data name="UiS_0338" xml:space="preserve">
+    <value>Stäng fält</value>
+  </data>
+  <data name="UiS_0339" xml:space="preserve">
+    <value>Uppdatering</value>
+  </data>
+  <data name="UiS_0340" xml:space="preserve">
+    <value>Pure Pursuit</value>
+  </data>
+  <data name="UiS_0341" xml:space="preserve">
+    <value>Skapa gräns från karteringen</value>
+  </data>
+  <data name="UiS_0342" xml:space="preserve">
+    <value>── Styrning</value>
+  </data>
+  <data name="UiS_0343" xml:space="preserve">
+    <value>Max vinkelhast.</value>
+  </data>
+  <data name="UiS_0344" xml:space="preserve">
+    <value>Styr vid backning</value>
+  </data>
+  <data name="UiS_0345" xml:space="preserve">
+    <value>Sidlutningskomp.</value>
+  </data>
+  <data name="UiS_0346" xml:space="preserve">
+    <value>── Arduino-styrning</value>
+  </data>
+  <data name="UiS_0347" xml:space="preserve">
+    <value>Pulser/grad</value>
+  </data>
+  <data name="UiS_0348" xml:space="preserve">
+    <value>Hög styr-PWM</value>
+  </data>
+  <data name="UiS_0349" xml:space="preserve">
+    <value>Låg styr-PWM</value>
+  </data>
+  <data name="UiS_0350" xml:space="preserve">
+    <value>Min. styr-PWM</value>
+  </data>
+  <data name="UiS_0351" xml:space="preserve">
+    <value>Kp (proportionell)</value>
+  </data>
+  <data name="UiS_0352" xml:space="preserve">
+    <value>Min. styrhastighet</value>
+  </data>
+  <data name="UiS_0353" xml:space="preserve">
+    <value>Max styrhastighet</value>
+  </data>
+  <data name="UiS_0354" xml:space="preserve">
+    <value>Funktionshastighetsgräns</value>
+  </data>
+  <data name="UiS_0355" xml:space="preserve">
+    <value>── Geometri</value>
+  </data>
+  <data name="UiS_0356" xml:space="preserve">
+    <value>Fordonstyp</value>
+  </data>
+  <data name="UiS_0357" xml:space="preserve">
+    <value>Spårvidd</value>
+  </data>
+  <data name="UiS_0358" xml:space="preserve">
+    <value>Antenn–vridpunkt</value>
+  </data>
+  <data name="UiS_0359" xml:space="preserve">
+    <value>── GPS</value>
+  </data>
+  <data name="UiS_0360" xml:space="preserve">
+    <value>Kurskälla</value>
+  </data>
+  <data name="UiS_0361" xml:space="preserve">
+    <value>Dual-kursförskjutn.</value>
+  </data>
+  <data name="UiS_0362" xml:space="preserve">
+    <value>Dual backavstånd</value>
+  </data>
+  <data name="UiS_0363" xml:space="preserve">
+    <value>Min. steggräns</value>
+  </data>
+  <data name="UiS_0364" xml:space="preserve">
+    <value>── IMU</value>
+  </data>
+  <data name="UiS_0365" xml:space="preserve">
+    <value>Fusionsvikt</value>
+  </data>
+  <data name="UiS_0366" xml:space="preserve">
+    <value>Dual som IMU</value>
+  </data>
+  <data name="UiS_0367" xml:space="preserve">
+    <value>── Märke</value>
+  </data>
+  <data name="UiS_0368" xml:space="preserve">
+    <value>Traktormärke</value>
+  </data>
+  <data name="UiS_0369" xml:space="preserve">
+    <value>Skördetröskemärke</value>
+  </data>
+  <data name="UiS_0370" xml:space="preserve">
+    <value>Ledade fordonsmärke</value>
+  </data>
+  <data name="UiS_0371" xml:space="preserve">
+    <value>── Mått</value>
+  </data>
+  <data name="UiS_0372" xml:space="preserve">
+    <value>Redskapsbredd</value>
+  </data>
+  <data name="UiS_0373" xml:space="preserve">
+    <value>Redskapsöverlapp</value>
+  </data>
+  <data name="UiS_0374" xml:space="preserve">
+    <value>Redskapsförskjutning</value>
+  </data>
+  <data name="UiS_0375" xml:space="preserve">
+    <value>Antal sektioner</value>
+  </data>
+  <data name="UiS_0376" xml:space="preserve">
+    <value>Dragen koppling</value>
+  </data>
+  <data name="UiS_0377" xml:space="preserve">
+    <value>Dragen tank</value>
+  </data>
+  <data name="UiS_0378" xml:space="preserve">
+    <value>Drag–vridpunkt</value>
+  </data>
+  <data name="UiS_0379" xml:space="preserve">
+    <value>── Redskapstyp</value>
+  </data>
+  <data name="UiS_0380" xml:space="preserve">
+    <value>Dragen</value>
+  </data>
+  <data name="UiS_0381" xml:space="preserve">
+    <value>Fast bak</value>
+  </data>
+  <data name="UiS_0382" xml:space="preserve">
+    <value>TBT (traktor–redskap–traktor)</value>
+  </data>
+  <data name="UiS_0383" xml:space="preserve">
+    <value>Fram</value>
+  </data>
+  <data name="UiS_0384" xml:space="preserve">
+    <value>── Sektioner</value>
+  </data>
+  <data name="UiS_0385" xml:space="preserve">
+    <value>Sektioner (inte zoner)</value>
+  </data>
+  <data name="UiS_0386" xml:space="preserve">
+    <value>Av utanför</value>
+  </data>
+  <data name="UiS_0387" xml:space="preserve">
+    <value>Snabb sektion</value>
+  </data>
+  <data name="UiS_0388" xml:space="preserve">
+    <value>── Framförhållning / tid</value>
+  </data>
+  <data name="UiS_0389" xml:space="preserve">
+    <value>Framförhållning på</value>
+  </data>
+  <data name="UiS_0390" xml:space="preserve">
+    <value>Framförhållning av</value>
+  </data>
+  <data name="UiS_0391" xml:space="preserve">
+    <value>Redskap av-fördröjn.</value>
+  </data>
+  <data name="UiS_0392" xml:space="preserve">
+    <value>Hydr. lyft framförh.</value>
+  </data>
+  <data name="UiS_0393" xml:space="preserve">
+    <value>Vändteg sektionsstyr.</value>
+  </data>
+  <data name="UiS_0394" xml:space="preserve">
+    <value>── Styrning (per redskap)</value>
+  </data>
+  <data name="UiS_0395" xml:space="preserve">
+    <value>Fångavstånd</value>
+  </data>
+  <data name="UiS_0396" xml:space="preserve">
+    <value>Fångavstånd ref.</value>
+  </data>
+  <data name="UiS_0397" xml:space="preserve">
+    <value>Dödzon avstånd</value>
+  </data>
+  <data name="UiS_0398" xml:space="preserve">
+    <value>Dödzon kurs</value>
+  </data>
+  <data name="UiS_0399" xml:space="preserve">
+    <value>Dödzon fördröjning</value>
+  </data>
+  <data name="UiS_0400" xml:space="preserve">
+    <value>Använd Stanley</value>
+  </data>
+  <data name="UiS_0401" xml:space="preserve">
+    <value>Stanley avst.-förstärkn.</value>
+  </data>
+  <data name="UiS_0402" xml:space="preserve">
+    <value>Stanley kurs-förstärkn.</value>
+  </data>
+  <data name="UiS_0403" xml:space="preserve">
+    <value>Stanley integral</value>
+  </data>
+  <data name="UiS_0404" xml:space="preserve">
+    <value>PurePursuit integral</value>
+  </data>
+  <data name="UiS_0405" xml:space="preserve">
+    <value>Målpunkt fångstfaktor</value>
+  </data>
+  <data name="UiS_0406" xml:space="preserve">
+    <value>Målpunkt hållning</value>
+  </data>
+  <data name="UiS_0407" xml:space="preserve">
+    <value>Målpunkt multiplikator</value>
+  </data>
+  <data name="UiS_0408" xml:space="preserve">
+    <value>Låghastighetsgräns</value>
+  </data>
+  <data name="UiS_0409" xml:space="preserve">
+    <value>── Arbetsbrytare</value>
+  </data>
+  <data name="UiS_0410" xml:space="preserve">
+    <value>Styr arbetsbrytare</value>
+  </data>
+  <data name="UiS_0411" xml:space="preserve">
+    <value>Min. täckning</value>
+  </data>
+  <data name="UiS_0412" xml:space="preserve">
+    <value>── Vändning (per redskap)</value>
+  </data>
+  <data name="UiS_0413" xml:space="preserve">
+    <value>Svängradie</value>
+  </data>
+  <data name="UiS_0414" xml:space="preserve">
+    <value>Avstånd från gräns</value>
+  </data>
+  <data name="UiS_0415" xml:space="preserve">
+    <value>Hoppbredd</value>
+  </data>
+  <data name="UiS_0416" xml:space="preserve">
+    <value>Förlängning</value>
+  </data>
+  <data name="UiS_0417" xml:space="preserve">
+    <value>Vändningstyp</value>
+  </data>
+  <data name="UiS_0418" xml:space="preserve">
+    <value>Vändningsutjämning</value>
+  </data>
+  <data name="UiS_0419" xml:space="preserve">
+    <value>Vändningskomp.</value>
+  </data>
+  <data name="UiS_0420" xml:space="preserve">
+    <value>── Skärm / meny</value>
+  </data>
+  <data name="UiS_0421" xml:space="preserve">
+    <value>Rutnät på</value>
+  </data>
+  <data name="UiS_0422" xml:space="preserve">
+    <value>Ljusbalk på</value>
+  </data>
+  <data name="UiS_0423" xml:space="preserve">
+    <value>Sidoguidelinjer</value>
+  </data>
+  <data name="UiS_0424" xml:space="preserve">
+    <value>Pure på</value>
+  </data>
+  <data name="UiS_0425" xml:space="preserve">
+    <value>Hastighetsmätare på</value>
+  </data>
+  <data name="UiS_0426" xml:space="preserve">
+    <value>Ljusbalk (inte styrbalk)</value>
+  </data>
+  <data name="UiS_0427" xml:space="preserve">
+    <value>Dagläge</value>
+  </data>
+  <data name="UiS_0428" xml:space="preserve">
+    <value>Tangentbord på</value>
+  </data>
+  <data name="UiS_0429" xml:space="preserve">
+    <value>Fordonsbild</value>
+  </data>
+  <data name="UiS_0430" xml:space="preserve">
+    <value>Textur på</value>
+  </data>
+  <data name="UiS_0431" xml:space="preserve">
+    <value>Ljusstyrka på</value>
+  </data>
+  <data name="UiS_0432" xml:space="preserve">
+    <value>Logga höjd</value>
+  </data>
+  <data name="UiS_0433" xml:space="preserve">
+    <value>Stäng av datorn</value>
+  </data>
+  <data name="UiS_0434" xml:space="preserve">
+    <value>Stäng av vid strömbortfall</value>
+  </data>
+  <data name="UiS_0435" xml:space="preserve">
+    <value>AgIO autostart</value>
+  </data>
+  <data name="UiS_0436" xml:space="preserve">
+    <value>AgIO autoavstängning</value>
+  </data>
+  <data name="UiS_0437" xml:space="preserve">
+    <value>Ljusbalk cm/px</value>
+  </data>
+  <data name="UiS_0438" xml:space="preserve">
+    <value>Kamerazoom</value>
+  </data>
+  <data name="UiS_0439" xml:space="preserve">
+    <value>Kameralutning</value>
+  </data>
+  <data name="UiS_0440" xml:space="preserve">
+    <value>── Autostyrning</value>
+  </data>
+  <data name="UiS_0441" xml:space="preserve">
+    <value>Styrning framförhållning</value>
+  </data>
+  <data name="UiS_0442" xml:space="preserve">
+    <value>Autostyrning auto på</value>
+  </data>
+  <data name="UiS_0443" xml:space="preserve">
+    <value>Konstant kontur</value>
+  </data>
+  <data name="UiS_0444" xml:space="preserve">
+    <value>── Guidelinjer</value>
+  </data>
+  <data name="UiS_0445" xml:space="preserve">
+    <value>Antal guidelinjer</value>
+  </data>
+  <data name="UiS_0446" xml:space="preserve">
+    <value>GPS-åldersalarm</value>
+  </data>
+  <data name="UiS_0447" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_0448" xml:space="preserve">
+    <value>RTK-bortfall: styrning av</value>
+  </data>
+  <data name="UiS_0449" xml:space="preserve">
+    <value>Fixhoppsalarm</value>
+  </data>
+  <data name="UiS_0450" xml:space="preserve">
+    <value>Sim. latitud</value>
+  </data>
+  <data name="UiS_0451" xml:space="preserve">
+    <value>Sim. longitud</value>
+  </data>
+  <data name="UiS_0452" xml:space="preserve">
+    <value>UDP-vakt ms</value>
+  </data>
+  <data name="UiS_0453" xml:space="preserve">
+    <value>── Ljud</value>
+  </data>
+  <data name="UiS_0454" xml:space="preserve">
+    <value>Vändningsljud</value>
+  </data>
+  <data name="UiS_0455" xml:space="preserve">
+    <value>Hydr. lyftljud</value>
+  </data>
+  <data name="UiS_0456" xml:space="preserve">
+    <value>Autostyrningsljud</value>
+  </data>
+  <data name="UiS_0457" xml:space="preserve">
+    <value>Sektionsljud</value>
+  </data>
+  <data name="UiS_0458" xml:space="preserve">
+    <value>── Sprutspår</value>
+  </data>
+  <data name="UiS_0459" xml:space="preserve">
+    <value>Sprutspår, antal</value>
+  </data>
+  <data name="UiS_0460" xml:space="preserve">
+    <value>Sprutspår, genomskinl.</value>
+  </data>
+  <data name="UiS_0461" xml:space="preserve">
+    <value>── IMU / allmänt</value>
+  </data>
+  <data name="UiS_0462" xml:space="preserve">
+    <value>Backning på</value>
+  </data>
+  <data name="UiS_0463" xml:space="preserve">
+    <value>Autoväxling Dual/Fix</value>
+  </data>
+  <data name="UiS_0464" xml:space="preserve">
+    <value>Autoväxling hastighet</value>
+  </data>
+  <data name="UiS_0465" xml:space="preserve">
+    <value>Rita vridpunkt</value>
+  </data>
+  <data name="UiS_0466" xml:space="preserve">
+    <value>Vändtegsavst. på</value>
+  </data>
+  <data name="UiS_0467" xml:space="preserve">
+    <value>Gränsverkt. avstånd</value>
+  </data>
+  <data name="UiS_0468" xml:space="preserve">
+    <value>Gränsverkt. utjämn.</value>
+  </data>
+  <data name="UiS_0469" xml:space="preserve">
+    <value>Aktiv låg</value>
+  </data>
+  <data name="UiS_0470" xml:space="preserve">
+    <value>Manuella sektioner</value>
+  </data>
+  <data name="UiS_0471" xml:space="preserve">
+    <value>Fjärrarbetssystem</value>
+  </data>
+  <data name="UiS_0472" xml:space="preserve">
+    <value>Styr AB manuell</value>
+  </data>
+  <data name="UiS_0473" xml:space="preserve">
+    <value>Min. kurssteg</value>
+  </data>
+  <data name="UiS_0474" xml:space="preserve">
+    <value>── AgShare</value>
+  </data>
+  <data name="UiS_0475" xml:space="preserve">
+    <value>AgShare aktiverat</value>
+  </data>
+  <data name="UiS_0476" xml:space="preserve">
+    <value>Uppladdning aktiv</value>
+  </data>
+  <data name="UiS_0477" xml:space="preserve">
+    <value>Offentligt fält</value>
+  </data>
+  <data name="UiS_0478" xml:space="preserve">
+    <value>── Övrigt</value>
+  </data>
+  <data name="UiS_0479" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="UiS_0480" xml:space="preserve">
+    <value>── GPS / fix</value>
+  </data>
+  <data name="UiS_0481" xml:space="preserve">
+    <value>Bildtid (ms)</value>
+  </data>
+  <data name="UiS_0482" xml:space="preserve">
+    <value>Tidsintervall</value>
+  </data>
+  <data name="UiS_0483" xml:space="preserve">
+    <value>GPS Hz</value>
+  </data>
+  <data name="UiS_0484" xml:space="preserve">
+    <value>Fixkvalitet</value>
+  </data>
+  <data name="UiS_0485" xml:space="preserve">
+    <value>Spårade satelliter</value>
+  </data>
+  <data name="UiS_0486" xml:space="preserve">
+    <value>HDOP</value>
+  </data>
+  <data name="UiS_0487" xml:space="preserve">
+    <value>Missade UDP-meningar</value>
+  </data>
+  <data name="UiS_0488" xml:space="preserve">
+    <value>── Kurs</value>
+  </data>
+  <data name="UiS_0489" xml:space="preserve">
+    <value>IMU-kurs</value>
+  </data>
+  <data name="UiS_0490" xml:space="preserve">
+    <value>Fix-till-fix-kurs</value>
+  </data>
+  <data name="UiS_0491" xml:space="preserve">
+    <value>Fusionerad kurs (grader)</value>
+  </data>
+  <data name="UiS_0492" xml:space="preserve">
+    <value>Vinkelhastighet</value>
+  </data>
+  <data name="UiS_0493" xml:space="preserve">
+    <value>── Program</value>
+  </data>
+  <data name="UiS_0494" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="UiS_0495" xml:space="preserve">
+    <value>Fordonsfil</value>
+  </data>
+  <data name="UiS_0496" xml:space="preserve">
+    <value>Redskapsfil</value>
+  </data>
+  <data name="UiS_0497" xml:space="preserve">
+    <value>Inställning</value>
+  </data>
+  <data name="UiS_0498" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="UiS_0499" xml:space="preserve">
+    <value>Alla inställningar</value>
+  </data>
+  <data name="UiS_0500" xml:space="preserve">
+    <value>Detta skapar och läser in den nya profilen.</value>
+  </data>
+  <data name="UiS_0501" xml:space="preserve">
+    <value>Stäng fältet först för att köra uppdateringen</value>
+  </data>
+  <data name="UiS_0502" xml:space="preserve">
+    <value>Ny flagga</value>
+  </data>
+  <data name="UiS_0503" xml:space="preserve">
+    <value>Manuell sektion</value>
+  </data>
+  <data name="UiS_0504" xml:space="preserve">
+    <value>Automatisk sektion</value>
+  </data>
+  <data name="UiS_0505" xml:space="preserve">
+    <value>Fäst till vridpunkt</value>
+  </data>
+  <data name="UiS_0506" xml:space="preserve">
+    <value>Flytta linje vänster</value>
+  </data>
+  <data name="UiS_0507" xml:space="preserve">
+    <value>Flytta linje höger</value>
+  </data>
+  <data name="UiS_0508" xml:space="preserve">
+    <value>Fordonsinställningar</value>
+  </data>
+  <data name="UiS_0509" xml:space="preserve">
+    <value>   Återställ &#xD;
+till standard</value>
+  </data>
+  <data name="UiS_0510" xml:space="preserve">
+    <value>Sektion eller zon</value>
+  </data>
+  <data name="UiS_0511" xml:space="preserve">
+    <value>Ny tangent</value>
+  </data>
+  <data name="UiS_0512" xml:space="preserve">
+    <value>F11 - Helskärm&#xD;
+&#xD;
+NumPad1 - Manuell sektion&#xD;
+NumPad0 - Automatisk sektion</value>
+  </data>
+  <data name="UiS_0513" xml:space="preserve">
+    <value>Fråga</value>
+  </data>
+  <data name="UiS_0514" xml:space="preserve">
+    <value>Östlig koordinat</value>
+  </data>
+  <data name="UiS_0515" xml:space="preserve">
+    <value>Nordlig koordinat</value>
+  </data>
+  <data name="UiS_0516" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="UiS_0517" xml:space="preserve">
+    <value>Rå Hz</value>
+  </data>
+  <data name="UiS_0518" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="UiS_0519" xml:space="preserve">
+    <value>Missade</value>
+  </data>
+  <data name="UiS_0520" xml:space="preserve">
+    <value>Fix–fix</value>
+  </data>
+  <data name="UiS_0521" xml:space="preserve">
+    <value>Norr (+)</value>
+  </data>
+  <data name="UiS_0522" xml:space="preserve">
+    <value>Väst (-)</value>
+  </data>
+  <data name="UiS_0523" xml:space="preserve">
+    <value>Öst (+)</value>
+  </data>
+  <data name="UiS_0524" xml:space="preserve">
+    <value>Syd (-)</value>
+  </data>
+  <data name="UiS_0525" xml:space="preserve">
+    <value>Behålla förskjutningen även när fältet har stängts?</value>
+  </data>
+  <data name="UiS_0526" xml:space="preserve">
+    <value>Fordon</value>
+  </data>
+  <data name="UiS_0527" xml:space="preserve">
+    <value>Redskap</value>
+  </data>
+  <data name="UiS_0528" xml:space="preserve">
+    <value>Fordonsnamn</value>
+  </data>
+  <data name="UiS_0529" xml:space="preserve">
+    <value>Typ:</value>
+  </data>
+  <data name="UiS_0530" xml:space="preserve">
+    <value>Traktor</value>
+  </data>
+  <data name="UiS_0531" xml:space="preserve">
+    <value>Hjulbas:</value>
+  </data>
+  <data name="UiS_0532" xml:space="preserve">
+    <value>Ant.–vridpunkt:</value>
+  </data>
+  <data name="UiS_0533" xml:space="preserve">
+    <value>Antennförskjutn.:</value>
+  </data>
+  <data name="UiS_0534" xml:space="preserve">
+    <value>Koppling:</value>
+  </data>
+  <data name="UiS_0535" xml:space="preserve">
+    <value>Redskapsnamn</value>
+  </data>
+  <data name="UiS_0536" xml:space="preserve">
+    <value>Bredd:</value>
+  </data>
+  <data name="UiS_0537" xml:space="preserve">
+    <value>Sektioner:</value>
+  </data>
+  <data name="UiS_0538" xml:space="preserve">
+    <value>Förskjutning:</value>
+  </data>
+  <data name="UiS_0539" xml:space="preserve">
+    <value>Överlapp:</value>
+  </data>
+  <data name="UiS_0540" xml:space="preserve">
+    <value>Framförhållning:</value>
+  </data>
+  <data name="UiS_0541" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="UiS_0542" xml:space="preserve">
+    <value>Linjeförskjutning:</value>
+  </data>
+  <data name="UiS_0543" xml:space="preserve">
+    <value>Sprutspårsbredd:</value>
+  </data>
+  <data name="UiS_0544" xml:space="preserve">
+    <value>Enheter:</value>
+  </data>
+  <data name="UiS_0545" xml:space="preserve">
+    <value>Metriska</value>
+  </data>
+  <data name="UiS_0546" xml:space="preserve">
+    <value>Välj fordonstyp</value>
+  </data>
+  <data name="UiS_0547" xml:space="preserve">
+    <value>Opacitet</value>
+  </data>
+  <data name="UiS_0548" xml:space="preserve">
+    <value>Ingen bild</value>
+  </data>
+  <data name="UiS_0549" xml:space="preserve">
+    <value>Tills vidare</value>
+  </data>
+  <data name="UiS_0550" xml:space="preserve">
+    <value>Till fil</value>
+  </data>
+  <data name="UiS_0551" xml:space="preserve">
+    <value>Klipp linje</value>
+  </data>
+  <data name="UiS_0552" xml:space="preserve">
+    <value>Zooma in</value>
+  </data>
+  <data name="UiS_0553" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="UiS_0554" xml:space="preserve">
+    <value>Genomskinlighet</value>
+  </data>
+  <data name="UiS_0555" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="UiS_0556" xml:space="preserve">
+    <value>Ange namn på inspelningen</value>
+  </data>
+  <data name="UiS_0557" xml:space="preserve">
+    <value>&gt; AV &lt;</value>
+  </data>
+  <data name="UiS_0558" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="UiS_0559" xml:space="preserve">
+    <value>Lägg till namn</value>
+  </data>
+  <data name="UiS_0560" xml:space="preserve">
+    <value>Kurva</value>
+  </data>
+  <data name="UiS_0561" xml:space="preserve">
+    <value>Redigera namn</value>
+  </data>
+  <data name="UiS_0562" xml:space="preserve">
+    <value>Vridpunkt</value>
+  </data>
+  <data name="UiS_0563" xml:space="preserve">
+    <value>AB + kurva</value>
+  </data>
+  <data name="UiS_0564" xml:space="preserve">
+    <value>AB-linje</value>
+  </data>
+  <data name="UiS_0565" xml:space="preserve">
+    <value>Lat/Lon +</value>
+  </data>
+  <data name="UiS_0566" xml:space="preserve">
+    <value>Lat/Lon</value>
+  </data>
+  <data name="UiS_0567" xml:space="preserve">
+    <value>Longitud (±180)</value>
+  </data>
+  <data name="UiS_0568" xml:space="preserve">
+    <value>Latitud (±90)</value>
+  </data>
+  <data name="UiS_0569" xml:space="preserve">
+    <value>Spruta</value>
+  </data>
+  <data name="UiS_0570" xml:space="preserve">
+    <value>Överfarter</value>
+  </data>
+  <data name="UiS_0571" xml:space="preserve">
+    <value>Spår</value>
+  </data>
+  <data name="UiS_0572" xml:space="preserve">
+    <value>Så</value>
+  </data>
+  <data name="UiS_0573" xml:space="preserve">
+    <value>Läge</value>
+  </data>
+  <data name="UiS_0574" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="UiS_0575" xml:space="preserve">
+    <value>Välj knappar</value>
+  </data>
+  <data name="UiS_0576" xml:space="preserve">
+    <value>AOG-meny</value>
+  </data>
+  <data name="UiS_0577" xml:space="preserve">
+    <value>Förhandsvisning</value>
+  </data>
+  <data name="UiS_0578" xml:space="preserve">
+    <value>Flera färger</value>
+  </data>
+  <data name="UiS_0579" xml:space="preserve">
+    <value>Sektionsfärg</value>
+  </data>
+  <data name="UiS_0580" xml:space="preserve">
+    <value>Redigera färg</value>
+  </data>
+  <data name="UiS_0581" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="UiS_0582" xml:space="preserve">
+    <value>Vridpunktsavstånd</value>
+  </data>
+  <data name="UiS_0583" xml:space="preserve">
+    <value>Antennhöjd</value>
+  </data>
+  <data name="UiS_0584" xml:space="preserve">
+    <value>Mitt</value>
+  </data>
+  <data name="UiS_0585" xml:space="preserve">
+    <value>Antennförskjutning</value>
+  </data>
+  <data name="UiS_0586" xml:space="preserve">
+    <value>Vänster</value>
+  </data>
+  <data name="UiS_0587" xml:space="preserve">
+    <value>Höger</value>
+  </data>
+  <data name="UiS_0588" xml:space="preserve">
+    <value>** Dual: positionsantennen sitter till höger</value>
+  </data>
+  <data name="UiS_0589" xml:space="preserve">
+    <value>Kopplingslängd</value>
+  </data>
+  <data name="UiS_0590" xml:space="preserve">
+    <value>Hjulbas</value>
+  </data>
+  <data name="UiS_0591" xml:space="preserve">
+    <value>Kopplingstyp</value>
+  </data>
+  <data name="UiS_0592" xml:space="preserve">
+    <value>Överlapp / glapp</value>
+  </data>
+  <data name="UiS_0593" xml:space="preserve">
+    <value>Överlapp</value>
+  </data>
+  <data name="UiS_0594" xml:space="preserve">
+    <value>Glapp</value>
+  </data>
+  <data name="UiS_0595" xml:space="preserve">
+    <value>Redskapets förskjutningsriktning</value>
+  </data>
+  <data name="UiS_0596" xml:space="preserve">
+    <value>Redskap höger</value>
+  </data>
+  <data name="UiS_0597" xml:space="preserve">
+    <value>Redskap vänster</value>
+  </data>
+  <data name="UiS_0598" xml:space="preserve">
+    <value>Zon 8</value>
+  </data>
+  <data name="UiS_0599" xml:space="preserve">
+    <value>Zon 7</value>
+  </data>
+  <data name="UiS_0600" xml:space="preserve">
+    <value>Zon 1</value>
+  </data>
+  <data name="UiS_0601" xml:space="preserve">
+    <value>Zon 2</value>
+  </data>
+  <data name="UiS_0602" xml:space="preserve">
+    <value>Zon 6</value>
+  </data>
+  <data name="UiS_0603" xml:space="preserve">
+    <value>Zon 3</value>
+  </data>
+  <data name="UiS_0604" xml:space="preserve">
+    <value>Zon 5</value>
+  </data>
+  <data name="UiS_0605" xml:space="preserve">
+    <value>Zon 4</value>
+  </data>
+  <data name="UiS_0606" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0607" xml:space="preserve">
+    <value>Tum</value>
+  </data>
+  <data name="UiS_0608" xml:space="preserve">
+    <value>Sektionsbredd</value>
+  </data>
+  <data name="UiS_0609" xml:space="preserve">
+    <value>% täckning</value>
+  </data>
+  <data name="UiS_0610" xml:space="preserve">
+    <value>Zoner</value>
+  </data>
+  <data name="UiS_0611" xml:space="preserve">
+    <value>Sektioner</value>
+  </data>
+  <data name="UiS_0612" xml:space="preserve">
+    <value>        Automatiska sektioner</value>
+  </data>
+  <data name="UiS_0613" xml:space="preserve">
+    <value>        Manuella sektioner</value>
+  </data>
+  <data name="UiS_0614" xml:space="preserve">
+    <value>Inställningar för framförhållningstid</value>
+  </data>
+  <data name="UiS_0615" xml:space="preserve">
+    <value>På (s)</value>
+  </data>
+  <data name="UiS_0616" xml:space="preserve">
+    <value>Av (s)</value>
+  </data>
+  <data name="UiS_0617" xml:space="preserve">
+    <value>Avstängningsfördröjning (s)</value>
+  </data>
+  <data name="UiS_0618" xml:space="preserve">
+    <value>Alarmet stoppar autostyrningen</value>
+  </data>
+  <data name="UiS_0619" xml:space="preserve">
+    <value>0 = av</value>
+  </data>
+  <data name="UiS_0620" xml:space="preserve">
+    <value>Fixhoppsavstånd (cm)</value>
+  </data>
+  <data name="UiS_0621" xml:space="preserve">
+    <value>Inställningar för dual antenn</value>
+  </data>
+  <data name="UiS_0622" xml:space="preserve">
+    <value>Växlingshastighet</value>
+  </data>
+  <data name="UiS_0623" xml:space="preserve">
+    <value>Automatiskt Dual &lt;-&gt; Fix</value>
+  </data>
+  <data name="UiS_0624" xml:space="preserve">
+    <value>Backavstånd (m)</value>
+  </data>
+  <data name="UiS_0625" xml:space="preserve">
+    <value>Kursförskjutning (grader)</value>
+  </data>
+  <data name="UiS_0626" xml:space="preserve">
+    <value>Inställningar för en antenn</value>
+  </data>
+  <data name="UiS_0627" xml:space="preserve">
+    <value>Standard: 70%</value>
+  </data>
+  <data name="UiS_0628" xml:space="preserve">
+    <value>Fusion</value>
+  </data>
+  <data name="UiS_0629" xml:space="preserve">
+    <value>Backningsdetektering</value>
+  </data>
+  <data name="UiS_0630" xml:space="preserve">
+    <value>Fix-till-fix-avstånd</value>
+  </data>
+  <data name="UiS_0631" xml:space="preserve">
+    <value>Minsta GPS-steg</value>
+  </data>
+  <data name="UiS_0632" xml:space="preserve">
+    <value>Antenntyp</value>
+  </data>
+  <data name="UiS_0633" xml:space="preserve">
+    <value>Invertera roll</value>
+  </data>
+  <data name="UiS_0634" xml:space="preserve">
+    <value>Nollställ roll</value>
+  </data>
+  <data name="UiS_0635" xml:space="preserve">
+    <value>Ta bort förskjutning</value>
+  </data>
+  <data name="UiS_0636" xml:space="preserve">
+    <value>Mindre</value>
+  </data>
+  <data name="UiS_0637" xml:space="preserve">
+    <value>Mer</value>
+  </data>
+  <data name="UiS_0638" xml:space="preserve">
+    <value>Rollfilter</value>
+  </data>
+  <data name="UiS_0639" xml:space="preserve">
+    <value>Ställ in utjämningen på 3–4 gånger radien</value>
+  </data>
+  <data name="UiS_0640" xml:space="preserve">
+    <value>Ställ in förlängningen på 2–3 gånger radien&#xD;
+</value>
+  </data>
+  <data name="UiS_0641" xml:space="preserve">
+    <value>Konfiguration hydraulisk lyft</value>
+  </data>
+  <data name="UiS_0642" xml:space="preserve">
+    <value>Plantantal</value>
+  </data>
+  <data name="UiS_0643" xml:space="preserve">
+    <value>Hydraulisk lyft, framförhållning (s)</value>
+  </data>
+  <data name="UiS_0644" xml:space="preserve">
+    <value>Lyfttid (s)</value>
+  </data>
+  <data name="UiS_0645" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="UiS_0646" xml:space="preserve">
+    <value>Sänktid (s)</value>
+  </data>
+  <data name="UiS_0647" xml:space="preserve">
+    <value>Invertera reläer</value>
+  </data>
+  <data name="UiS_0648" xml:space="preserve">
+    <value>Skicka + spara</value>
+  </data>
+  <data name="UiS_0649" xml:space="preserve">
+    <value>Visa?</value>
+  </data>
+  <data name="UiS_0650" xml:space="preserve">
+    <value>Åsidosätt</value>
+  </data>
+  <data name="UiS_0651" xml:space="preserve">
+    <value>Sprutspårsbredd</value>
+  </data>
+  <data name="UiS_0652" xml:space="preserve">
+    <value>Hårdvarumeddelanden</value>
+  </data>
+  <data name="UiS_0653" xml:space="preserve">
+    <value>Avstängning vid strömbortfall</value>
+  </data>
+  <data name="UiS_0654" xml:space="preserve">
+    <value>Stänga av AgIO automatiskt?</value>
+  </data>
+  <data name="UiS_0655" xml:space="preserve">
+    <value>Nedre meny</value>
+  </data>
+  <data name="UiS_0656" xml:space="preserve">
+    <value>Knappar för förskjutning</value>
+  </data>
+  <data name="UiS_0657" xml:space="preserve">
+    <value>Högermeny</value>
+  </data>
+  <data name="UiS_0658" xml:space="preserve">
+    <value>Starta AgIO automatiskt?</value>
+  </data>
+  <data name="UiS_0659" xml:space="preserve">
+    <value>Vändning</value>
+  </data>
+  <data name="UiS_0660" xml:space="preserve">
+    <value>Ljud</value>
+  </data>
+  <data name="UiS_0661" xml:space="preserve">
+    <value>Vändning</value>
+  </data>
+  <data name="UiS_0662" xml:space="preserve">
+    <value>Sidled</value>
+  </data>
+  <data name="UiS_0663" xml:space="preserve">
+    <value>Dölj kontur</value>
+  </data>
+  <data name="UiS_0664" xml:space="preserve">
+    <value>AB-utjämning</value>
+  </data>
+  <data name="UiS_0665" xml:space="preserve">
+    <value>Inspelad bana</value>
+  </data>
+  <data name="UiS_0666" xml:space="preserve">
+    <value>Sprutspår</value>
+  </data>
+  <data name="UiS_0667" xml:space="preserve">
+    <value>Skärmknappar</value>
+  </data>
+  <data name="UiS_0668" xml:space="preserve">
+    <value>Verktygsmeny</value>
+  </data>
+  <data name="UiS_0669" xml:space="preserve">
+    <value>Fältmeny</value>
+  </data>
+  <data name="UiS_0670" xml:space="preserve">
+    <value>AV</value>
+  </data>
+  <data name="UiS_0671" xml:space="preserve">
+    <value>PÅ</value>
+  </data>
+  <data name="UiS_0672" xml:space="preserve">
+    <value>Felsökningsvärden</value>
+  </data>
+  <data name="UiS_0673" xml:space="preserve">
+    <value>Vändtegsavstånd</value>
+  </data>
+  <data name="UiS_0674" xml:space="preserve">
+    <value>Linjeutjämning</value>
+  </data>
+  <data name="UiS_0675" xml:space="preserve">
+    <value>Sektionslinjer</value>
+  </data>
+  <data name="UiS_0676" xml:space="preserve">
+    <value>Riktningsmarkörer</value>
+  </data>
+  <data name="UiS_0677" xml:space="preserve">
+    <value>Höjd</value>
+  </data>
+  <data name="UiS_0678" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="UiS_0679" xml:space="preserve">
+    <value>Svenn-pil</value>
+  </data>
+  <data name="UiS_0680" xml:space="preserve">
+    <value>Ljusstyrka</value>
+  </data>
+  <data name="UiS_0681" xml:space="preserve">
+    <value>Fälttextur</value>
+  </data>
+  <data name="UiS_0682" xml:space="preserve">
+    <value>Polygoner</value>
+  </data>
+  <data name="UiS_0683" xml:space="preserve">
+    <value>Starta i helskärm</value>
+  </data>
+  <data name="UiS_0684" xml:space="preserve">
+    <value>Hastighetsmätare</value>
+  </data>
+  <data name="UiS_0685" xml:space="preserve">
+    <value>Hjälplinjer</value>
+  </data>
+  <data name="UiS_0686" xml:space="preserve">
+    <value>Rutnät</value>
+  </data>
+  <data name="UiS_0687" xml:space="preserve">
+    <value>Aktuellt fordon</value>
+  </data>
+  <data name="UiS_0688" xml:space="preserve">
+    <value>Aktuellt redskap</value>
+  </data>
+  <data name="UiS_0689" xml:space="preserve">
+    <value>Tum</value>
+  </data>
+  <data name="UiS_0690" xml:space="preserve">
+    <value>Redskapsbredd:</value>
+  </data>
+  <data name="UiS_0691" xml:space="preserve">
+    <value>Fot</value>
+  </data>
+  <data name="UiS_0692" xml:space="preserve">
+    <value>Fakt.:</value>
+  </data>
+  <data name="UiS_0693" xml:space="preserve">
+    <value>Önskad:</value>
+  </data>
+  <data name="UiS_0694" xml:space="preserve">
+    <value>Fel:</value>
+  </data>
+  <data name="UiS_0695" xml:space="preserve">
+    <value>Eller +5</value>
+  </data>
+  <data name="UiS_0696" xml:space="preserve">
+    <value>Styrvinkel:</value>
+  </data>
+  <data name="UiS_0697" xml:space="preserve">
+    <value>Diameter:</value>
+  </data>
+  <data name="UiS_0698" xml:space="preserve">
+    <value>Fångst:</value>
+  </data>
+  <data name="UiS_0699" xml:space="preserve">
+    <value>Styrvinkeln ökas långsamt för att minska sidoavvikelsen</value>
+  </data>
+  <data name="UiS_0700" xml:space="preserve">
+    <value>Långsam</value>
+  </data>
+  <data name="UiS_0701" xml:space="preserve">
+    <value>Snabb</value>
+  </data>
+  <data name="UiS_0702" xml:space="preserve">
+    <value>Styrrespons</value>
+  </data>
+  <data name="UiS_0703" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="UiS_0704" xml:space="preserve">
+    <value>Min. framförhållning</value>
+  </data>
+  <data name="UiS_0705" xml:space="preserve">
+    <value>Framförhållning</value>
+  </data>
+  <data name="UiS_0706" xml:space="preserve">
+    <value>Stanley-förstärkningar</value>
+  </data>
+  <data name="UiS_0707" xml:space="preserve">
+    <value>Max styrvinkel</value>
+  </data>
+  <data name="UiS_0708" xml:space="preserve">
+    <value>AV fakt.:</value>
+  </data>
+  <data name="UiS_0709" xml:space="preserve">
+    <value>AV önskad:</value>
+  </data>
+  <data name="UiS_0710" xml:space="preserve">
+    <value>Pulser per grad</value>
+  </data>
+  <data name="UiS_0711" xml:space="preserve">
+    <value>WAS-nollpunkt</value>
+  </data>
+  <data name="UiS_0712" xml:space="preserve">
+    <value>Fångstfaktor</value>
+  </data>
+  <data name="UiS_0713" xml:space="preserve">
+    <value>Avstånd:</value>
+  </data>
+  <data name="UiS_0714" xml:space="preserve">
+    <value>Hastighetsfaktor</value>
+  </data>
+  <data name="UiS_0715" xml:space="preserve">
+    <value> ------ Dödzon -----</value>
+  </data>
+  <data name="UiS_0716" xml:space="preserve">
+    <value>Hållning:</value>
+  </data>
+  <data name="UiS_0717" xml:space="preserve">
+    <value>Fångst = faktor × hållning</value>
+  </data>
+  <data name="UiS_0718" xml:space="preserve">
+    <value>Påslagsfördröjning (s)</value>
+  </data>
+  <data name="UiS_0719" xml:space="preserve">
+    <value>Kurs (grader)</value>
+  </data>
+  <data name="UiS_0720" xml:space="preserve">
+    <value>Förstärkning</value>
+  </data>
+  <data name="UiS_0721" xml:space="preserve">
+    <value>Minimum för rörelse</value>
+  </data>
+  <data name="UiS_0722" xml:space="preserve">
+    <value>Maxgräns</value>
+  </data>
+  <data name="UiS_0723" xml:space="preserve">
+    <value>Proportionell förstärkning</value>
+  </data>
+  <data name="UiS_0724" xml:space="preserve">
+    <value>Sidlutningskompensering: grader per roll-grad</value>
+  </data>
+  <data name="UiS_0725" xml:space="preserve">
+    <value>Knapp – tryck på, tryck av&#xD;
+Brytare – intryckt på, släppt av</value>
+  </data>
+  <data name="UiS_0726" xml:space="preserve">
+    <value>Trycksensor</value>
+  </data>
+  <data name="UiS_0727" xml:space="preserve">
+    <value>Strömsensor</value>
+  </data>
+  <data name="UiS_0728" xml:space="preserve">
+    <value>Pulssensor</value>
+  </data>
+  <data name="UiS_0729" xml:space="preserve">
+    <value>Invertera motorriktning</value>
+  </data>
+  <data name="UiS_0730" xml:space="preserve">
+    <value>Styrning på</value>
+  </data>
+  <data name="UiS_0731" xml:space="preserve">
+    <value>Motordrivare</value>
+  </data>
+  <data name="UiS_0732" xml:space="preserve">
+    <value>A/D-omvandlare</value>
+  </data>
+  <data name="UiS_0733" xml:space="preserve">
+    <value>Styrsensor</value>
+  </data>
+  <data name="UiS_0734" xml:space="preserve">
+    <value>Invertera WAS</value>
+  </data>
+  <data name="UiS_0735" xml:space="preserve">
+    <value>Återställ allt till standard</value>
+  </data>
+  <data name="UiS_0736" xml:space="preserve">
+    <value>IMU X- eller Y-axel</value>
+  </data>
+  <data name="UiS_0737" xml:space="preserve">
+    <value>Stanley / Pure</value>
+  </data>
+  <data name="UiS_0738" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="UiS_0739" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="UiS_0740" xml:space="preserve">
+    <value>Säkerhet: 0%</value>
+  </data>
+  <data name="UiS_0741" xml:space="preserve">
+    <value>Prover: 0</value>
+  </data>
+  <data name="UiS_0742" xml:space="preserve">
+    <value>Styra vid backning?</value>
+  </data>
+  <data name="UiS_0743" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="UiS_0744" xml:space="preserve">
+    <value>Ut</value>
+  </data>
+  <data name="UiS_0745" xml:space="preserve">
+    <value>Vändningskompensering</value>
+  </data>
+  <data name="UiS_0746" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0747" xml:space="preserve">
+    <value>Max hastighet</value>
+  </data>
+  <data name="UiS_0748" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="UiS_0749" xml:space="preserve">
+    <value>Manuella vändningar</value>
+  </data>
+  <data name="UiS_0750" xml:space="preserve">
+    <value>Linjebredd</value>
+  </data>
+  <data name="UiS_0751" xml:space="preserve">
+    <value>pixlar</value>
+  </data>
+  <data name="UiS_0752" xml:space="preserve">
+    <value>Förskjutningsavstånd</value>
+  </data>
+  <data name="UiS_0753" xml:space="preserve">
+    <value>Styrbalk</value>
+  </data>
+  <data name="UiS_0754" xml:space="preserve">
+    <value>Styrvisare</value>
+  </data>
+  <data name="UiS_0755" xml:space="preserve">
+    <value>På/Av</value>
+  </data>
+  <data name="UiS_0756" xml:space="preserve">
+    <value>Ljusbalk</value>
+  </data>
+  <data name="UiS_0757" xml:space="preserve">
+    <value>cm per bildpunkt</value>
+  </data>
+  <data name="UiS_0758" xml:space="preserve">
+    <value>Sekunder</value>
+  </data>
+  <data name="UiS_0759" xml:space="preserve">
+    <value>Söktid för nästa körspår</value>
+  </data>
+  <data name="UiS_0760" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="UiS_0761" xml:space="preserve">
+    <value>Fel:</value>
+  </data>
+  <data name="UiS_0762" xml:space="preserve">
+    <value>Låg</value>
+  </data>
+  <data name="UiS_0763" xml:space="preserve">
+    <value>Sidlutning: grader per roll-grad</value>
+  </data>
+  <data name="UiS_0764" xml:space="preserve">
+    <value>Framförhållning (m)</value>
+  </data>
+  <data name="UiS_0765" xml:space="preserve">
+    <value>Framförhållning, hastighetsfaktor</value>
+  </data>
+  <data name="UiS_0766" xml:space="preserve">
+    <value>PWM minimum för rörelse</value>
+  </data>
+  <data name="UiS_0767" xml:space="preserve">
+    <value>PWM-maximum</value>
+  </data>
+  <data name="UiS_0768" xml:space="preserve">
+    <value>Kör rakt fram och tryck på Noll</value>
+  </data>
+  <data name="UiS_0769" xml:space="preserve">
+    <value>Trycksensor för styrning</value>
+  </data>
+  <data name="UiS_0770" xml:space="preserve">
+    <value>Strömsensor för styrning</value>
+  </data>
+  <data name="UiS_0771" xml:space="preserve">
+    <value>Invertera hydrauliska aktiveringsreläet?</value>
+  </data>
+  <data name="UiS_0772" xml:space="preserve">
+    <value>Läge för styraktivering</value>
+  </data>
+  <data name="UiS_0773" xml:space="preserve">
+    <value>Vilken typ av motordrivare?</value>
+  </data>
+  <data name="UiS_0774" xml:space="preserve">
+    <value>Hur är A/D-omvandlaren ansluten?</value>
+  </data>
+  <data name="UiS_0775" xml:space="preserve">
+    <value>Styrpulser</value>
+  </data>
+  <data name="UiS_0776" xml:space="preserve">
+    <value>Använder du en Danfoss-ventil?</value>
+  </data>
+  <data name="UiS_0777" xml:space="preserve">
+    <value>Fri körning</value>
+  </data>
+  <data name="UiS_0778" xml:space="preserve">
+    <value>  Starta guiden</value>
+  </data>
+  <data name="UiS_0779" xml:space="preserve">
+    <value>Rekommenderas starkt</value>
+  </data>
+  <data name="UiS_0780" xml:space="preserve">
+    <value>Läs in standardvärden</value>
+  </data>
+  <data name="UiS_0781" xml:space="preserve">
+    <value>Ange hjulbas</value>
+  </data>
+  <data name="UiS_0782" xml:space="preserve">
+    <value>Ange spårvidd</value>
+  </data>
+  <data name="UiS_0783" xml:space="preserve">
+    <value>Spårvidd</value>
+  </data>
+  <data name="UiS_0784" xml:space="preserve">
+    <value>Antenn-&#xD;
+position</value>
+  </data>
+  <data name="UiS_0785" xml:space="preserve">
+    <value>Ange antennens avstånd från vridpunktsaxeln</value>
+  </data>
+  <data name="UiS_0786" xml:space="preserve">
+    <value>Antenn-&#xD;
+höjd</value>
+  </data>
+  <data name="UiS_0787" xml:space="preserve">
+    <value>Ange antennhöjd</value>
+  </data>
+  <data name="UiS_0788" xml:space="preserve">
+    <value>0 = av</value>
+  </data>
+  <data name="UiS_0789" xml:space="preserve">
+    <value>Ange antennförskjutning</value>
+  </data>
+  <data name="UiS_0790" xml:space="preserve">
+    <value>A/D-omvandlare</value>
+  </data>
+  <data name="UiS_0791" xml:space="preserve">
+    <value>Motordrivarkort</value>
+  </data>
+  <data name="UiS_0792" xml:space="preserve">
+    <value>Styrrelä</value>
+  </data>
+  <data name="UiS_0793" xml:space="preserve">
+    <value>Danfoss-ventil</value>
+  </data>
+  <data name="UiS_0794" xml:space="preserve">
+    <value>Om inte, välj Invertera roll</value>
+  </data>
+  <data name="UiS_0795" xml:space="preserve">
+    <value>Luta fordonet kraftigt åt höger. Roll åt höger måste vara POSITIV.</value>
+  </data>
+  <data name="UiS_0796" xml:space="preserve">
+    <value>Rollfunktion</value>
+  </data>
+  <data name="UiS_0797" xml:space="preserve">
+    <value>Parkera på plant underlag och tryck på "Nollställ roll"</value>
+  </data>
+  <data name="UiS_0798" xml:space="preserve">
+    <value>Roll noll</value>
+  </data>
+  <data name="UiS_0799" xml:space="preserve">
+    <value>Invertera WAS-riktning</value>
+  </data>
+  <data name="UiS_0800" xml:space="preserve">
+    <value>Aktuell kurs:</value>
+  </data>
+  <data name="UiS_0801" xml:space="preserve">
+    <value>WAS-nollställning</value>
+  </data>
+  <data name="UiS_0802" xml:space="preserve">
+    <value>Invertera riktning</value>
+  </data>
+  <data name="UiS_0803" xml:space="preserve">
+    <value>Styrmotorns riktning</value>
+  </data>
+  <data name="UiS_0804" xml:space="preserve">
+    <value>* Starta * kalibrering</value>
+  </data>
+  <data name="UiS_0805" xml:space="preserve">
+    <value>WAS-kalibrering</value>
+  </data>
+  <data name="UiS_0806" xml:space="preserve">
+    <value>* HOPPA ÖVER * Pulser per grad och Ackermann-inställning?</value>
+  </data>
+  <data name="UiS_0807" xml:space="preserve">
+    <value>Startvinkel:</value>
+  </data>
+  <data name="UiS_0808" xml:space="preserve">
+    <value>Återställ&#xD;
+till&#xD;
+100%</value>
+  </data>
+  <data name="UiS_0809" xml:space="preserve">
+    <value>Ackermann-värde:</value>
+  </data>
+  <data name="UiS_0810" xml:space="preserve">
+    <value>Ställ in</value>
+  </data>
+  <data name="UiS_0811" xml:space="preserve">
+    <value>Vrid ratten till önskad gräns för styrningen och tryck OK -&gt;</value>
+  </data>
+  <data name="UiS_0812" xml:space="preserve">
+    <value>Styrvinkelgräns för styrning</value>
+  </data>
+  <data name="UiS_0813" xml:space="preserve">
+    <value>Eller ange styrvinkelgränsen manuellt</value>
+  </data>
+  <data name="UiS_0814" xml:space="preserve">
+    <value>Automatisk avbrytningsfunktion</value>
+  </data>
+  <data name="UiS_0815" xml:space="preserve">
+    <value>Nödstoppshastighet</value>
+  </data>
+  <data name="UiS_0816" xml:space="preserve">
+    <value>Noll</value>
+  </data>
+  <data name="UiS_0817" xml:space="preserve">
+    <value>Automatisk uppladdning: ladda upp fältändringar vid stängning&#xD;
+Molnhämtning: hämta alltid senaste från AgShare vid öppning</value>
+  </data>
+  <data name="UiS_0818" xml:space="preserve">
+    <value>R – Återställ sim&#xD;
+U – Vändning (180 grader)&#xD;
+&#xD;
+Upp-pil – Snabbare&#xD;
+Ner-pil – Långsammare&#xD;
+Vänster-pil – Vänster&#xD;
+Höger-pil – Höger&#xD;
+&#xD;
+( . ) Punkt – Stopp&#xD;
+( / ) Snedstreck – Kör rakt</value>
+  </data>
+  <data name="UiS_0819" xml:space="preserve">
+    <value>Denna förskjutning läggs till latitud och longitud och sparas i filen FIELD.KML när fältet stängs.</value>
+  </data>
+  <data name="UiS_0820" xml:space="preserve">
+    <value>Fordonsinställningarna heter nu "profiler" och&#xD;
+kan skapas/läsas in i huvudmenyn (uppe till vänster).</value>
+  </data>
+  <data name="UiS_0821" xml:space="preserve">
+    <value>Tryck på knapparna till vänster som du vill ha i menyn (till höger). &#xD;
+&#xD;
+Ordningen du trycker i blir ordningen i menyn, nerifrån och upp.</value>
+  </data>
+  <data name="UiS_0822" xml:space="preserve">
+    <value>Vrid ratten åt HÖGER cirka 20 grader.&#xD;
+Kör i en jämn cirkel, tryck på Rec och vänta.</value>
+  </data>
+  <data name="UiS_0823" xml:space="preserve">
+    <value>Knapp – tryck och släpp: på.   &#xD;
+               tryck och släpp: av&#xD;
+&#xD;
+Brytare – intryckt: på. &#xD;
+               släppt: av.</value>
+  </data>
+  <data name="UiS_0824" xml:space="preserve">
+    <value>Kör långsamt och aktivera autostyrningen. Invertera riktningen om styrmotorn vrider åt fel håll.&#xD;
+Testa med pilarna.</value>
+  </data>
+  <data name="UiS_0825" xml:space="preserve">
+    <value>Styrvinkeln måste vara POSITIV vid sväng åt HÖGER.&#xD;
+Om inte, välj Invertera WAS.</value>
+  </data>
+  <data name="UiS_0826" xml:space="preserve">
+    <value>Vrid ratten åt VÄNSTER ungefär lika många grader som åt höger.&#xD;
+Kör i en jämn cirkel, tryck på Rec och vänta.</value>
+  </data>
+  <data name="UiS_0827" xml:space="preserve">
+    <value>Ändra börvärdet med styrknapparna. &#xD;
+&#xD;
+Ställ in minimum för rörelse så högt som möjligt utan att styrmotorn eller hydrauliken rör ratten</value>
+  </data>
+  <data name="UiS_0828" xml:space="preserve">
+    <value>Kör nu en AB-linje och finjustera inställningarna efter din hastighet och markförhållanden.&#xD;
+&#xD;
+Kom ihåg: CPD, min. PWM och framförhållning är kritiska inställningar.</value>
+  </data>
+  <data name="UiS_0829" xml:space="preserve">
+    <value>Gamla profiler innehöll alla inställningar i en fil. Det nya formatet skiljer på fordon, redskap och miljö. Välj vad du vill hämta ut.</value>
+  </data>
+  <data name="UiS_0830" xml:space="preserve">
+    <value>Firmware-uppdatering&#xD;
+&#xD;
+Den här funktionen är under utveckling.&#xD;
+&#xD;
+Framtida funktioner:&#xD;
+&#xD;
+• Välj firmware-fil (.hex)&#xD;
+• Välj kommunikationsport (från AgIO-inställningarna)&#xD;
+• Starta TeensyLoaderCLI med parametrar&#xD;
+• Ladda upp firmware till Teensy-enheten&#xD;
+• Förloppsindikator&#xD;
+&#xD;
+TeensyLoader-integration:&#xD;
+teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
+  </data>
+  <data name="UiS_0831" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="UiS_0832" xml:space="preserve">
+    <value>Brytare</value>
+  </data>
+  <data name="UiS_0833" xml:space="preserve">
+    <value>Knapp</value>
+  </data>
+  <data name="UiS_0834" xml:space="preserve">
+    <value>Välj en gammal profilfil</value>
+  </data>
+  <data name="UiS_0835" xml:space="preserve">
+    <value>Välj vad som ska konverteras (fordon och/eller redskap)</value>
+  </data>
+  <data name="UiS_0836" xml:space="preserve">
+    <value>Tillämpat:</value>
+  </data>
+  <data name="UiS_0837" xml:space="preserve">
+    <value>Faktiskt:</value>
+  </data>
+  <data name="UiS_0838" xml:space="preserve">
+    <value>ha/h</value>
+  </data>
+  <data name="UiS_0839" xml:space="preserve">
+    <value>∞ h</value>
+  </data>
+  <data name="UiS_0840" xml:space="preserve">
+    <value>ac/h</value>
+  </data>
+  <data name="UiS_0841" xml:space="preserve">
+    <value>Kör långsamt rakt fram och låt systemet styra</value>
+  </data>
+  <data name="UiS_0842" xml:space="preserve">
+    <value>Inställning av minimum för rörelse</value>
+  </data>
+  <data name="UiS_0843" xml:space="preserve">
+    <value>Noll eller +5</value>
+  </data>
+  <data name="UiS_0844" xml:space="preserve">
+    <value>Ställ in proportionell förstärkning för bra respons. &#xD;
+Begränsa svängningshastigheten med PWM maximum.</value>
+  </data>
+  <data name="UiS_0845" xml:space="preserve">
+    <value>Kör framåt och aktivera autostyrningen</value>
+  </data>
+  <data name="UiS_0846" xml:space="preserve">
+    <value>Inställning av förstärkning</value>
+  </data>
+  <data name="UiS_0847" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="UiS_0848" xml:space="preserve">
+    <value>Starta om guiden</value>
+  </data>
+  <data name="UiS_0849" xml:space="preserve">
+    <value>Klart!</value>
+  </data>
+  <data name="UiS_0850" xml:space="preserve">
+    <value>Förlopp:</value>
+  </data>
+  <data name="UiS_0851" xml:space="preserve">
+    <value>Pulser / grad</value>
+  </data>
+  <data name="UiS_0852" xml:space="preserve">
+    <value>WAS-förskjutning</value>
+  </data>
+  <data name="UiS_0853" xml:space="preserve">
+    <value>Kurs:</value>
+  </data>
+  <data name="UiS_0854" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="UiS_0855" xml:space="preserve">
+    <value>Korrigerad östlig koordinat</value>
+  </data>
+  <data name="UiS_0856" xml:space="preserve">
+    <value>Korrigeringsavstånd</value>
+  </data>
+  <data name="UiS_0857" xml:space="preserve">
+    <value>Roll (grader)</value>
+  </data>
+  <data name="UiS_0858" xml:space="preserve">
+    <value>Rullning på/av</value>
+  </data>
+  <data name="UiS_0859" xml:space="preserve">
+    <value>Stolpe</value>
+  </data>
+  <data name="UiS_0860" xml:space="preserve">
+    <value>Mjuk</value>
+  </data>
+  <data name="UiS_0861" xml:space="preserve">
+    <value>Direkt</value>
+  </data>
+  <data name="UiS_0862" xml:space="preserve">
+    <value>Kamerabeteende</value>
+  </data>
+  <data name="UiS_0863" xml:space="preserve">
+    <value>Återställ till standard</value>
+  </data>
+  <data name="UiS_0864" xml:space="preserve">
+    <value>(+90 till -90)</value>
+  </data>
+  <data name="UiS_0865" xml:space="preserve">
+    <value>(+180 till -180)</value>
+  </data>
+  <data name="UiS_0866" xml:space="preserve">
+    <value>Fordon: -</value>
+  </data>
+  <data name="UiS_0867" xml:space="preserve">
+    <value>Redskap: -</value>
+  </data>
+  <data name="UiS_0868" xml:space="preserve">
+    <value>Miljö: -</value>
+  </data>
+  <data name="UiS_0869" xml:space="preserve">
+    <value>Miljö</value>
+  </data>
+  <data name="UiS_0870" xml:space="preserve">
+    <value>System / GPS</value>
+  </data>
+  <data name="UiS_0871" xml:space="preserve">
+    <value>Börvärde</value>
+  </data>
+  <data name="UiS_0872" xml:space="preserve">
+    <value>Faktiskt</value>
+  </data>
+  <data name="UiS_0873" xml:space="preserve">
+    <value>Ange fältnamn</value>
+  </data>
+  <data name="UiS_0874" xml:space="preserve">
+    <value>Areal:</value>
+  </data>
+  <data name="UiS_0875" xml:space="preserve">
+    <value>Punkter:</value>
+  </data>
+  <data name="UiS_0876" xml:space="preserve">
+    <value>Tillgängliga spår</value>
+  </data>
+  <data name="UiS_0877" xml:space="preserve">
+    <value>Tillgängliga fält</value>
+  </data>
+  <data name="UiS_0878" xml:space="preserve">
+    <value>Importera</value>
+  </data>
+  <data name="UiS_0879" xml:space="preserve">
+    <value>Avmarkera alla</value>
+  </data>
+  <data name="UiS_0880" xml:space="preserve">
+    <value>Markera alla</value>
+  </data>
+  <data name="UiS_0881" xml:space="preserve">
+    <value>Välj ett fält till vänster och markera sedan spåren som ska kopieras</value>
+  </data>
+  <data name="UiS_0882" xml:space="preserve">
+    <value>Fältnamn</value>
+  </data>
+  <data name="UiS_0883" xml:space="preserve">
+    <value>Avsluta till Windows om:</value>
+  </data>
+  <data name="UiS_0884" xml:space="preserve">
+    <value>Avstängning om:</value>
+  </data>
+  <data name="UiS_0885" xml:space="preserve">
+    <value>Stäng av</value>
+  </data>
+  <data name="UiS_0886" xml:space="preserve">
+    <value>Markera/avmarkera spår att använda</value>
+  </data>
+  <data name="UiS_0887" xml:space="preserve">
+    <value>Förkorta B</value>
+  </data>
+  <data name="UiS_0888" xml:space="preserve">
+    <value>Förkorta A</value>
+  </data>
+  <data name="UiS_0889" xml:space="preserve">
+    <value>Förläng B</value>
+  </data>
+  <data name="UiS_0890" xml:space="preserve">
+    <value>Förläng A</value>
+  </data>
+  <data name="UiS_0891" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="UiS_0892" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="UiS_0893" xml:space="preserve">
+    <value>Sök automatiskt</value>
+  </data>
+  <data name="UiS_0894" xml:space="preserve">
+    <value>Fält</value>
+  </data>
+  <data name="UiS_0895" xml:space="preserve">
+    <value>Skriv över</value>
+  </data>
+  <data name="UiS_0896" xml:space="preserve">
+    <value>Hämta valda</value>
+  </data>
+  <data name="UiS_0897" xml:space="preserve">
+    <value>Hämta alla</value>
+  </data>
+  <data name="UiS_0898" xml:space="preserve">
+    <value>Hämtar... Vänta</value>
+  </data>
+  <data name="UiS_0899" xml:space="preserve">
+    <value>Lon:</value>
+  </data>
+  <data name="UiS_0900" xml:space="preserve">
+    <value>Lat:</value>
+  </data>
+  <data name="UiS_0901" xml:space="preserve">
+    <value>Avstånd till flagga:</value>
+  </data>
+  <data name="UiS_0902" xml:space="preserve">
+    <value>Punkt A</value>
+  </data>
+  <data name="UiS_0903" xml:space="preserve">
+    <value>Importera flaggor</value>
+  </data>
+  <data name="UiS_0904" xml:space="preserve">
+    <value>Exportera flaggor</value>
+  </data>
+  <data name="UiS_0905" xml:space="preserve">
+    <value>Gränser</value>
+  </data>
+  <data name="UiS_0906" xml:space="preserve">
+    <value>Genom?</value>
+  </data>
+  <data name="UiS_0907" xml:space="preserve">
+    <value>Areal</value>
+  </data>
+  <data name="UiS_0908" xml:space="preserve">
+    <value>Avstånd (m)</value>
+  </data>
+  <data name="UiS_0909" xml:space="preserve">
+    <value>Lägg till punkter</value>
+  </data>
+  <data name="UiS_0910" xml:space="preserve">
+    <value>Punkter att bearbeta:</value>
+  </data>
+  <data name="UiS_0911" xml:space="preserve">
+    <value>Punkter</value>
+  </data>
+  <data name="UiS_0912" xml:space="preserve">
+    <value>AgShare-uppladdning</value>
+  </data>
+  <data name="UiS_0913" xml:space="preserve">
+    <value>AgShare-nedladdning</value>
+  </data>
+  <data name="UiS_0914" xml:space="preserve">
+    <value>Från KML</value>
+  </data>
+  <data name="UiS_0915" xml:space="preserve">
+    <value>Öppna</value>
+  </data>
+  <data name="UiS_0916" xml:space="preserve">
+    <value>Kör in</value>
+  </data>
+  <data name="UiS_0917" xml:space="preserve">
+    <value>Återuppta</value>
+  </data>
+  <data name="UiS_0918" xml:space="preserve">
+    <value>Befintligt</value>
+  </data>
+  <data name="UiS_0919" xml:space="preserve">
+    <value>Nytt fält</value>
+  </data>
+  <data name="UiS_0920" xml:space="preserve">
+    <value>Föregående fält</value>
+  </data>
+  <data name="UiS_0921" xml:space="preserve">
+    <value>Arbetsbredd</value>
+  </data>
+  <data name="UiS_0922" xml:space="preserve">
+    <value>Ny gräns</value>
+  </data>
+  <data name="UiS_0923" xml:space="preserve">
+    <value>Bakgrund</value>
+  </data>
+  <data name="UiS_0924" xml:space="preserve">
+    <value>Fältnamn</value>
+  </data>
+  <data name="UiS_0925" xml:space="preserve">
+    <value>Ladda upp valda</value>
+  </data>
+  <data name="UiS_0926" xml:space="preserve">
+    <value>Redigera fältnamn</value>
+  </data>
+  <data name="UiS_0927" xml:space="preserve">
+    <value>Linjer</value>
+  </data>
+  <data name="UiS_0928" xml:space="preserve">
+    <value>Kartering</value>
+  </data>
+  <data name="UiS_0929" xml:space="preserve">
+    <value>Flaggor</value>
+  </data>
+  <data name="UiS_0930" xml:space="preserve">
+    <value>Sortera</value>
+  </data>
+  <data name="UiS_0931" xml:space="preserve">
+    <value>Kvar:</value>
+  </data>
+  <data name="UiS_0932" xml:space="preserve">
+    <value>Takt:</value>
+  </data>
+  <data name="UiS_0933" xml:space="preserve">
+    <value>Totalt:</value>
+  </data>
+  <data name="UiS_0934" xml:space="preserve">
+    <value>Bearbetat:</value>
+  </data>
+  <data name="UiS_0935" xml:space="preserve">
+    <value>Bearbetat</value>
+  </data>
+  <data name="UiS_0936" xml:space="preserve">
+    <value>Avst.:</value>
+  </data>
+  <data name="UiS_0937" xml:space="preserve">
+    <value>Resa</value>
+  </data>
+  <data name="UiS_0938" xml:space="preserve">
+    <value>Avstånd (km)</value>
+  </data>
+  <data name="UiS_0939" xml:space="preserve">
+    <value> Använd vald</value>
+  </data>
+  <data name="UiS_0940" xml:space="preserve">
+    <value>Använd vald</value>
+  </data>
+  <data name="UiS_0941" xml:space="preserve">
+    <value>Radera fält</value>
+  </data>
+  <data name="UiS_0942" xml:space="preserve">
+    <value>Inspelningsnamn</value>
+  </data>
+  <data name="UiS_0943" xml:space="preserve">
+    <value>Radera inspelning</value>
+  </data>
+  <data name="UiS_0944" xml:space="preserve">
+    <value>Bana av</value>
+  </data>
+  <data name="UiS_0945" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="UiS_0946" xml:space="preserve">
+    <value>Natt</value>
+  </data>
+  <data name="UiS_0947" xml:space="preserve">
+    <value>Aktuell: -</value>
+  </data>
+  <data name="UiS_0948" xml:space="preserve">
+    <value>Vald: -</value>
+  </data>
+  <data name="UiS_0949" xml:space="preserve">
+    <value>Ant.–vridpunkt:</value>
+  </data>
+  <data name="UiS_0950" xml:space="preserve">
+    <value>Antennförskjutn.:</value>
+  </data>
+  <data name="UiS_0951" xml:space="preserve">
+    <value>Spårvidd:</value>
+  </data>
+  <data name="UiS_0952" xml:space="preserve">
+    <value>Koppling:</value>
+  </data>
+  <data name="UiS_0953" xml:space="preserve">
+    <value>Dragkoppling:</value>
+  </data>
+  <data name="UiS_0954" xml:space="preserve">
+    <value>Läs in</value>
+  </data>
+  <data name="UiS_0955" xml:space="preserve">
+    <value>Konvertera gamla profiler</value>
+  </data>
+  <data name="UiS_0956" xml:space="preserve">
+    <value>Miljöer</value>
+  </data>
+  <data name="UiS_0957" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="UiS_0958" xml:space="preserve">
+    <value>Konvertera gamla profilfiler till nytt format</value>
+  </data>
+  <data name="UiS_0959" xml:space="preserve">
+    <value>Konvertera</value>
+  </data>
+  <data name="UiS_0960" xml:space="preserve">
+    <value>Steg 2: välj vad som ska konverteras (fordon och/eller redskap):</value>
+  </data>
+  <data name="UiS_0961" xml:space="preserve">
+    <value>Konvertera redskap</value>
+  </data>
+  <data name="UiS_0962" xml:space="preserve">
+    <value>Redskapsprofilens namn:</value>
+  </data>
+  <data name="UiS_0963" xml:space="preserve">
+    <value>Fordonsprofilens namn:</value>
+  </data>
+  <data name="UiS_0964" xml:space="preserve">
+    <value>Konvertera fordon</value>
+  </data>
+  <data name="UiS_0965" xml:space="preserve">
+    <value>Steg 1: välj en gammal profilfil:</value>
+  </data>
+  <data name="UiS_0966" xml:space="preserve">
+    <value>Namn:</value>
+  </data>
+  <data name="UiS_0967" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="UiS_0968" xml:space="preserve">
+    <value>Kopiera från:</value>
+  </data>
+  <data name="UiS_0969" xml:space="preserve">
+    <value>Ogiltig:</value>
+  </data>
+  <data name="UiS_0970" xml:space="preserve">
+    <value>GPS (enkel):</value>
+  </data>
+  <data name="UiS_0971" xml:space="preserve">
+    <value>RTK float:</value>
+  </data>
+  <data name="UiS_0972" xml:space="preserve">
+    <value>Uppskattad:</value>
+  </data>
+  <data name="UiS_0973" xml:space="preserve">
+    <value>Manuell:</value>
+  </data>
+  <data name="UiS_0974" xml:space="preserve">
+    <value>Sim.:</value>
+  </data>
+  <data name="UiS_0975" xml:space="preserve">
+    <value>Okänd:</value>
+  </data>
+  <data name="UiS_0976" xml:space="preserve">
+    <value>Ålder:</value>
+  </data>
+  <data name="UiS_0977" xml:space="preserve">
+    <value>Ingen nätverksanslutning.</value>
+  </data>
+  <data name="UiS_0978" xml:space="preserve">
+    <value>Ansluten. Väntar på korrektioner.</value>
+  </data>
+  <data name="UiS_0979" xml:space="preserve">
+    <value>Korrektionerna har upphört. Ansluter igen.</value>
+  </data>
+  <data name="UiS_0980" xml:space="preserve">
+    <value>Ansluten, men inget kommer in. Vissa tjänster behöver din position: kontrollera att GPS-positionen skickas.</value>
+  </data>
+  <data name="UiS_0981" xml:space="preserve">
+    <value>Tjänsten stängde anslutningen. Ansluter igen.</value>
+  </data>
+  <data name="UiS_0982" xml:space="preserve">
+    <value>Tjänsten stängde anslutningen utan att skicka korrektioner.</value>
+  </data>
+  <data name="UiS_0983" xml:space="preserve">
+    <value>Tar emot korrektioner</value>
+  </data>
+  <data name="UiS_0984" xml:space="preserve">
+    <value>Tjänsten skickade ett svar som AgIO inte kan läsa.</value>
+  </data>
+  <data name="UiS_0985" xml:space="preserve">
+    <value>Tjänsten skickade ingen lista med mountpoints.</value>
+  </data>
+  <data name="UiS_0986" xml:space="preserve">
+    <value>Tjänsten skickade ett tomt svar.</value>
+  </data>
+  <data name="UiS_0987" xml:space="preserve">
+    <value>Den här mountpointen finns inte i tjänsten. Välj en från listan.</value>
+  </data>
+  <data name="UiS_0988" xml:space="preserve">
+    <value>Adressen svarade med en webbsida, inte en NTRIP-tjänst. Kontrollera adress och port.</value>
+  </data>
+  <data name="UiS_0989" xml:space="preserve">
+    <value>Användarnamn, lösenord eller mountpoint är fel.</value>
+  </data>
+  <data name="UiS_0990" xml:space="preserve">
+    <value>Den här mountpointen finns inte i tjänsten. Kontrollera stavningen, stora och små bokstäver har betydelse.</value>
+  </data>
+  <data name="UiS_0991" xml:space="preserve">
+    <value>Tjänsten kan inte ta emot fler anslutningar just nu. Den är upptagen, eller så används den här inloggningen redan.</value>
+  </data>
+  <data name="UiS_0992" xml:space="preserve">
+    <value>Tjänsten startar. AgIO försöker igen om ungefär en minut.</value>
+  </data>
+  <data name="UiS_0993" xml:space="preserve">
+    <value>Den här tjänsten kräver din e-postadress som användarnamn.</value>
+  </data>
+  <data name="UiS_0994" xml:space="preserve">
+    <value>Användarnamn eller lösenord är fel.</value>
+  </data>
+  <data name="UiS_0995" xml:space="preserve">
+    <value>Tjänsten nekade åtkomst.</value>
+  </data>
+  <data name="UiS_0996" xml:space="preserve">
+    <value>Tjänsten svarade något som AgIO inte förstår.</value>
+  </data>
+  <data name="UiS_0997" xml:space="preserve">
+    <value>Radion är öppen. Väntar på korrektioner.</value>
+  </data>
+  <data name="UiS_0998" xml:space="preserve">
+    <value>Radion är öppen, men inget kommer in.</value>
+  </data>
+  <data name="UiS_0999" xml:space="preserve">
+    <value>Tar emot korrektioner från radion.</value>
+  </data>
+  <data name="UiS_1000" xml:space="preserve">
+    <value>Tillbaka på huvudtjänsten</value>
+  </data>
+  <data name="UiS_1001" xml:space="preserve">
+    <value>Korrektionerna kommer nu från huvudtjänsten igen.</value>
+  </data>
+  <data name="UiS_1002" xml:space="preserve">
+    <value>Huvudtjänsten är tillbaka</value>
+  </data>
+  <data name="UiS_1003" xml:space="preserve">
+    <value>Byta tillbaka till den? GPS:en kan tappa RTK en stund. AgIO byter aldrig tillbaka av sig själv.</value>
+  </data>
+  <data name="UiS_1004" xml:space="preserve">
+    <value>Huvudtjänsten har ett problem</value>
+  </data>
+  <data name="UiS_1005" xml:space="preserve">
+    <value>Bytte till reservtjänsten</value>
+  </data>
+  <data name="UiS_1006" xml:space="preserve">
+    <value>Du bytte till reservtjänsten.</value>
+  </data>
+  <data name="UiS_1007" xml:space="preserve">
+    <value>inga korrektioner</value>
+  </data>
+  <data name="UiS_1008" xml:space="preserve">
+    <value>Allt bra: korrektioner kommer in.</value>
+  </data>
+  <data name="UiS_1009" xml:space="preserve">
+    <value>Profilen har inget namn.</value>
+  </data>
+  <data name="UiS_1010" xml:space="preserve">
+    <value>GPS-observationer (äldre format)</value>
+  </data>
+  <data name="UiS_1011" xml:space="preserve">
+    <value>GLONASS-observationer (äldre format)</value>
+  </data>
+  <data name="UiS_1012" xml:space="preserve">
+    <value>tillverkarspecifik</value>
+  </data>
+  <data name="UiS_1013" xml:space="preserve">
+    <value>basposition</value>
+  </data>
+  <data name="UiS_1014" xml:space="preserve">
+    <value>basposition + antennhöjd</value>
+  </data>
+  <data name="UiS_1015" xml:space="preserve">
+    <value>antennbeskrivning</value>
+  </data>
+  <data name="UiS_1016" xml:space="preserve">
+    <value>systemparametrar</value>
+  </data>
+  <data name="UiS_1017" xml:space="preserve">
+    <value>GPS-efemerider</value>
+  </data>
+  <data name="UiS_1018" xml:space="preserve">
+    <value>GLONASS-efemerider</value>
+  </data>
+  <data name="UiS_1019" xml:space="preserve">
+    <value>mottagar- och antennbeskrivning</value>
+  </data>
+  <data name="UiS_1020" xml:space="preserve">
+    <value>BeiDou-efemerider</value>
+  </data>
+  <data name="UiS_1021" xml:space="preserve">
+    <value>QZSS-efemerider</value>
+  </data>
+  <data name="UiS_1022" xml:space="preserve">
+    <value>Galileo-efemerider</value>
+  </data>
+  <data name="UiS_1023" xml:space="preserve">
+    <value>GLONASS kodfasavvikelser</value>
+  </data>
+  <data name="UiS_1024" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="UiS_1025" xml:space="preserve">
+    <value>tom</value>
+  </data>
+  <data name="UiS_1026" xml:space="preserve">
+    <value>Tryck på ny kortkommandotangent</value>
+  </data>
+  <data name="UiS_1027" xml:space="preserve">
+    <value>Tryck på knappen för att ändra kortkommandot</value>
+  </data>
+  <data name="UiS_1028" xml:space="preserve">
+    <value> ???? &#xD;
+ Ej ansluten</value>
+  </data>
+  <data name="UiS_1029" xml:space="preserve">
+    <value>1: Ange avstånd, 2: Tryck på Skapa, 3: Skapa klipplinjer</value>
+  </data>
+  <data name="UiS_1030" xml:space="preserve">
+    <value>XTE-diagram</value>
+  </data>
+  <data name="UiS_1031" xml:space="preserve">
+    <value>Kör jämnt</value>
+  </data>
+  <data name="UiS_1032" xml:space="preserve">
+    <value>Redo att tillämpas</value>
+  </data>
+  <data name="UiS_1033" xml:space="preserve">
+    <value>Samlar in...</value>
+  </data>
+  <data name="UiS_1034" xml:space="preserve">
+    <value>Fel, CPD satt till 100</value>
+  </data>
+  <data name="UiS_1035" xml:space="preserve">
+    <value>Ackermann satt till:</value>
+  </data>
+  <data name="UiS_1036" xml:space="preserve">
+    <value>Fel, Ackermann satt till 100</value>
+  </data>
+  <data name="UiS_1037" xml:space="preserve">
+    <value>Välj en ruta nedan och välj ny färg</value>
+  </data>
+  <data name="UiS_1038" xml:space="preserve">
+    <value>Välj en förinställd färg</value>
+  </data>
+  <data name="UiS_1039" xml:space="preserve">
+    <value>Välj ny färg och sedan en ruta nedan för att spara</value>
+  </data>
+  <data name="UiS_1040" xml:space="preserve">
+    <value>Fältmappen hittades inte</value>
+  </data>
+  <data name="UiS_1041" xml:space="preserve">
+    <value>Fel vid inläsning av fält</value>
+  </data>
+  <data name="UiS_1042" xml:space="preserve">
+    <value>Inga spår hittades i det här fältet</value>
+  </data>
+  <data name="UiS_1043" xml:space="preserve">
+    <value>Fel vid inläsning av spår</value>
+  </data>
+  <data name="UiS_1044" xml:space="preserve">
+    <value>Sparar aktuella spår...</value>
+  </data>
+  <data name="UiS_1045" xml:space="preserve">
+    <value>Konverterar spår...</value>
+  </data>
+  <data name="UiS_1046" xml:space="preserve">
+    <value>Sparar spår...</value>
+  </data>
+  <data name="UiS_1047" xml:space="preserve">
+    <value>Valt fält:</value>
+  </data>
+  <data name="UiS_1048" xml:space="preserve">
+    <value>Fel vid inläsning av fält:</value>
+  </data>
+  <data name="UiS_1049" xml:space="preserve">
+    <value>Easy Drive aktivt</value>
+  </data>
+  <data name="UiS_1050" xml:space="preserve">
+    <value>Läs in miljö:</value>
+  </data>
+  <data name="UiS_1051" xml:space="preserve">
+    <value>Fordon:</value>
+  </data>
+  <data name="UiS_1052" xml:space="preserve">
+    <value>Redskap:</value>
+  </data>
+  <data name="UiS_1053" xml:space="preserve">
+    <value>Miljö:</value>
+  </data>
+  <data name="UiS_1054" xml:space="preserve">
+    <value>Allvarligt sparfel</value>
+  </data>
+  <data name="UiS_1055" xml:space="preserve">
+    <value>Fel vid avstängning</value>
+  </data>
+  <data name="UiS_1056" xml:space="preserve">
+    <value>Riktning återställd</value>
+  </data>
+  <data name="UiS_1057" xml:space="preserve">
+    <value>Framåt är inställt</value>
+  </data>
+  <data name="UiS_1058" xml:space="preserve">
+    <value>Autostyrning avstängd</value>
+  </data>
+  <data name="UiS_1059" xml:space="preserve">
+    <value>Förskjutningsfönstret är öppet</value>
+  </data>
+  <data name="UiS_1060" xml:space="preserve">
+    <value>Stäng förskjutningsfönstret</value>
+  </data>
+  <data name="UiS_1061" xml:space="preserve">
+    <value>Varning: stort avstånd till fältets startpunkt</value>
+  </data>
+  <data name="UiS_1062" xml:space="preserve">
+    <value>AgShare-uppladdningen misslyckades</value>
+  </data>
+  <data name="UiS_1063" xml:space="preserve">
+    <value>Ett fel uppstod när uppladdningen till AgShare startades.</value>
+  </data>
+  <data name="UiS_1064" xml:space="preserve">
+    <value>Ett fel uppstod under uppladdningen till AgShare.</value>
+  </data>
+  <data name="UiS_1065" xml:space="preserve">
+    <value>Fältet sparades INTE</value>
+  </data>
+  <data name="UiS_1066" xml:space="preserve">
+    <value>Det gick inte att spara fältet, så det lämnades öppet. Kontrollera diskutrymmet och försök igen.</value>
+  </data>
+  <data name="UiS_1067" xml:space="preserve">
+    <value>Återupptagningssätt</value>
+  </data>
+  <data name="UiS_1068" xml:space="preserve">
+    <value>Senast stoppade position</value>
+  </data>
+  <data name="UiS_1069" xml:space="preserve">
+    <value>Närmaste punkt</value>
+  </data>
+  <data name="UiS_1070" xml:space="preserve">
+    <value>Börja från början</value>
+  </data>
+  <data name="UiS_1071" xml:space="preserve">
+    <value>Kan inte användas med zoner</value>
+  </data>
+  <data name="UiS_1072" xml:space="preserve">
+    <value>Endast för sektioner</value>
+  </data>
+  <data name="UiS_1073" xml:space="preserve">
+    <value>Easy Drive</value>
+  </data>
+  <data name="UiS_1074" xml:space="preserve">
+    <value>Profiler är inte tillgängliga i Easy Drive-läge</value>
+  </data>
+  <data name="UiS_1075" xml:space="preserve">
+    <value>Sektionerna är på</value>
+  </data>
+  <data name="UiS_1076" xml:space="preserve">
+    <value>Stäng av auto eller manuellt först</value>
+  </data>
+  <data name="UiS_1077" xml:space="preserve">
+    <value>Återställ riktning</value>
+  </data>
+  <data name="UiS_1078" xml:space="preserve">
+    <value>Kör framåt &gt; 1,5 km/h</value>
+  </data>
+  <data name="UiS_1079" xml:space="preserve">
+    <value>Autostyrningen avstängd</value>
+  </data>
+  <data name="UiS_1080" xml:space="preserve">
+    <value>RTK-fixalarm</value>
+  </data>
+  <data name="UiS_1081" xml:space="preserve">
+    <value>Spåret ändrat</value>
+  </data>
+  <data name="UiS_1082" xml:space="preserve">
+    <value>Banor aktiverade</value>
+  </data>
+  <data name="UiS_1083" xml:space="preserve">
+    <value>Sim: backning aktiverad</value>
+  </data>
+  <data name="UiS_1084" xml:space="preserve">
+    <value>Kortkommando aktiverat</value>
+  </data>
+  <data name="UiS_1085" xml:space="preserve">
+    <value>Inställningar skickade till styrmodulen</value>
+  </data>
+  <data name="UiS_1086" xml:space="preserve">
+    <value>Tillbaka från redigering</value>
+  </data>
+  <data name="UiS_1087" xml:space="preserve">
+    <value>Uppdateringsprogrammet hittades inte. Kontrollera att AgOpenGPS.Updater.exe finns i programmappen.</value>
+  </data>
+  <data name="UiS_1088" xml:space="preserve">
+    <value>Uppdateringsprogrammet hittades inte</value>
+  </data>
+  <data name="UiS_1089" xml:space="preserve">
+    <value>För få punkter för att skapa en gräns</value>
+  </data>
+  <data name="UiS_1090" xml:space="preserve">
+    <value>Det går inte att beräkna fältets mitt. Yttre gräns eller AB-linje saknas.</value>
+  </data>
+  <data name="UiS_1091" xml:space="preserve">
+    <value>Du kan inte ha fler zoner än sektioner</value>
+  </data>
+  <data name="UiS_1092" xml:space="preserve">
+    <value>Simulatorn är av</value>
+  </data>
+  <data name="UiS_1093" xml:space="preserve">
+    <value>Simulatorn fungerar inte när en riktig antenn används</value>
+  </data>
+  <data name="UiS_1094" xml:space="preserve">
+    <value>Återställt till standard</value>
+  </data>
+  <data name="UiS_1095" xml:space="preserve">
+    <value>Värdena är återställda till standard</value>
+  </data>
+  <data name="UiS_1096" xml:space="preserve">
+    <value>Utanför intervallet</value>
+  </data>
+  <data name="UiS_1097" xml:space="preserve">
+    <value>Förskjutningen är för stor – kan inte tillämpas</value>
+  </data>
+  <data name="UiS_1098" xml:space="preserve">
+    <value>Smart WAS-nollställning</value>
+  </data>
+  <data name="UiS_1099" xml:space="preserve">
+    <value>Standardvärden inställda</value>
+  </data>
+  <data name="UiS_1100" xml:space="preserve">
+    <value>CPD och Ackermann satta till standard</value>
+  </data>
+  <data name="UiS_1101" xml:space="preserve">
+    <value>P-förstärkning ändrad</value>
+  </data>
+  <data name="UiS_1102" xml:space="preserve">
+    <value>Proportionell förstärkning satt till 1</value>
+  </data>
+  <data name="UiS_1103" xml:space="preserve">
+    <value>Profiler skapade</value>
+  </data>
+  <data name="UiS_1104" xml:space="preserve">
+    <value>Standardprofiler skapade</value>
+  </data>
+  <data name="UiS_1105" xml:space="preserve">
+    <value>Miljöinställningarna är återställda!</value>
+  </data>
+  <data name="UiS_1106" xml:space="preserve">
+    <value>Miljöinställningarna är inlästa!</value>
+  </data>
+  <data name="UiS_1107" xml:space="preserve">
+    <value>Profilfilerna hittades inte!
+
+Profilerna i registret kan inte hittas.
+Välj eller skapa nya profiler.
+
+Miljön använder standardvärden om inget väljs.</value>
+  </data>
+  <data name="UiS_1108" xml:space="preserve">
+    <value>Inga profiler hittades.
+
+Använd 'Ny' för att skapa fordons- och redskapsprofiler.
+
+Miljön använder standardvärden om inget väljs.</value>
+  </data>
+  <data name="UiS_1109" xml:space="preserve">
+    <value>Allvarligt fel i fältets origo&#xD;
+&#xD;
+Fältets origo ligger mer än 20 km från din aktuella GPS-position. Radera fältet och skapa ett nytt, annars blir noggrannheten dålig.&#xD;
+&#xD;
+Eller så har du ett fält öppet och har kört långt bort.</value>
+  </data>
+  <data name="UiS_1110" xml:space="preserve">
+    <value>Varning: Om du stänger AgIO bryts kommunikationen med hårdvaran.&#xD;
+Vill du verkligen stänga?</value>
+  </data>
+  <data name="UiS_1111" xml:space="preserve">
+    <value>Upp + ner</value>
+  </data>
+  <data name="UiS_1112" xml:space="preserve">
+    <value>Inaktiv</value>
+  </data>
+  <data name="UiS_1113" xml:space="preserve">
+    <value>Dölj automatiskt</value>
+  </data>
+  <data name="UiS_1114" xml:space="preserve">
+    <value>Auto-&#xD;
+körning</value>
+  </data>
+  <data name="UiS_1115" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="UiS_1116" xml:space="preserve">
+    <value>Profiler</value>
+  </data>
+  <data name="UiS_1117" xml:space="preserve">
+    <value>Aktuell profil</value>
+  </data>
+  <data name="UiS_1118" xml:space="preserve">
+    <value>Aktuell profil</value>
+  </data>
+  <data name="UiS_1119" xml:space="preserve">
+    <value>Ny profil</value>
+  </data>
+  <data name="UiS_1120" xml:space="preserve">
+    <value>Ny:</value>
+  </data>
+  <data name="UiS_1121" xml:space="preserve">
+    <value>Använder profil:</value>
+  </data>
+  <data name="UiS_1122" xml:space="preserve">
+    <value>AgIO: hantera profiler</value>
+  </data>
+  <data name="UiS_1123" xml:space="preserve">
+    <value>Skriv över denna profil:</value>
+  </data>
+  <data name="UiS_1124" xml:space="preserve">
+    <value>Avancerade inställningar</value>
+  </data>
+  <data name="UiS_1125" xml:space="preserve">
+    <value>ISOBUS-inställningar</value>
+  </data>
+  <data name="UiS_1126" xml:space="preserve">
+    <value>Inställningar för seriell vidarekoppling</value>
+  </data>
+  <data name="UiS_1127" xml:space="preserve">
+    <value>Seriell vidarekoppling på</value>
+  </data>
+  <data name="UiS_1128" xml:space="preserve">
+    <value>Annan port än GPS?</value>
+  </data>
+  <data name="UiS_1129" xml:space="preserve">
+    <value>Starta minimerat</value>
+  </data>
+  <data name="UiS_1130" xml:space="preserve">
+    <value>Visa AgIO vid varning</value>
+  </data>
+  <data name="UiS_1131" xml:space="preserve">
+    <value>Starta GPS-Out automatiskt</value>
+  </data>
+  <data name="UiS_1132" xml:space="preserve">
+    <value>Visa&#xD;
+vid&#xD;
+varning</value>
+  </data>
+  <data name="UiS_1133" xml:space="preserve">
+    <value>Händelselogg</value>
+  </data>
+  <data name="UiS_1134" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="UiS_1135" xml:space="preserve">
+    <value>Seriell monitor</value>
+  </data>
+  <data name="UiS_1136" xml:space="preserve">
+    <value>UDP-monitor</value>
+  </data>
+  <data name="UiS_1137" xml:space="preserve">
+    <value>PGN-guide</value>
+  </data>
+  <data name="UiS_1138" xml:space="preserve">
+    <value>Guide -&gt;</value>
+  </data>
+  <data name="UiS_1139" xml:space="preserve">
+    <value>Tangentbord</value>
+  </data>
+  <data name="UiS_1140" xml:space="preserve">
+    <value>Meddelandetexten visas här</value>
+  </data>
+  <data name="UiS_1141" xml:space="preserve">
+    <value>AgIO-meddelande</value>
+  </data>
+  <data name="UiS_1142" xml:space="preserve">
+    <value>AgTwo-meddelande</value>
+  </data>
+  <data name="UiS_1143" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="UiS_1144" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UiS_1145" xml:space="preserve">
+    <value>NTRIP-detaljer</value>
+  </data>
+  <data name="UiS_1146" xml:space="preserve">
+    <value>NTRIP är av</value>
+  </data>
+  <data name="UiS_1147" xml:space="preserve">
+    <value>RESERV ANVÄNDS</value>
+  </data>
+  <data name="UiS_1148" xml:space="preserve">
+    <value>Är korrektionerna bra?</value>
+  </data>
+  <data name="UiS_1149" xml:space="preserve">
+    <value>Byt till reserv</value>
+  </data>
+  <data name="UiS_1150" xml:space="preserve">
+    <value>Försök med huvudtjänsten igen</value>
+  </data>
+  <data name="UiS_1151" xml:space="preserve">
+    <value>Byt tillbaka till huvud</value>
+  </data>
+  <data name="UiS_1152" xml:space="preserve">
+    <value>Ansluten, väntar på data</value>
+  </data>
+  <data name="UiS_1153" xml:space="preserve">
+    <value>Ansluter...</value>
+  </data>
+  <data name="UiS_1154" xml:space="preserve">
+    <value>Mountpoint hittades inte</value>
+  </data>
+  <data name="UiS_1155" xml:space="preserve">
+    <value>Kan inte logga in</value>
+  </data>
+  <data name="UiS_1156" xml:space="preserve">
+    <value>Stoppad</value>
+  </data>
+  <data name="UiS_1157" xml:space="preserve">
+    <value>Tjänsten startar</value>
+  </data>
+  <data name="UiS_1158" xml:space="preserve">
+    <value>Tjänsten är upptagen</value>
+  </data>
+  <data name="UiS_1159" xml:space="preserve">
+    <value>Ansluten, inget kommer in</value>
+  </data>
+  <data name="UiS_1160" xml:space="preserve">
+    <value>Inget nätverk</value>
+  </data>
+  <data name="UiS_1161" xml:space="preserve">
+    <value>Ansluter igen...</value>
+  </data>
+  <data name="UiS_1162" xml:space="preserve">
+    <value>Tjänstens svar förstås inte</value>
+  </data>
+  <data name="UiS_1163" xml:space="preserve">
+    <value>Tjänsten kan inte nås</value>
+  </data>
+  <data name="UiS_1164" xml:space="preserve">
+    <value>Korrektioner kommer in</value>
+  </data>
+  <data name="UiS_1165" xml:space="preserve">
+    <value>Den här strömmen kan inte kontrolleras i detalj.</value>
+  </data>
+  <data name="UiS_1166" xml:space="preserve">
+    <value>Basstationens position mottagen</value>
+  </data>
+  <data name="UiS_1167" xml:space="preserve">
+    <value>Basstationens position</value>
+  </data>
+  <data name="UiS_1168" xml:space="preserve">
+    <value>Väntar på den. Den kommer var 10:e sekund.</value>
+  </data>
+  <data name="UiS_1169" xml:space="preserve">
+    <value>Basstationens position saknas</value>
+  </data>
+  <data name="UiS_1170" xml:space="preserve">
+    <value>RTK kan inte starta utan den.</value>
+  </data>
+  <data name="UiS_1171" xml:space="preserve">
+    <value>Inte mottagen än.</value>
+  </data>
+  <data name="UiS_1172" xml:space="preserve">
+    <value>Avstånd till basstationen</value>
+  </data>
+  <data name="UiS_1173" xml:space="preserve">
+    <value>Väntar på din GPS-position.</value>
+  </data>
+  <data name="UiS_1174" xml:space="preserve">
+    <value>För långt för bra RTK. Välj en närmare basstation.</value>
+  </data>
+  <data name="UiS_1175" xml:space="preserve">
+    <value>Långt bort. RTK är mindre noggrann på det här avståndet.</value>
+  </data>
+  <data name="UiS_1176" xml:space="preserve">
+    <value>Från den fasta positionen i NTRIP-inställningarna.</value>
+  </data>
+  <data name="UiS_1177" xml:space="preserve">
+    <value>Satelliter i korrektionerna</value>
+  </data>
+  <data name="UiS_1178" xml:space="preserve">
+    <value>Inga satellitdata i korrektionerna</value>
+  </data>
+  <data name="UiS_1179" xml:space="preserve">
+    <value>Basstationen skickar inga observationer.</value>
+  </data>
+  <data name="UiS_1180" xml:space="preserve">
+    <value>Inget mottaget än.</value>
+  </data>
+  <data name="UiS_1181" xml:space="preserve">
+    <value>Färska data</value>
+  </data>
+  <data name="UiS_1182" xml:space="preserve">
+    <value>Väntar på första data.</value>
+  </data>
+  <data name="UiS_1183" xml:space="preserve">
+    <value>Data är sena</value>
+  </data>
+  <data name="UiS_1184" xml:space="preserve">
+    <value>Inga nya data</value>
+  </data>
+  <data name="UiS_1185" xml:space="preserve">
+    <value>Din GPS: RTK fixed</value>
+  </data>
+  <data name="UiS_1186" xml:space="preserve">
+    <value>Din GPS: RTK float</value>
+  </data>
+  <data name="UiS_1187" xml:space="preserve">
+    <value>Den räknar fortfarande. Vänta en stund.</value>
+  </data>
+  <data name="UiS_1188" xml:space="preserve">
+    <value>Din GPS: ingen RTK än</value>
+  </data>
+  <data name="UiS_1189" xml:space="preserve">
+    <value>Endast normal GPS-noggrannhet.</value>
+  </data>
+  <data name="UiS_1190" xml:space="preserve">
+    <value>Din GPS har ingen fix</value>
+  </data>
+  <data name="UiS_1191" xml:space="preserve">
+    <value>Din GPS är i manuellt läge eller simulatorläge</value>
+  </data>
+  <data name="UiS_1192" xml:space="preserve">
+    <value>Ingen adress</value>
+  </data>
+  <data name="UiS_1193" xml:space="preserve">
+    <value>Fyll i adressen först.</value>
+  </data>
+  <data name="UiS_1194" xml:space="preserve">
+    <value>Ingen port</value>
+  </data>
+  <data name="UiS_1195" xml:space="preserve">
+    <value>Kunde inte spara</value>
+  </data>
+  <data name="UiS_1196" xml:space="preserve">
+    <value>Fel vid öppning av port</value>
+  </data>
+  <data name="UiS_1197" xml:space="preserve">
+    <value>NTRIP kan inte användas än</value>
+  </data>
+  <data name="UiS_1198" xml:space="preserve">
+    <value>Välj en profil och tryck på Använd först.</value>
+  </data>
+  <data name="UiS_1199" xml:space="preserve">
+    <value>Den använda profilen har ännu ingen tjänsteadress eller radioport. Redigera den först.</value>
+  </data>
+  <data name="UiS_1200" xml:space="preserve">
+    <value>Kan inte läsa den</value>
+  </data>
+  <data name="UiS_1201" xml:space="preserve">
+    <value>Den här profilfilen kunde inte läsas.</value>
+  </data>
+  <data name="UiS_1202" xml:space="preserve">
+    <value>Kan inte byta namn</value>
+  </data>
+  <data name="UiS_1203" xml:space="preserve">
+    <value>Det namnet används redan.</value>
+  </data>
+  <data name="UiS_1204" xml:space="preserve">
+    <value>Varning vid inläsning av profil</value>
+  </data>
+  <data name="UiS_1205" xml:space="preserve">
+    <value>Profil återställd</value>
+  </data>
+  <data name="UiS_1206" xml:space="preserve">
+    <value>AgIO-profilen återställdes från .last-säkerhetskopian eftersom huvudfilen inte gick att läsa.</value>
+  </data>
+  <data name="UiS_1207" xml:space="preserve">
+    <value>Filen sparad</value>
+  </data>
+  <data name="UiS_1208" xml:space="preserve">
+    <value>Ogiltigt ID</value>
+  </data>
+  <data name="UiS_1209" xml:space="preserve">
+    <value>Ogiltigt namn</value>
+  </data>
+  <data name="UiS_1210" xml:space="preserve">
+    <value>Namn är inte ifyllt</value>
+  </data>
+  <data name="UiS_1211" xml:space="preserve">
+    <value>Ogiltig frekvens</value>
+  </data>
+  <data name="UiS_1212" xml:space="preserve">
+    <value>Frekvens är inte ifylld</value>
+  </data>
+  <data name="UiS_1213" xml:space="preserve">
+    <value>Ingen kanal</value>
+  </data>
+  <data name="UiS_1214" xml:space="preserve">
+    <value>Radion är påslagen, men ingen kanal är vald</value>
+  </data>
+  <data name="UiS_1215" xml:space="preserve">
+    <value>NTRIP är också aktiverat</value>
+  </data>
+  <data name="UiS_1216" xml:space="preserve">
+    <value>NTRIP är också aktiverat, stänger av det</value>
+  </data>
+  <data name="UiS_1217" xml:space="preserve">
+    <value>AgIO använder standardprofilen</value>
+  </data>
+  <data name="UiS_1218" xml:space="preserve">
+    <value>Standardprofilen används</value>
+  </data>
+  <data name="UiS_1219" xml:space="preserve">
+    <value>Radio-NTRIP på</value>
+  </data>
+  <data name="UiS_1220" xml:space="preserve">
+    <value>Seriell NTRIP på</value>
+  </data>
+  <data name="UiS_1221" xml:space="preserve">
+    <value>Seriell vidarekoppling på</value>
+  </data>
+  <data name="UiS_1222" xml:space="preserve">
+    <value>Slå på NTRIP</value>
+  </data>
+  <data name="UiS_1223" xml:space="preserve">
+    <value>Fel vid anslutning till seriell vidarekoppling</value>
+  </data>
+  <data name="UiS_1224" xml:space="preserve">
+    <value>Fel vid anslutning till radion</value>
+  </data>
+  <data name="UiS_1225" xml:space="preserve">
+    <value>IP inställd</value>
+  </data>
+  <data name="UiS_1226" xml:space="preserve">
+    <value>Ingen fil hittades</value>
+  </data>
+  <data name="UiS_1227" xml:space="preserve">
+    <value>Ange ett filnamn att spara som...</value>
+  </data>
+  <data name="UiS_1228" xml:space="preserve">
+    <value>Spara och gå tillbaka</value>
+  </data>
+  <data name="UiS_1229" xml:space="preserve">
+    <value>Kan inte ansluta till porten</value>
+  </data>
+  <data name="UiS_1230" xml:space="preserve">
+    <value>Anslutningen är redan avslutad?</value>
+  </data>
+  <data name="UiS_1231" xml:space="preserve">
+    <value>Anslutningen är redan avslutad??</value>
+  </data>
+  <data name="UiS_1232" xml:space="preserve">
+    <value>Ingen Arduino-port aktiv</value>
+  </data>
+  <data name="UiS_1233" xml:space="preserve">
+    <value>Allvarligt nätverksfel</value>
+  </data>
+  <data name="UiS_1234" xml:space="preserve">
+    <value>Allvarligt registerfel</value>
+  </data>
+  <data name="UiS_1235" xml:space="preserve">
+    <value>Kan inte radera registrets undernyckelträd</value>
+  </data>
+  <data name="UiS_1236" xml:space="preserve">
+    <value>AOG-TaskController är inte installerad??</value>
+  </data>
+  <data name="UiS_1237" xml:space="preserve">
+    <value>Radion är på. Stäng av den i radioinställningarna först.</value>
+  </data>
+  <data name="UiS_1238" xml:space="preserve">
+    <value>Seriell vidarekoppling är på. Stäng av den först.</value>
+  </data>
+  <data name="UiS_1239" xml:space="preserve">
+    <value>NTRIP är på. Stäng av det i NTRIP-profillistan först.</value>
+  </data>
+  <data name="UiS_1240" xml:space="preserve">
+    <value>Avstånd</value>
+  </data>
+  <data name="UiS_1241" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="UiS_1242" xml:space="preserve">
+    <value>Fel-&#xD;
+meddelande</value>
+  </data>
+  <data name="UiS_1243" xml:space="preserve">
+    <value>Meddelande 2</value>
+  </data>
+  <data name="UiS_1244" xml:space="preserve">
+    <value>Modul 3</value>
+  </data>
+  <data name="UiS_1245" xml:space="preserve">
+    <value>Seriell monitor – baud: Teensy – 115200   Arduino – 38400</value>
+  </data>
+  <data name="UiS_1246" xml:space="preserve">
+    <value>Skicka $GN---</value>
+  </data>
+  <data name="UiS_1247" xml:space="preserve">
+    <value>Skicka $GP---</value>
+  </data>
+  <data name="UiS_1248" xml:space="preserve">
+    <value>Roll: 0°</value>
+  </data>
+  <data name="UiS_1249" xml:space="preserve">
+    <value>Styr: 0.0°</value>
+  </data>
+  <data name="UiS_1250" xml:space="preserve">
+    <value>km/h:</value>
+  </data>
+  <data name="UiS_1251" xml:space="preserve">
+    <value>km/h: 0.0</value>
+  </data>
+  <data name="UiS_1252" xml:space="preserve">
+    <value>m/s:</value>
+  </data>
+  <data name="UiS_1253" xml:space="preserve">
+    <value>m/s: 0.0</value>
+  </data>
+  <data name="UiS_1254" xml:space="preserve">
+    <value>NTRIP-utdata</value>
+  </data>
+  <data name="UiS_1255" xml:space="preserve">
+    <value>En fast position</value>
+  </data>
+  <data name="UiS_1256" xml:space="preserve">
+    <value>En annan NTRIP-tjänst</value>
+  </data>
+  <data name="UiS_1257" xml:space="preserve">
+    <value>Automatiskt</value>
+  </data>
+  <data name="UiS_1258" xml:space="preserve">
+    <value>Båda</value>
+  </data>
+  <data name="UiS_1259" xml:space="preserve">
+    <value>Reserv</value>
+  </data>
+  <data name="UiS_1260" xml:space="preserve">
+    <value>Jag byter själv</value>
+  </data>
+  <data name="UiS_1261" xml:space="preserve">
+    <value>Huvudtjänst</value>
+  </data>
+  <data name="UiS_1262" xml:space="preserve">
+    <value>Mitt AIO-kort (nätverk)</value>
+  </data>
+  <data name="UiS_1263" xml:space="preserve">
+    <value>Min GPS-mottagare (seriell)</value>
+  </data>
+  <data name="UiS_1264" xml:space="preserve">
+    <value>Min GPS-position</value>
+  </data>
+  <data name="UiS_1265" xml:space="preserve">
+    <value>NTRIP-tjänst</value>
+  </data>
+  <data name="UiS_1266" xml:space="preserve">
+    <value>Utdata och position</value>
+  </data>
+  <data name="UiS_1267" xml:space="preserve">
+    <value>Seriell radio</value>
+  </data>
+  <data name="UiS_1268" xml:space="preserve">
+    <value>Byter automatiskt</value>
+  </data>
+  <data name="UiS_1269" xml:space="preserve">
+    <value>ANVÄNDS NU</value>
+  </data>
+  <data name="UiS_1270" xml:space="preserve">
+    <value>ANVÄNDS</value>
+  </data>
+  <data name="UiS_1271" xml:space="preserve">
+    <value>HUVUDTJÄNST</value>
+  </data>
+  <data name="UiS_1272" xml:space="preserve">
+    <value>RESERV</value>
+  </data>
+  <data name="UiS_1273" xml:space="preserve">
+    <value>Av. Ingen andra tjänst används.</value>
+  </data>
+  <data name="UiS_1274" xml:space="preserve">
+    <value>(ingen port än)</value>
+  </data>
+  <data name="UiS_1275" xml:space="preserve">
+    <value>Du byter manuellt</value>
+  </data>
+  <data name="UiS_1276" xml:space="preserve">
+    <value>Rå TCP (ingen mountpoint eller inloggning)</value>
+  </data>
+  <data name="UiS_1277" xml:space="preserve">
+    <value>Ingen mountpoint vald</value>
+  </data>
+  <data name="UiS_1278" xml:space="preserve">
+    <value>Inte ifyllt än</value>
+  </data>
+  <data name="UiS_1279" xml:space="preserve">
+    <value>Kräver din position</value>
+  </data>
+  <data name="UiS_1280" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="UiS_1281" xml:space="preserve">
+    <value>(inte sparad än)</value>
+  </data>
+  <data name="UiS_1282" xml:space="preserve">
+    <value>Välj radions port först.</value>
+  </data>
+  <data name="UiS_1283" xml:space="preserve">
+    <value>Välj radioport för att använda reserv</value>
+  </data>
+  <data name="UiS_1284" xml:space="preserve">
+    <value>Fyll i caster-uppgifterna för att använda reserv</value>
+  </data>
+  <data name="UiS_1285" xml:space="preserve">
+    <value>Inga profiler än.&#xD;
+&#xD;
+Tryck på Ny profil för att skapa en.</value>
+  </data>
+  <data name="UiS_1286" xml:space="preserve">
+    <value>Den här profilen är inte ifylld än.&#xD;
+Tryck på Redigera för att fylla i huvudtjänsten.</value>
+  </data>
+  <data name="UiS_1287" xml:space="preserve">
+    <value>Ingen NTRIP-profil är vald än. Välj eller skapa en i NTRIP-inställningarna.</value>
+  </data>
+  <data name="UiS_1288" xml:space="preserve">
+    <value>Välj huvudradions port i NTRIP-profilen.</value>
+  </data>
+  <data name="UiS_1289" xml:space="preserve">
+    <value>NTRIP är online igen</value>
+  </data>
+  <data name="UiS_1290" xml:space="preserve">
+    <value>Korrektionerna kommer in igen.</value>
+  </data>
+  <data name="UiS_1291" xml:space="preserve">
+    <value>NTRIP: inloggningen avvisades</value>
+  </data>
+  <data name="UiS_1292" xml:space="preserve">
+    <value>NTRIP: mountpoint hittades inte</value>
+  </data>
+  <data name="UiS_1293" xml:space="preserve">
+    <value>NTRIP: castern är upptagen</value>
+  </data>
+  <data name="UiS_1294" xml:space="preserve">
+    <value>NTRIP: inga korrektioner</value>
+  </data>
+  <data name="UiS_1295" xml:space="preserve">
+    <value>NTRIP: strömmen avbröts</value>
+  </data>
+  <data name="UiS_1296" xml:space="preserve">
+    <value>NTRIP: ej ansluten</value>
+  </data>
+  <data name="UiS_1297" xml:space="preserve">
+    <value>NTRIP av</value>
+  </data>
+  <data name="UiS_1298" xml:space="preserve">
+    <value>NTRIP: lyssnar</value>
+  </data>
+  <data name="UiS_1299" xml:space="preserve">
+    <value>Anslutningsproblem</value>
+  </data>
+  <data name="UiS_1300" xml:space="preserve">
+    <value>Kan inte ansluta till castern</value>
+  </data>
+  <data name="UiS_1301" xml:space="preserve">
+    <value>ingen IPv4-adress hittades</value>
+  </data>
+  <data name="UiS_1302" xml:space="preserve">
+    <value>NTRIP-anslutningen misslyckades</value>
+  </data>
+  <data name="UiS_1303" xml:space="preserve">
+    <value>NTRIP-anslutningen avvisades</value>
+  </data>
+  <data name="UiS_1304" xml:space="preserve">
+    <value>Castern stängde anslutningen utan att skicka data (kontrollera mountpoint och inloggningsuppgifter)</value>
+  </data>
+  <data name="UiS_1305" xml:space="preserve">
+    <value>NTRIP-klienten är inte inställd</value>
+  </data>
+  <data name="UiS_1306" xml:space="preserve">
+    <value>Välj en befintlig profil eller skapa en ny</value>
+  </data>
+  <data name="UiS_1307" xml:space="preserve">
+    <value>Skapa eller välj en profil</value>
+  </data>
+  <data name="UiS_1308" xml:space="preserve">
+    <value>Stäng av den innan du använder seriell vidarekoppling</value>
+  </data>
+  <data name="UiS_1309" xml:space="preserve">
+    <value>Stäng av den innan du använder NTRIP</value>
+  </data>
+  <data name="UiS_1310" xml:space="preserve">
+    <value>Stäng av den innan du använder radio-NTRIP</value>
+  </data>
+  <data name="UiS_1311" xml:space="preserve">
+    <value>Radio-NTRIP på</value>
+  </data>
+  <data name="UiS_1312" xml:space="preserve">
+    <value>De nya värdena har ändrats</value>
+  </data>
+  <data name="UiS_1313" xml:space="preserve">
+    <value>UDP på</value>
+  </data>
+  <data name="UiS_1314" xml:space="preserve">
+    <value>UDP är på</value>
+  </data>
+  <data name="UiS_1315" xml:space="preserve">
+    <value>AgIO startas om för att aktivera UDP-nätverk</value>
+  </data>
+  <data name="UiS_1316" xml:space="preserve">
+    <value>AgIO startas om för att stänga av UDP-nätverk</value>
+  </data>
+  <data name="UiS_1317" xml:space="preserve">
+    <value>ModSim startas om för att tillämpa nätverksändringarna</value>
+  </data>
+  <data name="UiS_1318" xml:space="preserve">
+    <value>Manuell IP</value>
+  </data>
+  <data name="UiS_1319" xml:space="preserve">
+    <value>NTRIP UDP</value>
+  </data>
+  <data name="UiS_1320" xml:space="preserve">
+    <value>Fel i uppdateringsprogrammet</value>
+  </data>
+  <data name="UiS_1321" xml:space="preserve">
+    <value>AgOpenGPS-uppdatering</value>
+  </data>
+  <data name="UiS_1322" xml:space="preserve">
+    <value>Vänta...</value>
+  </data>
+  <data name="UiS_1323" xml:space="preserve">
+    <value>Vänta</value>
+  </data>
+  <data name="UiS_1324" xml:space="preserve">
+    <value>Vänta tills pågående åtgärd är klar.</value>
+  </data>
+  <data name="UiS_1325" xml:space="preserve">
+    <value>Söker efter nya versioner på GitHub...</value>
+  </data>
+  <data name="UiS_1326" xml:space="preserve">
+    <value>Kontrollerar USB-minnet...</value>
+  </data>
+  <data name="UiS_1327" xml:space="preserve">
+    <value>Ingen uppdatering hittades på USB-minnet.</value>
+  </data>
+  <data name="UiS_1328" xml:space="preserve">
+    <value>Stänger AgOpenGPS och AgIO...</value>
+  </data>
+  <data name="UiS_1329" xml:space="preserve">
+    <value>Programmen stängdes</value>
+  </data>
+  <data name="UiS_1330" xml:space="preserve">
+    <value>Hämtar från GitHub...</value>
+  </data>
+  <data name="UiS_1331" xml:space="preserve">
+    <value>Nedladdningen misslyckades</value>
+  </data>
+  <data name="UiS_1332" xml:space="preserve">
+    <value>Nedladdningen misslyckades</value>
+  </data>
+  <data name="UiS_1333" xml:space="preserve">
+    <value>Kopierar från USB...</value>
+  </data>
+  <data name="UiS_1334" xml:space="preserve">
+    <value>Kopieringen misslyckades</value>
+  </data>
+  <data name="UiS_1335" xml:space="preserve">
+    <value>Kopieringen misslyckades</value>
+  </data>
+  <data name="UiS_1336" xml:space="preserve">
+    <value>Installationen misslyckades</value>
+  </data>
+  <data name="UiS_1337" xml:space="preserve">
+    <value>Installationen misslyckades</value>
+  </data>
+  <data name="UiS_1338" xml:space="preserve">
+    <value>Klart! Startar om...</value>
+  </data>
+  <data name="UiS_1339" xml:space="preserve">
+    <value>Klart!</value>
+  </data>
+  <data name="UiS_1340" xml:space="preserve">
+    <value>Uppdateringen avbröts.</value>
+  </data>
+  <data name="UiS_1341" xml:space="preserve">
+    <value>Inga versionsanteckningar finns.</value>
+  </data>
+  <data name="UiS_1342" xml:space="preserve">
+    <value>Förhandsversion</value>
+  </data>
+  <data name="UiS_1343" xml:space="preserve">
+    <value>Nedladdningen misslyckades: filstorleken stämmer inte med versionen.</value>
+  </data>
+  <data name="UiS_1344" xml:space="preserve">
+    <value>Nedladdningen misslyckades: kontrollsumman stämmer inte med versionen, filen installerades inte.</value>
+  </data>
+  <data name="UiS_1345" xml:space="preserve">
+    <value>Ingen lämplig nedladdningsfil hittades i den här versionen.</value>
+  </data>
+  <data name="UiS_1346" xml:space="preserve">
+    <value>Ett annat uppdateringsprogram körs redan.</value>
+  </data>
+  <data name="UiS_1347" xml:space="preserve">
+    <value>Inga program körde.</value>
+  </data>
+  <data name="UiS_1348" xml:space="preserve">
+    <value>Programmen stängdes.</value>
+  </data>
+  <data name="UiS_1349" xml:space="preserve">
+    <value>Uppdateringsfilen hittades inte.</value>
+  </data>
+  <data name="UiS_1350" xml:space="preserve">
+    <value>Installationsmappen finns inte.</value>
+  </data>
+  <data name="UiS_1351" xml:space="preserve">
+    <value>Skapar säkerhetskopia...</value>
+  </data>
+  <data name="UiS_1352" xml:space="preserve">
+    <value>Packar upp filer...</value>
+  </data>
+  <data name="UiS_1353" xml:space="preserve">
+    <value>Installerar filer...</value>
+  </data>
+  <data name="UiS_1354" xml:space="preserve">
+    <value>AgOpenGPS.exe hittades inte i installationsmappen.</value>
+  </data>
+  <data name="UiS_1355" xml:space="preserve">
+    <value>AgOpenGPS har startats om.</value>
+  </data>
+  <data name="UiS_1356" xml:space="preserve">
+    <value>Sök efter uppdateringar</value>
+  </data>
+  <data name="UiS_1357" xml:space="preserve">
+    <value>Installera uppdatering</value>
+  </data>
+  <data name="UiS_1358" xml:space="preserve">
+    <value>Inkludera förhandsversioner</value>
+  </data>
+  <data name="UiS_1359" xml:space="preserve">
+    <value>Firmware-uppdatering</value>
+  </data>
+  <data name="UiS_1360" xml:space="preserve">
+    <value>AgOpenGPS firmware-uppdatering</value>
+  </data>
+  <data name="UiS_1361" xml:space="preserve">
+    <value>AgOpenGPS-uppdatering</value>
+  </data>
+  <data name="UiS_1362" xml:space="preserve">
+    <value>Versionsanteckningar</value>
+  </data>
+  <data name="UiS_1363" xml:space="preserve">
+    <value>Visa versionsanteckningar</value>
+  </data>
+  <data name="UiS_1364" xml:space="preserve">
+    <value>Versionsanteckningar visas här.</value>
+  </data>
+  <data name="UiS_1365" xml:space="preserve">
+    <value>Aktuell version: -</value>
+  </data>
+  <data name="UiS_1366" xml:space="preserve">
+    <value>Senaste version: -</value>
+  </data>
+  <data name="UiS_1367" xml:space="preserve">
+    <value>Senaste version: uppdaterad</value>
+  </data>
+  <data name="UiS_1368" xml:space="preserve">
+    <value>Webbuppdatering – klicka på Sök efter uppdateringar</value>
+  </data>
+  <data name="UiS_1369" xml:space="preserve">
+    <value>Webbuppdatering (GitHub)</value>
+  </data>
+  <data name="UiS_1370" xml:space="preserve">
+    <value>Webbuppdatering (lokal uppdatering finns)</value>
+  </data>
+  <data name="UiS_1371" xml:space="preserve">
+    <value>Lokalt: ingen AgOpenGPS_*.zip hittades på USB</value>
+  </data>
+  <data name="UiS_1372" xml:space="preserve">
+    <value>Lokalt: lägg AgOpenGPS.zip i USB-minnets rotmapp</value>
+  </data>
+  <data name="UiS_1373" xml:space="preserve">
+    <value>AOG-TaskController är inte installerad, ladda ner från:</value>
+  </data>
+  <data name="UiS_1374" xml:space="preserve">
+    <value>Linux-användare</value>
+  </data>
+  <data name="UiS_1375" xml:space="preserve">
+    <value>Endast Linux!</value>
+  </data>
+  <data name="UiF_1376" xml:space="preserve">
+    <value>&#xD;
+&#xD;
+  Avslutar</value>
+  </data>
+  <data name="UiF_1377" xml:space="preserve">
+    <value> profilen kunde inte läsas in helt (filen kan vara skadad).&#xD;
+</value>
+  </data>
+  <data name="UiF_1378" xml:space="preserve">
+    <value> profilen återställdes från .last-säkerhetskopian eftersom huvudfilen inte gick att läsa.</value>
+  </data>
+  <data name="UiF_1379" xml:space="preserve">
+    <value>Välj huvudradions port först.</value>
+  </data>
+  <data name="UiF_1380" xml:space="preserve">
+    <value>Fyll i huvudtjänstens adress först.</value>
+  </data>
+  <data name="UiF_1381" xml:space="preserve">
+    <value>Eller stäng av NTRIP i profillistan.</value>
+  </data>
+  <data name="UiF_1382" xml:space="preserve">
+    <value>Åtgärda under Inställningar -&gt; COM-portar</value>
+  </data>
+  <data name="UiF_1383" xml:space="preserve">
+    <value>Sessionen använder standardvärden för saknade eller ogiltiga värden.</value>
+  </data>
+  <data name="UiF_1384" xml:space="preserve">
+    <value>AgIO-profilen kunde inte läsas in helt (filen kan vara skadad).</value>
+  </data>
+  <data name="UiF_1385" xml:space="preserve">
+    <value>NTRIP-profilen "</value>
+  </data>
+  <data name="UiF_1386" xml:space="preserve">
+    <value>" finns inte på den här datorn. Välj eller skapa en profil i NTRIP-inställningarna.</value>
+  </data>
+  <data name="UiF_1387" xml:space="preserve">
+    <value>" har ingen tjänsteadress än.</value>
+  </data>
+  <data name="UiF_1388" xml:space="preserve">
+    <value>Reservtjänsten fungerar inte heller:</value>
+  </data>
+  <data name="UiF_1389" xml:space="preserve">
+    <value>Inga korrektioner på</value>
+  </data>
+  <data name="UiF_1390" xml:space="preserve">
+    <value> AgIO fortsätter försöka.</value>
+  </data>
+  <data name="UiF_1391" xml:space="preserve">
+    <value> sekunder</value>
+  </data>
+  <data name="UiF_1392" xml:space="preserve">
+    <value> minuter</value>
+  </data>
+  <data name="UiF_1393" xml:space="preserve">
+    <value>RESERV ANVÄNDS: huvudtjänsten används inte just nu</value>
+  </data>
+  <data name="UiF_1394" xml:space="preserve">
+    <value>Basstationens ID:</value>
+  </data>
+  <data name="UiF_1395" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="UiF_1396" xml:space="preserve">
+    <value>Skadade data:</value>
+  </data>
+  <data name="UiF_1397" xml:space="preserve">
+    <value>Tjänsten svarade:</value>
+  </data>
+  <data name="UiF_1398" xml:space="preserve">
+    <value>Ansluter om</value>
+  </data>
+  <data name="UiF_1399" xml:space="preserve">
+    <value>Kan inte slå upp castern:</value>
+  </data>
+  <data name="UiF_1400" xml:space="preserve">
+    <value>]  Simulerade data</value>
+  </data>
+  <data name="UiF_1401" xml:space="preserve">
+    <value>]   INGA DATA</value>
+  </data>
+  <data name="UiF_1402" xml:space="preserve">
+    <value>Uppdateringsprogrammet måste startas från AgOpenGPS.</value>
+  </data>
+  <data name="UiF_1403" xml:space="preserve">
+    <value>Starta AgOpenGPS först och använd:</value>
+  </data>
+  <data name="UiF_1404" xml:space="preserve">
+    <value>Meny → Verktyg → Sök efter uppdateringar</value>
+  </data>
+  <data name="UiF_1405" xml:space="preserve">
+    <value>Det behövs för att hitta din nuvarande version.</value>
+  </data>
+  <data name="UiF_1406" xml:space="preserve">
+    <value>Installera uppdatering från</value>
+  </data>
+  <data name="UiF_1407" xml:space="preserve">
+    <value>Källa:</value>
+  </data>
+  <data name="UiF_1408" xml:space="preserve">
+    <value>Detta kommer att:</value>
+  </data>
+  <data name="UiF_1409" xml:space="preserve">
+    <value>• Stänga AgOpenGPS och AgIO</value>
+  </data>
+  <data name="UiF_1410" xml:space="preserve">
+    <value>• Skapa en säkerhetskopia av din nuvarande installation</value>
+  </data>
+  <data name="UiF_1411" xml:space="preserve">
+    <value>• Installera uppdateringen</value>
+  </data>
+  <data name="UiF_1412" xml:space="preserve">
+    <value>• Starta om AgOpenGPS</value>
+  </data>
+  <data name="UiF_1413" xml:space="preserve">
+    <value>Vill du fortsätta?</value>
+  </data>
+  <data name="UiF_1414" xml:space="preserve">
+    <value>Ingen uppdateringsfil hittades.</value>
+  </data>
+  <data name="UiF_1415" xml:space="preserve">
+    <value>Lägg AgOpenGPS_X.Y.Z.zip i USB-minnets rotmapp.</value>
+  </data>
+  <data name="UiT_1416" xml:space="preserve">
+    <value>Uppdateringen misslyckades: {0}
+Säkerhetskopian återställdes.</value>
+  </data>
+  <data name="UiT_1417" xml:space="preserve">
+    <value>Uppdateringen misslyckades: {0}
+Återställningen av säkerhetskopian misslyckades också!</value>
+  </data>
+  <data name="UiT_1418" xml:space="preserve">
+    <value>Uppdateringen misslyckades: {0}</value>
+  </data>
+  <data name="UiT_1419" xml:space="preserve">
+    <value>{0}
+Säkerhetskopian återställdes.</value>
+  </data>
+  <data name="UiT_1420" xml:space="preserve">
+    <value>{0}
+Återställningen av säkerhetskopian misslyckades också!</value>
+  </data>
+  <data name="UiT_1421" xml:space="preserve">
+    <value>Uppdateringen installerades.
+{0}
+Säkerhetskopia: {1}</value>
+  </data>
+  <data name="UiT_1422" xml:space="preserve">
+    <value>Uppdatering tillgänglig: {0} ({1})</value>
+  </data>
+  <data name="UiT_1423" xml:space="preserve">
+    <value>Byter automatiskt efter {0} misslyckade försök</value>
+  </data>
+  <data name="UiT_1424" xml:space="preserve">
+    <value>{0} mountpoints, närmaste först.</value>
+  </data>
+  <data name="UiT_1425" xml:space="preserve">
+    <value>{0} mountpoints.</value>
+  </data>
+  <data name="UiT_1426" xml:space="preserve">
+    <value>Hittar inte {0}</value>
+  </data>
+  <data name="UiT_1427" xml:space="preserve">
+    <value>Kontrollen misslyckades: {0}</value>
+  </data>
+  <data name="UiP_1428" xml:space="preserve">
+    <value>{1} kB mottaget</value>
+  </data>
+  <data name="UiP_1429" xml:space="preserve">
+    <value>Senaste data för {1d} sekunder sedan.</value>
+  </data>
+  <data name="UiP_1430" xml:space="preserve">
+    <value>Senaste data för {1d} sekunder sedan. Långsam anslutning?</value>
+  </data>
+  <data name="UiP_1431" xml:space="preserve">
+    <value>Korrektionerna är {1d} sekunder gamla.</value>
+  </data>
+  <data name="UiP_1432" xml:space="preserve">
+    <value>Avstånd till basstationen: {1}</value>
+  </data>
+  <data name="UiP_1433" xml:space="preserve">
+    <value>Din GPS: fixtyp {1}</value>
+  </data>
+  <data name="UiP_1434" xml:space="preserve">
+    <value>{1t} aktiv (gammal klient)</value>
+  </data>
+  <data name="UiP_1435" xml:space="preserve">
+    <value>{1t} aktiv</value>
+  </data>
+  <data name="UiP_1436" xml:space="preserve">
+    <value>{1t} (gammal klient)</value>
+  </data>
+  <data name="UiP_1437" xml:space="preserve">
+    <value>Öppnar {1}...</value>
+  </data>
+  <data name="UiP_1438" xml:space="preserve">
+    <value>{1}: väntar på data</value>
+  </data>
+  <data name="UiP_1439" xml:space="preserve">
+    <value>{1} Profil: {2}</value>
+  </data>
+  <data name="UiP_1440" xml:space="preserve">
+    <value>Till {1}</value>
+  </data>
+  <data name="UiP_1441" xml:space="preserve">
+    <value>Skriv över: {1}</value>
+  </data>
+  <data name="UiP_1442" xml:space="preserve">
+    <value>ID '{1}' är inte ett giltigt tal</value>
+  </data>
+  <data name="UiP_1443" xml:space="preserve">
+    <value>Ett fel uppstod: {1}</value>
+  </data>
+  <data name="UiP_1444" xml:space="preserve">
+    <value>UDP-fel: {1}</value>
+  </data>
+  <data name="UiP_1445" xml:space="preserve">
+    <value>Inläsningsfel: {1}</value>
+  </data>
+  <data name="gsAgShareActivate" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="gsAgShareActivated" xml:space="preserve">
+    <value>Aktiverad</value>
+  </data>
+  <data name="gsAgShareApiKey" xml:space="preserve">
+    <value>API-nyckel</value>
+  </data>
+  <data name="gsAgShareAutoLoad" xml:space="preserve">
+    <value>Molnladdning</value>
+  </data>
+  <data name="gsAgShareAutoUpload" xml:space="preserve">
+    <value>Autouppladdning</value>
+  </data>
+  <data name="gsAgShareButtonsHint" xml:space="preserve">
+    <value>Autouppladdning: ladda upp fältändringar vid stängning
+Molnladdning: hämta alltid senaste från AgShare vid öppning</value>
+  </data>
+  <data name="gsAgShareConnecting" xml:space="preserve">
+    <value>Ansluter...</value>
+  </data>
+  <data name="gsAgShareConnectionOk" xml:space="preserve">
+    <value>Anslutningen lyckades</value>
+  </data>
+  <data name="gsAgShareDeactivated" xml:space="preserve">
+    <value>Inaktiverad</value>
+  </data>
+  <data name="gsAgShareEnterDetails" xml:space="preserve">
+    <value>Ange server och API-nyckel, testa sedan anslutningen</value>
+  </data>
+  <data name="gsAgShareInvalidApiKey" xml:space="preserve">
+    <value>Ogiltig API-nyckel</value>
+  </data>
+  <data name="gsAgShareLocalOnly" xml:space="preserve">
+    <value>Endast lokalt</value>
+  </data>
+  <data name="gsAgSharePaste" xml:space="preserve">
+    <value>Klistra in från urklipp</value>
+  </data>
+  <data name="gsAgShareRegisterHere" xml:space="preserve">
+    <value>Registrera dig här för att använda AgShare</value>
+  </data>
+  <data name="gsAgShareSaved" xml:space="preserve">
+    <value>Inställningar sparade</value>
+  </data>
+  <data name="gsAgShareServer" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="gsAgShareSettings" xml:space="preserve">
+    <value>AgShare-inställningar</value>
+  </data>
+  <data name="gsAgShareTestConnection" xml:space="preserve">
+    <value>Testa anslutning</value>
+  </data>
+  <data name="gsAgShareUploadOff" xml:space="preserve">
+    <value>Uppladdning av</value>
+  </data>
+  <data name="gsAgShareUploadOn" xml:space="preserve">
+    <value>Uppladdning på</value>
+  </data>
+  <data name="gsAgShareAutoLoadActive" xml:space="preserve">
+    <value>Fält laddas automatiskt från molnet</value>
+  </data>
+  <data name="gsAgShareFieldLoaded" xml:space="preserve">
+    <value>Fält laddat från AgShare</value>
+  </data>
+  <data name="gsAgShareLoadFailed" xml:space="preserve">
+    <value>Kunde inte ladda fältet från molnet, använder lokal version.</value>
+  </data>
+  <data name="gsEasyDriveInfo" xml:space="preserve">
+    <value>Snabbstart med GPS-styrning. Ange arbetsbredd och kopplingslängd och skapa sedan en AB-linje eller kurva. Inget sparas på disk.</value>
+  </data>
+  <data name="gsNext" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="gsPlantPop" xml:space="preserve">
+    <value>Plantantal</value>
+  </data>
+  <data name="gsSaveEnvironmentSettings" xml:space="preserve">
+    <value>Miljöinställningar</value>
+  </data>
+  <data name="gsSaveEnvironmentSettingsSaved" xml:space="preserve">
+    <value>Miljöinställningar sparade.</value>
+  </data>
+  <data name="gsSmartWAS" xml:space="preserve">
+    <value>Smart WAS</value>
+  </data>
+  <data name="gsSmartWASHelp" xml:space="preserve">
+    <value>Kalibrerar automatiskt WAS-nollpunkten genom att analysera styrvinklar under körning. Aktivera autostyrning och kör jämnt längs linjen.</value>
+  </data>
+  <data name="gsAntennaPivot" xml:space="preserve">
+    <value>Antennpivot</value>
+  </data>
+  <data name="gsTrailingHitch" xml:space="preserve">
+    <value>Dragen koppling</value>
+  </data>
+  <data name="gsTBT" xml:space="preserve">
+    <value>TBT</value>
+  </data>
+  <data name="gsEnterVehicleName" xml:space="preserve">
+    <value>Ange fordonsnamn</value>
+  </data>
+  <data name="gsEnterToolName" xml:space="preserve">
+    <value>Ange redskapsnamn</value>
+  </data>
+  <data name="gsCreateDefaultVehicle" xml:space="preserve">
+    <value>Skapa standardfordon</value>
+  </data>
+  <data name="gsCreateDefaultVehicleConfirm" xml:space="preserve">
+    <value>Skapa en 'Default'-fordonsprofil med fabriksinställningar?</value>
+  </data>
+  <data name="gsProfileExistsOverwrite" xml:space="preserve">
+    <value>Profilen finns redan. Skriv över</value>
+  </data>
+  <data name="gsCreateDefaultTool" xml:space="preserve">
+    <value>Skapa standardredskap</value>
+  </data>
+  <data name="gsCreateDefaultToolConfirm" xml:space="preserve">
+    <value>Skapa en 'Default'-redskapsprofil med fabriksinställningar?</value>
+  </data>
+  <data name="gsDefaultVehicleLoaded" xml:space="preserve">
+    <value>Standardfordon laddat</value>
+  </data>
+  <data name="gsDefaultToolLoaded" xml:space="preserve">
+    <value>Standardredskap laddat</value>
+  </data>
+  <data name="gsConvertOldProfiles" xml:space="preserve">
+    <value>Konvertera gamla profiler</value>
+  </data>
+  <data name="gsVehicleTool" xml:space="preserve">
+    <value>Fordon / redskap</value>
+  </data>
+  <data name="gsConvertOldProfilesTitle" xml:space="preserve">
+    <value>Konvertera gamla profilfiler till nytt format</value>
+  </data>
+  <data name="gsConvertProfilesExplanation" xml:space="preserve">
+    <value>Gamla profiler innehöll alla inställningar i en fil. Det nya formatet skiljer på fordon, redskap och miljö. Välj vad du vill extrahera.</value>
+  </data>
+  <data name="gsConvertStep1" xml:space="preserve">
+    <value>Steg 1</value>
+  </data>
+  <data name="gsVehicleProfileName" xml:space="preserve">
+    <value>Fordonsprofilnamn</value>
+  </data>
+  <data name="gsToolProfileName" xml:space="preserve">
+    <value>Redskapsprofilnamn</value>
+  </data>
+  <data name="gsImportVehicle" xml:space="preserve">
+    <value>Importera fordon</value>
+  </data>
+  <data name="gsImportTool" xml:space="preserve">
+    <value>Importera redskap</value>
+  </data>
+  <data name="gsNoImport" xml:space="preserve">
+    <value>Ingen import</value>
+  </data>
+  <data name="gsNoOldFormatFiles" xml:space="preserve">
+    <value>Inga filer i gammalt format hittades.</value>
+  </data>
+  <data name="gsOldFiles" xml:space="preserve">
+    <value>gamla filer</value>
+  </data>
+  <data name="gsOldFilesStatus" xml:space="preserve">
+    <value>gamla fil(er): konverterade, att konvertera</value>
+  </data>
+  <data name="gsConverted" xml:space="preserve">
+    <value>konverterade</value>
+  </data>
+  <data name="gsToConvert" xml:space="preserve">
+    <value>att konvertera</value>
+  </data>
+  <data name="gsConvertTitle" xml:space="preserve">
+    <value>Konvertera</value>
+  </data>
+  <data name="gsConvertConfirm" xml:space="preserve">
+    <value>Bekräfta konvertering</value>
+  </data>
+  <data name="gsConvertConfirmMsg" xml:space="preserve">
+    <value>Konvertera '{0}': {1} {2}</value>
+  </data>
+  <data name="gsConvertFrom" xml:space="preserve">
+    <value>Konvertera</value>
+  </data>
+  <data name="gsConvertVehicleLine" xml:space="preserve">
+    <value>Fordon</value>
+  </data>
+  <data name="gsConvertToolLine" xml:space="preserve">
+    <value>Redskap</value>
+  </data>
+  <data name="gsConversionComplete" xml:space="preserve">
+    <value>Konvertering klar</value>
+  </data>
+  <data name="gsConvertedSuccess" xml:space="preserve">
+    <value>Konverteringen lyckades</value>
+  </data>
+  <data name="gsEnvironmentMigratedLoaded" xml:space="preserve">
+    <value>Miljöinställningar har importerats och laddats.</value>
+  </data>
+  <data name="gsConversionErrors" xml:space="preserve">
+    <value>Konverteringsfel</value>
+  </data>
+  <data name="gsConversionErrorMsg" xml:space="preserve">
+    <value>Fel uppstod</value>
+  </data>
+  <data name="gsLoadVehicleTool" xml:space="preserve">
+    <value>Ladda fordon/redskap</value>
+  </data>
+  <data name="gsExists" xml:space="preserve">
+    <value>Finns</value>
+  </data>
+  <data name="gsFileName" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="gsRename" xml:space="preserve">
+    <value>Byt namn</value>
+  </data>
+  <data name="gsVehicleAlreadyExists" xml:space="preserve">
+    <value>Fordonet finns redan</value>
+  </data>
+  <data name="gsToolAlreadyExists" xml:space="preserve">
+    <value>Redskapet finns redan</value>
+  </data>
+  <data name="UiS_1446" xml:space="preserve">
+    <value>CANbus-adapter</value>
+  </data>
+  <data name="UiS_1447" xml:space="preserve">
+    <value>Modulernas nätverksadress -&gt; </value>
+  </data>
+  <data name="UiS_1448" xml:space="preserve">
+    <value>Omstart krävs</value>
+  </data>
+  <data name="UiS_1449" xml:space="preserve">
+    <value>Uppladdning klar</value>
+  </data>
+  <data name="UiS_1450" xml:space="preserve">
+    <value>Fel vid inläsning av spår</value>
+  </data>
+  <data name="UiS_1451" xml:space="preserve">
+    <value>Skapa gräns från spår</value>
+  </data>
+  <data name="UiS_1452" xml:space="preserve">
+    <value>Importera spår från annat fält</value>
+  </data>
+  <data name="UiS_1453" xml:space="preserve">
+    <value>AgOpenGPS-meddelande</value>
+  </data>
+  <data name="UiS_1454" xml:space="preserve">
+    <value>Förskjut GPS-position (cm)</value>
+  </data>
+  <data name="UiS_1455" xml:space="preserve">
+    <value>DGPS: </value>
+  </data>
+  <data name="UiS_1456" xml:space="preserve">
+    <value>Easy Drive: </value>
+  </data>
+  <data name="UiS_1457" xml:space="preserve">
+    <value>RTK fix: </value>
+  </data>
+  <data name="UiS_1458" xml:space="preserve">
+    <value>Rita AB - Klicka på 2 punkter på gränsen för att börja</value>
+  </data>
+  <data name="UiS_1459" xml:space="preserve">
+    <value>Inget namn</value>
+  </data>
+  <data name="UiS_1460" xml:space="preserve">
+    <value>2 punkter - Justera rutnät</value>
+  </data>
+  <data name="UiS_1461" xml:space="preserve">
+    <value>Skapa ny post</value>
+  </data>
+  <data name="UiS_1462" xml:space="preserve">
+    <value>Läs in miljö</value>
+  </data>
+  <data name="UiS_1463" xml:space="preserve">
+    <value>ISOXML-fel</value>
+  </data>
+  <data name="UiS_1464" xml:space="preserve">
+    <value>Antenn</value>
+  </data>
+  <data name="UiS_1465" xml:space="preserve">
+    <value>Differentiell</value>
+  </data>
+  <data name="UiS_1466" xml:space="preserve">
+    <value>Enkel</value>
+  </data>
+  <data name="UiS_1467" xml:space="preserve">
+    <value>CPD inställd på: </value>
+  </data>
+  <data name="UiS_1468" xml:space="preserve">
+    <value>Fel vid mottagning av data: </value>
+  </data>
+  <data name="UiS_1469" xml:space="preserve">
+    <value>Sändningsfel: </value>
+  </data>
+  <data name="UiS_1470" xml:space="preserve">
+    <value>Fel vid sändning av data: </value>
+  </data>
+  <data name="UiS_1471" xml:space="preserve">
+    <value>UDP-server</value>
+  </data>
+  <data name="UiS_1472" xml:space="preserve">
+    <value>🔐 Officiell</value>
   </data>
 </root>

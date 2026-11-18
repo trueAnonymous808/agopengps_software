@@ -1,0 +1,12 @@
+<Project>
+  <!--
+    The texts of UiTranslator live in the gStr resx files of AgOpenGPS.Core. Every program that uses UiTranslator
+    (AgLibrary itself, and the helper programs that compile UiTranslator.cs into their own exe) embeds those files
+    as <RootNamespace>.Localization.gStr, so the translations travel with the program and work in any folder.
+  -->
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\..\AgOpenGPS.Core\Translations\gStr*.resx">
+      <Link>Localization\%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
