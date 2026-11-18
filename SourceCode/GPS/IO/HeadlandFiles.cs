@@ -62,7 +62,7 @@ namespace AgOpenGPS.IO
         {
             var filename = Path.Combine(fieldDirectory, "Headland.txt");
 
-            using (var writer = new StreamWriter(filename, false))
+            using (var writer = AtomicStreamWriter.Create(filename))
             {
                 writer.WriteLine("$Headland");
 

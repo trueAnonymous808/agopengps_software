@@ -231,6 +231,7 @@ namespace AgIO
             SetModulesOnOff();
 
             oneSecondLoopTimer.Enabled = true;
+            if (AgLibrary.Localization.UiTranslator.IsHungarian()) pictureBox1.Image = Properties.Resources.AgIO_First_hu;
             pictureBox1.Visible = true;
             pictureBox1.BringToFront();
             pictureBox1.Width = ClientSize.Width;

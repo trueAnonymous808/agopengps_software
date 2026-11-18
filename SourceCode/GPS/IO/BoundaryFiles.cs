@@ -103,7 +103,7 @@ namespace AgOpenGPS.IO
         {
             var filename = Path.Combine(fieldDirectory, "Boundary.txt");
 
-            using (var writer = new StreamWriter(filename, false))
+            using (var writer = AtomicStreamWriter.Create(filename))
             {
                 writer.WriteLine("$Boundary");
                 if (boundaries == null || boundaries.Count == 0) return;

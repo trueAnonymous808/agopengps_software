@@ -294,6 +294,11 @@ namespace AgIO
             {
                 // window closed
             }
+            catch (Exception ex)
+            {
+                // async void: anything escaping here would take the whole AgIO process down
+                Log("Check failed: " + ex.Message);
+            }
             finally
             {
                 if (!IsDisposed) btnCheck.Enabled = true;

@@ -48,7 +48,7 @@ namespace AgDiag.Protocol
             }
             catch (Exception ex)
             {
-                MessageBox.Show("UDP Error: " + ex.Message, "UDP Server", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                AgLibrary.Localization.UiTranslator.Show("UDP Error: " + ex.Message, "UDP Server", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

@@ -209,14 +209,14 @@
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
+            this.label8.AutoSize = false;
             this.label8.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(697, 455);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(103, 23);
+            this.label8.Size = new System.Drawing.Size(100, 23);
             this.label8.TabIndex = 157;
             this.label8.Text = "Set Subnet";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -476,7 +476,7 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label16.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(4, 133);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(89, 43);
@@ -655,11 +655,11 @@
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
+            this.label12.AutoSize = false;
             this.label12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(739, 61);
+            this.label12.Location = new System.Drawing.Point(744, 61);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(112, 18);
+            this.label12.Size = new System.Drawing.Size(100, 18);
             this.label12.TabIndex = 526;
             this.label12.Text = "Network Prop";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

@@ -59,7 +59,7 @@ namespace AgOpenGPS.IO
         public static void Save(string fieldDirectory, DateTime timestamp, Wgs84 startFix)
         {
             var path = Path.Combine(fieldDirectory, "Field.txt");
-            using (var writer = new StreamWriter(path, false))
+            using (var writer = AtomicStreamWriter.Create(path))
             {
                 writer.WriteLine(timestamp.ToString("yyyy-MMMM-dd hh:mm:ss tt", CultureInfo.InvariantCulture));
                 writer.WriteLine("$FieldDir");

@@ -618,6 +618,7 @@ namespace AgIO
                     // Setup and open serial port
                     spRadio = new SerialPort(Properties.Settings.Default.setPort_portNameRadio);
                     spRadio.BaudRate = int.Parse(Properties.Settings.Default.setPort_baudRateRadio);
+                    spRadio.DataReceived -= NtripPort_DataReceived;
                     spRadio.DataReceived += NtripPort_DataReceived;
                     isNTRIP_Connecting = false;
                     isNTRIP_Connected = true;
@@ -654,6 +655,7 @@ namespace AgIO
                     // Setup and open serial port
                     spRadio = new SerialPort(Properties.Settings.Default.setPort_portNameRadio);
                     spRadio.BaudRate = int.Parse(Properties.Settings.Default.setPort_baudRateRadio);
+                    spRadio.DataReceived -= NtripPort_DataReceived;
                     spRadio.DataReceived += NtripPort_DataReceived;
                     isNTRIP_Connecting = false;
                     isNTRIP_Connected = true;

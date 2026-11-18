@@ -157,7 +157,7 @@ namespace AgIO
             if (active)
             {
                 using (var small = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold))
-                    TextRenderer.DrawText(e.Graphics, "IN USE", small, new System.Drawing.Rectangle(e.Bounds.Right - 92, e.Bounds.Top, 84, e.Bounds.Height - 1),
+                    TextRenderer.DrawText(e.Graphics, AgLibrary.Localization.UiTranslator.Tr("IN USE"), small, new System.Drawing.Rectangle(e.Bounds.Right - 92, e.Bounds.Top, 84, e.Bounds.Height - 1),
                         selected ? System.Drawing.Color.White : System.Drawing.Color.FromArgb(21, 110, 75),
                         TextFormatFlags.VerticalCenter | TextFormatFlags.Right | TextFormatFlags.NoPadding);
             }

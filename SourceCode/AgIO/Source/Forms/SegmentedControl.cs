@@ -101,7 +101,7 @@ namespace AgIO
             for (int i = 0; i < items.Length; i++)
             {
                 var cell = new Rectangle((int)(bounds.X + part * i), bounds.Y, (int)part, bounds.Height);
-                TextRenderer.DrawText(g, items[i], Font, cell, i == selectedIndex ? Color.White : Color.Black,
+                TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(items[i]), Font, cell, i == selectedIndex ? Color.White : Color.Black,
                     TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.WordBreak | TextFormatFlags.NoPadding);
             }
         }

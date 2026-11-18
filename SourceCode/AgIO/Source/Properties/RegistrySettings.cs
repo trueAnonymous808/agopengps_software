@@ -115,7 +115,7 @@ namespace AgIO
 
                 Log.FileSaveSystemEvents();
 
-                MessageBox.Show("Can't delete the Registery SubKeyTree",
+                AgLibrary.Localization.UiTranslator.Show("Can't delete the Registery SubKeyTree",
                 "Critical Registry Error",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error);

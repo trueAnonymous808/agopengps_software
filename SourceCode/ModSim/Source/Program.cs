@@ -20,6 +20,7 @@ namespace ModSim
 
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
+                AgLibrary.Localization.UiTranslator.Install();
                 Application.Run(new FormSim());
             }
         }

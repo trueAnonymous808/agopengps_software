@@ -46,4 +46,46 @@ namespace AgOpenGPS.IO
             return list;
         }
     }
+
+    /// <summary>
+    /// A StreamWriter for files that are rewritten completely (boundary, tracks, flags...). It writes to a
+    /// temporary file next to the target and swaps it in when disposed, so a power cut or crash in the middle of
+    /// a save leaves the previous file intact instead of a truncated one.
+    /// </summary>
+    public sealed class AtomicStreamWriter : StreamWriter
+    {
+        private readonly string target;
+        private readonly string temp;
+        private bool swapped;
+
+        private AtomicStreamWriter(string target, string temp) : base(temp, false)
+        {
+            this.target = target;
+            this.temp = temp;
+        }
+
+        public static AtomicStreamWriter Create(string target)
+        {
+            return new AtomicStreamWriter(target, target + ".tmp");
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            base.Dispose(disposing);
+            if (!disposing || swapped) return;
+            swapped = true;
+
+            try
+            {
+                if (File.Exists(target)) File.Replace(temp, target, null);
+                else File.Move(temp, target);
+            }
+            catch (IOException)
+            {
+                // e.g. a virus scanner holding the file: fall back to a plain overwrite
+                File.Copy(temp, target, true);
+                File.Delete(temp);
+            }
+        }
+    }
 }

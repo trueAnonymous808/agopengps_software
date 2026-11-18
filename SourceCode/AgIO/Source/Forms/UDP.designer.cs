@@ -138,7 +138,7 @@ namespace AgIO
             catch (Exception e)
             {
                 Log.EventWriter("Catch -> Load UDP Server" + e);
-                MessageBox.Show(e.Message, "Serious Network Connection Error",
+                AgLibrary.Localization.UiTranslator.Show(e.Message, "Serious Network Connection Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 btnUDP.BackColor = Color.Red;
                 lblIP.Text = "Error";
@@ -161,7 +161,7 @@ namespace AgIO
             catch (Exception ex)
             {
                 Log.EventWriter("Catch - > Load UDP Loopback Failed: " + ex.ToString());
-                MessageBox.Show("Load Error: " + ex.Message, "Loopback Server", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                AgLibrary.Localization.UiTranslator.Show("Load Error: " + ex.Message, "Loopback Server", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

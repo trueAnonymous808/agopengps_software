@@ -279,7 +279,7 @@ namespace GPS_Out
 
         private void btnConnect1_Click(object sender, EventArgs e)
         {
-            if (btnConnect1.Text == "Connect")
+            if (btnConnect1.Text == "Connect" || btnConnect1.Text == AgLibrary.Localization.UiTranslator.Tr("Connect"))
             {
                 SER.Open();
             }

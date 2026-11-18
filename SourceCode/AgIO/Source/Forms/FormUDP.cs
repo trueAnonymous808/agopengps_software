@@ -154,7 +154,7 @@ namespace AgIO
                                 {
                                     var properties = nic.GetIPStatistics();
                                     tboxNets.Text +=
-                                            info.Address + "  - " + nic.OperationalStatus + "\r\n";
+                                            info.Address + "  - " + AgLibrary.Localization.UiTranslator.Tr(nic.OperationalStatus.ToString()) + "\r\n";
 
                                     tboxNets.Text += info.IPv4Mask.ToString() + "  " + nic.Name.ToString() + "\r\n";
                                     tboxNets.Text +=

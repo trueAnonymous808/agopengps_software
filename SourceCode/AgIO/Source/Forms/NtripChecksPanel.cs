@@ -107,7 +107,7 @@ namespace AgIO
         /// <summary>The button for switching by hand between the main service and the fallback.</summary>
         public void SetSwitch(string text, bool visible, ButtonTone tone)
         {
-            switchButton.Text = text;
+            switchButton.Text = AgLibrary.Localization.UiTranslator.Tr(text);
             switchButton.Tone = tone;
             switchButton.Visible = visible;
         }
@@ -145,7 +145,7 @@ namespace AgIO
             int left = 4 + dot + 10;
             int width = Math.Max(40, Width - left - 6);
 
-            TextRenderer.DrawText(g, alert ? "FALLBACK IN USE" : "Are the corrections good?", headerFont, new Point(4, 2), alert ? NtripStatusCard.LightColor(NtripLight.Bad) : Color.Black);
+            TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(alert ? "FALLBACK IN USE" : "Are the corrections good?"), headerFont, new Point(4, 2), alert ? NtripStatusCard.LightColor(NtripLight.Bad) : Color.Black);
             int y = headerFont.Height + 14;
 
             foreach (CheckItem item in items)
@@ -155,14 +155,16 @@ namespace AgIO
                     g.FillEllipse(lamp, 4, y + 3, dot, dot);
                 }
 
-                int titleHeight = TextRenderer.MeasureText(g, item.Title, titleFont, new Size(width, 0), flags).Height;
-                TextRenderer.DrawText(g, item.Title, titleFont, new Rectangle(left, y, width, titleHeight), Color.Black, flags);
+                string titleShown = AgLibrary.Localization.UiTranslator.Tr(item.Title);
+                int titleHeight = TextRenderer.MeasureText(g, titleShown, titleFont, new Size(width, 0), flags).Height;
+                TextRenderer.DrawText(g, titleShown, titleFont, new Rectangle(left, y, width, titleHeight), Color.Black, flags);
                 y += titleHeight;
 
                 if (item.Detail.Length > 0)
                 {
-                    int detailHeight = TextRenderer.MeasureText(g, item.Detail, detailFont, new Size(width, 0), flags).Height;
-                    TextRenderer.DrawText(g, item.Detail, detailFont, new Rectangle(left, y + 1, width, detailHeight), Color.FromArgb(40, 40, 40), flags);
+                    string detailShown = AgLibrary.Localization.UiTranslator.Tr(item.Detail);
+                    int detailHeight = TextRenderer.MeasureText(g, detailShown, detailFont, new Size(width, 0), flags).Height;
+                    TextRenderer.DrawText(g, detailShown, detailFont, new Rectangle(left, y + 1, width, detailHeight), Color.FromArgb(40, 40, 40), flags);
                     y += detailHeight + 1;
                 }
 

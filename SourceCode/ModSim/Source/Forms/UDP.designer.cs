@@ -51,6 +51,8 @@ namespace ModSim
                 // Initialise the socket
                 UDPSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 UDPSocket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.Broadcast, true);
+                // stop a Windows ICMP 'port unreachable' (WSAECONNRESET) from ending the receive loop
+                try { UDPSocket.IOControl((IOControlCode)(-1744830452), new byte[] { 0 }, null); } catch (Exception) { }
                 UDPSocket.Bind(new IPEndPoint(IPAddress.Any, 8888));
                 UDPSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointUDP,
                     new AsyncCallback(ReceiveDataUDPAsync), null);
@@ -69,7 +71,7 @@ namespace ModSim
             catch (Exception e)
             {
                 //WriteErrorLog("UDP Server" + e);
-                MessageBox.Show(e.Message, "Serious Network Connection Error",
+                AgLibrary.Localization.UiTranslator.Show(e.Message, "Serious Network Connection Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 lblIP.Text = "Error";
             }

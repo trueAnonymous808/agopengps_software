@@ -16,6 +16,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\AgLibrary\Localization\UiTranslator.cs" Link="Localization\UiTranslator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="System.Configuration" />
   </ItemGroup>
 

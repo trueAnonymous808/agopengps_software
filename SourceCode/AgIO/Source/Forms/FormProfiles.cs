@@ -58,7 +58,7 @@ namespace AgIO
         private void cboxOverWrite_SelectedIndexChanged(object sender, EventArgs e)
         {
             string newProfile = SanitizeFileName(cboxOverWrite.SelectedItem.ToString()).Trim();
-            DialogResult result3 = MessageBox.Show(
+            DialogResult result3 = AgLibrary.Localization.UiTranslator.Show(
                 "Overwrite: " + newProfile + ".xml",
                 "Save And Return",
                 MessageBoxButtons.YesNo,
@@ -107,7 +107,7 @@ namespace AgIO
             }
             else
             {
-                _ = MessageBox.Show("Enter a File Name To Save...",
+                _ = AgLibrary.Localization.UiTranslator.Show("Enter a File Name To Save...",
                 "Save And Return", MessageBoxButtons.OK);
             }
         }
@@ -164,7 +164,7 @@ namespace AgIO
             }
             else
             {
-                _ = MessageBox.Show("Enter a File Name To Save...",
+                _ = AgLibrary.Localization.UiTranslator.Show("Enter a File Name To Save...",
                 "Save And Return", MessageBoxButtons.OK);
             }
         }

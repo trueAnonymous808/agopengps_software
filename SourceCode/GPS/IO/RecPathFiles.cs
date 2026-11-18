@@ -53,7 +53,7 @@ namespace AgOpenGPS.IO
         {
             var filename = Path.Combine(fieldDirectory, fileName ?? "RecPath.txt");
 
-            using (var writer = new StreamWriter(filename, false))
+            using (var writer = AtomicStreamWriter.Create(filename))
             {
                 writer.WriteLine("$RecPath");
                 var list = recList ?? new List<CRecPathPt>();

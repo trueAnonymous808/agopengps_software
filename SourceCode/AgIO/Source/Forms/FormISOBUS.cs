@@ -38,7 +38,7 @@ namespace AgIO
                 string path = GetInstallationPath();
                 if (string.IsNullOrEmpty(path))
                 {
-                    MessageBox.Show("AOG-TaskController is not installed??");
+                    AgLibrary.Localization.UiTranslator.Show("AOG-TaskController is not installed??");
                     return;
                 }
 
@@ -82,7 +82,7 @@ namespace AgIO
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                AgLibrary.Localization.UiTranslator.Show(ex.Message);
             }
         }
 
@@ -111,7 +111,7 @@ namespace AgIO
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                AgLibrary.Localization.UiTranslator.Show(ex.Message);
             }
         }
 
@@ -169,7 +169,7 @@ namespace AgIO
             catch (Exception ex)
             {
                 // Handle exceptions (e.g., no default browser set)
-                MessageBox.Show($"An error occurred: {ex.Message}");
+                AgLibrary.Localization.UiTranslator.Show($"An error occurred: {ex.Message}");
             }
         }
 

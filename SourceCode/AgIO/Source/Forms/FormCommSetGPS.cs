@@ -252,7 +252,7 @@ namespace AgIO
                 cboxPort.Enabled = true;
                 btnCloseSerial.Enabled = false;
                 btnOpenSerial.Enabled = true;
-                MessageBox.Show("Unable to connect to Port");
+                AgLibrary.Localization.UiTranslator.Show("Unable to connect to Port");
             }
         }
 
@@ -293,7 +293,7 @@ namespace AgIO
                 cboxRtcmPort.Enabled = true;
                 btnCloseRTCM.Enabled = false;
                 btnOpenRTCM.Enabled = true;
-                MessageBox.Show("Unable to connect to Port");
+                AgLibrary.Localization.UiTranslator.Show("Unable to connect to Port");
             }
         }
 
@@ -335,7 +335,7 @@ namespace AgIO
                 cboxPort2.Enabled = true;
                 btnCloseSerial2.Enabled = false;
                 btnOpenSerial2.Enabled = true;
-                MessageBox.Show("Unable to connect to Port");
+                AgLibrary.Localization.UiTranslator.Show("Unable to connect to Port");
             }
         }
 

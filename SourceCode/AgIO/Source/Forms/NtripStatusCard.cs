@@ -62,7 +62,7 @@ namespace AgIO
         public void SetStatus(string headlineText, NtripLight statusLight, string sublineText, string receivedText, string buttonText)
         {
             if (headlineText == headline && statusLight == light && sublineText == subline
-                && receivedText == received && buttonText == button.Text)
+                && receivedText == received && AgLibrary.Localization.UiTranslator.Tr(buttonText) == button.Text)
             {
                 return;
             }
@@ -71,7 +71,7 @@ namespace AgIO
             light = statusLight;
             subline = sublineText;
             received = receivedText;
-            button.Text = buttonText;
+            button.Text = AgLibrary.Localization.UiTranslator.Tr(buttonText);
             button.Tone = buttonText == "Start" ? ButtonTone.Positive : ButtonTone.Negative;
             Invalidate();
         }
@@ -117,22 +117,25 @@ namespace AgIO
 
             int textLeft = pad * 2 + dot;
             int textWidth = box.Width - textLeft - pad;
-            int headlineHeight = TextRenderer.MeasureText(g, headline, Font, new Size(textWidth, 0), flags).Height;
+            string headlineShown = AgLibrary.Localization.UiTranslator.Tr(headline);
+            string sublineShown = AgLibrary.Localization.UiTranslator.Tr(subline);
+            string receivedShown = AgLibrary.Localization.UiTranslator.Tr(received);
+            int headlineHeight = TextRenderer.MeasureText(g, headlineShown, Font, new Size(textWidth, 0), flags).Height;
             headlineHeight = Math.Min(headlineHeight, 3 * Font.Height);
 
-            TextRenderer.DrawText(g, headline, Font, new Rectangle(textLeft, pad, textWidth, headlineHeight), Color.Black, flags);
+            TextRenderer.DrawText(g, headlineShown, Font, new Rectangle(textLeft, pad, textWidth, headlineHeight), Color.Black, flags);
 
             int y = pad + Math.Max(headlineHeight, dot + 4) + 6;
             int remaining = Math.Max(0, box.Bottom - y - 4);
             if (subline.Length > 0)
             {
                 int h = Math.Min(remaining, 2 * smallFont.Height);
-                TextRenderer.DrawText(g, subline, smallFont, new Rectangle(pad, y, box.Width - 2 * pad, h), TextColor(), flags);
+                TextRenderer.DrawText(g, sublineShown, smallFont, new Rectangle(pad, y, box.Width - 2 * pad, h), TextColor(), flags);
                 y += h + 2;
             }
             if (received.Length > 0 && y + smallFont.Height <= box.Bottom)
             {
-                TextRenderer.DrawText(g, received, smallFont, new Rectangle(pad, y, box.Width - 2 * pad, smallFont.Height), TextColor(), flags);
+                TextRenderer.DrawText(g, receivedShown, smallFont, new Rectangle(pad, y, box.Width - 2 * pad, smallFont.Height), TextColor(), flags);
             }
         }
 

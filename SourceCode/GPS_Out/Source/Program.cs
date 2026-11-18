@@ -16,6 +16,7 @@ namespace GPS_Out
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            AgLibrary.Localization.UiTranslator.Install();
             Application.Run(new frmStart());
         }
     }

@@ -105,11 +105,13 @@ namespace AgOpenGPS
             }
         }
 
-        private void btnJobNew_Click(object sender, EventArgs e)
+        private async void btnJobNew_Click(object sender, EventArgs e)
         {
+            // Wait for the save like the other buttons here do. Without it the new field was started while the
+            // old one was still being written, and the save's final JobClose could close the new field.
             if (mf.isJobStarted)
             {
-                _ = mf.FileSaveEverythingBeforeClosingField();
+                await mf.FileSaveEverythingBeforeClosingField();
             }
             //back to FormGPS
             DialogResult = DialogResult.Yes;
@@ -261,11 +263,11 @@ namespace AgOpenGPS
             Close();
         }
 
-        private void btnJobClose_Click(object sender, EventArgs e)
+        private async void btnJobClose_Click(object sender, EventArgs e)
         {
             if (mf.isJobStarted)
             {
-                _ = mf.FileSaveEverythingBeforeClosingField();
+                await mf.FileSaveEverythingBeforeClosingField();
             }
             //back to FormGPS
             DialogResult = DialogResult.OK;

@@ -42,6 +42,8 @@ namespace AgOpenGPS.Updater
                 }
             }
 
+            AgLibrary.Localization.UiTranslator.Install();
+
             // Show the appropriate form
             if (showFirmwareUpdate)
             {

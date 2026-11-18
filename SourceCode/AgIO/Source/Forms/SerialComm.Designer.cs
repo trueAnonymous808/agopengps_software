@@ -105,6 +105,7 @@ namespace AgIO
             {
                 spIMU.PortName = portNameIMU;
                 spIMU.BaudRate = baudRateIMU;
+                spIMU.DataReceived -= sp_DataReceivedIMU;
                 spIMU.DataReceived += sp_DataReceivedIMU;
                 spIMU.DtrEnable = true;
                 spIMU.RtsEnable = true;
@@ -115,7 +116,7 @@ namespace AgIO
             {
                 Log.EventWriter("No Arduino Port, IMU Port Exc: " + ex.ToString());
 
-                MessageBox.Show(ex.Message + "\n\r" + "\n\r" + "Go to Settings -> COM Ports to Fix", "No Arduino Port Active");
+                AgLibrary.Localization.UiTranslator.Show(ex.Message + "\n\r" + "\n\r" + "Go to Settings -> COM Ports to Fix", "No Arduino Port Active");
 
 
                 Properties.Settings.Default.setPort_wasIMUConnected = false;
@@ -157,7 +158,7 @@ namespace AgIO
                 catch (Exception e)
                 {
                     Log.EventWriter("Closing Machine Serial Port" + e.ToString());
-                    MessageBox.Show(e.Message, "Connection already terminated??");
+                    AgLibrary.Localization.UiTranslator.Show(e.Message, "Connection already terminated??");
                 }
 
                 Properties.Settings.Default.setPort_wasIMUConnected = false;
@@ -325,6 +326,7 @@ namespace AgIO
             {
                 spSteerModule.PortName = portNameSteerModule;
                 spSteerModule.BaudRate = baudRateSteerModule;
+                spSteerModule.DataReceived -= sp_DataReceivedSteerModule;
                 spSteerModule.DataReceived += sp_DataReceivedSteerModule;
                 spSteerModule.DtrEnable = true;
                 spSteerModule.RtsEnable = true;
@@ -341,7 +343,7 @@ namespace AgIO
             {
                 Log.EventWriter("Opening Machine Port" + e.ToString());
 
-                MessageBox.Show(e.Message + "\n\r" + "\n\r" + "Go to Settings -> COM Ports to Fix", "No Arduino Port Active");
+                AgLibrary.Localization.UiTranslator.Show(e.Message + "\n\r" + "\n\r" + "Go to Settings -> COM Ports to Fix", "No Arduino Port Active");
 
 
                 Properties.Settings.Default.setPort_wasSteerModuleConnected = false;
@@ -372,7 +374,7 @@ namespace AgIO
                 catch (Exception e)
                 {
                     Log.EventWriter("Closing Machine Serial Port" + e.ToString());
-                    MessageBox.Show(e.Message, "Connection already terminated??");
+                    AgLibrary.Localization.UiTranslator.Show(e.Message, "Connection already terminated??");
                 }
 
                 Properties.Settings.Default.setPort_wasSteerModuleConnected = false;
@@ -537,6 +539,7 @@ namespace AgIO
             {
                 spMachineModule.PortName = portNameMachineModule;
                 spMachineModule.BaudRate = baudRateMachineModule;
+                spMachineModule.DataReceived -= sp_DataReceivedMachineModule;
                 spMachineModule.DataReceived += sp_DataReceivedMachineModule;
                 spMachineModule.DtrEnable = true;
                 spMachineModule.RtsEnable = true;
@@ -553,7 +556,7 @@ namespace AgIO
             {
                 Log.EventWriter("Opening Machine Port: " + e.ToString());
 
-                MessageBox.Show(e.Message + "\n\r" + "\n\r" + "Go to Settings -> COM Ports to Fix", "No Arduino Port Active");
+                AgLibrary.Localization.UiTranslator.Show(e.Message + "\n\r" + "\n\r" + "Go to Settings -> COM Ports to Fix", "No Arduino Port Active");
 
 
                 Properties.Settings.Default.setPort_wasMachineModuleConnected = false;
@@ -584,7 +587,7 @@ namespace AgIO
                 catch (Exception e)
                 {
                     Log.EventWriter("Closing Machine Serial Port: " + e.ToString());
-                    MessageBox.Show(e.Message, "Connection already terminated??");
+                    AgLibrary.Localization.UiTranslator.Show(e.Message, "Connection already terminated??");
                 }
 
                 Properties.Settings.Default.setPort_wasMachineModuleConnected = false;
@@ -770,6 +773,7 @@ namespace AgIO
             {
                 spGPS.PortName = portNameGPS;
                 spGPS.BaudRate = baudRateGPS;
+                spGPS.DataReceived -= sp_DataReceivedGPS;
                 spGPS.DataReceived += sp_DataReceivedGPS;
                 spGPS.WriteTimeout = 1000;
             }
@@ -800,7 +804,7 @@ namespace AgIO
             catch (Exception e)
             {
                 Log.EventWriter("Closing GPS Port" + e.ToString());
-                MessageBox.Show(e.Message, "Connection already terminated?");
+                AgLibrary.Localization.UiTranslator.Show(e.Message, "Connection already terminated?");
             }
 
             spGPS.Dispose();
@@ -865,6 +869,7 @@ namespace AgIO
             {
                 spGPS2.PortName = portNameGPS2;
                 spGPS2.BaudRate = baudRateGPS2;
+                spGPS2.DataReceived -= sp_DataReceivedGPS2;
                 spGPS2.DataReceived += sp_DataReceivedGPS2;
                 spGPS2.WriteTimeout = 1000;
             }
@@ -893,7 +898,7 @@ namespace AgIO
             catch (Exception e)
             {
                 Log.EventWriter("Closing GPS2 Port" + e.ToString());
-                MessageBox.Show(e.Message, "Connection already terminated?");
+                AgLibrary.Localization.UiTranslator.Show(e.Message, "Connection already terminated?");
             }
 
             spGPS2.Dispose();
@@ -957,7 +962,7 @@ namespace AgIO
             catch (Exception e)
             {
                 Log.EventWriter("Closing RTCM Port" + e.ToString());
-                MessageBox.Show(e.Message, "Connection already terminated?");
+                AgLibrary.Localization.UiTranslator.Show(e.Message, "Connection already terminated?");
             }
 
             wasRtcmConnectedLastRun = false;

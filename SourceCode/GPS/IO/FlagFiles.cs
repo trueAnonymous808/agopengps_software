@@ -92,7 +92,7 @@ namespace AgOpenGPS.IO
                     }
                 }
             }
-            using (var writer = new StreamWriter(filename, false))
+            using (var writer = AtomicStreamWriter.Create(filename))
             {
                 writer.WriteLine("$Flags");
                 writer.WriteLine(distinctFlags.Count.ToString(CultureInfo.InvariantCulture));

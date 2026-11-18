@@ -32,6 +32,10 @@ namespace GPS_Out
 
                 // initialize the receive socket
                 recvSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                // Windows reports an ICMP 'port unreachable' from an earlier send as a receive error (WSAECONNRESET),
+                // which ended this receive loop for good. Switch that behaviour off.
+                try { recvSocket.IOControl((IOControlCode)(-1744830452), new byte[] { 0 }, null); } catch (Exception) { }
+
                 recvSocket.Bind(new IPEndPoint(cSourceIP, cReceivePort));
 
                 // Initialise the IPEndPoint for the client - async listner client only!

@@ -86,7 +86,7 @@ namespace AgIO
                 catch (Exception e)
                 {
                     Log.EventWriter("Catch -> Closing Machine Serial Port" + e.ToString());
-                    MessageBox.Show(e.Message, "Connection already terminated??");
+                    AgLibrary.Localization.UiTranslator.Show(e.Message, "Connection already terminated??");
                 }
 
                 sp.Dispose();
@@ -152,7 +152,7 @@ namespace AgIO
                 cboxPort.Enabled = true;
                 btnCloseSerial.Enabled = false;
                 btnOpenSerial.Enabled = true;
-                MessageBox.Show("Unable to connect to Port");
+                AgLibrary.Localization.UiTranslator.Show("Unable to connect to Port");
             }
         }
 

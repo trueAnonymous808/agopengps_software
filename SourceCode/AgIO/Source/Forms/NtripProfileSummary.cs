@@ -56,7 +56,7 @@ namespace AgIO
 
             if (profile == null)
             {
-                TextRenderer.DrawText(g, message, labelFont, new Rectangle(16, 16, Width - 32, Height - 32), Muted,
+                TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(message), labelFont, new Rectangle(16, 16, Width - 32, Height - 32), Muted,
                     TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.WordBreak);
                 return;
             }
@@ -68,7 +68,7 @@ namespace AgIO
                 using (var path = Rounded(pill, 13))
                 using (var fill = new SolidBrush(MainColor))
                     g.FillPath(fill, path);
-                TextRenderer.DrawText(g, "IN USE NOW", pillFont, pill, Color.White,
+                TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr("IN USE NOW"), pillFont, pill, Color.White,
                     TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.NoPadding);
                 y += 36;
             }
@@ -108,7 +108,7 @@ namespace AgIO
             int width = Width - left - 14;
             int top = y;
 
-            TextRenderer.DrawText(g, title, titleFont, new Point(left, y), accent, TextFormatFlags.NoPadding);
+            TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(title), titleFont, new Point(left, y), accent, TextFormatFlags.NoPadding);
             y += titleFont.Height + 2;
 
             if (service != null)
@@ -121,23 +121,23 @@ namespace AgIO
                     if (service.RawTcp)
                     {
                         // No NTRIP request: there is no mountpoint or login to show
-                        TextRenderer.DrawText(g, "Raw TCP (no mountpoint or login)", noteFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
+                        TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr("Raw TCP (no mountpoint or login)"), noteFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
                     }
                     else if (service.Mount.Length > 0)
                     {
-                        TextRenderer.DrawText(g, "Mountpoint ", labelFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
-                        int labelWidth = TextRenderer.MeasureText(g, "Mountpoint ", labelFont, new Size(width, 0), TextFormatFlags.NoPadding).Width;
+                        TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr("Mountpoint "), labelFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
+                        int labelWidth = TextRenderer.MeasureText(g, AgLibrary.Localization.UiTranslator.Tr("Mountpoint "), labelFont, new Size(width, 0), TextFormatFlags.NoPadding).Width;
                         TextRenderer.DrawText(g, service.Mount, mountFont, new Point(left + labelWidth, y), Color.Black, TextFormatFlags.NoPadding);
                     }
                     else
                     {
-                        TextRenderer.DrawText(g, "No mountpoint chosen", noteFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
+                        TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr("No mountpoint chosen"), noteFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
                     }
                     y += mountFont.Height + 1;
                 }
                 else
                 {
-                    TextRenderer.DrawText(g, "Not filled in yet", noteFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
+                    TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr("Not filled in yet"), noteFont, new Point(left, y + 2), Muted, TextFormatFlags.NoPadding);
                     y += noteFont.Height + 4;
                 }
             }
@@ -146,7 +146,7 @@ namespace AgIO
             {
                 foreach (string part in note.Split('\n'))
                 {
-                    TextRenderer.DrawText(g, part, noteFont, new Rectangle(left, y, width, noteFont.Height + 4), Muted, TextFormatFlags.NoPadding | TextFormatFlags.EndEllipsis);
+                    TextRenderer.DrawText(g, AgLibrary.Localization.UiTranslator.Tr(part), noteFont, new Rectangle(left, y, width, noteFont.Height + 4), Muted, TextFormatFlags.NoPadding | TextFormatFlags.EndEllipsis);
                     y += noteFont.Height + 2;
                 }
             }

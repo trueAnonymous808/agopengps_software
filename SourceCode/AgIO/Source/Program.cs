@@ -35,6 +35,7 @@ namespace AgIO
                     Application.EnableVisualStyles();
                     Application.SetCompatibleTextRenderingDefault(false);
                     InstallExceptionHandlers();
+                    AgLibrary.Localization.UiTranslator.Install();
                     Application.Run(new FormLoop());
                 }
             }

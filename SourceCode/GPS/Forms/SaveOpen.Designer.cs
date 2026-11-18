@@ -42,7 +42,9 @@ namespace AgOpenGPS
         {
             if (isJobStarted)
             {
-                _ = FileSaveEverythingBeforeClosingField();
+                // Must finish before the next field is loaded: the save reads currentFieldDirectory and the field
+                // data, both of which the loading below replaces
+                await FileSaveEverythingBeforeClosingField();
             }
 
             // Resolve Field.txt path
