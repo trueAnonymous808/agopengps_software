@@ -281,13 +281,13 @@
             // 
             // labelAlpha
             // 
-            this.labelAlpha.AutoSize = true;
+            this.labelAlpha.AutoSize = false;
             this.labelAlpha.BackColor = System.Drawing.Color.WhiteSmoke;
             this.labelAlpha.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAlpha.ForeColor = System.Drawing.Color.Black;
-            this.labelAlpha.Location = new System.Drawing.Point(290, 3);
+            this.labelAlpha.Location = new System.Drawing.Point(226, 3);
             this.labelAlpha.Name = "labelAlpha";
-            this.labelAlpha.Size = new System.Drawing.Size(50, 19);
+            this.labelAlpha.Size = new System.Drawing.Size(124, 19);
             this.labelAlpha.TabIndex = 473;
             this.labelAlpha.Text = "Alpha";
             this.labelAlpha.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

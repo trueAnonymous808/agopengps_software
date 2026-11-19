@@ -333,7 +333,6 @@ namespace AgOpenGPS
         {
             //winform initialization
             InitializeComponent();
-            if (AgLibrary.Localization.UiTranslator.IsHungarian()) btnResetSim.Text = "Újra";
 
             InitializeLanguages();
 
@@ -749,8 +748,33 @@ namespace AgOpenGPS
             finally
             {
                 // Ensure application exits even if shutdown fails
+                ExitWatchdog();
                 Application.Exit();
             }
+        }
+
+        // Everything is saved by now. If the process is still alive a while after Application.Exit (a window that
+        // refuses to close, a thread that keeps running), it would linger without a window: it is ended, and what was
+        // still open is written to the event log so the cause can be found.
+        private static void ExitWatchdog()
+        {
+            var watchdog = new System.Threading.Thread(() =>
+            {
+                System.Threading.Thread.Sleep(15000);
+                try
+                {
+                    string open = string.Join(", ", Application.OpenForms.Cast<Form>().Select(f => f.Name + " (" + f.GetType().Name + ")"));
+                    Log.EventWriter("Shutdown: still running 15 s after exit, ending the process. Open windows: " + (open.Length == 0 ? "none" : open));
+                    Log.FileSaveSystemEvents();
+                }
+                catch (Exception)
+                {
+                    // the log is a help only: the process ends anyway
+                }
+                Environment.Exit(0);
+            })
+            { IsBackground = true, Name = "Exit watchdog" };
+            watchdog.Start();
         }
 
 
@@ -1138,6 +1162,9 @@ namespace AgOpenGPS
             //SendSteerSettingsOutAutoSteerPort();
 
             AppModel.Fields.OpenField();
+            UpdateNavigationMapVisibility();   // a field is open: the 3D work view instead of the navigation map
+            StopNavigation();
+            UpdateNavigationButton();
             startCounter = 0;
 
             btnFieldStats.Visible = true;
@@ -1287,6 +1314,8 @@ namespace AgOpenGPS
             menustripLanguage.Enabled = true;
 
             AppModel.Fields.CloseField();
+            UpdateNavigationMapVisibility();   // no field any more: the navigation map again (once there is a fix)
+            UpdateNavigationButton();
             AgShareApiMenuItem.Enabled = true;
 
 

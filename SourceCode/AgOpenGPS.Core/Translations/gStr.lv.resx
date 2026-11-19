@@ -399,7 +399,7 @@ Secība, kādā tos nospiedīsiet, būs secība, kādā tie parādīsies izvēln
     <value>Attālums</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Attālums līdz karogam</value>
+    <value>Attāl. līdz karogam</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
     <value>Saņemt visu</value>
@@ -729,7 +729,7 @@ Secība, kādā tos nospiedīsiet, būs secība, kādā tie parādīsies izvēln
     <value>Motora kontroliera tips</value>
   </data>
   <data name="gsMultiColorSections" xml:space="preserve">
-    <value>Dažādu krāsu sekcijas</value>
+    <value>Daudzkrāsu</value>
   </data>
   <data name="gsN_East" xml:space="preserve">
     <value>Z Austrumi</value>
@@ -990,7 +990,7 @@ Secība, kādā tos nospiedīsiet, būs secība, kādā tie parādīsies izvēln
     <value>Nosūtīts uz mašīnas moduli</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Iestatīt punktu</value>
+    <value>Uzdotais</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>GPS pozīcijas maiņa</value>
@@ -1158,7 +1158,7 @@ IZMANTOJIET UZ SAVU RISKU.</value>
     <value>Vienības</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Izmantojiet atlasīto</value>
+    <value>Lietot izvēlēto</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>Lietotājs {0}</value>
@@ -1308,7 +1308,7 @@ IZMANTOJIET UZ SAVU RISKU.</value>
     <value>Kopēt atbalstam</value>
   </data>
   <data name="UiS_0026" xml:space="preserve">
-    <value>Nosaukums</value>
+    <value>Vārds</value>
   </data>
   <data name="UiS_0027" xml:space="preserve">
     <value>Ziņojums</value>
@@ -1855,10 +1855,10 @@ Noņemiet to manuāli.</value>
     <value>Garums:</value>
   </data>
   <data name="UiS_0207" xml:space="preserve">
-    <value>Plat.</value>
+    <value>Plat</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
-    <value>Gar.</value>
+    <value>Gar</value>
   </data>
   <data name="UiS_0209" xml:space="preserve">
     <value>Augstums</value>
@@ -1882,7 +1882,7 @@ Noņemiet to manuāli.</value>
     <value>Ātrums:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Pavadoņi</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Pavadoņi:</value>
@@ -1909,7 +1909,7 @@ Noņemiet to manuāli.</value>
     <value>Duāls</value>
   </data>
   <data name="UiS_0225" xml:space="preserve">
-    <value>Sānsvere</value>
+    <value>Sānsv</value>
   </data>
   <data name="UiS_0226" xml:space="preserve">
     <value>Sānsvere koriģēta</value>
@@ -2065,7 +2065,7 @@ autostūres</value>
     <value>Ackermann</value>
   </data>
   <data name="UiS_0276" xml:space="preserve">
-    <value>Apgriešanās</value>
+    <value>U-pagr.</value>
   </data>
   <data name="UiS_0277" xml:space="preserve">
     <value>Tehn.</value>
@@ -2784,10 +2784,10 @@ NumPad0 - Auto sekcija</value>
     <value>Jautājums</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Austrumu koordināta</value>
+    <value>Austrumi</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Ziemeļu koordināta</value>
+    <value>Ziemeļi</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -2859,7 +2859,7 @@ NumPad0 - Auto sekcija</value>
     <value>Nobīde:</value>
   </data>
   <data name="UiS_0539" xml:space="preserve">
-    <value>Pārklājums:</value>
+    <value>Pārklāj.:</value>
   </data>
   <data name="UiS_0540" xml:space="preserve">
     <value>Skatīšanās uz priekšu:</value>
@@ -4087,7 +4087,7 @@ Iestatiet PWM maksimumu, lai ierobežotu pagrieziena ātrumu.</value>
     <value>Kopā:</value>
   </data>
   <data name="UiS_0934" xml:space="preserve">
-    <value>Apstrādāts:</value>
+    <value>Apstrād.:</value>
   </data>
   <data name="UiS_0935" xml:space="preserve">
     <value>Apstrādāts</value>
@@ -4652,7 +4652,7 @@ palaišana</value>
     <value>Profili</value>
   </data>
   <data name="UiS_1117" xml:space="preserve">
-    <value>Pašreizējais profils</value>
+    <value>Esošais profils</value>
   </data>
   <data name="UiS_1118" xml:space="preserve">
     <value>Pašreizējais profils</value>
@@ -4717,7 +4717,7 @@ gadījumā</value>
     <value>PGN ceļvedis</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Ceļvedis -&gt;</value>
+    <value>Ceļv. -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Tastatūra</value>
@@ -5748,7 +5748,7 @@ Ielāde no mākoņa: atverot vienmēr lejupielādēt jaunāko versiju no AgShare
     <value>Ielādēt profilu</value>
   </data>
   <data name="gsName" xml:space="preserve">
-    <value>Nosaukums</value>
+    <value>Vārds</value>
   </data>
   <data name="gsNew" xml:space="preserve">
     <value>Jauns</value>
@@ -6104,5 +6104,86 @@ Ielādēt: konfigurācijas panelī un augšējā kreisajā izvēlnē.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Oficiāls</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Ielādē...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelīts</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigācijas karte</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigācija</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Saglabāts lauks</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punkts kartē</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Apturēt navigāciju</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Lejupielādēt ceļu karti</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Lejupielādē ceļu karti...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Ceļu kartes vēl nav</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Ceļu karte</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Maršruts nav atrasts</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Jūs esat galamērķī</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Meklēt</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Nav interneta savienojuma</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Plāno maršrutu...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Pagriezieties pa kreisi</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Pagriezieties pa labi</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Nedaudz pa kreisi</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Nedaudz pa labi</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Krasi pa kreisi</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Krasi pa labi</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Galamērķis</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Ceļu karte neaptver šo braucienu. Lejupielādēt tagad?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Nav lauku</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nav atrasts</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Karšu serveris ir aizņemts, mēģiniet vēlāk</value>
   </data>
 </root>

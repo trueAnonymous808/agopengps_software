@@ -76,8 +76,6 @@ namespace AgOpenGPS
                 btnJobAgShare.Visible = false;
                 btnAgShareBulkUpload.Visible = false;
 
-                // Reduce form height by 75 pixels
-                ClientSize = new System.Drawing.Size(ClientSize.Width, ClientSize.Height - 75);
             }
 
             lblAgShareCloudLoad.Visible = Properties.Settings.Default.AgShareEnabled
@@ -103,6 +101,10 @@ namespace AgOpenGPS
                 btnEasyDrive.Enabled = false;
                 lblResumeField.Text = AgLibrary.Localization.UiTranslator.TrText("Easy Drive Active");
             }
+
+            // the buttons are placed now that it is known which of them this window shows (FormJob.Layout.cs)
+            ApplyModernLayout(Properties.Settings.Default.AgShareEnabled,
+                Properties.Settings.Default.AgShareEnabled && Properties.Settings.Default.AgShareAutoLoad);
         }
 
         private async void btnJobNew_Click(object sender, EventArgs e)

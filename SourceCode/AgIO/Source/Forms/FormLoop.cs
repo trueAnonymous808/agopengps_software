@@ -231,7 +231,13 @@ namespace AgIO
             SetModulesOnOff();
 
             oneSecondLoopTimer.Enabled = true;
-            if (AgLibrary.Localization.UiTranslator.IsHungarian()) pictureBox1.Image = Properties.Resources.AgIO_First_hu;
+            // the start animation shows "Loading..." in English; other languages get it drawn in their own words
+            string loading = AgLibrary.Localization.UiTranslator.TrText("Loading...");
+            if (loading != "Loading...")
+            {
+                splashCaption = loading;
+                pictureBox1.Paint += PictureBox1_PaintCaption;
+            }
             pictureBox1.Visible = true;
             pictureBox1.BringToFront();
             pictureBox1.Width = ClientSize.Width;
@@ -330,6 +336,46 @@ namespace AgIO
                 DateTime.Now.ToString("f", CultureInfo.InvariantCulture) + "\n\r");
 
             Log.FileSaveSystemEvents();
+        }
+
+        // The start animation (AgIO_First.gif, 300 x 300) shows its "Loading..." caption on two of its eight frames.
+        // On exactly those frames the English caption is covered and the translated one is drawn in its place.
+        private string splashCaption;
+
+        private void PictureBox1_PaintCaption(object sender, PaintEventArgs e)
+        {
+            try
+            {
+                var frame = pictureBox1.Image as Bitmap;
+                if (frame == null || splashCaption == null) return;
+
+                // a pixel of the "L" is white only while the caption is shown
+                if (frame.GetPixel(76, 270).ToArgb() != Color.White.ToArgb()) return;
+
+                // the picture box centres the image (SizeMode.CenterImage)
+                int left = (pictureBox1.ClientSize.Width - frame.Width) / 2;
+                int top = (pictureBox1.ClientSize.Height - frame.Height) / 2;
+                var band = new Rectangle(left, top + 246, frame.Width, 46);
+                using (var back = new SolidBrush(pictureBox1.BackColor))
+                    e.Graphics.FillRectangle(back, band);
+
+                // same look as the original caption; a long word gets a smaller font so it stays inside the image
+                const TextFormatFlags flags = TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter |
+                    TextFormatFlags.NoPadding | TextFormatFlags.SingleLine | TextFormatFlags.NoPrefix;
+                for (float size = 31f; size >= 12f; size -= 1f)
+                {
+                    using (var font = new Font("Segoe UI", size, FontStyle.Bold, GraphicsUnit.Pixel))
+                    {
+                        if (size > 12f && TextRenderer.MeasureText(splashCaption, font).Width > frame.Width - 16) continue;
+                        TextRenderer.DrawText(e.Graphics, splashCaption, font, band, Color.White, flags);
+                        break;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                // the start screen is only shown for a moment: never let the caption disturb it
+            }
         }
 
         private void oneSecondLoopTimer_Tick(object sender, EventArgs e)

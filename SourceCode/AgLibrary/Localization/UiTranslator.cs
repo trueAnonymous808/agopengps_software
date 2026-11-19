@@ -243,47 +243,83 @@ namespace AgLibrary.Localization
             Revert(form.Controls, lang);
         }
 
+        // A value of HKCU\SOFTWARE\AgOpenGPS was set (on the watcher thread).
+        private static void OnKeyChanged(ref bool lastNight)
+        {
+            // the key holds the day / night mode: the windows follow it at once. Only when the mode really changed, or
+            // when a window was themed with the other mode in the meantime (AgOpenGPS writes day and then night again
+            // within a moment while it starts): other values (profile names, folders ...) must not repaint everything
+            bool night = UiTheme.ReadNight();
+            if (night != lastNight || UiTheme.ThemedWithOtherMode(night)) ThemeChanged();
+            lastNight = night;
+
+            // only a different language needs the texts redone
+            string code = LanguageCode();
+            if (languageKnown && string.Equals(code, currentCode, StringComparison.OrdinalIgnoreCase)) return;
+            Language previous = languageKnown ? currentLanguage : null;
+            Language next = Language.Get(code);
+            currentCode = code;
+            currentLanguage = next;
+            languageKnown = true;
+            LanguageChanged(previous, next);
+        }
+
+        // The day / night mode changed (AgOpenGPS wrote it to the registry): every open window follows on the UI thread.
+        private static void ThemeChanged()
+        {
+            try
+            {
+                if (marshal == null || !marshal.IsHandleCreated) return;
+                marshal.BeginInvoke(new Action(() =>
+                {
+                    try
+                    {
+                        UiTheme.Refresh();
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }));
+            }
+            catch (Exception)
+            {
+            }
+        }
+
         private static void StartLanguageWatcher()
         {
             if (languageWatcher != null) return;
             languageWatcher = new System.Threading.Thread(() =>
             {
-                try
+                bool lastNight = UiTheme.ReadNight();
+                // the key is opened again whenever it goes away: a full settings reset deletes it while the helper
+                // programs keep running, and they must go on following the language and the day / night mode
+                while (true)
                 {
-                    using (var key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey(@"SOFTWARE\AgOpenGPS"))
+                    try
                     {
-                        while (true)
+                        using (var key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey(@"SOFTWARE\AgOpenGPS"))
                         {
-                            // blocks until a value of the key is set (REG_NOTIFY_CHANGE_LAST_SET)
-                            if (RegNotifyChangeKeyValue(key.Handle, false, 4, IntPtr.Zero, false) != 0) break;
-
-                            // other values of the key change too: only a different language needs work
-                            string code = LanguageCode();
-                            if (languageKnown && string.Equals(code, currentCode, StringComparison.OrdinalIgnoreCase)) continue;
-                            Language previous = languageKnown ? currentLanguage : null;
-                            Language next = Language.Get(code);
-                            currentCode = code;
-                            currentLanguage = next;
-                            languageKnown = true;
-                            LanguageChanged(previous, next);
+                            while (true)
+                            {
+                                // blocks until a value of the key is set (REG_NOTIFY_CHANGE_LAST_SET); fails once the key is deleted
+                                if (RegNotifyChangeKeyValue(key.Handle, false, 4, IntPtr.Zero, false) != 0) break;
+                                OnKeyChanged(ref lastNight);
+                            }
                         }
+                        // the key was deleted (or could not be watched): its values are gone, follow what is there now
+                        OnKeyChanged(ref lastNight);
                     }
-                }
-                catch (Exception)
-                {
-                    // without the watcher the language is simply read at start-up
+                    catch (Exception)
+                    {
+                    }
+                    System.Threading.Thread.Sleep(1000);
                 }
             });
             languageWatcher.IsBackground = true;
             languageWatcher.Start();
         }
 
-        /// <summary>True when the chosen language is Hungarian (for the few things that only exist in Hungarian, such as a picture).</summary>
-        public static bool IsHungarian()
-        {
-            string code = LanguageCode();
-            return code != null && code.StartsWith("hu", StringComparison.OrdinalIgnoreCase);
-        }
 
         /// <summary>Call once on the UI thread before Application.Run. Does nothing visible while the language is English.</summary>
         public static void Install()
@@ -405,6 +441,9 @@ namespace AgLibrary.Localization
             public Font Fitted;
             public string English;
             public string Translated;
+            // how far the caption was moved to the left to make room for its text; undone relative to where the caption
+            // is then, because the layout may have moved it in the meantime (an anchor in a resized window)
+            public int GrownLeftBy;
         }
 
         private static readonly ConditionalWeakTable<Control, FontState> FontStates = new ConditionalWeakTable<Control, FontState>();
@@ -414,7 +453,11 @@ namespace AgLibrary.Localization
             string current = c.Text;
             if (string.IsNullOrEmpty(current)) return;
             string tr = Lookup(current);
-            if (tr == null || tr == current) return;
+            if (tr == null || tr == current)
+            {
+                FitTranslated(c, current);
+                return;
+            }
 
             FontState state;
             if (!FontStates.TryGetValue(c, out state))
@@ -428,6 +471,46 @@ namespace AgLibrary.Localization
             Remember(tr, current);
             c.Text = tr;
             Fit(c, current, tr, state);
+        }
+
+        // A caption the program has already set in the chosen language (from its own gStr resources) is not translated
+        // here, but it must fit just the same: its English original is looked up and it is fitted once.
+        private static void FitTranslated(Control c, string current)
+        {
+            if (!(c is Label) && !(c is ButtonBase) && !(c is GroupBox)) return;
+            Language lang = CurrentLanguage();
+            if (lang == null) return;
+            string english = Original(lang, current) ?? OriginalOfCore(lang, current);
+            if (string.IsNullOrEmpty(english) || english == current) return;
+
+            FontState state;
+            if (!FontStates.TryGetValue(c, out state))
+            {
+                state = new FontState { Original = c.Font };
+                FontStates.Add(c, state);
+            }
+            else if (state.Translated == current && state.English == english)
+            {
+                return;   // fitted already: fitting again would move its neighbours a second time
+            }
+
+            state.English = english;
+            state.Translated = current;
+            Fit(c, english, current, state);
+        }
+
+        // A caption the program composed around a translated word ("Megművelt:" from gsApplied + ":", "> KI <" from
+        // "> " + gsOff + " <"): the English of the word in the middle, with the same marks around it.
+        private static string OriginalOfCore(Language lang, string text)
+        {
+            int start = 0, end = text.Length;
+            while (start < end && !char.IsLetterOrDigit(text[start])) start++;
+            while (end > start && !char.IsLetterOrDigit(text[end - 1])) end--;
+            if (end <= start || (start == 0 && end == text.Length)) return null;
+            string core = text.Substring(start, end - start);
+            string en = Original(lang, core);
+            if (string.IsNullOrEmpty(en) || en == core) return null;
+            return text.Substring(0, start) + en + text.Substring(end);
         }
 
         private static void Revert(Control.ControlCollection controls, Language lang)
@@ -448,6 +531,11 @@ namespace AgLibrary.Localization
                             c.Font = state.Original;
                             if (fitted != null) fitted.Dispose();
                             state.Fitted = null;
+                        }
+                        if (state.GrownLeftBy != 0)
+                        {
+                            c.Left += state.GrownLeftBy;
+                            state.GrownLeftBy = 0;
                         }
                         state.Translated = null;
                     }
@@ -495,9 +583,26 @@ namespace AgLibrary.Localization
             try
             {
                 Font original = state.Original;
-                float min = Math.Max(6f, original.Size * 0.65f);
+                // a fixed-size button cannot grow at all, so it may go a little smaller before its caption is cut off
+                bool fixedButton = c is ButtonBase && !IsAutoSized(c);
+                float min = Math.Max(6f, original.Size * (fixedButton ? 0.55f : 0.65f));
                 Font font = original;
                 Font created = null;
+
+                // a caption that grew to the left for an earlier text starts again from its own place
+                if (state.GrownLeftBy != 0)
+                {
+                    c.Left += state.GrownLeftBy;
+                    state.GrownLeftBy = 0;
+                }
+
+                // An auto-sized "Caption:" in front of its value that would run into the value: when the space on its
+                // left is free, it grows to the left instead, so its right edge stays where it was and the font stays.
+                if (IsAutoSized(c) && RunsIntoNeighbour(c, english, original, translated, original) && TryGrowLeft(c, english, original, translated, original, state))
+                {
+                    if (!ReferenceEquals(original, c.Font)) c.Font = original;
+                    return;
+                }
 
                 for (float size = original.Size - 0.5f; !Fits(c, english, translated, font, original) && size >= min; size -= 0.5f)
                 {
@@ -512,7 +617,7 @@ namespace AgLibrary.Localization
                 if (!Fits(c, english, translated, font, original) && IsAutoSized(c))
                 {
                     Font alt = new Font(original.FontFamily, Math.Max(6f, original.Size * 0.85f), original.Style, original.Unit);
-                    if (TryMakeRoom(c, english, original, translated, alt))
+                    if (TryMakeRoom(c, english, original, translated, alt) || TryGrowLeft(c, english, original, translated, alt, state))
                     {
                         if (created != null) created.Dispose();
                         created = alt;
@@ -540,6 +645,127 @@ namespace AgLibrary.Localization
         private static bool IsAutoSized(Control c)
         {
             return c.Dock == DockStyle.None && ((c is Label && ((Label)c).AutoSize) || (c is ButtonBase && ((ButtonBase)c).AutoSize));
+        }
+
+        // Moves an auto-sized caption to the left by as much as its text has grown, so that its right edge stays where the
+        // English caption ended, when nothing visible lies in the strip it moves into. Remembers where it was.
+        private static bool TryGrowLeft(Control c, string english, Font originalFont, string text, Font font, FontState state)
+        {
+            try
+            {
+                Control parent = c.Parent;
+                if (parent == null) return false;
+
+                const TextFormatFlags oneLine = TextFormatFlags.NoPadding | TextFormatFlags.NoPrefix;
+                int need = TextRenderer.MeasureText(text, font, new Size(int.MaxValue, 0), oneLine).Width + c.Padding.Horizontal + 2;
+                int had = TextRenderer.MeasureText(english, originalFont, new Size(int.MaxValue, 0), oneLine).Width + c.Padding.Horizontal;
+                int grow = need - had;
+                if (grow <= 0) return false;
+
+                int newLeft = c.Left - grow;
+                if (newLeft < 2) return false;
+
+                var strip = new Rectangle(newLeft, c.Top, grow, Math.Max(c.Height, 1));
+                foreach (Control s in parent.Controls)
+                {
+                    if (ReferenceEquals(s, c) || !Shown(s)) continue;
+                    if (s.Bounds.IntersectsWith(strip)) return false;
+                }
+
+                state.GrownLeftBy += c.Left - newLeft;
+                c.Left = newLeft;
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        // Whether an auto-sized caption, grown to the width of its new text, would touch a neighbour it did not touch before
+        // or run out of its window on the right.
+        // (The label has already grown with its new text, so where it was is worked out from the English caption.)
+        private static bool RunsIntoNeighbour(Control c, string english, Font originalFont, string text, Font font)
+        {
+            if (c.Parent == null) return false;
+            const TextFormatFlags oneLine = TextFormatFlags.NoPadding | TextFormatFlags.NoPrefix;
+            Size need = TextRenderer.MeasureText(text, font, new Size(int.MaxValue, 0), oneLine);
+            var before = new Rectangle(c.Left, c.Top, PreferredWidth(c, english, originalFont), c.Height);
+            var grown = new Rectangle(c.Left, c.Top, PreferredWidth(c, text, font), Math.Max(c.Height, need.Height));
+            int width = c.Parent.ClientSize.Width;
+            if (grown.Right > width && before.Right <= width) return true;
+            foreach (Control s in c.Parent.Controls)
+            {
+                if (ReferenceEquals(s, c) || !Shown(s)) continue;
+                // a neighbour it now covers by more than the English caption did
+                if (Rectangle.Intersect(grown, s.Bounds).Width > Rectangle.Intersect(before, s.Bounds).Width &&
+                    Rectangle.Intersect(grown, s.Bounds).Height > 0) return true;
+            }
+            return false;
+        }
+
+        // The width an auto-sized label takes with a given text and font, measured on a hidden label with the same
+        // settings (the size stored in the designer is not always the size the label really takes).
+        [ThreadStatic] private static Label probe;
+
+        private static int PreferredWidth(Control c, string text, Font font)
+        {
+            var label = c as Label;
+            if (label == null)
+                return TextRenderer.MeasureText(text, font, new Size(int.MaxValue, 0), TextFormatFlags.NoPadding | TextFormatFlags.NoPrefix).Width + Extra(c);
+            try
+            {
+                if (probe == null) probe = new Label { AutoSize = true };
+                probe.UseMnemonic = label.UseMnemonic;
+                probe.UseCompatibleTextRendering = label.UseCompatibleTextRendering;
+                probe.FlatStyle = label.FlatStyle;
+                probe.BorderStyle = label.BorderStyle;
+                probe.Padding = label.Padding;
+                probe.Font = font;
+                probe.Text = text;
+                return probe.GetPreferredSize(Size.Empty).Width;
+            }
+            catch (Exception)
+            {
+                return TextRenderer.MeasureText(text, font).Width + c.Padding.Horizontal;
+            }
+        }
+
+        // How much wider an auto-sized caption is than its bare text (its padding and the margin the label keeps around
+        // the text); measured on the control itself, so the width of a caption with another text can be worked out.
+        private static int Extra(Control c)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(c.Text)) return c.Padding.Horizontal;
+                int bare = TextRenderer.MeasureText(c.Text, c.Font, new Size(int.MaxValue, 0), TextFormatFlags.NoPadding | TextFormatFlags.NoPrefix).Width;
+                return Math.Max(c.Padding.Horizontal, c.GetPreferredSize(Size.Empty).Width - bare);
+            }
+            catch (Exception)
+            {
+                return c.Padding.Horizontal;
+            }
+        }
+
+        // Whether a control is meant to be visible: its own Visible setting and that of its parents up to the window.
+        // (Control.Visible is false for everything while the window itself is not shown yet, which is exactly when the
+        // texts are translated, so it cannot be used to find the neighbours a caption must not run into.)
+        private static readonly System.Reflection.MethodInfo GetStateMethod = typeof(Control).GetMethod("GetState",
+            System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance, null, new[] { typeof(int) }, null);
+
+        private static bool Shown(Control c)
+        {
+            if (GetStateMethod == null) return c.Visible;
+            try
+            {
+                for (Control p = c; p != null && !(p is Form); p = p.Parent)
+                    if (!(bool)GetStateMethod.Invoke(p, new object[] { 0x2 })) return false;   // STATE_VISIBLE
+                return true;
+            }
+            catch (Exception)
+            {
+                return c.Visible;
+            }
         }
 
         // Moves the controls to the right of a caption that has become wider, as far as the parent window allows.
@@ -575,7 +801,7 @@ namespace AgLibrary.Localization
 
             foreach (Control s in parent.Controls)
             {
-                if (ReferenceEquals(s, caption) || !s.Visible) continue;
+                if (ReferenceEquals(s, caption) || !Shown(s)) continue;
                 if (s.Left < oldRight - 2) continue;                              // was not to the right of the caption
                 if (s.Top >= caption.Bottom || s.Bottom <= caption.Top) continue; // another row
                 if (s.Left >= newRight + 3) continue;                             // still clear of it
@@ -641,17 +867,8 @@ namespace AgLibrary.Localization
                 Size need = TextRenderer.MeasureText(translated, font, new Size(int.MaxValue, 0), oneLine);
                 if (need.Width > allowed) return false;
 
-                // and it must not grow into a neighbour (an icon, for instance) that it did not touch before
-                Rectangle grown = new Rectangle(c.Left, c.Top, Math.Max(c.Width, need.Width + c.Padding.Horizontal), Math.Max(c.Height, need.Height));
-                if (c.Parent != null)
-                {
-                    foreach (Control sibling in c.Parent.Controls)
-                    {
-                        if (ReferenceEquals(sibling, c) || !sibling.Visible) continue;
-                        if (grown.IntersectsWith(sibling.Bounds) && !c.Bounds.IntersectsWith(sibling.Bounds)) return false;
-                    }
-                }
-                return true;
+                // and it must not grow into a neighbour (an icon, for instance) or out of the window, measured at this font
+                return !RunsIntoNeighbour(c, english, original, translated, font);
             }
 
             bool isButton = c is ButtonBase;
@@ -663,12 +880,24 @@ namespace AgLibrary.Localization
             Size wrapped = TextRenderer.MeasureText(translated, font, new Size(availWidth, 0), oneLine | TextFormatFlags.WordBreak);
             if (wrapped.Height > availHeight) return false;
 
-            // a single long word cannot wrap
+            // a single long word cannot wrap (Chinese, Japanese and Korean text breaks between its characters, so a
+            // run of those characters is not one word)
             foreach (string word in translated.Split(new[] { ' ', '\r', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries))
             {
+                if (HasCjk(word)) continue;
                 if (TextRenderer.MeasureText(word, font, new Size(int.MaxValue, 0), oneLine).Width > availWidth) return false;
             }
             return true;
+        }
+
+        private static bool HasCjk(string s)
+        {
+            foreach (char ch in s)
+            {
+                if ((ch >= '⺀' && ch <= '鿿') || (ch >= '가' && ch <= '힯') || (ch >= '豈' && ch <= '﫿') || (ch >= '＀' && ch <= '￯'))
+                    return true;
+            }
+            return false;
         }
 
         private static void Set(string current, Action<string> assign)

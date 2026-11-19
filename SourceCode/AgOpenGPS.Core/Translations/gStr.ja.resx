@@ -175,12 +175,10 @@
     <value>適用済み</value>
   </data>
   <data name="gsArea" xml:space="preserve">
-    <value>エリア</value>
+    <value>面積</value>
   </data>
   <data name="gsArrangeText" xml:space="preserve">
-    <value>メニュー（右側）に表示させたい左側のボタンをタッチしてください。
-
-押した順番が、メニューに表示される順番（下から上）になります。</value>
+    <value>メニュー（右側）に出したい左側のボタンをタッチしてください。押した順に、メニューの下から上へ並びます。</value>
   </data>
   <data name="gsAttachmentStyle" xml:space="preserve">
     <value>アタッチメントの形状</value>
@@ -513,7 +511,7 @@
     <value>基準点を作成する</value>
   </data>
   <data name="gsForNow" xml:space="preserve">
-    <value>詳しくはこちら</value>
+    <value>詳細</value>
   </data>
   <data name="gsForceOverwrite" xml:space="preserve">
     <value>強制上書き</value>
@@ -1081,7 +1079,7 @@
     <value>新規フィールドを開始</value>
   </data>
   <data name="gsStatus" xml:space="preserve">
-    <value>ステータス</value>
+    <value>状態</value>
   </data>
   <data name="gsSteerAngle" xml:space="preserve">
     <value>操舵角度</value>
@@ -1120,13 +1118,7 @@
     <value>押してオン・離してオフ</value>
   </data>
   <data name="gsTerms" xml:space="preserve">
-    <value>AgOpenGPSは、ガイダンスシステム、GPS信号、および機械制御の理論的応用について学ぶための純粋に教育目的のソフトウェアです。
-
-いかなる状況においても実機での使用は一切禁止されています。学生が安全に機械ガイダンスを体験できるよう、シミュレーターが提供されています。
-
-本ソフトウェアには安全システムは一切含まれておらず、またそのようなシステムが暗示されることもありません。
-
-ご自身の責任においてご利用ください。</value>
+    <value>AgOpenGPSは、ガイダンスシステム、GPS信号、機械制御の理論を学ぶための教育専用ソフトです。いかなる状況でも実機での使用は禁止です。学生が安全に機械ガイダンスを体験できるようシミュレーターを備えています。本ソフトに安全システムはなく、安全性を示唆するものでもありません。ご自身の責任でご利用ください。</value>
   </data>
   <data name="gsTermsConditions" xml:space="preserve">
     <value>利用規約</value>
@@ -1276,7 +1268,7 @@
     <value>はい</value>
   </data>
   <data name="UiS_0004" xml:space="preserve">
-    <value>いいえ</value>
+    <value>なし</value>
   </data>
   <data name="UiS_0005" xml:space="preserve">
     <value>キャンセル</value>
@@ -1390,7 +1382,7 @@
     <value>応答</value>
   </data>
   <data name="UiS_0042" xml:space="preserve">
-    <value>フィルター</value>
+    <value>フィルタ</value>
   </data>
   <data name="UiS_0043" xml:space="preserve">
     <value>値を入力</value>
@@ -1483,7 +1475,7 @@
     <value>イーサネット設定</value>
   </data>
   <data name="UiS_0073" xml:space="preserve">
-    <value>UDPをオンにしてOKを押してください</value>
+    <value>UDPをオンにしてOK</value>
   </data>
   <data name="UiS_0074" xml:space="preserve">
     <value>UDPはオフです</value>
@@ -2054,7 +2046,7 @@
     <value>作業:</value>
   </data>
   <data name="UiS_0261" xml:space="preserve">
-    <value>スイッチ:</value>
+    <value>SW:</value>
   </data>
   <data name="UiS_0262" xml:space="preserve">
     <value>昇降有効</value>
@@ -2851,7 +2843,7 @@ NumPad0 - 自動セクション</value>
     <value>南 (-)</value>
   </data>
   <data name="UiS_0525" xml:space="preserve">
-    <value>フィールドを閉じた後もオフセットを保持しますか?</value>
+    <value>フィールドを閉じても保持しますか?</value>
   </data>
   <data name="UiS_0526" xml:space="preserve">
     <value>車両</value>
@@ -2947,7 +2939,7 @@ NumPad0 - 自動セクション</value>
     <value>記録名を入力</value>
   </data>
   <data name="UiS_0557" xml:space="preserve">
-    <value>&gt; オフ &lt;</value>
+    <value>&gt;オフ&lt;</value>
   </data>
   <data name="UiS_0558" xml:space="preserve">
     <value>状態:</value>
@@ -3747,7 +3739,7 @@ U - Uターン (180度)&#xD;
 ( / ) スラッシュ - 直進</value>
   </data>
   <data name="UiS_0819" xml:space="preserve">
-    <value>このオフセット距離は緯度と経度に加算され、フィールドを閉じるときにFIELD.KMLファイルに保存されます。</value>
+    <value>このオフセット距離は緯度・経度に加算され、フィールド終了時にFIELD.KMLへ保存されます。</value>
   </data>
   <data name="UiS_0820" xml:space="preserve">
     <value>車両設定は「プロファイル」という名称になり、&#xD;
@@ -4719,7 +4711,7 @@ PWM最大値で操舵速度を制限できます。</value>
     <value>シリアルパススルーオン</value>
   </data>
   <data name="UiS_1128" xml:space="preserve">
-    <value>GPSと別のポートですか?</value>
+    <value>GPSと別ポート?</value>
   </data>
   <data name="UiS_1129" xml:space="preserve">
     <value>最小化で起動</value>
@@ -5761,7 +5753,7 @@ PWM最大値で操舵速度を制限できます。</value>
     <value>自動 デュアル &lt;&gt; Fix</value>
   </data>
   <data name="gsEasyDriveInfo" xml:space="preserve">
-    <value>GPSガイダンスをすぐに開始できます。作業幅とヒッチの長さを設定し、AB線またはカーブを作成してください。ディスクには何も保存されません。</value>
+    <value>GPSガイダンスをすぐ開始。作業幅とヒッチ長を設定し、AB線またはカーブを作成します。ディスクには保存されません。</value>
   </data>
   <data name="gsNext" xml:space="preserve">
     <value>次へ</value>
@@ -6104,5 +6096,86 @@ PWM最大値で操舵速度を制限できます。</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 公式</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>読み込み中...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>衛星</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>ナビ地図</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>ナビゲーション</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>保存済み圃場</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>地図上の地点</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>ナビを終了</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>道路地図をダウンロード</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>道路地図をダウンロード中...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>道路地図がまだありません</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>道路地図</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>ルートが見つかりません</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>目的地に到着しました</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>インターネット接続がありません</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>ルートを計算中...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>左折</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>右折</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>斜め左</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>斜め右</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>鋭角に左</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>鋭角に右</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>目的地</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>道路地図がこの経路をカバーしていません。今すぐダウンロードしますか?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>圃場がありません</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>見つかりません</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>地図サーバーが混雑しています。後でもう一度お試しください</value>
   </data>
 </root>

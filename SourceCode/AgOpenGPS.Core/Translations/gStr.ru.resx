@@ -349,7 +349,7 @@
     <value>Редактировать прямую AB</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Изменить цвет</value>
+    <value>Изм. цвет</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Изменить название поля</value>
@@ -796,7 +796,7 @@
     <value>Отправлено в машинный модуль</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Заданное значение</value>
+    <value>Уставка</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Сдвиг положения GPS</value>
@@ -919,7 +919,7 @@
     <value>Включите контур линии AB</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Использовать выбранное</value>
+    <value>Выбранное</value>
   </data>
   <data name="gsUturn" xml:space="preserve">
     <value>Авторазворот</value>
@@ -1718,7 +1718,7 @@
     <value>Данные системы</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>Статус AgOpenGPS:</value>
+    <value>Статус AOG:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Автопилот</value>
@@ -1778,7 +1778,7 @@
     <value>Орудие</value>
   </data>
   <data name="UiS_0257" xml:space="preserve">
-    <value>Пинг орудия:</value>
+    <value>Пинг ор.:</value>
   </data>
   <data name="UiS_0258" xml:space="preserve">
     <value>Работа</value>
@@ -2752,7 +2752,7 @@ NumPad0 - Авто секция</value>
     <value>Цвет секции</value>
   </data>
   <data name="UiS_0580" xml:space="preserve">
-    <value>Изменить цвет</value>
+    <value>Изм. цвет</value>
   </data>
   <data name="UiS_0581" xml:space="preserve">
     <value>Тип</value>
@@ -3092,10 +3092,10 @@ NumPad0 - Авто секция</value>
     <value>Факт:</value>
   </data>
   <data name="UiS_0693" xml:space="preserve">
-    <value>Задано:</value>
+    <value>Зад.:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
-    <value>Ошибка:</value>
+    <value>Ош.:</value>
   </data>
   <data name="UiS_0695" xml:space="preserve">
     <value>Или +5</value>
@@ -3608,7 +3608,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Ход:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Импульсов/град</value>
+    <value>Имп./град</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>Смещение WAS</value>
@@ -3677,7 +3677,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Введите название поля</value>
   </data>
   <data name="UiS_0874" xml:space="preserve">
-    <value>Площадь:</value>
+    <value>Площ.:</value>
   </data>
   <data name="UiS_0875" xml:space="preserve">
     <value>Точки:</value>
@@ -3872,10 +3872,10 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Расстояние (км)</value>
   </data>
   <data name="UiS_0939" xml:space="preserve">
-    <value> Использовать выбранное</value>
+    <value>Выбранное</value>
   </data>
   <data name="UiS_0940" xml:space="preserve">
-    <value>Использовать выбранное</value>
+    <value>Выбранное</value>
   </data>
   <data name="UiS_0941" xml:space="preserve">
     <value>Удалить поле</value>
@@ -4487,7 +4487,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Справка по PGN</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Справка -&gt;</value>
+    <value>Инфо -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Клавиатура</value>
@@ -6104,5 +6104,86 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Официальный</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Спутник</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Навигационная карта</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Сохранённое поле</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Точка на карте</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Остановить навигацию</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Загрузить карту дорог</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Загрузка карты дорог...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Карты дорог пока нет</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Карта дорог</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Маршрут не найден</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Вы прибыли</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Нет подключения к интернету</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Построение маршрута...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Поверните налево</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Поверните направо</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Плавно налево</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Плавно направо</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Резко налево</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Резко направо</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Пункт назначения</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Карта дорог не охватывает этот маршрут. Загрузить сейчас?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Нет полей</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Не найдено</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Сервер карт занят, попробуйте позже</value>
   </data>
 </root>

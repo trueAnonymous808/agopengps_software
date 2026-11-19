@@ -900,7 +900,7 @@ Menüde aşağıdan yukarıya doğru seçtiğiniz sıraya göre görünecektir.<
     <value>Yol Yükünü Kaydet</value>
   </data>
   <data name="gsRemain" xml:space="preserve">
-    <value>Sürdürmek</value>
+    <value>Kalan</value>
   </data>
   <data name="gsRemoveOffset" xml:space="preserve">
     <value>Ofseti Kaldır</value>
@@ -996,7 +996,7 @@ Menüde aşağıdan yukarıya doğru seçtiğiniz sıraya göre görünecektir.<
     <value>Makine Modülüne Gönderildi</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Ayar Noktası</value>
+    <value>Hedef</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>GPS Konumunu Değiştir</value>
@@ -1113,7 +1113,7 @@ KULLANIM RİSKİNİZ KENDİ TARAFINIZCA YAPILMAKTADIR.</value>
     <value>Şartlar ve Koşullar</value>
   </data>
   <data name="gsToFile" xml:space="preserve">
-    <value>Dosyalamak</value>
+    <value>Dosyaya</value>
   </data>
   <data name="gsTooFast" xml:space="preserve">
     <value>Çok Hızlı</value>
@@ -1276,7 +1276,7 @@ Yapılandırma panelinden ve sol üst menüden yükleyin.</value>
     <value>Evet</value>
   </data>
   <data name="UiS_0004" xml:space="preserve">
-    <value>Hayır</value>
+    <value>Yok</value>
   </data>
   <data name="UiS_0005" xml:space="preserve">
     <value>İptal</value>
@@ -1889,7 +1889,7 @@ Lütfen elle kaldırın.</value>
     <value>Boylam:</value>
   </data>
   <data name="UiS_0207" xml:space="preserve">
-    <value>Enlem</value>
+    <value>Enl.</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
     <value>Boylam</value>
@@ -1988,7 +1988,7 @@ Lütfen elle kaldırın.</value>
     <value>Otomatik direksiyon</value>
   </data>
   <data name="UiS_0240" xml:space="preserve">
-    <value>Direksiyon</value>
+    <value>Dir.</value>
   </data>
   <data name="UiS_0241" xml:space="preserve">
     <value>Direksiyon:</value>
@@ -2799,8 +2799,7 @@ Sonra yeni tuşa basın</value>
     <value>Araç ayarları</value>
   </data>
   <data name="UiS_0509" xml:space="preserve">
-    <value>   Varsayılana &#xD;
-sıfırla</value>
+    <value>Varsayılan</value>
   </data>
   <data name="UiS_0510" xml:space="preserve">
     <value>Bölüm veya bölge</value>
@@ -3353,7 +3352,7 @@ NumPad0 - Otomatik bölüm</value>
     <value>Fit</value>
   </data>
   <data name="UiS_0692" xml:space="preserve">
-    <value>Gerçek:</value>
+    <value>Fiili:</value>
   </data>
   <data name="UiS_0693" xml:space="preserve">
     <value>Hedef:</value>
@@ -3872,7 +3871,7 @@ Dönüş hızını sınırlamak için PWM maksimumu ayarlayın.</value>
     <value>İlerleme:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Derece başına sayım</value>
+    <value>Sayım/derece</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>WAS ofseti</value>
@@ -3908,7 +3907,7 @@ Dönüş hızını sınırlamak için PWM maksimumu ayarlayın.</value>
     <value>Kamera davranışı</value>
   </data>
   <data name="UiS_0863" xml:space="preserve">
-    <value>Varsayılana sıfırla</value>
+    <value>Varsayılan</value>
   </data>
   <data name="UiS_0864" xml:space="preserve">
     <value>( +90 ile -90)</value>
@@ -4602,7 +4601,7 @@ Dönüş hızını sınırlamak için PWM maksimumu ayarlayın.</value>
     <value>Simülatör gerçek anten kullanılırken çalışamaz</value>
   </data>
   <data name="UiS_1094" xml:space="preserve">
-    <value>Varsayılana sıfırla</value>
+    <value>Varsayılan</value>
   </data>
   <data name="UiS_1095" xml:space="preserve">
     <value>Değerler ilk varsayılana ayarlandı</value>
@@ -4686,7 +4685,7 @@ Kapatmak istediğinizden emin misiniz?</value>
     <value>Profiller</value>
   </data>
   <data name="UiS_1117" xml:space="preserve">
-    <value>Mevcut profil</value>
+    <value>Profil</value>
   </data>
   <data name="UiS_1118" xml:space="preserve">
     <value>Mevcut profil</value>
@@ -6103,5 +6102,86 @@ Buluttan Yükle: açarken her zaman AgShare'deki en son sürümü indirir</value
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Resmi</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Uydu</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigasyon haritası</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigasyon</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Kayıtlı tarla</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Haritada nokta</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Navigasyonu durdur</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Yol haritasını indir</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Yol haritası indiriliyor...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Henüz yol haritası yok</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Yol haritası</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Rota bulunamadı</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Hedefe ulaştınız</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>İnternet bağlantısı yok</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Rota hesaplanıyor...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Sola dönün</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Sağa dönün</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Hafif sola</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Hafif sağa</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Keskin sola</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Keskin sağa</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Hedef</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Yol haritası bu yolculuğu kapsamıyor. Şimdi indirilsin mi?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Tarla yok</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Bulunamadı</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Harita sunucusu meşgul, daha sonra tekrar deneyin</value>
   </data>
 </root>

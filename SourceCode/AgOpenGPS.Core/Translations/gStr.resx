@@ -6107,4 +6107,85 @@ Backup: {}</value>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Official</value>
   </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satellite</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigation map</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Saved field</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Point on the map</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Stop navigation</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Download road map</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Downloading road map...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>No road map yet</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Road map</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>No route found</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>You have arrived</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>No internet connection</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Planning route...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Turn left</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Turn right</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Bear left</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Bear right</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Sharp left</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Sharp right</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>The road map does not cover this trip. Download it now?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>No fields</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>The map server is busy, try again later</value>
+  </data>
 </root>

@@ -292,7 +292,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Alsó menü</value>
   </data>
   <data name="gsBoundary" xml:space="preserve">
-    <value>Művelési határ</value>
+    <value>Határ</value>
   </data>
   <data name="gsBoundaryLineFilesAreCorrupt" xml:space="preserve">
     <value>Művelési határvonal fájlja sérült</value>
@@ -424,7 +424,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Görbe nincs bekapcsolva</value>
   </data>
   <data name="gsDay" xml:space="preserve">
-    <value>Nappal</value>
+    <value>Nap</value>
   </data>
   <data name="gsDeadzone" xml:space="preserve">
     <value>Holtsáv</value>
@@ -481,7 +481,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Távolság</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Távolság a zászlóig</value>
+    <value>Táv. a zászlóig</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
     <value>Összes letöltése</value>
@@ -511,7 +511,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>AB vonal szerkesztése</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Szín szerkesztése</value>
+    <value>Szín szerk.</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Területnév szerkesztése</value>
@@ -609,7 +609,7 @@ A választott sorrend alapján fognak megjelenni alulról felfelé.</value>
     <value>Zászló készítése</value>
   </data>
   <data name="gsForNow" xml:space="preserve">
-    <value>Ideiglenes</value>
+    <value>Csak most</value>
     <comment>* Csak most? Ideiglenes?</comment>
   </data>
   <data name="gsForceOverwrite" xml:space="preserve">
@@ -1008,7 +1008,7 @@ Betöltés: Beállítások panel és bal felső menü.</value>
     <value>Eltolás törlése</value>
   </data>
   <data name="gsReset" xml:space="preserve">
-    <value>Visszaállítás</value>
+    <value>Nullázás</value>
   </data>
   <data name="gsResetAll" xml:space="preserve">
     <value>Minden visszaállítása</value>
@@ -1098,7 +1098,7 @@ Betöltés: Beállítások panel és bal felső menü.</value>
     <value>Eszközmodulra elküldve</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Pontbeállítás</value>
+    <value>Célérték</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>GPS pozíció elmozdítása</value>
@@ -1266,7 +1266,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Egységek</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Kiválasztott használata</value>
+    <value>Kiválaszt</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>Felhasználó</value>
@@ -1605,7 +1605,7 @@ HASZNÁLAT SAJÁT FELELŐSSÉGRE.</value>
     <value>Gyors indulás GPS vezetéssel. Add meg a munkaszélességet és a vonófej hosszát, majd hozz létre AB vonalat vagy görbét. Semmi sem kerül mentésre a lemezre.</value>
   </data>
   <data name="gsNext" xml:space="preserve">
-    <value>Következő</value>
+    <value>Tovább</value>
   </data>
   <data name="UiS_0001" xml:space="preserve">
     <value>OK</value>
@@ -2137,7 +2137,7 @@ Távolítsd el kézzel.</value>
     <value>Üres GSA-mondat küldése</value>
   </data>
   <data name="UiS_0176" xml:space="preserve">
-    <value>NTRIP-korrekció küldése a GPS-nek ezen keresztül:</value>
+    <value>NTRIP küldése a GPS-re:</value>
   </data>
   <data name="UiS_0177" xml:space="preserve">
     <value>RTCM soros porton</value>
@@ -2257,7 +2257,7 @@ Távolítsd el kézzel.</value>
     <value>Sebesség:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Műholdak</value>
+    <value>Műh.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Műholdak:</value>
@@ -2323,13 +2323,13 @@ Távolítsd el kézzel.</value>
     <value>Rendszeradatok</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>AgOpenGPS állapota:</value>
+    <value>AOG állapot:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Automata kormányzás</value>
   </data>
   <data name="UiS_0240" xml:space="preserve">
-    <value>Kormány</value>
+    <value>Korm.</value>
   </data>
   <data name="UiS_0241" xml:space="preserve">
     <value>Kormány:</value>
@@ -2452,7 +2452,7 @@ zástól</value>
     <value>Felhasználási feltételek</value>
   </data>
   <data name="UiS_0280" xml:space="preserve">
-    <value>YouTube-oktatóvideók</value>
+    <value>YouTube-videók</value>
   </data>
   <data name="UiS_0281" xml:space="preserve">
     <value>Discourse fórum</value>
@@ -2515,7 +2515,7 @@ zástól</value>
     <value>Összes visszaállítása</value>
   </data>
   <data name="UiS_0301" xml:space="preserve">
-    <value>Visszaállítás</value>
+    <value>Nullázás</value>
   </data>
   <data name="UiS_0302" xml:space="preserve">
     <value>Varázslók</value>
@@ -3159,10 +3159,10 @@ NumPad0 - Auto szakasz</value>
     <value>Kérdés</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Keleti koordináta</value>
+    <value>Kelet</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Északi koordináta</value>
+    <value>Észak</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -3249,7 +3249,7 @@ NumPad0 - Auto szakasz</value>
     <value>Művelőút szélessége:</value>
   </data>
   <data name="UiS_0544" xml:space="preserve">
-    <value>Mértékegység:</value>
+    <value>Egység:</value>
   </data>
   <data name="UiS_0545" xml:space="preserve">
     <value>Metrikus</value>
@@ -3357,7 +3357,7 @@ NumPad0 - Auto szakasz</value>
     <value>Szakasz színe</value>
   </data>
   <data name="UiS_0580" xml:space="preserve">
-    <value>Szín szerkesztése</value>
+    <value>Szín szerk.</value>
   </data>
   <data name="UiS_0581" xml:space="preserve">
     <value>Típus</value>
@@ -4323,19 +4323,19 @@ A PWM-maximummal korlátozhatod, milyen gyorsan mozoghat a kormány.</value>
     <value>Jelöld ki a használni kívánt nyomvonalakat</value>
   </data>
   <data name="UiS_0887" xml:space="preserve">
-    <value>B pont rövidítése</value>
+    <value>B rövidít.</value>
   </data>
   <data name="UiS_0888" xml:space="preserve">
-    <value>A pont rövidítése</value>
+    <value>A rövidít.</value>
   </data>
   <data name="UiS_0889" xml:space="preserve">
-    <value>B pont hosszabbítása</value>
+    <value>B nyújt.</value>
   </data>
   <data name="UiS_0890" xml:space="preserve">
-    <value>A pont hosszabbítása</value>
+    <value>A nyújt.</value>
   </data>
   <data name="UiS_0891" xml:space="preserve">
-    <value>Következő</value>
+    <value>Tovább</value>
   </data>
   <data name="UiS_0892" xml:space="preserve">
     <value>Előző</value>
@@ -4461,10 +4461,10 @@ A PWM-maximummal korlátozhatod, milyen gyorsan mozoghat a kormány.</value>
     <value>Mennyiség:</value>
   </data>
   <data name="UiS_0933" xml:space="preserve">
-    <value>Összesen:</value>
+    <value>Összes:</value>
   </data>
   <data name="UiS_0934" xml:space="preserve">
-    <value>Megművelt:</value>
+    <value>Művelt:</value>
   </data>
   <data name="UiS_0935" xml:space="preserve">
     <value>Megművelt</value>
@@ -4497,7 +4497,7 @@ A PWM-maximummal korlátozhatod, milyen gyorsan mozoghat a kormány.</value>
     <value>Útvonal ki</value>
   </data>
   <data name="UiS_0945" xml:space="preserve">
-    <value>Nappal</value>
+    <value>Nap</value>
   </data>
   <data name="UiS_0946" xml:space="preserve">
     <value>Éjszaka</value>
@@ -5093,7 +5093,7 @@ esetén</value>
     <value>PGN útmutató</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Útmutató -&gt;</value>
+    <value>Súgó -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Billentyűzet</value>
@@ -6109,5 +6109,86 @@ Biztonsági mentés: {1}</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Hivatalos</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Betöltés...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Műhold</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigációs térkép</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigáció</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Mentett tábla</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Pont a térképen</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Navigáció leállítása</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Úthálózat letöltése</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Úthálózat letöltése...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Még nincs letöltött úthálózat</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Úthálózat</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Nem található útvonal</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Megérkeztél</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Nincs internetkapcsolat</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Útvonaltervezés...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Fordulj balra</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Fordulj jobbra</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Enyhén balra</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Enyhén jobbra</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Élesen balra</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Élesen jobbra</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Cél</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>A letöltött úthálózat nem fedi le ezt az utat. Letöltöd most?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Nincsenek táblák</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nem található</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>A térképszerver foglalt, próbáld újra később</value>
   </data>
 </root>

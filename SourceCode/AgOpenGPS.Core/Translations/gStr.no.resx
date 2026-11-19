@@ -612,7 +612,7 @@ Rekkefølgen du trykker på dem, vil være rekkefølgen de vises i menyen fra bu
     <value>Språk</value>
   </data>
   <data name="gsLatLon" xml:space="preserve">
-    <value>Breddegrad + Lengdegrad</value>
+    <value>Bredde + lengde</value>
   </data>
   <data name="gsLateral" xml:space="preserve">
     <value>Lateralt</value>
@@ -1979,7 +1979,7 @@ Fjern det manuelt.</value>
     <value>Bredde</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
-    <value>Lengde</value>
+    <value>Lon</value>
   </data>
   <data name="UiS_0209" xml:space="preserve">
     <value>Høyde</value>
@@ -2003,7 +2003,7 @@ Fjern det manuelt.</value>
     <value>Hastighet:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Satellitter</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Satellitter:</value>
@@ -2069,7 +2069,7 @@ Fjern det manuelt.</value>
     <value>Systemdata</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>AgOpenGPS-status:</value>
+    <value>AOG-status:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Autostyring</value>
@@ -2198,7 +2198,7 @@ autostyring</value>
     <value>Vilkår og betingelser</value>
   </data>
   <data name="UiS_0280" xml:space="preserve">
-    <value>YouTube-veiledninger</value>
+    <value>YouTube-video</value>
   </data>
   <data name="UiS_0281" xml:space="preserve">
     <value>Discourse-forum</value>
@@ -3440,7 +3440,7 @@ NumPad0 - Auto seksjon</value>
     <value>Fot</value>
   </data>
   <data name="UiS_0692" xml:space="preserve">
-    <value>Faktisk:</value>
+    <value>Akt.:</value>
   </data>
   <data name="UiS_0693" xml:space="preserve">
     <value>Satt:</value>
@@ -4103,10 +4103,10 @@ Still PWM maksimum for å begrense svingehastigheten.</value>
     <value>Laster ned... Vent litt</value>
   </data>
   <data name="UiS_0899" xml:space="preserve">
-    <value>Lengde:</value>
+    <value>Lgd.:</value>
   </data>
   <data name="UiS_0900" xml:space="preserve">
-    <value>Bredde:</value>
+    <value>Br.:</value>
   </data>
   <data name="UiS_0901" xml:space="preserve">
     <value>Avstand til flagg:</value>
@@ -4838,7 +4838,7 @@ advarsel</value>
     <value>PGN-veiledning</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Veiledning -&gt;</value>
+    <value>Guide -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Tastatur</value>
@@ -5872,7 +5872,7 @@ Skylasting: hent alltid siste versjon fra AgShare ved åpning</value>
     <value>Smart WAS</value>
   </data>
   <data name="gsYouTubeTutorials" xml:space="preserve">
-    <value>YouTube-veiledninger</value>
+    <value>YouTube-video</value>
   </data>
   <data name="gsAntennaPivot" xml:space="preserve">
     <value>Antennedreiepunkt</value>
@@ -6104,5 +6104,86 @@ Skylasting: hent alltid siste versjon fra AgShare ved åpning</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Offisiell</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Laster...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satellitt</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigasjonskart</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigasjon</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Lagret jorde</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punkt på kartet</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Stopp navigasjon</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Last ned veikart</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Laster ned veikart...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Ingen veikart ennå</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Veikart</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Fant ingen rute</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Du er fremme</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Søk</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Ingen internettilkobling</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Planlegger rute...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Ta til venstre</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Ta til høyre</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Hold til venstre</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Hold til høyre</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Skarpt til venstre</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Skarpt til høyre</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Veikartet dekker ikke denne turen. Laste ned nå?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Ingen jorder</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Ikke funnet</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Kartserveren er opptatt, prøv igjen senere</value>
   </data>
 </root>

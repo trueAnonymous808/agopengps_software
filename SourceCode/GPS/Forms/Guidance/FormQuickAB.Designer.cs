@@ -75,28 +75,28 @@
             // lblCurveExists
             // 
             this.lblCurveExists.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblCurveExists.AutoSize = true;
+            this.lblCurveExists.AutoSize = false;
             this.lblCurveExists.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurveExists.ForeColor = System.Drawing.Color.Black;
-            this.lblCurveExists.Location = new System.Drawing.Point(111, 195);
+            this.lblCurveExists.Location = new System.Drawing.Point(114, 195);
             this.lblCurveExists.Name = "lblCurveExists";
-            this.lblCurveExists.Size = new System.Drawing.Size(91, 23);
+            this.lblCurveExists.Size = new System.Drawing.Size(125, 23);
             this.lblCurveExists.TabIndex = 87;
             this.lblCurveExists.Text = "> OFF <";
-            this.lblCurveExists.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCurveExists.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelStatus
             // 
             this.labelStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelStatus.AutoSize = true;
+            this.labelStatus.AutoSize = false;
             this.labelStatus.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus.ForeColor = System.Drawing.Color.Black;
-            this.labelStatus.Location = new System.Drawing.Point(36, 195);
+            this.labelStatus.Location = new System.Drawing.Point(2, 195);
             this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(84, 23);
+            this.labelStatus.Size = new System.Drawing.Size(110, 23);
             this.labelStatus.TabIndex = 148;
             this.labelStatus.Text = "Status: ";
-            this.labelStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // panelName
             // 

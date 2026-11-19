@@ -501,7 +501,7 @@ Nende vajutamise järjekord on menüüs kuvamise järjekord alt ülespoole.</val
     <value>Loo lippe</value>
   </data>
   <data name="gsForNow" xml:space="preserve">
-    <value>Praeguseks</value>
+    <value>Praegu</value>
   </data>
   <data name="gsFormFlag" xml:space="preserve">
     <value>Lippud</value>
@@ -612,7 +612,7 @@ Nende vajutamise järjekord on menüüs kuvamise järjekord alt ülespoole.</val
     <value>Külgmine</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
-    <value>Laiuskraad</value>
+    <value>Laius</value>
   </data>
   <data name="gsLeft" xml:space="preserve">
     <value>Vasakule</value>
@@ -1017,7 +1017,7 @@ Nende vajutamise järjekord on menüüs kuvamise järjekord alt ülespoole.</val
     <value>Alusta uus põld</value>
   </data>
   <data name="gsStatus" xml:space="preserve">
-    <value>Staatus</value>
+    <value>Olek</value>
   </data>
   <data name="gsSteerAngle" xml:space="preserve">
     <value>Rooli kraad</value>
@@ -1801,7 +1801,7 @@ Eemalda see käsitsi.</value>
     <value>Jadaraadio ei ole NTRIP teenus. Selle korrektsioone kasutatakse samal kujul, nagu need saabuvad. Kui raadio vaikib, võtab üle varuteenus.</value>
   </data>
   <data name="UiS_0203" xml:space="preserve">
-    <value>Laiuskraad</value>
+    <value>Laius</value>
   </data>
   <data name="UiS_0204" xml:space="preserve">
     <value>Laiuskraad:</value>
@@ -1813,10 +1813,10 @@ Eemalda see käsitsi.</value>
     <value>Pikkuskraad:</value>
   </data>
   <data name="UiS_0207" xml:space="preserve">
-    <value>Laius</value>
+    <value>Lat</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
-    <value>Pikk.</value>
+    <value>Lon</value>
   </data>
   <data name="UiS_0209" xml:space="preserve">
     <value>Kõrgus</value>
@@ -1840,7 +1840,7 @@ Eemalda see käsitsi.</value>
     <value>Kiirus:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Satelliidid</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Satelliidid:</value>
@@ -2742,10 +2742,10 @@ NumPad0 - Automaatne sektsioon</value>
     <value>Küsimus</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Ida koordinaat</value>
+    <value>Idakoord.</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Põhja koordinaat</value>
+    <value>Põhjakoord</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -2871,7 +2871,7 @@ NumPad0 - Automaatne sektsioon</value>
     <value>Sisesta salvestuse nimi</value>
   </data>
   <data name="UiS_0557" xml:space="preserve">
-    <value>&gt; VÄLJAS &lt;</value>
+    <value>&gt;VÄLJAS&lt;</value>
   </data>
   <data name="UiS_0558" xml:space="preserve">
     <value>Olek:</value>
@@ -3280,7 +3280,7 @@ NumPad0 - Automaatne sektsioon</value>
     <value>Tegel.:</value>
   </data>
   <data name="UiS_0693" xml:space="preserve">
-    <value>Seatud:</value>
+    <value>Säte:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
     <value>Viga:</value>
@@ -3796,7 +3796,7 @@ Piira pöördekiirust PWM maksimumiga.</value>
     <value>Edenemine:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Impulsse / kraad</value>
+    <value>Impulss/kraad</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>WAS-i nihe</value>
@@ -4674,7 +4674,7 @@ hoiatusel</value>
     <value>PGN juhend</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Juhend -&gt;</value>
+    <value>Abi -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Klaviatuur</value>
@@ -6103,5 +6103,86 @@ Laadi paneelilt Seadistus ja vasakult ülemisest menüüst.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Ametlik</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Laadimine...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelliit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigatsioonikaart</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigeerimine</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Salvestatud põld</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punkt kaardil</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Peata navigeerimine</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Laadi teekaart</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Teekaardi laadimine...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Teekaarti veel pole</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Teekaart</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Marsruuti ei leitud</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Olete kohal</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Otsi</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Internetiühendus puudub</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Marsruudi koostamine...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Pööra vasakule</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Pööra paremale</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Kergelt vasakule</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Kergelt paremale</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Järsult vasakule</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Järsult paremale</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Sihtkoht</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Teekaart ei kata seda teekonda. Kas laadida see kohe?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Põlde pole</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Ei leitud</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Kaardiserver on hõivatud, proovige hiljem uuesti</value>
   </data>
 </root>

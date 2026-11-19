@@ -148,7 +148,7 @@
     <value>Aktivoi</value>
   </data>
   <data name="gsActual" xml:space="preserve">
-    <value>Todellinen</value>
+    <value>Todell.</value>
   </data>
   <data name="gsAdvancedTramLines" xml:space="preserve">
     <value>Ajourat (edistynyt)</value>
@@ -243,7 +243,7 @@ Kuvakkeet näkyvät alhaalta ylöspäin siinä järjestyksessä jossa ne ovat va
     <value>Napin valitsin</value>
   </data>
   <data name="gsCameraBehavior" xml:space="preserve">
-    <value>Kameran käyttäytyminen</value>
+    <value>Kameran toiminta</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
     <value>Peru</value>
@@ -420,7 +420,7 @@ Kuvakkeet näkyvät alhaalta ylöspäin siinä järjestyksessä jossa ne ovat va
     <value>Muokkaa AB -linjaa</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Muokkaa Värejä</value>
+    <value>Muok. värejä</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Muokkaa pellon nimi</value>
@@ -513,7 +513,7 @@ Kuvakkeet näkyvät alhaalta ylöspäin siinä järjestyksessä jossa ne ovat va
     <value>Lippujen Luonti</value>
   </data>
   <data name="gsForNow" xml:space="preserve">
-    <value>Toistaiseksi</value>
+    <value>Väliaik.</value>
   </data>
   <data name="gsFormFlag" xml:space="preserve">
     <value>Liput</value>
@@ -1092,7 +1092,7 @@ KÄYTTÖ OMALLA VASTUULLA.</value>
     <value>Ehdot</value>
   </data>
   <data name="gsToFile" xml:space="preserve">
-    <value>Arkistoida</value>
+    <value>Tallenna</value>
   </data>
   <data name="gsTooFast" xml:space="preserve">
     <value>Liian nopea</value>
@@ -1733,7 +1733,7 @@ Lataus pilvestä: lataa aina avattaessa viimeisin AgSharesta</value>
     <value>Yhdistä GPS</value>
   </data>
   <data name="UiS_0051" xml:space="preserve">
-    <value>Portti</value>
+    <value>Port.</value>
   </data>
   <data name="UiS_0052" xml:space="preserve">
     <value>Sarjaportti</value>
@@ -2082,7 +2082,7 @@ Poista se käsin.</value>
     <value>Haetaan</value>
   </data>
   <data name="UiS_0166" xml:space="preserve">
-    <value>Moduulin vastaus</value>
+    <value>Moduulivaste</value>
   </data>
   <data name="UiS_0167" xml:space="preserve">
     <value>Moduulihaku</value>
@@ -2166,7 +2166,7 @@ Poista se käsin.</value>
     <value>Käytä varapalvelua, kun pääpalvelu pettää</value>
   </data>
   <data name="UiS_0194" xml:space="preserve">
-    <value>Vaihda, kun epäonnistuneita yrityksiä on</value>
+    <value>Vaihda jos vika</value>
   </data>
   <data name="UiS_0195" xml:space="preserve">
     <value>Pää</value>
@@ -2232,7 +2232,7 @@ Poista se käsin.</value>
     <value>Nopeus:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Satelliitit</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Satelliitit:</value>
@@ -2427,7 +2427,7 @@ ohjauksesta</value>
     <value>Käyttöehdot</value>
   </data>
   <data name="UiS_0280" xml:space="preserve">
-    <value>YouTube-opastusvideot</value>
+    <value>YouTube-videot</value>
   </data>
   <data name="UiS_0281" xml:space="preserve">
     <value>Discourse-foorumi</value>
@@ -3103,7 +3103,7 @@ sitten paina uutta näppäintä</value>
     <value>Automaattilohko</value>
   </data>
   <data name="UiS_0505" xml:space="preserve">
-    <value>Napsauta kääntöpisteeseen</value>
+    <value>Kääntöpisteeseen</value>
   </data>
   <data name="UiS_0506" xml:space="preserve">
     <value>Siirrä linjaa vasemmalle</value>
@@ -3134,10 +3134,10 @@ NumPad0 - Automaattilohko</value>
     <value>Kysely</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Itä-koordinaatti</value>
+    <value>Itä</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Pohjois-koordinaatti</value>
+    <value>Pohjoinen</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -3239,7 +3239,7 @@ NumPad0 - Automaattilohko</value>
     <value>Ei kuvaa</value>
   </data>
   <data name="UiS_0549" xml:space="preserve">
-    <value>Toistaiseksi</value>
+    <value>Väliaik.</value>
   </data>
   <data name="UiS_0550" xml:space="preserve">
     <value>Tiedostoon</value>
@@ -4251,7 +4251,7 @@ Rajoita kääntönopeutta PWM-enimmäisarvolla.</value>
     <value>Tavoitearvo</value>
   </data>
   <data name="UiS_0872" xml:space="preserve">
-    <value>Todellinen</value>
+    <value>Todell.</value>
   </data>
   <data name="UiS_0873" xml:space="preserve">
     <value>Anna pellon nimi</value>
@@ -4308,7 +4308,7 @@ Rajoita kääntönopeutta PWM-enimmäisarvolla.</value>
     <value>Pidennä A</value>
   </data>
   <data name="UiS_0891" xml:space="preserve">
-    <value>Seuraava</value>
+    <value>Seur.</value>
   </data>
   <data name="UiS_0892" xml:space="preserve">
     <value>Edellinen</value>
@@ -6007,7 +6007,7 @@ Varmuuskopio: {1}</value>
     <value>Pikakäynnistys GPS-ohjauksella. Aseta työleveys ja vetolaitteen pituus ja luo sitten AB-linja tai kaari. Mitään ei tallenneta levylle.</value>
   </data>
   <data name="gsNext" xml:space="preserve">
-    <value>Seuraava</value>
+    <value>Seur.</value>
   </data>
   <data name="gsAntennaPivot" xml:space="preserve">
     <value>Antennin kääntöpiste</value>
@@ -6104,5 +6104,86 @@ Varmuuskopio: {1}</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Virallinen</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Ladataan...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelliitti</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigointikartta</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigointi</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Tallennettu lohko</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Piste kartalla</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Lopeta navigointi</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Lataa tiekartta</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Ladataan tiekarttaa...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Tiekarttaa ei vielä ole</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Tiekartta</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Reittiä ei löytynyt</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Olet perillä</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Hae</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Ei internet-yhteyttä</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Suunnitellaan reittiä...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Käänny vasemmalle</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Käänny oikealle</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Loivasti vasemmalle</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Loivasti oikealle</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Jyrkästi vasemmalle</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Jyrkästi oikealle</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Määränpää</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Tiekartta ei kata tätä matkaa. Ladataanko se nyt?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Ei lohkoja</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Ei löytynyt</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Karttapalvelin on varattu, yritä myöhemmin uudelleen</value>
   </data>
 </root>

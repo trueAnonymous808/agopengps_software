@@ -354,7 +354,7 @@
     <value>Мертва зона</value>
   </data>
   <data name="gsDefault" xml:space="preserve">
-    <value>За замовчуванням</value>
+    <value>Стандарт</value>
   </data>
   <data name="gsDegree" xml:space="preserve">
     <value>градуси</value>
@@ -435,7 +435,7 @@
     <value>Редагув. лінію АВ</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Редагувати колір</value>
+    <value>Змін. колір</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Редагувати назву поля</value>
@@ -561,7 +561,7 @@
     <value>Повідомлення апаратного забезпечення</value>
   </data>
   <data name="gsHeading" xml:space="preserve">
-    <value>Заголовок</value>
+    <value>Курс</value>
   </data>
   <data name="gsHeadingChart" xml:space="preserve">
     <value>Діаграма курса</value>
@@ -900,7 +900,7 @@
     <value>Завантаження шляху запису</value>
   </data>
   <data name="gsRemain" xml:space="preserve">
-    <value>Залишатися</value>
+    <value>Залишок</value>
   </data>
   <data name="gsRemoveOffset" xml:space="preserve">
     <value>Вилучити зміщення</value>
@@ -990,13 +990,13 @@
     <value>Вибрати попередньо встановлений колір</value>
   </data>
   <data name="gsSendAndSave" xml:space="preserve">
-    <value>Надіслати + Зберегти</value>
+    <value>Надісл.+Збер.</value>
   </data>
   <data name="gsSentToMachineModule" xml:space="preserve">
     <value>Відправлено в Машинний модуль</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Точка встановл</value>
+    <value>Уставка</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Зсув GPS позиц.</value>
@@ -1065,7 +1065,7 @@
     <value>Статус</value>
   </data>
   <data name="gsSteerAngle" xml:space="preserve">
-    <value>Кут повороту керма</value>
+    <value>Кут керма</value>
   </data>
   <data name="gsSteerBar" xml:space="preserve">
     <value>Рульова ручка</value>
@@ -1164,7 +1164,7 @@
     <value>Одиниці</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Використ.вибране</value>
+    <value>Вибране</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>Користувач {0}</value>
@@ -1769,7 +1769,7 @@
     <value>Пошук</value>
   </data>
   <data name="UiS_0166" xml:space="preserve">
-    <value>Відповідь модуля</value>
+    <value>Відповідь</value>
   </data>
   <data name="UiS_0167" xml:space="preserve">
     <value>Пошук модулів</value>
@@ -1913,7 +1913,7 @@
     <value>Курс</value>
   </data>
   <data name="UiS_0214" xml:space="preserve">
-    <value>Швидкість</value>
+    <value>Швидк.</value>
   </data>
   <data name="UiS_0215" xml:space="preserve">
     <value>Швидкість:</value>
@@ -2799,7 +2799,7 @@
     <value>Лінія вправо</value>
   </data>
   <data name="UiS_0508" xml:space="preserve">
-    <value>Налаштування транспорту</value>
+    <value>Налашт. транспорту</value>
   </data>
   <data name="UiS_0509" xml:space="preserve">
     <value>   Типові &#xD;
@@ -3359,7 +3359,7 @@ NumPad0 - Авторозділ</value>
     <value>Факт:</value>
   </data>
   <data name="UiS_0693" xml:space="preserve">
-    <value>Задано:</value>
+    <value>Зад.:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
     <value>Пох.:</value>
@@ -3875,7 +3875,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Прогрес:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Імпульсів/град</value>
+    <value>Імп./град</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>Зсув WAS</value>
@@ -4184,7 +4184,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Причіпне зчеплення:</value>
   </data>
   <data name="UiS_0954" xml:space="preserve">
-    <value>Завантажити</value>
+    <value>Завант.</value>
   </data>
   <data name="UiS_0955" xml:space="preserve">
     <value>Конвертувати старі профілі</value>
@@ -4689,7 +4689,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Профілі</value>
   </data>
   <data name="UiS_1117" xml:space="preserve">
-    <value>Поточний профіль</value>
+    <value>Профіль</value>
   </data>
   <data name="UiS_1118" xml:space="preserve">
     <value>Поточний профіль</value>
@@ -4754,7 +4754,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Довідник PGN</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Довідник -&gt;</value>
+    <value>Довід. -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Клавіатура</value>
@@ -5773,7 +5773,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Налаштування середовища збережено.</value>
   </data>
   <data name="gsSaveVehicleSettings" xml:space="preserve">
-    <value>Налаштування транспорту</value>
+    <value>Налашт. транспорту</value>
   </data>
   <data name="gsSaveVehicleSettingsSaved" xml:space="preserve">
     <value>Налаштування транспорту збережено.</value>
@@ -6104,5 +6104,86 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Офіційний</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Завантаження...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Супутник</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Навігаційна карта</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Навігація</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Збережене поле</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Точка на карті</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Зупинити навігацію</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Завантажити карту доріг</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Завантаження карти доріг...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Карти доріг ще немає</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Карта доріг</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Маршрут не знайдено</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Ви прибули</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Немає підключення до інтернету</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Побудова маршруту...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Поверніть ліворуч</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Поверніть праворуч</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Плавно ліворуч</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Плавно праворуч</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Різко ліворуч</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Різко праворуч</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Пункт призначення</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Карта доріг не охоплює цей маршрут. Завантажити зараз?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Немає полів</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Не знайдено</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Сервер карт зайнятий, спробуйте пізніше</value>
   </data>
 </root>

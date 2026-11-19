@@ -463,7 +463,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Distance</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Distance drapeau</value>
+    <value>Dist. drapeau</value>
   </data>
   <data name="gsDownloading" xml:space="preserve">
     <value>Téléchargement</value>
@@ -490,7 +490,7 @@ L'ordre dans lequel vous cliquez, sera l'ordre dans lequel ils apparaîtrons dan
     <value>Modifier ligne AB</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Modifier couleur</value>
+    <value>Modif. couleur</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Modifier nom du champ</value>
@@ -1874,7 +1874,7 @@ Supprimez-la manuellement.</value>
     <value>Recherche en cours</value>
   </data>
   <data name="UiS_0166" xml:space="preserve">
-    <value>Réponse du module</value>
+    <value>Réponse</value>
   </data>
   <data name="UiS_0167" xml:space="preserve">
     <value>Recherche de modules</value>
@@ -2024,7 +2024,7 @@ Supprimez-la manuellement.</value>
     <value>Vitesse :</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Satellites</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Satellites :</value>
@@ -2090,13 +2090,13 @@ Supprimez-la manuellement.</value>
     <value>Données système</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>État d'AgOpenGPS :</value>
+    <value>État AOG :</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Autoguidage</value>
   </data>
   <data name="UiS_0240" xml:space="preserve">
-    <value>Direction</value>
+    <value>Dir.</value>
   </data>
   <data name="UiS_0241" xml:space="preserve">
     <value>Direction :</value>
@@ -2159,7 +2159,7 @@ autoguidage</value>
     <value>Switch de travail</value>
   </data>
   <data name="UiS_0260" xml:space="preserve">
-    <value>Travail :</value>
+    <value>Trav. :</value>
   </data>
   <data name="UiS_0261" xml:space="preserve">
     <value>Switch :</value>
@@ -3046,7 +3046,7 @@ NumPad0 - Section auto</value>
     <value>Construire</value>
   </data>
   <data name="UiS_0554" xml:space="preserve">
-    <value>Transparence</value>
+    <value>Alpha</value>
   </data>
   <data name="UiS_0555" xml:space="preserve">
     <value>Nom de fichier</value>
@@ -3979,10 +3979,10 @@ Réglez le PWM maximum pour limiter la vitesse de braquage.</value>
     <value>Terminé !</value>
   </data>
   <data name="UiS_0850" xml:space="preserve">
-    <value>Progression :</value>
+    <value>Progrès :</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Impuls. / degré</value>
+    <value>Imp./degré</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>Décalage WAS</value>
@@ -6109,5 +6109,86 @@ Chargez-les depuis le panneau Config et le menu en haut à gauche.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Officiel</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Chargement...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satellite</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Carte de navigation</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Champ enregistré</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Point sur la carte</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Arrêter la navigation</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Télécharger la carte routière</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Téléchargement de la carte routière...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Pas encore de carte routière</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Carte routière</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Aucun itinéraire trouvé</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Vous êtes arrivé</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Pas de connexion Internet</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Calcul de l&apos;itinéraire...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Tournez à gauche</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Tournez à droite</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Légèrement à gauche</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Légèrement à droite</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Fortement à gauche</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Fortement à droite</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>La carte routière ne couvre pas ce trajet. La télécharger maintenant ?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Aucun champ</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Introuvable</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Le serveur de cartes est occupé, réessayez plus tard</value>
   </data>
 </root>

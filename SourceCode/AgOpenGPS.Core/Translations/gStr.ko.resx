@@ -858,7 +858,7 @@
     <value>목표도달시간</value>
   </data>
   <data name="gsRate" xml:space="preserve">
-    <value>변화속도</value>
+    <value>변화율</value>
   </data>
   <data name="gsReallyResetEverything" xml:space="preserve">
     <value>정말모든것을초기화할까요?</value>
@@ -1038,7 +1038,7 @@
     <value>새로운들판시작</value>
   </data>
   <data name="gsStatus" xml:space="preserve">
-    <value>현재상태정보표시</value>
+    <value>상태</value>
   </data>
   <data name="gsSteerAngle" xml:space="preserve">
     <value>바퀴각</value>
@@ -1221,7 +1221,7 @@
     <value>예</value>
   </data>
   <data name="UiS_0004" xml:space="preserve">
-    <value>아니오</value>
+    <value>없음</value>
   </data>
   <data name="UiS_0005" xml:space="preserve">
     <value>취소</value>
@@ -2744,8 +2744,7 @@
     <value>차량 설정</value>
   </data>
   <data name="UiS_0509" xml:space="preserve">
-    <value>   기본값으로 &#xD;
-초기화</value>
+    <value>기본값 복원</value>
   </data>
   <data name="UiS_0510" xml:space="preserve">
     <value>섹션 또는 구역</value>
@@ -2892,7 +2891,7 @@ NumPad0 - 자동 섹션</value>
     <value>기록 이름을 입력하세요</value>
   </data>
   <data name="UiS_0557" xml:space="preserve">
-    <value>&gt; 꺼짐 &lt;</value>
+    <value>&gt;꺼짐&lt;</value>
   </data>
   <data name="UiS_0558" xml:space="preserve">
     <value>상태:</value>
@@ -3853,7 +3852,7 @@ PWM 최대값으로 조향 속도를 제한하세요.</value>
     <value>카메라 동작</value>
   </data>
   <data name="UiS_0863" xml:space="preserve">
-    <value>기본값으로 초기화</value>
+    <value>기본값 복원</value>
   </data>
   <data name="UiS_0864" xml:space="preserve">
     <value>(+90 ~ -90)</value>
@@ -6103,5 +6102,86 @@ PWM 최대값으로 조향 속도를 제한하세요.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 공식</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>불러오는 중...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>위성</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>내비게이션 지도</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>내비게이션</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>저장된 필지</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>지도상의 지점</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>내비게이션 중지</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>도로 지도 다운로드</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>도로 지도 다운로드 중...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>아직 도로 지도가 없습니다</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>도로 지도</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>경로를 찾을 수 없습니다</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>목적지에 도착했습니다</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>인터넷 연결 없음</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>경로 계산 중...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>좌회전</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>우회전</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>약간 왼쪽</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>약간 오른쪽</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>급좌회전</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>급우회전</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>목적지</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>도로 지도가 이 경로를 포함하지 않습니다. 지금 다운로드할까요?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>필지 없음</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>찾을 수 없음</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>지도 서버가 사용 중입니다. 나중에 다시 시도하세요</value>
   </data>
 </root>

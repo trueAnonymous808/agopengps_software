@@ -98,7 +98,7 @@
             this.lblLonStart.AutoSize = true;
             this.lblLonStart.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLonStart.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblLonStart.Location = new System.Drawing.Point(182, 171);
+            this.lblLonStart.Location = new System.Drawing.Point(190, 171);
             this.lblLonStart.Name = "lblLonStart";
             this.lblLonStart.Size = new System.Drawing.Size(101, 19);
             this.lblLonStart.TabIndex = 204;
@@ -110,7 +110,7 @@
             this.lblLatStart.AutoSize = true;
             this.lblLatStart.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLatStart.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblLatStart.Location = new System.Drawing.Point(37, 171);
+            this.lblLatStart.Location = new System.Drawing.Point(50, 171);
             this.lblLatStart.Name = "lblLatStart";
             this.lblLatStart.Size = new System.Drawing.Size(92, 19);
             this.lblLatStart.TabIndex = 203;
@@ -119,24 +119,26 @@
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label4.AutoSize = true;
+            this.label4.AutoSize = false;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(146, 170);
+            this.label4.Location = new System.Drawing.Point(142, 170);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 19);
+            this.label4.Size = new System.Drawing.Size(48, 19);
             this.label4.TabIndex = 202;
             this.label4.Text = "Lon:";
             // 
             // label3
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label3.AutoSize = true;
+            this.label3.AutoSize = false;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(5, 170);
+            this.label3.Location = new System.Drawing.Point(2, 170);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 19);
+            this.label3.Size = new System.Drawing.Size(48, 19);
             this.label3.TabIndex = 201;
             this.label3.Text = "Lat:";
             // 

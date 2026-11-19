@@ -124,7 +124,7 @@
     <value>Klicken Sie auf 2 Punkte auf der Grenze, um zu beginnen</value>
   </data>
   <data name="gsABline" xml:space="preserve">
-    <value>A-B Linie</value>
+    <value>AB-Linie</value>
   </data>
   <data name="gsADConverter" xml:space="preserve">
     <value>AD Konverter</value>
@@ -133,7 +133,7 @@
     <value>A+</value>
   </data>
   <data name="gsAckermann" xml:space="preserve">
-    <value>Geometrieversatz</value>
+    <value>Ackermann</value>
   </data>
   <data name="gsAcquire" xml:space="preserve">
     <value>Erfassen</value>
@@ -216,7 +216,7 @@ Die Reihenfolge, in der Sie sie drücken, entspricht der Reihenfolge, in der sie
     <value>Unteres Menü</value>
   </data>
   <data name="gsBoundary" xml:space="preserve">
-    <value>Schlaggrenze erstellen</value>
+    <value>Grenze</value>
   </data>
   <data name="gsBoundaryLineFilesAreCorrupt" xml:space="preserve">
     <value>Außengrenze datei fehlerhaft</value>
@@ -390,10 +390,10 @@ Die Reihenfolge, in der Sie sie drücken, entspricht der Reihenfolge, in der sie
     <value>Anzeige</value>
   </data>
   <data name="gsDistance" xml:space="preserve">
-    <value>Entfernung</value>
+    <value>Distanz</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Entfernung zur Flagge</value>
+    <value>Distanz Flagge</value>
   </data>
   <data name="gsDownloading" xml:space="preserve">
     <value>Herunterladen</value>
@@ -615,7 +615,7 @@ Die Reihenfolge, in der Sie sie drücken, entspricht der Reihenfolge, in der sie
     <value>Sprache</value>
   </data>
   <data name="gsLatLon" xml:space="preserve">
-    <value>Breitengrad+Längengrad</value>
+    <value>Breite+Länge</value>
   </data>
   <data name="gsLateral" xml:space="preserve">
     <value>Seitlich</value>
@@ -879,7 +879,7 @@ Die Reihenfolge, in der Sie sie drücken, entspricht der Reihenfolge, in der sie
     <value>Versatz entfernen</value>
   </data>
   <data name="gsReset" xml:space="preserve">
-    <value>Zurücksetzen</value>
+    <value>Reset</value>
   </data>
   <data name="gsResetAll" xml:space="preserve">
     <value>Alles zurücksetzen</value>
@@ -963,7 +963,7 @@ Die Reihenfolge, in der Sie sie drücken, entspricht der Reihenfolge, in der sie
     <value>Voreingestellte Farbe auswählen</value>
   </data>
   <data name="gsSendAndSave" xml:space="preserve">
-    <value>Senden + Speichern</value>
+    <value>Senden+Speich.</value>
   </data>
   <data name="gsSentToMachineModule" xml:space="preserve">
     <value>Zum Maschinen Modul senden</value>
@@ -1134,7 +1134,7 @@ VERWENDUNG AUF EIGENES RISIKO.</value>
     <value>Einheiten</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Ausgewähltes verwenden</value>
+    <value>Auswahl nutzen</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>Benutzer</value>
@@ -2247,7 +2247,7 @@ Bitte manuell entfernen.</value>
     <value>Geschw.:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Satelliten</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Satelliten:</value>
@@ -2313,7 +2313,7 @@ Bitte manuell entfernen.</value>
     <value>Systemdaten</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>AgOpenGPS-Status:</value>
+    <value>AOG-Status:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Autolenkung</value>
@@ -2385,7 +2385,7 @@ Autolenkung</value>
     <value>Arbeit:</value>
   </data>
   <data name="UiS_0261" xml:space="preserve">
-    <value>Schalter:</value>
+    <value>Schalt.:</value>
   </data>
   <data name="UiS_0262" xml:space="preserve">
     <value>Heben aktiv</value>
@@ -2505,7 +2505,7 @@ Autolenkung</value>
     <value>Alle zurücksetzen</value>
   </data>
   <data name="UiS_0301" xml:space="preserve">
-    <value>Zurücksetzen</value>
+    <value>Reset</value>
   </data>
   <data name="UiS_0302" xml:space="preserve">
     <value>Assistenten</value>
@@ -3552,7 +3552,7 @@ NumPad0 - Auto-Sektion</value>
     <value>Relais umkehren</value>
   </data>
   <data name="UiS_0648" xml:space="preserve">
-    <value>Senden + Speichern</value>
+    <value>Senden+Speich.</value>
   </data>
   <data name="UiS_0649" xml:space="preserve">
     <value>Anzeigen?</value>
@@ -4202,7 +4202,7 @@ PWM Maximum begrenzt die Lenkgeschwindigkeit.</value>
     <value>Fertig !</value>
   </data>
   <data name="UiS_0850" xml:space="preserve">
-    <value>Fortschritt:</value>
+    <value>Fortschr.:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
     <value>Impulse/Grad</value>
@@ -4445,7 +4445,7 @@ PWM Maximum begrenzt die Lenkgeschwindigkeit.</value>
     <value>Sortieren</value>
   </data>
   <data name="UiS_0931" xml:space="preserve">
-    <value>Verbleibend:</value>
+    <value>Rest:</value>
   </data>
   <data name="UiS_0932" xml:space="preserve">
     <value>Rate:</value>
@@ -4454,7 +4454,7 @@ PWM Maximum begrenzt die Lenkgeschwindigkeit.</value>
     <value>Gesamt:</value>
   </data>
   <data name="UiS_0934" xml:space="preserve">
-    <value>Bearbeitet:</value>
+    <value>Bearb.:</value>
   </data>
   <data name="UiS_0935" xml:space="preserve">
     <value>Bearbeitet</value>
@@ -5084,7 +5084,7 @@ zeigen</value>
     <value>PGN-Leitfaden</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Leitfaden -&gt;</value>
+    <value>Hilfe -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Tastatur</value>
@@ -6109,5 +6109,86 @@ Sicherung: {1}</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Offiziell</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Wird geladen...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satellit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigationskarte</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Gespeichertes Feld</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punkt auf der Karte</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Navigation beenden</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Straßenkarte laden</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Straßenkarte wird geladen...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Noch keine Straßenkarte</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Straßenkarte</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Keine Route gefunden</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Sie haben Ihr Ziel erreicht</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Keine Internetverbindung</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Route wird berechnet...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Links abbiegen</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Rechts abbiegen</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Leicht links</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Leicht rechts</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Scharf links</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Scharf rechts</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Ziel</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Die Straßenkarte deckt diese Fahrt nicht ab. Jetzt laden?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Keine Felder</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nicht gefunden</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Der Kartenserver ist ausgelastet, bitte später erneut versuchen</value>
   </data>
 </root>

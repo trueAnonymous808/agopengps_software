@@ -55,7 +55,7 @@ namespace AgOpenGPS
             labelAPlus.Text = gStr.gsAPlus;
             labelABLine.Text = gStr.gsABline;
             labelABLine2.Text = gStr.gsABline;
-            labelABCurve.Text = gStr.gsCurve;
+            labelABCurve.Text = gStr.gsFromKml;   // the button loads AB lines and curves from a KML file
             labelCurve2.Text = gStr.gsCurve;
             labelEditName.Text = gStr.gsEnterName;
             labelEnterName.Text = gStr.gsEnterName;

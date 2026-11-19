@@ -274,7 +274,7 @@ De volgorde waarin u ze indrukt, is de volgorde waarin ze van onder naar boven i
     <value>Onderste Rij Menu</value>
   </data>
   <data name="gsBoundary" xml:space="preserve">
-    <value>Perceelgrens</value>
+    <value>Grens</value>
   </data>
   <data name="gsBoundaryLineFilesAreCorrupt" xml:space="preserve">
     <value>Perceelgrens lijn is corrupt</value>
@@ -814,7 +814,7 @@ De volgorde waarin u ze indrukt, is de volgorde waarin ze van onder naar boven i
     <value>Buitenste</value>
   </data>
   <data name="gsOverlap" xml:space="preserve">
-    <value>Overlapping</value>
+    <value>Overlap</value>
   </data>
   <data name="gsOverride" xml:space="preserve">
     <value>Handmatig inschakelen</value>
@@ -991,7 +991,7 @@ De volgorde waarin u ze indrukt, is de volgorde waarin ze van onder naar boven i
     <value>Kies kleuren Preset</value>
   </data>
   <data name="gsSendAndSave" xml:space="preserve">
-    <value>Verstuur + Opslaan</value>
+    <value>Stuur + Opsl.</value>
   </data>
   <data name="gsSentToMachineModule" xml:space="preserve">
     <value>Verstuur naar machine-besturing</value>
@@ -1153,7 +1153,7 @@ GEBRUIK OP EIGEN RISICO.</value>
     <value>Maatvoering</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>gebruik geselecteerde</value>
+    <value>Selectie gebr.</value>
   </data>
   <data name="gsUturn" xml:space="preserve">
     <value>U-bocht</value>
@@ -1547,7 +1547,7 @@ Laad via het Config-paneel &amp; menu linksboven.</value>
     <value>Breedte+Lengte</value>
   </data>
   <data name="gsNext" xml:space="preserve">
-    <value>Volgende</value>
+    <value>Verder</value>
   </data>
   <data name="gsStatus" xml:space="preserve">
     <value>Status</value>
@@ -1562,7 +1562,7 @@ Laad via het Config-paneel &amp; menu linksboven.</value>
     <value>Installatiehulpen</value>
   </data>
   <data name="gsWizard" xml:space="preserve">
-    <value>Installatiehulp</value>
+    <value>Wizard</value>
   </data>
   <data name="gsZone" xml:space="preserve">
     <value>Zone</value>
@@ -2193,13 +2193,13 @@ Verwijder het handmatig.</value>
     <value>Een seriële radio is geen NTRIP-service. De correcties worden gebruikt zodra ze binnenkomen. Een reserveservice neemt over als de radio stil valt.</value>
   </data>
   <data name="UiS_0203" xml:space="preserve">
-    <value>Breedtegraad</value>
+    <value>Lat.</value>
   </data>
   <data name="UiS_0204" xml:space="preserve">
     <value>Breedtegraad:</value>
   </data>
   <data name="UiS_0205" xml:space="preserve">
-    <value>Lengtegraad</value>
+    <value>Lengte</value>
   </data>
   <data name="UiS_0206" xml:space="preserve">
     <value>Lengtegraad:</value>
@@ -2208,7 +2208,7 @@ Verwijder het handmatig.</value>
     <value>Breedte</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
-    <value>Lengte</value>
+    <value>Lon</value>
   </data>
   <data name="UiS_0209" xml:space="preserve">
     <value>Hoogte</value>
@@ -2556,7 +2556,7 @@ AutoSteer</value>
     <value>Sneltoetsen</value>
   </data>
   <data name="UiS_0323" xml:space="preserve">
-    <value>Perceelgrens</value>
+    <value>Grens</value>
   </data>
   <data name="UiS_0324" xml:space="preserve">
     <value>Kopakker</value>
@@ -3137,7 +3137,7 @@ NumPad0 - Automatische sectie</value>
     <value>Oostwaarde</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Noordwaarde</value>
+    <value>Noord</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -4187,7 +4187,7 @@ Stel PWM-maximum in om de draaisnelheid te beperken.</value>
     <value>Klaar !</value>
   </data>
   <data name="UiS_0850" xml:space="preserve">
-    <value>Voortgang:</value>
+    <value>Voortg.:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
     <value>Pulsen p. gr.</value>
@@ -4310,7 +4310,7 @@ Stel PWM-maximum in om de draaisnelheid te beperken.</value>
     <value>A verlengen</value>
   </data>
   <data name="UiS_0891" xml:space="preserve">
-    <value>Volgende</value>
+    <value>Verder</value>
   </data>
   <data name="UiS_0892" xml:space="preserve">
     <value>Vorige</value>
@@ -6109,5 +6109,86 @@ Back-up: {1}</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Officieel</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelliet</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigatiekaart</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigatie</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Opgeslagen perceel</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punt op de kaart</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Navigatie stoppen</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Wegenkaart downloaden</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Wegenkaart wordt gedownload...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Nog geen wegenkaart</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Wegenkaart</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Geen route gevonden</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>U bent gearriveerd</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Geen internetverbinding</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Route berekenen...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Sla linksaf</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Sla rechtsaf</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Flauw links</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Flauw rechts</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Scherp links</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Scherp rechts</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Bestemming</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>De wegenkaart dekt deze rit niet. Nu downloaden?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Geen percelen</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Niet gevonden</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>De kaartserver is bezet, probeer het later opnieuw</value>
   </data>
 </root>

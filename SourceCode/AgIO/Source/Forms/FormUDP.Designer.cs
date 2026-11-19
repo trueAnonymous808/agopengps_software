@@ -211,9 +211,9 @@
             // 
             this.label8.AutoSize = false;
             this.label8.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(697, 455);
+            this.label8.Location = new System.Drawing.Point(687, 452);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 23);
+            this.label8.Size = new System.Drawing.Size(120, 27);
             this.label8.TabIndex = 157;
             this.label8.Text = "Set Subnet";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -639,6 +639,7 @@
             this.btnAutoSet.TabIndex = 524;
             this.btnAutoSet.Text = "Auto Fill New Subnet";
             this.btnAutoSet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAutoSet.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAutoSet.UseVisualStyleBackColor = false;
             this.btnAutoSet.Click += new System.EventHandler(this.btnAutoSet_Click);
             // 
@@ -657,9 +658,9 @@
             // 
             this.label12.AutoSize = false;
             this.label12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(744, 61);
+            this.label12.Location = new System.Drawing.Point(734, 61);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(100, 18);
+            this.label12.Size = new System.Drawing.Size(122, 18);
             this.label12.TabIndex = 526;
             this.label12.Text = "Network Prop";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -671,6 +672,7 @@
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(861, 584);
             this.ControlBox = false;
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label5);
@@ -698,7 +700,6 @@
             this.Controls.Add(this.btnSerialCancel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.pboxSendSteer);
             this.Controls.Add(this.lblSubTimer);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

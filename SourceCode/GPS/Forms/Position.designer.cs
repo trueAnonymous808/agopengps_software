@@ -1165,6 +1165,10 @@ namespace AgOpenGPS
             oglMain.MakeCurrent();
             oglMain.Refresh();
 
+            // the navigation map while no field is open (does nothing while a field is open)
+            UpdateNavigationMap();
+            UpdateNavigationGuide();
+
             //stop the timer and calc how long it took to do calcs and draw
             frameTimeRough = (double)(swFrame.ElapsedTicks * 1000) / (double)System.Diagnostics.Stopwatch.Frequency;
 

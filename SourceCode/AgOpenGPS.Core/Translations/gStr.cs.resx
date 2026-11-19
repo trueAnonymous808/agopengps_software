@@ -1048,7 +1048,7 @@ Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od 
     <value>Pošli do Modulu Mašiny</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Požadovaná hodnota</value>
+    <value>Cíl. hodn.</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Pozice Shift GPS</value>
@@ -1790,7 +1790,7 @@ Odeberte ho ručně.</value>
     <value>Vyhledávání</value>
   </data>
   <data name="UiS_0166" xml:space="preserve">
-    <value>Odpověď modulu</value>
+    <value>Odp. modulu</value>
   </data>
   <data name="UiS_0167" xml:space="preserve">
     <value>Hledání modulů</value>
@@ -1913,10 +1913,10 @@ Odeberte ho ručně.</value>
     <value>Délka:</value>
   </data>
   <data name="UiS_0207" xml:space="preserve">
-    <value>Šířka</value>
+    <value>Šíř.</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
-    <value>Délka</value>
+    <value>Dél.</value>
   </data>
   <data name="UiS_0209" xml:space="preserve">
     <value>Výška</value>
@@ -2012,7 +2012,7 @@ Odeberte ho ručně.</value>
     <value>Automatické zatáčení</value>
   </data>
   <data name="UiS_0240" xml:space="preserve">
-    <value>Zatáčení</value>
+    <value>Řízení</value>
   </data>
   <data name="UiS_0241" xml:space="preserve">
     <value>Zatáčení:</value>
@@ -3383,7 +3383,7 @@ NumPad0 - Auto sekce</value>
     <value>Cíl:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
-    <value>Chyba:</value>
+    <value>Chyb:</value>
   </data>
   <data name="UiS_0695" xml:space="preserve">
     <value>Nebo +5</value>
@@ -6104,5 +6104,86 @@ Načtěte z panelu Nastavení a z nabídky vlevo nahoře.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Oficiální</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Načítání...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigační mapa</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigace</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Uložené pole</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Bod na mapě</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Zastavit navigaci</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Stáhnout silniční mapu</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Stahování silniční mapy...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Zatím žádná silniční mapa</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Silniční mapa</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Trasa nenalezena</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Jste v cíli</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Hledat</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Žádné připojení k internetu</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Plánování trasy...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Odbočte vlevo</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Odbočte vpravo</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Mírně vlevo</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Mírně vpravo</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Ostře vlevo</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Ostře vpravo</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Cíl</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Silniční mapa nepokrývá tuto cestu. Stáhnout ji nyní?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Žádná pole</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nenalezeno</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Mapový server je zaneprázdněn, zkuste to později</value>
   </data>
 </root>

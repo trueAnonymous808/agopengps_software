@@ -215,9 +215,9 @@ namespace ModSim
             // 
             this.btnSteerButtonRemote.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnSteerButtonRemote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSteerButtonRemote.Location = new System.Drawing.Point(114, 27);
+            this.btnSteerButtonRemote.Location = new System.Drawing.Point(113, 27);
             this.btnSteerButtonRemote.Name = "btnSteerButtonRemote";
-            this.btnSteerButtonRemote.Size = new System.Drawing.Size(61, 61);
+            this.btnSteerButtonRemote.Size = new System.Drawing.Size(88, 61);
             this.btnSteerButtonRemote.TabIndex = 514;
             this.btnSteerButtonRemote.Text = "Steer Button";
             this.btnSteerButtonRemote.UseVisualStyleBackColor = true;
@@ -356,9 +356,9 @@ namespace ModSim
             this.cboxWorkSwitch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cboxWorkSwitch.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cboxWorkSwitch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboxWorkSwitch.Location = new System.Drawing.Point(210, 29);
+            this.cboxWorkSwitch.Location = new System.Drawing.Point(216, 29);
             this.cboxWorkSwitch.Name = "cboxWorkSwitch";
-            this.cboxWorkSwitch.Size = new System.Drawing.Size(61, 59);
+            this.cboxWorkSwitch.Size = new System.Drawing.Size(88, 59);
             this.cboxWorkSwitch.TabIndex = 539;
             this.cboxWorkSwitch.Text = "Work Switch";
             this.cboxWorkSwitch.UseVisualStyleBackColor = false;
@@ -384,9 +384,9 @@ namespace ModSim
             this.cboxSteerSwitchRemote.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cboxSteerSwitchRemote.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cboxSteerSwitchRemote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboxSteerSwitchRemote.Location = new System.Drawing.Point(15, 29);
+            this.cboxSteerSwitchRemote.Location = new System.Drawing.Point(10, 29);
             this.cboxSteerSwitchRemote.Name = "cboxSteerSwitchRemote";
-            this.cboxSteerSwitchRemote.Size = new System.Drawing.Size(61, 59);
+            this.cboxSteerSwitchRemote.Size = new System.Drawing.Size(88, 59);
             this.cboxSteerSwitchRemote.TabIndex = 538;
             this.cboxSteerSwitchRemote.Text = "Steer Switch";
             this.cboxSteerSwitchRemote.UseVisualStyleBackColor = false;

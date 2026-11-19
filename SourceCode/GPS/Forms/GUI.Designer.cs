@@ -397,7 +397,7 @@ namespace AgOpenGPS
             resetALLToolStripMenuItem.Text = gStr.gsResetAll;
 
             toolStripColors.Text = gStr.gsColors;
-            toolStripSectionColors.Text = AgLibrary.Localization.UiTranslator.IsHungarian() ? gStr.gsSectionColorsSet : "Section " + gStr.gsColors;
+            toolStripSectionColors.Text = gStr.gsSectionColorsSet;
             toolStripConfig.Text = gStr.gsConfiguration;
             toolStripSteerSettings.Text = gStr.gsAutoSteer;
             toolStripWorkingDirectories.Text = gStr.gsDirectories;
@@ -1026,6 +1026,7 @@ namespace AgOpenGPS
             }
 
             PanelSizeRightAndBottom();
+            UpdateNavigationButton();   // the navigation button shows while no field is open
 
             if (tool.isSectionsNotZones)
             {

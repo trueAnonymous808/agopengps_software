@@ -1007,7 +1007,7 @@ Odstráňte ho ručne.</value>
     <value>Vyhľadávanie</value>
   </data>
   <data name="UiS_0166" xml:space="preserve">
-    <value>Odpoveď modulu</value>
+    <value>Odp. modulu</value>
   </data>
   <data name="UiS_0167" xml:space="preserve">
     <value>Vyhľadanie modulov</value>
@@ -1118,25 +1118,25 @@ Odstráňte ho ručne.</value>
     <value>Sériové rádio nie je služba NTRIP. Jeho korekcie sa používajú tak, ako prichádzajú. Záložná služba prevezme, keď rádio stíchne.</value>
   </data>
   <data name="UiS_0203" xml:space="preserve">
-    <value>Zemepisná šírka</value>
+    <value>Zem. šírka</value>
   </data>
   <data name="UiS_0204" xml:space="preserve">
     <value>Zemepisná šírka:</value>
   </data>
   <data name="UiS_0205" xml:space="preserve">
-    <value>Zemepisná dĺžka</value>
+    <value>Zem. dĺžka</value>
   </data>
   <data name="UiS_0206" xml:space="preserve">
     <value>Zemepisná dĺžka:</value>
   </data>
   <data name="UiS_0207" xml:space="preserve">
-    <value>Šírka</value>
+    <value>Šír.</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
-    <value>Dĺžka</value>
+    <value>Dĺž.</value>
   </data>
   <data name="UiS_0209" xml:space="preserve">
-    <value>Nadmorská výška</value>
+    <value>Výška</value>
   </data>
   <data name="UiS_0210" xml:space="preserve">
     <value>Nadmorská výška (m)</value>
@@ -1184,7 +1184,7 @@ Odstráňte ho ručne.</value>
     <value>Dvojitá</value>
   </data>
   <data name="UiS_0225" xml:space="preserve">
-    <value>Náklon</value>
+    <value>Nákl.</value>
   </data>
   <data name="UiS_0226" xml:space="preserve">
     <value>Korigovaný náklon</value>
@@ -1229,7 +1229,7 @@ Odstráňte ho ručne.</value>
     <value>Autopilot</value>
   </data>
   <data name="UiS_0240" xml:space="preserve">
-    <value>Riadenie</value>
+    <value>Riad.</value>
   </data>
   <data name="UiS_0241" xml:space="preserve">
     <value>Riadenie:</value>
@@ -2059,10 +2059,10 @@ NumPad0 - Auto sekcia</value>
     <value>Otázka</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Východná súradnica</value>
+    <value>Východ</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Severná súradnica</value>
+    <value>Sever</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -2600,7 +2600,7 @@ NumPad0 - Auto sekcia</value>
     <value>Cieľ:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
-    <value>Chyba:</value>
+    <value>Chyb:</value>
   </data>
   <data name="UiS_0695" xml:space="preserve">
     <value>Alebo +5</value>
@@ -3115,7 +3115,7 @@ PWM maximum obmedzuje rýchlosť otáčania.</value>
     <value>Priebeh:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Impulzov na stupeň</value>
+    <value>Impulz./stupeň</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>Posun WAS</value>
@@ -3364,7 +3364,7 @@ PWM maximum obmedzuje rýchlosť otáčania.</value>
     <value>Spolu:</value>
   </data>
   <data name="UiS_0934" xml:space="preserve">
-    <value>Aplikované:</value>
+    <value>Aplik.:</value>
   </data>
   <data name="UiS_0935" xml:space="preserve">
     <value>Spracované</value>
@@ -3994,7 +3994,7 @@ upozornení</value>
     <value>Sprievodca PGN</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Sprievodca -&gt;</value>
+    <value>Návod -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Klávesnica</value>
@@ -5183,7 +5183,7 @@ Poradie, v akom ich stlačíte, bude poradie v menu zdola nahor.</value>
     <value>Zobrazenie</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Vzdialenosť k vlajke</value>
+    <value>Vzdial. k vlajke</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
     <value>Stiahnuť všetko</value>
@@ -5339,7 +5339,7 @@ Poradie, v akom ich stlačíte, bude poradie v menu zdola nahor.</value>
     <value>Bočný</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
-    <value>Zemepisná šírka</value>
+    <value>Zem. šírka</value>
   </data>
   <data name="gsLeft" xml:space="preserve">
     <value>Vľavo</value>
@@ -6106,5 +6106,86 @@ POUŽÍVATE NA VLASTNÉ RIZIKO.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Oficiálny</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Načítava sa...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigačná mapa</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigácia</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Uložené pole</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Bod na mape</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Zastaviť navigáciu</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Stiahnuť cestnú mapu</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Sťahovanie cestnej mapy...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Zatiaľ žiadna cestná mapa</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Cestná mapa</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Trasa sa nenašla</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Ste v cieli</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Hľadať</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Žiadne pripojenie k internetu</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Plánovanie trasy...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Odbočte vľavo</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Odbočte vpravo</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Mierne vľavo</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Mierne vpravo</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Ostro vľavo</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Ostro vpravo</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Cieľ</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Cestná mapa nepokrýva túto cestu. Stiahnuť ju teraz?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Žiadne polia</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nenájdené</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Mapový server je zaneprázdnený, skúste to neskôr</value>
   </data>
 </root>

@@ -417,7 +417,7 @@ namespace AgOpenGPS
                     //steerAngleLeft = Math.Atan(mf.vehicle.wheelbase / (diameter / 2 ));
                     //steerAngleLeft = glm.toDegrees(steerAngleLeft);
 
-                    lblCalcSteerAngleInner.Text = steerAngleRight.ToString("N1") + "\u00B0";
+                    ShowSteerAngleValue(steerAngleRight.ToString("N1") + "\u00B0");
                     //lblCalcSteerAngleOuter.Text = steerAngleLeft.ToString("N1") + "\u00B0";
                     lblDiameter.Text = diameter.ToString("N2") + " m";
                     btnStartSA.Image = Properties.Resources.BoundaryRecord;
@@ -925,6 +925,38 @@ namespace AgOpenGPS
             }
         }
 
+        private System.Drawing.Font steerAngleValueFont;
+        private int steerAngleValueLeft = -1;
+
+        // The steer angle value also shows the "Drive Steady" instruction while the circle is recorded. The
+        // instruction takes the whole row next to the record button (the "Steer Angle:" caption steps aside for it),
+        // and a translation still too wide for that is written smaller instead of being cut off.
+        private void ShowSteerAngleValue(string text, bool instruction = false)
+        {
+            Label value = lblCalcSteerAngleInner;
+            if (steerAngleValueFont == null)
+            {
+                steerAngleValueFont = value.Font;
+                steerAngleValueLeft = value.Left;
+            }
+            labelSteerAngle.Visible = !instruction;
+            value.Left = instruction ? btnStartSA.Right + 10 : steerAngleValueLeft;
+            value.Text = text;
+
+            int room = value.Parent.ClientSize.Width - value.Left - 4;
+            System.Drawing.Font font = steerAngleValueFont;
+            float size = font.Size;
+            while (size > 9f && TextRenderer.MeasureText(text, font).Width > room)
+            {
+                size -= 0.5f;
+                if (!ReferenceEquals(font, steerAngleValueFont)) font.Dispose();
+                font = new System.Drawing.Font(steerAngleValueFont.FontFamily, size, steerAngleValueFont.Style, steerAngleValueFont.Unit);
+            }
+            System.Drawing.Font old = value.Font;
+            value.Font = font;
+            if (!ReferenceEquals(old, steerAngleValueFont) && !ReferenceEquals(old, font)) old.Dispose();
+        }
+
         private void btnStartSA_Click(object sender, EventArgs e)
         {
             if (!isSA)
@@ -936,13 +968,13 @@ namespace AgOpenGPS
                 cntr = 0;
                 btnStartSA.Image = Properties.Resources.boundaryStop;
                 lblDiameter.Text = "0";
-                lblCalcSteerAngleInner.Text = AgLibrary.Localization.UiTranslator.TrText("Drive Steady");
+                ShowSteerAngleValue(AgLibrary.Localization.UiTranslator.TrText("Drive Steady"), true);
                 //lblCalcSteerAngleOuter.Text = "Consistent Steering Angle!!";
             }
             else
             {
                 isSA = false;
-                lblCalcSteerAngleInner.Text = "0.0" + "\u00B0";
+                ShowSteerAngleValue("0.0" + "\u00B0");
                 //lblCalcSteerAngleOuter.Text = "0.0" + "\u00B0";
                 btnStartSA.Image = Properties.Resources.BoundaryRecord;
             }

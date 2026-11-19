@@ -133,7 +133,7 @@
     <value>A+</value>
   </data>
   <data name="gsAckermann" xml:space="preserve">
-    <value>Ackermann geometrija</value>
+    <value>Ackermann</value>
   </data>
   <data name="gsAcquire" xml:space="preserve">
     <value>Uhvati</value>
@@ -399,7 +399,7 @@
     <value>Rastojanje</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Rastojanje do obeležja</value>
+    <value>Rast. do obeležja</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
     <value>Preuzmi sve</value>
@@ -990,7 +990,7 @@
     <value>Poslato na modul mašine</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Podesi tačku</value>
+    <value>Zadato</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Pomeraj pocizije</value>
@@ -1158,7 +1158,7 @@ KORIŠTENJE NA VLASTITU ODGOVORNOST.</value>
     <value>Jedinice</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Koristi odabrano</value>
+    <value>Koristi odabr.</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>Korisnik {0}</value>
@@ -1954,7 +1954,7 @@ Ukloni je ručno.</value>
     <value>Autopilot</value>
   </data>
   <data name="UiS_0240" xml:space="preserve">
-    <value>Upravljanje</value>
+    <value>Uprav.</value>
   </data>
   <data name="UiS_0241" xml:space="preserve">
     <value>Upravljanje:</value>
@@ -2784,10 +2784,10 @@ NumPad0 - Auto sekcija</value>
     <value>Upit</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Istočna koord.</value>
+    <value>Istok</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Sjeverna koord.</value>
+    <value>Sjever</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -4102,10 +4102,10 @@ Postavi PWM maksimum za ograničenje brzine okretanja.</value>
     <value>Udaljenost (km)</value>
   </data>
   <data name="UiS_0939" xml:space="preserve">
-    <value> Koristi odabrano</value>
+    <value>Koristi odabr.</value>
   </data>
   <data name="UiS_0940" xml:space="preserve">
-    <value>Koristi odabrano</value>
+    <value>Koristi odabr.</value>
   </data>
   <data name="UiS_0941" xml:space="preserve">
     <value>Obriši parcelu</value>
@@ -6104,5 +6104,86 @@ Učitajte ih iz Config panela i izbornika gore lijevo.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Službeno</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Učitavanje...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigacijska karta</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigacija</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Spremljeno polje</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Točka na karti</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Zaustavi navigaciju</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Preuzmi kartu cesta</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Preuzimanje karte cesta...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Još nema karte cesta</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Karta cesta</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Ruta nije pronađena</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Stigli ste</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Traži</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Nema internetske veze</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Planiranje rute...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Skrenite lijevo</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Skrenite desno</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Blago lijevo</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Blago desno</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Oštro lijevo</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Oštro desno</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Odredište</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Karta cesta ne pokriva ovo putovanje. Preuzeti je sada?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Nema polja</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nije pronađeno</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Poslužitelj karata je zauzet, pokušajte kasnije</value>
   </data>
 </root>

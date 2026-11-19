@@ -133,7 +133,7 @@
     <value>优秀</value>
   </data>
   <data name="gsAckermann" xml:space="preserve">
-    <value>阿克曼转向</value>
+    <value>阿克曼</value>
   </data>
   <data name="gsAcquire" xml:space="preserve">
     <value>获取</value>
@@ -175,9 +175,7 @@
     <value>面积</value>
   </data>
   <data name="gsArrangeText" xml:space="preserve">
-    <value>触摸左侧你希望出现在菜单（右侧）的按钮。
-
-你按下它们的顺序将是它们在菜单上从下往上出现的顺序。</value>
+    <value>触摸左侧要在菜单（右侧）显示的按钮。按下的顺序即为菜单中从下往上的显示顺序。</value>
   </data>
   <data name="gsAttachmentStyle" xml:space="preserve">
     <value>依附类型</value>
@@ -396,7 +394,7 @@
     <value>距离</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>到目标物的距离</value>
+    <value>到标记的距离</value>
   </data>
   <data name="gsDriveIn" xml:space="preserve">
     <value>驶入</value>
@@ -1744,7 +1742,7 @@
     <value>以太网设置</value>
   </data>
   <data name="UiS_0073" xml:space="preserve">
-    <value>请开启UDP并点击确定</value>
+    <value>开启UDP并点确定</value>
   </data>
   <data name="UiS_0074" xml:space="preserve">
     <value>UDP已关闭</value>
@@ -4010,7 +4008,7 @@ U - 掉头 (180度)&#xD;
 ( / ) 斜杠 - 直行</value>
   </data>
   <data name="UiS_0819" xml:space="preserve">
-    <value>此偏移距离将加到经纬度上，并在关闭田块时保存到FIELD.KML文件中。</value>
+    <value>此偏移距离加到经纬度上，关闭田块时保存到FIELD.KML。</value>
   </data>
   <data name="UiS_0820" xml:space="preserve">
     <value>车辆设置现称为“配置”，&#xD;
@@ -4982,7 +4980,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>串口透传开</value>
   </data>
   <data name="UiS_1128" xml:space="preserve">
-    <value>RTCM使用与GPS不同的端口?</value>
+    <value>RTCM用不同端口?</value>
   </data>
   <data name="UiS_1129" xml:space="preserve">
     <value>最小化启动</value>
@@ -6106,5 +6104,86 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 官方</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>正在加载...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>卫星</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>导航地图</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>已保存的地块</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>地图上的点</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>停止导航</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>下载道路地图</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>正在下载道路地图...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>尚无道路地图</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>道路地图</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>未找到路线</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>您已到达</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>无网络连接</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>正在规划路线...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>左转</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>右转</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>稍向左</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>稍向右</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>向左急转</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>向右急转</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>目的地</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>道路地图未覆盖此行程。现在下载吗?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>没有地块</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>未找到</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>地图服务器繁忙,请稍后再试</value>
   </data>
 </root>

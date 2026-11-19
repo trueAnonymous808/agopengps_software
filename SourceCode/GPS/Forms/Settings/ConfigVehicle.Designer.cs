@@ -46,6 +46,7 @@ namespace AgOpenGPS
             Properties.Settings.Default.setMenu_isGridOn = mf.isGridOn;
 
             Properties.Settings.Default.setDisplay_isSvennArrowOn = mf.isSvennArrowOn;
+            SaveNavMapSwitch();
             Properties.Settings.Default.setMenu_isSpeedoOn = mf.isSpeedoOn;
             Properties.Settings.Default.setDisplay_isStartFullScreen = chkDisplayStartFullScreen.Checked;
             Properties.Settings.Default.setMenu_isSideGuideLines = mf.isSideGuideLines;

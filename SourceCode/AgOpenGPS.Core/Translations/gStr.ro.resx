@@ -249,7 +249,7 @@ Ordinea în care le apăsați va fi ordinea în care apar în meniu de jos în s
     <value>Selector buton</value>
   </data>
   <data name="gsCameraBehavior" xml:space="preserve">
-    <value>Comportamentul camerei</value>
+    <value>Comportament cameră</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
     <value>Anulează</value>
@@ -405,7 +405,7 @@ Ordinea în care le apăsați va fi ordinea în care apar în meniu de jos în s
     <value>Distanță</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Distanța până la steag</value>
+    <value>Distanță la steag</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
     <value>Obțineți totul</value>
@@ -435,7 +435,7 @@ Ordinea în care le apăsați va fi ordinea în care apar în meniu de jos în s
     <value>Editați linia AB</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Editați culoarea</value>
+    <value>Edit. culoare</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Editați numele câmpului</value>
@@ -528,7 +528,7 @@ Ordinea în care le apăsați va fi ordinea în care apar în meniu de jos în s
     <value>Creați steaguri</value>
   </data>
   <data name="gsForNow" xml:space="preserve">
-    <value>Deocamdată</value>
+    <value>Momentan</value>
   </data>
   <data name="gsForceOverwrite" xml:space="preserve">
     <value>Suprascrie forțată</value>
@@ -642,7 +642,7 @@ Ordinea în care le apăsați va fi ordinea în care apar în meniu de jos în s
     <value>Limbă</value>
   </data>
   <data name="gsLatLon" xml:space="preserve">
-    <value>Latitudine+Longitudine</value>
+    <value>Lat.+Long.</value>
   </data>
   <data name="gsLateral" xml:space="preserve">
     <value>Laterală</value>
@@ -990,13 +990,13 @@ Ordinea în care le apăsați va fi ordinea în care apar în meniu de jos în s
     <value>Selectați culoarea prestabilită</value>
   </data>
   <data name="gsSendAndSave" xml:space="preserve">
-    <value>Trimite + Salvează</value>
+    <value>Trim. + salv.</value>
   </data>
   <data name="gsSentToMachineModule" xml:space="preserve">
     <value>Trimis către modulul utilajului</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Punct de referință</value>
+    <value>Setpoint</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Deplasare poziție GPS</value>
@@ -3184,7 +3184,7 @@ NumPad0 - Secțiune auto</value>
     <value>Fără imagine</value>
   </data>
   <data name="UiS_0549" xml:space="preserve">
-    <value>Deocamdată</value>
+    <value>Momentan</value>
   </data>
   <data name="UiS_0550" xml:space="preserve">
     <value>În fișier</value>
@@ -3482,7 +3482,7 @@ NumPad0 - Secțiune auto</value>
     <value>Inversează releele</value>
   </data>
   <data name="UiS_0648" xml:space="preserve">
-    <value>Trimite + salvează</value>
+    <value>Trim. + salv.</value>
   </data>
   <data name="UiS_0649" xml:space="preserve">
     <value>Afișare?</value>
@@ -3620,7 +3620,7 @@ NumPad0 - Secțiune auto</value>
     <value>Țintă:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
-    <value>Eroare:</value>
+    <value>Err.:</value>
   </data>
   <data name="UiS_0695" xml:space="preserve">
     <value>Sau +5</value>
@@ -4255,7 +4255,7 @@ Setează PWM maxim pentru a limita viteza de viraj.</value>
     <value>Prelungește A</value>
   </data>
   <data name="UiS_0891" xml:space="preserve">
-    <value>Următorul</value>
+    <value>Urm.</value>
   </data>
   <data name="UiS_0892" xml:space="preserve">
     <value>Anterior</value>
@@ -6024,7 +6024,7 @@ Copie de siguranță: {1}</value>
     <value>Pornire rapidă cu ghidare GPS. Setați lățimea de lucru și lungimea cârligului, apoi creați o linie AB sau o curbă. Nimic nu este salvat pe disc.</value>
   </data>
   <data name="gsNext" xml:space="preserve">
-    <value>Următorul</value>
+    <value>Urm.</value>
   </data>
   <data name="UiS_1446" xml:space="preserve">
     <value>Adaptor CANbus</value>
@@ -6106,5 +6106,86 @@ Copie de siguranță: {1}</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Oficial</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Se încarcă...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Hartă de navigare</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigație</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Câmp salvat</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punct pe hartă</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Oprește navigația</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Descarcă harta drumurilor</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Se descarcă harta drumurilor...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Încă nu există hartă a drumurilor</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Harta drumurilor</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Nu s-a găsit niciun traseu</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Ați ajuns</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Caută</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Fără conexiune la internet</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Se calculează traseul...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Virați la stânga</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Virați la dreapta</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Ușor la stânga</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Ușor la dreapta</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Brusc la stânga</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Brusc la dreapta</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Destinație</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Harta drumurilor nu acoperă acest traseu. O descărcați acum?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Nu există câmpuri</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Negăsit</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Serverul de hărți este ocupat, încercați mai târziu</value>
   </data>
 </root>

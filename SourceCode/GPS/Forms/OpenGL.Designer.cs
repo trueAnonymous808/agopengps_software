@@ -109,7 +109,10 @@ namespace AgOpenGPS
 
                     worldGrid.DrawFieldSurface(fieldColor, camera.ZoomValue, isTextureOn);
 
-                    if (isGridOn) worldGrid.DrawWorldGrid(worldGridColor);
+                    // no field open: a map of the surroundings is the ground, and the grid would only clutter it
+                    DrawNavigationMap();
+                    if (isGridOn && !IsNavGroundShown) worldGrid.DrawWorldGrid(worldGridColor);
+                    DrawNavigationRoute();
 
                     if (isDrawPolygons) GL.PolygonMode(MaterialFace.Front, PolygonMode.Line);
 
@@ -1860,6 +1863,16 @@ namespace AgOpenGPS
             //draw the clock
             GL.Color4(0.9752f, 0.80f, 0.3f, 0.98);
             font.DrawText(center - 210, oglMain.Height - 26, DateTime.Now.ToString("T"), 0.8);
+
+            // the map under the tractor names its source, as its terms ask (the 3D font has no copyright sign)
+            if (IsNavGroundShown)
+            {
+                GL.Color4(0.95f, 0.95f, 0.95f, 0.9f);
+                font.DrawText(-oglMain.Width / 2 + 10, oglMain.Height - 26, NavGroundAttribution, 0.7);
+            }
+
+            // route navigation: the next turn and what is left, at the top
+            DrawNavigationBar();
 
             GL.PushMatrix();
 

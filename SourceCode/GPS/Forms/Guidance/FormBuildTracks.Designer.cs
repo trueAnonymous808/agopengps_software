@@ -158,28 +158,28 @@
             // lblCurveExists
             // 
             this.lblCurveExists.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblCurveExists.AutoSize = true;
+            this.lblCurveExists.AutoSize = false;
             this.lblCurveExists.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurveExists.ForeColor = System.Drawing.Color.Black;
-            this.lblCurveExists.Location = new System.Drawing.Point(111, 195);
+            this.lblCurveExists.Location = new System.Drawing.Point(114, 195);
             this.lblCurveExists.Name = "lblCurveExists";
-            this.lblCurveExists.Size = new System.Drawing.Size(91, 23);
+            this.lblCurveExists.Size = new System.Drawing.Size(125, 23);
             this.lblCurveExists.TabIndex = 87;
             this.lblCurveExists.Text = "> OFF <";
-            this.lblCurveExists.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCurveExists.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelStatus
             // 
             this.labelStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelStatus.AutoSize = true;
+            this.labelStatus.AutoSize = false;
             this.labelStatus.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus.ForeColor = System.Drawing.Color.Black;
-            this.labelStatus.Location = new System.Drawing.Point(36, 195);
+            this.labelStatus.Location = new System.Drawing.Point(2, 195);
             this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(84, 23);
+            this.labelStatus.Size = new System.Drawing.Size(110, 23);
             this.labelStatus.TabIndex = 148;
             this.labelStatus.Text = "Status: ";
-            this.labelStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // panelName
             // 
@@ -745,12 +745,12 @@
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
+            this.label2.AutoSize = false;
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(122, 121);
+            this.label2.Location = new System.Drawing.Point(74, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 16);
+            this.label2.Size = new System.Drawing.Size(130, 18);
             this.label2.TabIndex = 453;
             this.label2.Text = "Pivot";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -777,9 +777,9 @@
             this.labelPivot.AutoSize = false;
             this.labelPivot.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPivot.ForeColor = System.Drawing.Color.Black;
-            this.labelPivot.Location = new System.Drawing.Point(255, 406);
+            this.labelPivot.Location = new System.Drawing.Point(250, 406);
             this.labelPivot.Name = "labelPivot";
-            this.labelPivot.Size = new System.Drawing.Size(100, 16);
+            this.labelPivot.Size = new System.Drawing.Size(130, 18);
             this.labelPivot.TabIndex = 451;
             this.labelPivot.Text = "Pivot";
             this.labelPivot.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -803,13 +803,13 @@
             // labelABCurve
             // 
             this.labelABCurve.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelABCurve.AutoSize = true;
+            this.labelABCurve.AutoSize = false;
             this.labelABCurve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelABCurve.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelABCurve.ForeColor = System.Drawing.Color.Black;
-            this.labelABCurve.Location = new System.Drawing.Point(107, 265);
+            this.labelABCurve.Location = new System.Drawing.Point(74, 263);
             this.labelABCurve.Name = "labelABCurve";
-            this.labelABCurve.Size = new System.Drawing.Size(71, 16);
+            this.labelABCurve.Size = new System.Drawing.Size(130, 18);
             this.labelABCurve.TabIndex = 449;
             this.labelABCurve.Text = "AB + Curve";
             this.labelABCurve.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -817,12 +817,12 @@
             // labelCurve2
             // 
             this.labelCurve2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelCurve2.AutoSize = true;
+            this.labelCurve2.AutoSize = false;
             this.labelCurve2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCurve2.ForeColor = System.Drawing.Color.Black;
-            this.labelCurve2.Location = new System.Drawing.Point(499, 406);
+            this.labelCurve2.Location = new System.Drawing.Point(453, 406);
             this.labelCurve2.Name = "labelCurve2";
-            this.labelCurve2.Size = new System.Drawing.Size(40, 16);
+            this.labelCurve2.Size = new System.Drawing.Size(130, 18);
             this.labelCurve2.TabIndex = 448;
             this.labelCurve2.Text = "Curve";
             this.labelCurve2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -830,12 +830,12 @@
             // labelABLine
             // 
             this.labelABLine.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelABLine.AutoSize = true;
+            this.labelABLine.AutoSize = false;
             this.labelABLine.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelABLine.ForeColor = System.Drawing.Color.Black;
-            this.labelABLine.Location = new System.Drawing.Point(496, 264);
+            this.labelABLine.Location = new System.Drawing.Point(453, 263);
             this.labelABLine.Name = "labelABLine";
-            this.labelABLine.Size = new System.Drawing.Size(49, 16);
+            this.labelABLine.Size = new System.Drawing.Size(130, 18);
             this.labelABLine.TabIndex = 448;
             this.labelABLine.Text = "AB Line";
             this.labelABLine.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -843,12 +843,12 @@
             // labelAPlus
             // 
             this.labelAPlus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelAPlus.AutoSize = true;
+            this.labelAPlus.AutoSize = false;
             this.labelAPlus.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAPlus.ForeColor = System.Drawing.Color.Black;
-            this.labelAPlus.Location = new System.Drawing.Point(506, 121);
+            this.labelAPlus.Location = new System.Drawing.Point(453, 120);
             this.labelAPlus.Name = "labelAPlus";
-            this.labelAPlus.Size = new System.Drawing.Size(23, 16);
+            this.labelAPlus.Size = new System.Drawing.Size(130, 18);
             this.labelAPlus.TabIndex = 448;
             this.labelAPlus.Text = "A+";
             this.labelAPlus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -856,27 +856,27 @@
             // labelLatLonHeading
             // 
             this.labelLatLonHeading.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelLatLonHeading.AutoSize = true;
+            this.labelLatLonHeading.AutoSize = false;
             this.labelLatLonHeading.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelLatLonHeading.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLatLonHeading.ForeColor = System.Drawing.Color.Black;
-            this.labelLatLonHeading.Location = new System.Drawing.Point(290, 263);
+            this.labelLatLonHeading.Location = new System.Drawing.Point(250, 263);
             this.labelLatLonHeading.Name = "labelLatLonHeading";
-            this.labelLatLonHeading.Size = new System.Drawing.Size(61, 16);
+            this.labelLatLonHeading.Size = new System.Drawing.Size(130, 32);
             this.labelLatLonHeading.TabIndex = 448;
             this.labelLatLonHeading.Text = "Lat/Lon +";
-            this.labelLatLonHeading.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelLatLonHeading.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // labelLatLon
             // 
             this.labelLatLon.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelLatLon.AutoSize = true;
+            this.labelLatLon.AutoSize = false;
             this.labelLatLon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelLatLon.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLatLon.ForeColor = System.Drawing.Color.Black;
-            this.labelLatLon.Location = new System.Drawing.Point(294, 120);
+            this.labelLatLon.Location = new System.Drawing.Point(250, 120);
             this.labelLatLon.Name = "labelLatLon";
-            this.labelLatLon.Size = new System.Drawing.Size(49, 16);
+            this.labelLatLon.Size = new System.Drawing.Size(130, 18);
             this.labelLatLon.TabIndex = 448;
             this.labelLatLon.Text = "Lat/Lon";
             this.labelLatLon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

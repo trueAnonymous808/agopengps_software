@@ -192,7 +192,7 @@ Rækkefølgen du klikker på dem, angiver placeringen nedefra og op.</value>
     <value>Bund Menu</value>
   </data>
   <data name="gsBoundary" xml:space="preserve">
-    <value>Markgrænse</value>
+    <value>Grænse</value>
   </data>
   <data name="gsBoundaryLineFilesAreCorrupt" xml:space="preserve">
     <value>Fejl I KantlInjens Fil</value>
@@ -1534,7 +1534,7 @@ Fjern den manuelt.</value>
     <value>En seriel radio er ikke en NTRIP-tjeneste. Dens korrektioner bruges, som de kommer. En reservetjeneste overtager, når radioen bliver stille.</value>
   </data>
   <data name="UiS_0203" xml:space="preserve">
-    <value>Breddegrad</value>
+    <value>Breddegr.</value>
   </data>
   <data name="UiS_0204" xml:space="preserve">
     <value>Breddegrad:</value>
@@ -1573,7 +1573,7 @@ Fjern den manuelt.</value>
     <value>Hastighed:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Satellitter</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Satellitter:</value>
@@ -1639,7 +1639,7 @@ Fjern den manuelt.</value>
     <value>Systemdata</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>AgOpenGPS-status:</value>
+    <value>AOG-status:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Autostyring</value>
@@ -1708,7 +1708,7 @@ autostyring</value>
     <value>Arbejdskontakt</value>
   </data>
   <data name="UiS_0260" xml:space="preserve">
-    <value>Arbejde:</value>
+    <value>Arb.:</value>
   </data>
   <data name="UiS_0261" xml:space="preserve">
     <value>Kontakt:</value>
@@ -1768,7 +1768,7 @@ autostyring</value>
     <value>Vilkår og betingelser</value>
   </data>
   <data name="UiS_0280" xml:space="preserve">
-    <value>YouTube-vejledninger</value>
+    <value>YouTube-videoer</value>
   </data>
   <data name="UiS_0281" xml:space="preserve">
     <value>Discourse-forum</value>
@@ -1897,7 +1897,7 @@ autostyring</value>
     <value>Genvejstaster</value>
   </data>
   <data name="UiS_0323" xml:space="preserve">
-    <value>Markgrænse</value>
+    <value>Grænse</value>
   </data>
   <data name="UiS_0324" xml:space="preserve">
     <value>Forager</value>
@@ -3673,10 +3673,10 @@ Indstil PWM maksimum for at begrænse drejehastigheden.</value>
     <value>Henter... Vent venligst</value>
   </data>
   <data name="UiS_0899" xml:space="preserve">
-    <value>Længde:</value>
+    <value>Lgd.:</value>
   </data>
   <data name="UiS_0900" xml:space="preserve">
-    <value>Bredde:</value>
+    <value>Br.:</value>
   </data>
   <data name="UiS_0901" xml:space="preserve">
     <value>Afstand til flag:</value>
@@ -5532,7 +5532,7 @@ Sky-indlæsning: hent altid den nyeste version fra AgShare ved åbning</value>
     <value>Lateral</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
-    <value>Breddegrad</value>
+    <value>Breddegr.</value>
   </data>
   <data name="gsLightbar" xml:space="preserve">
     <value>Lysbjælke</value>
@@ -5607,7 +5607,7 @@ Sky-indlæsning: hent altid den nyeste version fra AgShare ved åbning</value>
     <value>Forbi kurvens ende</value>
   </data>
   <data name="gsPivot" xml:space="preserve">
-    <value>Omdrejningspunkt</value>
+    <value>Pivot</value>
   </data>
   <data name="gsPivotDistance" xml:space="preserve">
     <value>Afstand til omdrejningspunkt</value>
@@ -5773,7 +5773,7 @@ Indlæs fra Konfig-panelet og menuen øverst til venstre.</value>
     <value>XTE-diagram</value>
   </data>
   <data name="gsYouTubeTutorials" xml:space="preserve">
-    <value>YouTube-vejledninger</value>
+    <value>YouTube-videoer</value>
   </data>
   <data name="gsZeroRoll" xml:space="preserve">
     <value>Nulstil krængning</value>
@@ -6104,5 +6104,86 @@ Indlæs fra Konfig-panelet og menuen øverst til venstre.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Officiel</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Indlæser...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satellit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigationskort</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Gemt mark</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punkt på kortet</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Stop navigation</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Hent vejkort</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Henter vejkort...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Intet vejkort endnu</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Vejkort</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Ingen rute fundet</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Du er fremme</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Ingen internetforbindelse</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Planlægger rute...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Drej til venstre</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Drej til højre</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Hold til venstre</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Hold til højre</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Skarpt til venstre</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Skarpt til højre</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Vejkortet dækker ikke denne tur. Hent det nu?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Ingen marker</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Ikke fundet</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Kortserveren er optaget, prøv igen senere</value>
   </data>
 </root>

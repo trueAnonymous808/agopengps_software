@@ -879,7 +879,7 @@ Ordningen de trycks på är den ordningen de kommer visar i menyn uppifrån och 
     <value>Lyft tid</value>
   </data>
   <data name="gsRate" xml:space="preserve">
-    <value>Hastighet</value>
+    <value>Giva</value>
   </data>
   <data name="gsReallyResetEverything" xml:space="preserve">
     <value>Helt säker på att du vill återställa allt?</value>
@@ -1203,7 +1203,7 @@ ANVÄNDS PÅ EGEN RISK.</value>
     <value>Fönster fortfarande öppna</value>
   </data>
   <data name="gsWizard" xml:space="preserve">
-    <value>Guidad inställning</value>
+    <value>Guide</value>
   </data>
   <data name="gsWizards" xml:space="preserve">
     <value>Guidade inställningar</value>
@@ -2030,7 +2030,7 @@ Ta bort det manuellt.</value>
     <value>Hastighet:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Satelliter</value>
+    <value>Sat.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Satelliter:</value>
@@ -2096,7 +2096,7 @@ Ta bort det manuellt.</value>
     <value>Systemdata</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>AgOpenGPS-status:</value>
+    <value>AOG-status:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Autostyrning</value>
@@ -2932,10 +2932,10 @@ NumPad0 - Automatisk sektion</value>
     <value>Fråga</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Östlig koordinat</value>
+    <value>Östvärde</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Nordlig koordinat</value>
+    <value>Nordvärde</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -3470,7 +3470,7 @@ NumPad0 - Automatisk sektion</value>
     <value>Fakt.:</value>
   </data>
   <data name="UiS_0693" xml:space="preserve">
-    <value>Önskad:</value>
+    <value>Mål:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
     <value>Fel:</value>
@@ -6106,5 +6106,86 @@ Molnladdning: hämta alltid senaste från AgShare vid öppning</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Officiell</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Laddar...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satellit</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigeringskarta</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigering</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Sparat skifte</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punkt på kartan</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Stoppa navigering</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Hämta vägkarta</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Hämtar vägkarta...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Ingen vägkarta ännu</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Vägkarta</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Ingen rutt hittades</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Du har kommit fram</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Ingen internetanslutning</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Beräknar rutt...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Sväng vänster</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Sväng höger</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Håll vänster</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Håll höger</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Skarpt vänster</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Skarpt höger</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Vägkartan täcker inte den här resan. Hämta den nu?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Inga skiften</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Hittades inte</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Kartservern är upptagen, försök igen senare</value>
   </data>
 </root>

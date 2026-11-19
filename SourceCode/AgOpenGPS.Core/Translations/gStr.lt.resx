@@ -390,7 +390,7 @@ Kokia tvarka juos paspausite, tokia tvarka atsiras Menu.</value>
     <value>Atstumas</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Atstumas iki žymeklio</value>
+    <value>Atst. iki žymeklio</value>
   </data>
   <data name="gsDriveIn" xml:space="preserve">
     <value>Artimiausiais Laukas</value>
@@ -414,7 +414,7 @@ Kokia tvarka juos paspausite, tokia tvarka atsiras Menu.</value>
     <value>Redaguoti AB liniją</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Redaguoti spalvas</value>
+    <value>Keisti spalvą</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Redaguoti lauko pavadinimą</value>
@@ -708,7 +708,7 @@ Kokia tvarka juos paspausite, tokia tvarka atsiras Menu.</value>
     <value>Modulis</value>
   </data>
   <data name="gsMultiColorSections" xml:space="preserve">
-    <value>Daugiaspalvės sekcijos</value>
+    <value>Daugiaspalvės</value>
   </data>
   <data name="gsN_East" xml:space="preserve">
     <value>Šiaurės rytai</value>
@@ -939,7 +939,7 @@ Kokia tvarka juos paspausite, tokia tvarka atsiras Menu.</value>
     <value>Išsiųsta į mašinos modulį</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Nustatytas taškas</value>
+    <value>Užduotis</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Paslinkti GPS padėtį</value>
@@ -1107,7 +1107,7 @@ NAUDOJIMAS SAVO RIZIKA.</value>
     <value>Vienetai</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Naudoti pasirinktą</value>
+    <value>Imti pasirinktą</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>{0} Baitas</value>
@@ -1257,7 +1257,7 @@ NAUDOJIMAS SAVO RIZIKA.</value>
     <value>Kopijuoti pagalbai</value>
   </data>
   <data name="UiS_0026" xml:space="preserve">
-    <value>Pavadinimas</value>
+    <value>Pav.</value>
   </data>
   <data name="UiS_0027" xml:space="preserve">
     <value>Pranešimas</value>
@@ -1804,7 +1804,7 @@ Pašalink jį ranka.</value>
     <value>Ilguma:</value>
   </data>
   <data name="UiS_0207" xml:space="preserve">
-    <value>Plat.</value>
+    <value>Plat</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
     <value>Ilg.</value>
@@ -1831,7 +1831,7 @@ Pašalink jį ranka.</value>
     <value>Greitis:</value>
   </data>
   <data name="UiS_0216" xml:space="preserve">
-    <value>Palydovai</value>
+    <value>Pal.</value>
   </data>
   <data name="UiS_0217" xml:space="preserve">
     <value>Palydovai:</value>
@@ -1897,7 +1897,7 @@ Pašalink jį ranka.</value>
     <value>Sistemos duomenys</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>AgOpenGPS būsena:</value>
+    <value>AOG būsena:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Automatinis vairavimas</value>
@@ -1969,7 +1969,7 @@ auto vairavimo</value>
     <value>Darbas:</value>
   </data>
   <data name="UiS_0261" xml:space="preserve">
-    <value>Jungiklis:</value>
+    <value>Jungt.:</value>
   </data>
   <data name="UiS_0262" xml:space="preserve">
     <value>Kėlimo įj.</value>
@@ -2014,7 +2014,7 @@ auto vairavimo</value>
     <value>Ackermann</value>
   </data>
   <data name="UiS_0276" xml:space="preserve">
-    <value>Apsisukimas</value>
+    <value>U-pos.</value>
   </data>
   <data name="UiS_0277" xml:space="preserve">
     <value>Techn.</value>
@@ -2711,7 +2711,7 @@ o tada paspauskite naują klavišą</value>
     <value>Linija dešinėn</value>
   </data>
   <data name="UiS_0508" xml:space="preserve">
-    <value>Transporto priemonės nustatymai</value>
+    <value>Mašinos nustatymai</value>
   </data>
   <data name="UiS_0509" xml:space="preserve">
     <value>   Atstatyti &#xD;
@@ -2733,10 +2733,10 @@ NumPad0 - Auto sekcija</value>
     <value>Klausimas</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Rytų koordinatė</value>
+    <value>Rytai</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Šiaurės koordinatė</value>
+    <value>Šiaurė</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -3268,10 +3268,10 @@ NumPad0 - Auto sekcija</value>
     <value>Pėdos</value>
   </data>
   <data name="UiS_0692" xml:space="preserve">
-    <value>Faktinis:</value>
+    <value>Dab.:</value>
   </data>
   <data name="UiS_0693" xml:space="preserve">
-    <value>Nustatyta:</value>
+    <value>Užd.:</value>
   </data>
   <data name="UiS_0694" xml:space="preserve">
     <value>Klaida:</value>
@@ -3787,7 +3787,7 @@ PWM maksimumu apribok posūkio greitį.</value>
     <value>Eiga:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Impulsai / laipsnis</value>
+    <value>Imp. / laipsnis</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>WAS poslinkis</value>
@@ -4051,10 +4051,10 @@ PWM maksimumu apribok posūkio greitį.</value>
     <value>Atstumas (km)</value>
   </data>
   <data name="UiS_0939" xml:space="preserve">
-    <value> Naudoti pasirinktą</value>
+    <value>Imti pasirinktą</value>
   </data>
   <data name="UiS_0940" xml:space="preserve">
-    <value>Naudoti pasirinktą</value>
+    <value>Imti pasirinktą</value>
   </data>
   <data name="UiS_0941" xml:space="preserve">
     <value>Ištrinti lauką</value>
@@ -4114,7 +4114,7 @@ PWM maksimumu apribok posūkio greitį.</value>
     <value>Konvertuoti</value>
   </data>
   <data name="UiS_0960" xml:space="preserve">
-    <value>2 žingsnis: pasirink, ką konvertuoti (transporto priemonę ir (arba) padargą):</value>
+    <value>2 žingsnis: ką konvertuoti (transp. priemonę/padargą):</value>
   </data>
   <data name="UiS_0961" xml:space="preserve">
     <value>Konvertuoti padargą</value>
@@ -5717,7 +5717,7 @@ Debesies įkėlimas: atidarant visada atsisiųsti naujausią versiją iš AgShar
     <value>Įkelti profilį</value>
   </data>
   <data name="gsName" xml:space="preserve">
-    <value>Pavadinimas</value>
+    <value>Pav.</value>
   </data>
   <data name="gsNew" xml:space="preserve">
     <value>Naujas</value>
@@ -6103,5 +6103,86 @@ Debesies įkėlimas: atidarant visada atsisiųsti naujausią versiją iš AgShar
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Oficialus</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Įkeliama...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Palydovas</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Navigacijos žemėlapis</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigacija</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Išsaugotas laukas</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Taškas žemėlapyje</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Stabdyti navigaciją</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Atsisiųsti kelių žemėlapį</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Atsisiunčiamas kelių žemėlapis...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Kelių žemėlapio dar nėra</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Kelių žemėlapis</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Maršrutas nerastas</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Atvykote</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Ieškoti</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Nėra interneto ryšio</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Planuojamas maršrutas...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Sukite į kairę</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Sukite į dešinę</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Šiek tiek į kairę</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Šiek tiek į dešinę</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Staigiai į kairę</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Staigiai į dešinę</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Tikslas</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Kelių žemėlapis neapima šios kelionės. Atsisiųsti dabar?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Laukų nėra</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nerasta</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Žemėlapių serveris užimtas, bandykite vėliau</value>
   </data>
 </root>

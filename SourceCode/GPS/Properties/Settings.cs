@@ -53,6 +53,9 @@ namespace AgOpenGPS.Properties
         public bool setDisplay_isBrightnessOn = false;
         public bool setDisplay_isLogElevation = false;
         public bool setDisplay_isSvennArrowOn = false;
+        public bool setNavMap_Enabled = false;                 // live map while no field is open (off until switched on)
+        public string setNavMap_Source = "OpenStreetMap";      // OpenStreetMap or BingSatellite
+        public string setNavMap_NavigationSource = "OpenStreetMap";   // the map while a route is followed (navigation menu)
         public bool setDisplay_isSectionLinesOn = true;
         public bool setDisplay_isLineSmooth = false;
         public bool setDisplay_isTermsAccepted = false;

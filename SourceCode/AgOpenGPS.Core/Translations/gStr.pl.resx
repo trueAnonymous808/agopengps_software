@@ -381,7 +381,7 @@ Kolejność, w jakiej je naciśniesz, będzie kolejnością, w jakiej pojawią s
     <value>Dystans</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Odległość do znacznika</value>
+    <value>Dystans do znacznika</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
     <value>Pobierz wszystkie</value>
@@ -498,7 +498,7 @@ Kolejność, w jakiej je naciśniesz, będzie kolejnością, w jakiej pojawią s
     <value>Utwórz znacznik</value>
   </data>
   <data name="gsForNow" xml:space="preserve">
-    <value>Tymczasowo</value>
+    <value>Na razie</value>
   </data>
   <data name="gsForceOverwrite" xml:space="preserve">
     <value>Wymuś nadpisanie</value>
@@ -939,7 +939,7 @@ Kolejność, w jakiej je naciśniesz, będzie kolejnością, w jakiej pojawią s
     <value>Wysłano do modułu maszyny</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Ustaw punkt</value>
+    <value>Wart. zad.</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Przesunięcie pozycji GPS</value>
@@ -1053,7 +1053,7 @@ UŻYWAJ NA WŁASNE RYZYKO.</value>
     <value>Menu narzędzi</value>
   </data>
   <data name="gsTotal" xml:space="preserve">
-    <value>Całkowity</value>
+    <value>Razem</value>
   </data>
   <data name="gsTrack" xml:space="preserve">
     <value>Rozstaw kół</value>
@@ -2091,7 +2091,7 @@ Usuń je ręcznie.</value>
     <value>Skanowanie</value>
   </data>
   <data name="UiS_0166" xml:space="preserve">
-    <value>Odpowiedź modułu</value>
+    <value>Odp. modułu</value>
   </data>
   <data name="UiS_0167" xml:space="preserve">
     <value>Skanowanie modułów</value>
@@ -2214,7 +2214,7 @@ Usuń je ręcznie.</value>
     <value>Dł. geogr.:</value>
   </data>
   <data name="UiS_0207" xml:space="preserve">
-    <value>Szer.</value>
+    <value>Szer</value>
   </data>
   <data name="UiS_0208" xml:space="preserve">
     <value>Dł.</value>
@@ -2301,7 +2301,7 @@ Usuń je ręcznie.</value>
     <value>Jak często</value>
   </data>
   <data name="UiS_0236" xml:space="preserve">
-    <value>Częstotliwość</value>
+    <value>Częstość</value>
   </data>
   <data name="UiS_0237" xml:space="preserve">
     <value>Dane systemu</value>
@@ -2313,7 +2313,7 @@ Usuń je ręcznie.</value>
     <value>Autoprowadzenie</value>
   </data>
   <data name="UiS_0240" xml:space="preserve">
-    <value>Kierowanie</value>
+    <value>Kierow.</value>
   </data>
   <data name="UiS_0241" xml:space="preserve">
     <value>Kierowanie:</value>
@@ -2424,7 +2424,7 @@ autoprowadzenia</value>
     <value>Ackermann</value>
   </data>
   <data name="UiS_0276" xml:space="preserve">
-    <value>Zawracanie</value>
+    <value>Zawrót</value>
   </data>
   <data name="UiS_0277" xml:space="preserve">
     <value>Ścieżki</value>
@@ -3143,10 +3143,10 @@ NumPad0 - Sekcja auto</value>
     <value>Pytanie</value>
   </data>
   <data name="UiS_0514" xml:space="preserve">
-    <value>Współrzędna wschodnia</value>
+    <value>Wschód</value>
   </data>
   <data name="UiS_0515" xml:space="preserve">
-    <value>Współrzędna północna</value>
+    <value>Północ</value>
   </data>
   <data name="UiS_0516" xml:space="preserve">
     <value>ms</value>
@@ -4197,7 +4197,7 @@ Ustaw maksymalne PWM, aby ograniczyć szybkość skręcania.</value>
     <value>Postęp:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
-    <value>Impulsy / stopień</value>
+    <value>Imp. / stopień</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
     <value>Przesunięcie WAS</value>
@@ -5076,7 +5076,7 @@ ostrzeżeniu</value>
     <value>Przewodnik PGN</value>
   </data>
   <data name="UiS_1138" xml:space="preserve">
-    <value>Przewodnik -&gt;</value>
+    <value>Pomoc -&gt;</value>
   </data>
   <data name="UiS_1139" xml:space="preserve">
     <value>Klawiatura</value>
@@ -6104,5 +6104,86 @@ Kopia zapasowa: {1}</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Oficjalny</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Ładowanie...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satelita</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Mapa nawigacji</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Nawigacja</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Zapisane pole</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punkt na mapie</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Zatrzymaj nawigację</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Pobierz mapę dróg</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Pobieranie mapy dróg...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Brak mapy dróg</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Mapa dróg</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Nie znaleziono trasy</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Jesteś na miejscu</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Szukaj</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Brak połączenia z internetem</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Wyznaczanie trasy...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Skręć w lewo</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Skręć w prawo</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Lekko w lewo</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Lekko w prawo</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Ostro w lewo</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Ostro w prawo</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Cel</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>Mapa dróg nie obejmuje tej trasy. Pobrać ją teraz?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Brak pól</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Nie znaleziono</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Serwer map jest zajęty, spróbuj później</value>
   </data>
 </root>

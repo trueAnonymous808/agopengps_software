@@ -72,7 +72,7 @@ namespace AgOpenGPS
         private static void SetupSystemGrid(DataGridView dgv)
         {
             dgv.Columns.Clear();
-            dgv.Columns.Add(new DataGridViewTextBoxColumn { Name = "colSetting", HeaderText = AgLibrary.Localization.UiTranslator.IsHungarian() ? "Mutató" : "Metric", Width = 280, SortMode = DataGridViewColumnSortMode.NotSortable });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn { Name = "colSetting", HeaderText = AgLibrary.Localization.UiTranslator.TrText("Setting"), Width = 280, SortMode = DataGridViewColumnSortMode.NotSortable });
             dgv.Columns.Add(new DataGridViewTextBoxColumn { Name = "colValue", HeaderText = "Value", Width = 400, SortMode = DataGridViewColumnSortMode.NotSortable });
             dgv.Columns["colValue"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Tahoma", 10F, FontStyle.Bold);

@@ -246,7 +246,7 @@ A ordem em que você os tocar será a ordem em que aparecerão no menu, de baixo
     <value>Seletor de botões</value>
   </data>
   <data name="gsCameraBehavior" xml:space="preserve">
-    <value>Comportamento da câmera</value>
+    <value>Comport. da câmera</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
     <value>Cancelar</value>
@@ -399,7 +399,7 @@ A ordem em que você os tocar será a ordem em que aparecerão no menu, de baixo
     <value>Distância</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Distância até a bandeira</value>
+    <value>Distância à bandeira</value>
   </data>
   <data name="gsDownloadAll" xml:space="preserve">
     <value>Obter tudo</value>
@@ -819,7 +819,7 @@ A ordem em que você os tocar será a ordem em que aparecerão no menu, de baixo
     <value>Pausa</value>
   </data>
   <data name="gsPivot" xml:space="preserve">
-    <value>Ponto de rotação</value>
+    <value>Pivô</value>
   </data>
   <data name="gsPivotDistance" xml:space="preserve">
     <value>Distância ponto de rotação</value>
@@ -840,7 +840,7 @@ A ordem em que você os tocar será a ordem em que aparecerão no menu, de baixo
     <value>Ponto de navegação</value>
   </data>
   <data name="gsPoints" xml:space="preserve">
-    <value>Pontos GPS</value>
+    <value>Pontos</value>
   </data>
   <data name="gsPointsToProcess" xml:space="preserve">
     <value>Pontos a Processar</value>
@@ -990,7 +990,7 @@ A ordem em que você os tocar será a ordem em que aparecerão no menu, de baixo
     <value>Enviado para o módulo da máquina</value>
   </data>
   <data name="gsSetPoint" xml:space="preserve">
-    <value>Ponto de ajuste</value>
+    <value>Setpoint</value>
   </data>
   <data name="gsShiftGPSPosition" xml:space="preserve">
     <value>Mudar posição GPS</value>
@@ -1158,7 +1158,7 @@ USE POR SUA CONTA E RISCO.</value>
     <value>Unidades</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Usar selecionado</value>
+    <value>Usar seleção</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>Usuário</value>
@@ -1697,7 +1697,7 @@ Carregamento na nuvem: baixa sempre a versão mais recente do AgShare ao abrir o
     <value>Usar</value>
   </data>
   <data name="UiS_0034" xml:space="preserve">
-    <value>Somente</value>
+    <value>Só</value>
   </data>
   <data name="UiS_0035" xml:space="preserve">
     <value>Ou</value>
@@ -1820,7 +1820,7 @@ Carregamento na nuvem: baixa sempre a versão mais recente do AgShare ao abrir o
     <value>O UDP está desligado</value>
   </data>
   <data name="UiS_0075" xml:space="preserve">
-    <value>UDP desligado</value>
+    <value>UDP desl.</value>
   </data>
   <data name="UiS_0076" xml:space="preserve">
     <value>Taxa de transferência</value>
@@ -2097,7 +2097,7 @@ Remova-o manualmente.</value>
     <value>Procurando</value>
   </data>
   <data name="UiS_0166" xml:space="preserve">
-    <value>Resposta do módulo</value>
+    <value>Resp. módulo</value>
   </data>
   <data name="UiS_0167" xml:space="preserve">
     <value>Busca de módulos</value>
@@ -2313,7 +2313,7 @@ Remova-o manualmente.</value>
     <value>Dados do sistema</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>Status do AgOpenGPS:</value>
+    <value>Status AOG:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Direção automática</value>
@@ -2376,13 +2376,13 @@ automática</value>
     <value>Ping máquina:</value>
   </data>
   <data name="UiS_0258" xml:space="preserve">
-    <value>Trabalho</value>
+    <value>Trab.</value>
   </data>
   <data name="UiS_0259" xml:space="preserve">
     <value>Interruptor de trabalho</value>
   </data>
   <data name="UiS_0260" xml:space="preserve">
-    <value>Trabalho:</value>
+    <value>Trab.:</value>
   </data>
   <data name="UiS_0261" xml:space="preserve">
     <value>Interr.:</value>
@@ -3269,7 +3269,7 @@ NumPad0 - Seção automática</value>
     <value>Criar</value>
   </data>
   <data name="UiS_0554" xml:space="preserve">
-    <value>Transparência</value>
+    <value>Alfa</value>
   </data>
   <data name="UiS_0555" xml:space="preserve">
     <value>Nome do arquivo</value>
@@ -4208,7 +4208,7 @@ Ajuste o PWM máximo para limitar a velocidade de giro.</value>
     <value>Pulsos / grau</value>
   </data>
   <data name="UiS_0852" xml:space="preserve">
-    <value>Deslocamento do WAS</value>
+    <value>Offset WAS</value>
   </data>
   <data name="UiS_0853" xml:space="preserve">
     <value>Rumo:</value>
@@ -4325,7 +4325,7 @@ Ajuste o PWM máximo para limitar a velocidade de giro.</value>
     <value>Estender A</value>
   </data>
   <data name="UiS_0891" xml:space="preserve">
-    <value>Próximo</value>
+    <value>Próx.</value>
   </data>
   <data name="UiS_0892" xml:space="preserve">
     <value>Anterior</value>
@@ -4469,10 +4469,10 @@ Ajuste o PWM máximo para limitar a velocidade de giro.</value>
     <value>Distância (km)</value>
   </data>
   <data name="UiS_0939" xml:space="preserve">
-    <value> Usar selecionado</value>
+    <value>Usar seleção</value>
   </data>
   <data name="UiS_0940" xml:space="preserve">
-    <value>Usar selecionado</value>
+    <value>Usar seleção</value>
   </data>
   <data name="UiS_0941" xml:space="preserve">
     <value>Excluir campo</value>
@@ -6024,7 +6024,7 @@ Backup: {1}</value>
     <value>Início rápido com orientação GPS. Defina a largura de trabalho e o comprimento do engate e crie uma linha AB ou curva. Nada é salvo no disco.</value>
   </data>
   <data name="gsNext" xml:space="preserve">
-    <value>Próximo</value>
+    <value>Próx.</value>
   </data>
   <data name="UiS_1446" xml:space="preserve">
     <value>Adaptador CANbus</value>
@@ -6106,5 +6106,86 @@ Backup: {1}</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Oficial</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satélite</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Mapa de navegação</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navegação</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Campo guardado</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Ponto no mapa</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Parar navegação</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Transferir mapa de estradas</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>A transferir mapa de estradas...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Ainda sem mapa de estradas</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Mapa de estradas</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Nenhuma rota encontrada</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Chegou ao destino</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Sem ligação à Internet</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>A calcular rota...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Vire à esquerda</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Vire à direita</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Ligeiramente à esquerda</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Ligeiramente à direita</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Acentuadamente à esquerda</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Acentuadamente à direita</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>O mapa de estradas não cobre esta viagem. Transferir agora?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Sem campos</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Não encontrado</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>O servidor de mapas está ocupado, tente mais tarde</value>
   </data>
 </root>

@@ -369,9 +369,9 @@
             this.buttonLabelReset.Image = global::AgOpenGPS.Properties.Resources.back_button;
             this.buttonLabelReset.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonLabelReset.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonLabelReset.Location = new System.Drawing.Point(246, 500);
+            this.buttonLabelReset.Location = new System.Drawing.Point(191, 500);
             this.buttonLabelReset.Name = "buttonLabelReset";
-            this.buttonLabelReset.Size = new System.Drawing.Size(91, 115);
+            this.buttonLabelReset.Size = new System.Drawing.Size(200, 115);
             this.buttonLabelReset.TabIndex = 548;
             this.buttonLabelReset.Text = "Reset";
             this.buttonLabelReset.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -422,9 +422,9 @@
             this.buttonLabelDefault.Image = global::AgOpenGPS.Properties.Resources.ArrowRight;
             this.buttonLabelDefault.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonLabelDefault.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonLabelDefault.Location = new System.Drawing.Point(246, 301);
+            this.buttonLabelDefault.Location = new System.Drawing.Point(191, 301);
             this.buttonLabelDefault.Name = "buttonLabelDefault";
-            this.buttonLabelDefault.Size = new System.Drawing.Size(91, 115);
+            this.buttonLabelDefault.Size = new System.Drawing.Size(200, 115);
             this.buttonLabelDefault.TabIndex = 551;
             this.buttonLabelDefault.Text = "Default";
             this.buttonLabelDefault.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -470,9 +470,9 @@
             this.labelButtonArrangeOne.BackColor = System.Drawing.Color.Transparent;
             this.labelButtonArrangeOne.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelButtonArrangeOne.ForeColor = System.Drawing.Color.Black;
-            this.labelButtonArrangeOne.Location = new System.Drawing.Point(186, 53);
+            this.labelButtonArrangeOne.Location = new System.Drawing.Point(176, 18);
             this.labelButtonArrangeOne.Name = "labelButtonArrangeOne";
-            this.labelButtonArrangeOne.Size = new System.Drawing.Size(230, 219);
+            this.labelButtonArrangeOne.Size = new System.Drawing.Size(250, 276);
             this.labelButtonArrangeOne.TabIndex = 554;
             this.labelButtonArrangeOne.Text = "Touch the buttons on the left side you want to appear in the Menu (The right side" +
     "). \r\n\r\nThe order you push them will be the order they appear on the menu from bo" +

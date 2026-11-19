@@ -19,6 +19,17 @@ namespace AgIO
             //get copy of the calling main form
             mf = callingForm as FormLoop;
             InitializeComponent();
+
+            // the profile name follows its caption: a longer translation of "Save As:" must not run into it
+            // (it goes back to its own place when the caption is short again, and never further than the window allows)
+            int designedLeft = lblCurrentProfile.Left;
+            label4.SizeChanged += (s, a) =>
+            {
+                int left = Math.Max(designedLeft, label4.Right + 4);
+                if (lblCurrentProfile.Parent != null && !lblCurrentProfile.AutoSize)
+                    left = Math.Min(left, Math.Max(designedLeft, lblCurrentProfile.Parent.ClientSize.Width - lblCurrentProfile.Width));
+                lblCurrentProfile.Left = left;
+            };
         }
 
         private void FormCommSaver_Load(object sender, EventArgs e)

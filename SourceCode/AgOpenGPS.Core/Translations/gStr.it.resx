@@ -240,7 +240,7 @@ L'ordina sarà dal basso verso l'alto.</value>
     <value>Selettore Pulsante</value>
   </data>
   <data name="gsCameraBehavior" xml:space="preserve">
-    <value>Comportamento Camera</value>
+    <value>Comport. camera</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
     <value>Cancella</value>
@@ -393,7 +393,7 @@ L'ordina sarà dal basso verso l'alto.</value>
     <value>Distanza</value>
   </data>
   <data name="gsDistanceToFlag" xml:space="preserve">
-    <value>Distanza da Punto Interesse</value>
+    <value>Dist. da Punto</value>
   </data>
   <data name="gsDriveIn" xml:space="preserve">
     <value>Entrare in Campo</value>
@@ -417,7 +417,7 @@ L'ordina sarà dal basso verso l'alto.</value>
     <value>Modifica Linea AB</value>
   </data>
   <data name="gsEditColor" xml:space="preserve">
-    <value>Modifica Colore</value>
+    <value>Modif. colore</value>
   </data>
   <data name="gsEditFieldName" xml:space="preserve">
     <value>Modifica il Nome del File</value>
@@ -870,7 +870,7 @@ L'ordina sarà dal basso verso l'alto.</value>
     <value>Caricamento Percorso Registrato</value>
   </data>
   <data name="gsRemain" xml:space="preserve">
-    <value>Rimanente</value>
+    <value>Restante</value>
   </data>
   <data name="gsRemoveOffset" xml:space="preserve">
     <value>Rimozione Offset</value>
@@ -1131,7 +1131,7 @@ UTILIZZATELO A VOSTRO RISCHIO E PERICOLO.</value>
     <value>Unità</value>
   </data>
   <data name="gsUseSelected" xml:space="preserve">
-    <value>Utilizzare Quello Selezionato</value>
+    <value>Usa selezione</value>
   </data>
   <data name="gsUserNo" xml:space="preserve">
     <value>Utente</value>
@@ -1930,7 +1930,7 @@ Rimuovilo manualmente.</value>
     <value>Lon</value>
   </data>
   <data name="UiS_0209" xml:space="preserve">
-    <value>Altitudine</value>
+    <value>Altitud.</value>
   </data>
   <data name="UiS_0210" xml:space="preserve">
     <value>Altitudine (m)</value>
@@ -2017,7 +2017,7 @@ Rimuovilo manualmente.</value>
     <value>Dati di sistema</value>
   </data>
   <data name="UiS_0238" xml:space="preserve">
-    <value>Stato AgOpenGPS:</value>
+    <value>Stato AOG:</value>
   </data>
   <data name="UiS_0239" xml:space="preserve">
     <value>Autoguida</value>
@@ -2834,8 +2834,7 @@ poi premi il nuovo tasto</value>
     <value>Impostazioni veicolo</value>
   </data>
   <data name="UiS_0509" xml:space="preserve">
-    <value>   Ripristina &#xD;
-predefiniti</value>
+    <value>Ripristina</value>
   </data>
   <data name="UiS_0510" xml:space="preserve">
     <value>Sezione o zona</value>
@@ -3051,7 +3050,7 @@ NumPad0 - Sezione auto</value>
     <value>Colore sezione</value>
   </data>
   <data name="UiS_0580" xml:space="preserve">
-    <value>Modifica colore</value>
+    <value>Modif. colore</value>
   </data>
   <data name="UiS_0581" xml:space="preserve">
     <value>Tipo</value>
@@ -3904,7 +3903,7 @@ Imposta il PWM massimo per limitare la velocità di sterzata.</value>
     <value>Finito!</value>
   </data>
   <data name="UiS_0850" xml:space="preserve">
-    <value>Avanzamento:</value>
+    <value>Avanz.:</value>
   </data>
   <data name="UiS_0851" xml:space="preserve">
     <value>Impulsi/grado</value>
@@ -6107,5 +6106,86 @@ Caricale dal pannello Config e dal menu in alto a sinistra.</value>
   </data>
   <data name="UiS_1472" xml:space="preserve">
     <value>🔐 Ufficiale</value>
+  </data>
+  <data name="UiS_1473" xml:space="preserve">
+    <value>Caricamento...</value>
+  </data>
+  <data name="UiS_1474" xml:space="preserve">
+    <value>Satellite</value>
+  </data>
+  <data name="UiS_1475" xml:space="preserve">
+    <value>Mappa di navigazione</value>
+  </data>
+  <data name="UiS_1476" xml:space="preserve">
+    <value>Navigazione</value>
+  </data>
+  <data name="UiS_1477" xml:space="preserve">
+    <value>Campo salvato</value>
+  </data>
+  <data name="UiS_1478" xml:space="preserve">
+    <value>Punto sulla mappa</value>
+  </data>
+  <data name="UiS_1479" xml:space="preserve">
+    <value>Ferma navigazione</value>
+  </data>
+  <data name="UiS_1480" xml:space="preserve">
+    <value>Scarica mappa stradale</value>
+  </data>
+  <data name="UiS_1481" xml:space="preserve">
+    <value>Download mappa stradale...</value>
+  </data>
+  <data name="UiS_1482" xml:space="preserve">
+    <value>Nessuna mappa stradale</value>
+  </data>
+  <data name="UiS_1483" xml:space="preserve">
+    <value>Mappa stradale</value>
+  </data>
+  <data name="UiS_1484" xml:space="preserve">
+    <value>Nessun percorso trovato</value>
+  </data>
+  <data name="UiS_1485" xml:space="preserve">
+    <value>Sei arrivato</value>
+  </data>
+  <data name="UiS_1486" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="UiS_1487" xml:space="preserve">
+    <value>Nessuna connessione Internet</value>
+  </data>
+  <data name="UiS_1488" xml:space="preserve">
+    <value>Calcolo percorso...</value>
+  </data>
+  <data name="UiS_1489" xml:space="preserve">
+    <value>Svolta a sinistra</value>
+  </data>
+  <data name="UiS_1490" xml:space="preserve">
+    <value>Svolta a destra</value>
+  </data>
+  <data name="UiS_1491" xml:space="preserve">
+    <value>Leggermente a sinistra</value>
+  </data>
+  <data name="UiS_1492" xml:space="preserve">
+    <value>Leggermente a destra</value>
+  </data>
+  <data name="UiS_1493" xml:space="preserve">
+    <value>Tutto a sinistra</value>
+  </data>
+  <data name="UiS_1494" xml:space="preserve">
+    <value>Tutto a destra</value>
+  </data>
+  <data name="UiS_1495" xml:space="preserve">
+    <value>Destinazione</value>
+  </data>
+  <data name="UiS_1496" xml:space="preserve">
+    <value>La mappa stradale non copre questo viaggio. Scaricarla ora?</value>
+  </data>
+  <data name="UiS_1497" xml:space="preserve">
+    <value>Nessun campo</value>
+  </data>
+  <data name="UiS_1498" xml:space="preserve">
+    <value>Non trovato</value>
+  </data>
+  <data name="UiS_1499" xml:space="preserve">
+    <value>Il server delle mappe è occupato, riprova più tardi</value>
   </data>
 </root>

@@ -69,6 +69,9 @@ namespace AgOpenGPS
                 InstallExceptionHandlers();
                 AgLibrary.Localization.UiTranslator.Install();
                 Application.Run(new FormGPS());
+                // the main window is closed and everything is saved: nothing left (a library's foreground thread,
+                // a hook) may keep the process running without a window
+                Environment.Exit(0);
             }
             else
             {
