@@ -6186,4 +6186,13 @@ Indlæs fra Konfig-panelet og menuen øverst til venstre.</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Kortserveren er optaget, prøv igen senere</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Ankomst</value>
+  </data>
 </root>

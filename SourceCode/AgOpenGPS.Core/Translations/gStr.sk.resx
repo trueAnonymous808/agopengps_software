@@ -6188,4 +6188,13 @@ POUŽÍVATE NA VLASTNÉ RIZIKO.</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Mapový server je zaneprázdnený, skúste to neskôr</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Príchod</value>
+  </data>
 </root>

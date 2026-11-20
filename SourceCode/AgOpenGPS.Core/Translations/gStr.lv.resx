@@ -6186,4 +6186,13 @@ Ielādēt: konfigurācijas panelī un augšējā kreisajā izvēlnē.</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Karšu serveris ir aizņemts, mēģiniet vēlāk</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Ierašanās</value>
+  </data>
 </root>

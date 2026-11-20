@@ -6191,4 +6191,13 @@ Chargez-les depuis le panneau Config et le menu en haut à gauche.</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Le serveur de cartes est occupé, réessayez plus tard</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Arrivée</value>
+  </data>
 </root>

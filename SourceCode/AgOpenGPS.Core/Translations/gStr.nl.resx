@@ -6191,4 +6191,13 @@ Back-up: {1}</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>De kaartserver is bezet, probeer het later opnieuw</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Aankomst</value>
+  </data>
 </root>

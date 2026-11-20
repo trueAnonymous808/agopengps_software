@@ -6191,4 +6191,13 @@ Sicherung: {1}</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Der Kartenserver ist ausgelastet, bitte später erneut versuchen</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>Min.</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>Std.</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Ankunft</value>
+  </data>
 </root>

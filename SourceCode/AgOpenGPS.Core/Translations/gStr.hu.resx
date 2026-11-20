@@ -6191,4 +6191,13 @@ Biztonsági mentés: {1}</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>A térképszerver foglalt, próbáld újra később</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>perc</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>óra</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Érkezés</value>
+  </data>
 </root>

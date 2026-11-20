@@ -6186,4 +6186,13 @@ Carga en nube: descarga siempre lo último de AgShare al abrir</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>El servidor de mapas está ocupado, inténtelo más tarde</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Llegada</value>
+  </data>
 </root>

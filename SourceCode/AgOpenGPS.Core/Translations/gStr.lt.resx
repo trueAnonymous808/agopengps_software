@@ -6185,4 +6185,13 @@ Debesies įkėlimas: atidarant visada atsisiųsti naujausią versiją iš AgShar
   <data name="UiS_1499" xml:space="preserve">
     <value>Žemėlapių serveris užimtas, bandykite vėliau</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>val.</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Atvykimas</value>
+  </data>
 </root>

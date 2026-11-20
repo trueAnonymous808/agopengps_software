@@ -6184,4 +6184,13 @@ Buluttan Yükle: açarken her zaman AgShare'deki en son sürümü indirir</value
   <data name="UiS_1499" xml:space="preserve">
     <value>Harita sunucusu meşgul, daha sonra tekrar deneyin</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>dk</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>sa</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Varış</value>
+  </data>
 </root>

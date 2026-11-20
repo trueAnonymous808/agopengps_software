@@ -6186,4 +6186,13 @@ Kopia zapasowa: {1}</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Serwer map jest zajęty, spróbuj później</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>godz.</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Przyjazd</value>
+  </data>
 </root>

@@ -6186,4 +6186,13 @@ Načtěte z panelu Nastavení a z nabídky vlevo nahoře.</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Mapový server je zaneprázdněn, zkuste to později</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Příjezd</value>
+  </data>
 </root>

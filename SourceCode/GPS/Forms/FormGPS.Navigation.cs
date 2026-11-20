@@ -313,7 +313,8 @@ namespace AgOpenGPS
             {
                 line1 = FormatDistance(s.NextTurnDistanceM) + "  " + TurnText(s.NextTurn) +
                     (string.IsNullOrEmpty(s.NextRoadName) || s.NextTurn == Manoeuvre.Arrive ? "" : " - " + s.NextRoadName);
-                line2 = FormatDistance(s.RemainingM) + "   " + ((int)Math.Ceiling(s.RemainingS / 60)).ToString() + " min";
+                line2 = FormatDistance(s.RemainingM) + "   " + FormatDuration(s.RemainingS) + "   " +
+                    AgLibrary.Localization.UiTranslator.TrText("Arrival") + ": " + ArrivalClock(s.RemainingS);
             }
 
             // the 3D view's own font has only the 128 ASCII characters: the bar is drawn with Windows text into a
@@ -406,6 +407,22 @@ namespace AgOpenGPS
                     new PointF((float)(ex + hy * 11), (float)(ey - hx * 11))
                 });
             }
+        }
+
+        // the time left in the chosen language: "27 perc", and with hours for a long trip: "1 óra 20 perc"
+        private static string FormatDuration(double seconds)
+        {
+            int minutes = (int)Math.Ceiling(Math.Max(0, seconds) / 60);
+            string min = AgLibrary.Localization.UiTranslator.TrText("min");
+            if (minutes < 60) return minutes + " " + min;
+            return (minutes / 60) + " " + AgLibrary.Localization.UiTranslator.TrText("h") + " " + (minutes % 60) + " " + min;
+        }
+
+        // the time of day of the arrival, in the computer's own clock format (24 h or AM/PM), to the minute
+        private static string ArrivalClock(double secondsLeft)
+        {
+            DateTime arrival = DateTime.Now.AddSeconds(Math.Max(0, secondsLeft));
+            return arrival.ToString(System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.ShortTimePattern);
         }
 
         private string FormatDistance(double metres)

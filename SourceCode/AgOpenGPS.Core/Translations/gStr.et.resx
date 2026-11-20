@@ -6185,4 +6185,13 @@ Laadi paneelilt Seadistus ja vasakult ülemisest menüüst.</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Kaardiserver on hõivatud, proovige hiljem uuesti</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Saabumine</value>
+  </data>
 </root>

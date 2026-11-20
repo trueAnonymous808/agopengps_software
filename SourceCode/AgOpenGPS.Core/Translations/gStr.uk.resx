@@ -6186,4 +6186,13 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Сервер карт зайнятий, спробуйте пізніше</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>хв</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>год</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Прибуття</value>
+  </data>
 </root>

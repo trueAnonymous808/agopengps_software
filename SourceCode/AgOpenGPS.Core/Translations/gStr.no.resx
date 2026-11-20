@@ -6186,4 +6186,13 @@ Skylasting: hent alltid siste versjon fra AgShare ved åpning</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Kartserveren er opptatt, prøv igjen senere</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Ankomst</value>
+  </data>
 </root>

@@ -6186,4 +6186,13 @@ Učitajte ih iz Config panela i izbornika gore lijevo.</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>Poslužitelj karata je zauzet, pokušajte kasnije</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>Dolazak</value>
+  </data>
 </root>

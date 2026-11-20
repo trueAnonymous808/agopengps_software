@@ -6178,4 +6178,13 @@ PWM最大値で操舵速度を制限できます。</value>
   <data name="UiS_1499" xml:space="preserve">
     <value>地図サーバーが混雑しています。後でもう一度お試しください</value>
   </data>
+  <data name="UiS_1500" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="UiS_1501" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="UiS_1502" xml:space="preserve">
+    <value>到着</value>
+  </data>
 </root>
