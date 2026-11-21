@@ -6195,4 +6195,61 @@ Kopia zapasowa: {1}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Przyjazd</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Prowadzenie po trasie wyłączone</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Przełącznik kierowania</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autoprowadzenie po trasie (eksperymentalne)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autoprowadzenie czeka</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>to nie droga polna</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>szybciej niż 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>za daleko od trasy</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>cofanie</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>prawie u celu</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>brak trasy</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Eksperymentalne. Kieruje po trasie prawym pasem, do 15 km/h, i zatrzymuje się przed celem. Mapa jest dokładna tylko do kilku metrów i nie widzi ruchu: prędkość i hamulce pozostają po twojej stronie, obserwuj drogę i w każdej chwili przejmij kierownicę. Włączyć?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Przesunięcie</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Przesunięcie od środka drogi</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>w lewo</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>w prawo</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Droga</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Droga polna</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>na środku</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Oczekiwanie na serwer map...</value>
+  </data>
 </root>

@@ -6197,4 +6197,61 @@ Molnladdning: hämta alltid senaste från AgShare vid öppning</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Ankomst</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Ruttstyrning av</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Styrbrytare</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autostyrning på rutten (experimentell)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autostyrning väntar</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>inte en åkerväg</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>snabbare än 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>för långt från rutten</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>backar</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>nästan framme</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>ingen rutt</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimentell. Styr längs rutten i höger körfält, upp till 15 km/h, och stannar före målet. Kartan är bara exakt på några meter och den ser inte trafiken: fart och bromsar är ditt ansvar, håll uppsikt över vägen och ta ratten när som helst. Slå på?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Förskjutning</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Förskjutning från vägens mitt</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>vänster</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>höger</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Väg</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Åkerväg</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>i mitten</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Väntar på kartservern...</value>
+  </data>
 </root>

@@ -8,6 +8,15 @@ namespace AgOpenGPS.Navigation
     // into the road network a tractor may use.
     public static class OverpassParser
     {
+        /// <summary>
+        /// The radius of the road map downloaded for a trip (round its middle): the trip's own surroundings with 3 km to
+        /// spare, at least 5 km - not the whole default circle, as the server's time grows with the area.
+        /// </summary>
+        public static double TripRadiusKm(double tripKm)
+        {
+            return System.Math.Max(5, tripKm / 2 + 3);
+        }
+
         /// <summary>The Overpass query for the roads within radiusKm of a point.</summary>
         public static string Query(double lat, double lon, double radiusKm)
         {

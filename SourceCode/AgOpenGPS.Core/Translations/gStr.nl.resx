@@ -6200,4 +6200,61 @@ Back-up: {1}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Aankomst</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Routebesturing uit</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Stuurschakelaar</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autosturen op de route (experimenteel)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autosturen wacht</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>geen veldweg</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>sneller dan 15 km/u</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>te ver van de route</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>achteruit</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>bijna aangekomen</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>geen route</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimenteel. Stuurt langs de route in de rechterrijstrook, tot 15 km/u, en stopt vóór de bestemming. De kaart is maar op enkele meters nauwkeurig en ziet geen verkeer: snelheid en remmen blijven bij jou, let op de weg en neem op elk moment het stuur over. Inschakelen?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Verschuiving</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Verschuiving t.o.v. het midden van de weg</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>links</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>rechts</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Weg</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Veldweg</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>in het midden</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Wachten op de kaartserver...</value>
+  </data>
 </root>

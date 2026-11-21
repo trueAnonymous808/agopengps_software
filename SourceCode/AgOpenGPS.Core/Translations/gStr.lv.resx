@@ -6195,4 +6195,61 @@ Ielādēt: konfigurācijas panelī un augšējā kreisajā izvēlnē.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Ierašanās</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Maršruta stūrēšana izslēgta</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Stūrēšanas slēdzis</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autostūrēšana maršrutā (eksperimentāla)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autostūrēšana gaida</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>nav lauku ceļš</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>ātrāk par 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>pārāk tālu no maršruta</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>braukšana atpakaļ</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>gandrīz galā</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>nav maršruta</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Eksperimentāla. Stūrē pa maršrutu labajā joslā, līdz 15 km/h, un apstājas pirms galamērķa. Karte ir precīza tikai dažu metru robežās un satiksmi neredz: ātrums un bremzes paliek jūsu ziņā, vērojiet ceļu un jebkurā brīdī pārņemiet stūri. Ieslēgt?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Nobīde</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Nobīde no ceļa vidus</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>pa kreisi</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>pa labi</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Ceļš</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Lauku ceļš</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>vidū</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Gaida karšu serveri...</value>
+  </data>
 </root>

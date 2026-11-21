@@ -6194,4 +6194,61 @@ Debesies įkėlimas: atidarant visada atsisiųsti naujausią versiją iš AgShar
   <data name="UiS_1502" xml:space="preserve">
     <value>Atvykimas</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Maršruto vairavimas išjungtas</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Vairavimo jungiklis</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autovairavimas maršrutu (eksperimentinis)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autovairavimas laukia</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>ne lauko kelias</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>greičiau nei 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>per toli nuo maršruto</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>važiavimas atbuline eiga</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>beveik atvykote</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>nėra maršruto</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Eksperimentinis. Vairuoja maršrutu dešine eismo juosta, iki 15 km/h, ir sustoja prieš tikslą. Žemėlapis tikslus tik kelių metrų tikslumu ir eismo nemato: greitis ir stabdžiai lieka jums, stebėkite kelią ir bet kada perimkite vairą. Įjungti?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Poslinkis</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Poslinkis nuo kelio vidurio</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>kairėn</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>dešinėn</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Kelias</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Lauko kelias</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>viduryje</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Laukiama žemėlapių serverio...</value>
+  </data>
 </root>

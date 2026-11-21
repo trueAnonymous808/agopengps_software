@@ -2338,7 +2338,7 @@ namespace AgOpenGPS
                 return;
             }
 
-            if (recPath.isDrivingRecordedPath || isBtnAutoSteerOn && (guidanceLineDistanceOff != 32000))
+            if (recPath.isDrivingRecordedPath || routeSteerActive || isBtnAutoSteerOn && (guidanceLineDistanceOff != 32000))
             {
                 if (vehicle.isInDeadZone)
                 {

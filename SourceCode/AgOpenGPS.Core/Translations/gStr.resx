@@ -6197,4 +6197,61 @@ Backup: {}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Arrival</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Route autosteer off</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Steer switch</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autosteer on the route (experimental)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autosteer waiting</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>not a field track</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>faster than 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>too far from the route</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>reversing</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>almost there</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>no route</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimental. It steers along the route in the right-hand lane, up to 15 km/h, and stops before the destination. The map is only accurate to a few metres and it does not see traffic: speed and brakes stay with you, keep watching the road and take the wheel at any time. Turn it on?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Offset from the middle of the road</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Road</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Field track</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>in the middle</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Waiting for the map server...</value>
+  </data>
 </root>

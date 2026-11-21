@@ -6200,4 +6200,61 @@ Biztonsági mentés: {1}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Érkezés</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Útvonal-kormányzás kikapcsolva</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Kormánykapcsoló</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Automata kormányzás az útvonalon (kísérleti)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Automata kormányzás vár</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>nem dűlőút</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>gyorsabb mint 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>túl messze az útvonaltól</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>tolatás</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>mindjárt célba érsz</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>nincs útvonal</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Kísérleti funkció. Az útvonalon a jobb oldali sávban kormányoz, legfeljebb 15 km/h-ig, és a cél előtt leáll. A térkép csak néhány méter pontos, és a forgalmat nem látja: a sebesség és a fékezés nálad marad, figyeld az utat, és bármikor vedd át a kormányt. Bekapcsolod?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Eltolás</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Eltolás az út közepéhez képest</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>balra</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>jobbra</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Közút</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Dűlőút</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>középen</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Várakozás a térképszerverre...</value>
+  </data>
 </root>

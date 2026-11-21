@@ -6197,4 +6197,61 @@ Copie de siguranță: {1}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Sosire</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Ghidarea pe traseu oprită</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Comutator direcție</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Ghidare automată pe traseu (experimental)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Ghidarea automată așteaptă</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>nu este drum agricol</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>peste 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>prea departe de traseu</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>mers înapoi</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>aproape ați ajuns</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>niciun traseu</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimental. Virează pe traseu pe banda din dreapta, până la 15 km/h, și se oprește înainte de destinație. Harta este precisă doar la câțiva metri și nu vede traficul: viteza și frânele rămân la dvs., urmăriți drumul și preluați volanul oricând. Porniți?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Decalaj</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Decalaj față de mijlocul drumului</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>stânga</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>dreapta</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Drum</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Drum agricol</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>la mijloc</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Se așteaptă serverul de hărți...</value>
+  </data>
 </root>

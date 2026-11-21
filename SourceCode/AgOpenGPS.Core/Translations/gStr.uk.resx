@@ -6195,4 +6195,61 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Прибуття</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Підрулювання за маршрутом вимкнено</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Вимикач керма</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Автопідрулювання за маршрутом (експериментально)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Автопідрулювання очікує</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>не польова дорога</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>швидше 15 км/год</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>надто далеко від маршруту</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>задній хід</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>майже на місці</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>немає маршруту</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Експериментально. Кермує за маршрутом у правій смузі, до 15 км/год, і зупиняється перед пунктом призначення. Карта точна лише до кількох метрів і не бачить руху: швидкість і гальма залишаються за вами, стежте за дорогою і будь-коли беріть кермо. Увімкнути?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Зміщення</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Зміщення від середини дороги</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>ліворуч</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>праворуч</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Дорога</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Польова дорога</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>посередині</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Очікування картографічного сервера...</value>
+  </data>
 </root>

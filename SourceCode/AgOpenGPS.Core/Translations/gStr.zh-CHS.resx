@@ -6195,4 +6195,61 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>到达</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>路线自动转向已关闭</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>转向开关</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>沿路线自动转向（实验性）</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>自动转向等待中</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>不是田间道路</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>超过 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>离路线太远</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>倒车</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>即将到达</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>无路线</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>实验性功能。沿路线在右侧车道转向，最高 15 km/h，并在目的地前停止。地图精度只有几米，且无法识别交通：速度和刹车由您控制，请注意道路，随时接管方向盘。是否开启？</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>相对道路中心的偏移</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>道路</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>田间道路</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>正在等待地图服务器...</value>
+  </data>
 </root>

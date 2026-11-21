@@ -112,6 +112,45 @@ namespace AgOpenGPS.Navigation
             return best;
         }
 
+        /// <summary>
+        /// The road nearest to a position: the edge from-to and how far along it (0..1) the nearest point lies.
+        /// A straight track is often mapped with nodes only at its ends, hundreds of metres apart, so the nearest
+        /// node can be far away while the road runs right under the tractor. False for a network without roads.
+        /// </summary>
+        public bool NearestEdge(double lat, double lon, out int from, out int to, out double t)
+        {
+            from = to = -1;
+            t = 0;
+            double best = double.MaxValue;
+            double k = Math.Cos(lat * Math.PI / 180);
+            for (int i = 0; i < lats.Count; i++)
+            {
+                double ax = (lons[i] - lon) * k, ay = lats[i] - lat;
+                foreach (RoadEdge e in edges[i])
+                {
+                    double bx = (lons[e.To] - lon) * k, by = lats[e.To] - lat;
+                    double dx = bx - ax, dy = by - ay;
+                    double len2 = dx * dx + dy * dy;
+                    double s = len2 > 0 ? Math.Max(0, Math.Min(1, -(ax * dx + ay * dy) / len2)) : 0;
+                    double px = ax + s * dx, py = ay + s * dy;
+                    double d = px * px + py * py;
+                    if (d < best) { best = d; from = i; to = e.To; t = s; }
+                }
+            }
+            return from >= 0;
+        }
+
+        /// <summary>The edge from one node to another, if the road may be driven that way.</summary>
+        public bool TryGetEdge(int from, int to, out RoadEdge edge)
+        {
+            foreach (RoadEdge e in edges[from])
+            {
+                if (e.To == to) { edge = e; return true; }
+            }
+            edge = default(RoadEdge);
+            return false;
+        }
+
         /// <summary>Whether a position lies inside the downloaded circle.</summary>
         public bool Covers(double lat, double lon)
         {

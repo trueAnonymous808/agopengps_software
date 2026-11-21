@@ -6197,4 +6197,61 @@ POUŽÍVATE NA VLASTNÉ RIZIKO.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Príchod</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Riadenie po trase vypnuté</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Spínač riadenia</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autoriadenie po trase (experimentálne)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autoriadenie čaká</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>nie je poľná cesta</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>rýchlejšie ako 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>príliš ďaleko od trasy</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>cúvanie</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>takmer v cieli</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>žiadna trasa</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimentálne. Riadi po trase v pravom jazdnom pruhu, do 15 km/h, a zastaví pred cieľom. Mapa je presná len na niekoľko metrov a premávku nevidí: rýchlosť a brzdy zostávajú na vás, sledujte cestu a kedykoľvek prevezmite volant. Zapnúť?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Posun</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Posun od stredu cesty</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>vľavo</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>vpravo</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Cesta</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Poľná cesta</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>v strede</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Čaká sa na mapový server...</value>
+  </data>
 </root>

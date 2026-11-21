@@ -6197,4 +6197,61 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Пристигане</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Управлението по маршрута е изключено</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Ключ на управлението</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Автоматично управление по маршрута (експериментално)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Автоматичното управление чака</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>не е полски път</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>по-бързо от 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>твърде далеч от маршрута</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>заден ход</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>почти пристигнахте</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>няма маршрут</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Експериментално. Управлява по маршрута в дясната лента, до 15 km/h, и спира преди целта. Картата е точна само до няколко метра и не вижда движението: скоростта и спирачките остават при вас, следете пътя и поемете волана по всяко време. Да се включи ли?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Отместване</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Отместване от средата на пътя</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>наляво</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>надясно</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Път</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Полски път</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>в средата</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Изчакване на картовия сървър...</value>
+  </data>
 </root>

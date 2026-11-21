@@ -61,7 +61,13 @@ namespace AgOpenGPS.Forms.Navigation
             stop.Click += (s, e) => { mf.StopNavigation(); Close(); };
             btnDownload.Click += (s, e) => Download();
 
-            Controls.AddRange(new Control[] { field, address, point, streetMap, satellite, stop, lblRoads, btnDownload, close });
+            // the autosteer switch and, beside it, how far right or left of the middle of the road it drives
+            const int offsetWidth = 120;
+            CheckBox steer = RouteSteerSwitch(edge, 428, 560 - 2 * edge - 96 - offsetWidth - 2 * gap);
+            Button offset = NavUi.Tile(NavUi.Tr("Offset"), edge + steer.Width + gap, 428, offsetWidth, 50, 12f);
+            offset.Click += (s, e) => FormSteerOffset.Show(this, mf);
+
+            Controls.AddRange(new Control[] { field, address, point, streetMap, satellite, stop, lblRoads, btnDownload, steer, offset, close });
             refresh.Tick += (s, e) => ShowRoadStatus();
             refresh.Start();
             ShowRoadStatus();
@@ -88,6 +94,44 @@ namespace AgOpenGPS.Forms.Navigation
             b.CheckedChanged += (s, e) =>
             {
                 if (((RadioButton)s).Checked) mf.SetNavigationMapSource(source);
+            };
+            return b;
+        }
+
+        // EXPERIMENTAL: lets the autosteer module steer along the route; only while navigating, asked every time
+        private CheckBox RouteSteerSwitch(int x, int y, int width)
+        {
+            var b = new CheckBox
+            {
+                Appearance = Appearance.Button,
+                Text = NavUi.Tr("Autosteer on the route (experimental)"),
+                Location = new Point(x, y),
+                Size = new Size(width, 50),
+                FlatStyle = FlatStyle.Flat,
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI Semibold", 10f),
+                BackColor = Color.FromArgb(246, 248, 251),
+                UseVisualStyleBackColor = false,
+                Checked = mf.RouteSteerArmed,
+                Enabled = mf.IsNavigating
+            };
+            b.FlatAppearance.BorderColor = Color.FromArgb(205, 211, 220);
+            b.FlatAppearance.CheckedBackColor = Color.FromArgb(255, 224, 130);
+            bool settingBack = false;
+            b.CheckedChanged += (s, e) =>
+            {
+                if (settingBack) return;
+                if (!b.Checked) { mf.SetRouteSteer(false); return; }
+                DialogResult answer = FormDialog.ShowQuestion(NavUi.Tr("Autosteer on the route (experimental)"),
+                    NavUi.Tr("Experimental. It steers along the route in the right-hand lane, up to 15 km/h, and stops before the destination. " +
+                             "The map is only accurate to a few metres and it does not see traffic: speed and brakes stay with you, keep watching the road and take the wheel at any time. Turn it on?"));
+                if (answer == DialogResult.OK) mf.SetRouteSteer(true);
+                if (!mf.RouteSteerArmed)
+                {
+                    settingBack = true;
+                    b.Checked = false;
+                    settingBack = false;
+                }
             };
             return b;
         }

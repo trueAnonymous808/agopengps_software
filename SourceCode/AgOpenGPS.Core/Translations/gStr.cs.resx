@@ -6195,4 +6195,61 @@ Načtěte z panelu Nastavení a z nabídky vlevo nahoře.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Příjezd</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Řízení po trase vypnuto</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Spínač řízení</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autořízení po trase (experimentální)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autořízení čeká</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>není polní cesta</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>rychleji než 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>příliš daleko od trasy</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>couvání</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>skoro v cíli</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>žádná trasa</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimentální. Řídí po trase v pravém jízdním pruhu, do 15 km/h, a zastaví před cílem. Mapa je přesná jen na několik metrů a provoz nevidí: rychlost a brzdy zůstávají na vás, sledujte cestu a kdykoli převezměte volant. Zapnout?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Posun</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Posun od středu cesty</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>vlevo</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>vpravo</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Silnice</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Polní cesta</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>uprostřed</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Čekání na mapový server...</value>
+  </data>
 </root>

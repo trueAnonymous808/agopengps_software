@@ -6193,4 +6193,61 @@ PWM 최대값으로 조향 속도를 제한하세요.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>도착</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>경로 자동 조향 꺼짐</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>조향 스위치</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>경로 자동 조향 (실험적)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>자동 조향 대기 중</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>농로가 아님</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>15 km/h 초과</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>경로에서 너무 멂</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>후진 중</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>거의 도착</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>경로 없음</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>실험적 기능입니다. 경로를 따라 오른쪽 차로에서 최대 15 km/h까지 조향하며 목적지 전에 멈춥니다. 지도는 몇 미터 정도만 정확하고 교통을 보지 못합니다. 속도와 브레이크는 직접 조작하고, 도로를 주시하며 언제든지 핸들을 잡으세요. 켜시겠습니까?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>오프셋</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>도로 중앙 기준 오프셋</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>오른쪽</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>도로</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>농로</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>가운데</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>지도 서버를 기다리는 중...</value>
+  </data>
 </root>

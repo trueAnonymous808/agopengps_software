@@ -866,6 +866,9 @@ namespace AgOpenGPS
             //if the whole path driving driving process is green
             if (recPath.isDrivingRecordedPath) recPath.UpdatePosition();
 
+            // experimental: steering along the navigation route (field tracks only)
+            UpdateRouteSteer();
+
             // Outside the free drive check, listeners need the track context in both modes
             isobus.SendGuidanceTrackContext();
 
@@ -897,6 +900,7 @@ namespace AgOpenGPS
                 else p_254.pgn[p_254.status] = 1;
 
                 if (recPath.isDrivingRecordedPath || recPath.isFollowingDubinsToPath) p_254.pgn[p_254.status] = 1;
+                if (routeSteerActive) p_254.pgn[p_254.status] = 1;
 
                 //mc.autoSteerData[7] = unchecked((byte)(guidanceLineDistanceOff >> 8));
                 //mc.autoSteerData[8] = unchecked((byte)(guidanceLineDistanceOff));

@@ -6193,4 +6193,61 @@ Buluttan Yükle: açarken her zaman AgShare'deki en son sürümü indirir</value
   <data name="UiS_1502" xml:space="preserve">
     <value>Varış</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Rota otomatik dümen kapalı</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Dümen anahtarı</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Rotada otomatik dümen (deneysel)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Otomatik dümen bekliyor</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>tarla yolu değil</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>15 km/s üzerinde</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>rotadan çok uzak</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>geri gidiyor</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>neredeyse vardınız</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>rota yok</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Deneysel. Rotada sağ şeritte, en fazla 15 km/s hızla dümen kullanır ve hedeften önce durur. Harita yalnızca birkaç metre hassastır ve trafiği görmez: hız ve frenler sizde kalır, yolu izleyin ve direksiyonu her an devralın. Açılsın mı?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Kaydırma</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Yol ortasına göre kaydırma</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>sola</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>sağa</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Yol</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Tarla yolu</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>ortada</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Harita sunucusu bekleniyor...</value>
+  </data>
 </root>

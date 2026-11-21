@@ -6187,4 +6187,61 @@ PWM最大値で操舵速度を制限できます。</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>到着</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>ルート自動操舵オフ</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>操舵スイッチ</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>ルート上の自動操舵（試験的）</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>自動操舵待機中</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>農道ではありません</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>15 km/h を超えています</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>ルートから離れすぎています</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>後退中</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>まもなく到着</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>ルートなし</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>試験的機能です。ルートに沿って右側の車線で、15 km/h まで操舵し、目的地の手前で停止します。地図の精度は数メートル程度で、交通は認識しません。速度とブレーキはあなたが操作します。道路を注視し、いつでもハンドルを握ってください。オンにしますか？</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>オフセット</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>道路中央からのオフセット</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>道路</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>農道</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>中央</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>地図サーバーを待っています...</value>
+  </data>
 </root>

@@ -6194,4 +6194,61 @@ Laadi paneelilt Seadistus ja vasakult ülemisest menüüst.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Saabumine</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Marsruudi roolimine väljas</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Roolilüliti</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autoroolimine marsruudil (eksperimentaalne)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autoroolimine ootab</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>pole põllutee</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>kiirem kui 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>marsruudist liiga kaugel</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>tagurdamine</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>peaaegu kohal</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>marsruut puudub</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Eksperimentaalne. Roolib marsruudil parempoolses sõidureas, kuni 15 km/h, ja peatub enne sihtkohta. Kaart on täpne vaid mõne meetri piires ega näe liiklust: kiirus ja pidurid jäävad sinu kätte, jälgi teed ja võta rool igal ajal üle. Lülitada sisse?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Nihe</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Nihe tee keskjoonest</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>vasakule</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>paremale</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Maantee</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Põllutee</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>keskel</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Ootan kaardiserverit...</value>
+  </data>
 </root>

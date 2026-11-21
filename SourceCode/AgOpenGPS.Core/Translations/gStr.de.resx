@@ -6200,4 +6200,61 @@ Sicherung: {1}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Ankunft</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Routen-Lenkung aus</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Lenkschalter</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autosteer auf der Route (experimentell)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autosteer wartet</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>kein Feldweg</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>schneller als 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>zu weit von der Route</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>Rückwärtsfahrt</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>fast am Ziel</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>keine Route</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimentell. Lenkt auf der Route in der rechten Fahrspur, bis 15 km/h, und stoppt vor dem Ziel. Die Karte ist nur auf einige Meter genau und der Verkehr wird nicht erkannt: Geschwindigkeit und Bremsen bleiben bei dir, beobachte die Straße und übernimm jederzeit das Lenkrad. Einschalten?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Versatz</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Versatz zur Straßenmitte</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>links</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>rechts</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Straße</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Feldweg</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>mittig</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Warte auf den Kartenserver...</value>
+  </data>
 </root>

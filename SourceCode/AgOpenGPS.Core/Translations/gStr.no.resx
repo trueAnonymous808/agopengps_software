@@ -6195,4 +6195,61 @@ Skylasting: hent alltid siste versjon fra AgShare ved åpning</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Ankomst</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Rutestyring av</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Styrebryter</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autostyring på ruten (eksperimentell)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autostyring venter</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>ikke en markvei</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>raskere enn 15 km/t</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>for langt fra ruten</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>rygger</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>nesten fremme</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>ingen rute</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Eksperimentell. Styrer langs ruten i høyre kjørefelt, opptil 15 km/t, og stopper før målet. Kartet er bare nøyaktig til noen meter og ser ikke trafikken: fart og bremser er ditt ansvar, følg med på veien og ta rattet når som helst. Slå på?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Forskyvning</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Forskyvning fra midten av veien</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>venstre</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>høyre</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Vei</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Markvei</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>i midten</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Venter på kartserveren...</value>
+  </data>
 </root>

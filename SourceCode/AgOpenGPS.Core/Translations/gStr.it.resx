@@ -6197,4 +6197,61 @@ Caricale dal pannello Config e dal menu in alto a sinistra.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Arrivo</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Guida sul percorso disattivata</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Interruttore sterzo</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Guida automatica sul percorso (sperimentale)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Guida automatica in attesa</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>non è una strada campestre</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>oltre 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>troppo lontano dal percorso</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>retromarcia</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>quasi arrivato</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>nessun percorso</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Sperimentale. Sterza lungo il percorso nella corsia di destra, fino a 15 km/h, e si ferma prima della destinazione. La mappa è precisa solo a pochi metri e non vede il traffico: velocità e freni restano a te, guarda la strada e riprendi il volante in qualsiasi momento. Attivare?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Scostamento</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Scostamento dal centro della strada</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>sinistra</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>destra</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Strada</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Strada campestre</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>al centro</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>In attesa del server delle mappe...</value>
+  </data>
 </root>

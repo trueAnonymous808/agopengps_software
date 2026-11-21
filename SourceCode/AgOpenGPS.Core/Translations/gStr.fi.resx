@@ -6195,4 +6195,61 @@ Varmuuskopio: {1}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Perillä</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Reittiohjaus pois</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Ohjauskytkin</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Automaattiohjaus reitillä (kokeellinen)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Automaattiohjaus odottaa</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>ei peltotie</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>nopeammin kuin 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>liian kaukana reitistä</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>peruutus</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>melkein perillä</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>ei reittiä</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Kokeellinen. Ohjaa reittiä oikeaa kaistaa pitkin, enintään 15 km/h, ja pysähtyy ennen määränpäätä. Kartta on tarkka vain muutaman metrin ja se ei näe liikennettä: nopeus ja jarrut ovat sinun vastuullasi, tarkkaile tietä ja ota ohjaus milloin tahansa. Otetaanko käyttöön?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Siirto</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Siirto tien keskeltä</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>vasemmalle</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>oikealle</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Tie</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Peltotie</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>keskellä</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Odotetaan karttapalvelinta...</value>
+  </data>
 </root>

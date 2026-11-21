@@ -145,15 +145,44 @@ namespace AgOpenGPS
         /// <summary>The default radius of the road map: about 6 MB and a minute or two in the countryside.</summary>
         public const double RoadMapRadiusKm = 20;
 
-        private static string FetchRoads(double lat, double lon, double radiusKm)
+        // the Overpass server spends most of the time on the query (half a minute for 10 km), then sends the answer:
+        // compressed (about a fifth of the size, which counts on a mobile connection in the field) and shown as it comes
+        private string FetchRoads(double lat, double lon, double radiusKm)
         {
-            using (var web = new WebClient())
+            string waiting = AgLibrary.Localization.UiTranslator.TrText("Waiting for the map server...");
+            string downloading = AgLibrary.Localization.UiTranslator.TrText("Downloading road map...");
+            RoadDownloadStatus = waiting;
+
+            var request = (HttpWebRequest)WebRequest.Create("https://overpass-api.de/api/interpreter");
+            request.Method = "POST";
+            request.UserAgent = AgOpenGPS.Navigation.TileSetup.Identity;
+            request.ContentType = "application/x-www-form-urlencoded";
+            request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
+            request.Timeout = 330000;            // the query may take up to its own 300 s timeout
+            request.ReadWriteTimeout = 120000;
+            byte[] body = Encoding.ASCII.GetBytes("data=" + Uri.EscapeDataString(OverpassParser.Query(lat, lon, radiusKm)));
+            request.ContentLength = body.Length;
+            using (Stream upload = request.GetRequestStream()) upload.Write(body, 0, body.Length);
+
+            using (var response = (HttpWebResponse)request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (var text = new MemoryStream())
             {
-                web.Encoding = Encoding.UTF8;
-                web.Headers[HttpRequestHeader.UserAgent] = AgOpenGPS.Navigation.TileSetup.Identity;
-                web.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
-                return web.UploadString("https://overpass-api.de/api/interpreter",
-                    "data=" + Uri.EscapeDataString(OverpassParser.Query(lat, lon, radiusKm)));
+                var buffer = new byte[65536];
+                int read;
+                long shown = 0;
+                while ((read = stream.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    text.Write(buffer, 0, read);
+                    // the unpacked size, in steps of a tenth of a megabyte
+                    if (text.Length - shown >= 100000)
+                    {
+                        shown = text.Length;
+                        RoadDownloadStatus = downloading + " " + (shown / 1048576.0).ToString("0.0") + " MB";
+                    }
+                }
+                RoadDownloadStatus = downloading;
+                return Encoding.UTF8.GetString(text.GetBuffer(), 0, (int)text.Length);
             }
         }
 
@@ -170,12 +199,12 @@ namespace AgOpenGPS
                 DialogResult answer = FormDialog.ShowQuestion(AgLibrary.Localization.UiTranslator.TrText("Navigation"),
                     AgLibrary.Localization.UiTranslator.TrText("The road map does not cover this trip. Download it now?"));
                 if (answer != DialogResult.OK) return;
-                // a circle round both ends, at least the usual radius
+                // a circle round both ends with a few km to spare (a smaller area is a much quicker download)
                 double midLat = (here.Latitude + destination.Lat) / 2, midLon = (here.Longitude + destination.Lon) / 2;
                 double half = RoadNetwork.DistanceM(here.Latitude, here.Longitude, destination.Lat, destination.Lon) / 2000;
                 navDestination = destination;
                 UpdateNavigationMapVisibility();   // the street map comes on at once
-                DownloadRoadMap(midLat, midLon, Math.Max(RoadMapRadiusKm, half + 10), (ok, message) =>
+                DownloadRoadMap(midLat, midLon, OverpassParser.TripRadiusKm(2 * half), (ok, message) =>
                 {
                     if (ok) PlanRoute();
                     else
@@ -194,6 +223,7 @@ namespace AgOpenGPS
         public void StopNavigation()
         {
             bool was = IsNavigating;
+            SetRouteSteer(false);
             navDestination = null;
             navGuide = null;
             navState = null;
@@ -319,14 +349,15 @@ namespace AgOpenGPS
 
             // the 3D view's own font has only the 128 ASCII characters: the bar is drawn with Windows text into a
             // picture (any language's letters) and put on the screen as a texture, made again only when it changes
-            int width = Math.Min(oglMain.Width - 40, 640), height = 74;
+            string line3 = RouteSteerStatus();
+            int width = Math.Min(oglMain.Width - 40, 640), height = line3 == null ? 74 : 102;
             Manoeuvre turn = s != null && navGuide != null ? s.NextTurn : Manoeuvre.Straight;
             bool arrow = s != null && navGuide != null;
-            string key = width + "|" + line1 + "|" + line2 + "|" + turn + "|" + arrow;
+            string key = width + "|" + line1 + "|" + line2 + "|" + line3 + "|" + routeSteerActive + "|" + turn + "|" + arrow;
             if (key != navBarKey || navBarTexture == null)
             {
                 navBarTexture?.Dispose();
-                navBarTexture = new Core.DrawLib.Texture2D(RenderNavigationBar(width, height, line1, line2, arrow ? (Manoeuvre?)turn : null));
+                navBarTexture = new Core.DrawLib.Texture2D(RenderNavigationBar(width, height, line1, line2, line3, routeSteerActive, arrow ? (Manoeuvre?)turn : null));
                 navBarKey = key;
             }
             int left = -width / 2, top = 8;
@@ -337,7 +368,7 @@ namespace AgOpenGPS
         private Core.DrawLib.Texture2D navBarTexture;
         private string navBarKey;
 
-        private static Bitmap RenderNavigationBar(int width, int height, string line1, string line2, Manoeuvre? turn)
+        private static Bitmap RenderNavigationBar(int width, int height, string line1, string line2, string line3, bool steering, Manoeuvre? turn)
         {
             var bmp = new Bitmap(width, height, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
             using (Graphics g = Graphics.FromImage(bmp))
@@ -358,7 +389,7 @@ namespace AgOpenGPS
                 int textLeft = 16;
                 if (turn.HasValue)
                 {
-                    DrawTurnArrow(g, 42, height / 2, turn.Value);
+                    DrawTurnArrow(g, 42, 37, turn.Value);
                     textLeft = 84;
                 }
                 var flags = System.Windows.Forms.TextFormatFlags.EndEllipsis | System.Windows.Forms.TextFormatFlags.NoPrefix |
@@ -368,6 +399,10 @@ namespace AgOpenGPS
                 {
                     TextRenderer.DrawText(g, line1, big, new Rectangle(textLeft, 4, width - textLeft - 12, 38), Color.White, flags);
                     TextRenderer.DrawText(g, line2, small, new Rectangle(textLeft, 40, width - textLeft - 12, 28), Color.FromArgb(190, 215, 255), flags);
+                    // route autosteer: green while it steers, amber while it waits
+                    if (line3 != null)
+                        TextRenderer.DrawText(g, line3, small, new Rectangle(16, 70, width - 28, 26),
+                            steering ? Color.FromArgb(129, 230, 120) : Color.FromArgb(255, 196, 77), flags);
                 }
             }
             return bmp;

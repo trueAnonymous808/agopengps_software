@@ -6200,4 +6200,61 @@ Chargez-les depuis le panneau Config et le menu en haut à gauche.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Arrivée</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Guidage sur itinéraire désactivé</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Interrupteur de direction</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autoguidage sur l'itinéraire (expérimental)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autoguidage en attente</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>pas un chemin agricole</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>plus de 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>trop loin de l'itinéraire</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>marche arrière</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>presque arrivé</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>aucun itinéraire</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Expérimental. Il dirige sur l'itinéraire dans la voie de droite, jusqu'à 15 km/h, et s'arrête avant la destination. La carte n'est précise qu'à quelques mètres et il ne voit pas la circulation : la vitesse et les freins restent à vous, surveillez la route et reprenez le volant à tout moment. Activer ?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Décalage</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Décalage par rapport au milieu de la route</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>gauche</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>droite</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Chemin agricole</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>au milieu</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>En attente du serveur de cartes...</value>
+  </data>
 </root>

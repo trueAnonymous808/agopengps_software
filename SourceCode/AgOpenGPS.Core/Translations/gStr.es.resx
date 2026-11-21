@@ -6195,4 +6195,61 @@ Carga en nube: descarga siempre lo último de AgShare al abrir</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Llegada</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Autoguiado en ruta desactivado</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Interruptor de dirección</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autoguiado en la ruta (experimental)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autoguiado en espera</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>no es un camino agrícola</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>más de 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>demasiado lejos de la ruta</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>marcha atrás</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>casi en el destino</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>sin ruta</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimental. Dirige por la ruta en el carril derecho, hasta 15 km/h, y se detiene antes del destino. El mapa solo tiene una precisión de unos metros y no ve el tráfico: la velocidad y los frenos siguen siendo cosa suya, vigile el camino y tome el volante en cualquier momento. ¿Activar?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Desplazamiento</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Desplazamiento desde el centro del camino</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>izquierda</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>derecha</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Carretera</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Camino agrícola</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>en el centro</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Esperando al servidor de mapas...</value>
+  </data>
 </root>

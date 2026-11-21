@@ -1,6 +1,7 @@
 namespace AgOpenGPS.Navigation
 {
-    public enum RoadClass { Primary, Secondary, Tertiary, Unclassified, Residential, Service, Track, Other }
+    // OffRoad (always last: the stored road map keeps the numbers) is the straight way across a field to or from the road
+    public enum RoadClass { Primary, Secondary, Tertiary, Unclassified, Residential, Service, Track, Other, OffRoad }
 
     // Where a tractor may drive and how fast it goes there. Motorways and expressways are closed to it, and so are the
     // ways meant for walking or cycling; farm and field tracks are just what it needs to reach the fields.
@@ -65,6 +66,7 @@ namespace AgOpenGPS.Navigation
                 case RoadClass.Residential: return 30;
                 case RoadClass.Service:
                 case RoadClass.Track: return 15;
+                case RoadClass.OffRoad: return 8;
                 default: return 20;
             }
         }

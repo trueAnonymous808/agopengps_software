@@ -6195,4 +6195,61 @@ Indlæs fra Konfig-panelet og menuen øverst til venstre.</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Ankomst</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Rutestyring slået fra</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Styrekontakt</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autostyring på ruten (eksperimentel)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autostyring venter</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>ikke en markvej</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>hurtigere end 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>for langt fra ruten</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>bakker</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>næsten fremme</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>ingen rute</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Eksperimentel. Styrer langs ruten i højre vognbane, op til 15 km/h, og stopper før destinationen. Kortet er kun præcist inden for nogle meter, og den ser ikke trafikken: hastighed og bremser er dit ansvar, hold øje med vejen og tag rattet når som helst. Slå til?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Forskydning</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Forskydning fra vejens midte</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>venstre</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>højre</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Vej</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Markvej</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>i midten</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Venter på kortserveren...</value>
+  </data>
 </root>

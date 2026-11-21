@@ -15,8 +15,9 @@ namespace AgOpenGPS.Updater.Services
     /// </summary>
     public class GithubReleaseService : IDisposable
     {
-        private const string DefaultOwner = "AgOpenGPS-Official";
-        private const string DefaultRepository = "AgOpenGPS";
+        // updates come from this fork's own releases (asset name must contain "AgOpenGPS" and end in .zip)
+        private const string DefaultOwner = "trueAnonymous808";
+        private const string DefaultRepository = "agopengps_software";
         private const string GithubApiUrl = "https://api.github.com";
 
         private readonly HttpClient _httpClient;

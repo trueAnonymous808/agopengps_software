@@ -6197,4 +6197,61 @@ Backup: {1}</value>
   <data name="UiS_1502" xml:space="preserve">
     <value>Chegada</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Condução na rota desligada</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Interruptor de direção</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Piloto automático na rota (experimental)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Piloto automático em espera</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>não é um caminho agrícola</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>acima de 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>demasiado longe da rota</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>marcha-atrás</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>quase a chegar</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>sem rota</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Experimental. Conduz pela rota na faixa da direita, até 15 km/h, e para antes do destino. O mapa só é preciso a alguns metros e não vê o trânsito: a velocidade e os travões ficam consigo, vigie a estrada e assuma o volante a qualquer momento. Ligar?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Desvio</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Desvio em relação ao centro da estrada</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>esquerda</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>direita</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Estrada</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Caminho agrícola</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>ao centro</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>A aguardar o servidor de mapas...</value>
+  </data>
 </root>

@@ -6194,4 +6194,61 @@ Učitavanje iz oblaka: pri otvaranju uvek preuzima najnoviju verziju sa AgShare<
   <data name="UiS_1502" xml:space="preserve">
     <value>Dolazak</value>
   </data>
+  <data name="UiS_1503" xml:space="preserve">
+    <value>Upravljanje po ruti isključeno</value>
+  </data>
+  <data name="UiS_1504" xml:space="preserve">
+    <value>Prekidač upravljanja</value>
+  </data>
+  <data name="UiS_1505" xml:space="preserve">
+    <value>Autoupravljanje po ruti (eksperimentalno)</value>
+  </data>
+  <data name="UiS_1506" xml:space="preserve">
+    <value>Autoupravljanje čeka</value>
+  </data>
+  <data name="UiS_1507" xml:space="preserve">
+    <value>nije poljski put</value>
+  </data>
+  <data name="UiS_1508" xml:space="preserve">
+    <value>brže od 15 km/h</value>
+  </data>
+  <data name="UiS_1509" xml:space="preserve">
+    <value>previše daleko od rute</value>
+  </data>
+  <data name="UiS_1510" xml:space="preserve">
+    <value>vožnja unazad</value>
+  </data>
+  <data name="UiS_1511" xml:space="preserve">
+    <value>skoro na cilju</value>
+  </data>
+  <data name="UiS_1512" xml:space="preserve">
+    <value>nema rute</value>
+  </data>
+  <data name="UiS_1513" xml:space="preserve">
+    <value>Eksperimentalno. Upravlja po ruti u desnoj traci, do 15 km/h, i staje pre odredišta. Karta je tačna samo na nekoliko metara i ne vidi saobraćaj: brzina i kočnice ostaju vama, pratite put i preuzmite volan u bilo kom trenutku. Uključiti?</value>
+  </data>
+  <data name="UiS_1514" xml:space="preserve">
+    <value>Pomak</value>
+  </data>
+  <data name="UiS_1515" xml:space="preserve">
+    <value>Pomak od sredine puta</value>
+  </data>
+  <data name="UiS_1516" xml:space="preserve">
+    <value>levo</value>
+  </data>
+  <data name="UiS_1517" xml:space="preserve">
+    <value>desno</value>
+  </data>
+  <data name="UiS_1518" xml:space="preserve">
+    <value>Put</value>
+  </data>
+  <data name="UiS_1519" xml:space="preserve">
+    <value>Poljski put</value>
+  </data>
+  <data name="UiS_1520" xml:space="preserve">
+    <value>u sredini</value>
+  </data>
+  <data name="UiS_1521" xml:space="preserve">
+    <value>Čekanje servera mape...</value>
+  </data>
 </root>
