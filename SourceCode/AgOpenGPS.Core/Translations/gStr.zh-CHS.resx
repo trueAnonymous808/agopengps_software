@@ -6252,4 +6252,1411 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   <data name="UiS_1521" xml:space="preserve">
     <value>正在等待地图服务器...</value>
   </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>转向几何校准</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>轴距</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>计算使用此值，请先检查</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>向右和向左匀速绕圈行驶，2-10 km/h，车轮角 5-35°，需 RTK 固定解。请先设置 WAS 零点（Smart WAS）。</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>样本</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>实际 / 传感器</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>右转</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>左转</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>每度计数</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>阿克曼</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>正在收集...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>可信度</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>转向自动调校</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>转向电机（Kp，最小 PWM）</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>自动转向开启，任意导航线</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>前视距离</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>在 AB 线或曲线上自动转向，pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>侧坡补偿</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>在横穿坡面的直线上自动转向，需要 IMU</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>当前良好</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>围绕目标角摆动：降低增益</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>达不到目标角：提高最小 PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>跟随滞后：提高增益</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>在导航线上蛇行：加长前视</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>停在导航线旁：缩短前视</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>新值</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>延迟</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>摆动</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>不足</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>最小 PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>偏离导航线</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>穿越次数</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>每度侧倾的车轮角</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>拟合度</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>测得侧倾</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>智能功能</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>自动转向工作时在后台学习</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>死区（方向、延迟）</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>前视速度系数</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>条件同前视，低速（8 km/h 以下）和高速（10 km/h 以上）</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>仅高速时蛇行：增大系数</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>仅高速时偏离导航线：减小系数</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>小于传感器噪声：电机在追噪声</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>远大于传感器噪声：反应迟缓</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>开关过于频繁：加长延迟</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>电机来回摆动：缩短延迟</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>传感器噪声</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>切换</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>摆动</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>系数</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>全自动</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>恢复初始值</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>建议将自动应用：每分钟最多一次小改动，仅在转向设置关闭时进行，且不会超出以今天数值为基准的限制。每次改动都会显示并记录，“恢复初始值”可恢复今天的数值。是否开启？</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>正在学习...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>转向设置打开时暂停</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>最近一次改动</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>死区</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>已恢复初始值</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>关闭 – 建议等待“应用”</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>侧倾传感器零点</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>在往返行驶的导航线上自动转向，需要 IMU</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>进入导航线</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>在导航线上自动转向，从 40 cm 以外进入</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit 积分</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>在长直导航线上自动转向，pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>掉头补偿</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>带自动掉头的自动转向</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>往返行驶不一致：零点偏移</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>冲过导航线：增大进入系数</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>缓慢靠近导航线：减小进入系数</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>偏向一侧：增加积分</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>导航线周围慢速波动：减少积分</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>转过下一条导航线：减少补偿</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>停在下一条导航线外侧：增加补偿</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>零点误差</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>离散度</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>单元</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>侧倾零点</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>冲过</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>进入</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>进入次数</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>进入系数</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>平均偏离</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>波动</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>积分</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>掉头</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>冲过</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>外侧</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Steer Wizard 打开时暂停</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>自动改动</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>尚无自动改动</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>下一次改动最早在</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>建议将自动应用（此窗口打开时也是）：每分钟最多一次小改动，且不会超出以今天数值为基准的限制。每次改动都会显示时间和原因，“恢复初始值”可恢复今天的数值。是否开启？</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK 固定解丢失</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>位置可能偏差 10-50 cm。从此处开始的作业以红色标记。</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>自动转向已关闭</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>RTK 固定解缺失时间过长。</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>差分过旧</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>无固定解</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>传感器线性度</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>来自几何校准：小、中、大角度的绕圈</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS 质量守护</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>12 km/h 以上的 Kp</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>11 km/h以上学习。8 km/h以下用普通Kp，12 km/h起用此值，中间过渡</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU 融合</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>带 IMU 的单天线，5 km/h 以上沿导航线直行</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>差分</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>等待 RTK 固定解</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>丢失次数</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>已标记</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>自动转向关闭时间</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>大</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>航向噪声</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>漂移</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>仅适用于单天线和 IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU 偏离 GPS 航向：加快融合</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>GPS 航向噪声渗入：减慢融合</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>传感器在大角度时测量不同：校正</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK 桥接结束</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>位置不再桥接：没有 RTK 时可能偏差 10-50 cm。</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>差分信号已停止到达。可在 AgIO 中设置备用差分源。</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>差分信号正常，接收机丢失了固定解（树木、建筑、天空视野）。</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK 桥接正在延续位置。</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>从此处开始的作业以红色标记。</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK 桥接</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>差分</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>接收机</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>桥接中</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>转向角</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>漂移</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU 学习中（RTK，行驶中）</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>桥接次数</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>上次</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>误差</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>最长桥接</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>无航向来源（IMU、双天线或转向模块）</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>双天线</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>在此之前使用内置估计</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>可信时长</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>后台正在进行一次测试</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP（载波相位）</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>接收机：RTCM MSM（1074/1084/1094/1124）和星历（1019/1020/1046/1042）输出到 GPS 端口，10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>仅学习</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>接收机无原始数据</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>请按上述设置接收机；期间其他一切不变</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>等待观测数据</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>颗卫星</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>星历</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>历元</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>正在使用</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>下次 RTK 丢失时接管</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>尚未证明优于航位推算</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>仅学习，从不转向</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>接收机, GPS 端口, 5-10 Hz: RTCM 3 MSM + 星历 (1019/1020/1042/1046), 或 u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>有原始数据，但没有载波相位</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>请开启 MSM（RTCM）或 RXM-RAWX（u-blox）</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>有载波相位，但还没有星历</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>请开启星历消息或 RXM-SFRBX，或使用会发送星历的 NTRIP</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>来自 NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>校准</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>传感器</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>转向电机</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>循线</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS 与 RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>全自动模式更改的所有数值将恢复为开启时的数值。确定吗？</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>地图上没有门牌号：请选择街道，并在地图上标出房屋</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>受限制保留</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>没有被限制保留的项目</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>新的起始值</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>当前的转向数值将成为新的起始值，限制也会随之移动。仅在拖拉机现在转向良好时这样做。继续吗？</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>起始值</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>建议</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>到达限制</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>正在检查上一次更改</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>已撤销，转向变差</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>已保留，可比较的行驶太少</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>已检查，已保留</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>在模拟中更差</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>天线偏移</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>轨迹间距</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>农具</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>其转向数值已恢复</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>尚无保存的转向数值</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>测量</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>转向机构</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>轨迹间距（天线横向偏移）</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. 在平地上沿AB线自动转向。停车，在牵引销下方的地面做标记。</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. 掉头沿同一条线返回；在牵引销到达标记旁时停车。</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. 测量横向间距，以及从座位看标记在哪一侧。</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>标记在左</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>标记在右</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>每个农具的转向数值</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>自动转向工作时测量中</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>死区时间</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>转向速度</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>未达到</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>间隙</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>间隙大：请检查转向节和WAS的固定</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>响应慢：请检查液压或电机</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>转向在极限处转动缓慢</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>无需修复</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>死区时间补偿</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>按测量值开启</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>当前天线偏移</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>已按农具保存</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>所有农具使用同一组数值</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>继续吗？</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>最近已撤销，稍后再试</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>不平地面上的侧倾补偿</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>坑洼模式</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>在直线上从摇晃中学习</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>侧倾延迟</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>实际高度</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>无需更改</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>补偿未消除的摇晃</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>试验中</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>侧倾补偿</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>轨迹间距向导</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>标记在我左边</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>标记在我右边</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>准备</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>第一趟</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>沿同一条线返回</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>测量</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>平坦均匀的地面。选择一条AB线并打开自动转向；让拖拉机以作业速度在线上稳定下来。</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>用自动转向沿线行驶至少30米后停车。在牵引销正下方的地面上做标记。</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>掉头，用自动转向沿同一条AB线返回。当牵引销与标记平齐时停车。</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>偏离线的距离</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>自动转向开</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>启动时的行驶方向</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>记住 (自动)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>手动 (点击拖拉机)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>单天线: 拖拉机停下和程序关闭时保存车头方向。在同一位置重新启动时立即可知。</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>模块配置器</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy 固件</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS 接收机</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>下载 / 更新列表</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>启动引导程序</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>检测</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>保存到接收机</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>发送命令</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: 文本命令 (例如 GPGGA COM1 0.1)。u-blox: UBX 帧的十六进制字节。接收机到模块端口的波特率从不在此更改: 模块固件需要保持原样。</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>固件缓存</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>正在下载 Config-O-Matic 列表...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>已下载</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>在缓存中</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>下载失败 - 使用缓存的列表</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>已请求引导程序于</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>无法打开</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>尚未在缓存中: 请先下载列表</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>将此固件写入 Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>写入时请勿拔下或关闭电源。</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>正在写入</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>固件已写入</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>写入失败</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP 原始数据 开</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP 原始数据 关</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP 原始数据 开</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP 原始数据 关</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>已跳过</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>无法连接接收机: 没有模块网络, 也没有 GPS 串口</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>无应答: Teensy 上是修改版固件吗?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>此设置用于另一台接收机</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>无法读取设置</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>已接受</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>未确认</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>按"保存到接收机"以便断电后保留</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>已保存到接收机</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>保存未确认</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>未发送: 到模块的波特率必须保持不变</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>无确认</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>网络上没有模块应答: 第一次需通过 USB 写入固件</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>模块当前固件</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>注意: 此固件没有网络更新 - 之后的更新仍需 USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>通过网络将此固件写入模块?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>拖拉机必须停止, 自动转向关闭。安装期间 (最后约 30 秒) 请勿关闭模块: 否则只能通过 USB 重新编程。</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>正在发送</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>已发送并校验; 模块正在安装并重启</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>模块已恢复</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>模块尚未应答 - 如果一直无响应, 请通过 USB 编程</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>AiO 主板 Teensy 的固件及其 GNSS 接收机的设置 - 通过网络, 无需打开盒子。</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>固件</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>写入模块</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>通过网络 (无需 USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>模块上已有修改版固件时。</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>通过 USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>第一次, 或网络不可用时。Teensy 的 USB 端口:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>哪台接收机</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>主接收机 (位置)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>第二台 F9P (航向)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (双天线一体) 和单台 F9P 始终是主接收机。只有双天线使用两台 F9P 时才有第二台: 它测量航向。</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>要发送的设置</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>不保存的话, 接收机断电后会忘记。</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>手动命令</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>未下载</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>绿色 ★ = 来自 AgOpenGPS 分支, 已修改: 用于 TDCP 的原始 GNSS、通过网络的接收机设置和固件更新、UM982 双天线航向。红色 = 原版 Config-O-Matic 固件, 未修改。</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>正在等待 Teensy 引导程序 (如果没有出现, 请按 Teensy 上的按钮)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>完成: Teensy 正在启动新固件</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>正在模块上腾出空间</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>正在模块上校验并安装</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>正在安装: 30 秒内请勿断电</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>已手动更改, 调节器重新开始</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>路线自动转向行驶时暂停</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>在模拟器中暂停</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>学习到的偏移</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>平稳转向</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>间隙补偿</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>尚未测量间隙</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>转向辅助</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>已平滑小幅抖动</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>间隙太小</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>提前</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>模型预测转向</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>转向风格</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>灵敏</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>平稳</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>前视</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC 前进时转向 AB 线和曲线; 掉头、轮廓和倒车使用 pure pursuit。</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>尚未测量</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>自适应 pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>当前前视</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>自适应</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>弯道中更短</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>死区时间余量</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>蛇行时更长</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Pure pursuit 页的前视是起点; 这会在每次定位时调整它。</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>自适应 PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>A/B 比较期间暂停</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>比较</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B 比较</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>转向方法在每个作业行后切换: pure pursuit、自适应、MPC。在此期间全自动调节等待。</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>保留最佳</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>停止 (恢复原样)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>目前最佳</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>先各跑两行</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>本次会话的所有作业行</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>尚无作业行 (在线上自动转向至少 30 m)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>最近的作业行</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC 转向风格</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC 前视</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>自适应: 弯道中更短</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>自适应: 死区时间余量</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>自适应: 蛇行时更长</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>一步</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>更快搜索</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>状态估计器 (卡尔曼)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>模型转向</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>未启动 (需要固定解和航向)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>转向角偏移</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU 偏移</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>侧滑</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>仅限双天线</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>与 GNSS 的偏差</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>就绪, 模型转向 (MPC、LQR、混合) 正在使用</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>转向使用</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>就绪, 转向使用滤波后的位置</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>与原始位置相差太远: 使用原始位置</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR 转向</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR 前进时转向 AB 线和曲线; 掉头、轮廓和倒车使用 pure pursuit。</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR 转向风格</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>混合</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>混合转向 (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR 保持直线, MPC 负责弯道和上线。掉头、轮廓和倒车使用 pure pursuit。</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>当前 MPC 占比</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>转向方法</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>学习</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>行驶记录器</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>测得的转向机构和 IMU</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>在田块上学习</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>清除在此田块上学到的内容?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>牵引农具保持在线上</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>关闭: 不记录</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>正在记录</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>定位</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>拖拉机一开动就记录</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>自动转向时测得</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>向右</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU 噪声</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>安静, 如 TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>较吵, 如 BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>之前偏离线的地方, 下次会提前反向转向 (每个方向分开)。</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>此田块上学到的位置</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>打开田块以便在上面学习</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>当前</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>在坡地和弯道上让牵引农具保持在线上: 拖拉机按需在旁边偏移行驶。</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>设置的农具不是牵引式: 无需处理</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>拖拉机在线旁</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>每个方向</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>无 RTK 固定解</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>此固件似乎用于另一块板</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>此固件似乎用于与模块上不同的另一块板。</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>用于另一块板的固件使用不同的引脚: 转向电机可能不工作或意外移动。仍要写入吗?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>平板关闭时被移动</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>如果平板关闭期间模块保持通电, 其 IMU 会记录每次转向: 无论拖拉机停在哪里都知道车头方向。如果模块也关闭过, 则由第一次移动时的冲击判断前进还是后退。</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>模块固件: 新 (发送其运行时间和加速度)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>需要新的模块固件</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>第一次移动时前进还是后退: 已学会</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>第一次移动时前进还是后退: 前进行驶时学习中</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>模拟器</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>有响应</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>无响应</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>较旧, 或模块上没有 IMU</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>固定解</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>差分改正过旧</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>浮点解</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>无 RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>无 (可选)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>噪声</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>学习中</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>死区时间</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>需要 IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>建议修改</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>已学会</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>精度报告</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>作业幅宽</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>行间</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>每一行实际与相邻行相距多远 (相对于作业幅宽): 两行之间的重叠或漏行。</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>尚无相邻行 - 请用自动转向和 RTK 固定解至少并排行驶两行。</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % 范围内</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>最差</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>在线上</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>自动转向保持该线时与线的距离 (RTK 固定解, 作业中)。</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>相邻行</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>转向模块</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>模块固件</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>转向角传感器零点</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>起步时方向</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>全自动调整</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>设置状态</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>支持包</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>支持包包含日志、设置和最近的行驶记录 (含田块内位置): 请发给帮助你的人。</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>已保存</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>未保存</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>在弯道中, 牵引农具会向内切, 此功能让它保持在线上: 拖拉机按需向外侧行驶。农具在坡地上下滑它看不到 - 为此需要在农具上安装 GPS。</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>安静</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>较吵</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>转向方法在每个作业行后切换: pure pursuit、自适应、MPC、LQR、混合。在此期间全自动调节等待。</value>
+  </data>
 </root>

@@ -5026,7 +5026,7 @@ upozorenju</value>
     <value>Udaljenost</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Obriši</value>
+    <value>Obr.</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Greška&#xD;
@@ -6251,5 +6251,1412 @@ Učitajte ih iz Config panela i izbornika gore lijevo.</value>
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Čekanje poslužitelja karte...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Kalibracija geometrije upravljanja</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Međuosovinski razmak</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>izračun ga koristi, prvo ga provjerite</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Vozite jednolike krugove desno i lijevo, 2-10 km/h, kut kotača 5-35°, s RTK fixom. Prvo postavite nulu WAS-a (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Primijeni</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Počni ispočetka</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Uzorci</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Stvarno / senzor</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Desni zavoj</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Lijevi zavoj</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Brojevi po stupnju</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>prikupljanje...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Pouzdanost</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Automatsko ugađanje upravljanja</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Motor upravljanja (Kp, minimalni PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autosteer uključen, bilo koja linija</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Pogled naprijed</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autosteer na AB liniji ili krivulji, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Kompenzacija nagiba</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autosteer na ravnoj liniji poprijeko nagiba, potreban IMU</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Dobro je ovako</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Njiše se oko željenog kuta: manje pojačanje</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Ne dostiže željeni kut: veći minimalni PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Kasni u praćenju: veće pojačanje</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Vijuga preko linije: dulji pogled naprijed</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Ostaje pored linije: kraći pogled naprijed</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Nova vrijednost</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Kašnjenje</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Njihanje</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Manjak</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimalni PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Odstupanje</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Prelasci</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Kut kotača po nagibu</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Podudaranje</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Izmjereni nagib</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Pametne funkcije</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Uči u pozadini dok Autosteer radi</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Mrtva zona (smjer, kašnjenje)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Faktor brzine pogleda naprijed</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Kao pogled naprijed, sporo (do 8 km/h) i brzo (od 10 km/h)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Vijuga samo pri brzini: veći faktor</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Ostaje pored linije samo pri brzini: manji faktor</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Manja od šuma senzora: motor juri šum</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Mnogo veća od šuma senzora: kasno reagira</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Prečesto se uključuje i isključuje: dulje kašnjenje</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Motor lovi naprijed-natrag: kraće kašnjenje</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Šum senzora</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Uključivanja</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Lovljenje</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Smjer</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Sporo</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Brzo</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Faktor</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Potpuno automatski</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Vrati početne vrijednosti</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Prijedlozi se tada primjenjuju sami: najviše jedna mala promjena u minuti, samo dok su postavke upravljanja zatvorene, i nikad dalje od zadanih granica od današnjih vrijednosti. Svaka se promjena prikazuje i bilježi, a Vrati početne vrijednosti vraća današnje vrijednosti. Uključiti?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Uči...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Pauzirano dok su postavke upravljanja otvorene</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Zadnja promjena</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Mrtva zona</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Početne vrijednosti vraćene</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Isključeno – prijedlozi čekaju Primijeni</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Nula senzora nagiba</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autosteer na linijama vožnjenim u oba smjera, potreban IMU</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Ulazak na liniju</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autosteer na liniji, ulazak s više od 40 cm</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit integral</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autosteer na dugim ravnim linijama, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Kompenzacija okretanja</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autosteer s automatskim okretanjem</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Prolazi u oba smjera se ne slažu: nula je pomaknuta</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Prelazi liniju: veći faktor ulaska</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Puzi na liniju: manji faktor ulaska</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Ostaje na jednoj strani: više integrala</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Spori val oko linije: manje integrala</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Okreće preko sljedeće linije: manja kompenzacija</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Završava izvan sljedeće linije: veća kompenzacija</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Greška nule</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Raspršenje</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Ćelije</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Nula nagiba</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Prebačaj</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Ulazak</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Ulasci</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Faktor ulaska</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Srednje odstupanje</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Valovi</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Okreti</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Preko</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Izvan</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Pauzirano dok je Steer Wizard otvoren</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Automatske promjene</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Još nema automatske promjene</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Sljedeća promjena najranije za</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Prijedlozi se tada primjenjuju sami, i dok je ovaj prozor otvoren: najviše jedna mala promjena u minuti i nikad dalje od zadanih granica od današnjih vrijednosti. Svaka se promjena prikazuje s vremenom i razlogom, a Vrati početne vrijednosti vraća današnje vrijednosti. Uključiti?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix izgubljen</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Položaj može odstupati 10-50 cm. Rad odavde označen je crveno.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Autoupravljanje isključeno</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Predugo bez RTK fixa.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>stara korekcija</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>nema fixa</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Linearnost senzora</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Iz kalibracije geometrije: krugovi s malim, srednjim i velikim kutom</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>Čuvar kvalitete GPS-a</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp iznad 12 km/h</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Uči iznad 11 km/h. Do 8 km/h uobičajeni Kp, od 12 km/h ovaj, između prijelaz</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU fuzija</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Jedna antena s IMU, ravno na liniji iznad 5 km/h</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Uklj.</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Isklj.</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>korekcija</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Čekanje RTK fixa</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Ispadi</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Označeno</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autosteer isklj. nakon</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Srednji</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Veliki</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Šum smjera</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Pomak</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Samo s jednom antenom i IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU odlazi od GPS smjera: brža fuzija</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>Šum GPS smjera prolazi: sporija fuzija</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Senzor pri većim kutovima mjeri drukčije: korekcija</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK most završio</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Položaj više nije premošten: bez RTK-a može odstupati 10-50 cm.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Korekcije više ne stižu. U AgIO-u se može postaviti rezervni izvor.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Korekcije stižu, prijemnik je izgubio fix (drveće, zgrade, pogled na nebo).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK most vodi položaj dalje.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Rad odavde označen je crveno.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK most</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>korekcije</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>prijemnik</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Premošćivanje</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>kut upravljanja</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Spremno</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>pomak</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU uči (RTK, u vožnji)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Mostovi</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Zadnji</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>odstupanje</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Najdulji most</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Ispiti</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>nema izvora smjera (IMU, dvostruka antena ili modul upravljanja)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>dvostruka antena</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>do tada vrijedi ugrađena procjena</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Pouzdano do</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>U pozadini se upravo odvija ispit</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (faza nosioca)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Prijemnik: RTCM MSM (1074/1084/1094/1124) i efemeride (1019/1020/1046/1042) na GPS port, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Samo uči</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automatski</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Nema sirovih podataka od prijemnika</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Postavite prijemnik kao gore; ništa se drugo u međuvremenu ne mijenja</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>čeka opažanja</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>satelita</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemeride</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epohe</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Sada u uporabi</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Preuzima pri sljedećem gubitku RTK-a</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Još nije dokazano bolje od mrtvog računa</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Samo uči, nikad ne upravlja</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Prijemnik, GPS port, 5-10 Hz: RTCM 3 MSM + efemeride (1019/1020/1042/1046), ili u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Sirovi podaci stižu, ali bez faze nosioca</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Uključite MSM (RTCM) ili RXM-RAWX (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Faza nosioca stiže, ali još nema efemerida</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Uključite poruke efemerida ili RXM-SFRBX, ili koristite NTRIP koji ih šalje</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>s NTRIP-a</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibracija</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Senzori</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Motor upravljanja</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Praćenje linije</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS i RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Sve vrijednosti koje je potpuno automatski način promijenio vraćaju se na one pri njegovom uključivanju. Jeste li sigurni?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Kućnog broja nema na karti: odaberite ulicu i označite kuću na karti</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Zadržano ograničenjima</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Ograničenja ništa ne zadržavaju</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Nove početne vrijednosti</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Današnje vrijednosti upravljanja postaju nove početne, a ograničenja se pomiču s njima. Samo ako traktor sada dobro upravlja. Nastaviti?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>početna vrijednost</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>predloženo</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Na granici</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Provjera zadnje promjene</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Poništeno, upravljalo je lošije</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Zadržano, premalo usporedive vožnje za provjeru</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Provjereno, zadržano</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>lošije u simulaciji</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Pomak antene</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>razmak tragova</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Priključak</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>njegove vrijednosti upravljanja su vraćene</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>još nema spremljenih vrijednosti upravljanja</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Mjerenja</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Upravljački mehanizam</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Razmak tragova (bočni pomak antene)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Autosteer na AB liniji, na ravnom terenu. Stanite i označite tlo ispod svornjaka poteznice.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Okrenite se i vratite istom linijom; stanite sa svornjakom pokraj oznake.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Izmjerite razmak poprečno i s koje je strane sjedala oznaka.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Oznaka lijevo</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Oznaka desno</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Vrijednosti upravljanja po priključku</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Mjerenje dok radi autosteer</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Mrtvo vrijeme</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Brzina zakretanja</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>nije dosegnuta</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Zračnost</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Velika zračnost: provjerite zglobove upravljanja i učvršćenje WAS-a</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Spor odziv: provjerite hidrauliku ili motor</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Upravljanje se na svojoj granici sporo okreće</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Nema ništa za popraviti</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Kompenzacija mrtvog vremena</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Isključi</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Uključi s izmjerenom vrijednošću</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Pomak antene sada</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Spremljeno za priključke</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Jedan skup vrijednosti za sve priključke</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Nastaviti?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>nedavno poništeno, pokušat će kasnije</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Kompenzacija nagiba na neravnom terenu</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Način rupa</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>U uporabi</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>visina</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Uči iz ljuljanja na ravnim linijama</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Kašnjenje nagiba</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Stvarna visina</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Nema što mijenjati</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Ljuljanja koja kompenzacija nije uklonila</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Isprobava se</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Kompenzacija nagiba</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Čarobnjak za razmak tragova</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Oznaka lijevo od mene</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Oznaka desno od mene</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Natrag</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Priprema</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Prvi prolaz</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Natrag istom linijom</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Mjerenje</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Ravan, ujednačen teren. Odaberite AB liniju i uključite autosteer; pustite traktor da se pri radnoj brzini smiri na liniji.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Vozite najmanje 30 m po liniji s autosteerom, zatim stanite. Označite tlo točno ispod svornjaka poteznice.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Okrenite se i vratite istom AB linijom s autosteerom. Stanite kad je svornjak u ravnini s oznakom.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>odstupanje od linije</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Autosteer uključen</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Smjerovi</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Smjer vožnje pri pokretanju</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Zapamti (automatski)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Ručno (kliknite na traktor)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Jedna antena: gdje je prednji dio sprema se kad traktor stane i kad se program zatvori. Ponovno pokrenut na istom mjestu, odmah je poznat.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Konfigurator modula</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy firmver</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS prijemnik</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Preuzmi / ažuriraj popis</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Pokreni bootloader</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Prepoznaj</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Pošalji</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Spremi u prijemnik</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Pošalji naredbu</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: tekstne naredbe (npr. GPGGA COM1 0.1). u-blox: heksadecimalni bajtovi UBX okvira. Brzina porta prijemnika prema modulu odavde se nikad ne mijenja: firmver modula očekuje je takvu kakva jest.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Predmemorija firmvera</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Preuzimanje popisa Config-O-Matic...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Preuzeto</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>u predmemoriji</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Preuzimanje nije uspjelo - koristi se popis iz predmemorije</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader zatražen na</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Nije moguće otvoriti</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Još nije u predmemoriji: prvo preuzmite popis</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Zapisati ovaj firmver na Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Ne iskopčavajte ga i ne isključujte tijekom zapisivanja.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Zapisivanje</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Firmver zapisan</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Zapisivanje nije uspjelo</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: sirovi TDCP podaci uključeni</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: sirovi TDCP podaci isključeni</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: sirovi TDCP podaci uključeni</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: sirovi TDCP podaci isključeni</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Preskočeno</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Nema puta do prijemnika: nema mreže modula ni serijskog GPS porta</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Nema odgovora: je li izmijenjeni firmver na Teensyju?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Ova postavka je za drugi prijemnik</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Postavku nije moguće pročitati</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>preuzeto</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>nije potvrđeno</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Pritisnite Spremi u prijemnik da ostane i nakon isključivanja</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Spremljeno u prijemnik</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Spremanje nije potvrđeno</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Nije poslano: brzina prema modulu mora ostati kakva jest</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>nema potvrde</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Nijedan modul nije odgovorio preko mreže: prvi put firmver ide preko USB-a</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Sada na modulu</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Napomena: ovaj firmver nema mrežno ažuriranje - kasniji će opet trebati USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Zapisati ovaj firmver na modul preko mreže?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Traktor mora stajati, autoupravljanje isključeno. Tijekom instalacije (oko 30 sekundi na kraju) ne isključujte modul: tada se može programirati samo preko USB-a.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Slanje</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Poslano i provjereno; modul ga instalira i ponovno pokreće</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Modul se vratio</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Modul još nije odgovorio - ako ostane tih, programirajte ga preko USB-a</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Firmver za Teensy na AiO pločici i postavke njezinih GNSS prijemnika - preko mreže, bez otvaranja kutije.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Firmver</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Stavi na modul</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Preko mreže (bez USB-a)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Kad je na modulu već izmijenjeni firmver.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Preko USB-a</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>Prvi put ili kad mreža ne radi. USB port Teensyja:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Koji prijemnik</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Glavni prijemnik (položaj)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Drugi F9P (smjer)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (dvostruka antena u jednom) i jedan F9P uvijek su glavni prijemnik. Drugi postoji samo s dva F9P za dvostruku antenu: mjeri smjer.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Postavka za slanje</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Bez spremanja prijemnik je zaboravi pri isključivanju.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Ručna naredba</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Zapisnik</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>nije preuzeto</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Zeleno ★ = iz AgOpenGPS forka, izmijenjeno: sirovi GNSS za TDCP, postavke prijemnika i ažuriranje firmvera preko mreže, smjer dvostruke antene UM982. Crveno = izvorni Config-O-Matic firmveri, nepromijenjeni.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Čeka se Teensy bootloader (pritisnite tipku na Teensyju ako se ne pojavi)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Gotovo: Teensy pokreće novi firmver</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Oslobađanje mjesta na modulu</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Provjera i instalacija na modulu</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Instalacija: ne isključujte 30 sekundi</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Promijenjeno ručno, ugađanja počinju ispočetka</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Pauzirano dok upravlja autoupravljanje rutom</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Pauzirano u simulatoru</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Naučeni pomak</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Mirno upravljanje</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Kompenzacija zračnosti</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Zračnost još nije izmjerena</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Pomagala upravljanja</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Sitni titraji izglađeni</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Premala zračnost</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Naprijed za</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Prediktivno upravljanje modelom</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Stil upravljanja</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Oštar</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Miran</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Pogled unaprijed</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC upravlja AB linijama i lukovima prema naprijed; okreti, konture i vožnja unatrag koriste pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>još nije izmjereno</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Prilagodljivi pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Pogled unaprijed sada</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Prilagodljivo</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Kraće u zavojima</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Rezerva za mrtvo vrijeme</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Duže pri vijuganju</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Pogled unaprijed s kartice Pure pursuit je polazište; ovo ga prilagođava pri svakom položaju.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>postavka</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Prilagodljivi PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Pauzirano tijekom A/B usporedbe</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Usporedba</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B usporedba</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Način upravljanja mijenja se nakon svakog prolaza: pure pursuit, prilagodljivi, MPC. Potpuno automatsko ugađanje u međuvremenu čeka.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Zadrži najbolji</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Zaustavi (natrag kao prije)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>U tijeku</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Zasad najbolji</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>prvo po dva prolaza</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Svi prolazi ove sesije</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Još nema prolaza (barem 30 m s autoupravljanjem na liniji)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>prolaza</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Zadnji prolazi</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC stil upravljanja</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC pogled unaprijed</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Prilagodljivo: kraće u zavojima</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Prilagodljivo: rezerva za mrtvo vrijeme</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Prilagodljivo: duže pri vijuganju</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Jedan korak</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>brže traženje</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Procjenitelj stanja (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Upravljanje modelom</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Nije pokrenut (treba fiks i smjer)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Pomak kuta zakreta</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>Pomak IMU-a</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Bočno klizanje</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>samo s dvostrukom antenom</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Odstupanje od GNSS-a</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Spremno, upravljanje modelom (MPC, LQR, hibridno) ga koristi</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Upravljanje ga koristi</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Spremno, upravljanje koristi filtrirani položaj</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Predaleko od sirovog položaja: koristi se sirovi</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR upravljanje</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR upravlja AB linijama i lukovima prema naprijed; okreti, konture i vožnja unatrag koriste pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR stil upravljanja</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hibridno</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hibridno upravljanje (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR drži liniju, MPC vodi zavoje i dolazak na liniju. Okreti, konture i vožnja unatrag koriste pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>Udio MPC-a sada</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Način upravljanja</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Učenje</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Snimač vožnje</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Upravljanje i IMU kako je izmjereno</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Učenje na parceli</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Zaboravi</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Zaboraviti naučeno na ovoj parceli?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Vučeni priključak na liniji</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Isključeno: ništa se ne snima</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Snima</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>položaja</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Snima čim traktor krene</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Izmjereno dok upravlja autoupravljanje</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>udesno</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>Šum IMU-a</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>tih, npr. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>bučniji, npr. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Gdje je prije skrenuo s linije, sljedeći put unaprijed protuupravlja (svaki smjer posebno).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Naučena mjesta na ovoj parceli</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Otvorite parcelu za učenje na njoj</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>sada</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Drži vučeni priključak na liniji na nagibima i u zavojima: traktor vozi pokraj koliko treba.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Postavljeni priključak nije vučeni: nema što raditi</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Traktor pokraj linije</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>po smjeru</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>nema RTK fiksa</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Čini se da je ovaj firmware za drugu pločicu</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Čini se da je ovaj firmware za drugu pločicu od one na modulu.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Firmware za drugu pločicu koristi druge pinove: motor upravljanja možda neće raditi ili se može neočekivano pomaknuti. Ipak zapisati?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Premješteno s isključenim tabletom</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Ako modul ostane uključen dok je tablet isključen, njegov IMU broji svako skretanje: prednji dio je poznat gdje god traktor stoji. Ako je i modul bio isključen, trzaj pri prvom pomaku pokazuje naprijed ili natrag.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Firmware modula: novi (šalje svoje vrijeme i ubrzanje)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Treba novi firmware modula</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Naprijed ili natrag pri prvom pomaku: naučeno</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Naprijed ili natrag pri prvom pomaku: uči tijekom vožnje naprijed</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simulator</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>odgovara</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>ne odgovara</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>novi</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>stariji, ili nema IMU-a na modulu</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>stare korekcije</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>nema RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>nema (neobavezno)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>šum</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>uči</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>mrtvo vrijeme</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>treba IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>spremno</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>predložena promjena</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>ručno</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>naučeno</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>isklj.</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Izvješće o točnosti</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Radna širina</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Prolaz do prolaza</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Koliko je svaki prolaz stvarno išao od susjednog, u odnosu na radnu širinu: preklapanje ili praznina između dva prolaza.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Još nema susjednih prolaza - vozite barem dva prolaza jedan do drugog s autoupravljanjem i RTK fiksom.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % unutar</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>prosjek</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>najgore</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>Na liniji</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Udaljenost od linije dok ju je autoupravljanje držalo (RTK fiks, u radu).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Susjedni prolazi</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Prolaz</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Modul upravljanja</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Firmware modula</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Nula senzora kuta upravljanja</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Smjer pri pokretanju</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Potpuno automatsko podešavanje</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Stanje postavki</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Paket za podršku</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Paket za podršku sadrži zapise, postavke i posljednje snimke vožnje (s položajima na parceli): pošaljite ga onome tko vam pomaže.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Spremljeno</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Nije spremljeno</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Drži vučeni priključak na liniji u zavojima, gdje reže prema unutra: traktor ide šire koliko treba. Priključak koji klizi niz nagib ne vidi - za to treba GPS na priključku.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>tih</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>bučniji</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Način upravljanja mijenja se nakon svakog prolaza: pure pursuit, prilagodljivi, MPC, LQR, hibridno. Potpuno automatsko ugađanje u međuvremenu čeka.</value>
   </data>
 </root>

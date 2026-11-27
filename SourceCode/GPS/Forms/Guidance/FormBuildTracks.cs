@@ -1187,7 +1187,7 @@ namespace AgOpenGPS
                 for (int i = 0; i < trackList.Count; i++)
                 {
                     string line = trackList[i].InnerText;
-                    line.Trim();
+                    line = line.Trim();
                     //line = coordinates;
                     char[] delimiterChars = { ' ', '\t', '\r', '\n' };
                     string[] numberSets = line.Split(delimiterChars);

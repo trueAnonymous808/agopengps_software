@@ -368,12 +368,17 @@ namespace AgIO
 
                 byte[] localMsg = new byte[msgLen];
                 Array.Copy(buffer, localMsg, msgLen);
+                IPAddress from = (endPointUDP as IPEndPoint)?.Address;
 
                 // Listen for more connections again...
                 UDPSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointUDP, 
                     new AsyncCallback(ReceiveDataUDPAsync), null);
 
-                BeginInvoke((MethodInvoker)(() => ReceiveFromUDP(localMsg)));
+                BeginInvoke((MethodInvoker)(() =>
+                {
+                    udpFrom = from;   // for the configurator: which module answered
+                    ReceiveFromUDP(localMsg);
+                }));
 
             }
             catch 
@@ -387,6 +392,9 @@ namespace AgIO
             {
                 if (data[0] == 0x80 && data[1] == 0x81)
                 {
+                    // a GNSS receiver's answer for the configurator: not for AgOpenGPS
+                    if (HandleGnssReply(data)) return;
+
                     //module return via udp sent to AOG
                     SendToLoopBackMessageAOG(data);
 
@@ -489,6 +497,12 @@ namespace AgIO
                     }
 
                 } // end of pgns
+
+                else if (HasBinaryGnss(data))
+                {
+                    // raw observations / ephemerides (RTCM 3, u-blox UBX) from the GPS module, maybe with NMEA
+                    ReceiveGpsBinaryUdp(data);
+                }
 
                 else if (data[0] == 36 && (data[1] == 71 || data[1] == 80 || data[1] == 75))
                 {

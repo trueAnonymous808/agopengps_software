@@ -493,6 +493,9 @@ namespace AgIO
             //reset watchdog since we have updated data
             NTRIP_Watchdog = 0;
 
+            // ephemerides for TDCP in AgOpenGPS
+            mf.TapCorrections(data, data.Length);
+
             //move the ntrip stream to queue
             for (int i = 0; i < data.Length; i++)
             {

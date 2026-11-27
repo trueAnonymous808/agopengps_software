@@ -44,7 +44,7 @@ namespace GPS_Out.PGNs
         public string Build()
         {
             cSentence = Properties.Settings.Default.SentenceStart + "GSA,A,3,01,02,03,,,,,,,,,,2";
-            cSentence += "," + mf.AGIOdata.HDOP.ToString("N2", CultureInfo.InvariantCulture);
+            cSentence += "," + mf.AGIOdata.HDOP.ToString("0.00", CultureInfo.InvariantCulture);
             cSentence += ",2";
 
             cSentence += "*";

@@ -257,7 +257,7 @@ namespace AgOpenGPS
                 rNorthAB = currentLinePtA.northing + (U * dy);
 
                 //update base on autosteer settings and distance from line
-                double goalPointDistance = mf.vehicle.UpdateGoalPointDistance();
+                double goalPointDistance = mf.AdaptLookAhead(mf.vehicle.UpdateGoalPointDistance());
 
                 if (mf.isReverse ^ isHeadingSameWay)
                 {
@@ -286,6 +286,20 @@ namespace AgOpenGPS
                 steerAngleAB = glm.toDegrees(Math.Atan(2 * (((goalPointAB.easting - pivot.easting) * Math.Cos(localHeading))
                     + ((goalPointAB.northing - pivot.northing) * Math.Sin(localHeading))) * mf.vehicle.VehicleConfig.Wheelbase
                     / goalPointDistanceDSquared));
+
+                // the line ahead from the closest point, in the driving direction (MPC, adaptive pure pursuit)
+                if (mf.PathAheadWanted)
+                {
+                    double along = (mf.isReverse ^ isHeadingSameWay) ? abHeading : abHeading + Math.PI;
+                    mf.pathAhead.Clear();
+                    mf.pathAhead.Add(new vec2(rEastAB, rNorthAB));
+                    mf.pathAhead.Add(new vec2(rEastAB + Math.Sin(along) * mf.PathAheadLengthM, rNorthAB + Math.Cos(along) * mf.PathAheadLengthM));
+                    if (mf.ModelSteers)
+                    {
+                        double mpcDeg = mf.ModelSteerDeg();
+                        if (!double.IsNaN(mpcDeg)) steerAngleAB = mpcDeg;
+                    }
+                }
 
                 if (mf.ahrs.imuRoll != 88888)
                     steerAngleAB += mf.ahrs.imuRoll * -mf.gyd.sideHillCompFactor;

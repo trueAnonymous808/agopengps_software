@@ -163,6 +163,9 @@ namespace AgOpenGPS
                 InitializeFirstFewGPSPositions();
                 return;
             }
+
+            // RTK lost: the bridge carries the antenna position on from the last RTK position (dead reckoning)
+            ApplyRtkBridge();
             // Detect re-initialization of heading
             if (!isFirstHeadingSet && hasBeenFirstHeadingSet)
             {
@@ -200,6 +203,9 @@ namespace AgOpenGPS
                 }
             }
 
+            // forwards or backwards at the first move: the IMU's jolt at starting off, and learning how the IMU sits
+            FeedStartDirection();
+
             #region Heading
             switch (headingFromSource)
             {
@@ -216,6 +222,9 @@ namespace AgOpenGPS
                         distanceCurrentStepFixDisplay = glm.Distance(prevDistFix, pn.fix);
                         distanceCurrentStepFixDisplay *= 100;
                         prevDistFix = pn.fix;
+
+                        // the front remembered from the last time, if the tractor is where it was left
+                        if (!isFirstHeadingSet && TryRestoreForward()) return;
 
                         if (Math.Abs(avgSpeed) < 1.5 && !isFirstHeadingSet)
                             goto byPass;
@@ -253,6 +262,10 @@ namespace AgOpenGPS
 
                                 gpsHeading = Math.Atan2(pn.fix.easting - stepFixPts[2].easting,
                                     pn.fix.northing - stepFixPts[2].northing);
+
+                                // the first move may have been backwards: the IMU's jolt at starting off tells (once
+                                // it has learnt how the IMU sits) - the front is then the other way
+                                if (FirstMoveBackwards()) gpsHeading += Math.PI;
 
                                 if (gpsHeading < 0) gpsHeading += glm.twoPI;
                                 else if (gpsHeading >= glm.twoPI) gpsHeading -= glm.twoPI;
@@ -312,7 +325,7 @@ namespace AgOpenGPS
                                 if (ahrs.imuRoll != 88888)
                                 {
                                     //change for roll to the right is positive times -1
-                                    rollCorrectionDistance = Math.Tan(glm.toRadians((ahrs.imuRoll))) * -vehicle.VehicleConfig.AntennaHeight;
+                                    rollCorrectionDistance = Math.Tan(glm.toRadians(CompensationRollDeg())) * -CompensationHeightM;
 
                                     // roll to left is positive  **** important!!
                                     // not any more - April 30, 2019 - roll to right is positive Now! Still Important
@@ -353,7 +366,7 @@ namespace AgOpenGPS
                         if (ahrs.imuRoll != 88888)
                         {
                             //change for roll to the right is positive times -1
-                            rollCorrectionDistance = Math.Sin(glm.toRadians((ahrs.imuRoll))) * -vehicle.VehicleConfig.AntennaHeight;
+                            rollCorrectionDistance = RollCorrection(gpsHeading);   // on time, with the height that cancels the swing
                             correctionDistanceGraph = rollCorrectionDistance;
 
                             pn.fix.easting = (Math.Cos(-gpsHeading) * rollCorrectionDistance) + pn.fix.easting;
@@ -683,7 +696,7 @@ namespace AgOpenGPS
                         if (ahrs.imuRoll != 88888)
                         {
                             //change for roll to the right is positive times -1
-                            rollCorrectionDistance = Math.Sin(glm.toRadians((ahrs.imuRoll))) * -vehicle.VehicleConfig.AntennaHeight;
+                            rollCorrectionDistance = RollCorrection(fixHeading);   // on time, with the height that cancels the swing
                             correctionDistanceGraph = rollCorrectionDistance;
 
                             // roll to right is positive  **** important!!
@@ -724,7 +737,7 @@ namespace AgOpenGPS
                         {
 
                             //change for roll to the right is positive times -1
-                            rollCorrectionDistance = Math.Sin(glm.toRadians((ahrs.imuRoll))) * -vehicle.VehicleConfig.AntennaHeight;
+                            rollCorrectionDistance = RollCorrection(gpsHeading);   // on time, with the height that cancels the swing
                             correctionDistanceGraph = rollCorrectionDistance;
 
                             pn.fix.easting = (Math.Cos(-gpsHeading) * rollCorrectionDistance) + pn.fix.easting;
@@ -821,6 +834,12 @@ namespace AgOpenGPS
             SendPgnToLoop(correctedPosition);
             #endregion
 
+            // the Kalman state estimator steps on the raw position; switched on and ready, the guidance below takes
+            // its position and heading
+            RecordFix();              // the raw position and sensors, before anything moves them
+            ApplyStateEstimator();
+            ApplyGuidanceShift();     // learning on the field, the trailed implement
+
             #region AutoSteer
 
             //preset the values
@@ -866,8 +885,14 @@ namespace AgOpenGPS
             //if the whole path driving driving process is green
             if (recPath.isDrivingRecordedPath) recPath.UpdatePosition();
 
-            // experimental: steering along the navigation route (field tracks only)
+            // experimental: steering along the navigation route
             UpdateRouteSteer();
+
+            // steering geometry calibration (only while its window is open)
+            FeedSteerGeometryCal();
+
+            // steering auto-tune: motor, look-ahead, side-hill (always learning in the background)
+            FeedSteerAutoTune();
 
             // Outside the free drive check, listeners need the track context in both modes
             isobus.SendGuidanceTrackContext();
@@ -983,9 +1008,26 @@ namespace AgOpenGPS
                     if (isReverse) p_254.pgn[p_254.status] = 0;
                 }                
 
-                // delay on dead zone.
+                // the angle for the module: the steer angle sensor's linearity taken into account (1:1 when linear)
+                // and a little ahead while it changes, by the steering's dead time (when switched on)
+                bool steeringForward = p_254.pgn[p_254.status] == 1 && !isReverse;
+                // (MPC already steers for the dead time: no lead on top of it)
+                double askedDeg = ModelSteers ? guidanceLineSteerAngle * 0.01 : SteerLead(guidanceLineSteerAngle * 0.01, steeringForward);
+                // and held back for a moment after a rock the roll compensation did not take out (pit mode)
+                askedDeg = PitSmooth(askedDeg, steeringForward);
+                // calm: small wobbles smoothed, never faster than the wheels turn
+                askedDeg = SteerSmooth(askedDeg, steeringForward);
+                NoteSteerAsked(askedDeg);
+                short aimSteerAngle = (short)Math.Max(short.MinValue, Math.Min(short.MaxValue, Math.Round(SteerSentDeg(askedDeg) * 100)));
+                steerAimDeg = aimSteerAngle * 0.01;   // what the wheels should reach, for the tuners on the next fix
+                // the play made up for: half of it ahead in the direction the angle moves
+                short sentSteerAngle = (short)Math.Max(short.MinValue, Math.Min(short.MaxValue, Math.Round(SteerSentDeg(SteerPlay(askedDeg, steeringForward)) * 100)));
+                steerSentLastDeg = sentSteerAngle * 0.01;
+
+                // delay on dead zone. (Smaller the faster: how far a held angle error carries the tractor sideways
+                // grows with the square of the speed - the dead zone as set holds up to 10 km/h.)
                 if (p_254.pgn[p_254.status] == 1 && !isReverse
-                    && Math.Abs(guidanceLineSteerAngle - mc.actualSteerAngleDegrees*100) < vehicle.deadZoneHeading)
+                    && Math.Abs(aimSteerAngle - mc.actualSteerAngleDegrees*100) < vehicle.deadZoneHeading * CVehicleDeadZone.SpeedFactor(avgSpeed))
                 {
                     if (vehicle.deadZoneDelayCounter > vehicle.deadZoneDelay)
                     {
@@ -1000,11 +1042,11 @@ namespace AgOpenGPS
 
                  if (!vehicle.isInDeadZone)
                 {
-                    p_254.pgn[p_254.steerAngleHi] = unchecked((byte)(guidanceLineSteerAngle >> 8));
-                    p_254.pgn[p_254.steerAngleLo] = unchecked((byte)(guidanceLineSteerAngle));
+                    p_254.pgn[p_254.steerAngleHi] = unchecked((byte)(sentSteerAngle >> 8));
+                    p_254.pgn[p_254.steerAngleLo] = unchecked((byte)(sentSteerAngle));
 
                     // Smart WAS sample collection - guidance steer angle in degrees
-                    smartWAS.AddSample(guidanceLineSteerAngle * 0.01);
+                    if (!timerSim.Enabled) smartWAS.AddSample(guidanceLineSteerAngle * 0.01);   // nothing learnt in the simulator
                 }
             }
 
@@ -1039,6 +1081,9 @@ namespace AgOpenGPS
             }
 
             #endregion
+
+            // the guidance had the position moved sideways (learning, implement): from here on the real one again
+            RestoreGuidanceShift();
 
             #region Youturn
 
@@ -1197,13 +1242,13 @@ namespace AgOpenGPS
             {
                 //grab fix and elevation
                 sbGrid.Append(
-                    AppModel.CurrentLatLon.Latitude.ToString("N7", CultureInfo.InvariantCulture) + ","
-                    + AppModel.CurrentLatLon.Longitude.ToString("N7", CultureInfo.InvariantCulture) + ","
+                    AppModel.CurrentLatLon.Latitude.ToString("0.0000000", CultureInfo.InvariantCulture) + ","
+                    + AppModel.CurrentLatLon.Longitude.ToString("0.0000000", CultureInfo.InvariantCulture) + ","
                     + Math.Round((pn.altitude - vehicle.VehicleConfig.AntennaHeight),3).ToString(CultureInfo.InvariantCulture) + ","
                     + pn.fixQuality.ToString(CultureInfo.InvariantCulture) + ","
-                    + pn.fix.easting.ToString("N2", CultureInfo.InvariantCulture) + ","
-                    + pn.fix.northing.ToString("N2", CultureInfo.InvariantCulture) + ","
-                    + pivotAxlePos.heading.ToString("N3", CultureInfo.InvariantCulture) + ","
+                    + pn.fix.easting.ToString("0.00", CultureInfo.InvariantCulture) + ","   // (no thousands separator: a comma would split the column)
+                    + pn.fix.northing.ToString("0.00", CultureInfo.InvariantCulture) + ","
+                    + pivotAxlePos.heading.ToString("0.000", CultureInfo.InvariantCulture) + ","
                     + Math.Round(ahrs.imuRoll,3).ToString(CultureInfo.InvariantCulture) + 
                     "\r\n");
 

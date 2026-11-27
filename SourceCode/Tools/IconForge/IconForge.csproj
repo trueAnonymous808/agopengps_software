@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Draws the main screen's button pictures in code and writes them over GPS/btnImages (same names, same sizes).
+       Run: IconForge <map file of name|png path> [preview.png]. Not part of the program's build. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+
+</Project>

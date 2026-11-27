@@ -822,6 +822,73 @@ namespace AgIO
             if (isGPSCommOpen) recvGPSSentence = sentence;
         }
 
+        // RTCM 3 frames the receiver sends between its NMEA (raw observations and ephemerides for TDCP in
+        // AgOpenGPS): read as bytes, the frames go to AgOpenGPS on their own loopback port, the rest is NMEA text
+        // as before. ReadExisting would turn every byte above 127 into '?' and spoil the frames.
+        private readonly AgLibrary.Gnss.Rtcm3Frames gpsFrames = new AgLibrary.Gnss.Rtcm3Frames();
+        private readonly byte[] gpsReadBuffer = new byte[8192];
+        private readonly System.Collections.Generic.List<byte[]> gpsFrameList = new System.Collections.Generic.List<byte[]>();
+        private readonly System.Collections.Generic.List<byte> gpsTextList = new System.Collections.Generic.List<byte>();
+        private static readonly System.Net.IPEndPoint epRawGnss = new System.Net.IPEndPoint(System.Net.IPAddress.Loopback, AgLibrary.Gnss.Rtcm3Frames.LocalPort);
+
+        // The receiver's binary data that comes over UDP (a GPS module passing the serial stream on)
+        private readonly AgLibrary.Gnss.Rtcm3Frames udpGpsFrames = new AgLibrary.Gnss.Rtcm3Frames();
+
+        /// <summary>UDP data from the GPS module with binary frames in it: the frames out, the NMEA on as before.</summary>
+        private void ReceiveGpsBinaryUdp(byte[] data)
+        {
+            var frames = new System.Collections.Generic.List<byte[]>();
+            var text = new System.Collections.Generic.List<byte>();
+            udpGpsFrames.Feed(data, data.Length, frames, text);
+            foreach (byte[] frame in frames) SendDataToLoopBack(AgLibrary.Gnss.Rtcm3Frames.Tagged(AgLibrary.Gnss.Rtcm3Frames.TagRover, frame), epRawGnss);
+            traffic.cntrGPSOut += data.Length;
+            if (text.Count == 0) return;
+            rawBuffer += System.Text.Encoding.ASCII.GetString(text.ToArray());
+            ParseNMEA(ref rawBuffer);
+        }
+
+        private static bool HasBinaryGnss(byte[] data)
+        {
+            if (data.Length == 0) return false;
+            if (data[0] == AgLibrary.Gnss.Rtcm3Frames.Preamble) return true;
+            if (data.Length > 1 && data[0] == AgLibrary.Gnss.Rtcm3Frames.UbxSync1 && data[1] == AgLibrary.Gnss.Rtcm3Frames.UbxSync2) return true;
+            if (data[0] != '$') return false;
+            for (int i = 1; i < data.Length; i++) if (data[i] > 127) return true;   // NMEA with binary after it
+            return false;
+        }
+
+        // The correction stream's ephemerides for TDCP: receivers that send raw phase but not the orbits still
+        // get them this way (most casters send them). Only the ephemerides go on, never the base's observations.
+        private readonly AgLibrary.Gnss.Rtcm3Frames ntripFrames = new AgLibrary.Gnss.Rtcm3Frames();
+        private readonly object ntripTapLock = new object();
+
+        /// <summary>Correction bytes as they come (from any NTRIP client or radio thread).</summary>
+        public void TapCorrections(byte[] data, int count)
+        {
+            try
+            {
+                var frames = new System.Collections.Generic.List<byte[]>();
+                lock (ntripTapLock) ntripFrames.Feed(data, count, frames, new System.Collections.Generic.List<byte>());
+                foreach (byte[] frame in frames) TapCorrectionFrame(frame);
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        /// <summary>One whole correction frame.</summary>
+        public void TapCorrectionFrame(byte[] frame)
+        {
+            try
+            {
+                if (AgLibrary.Gnss.Rtcm3Frames.IsEphemeris(AgLibrary.Gnss.Rtcm3Frames.RtcmType(frame)) && AgLibrary.Gnss.Rtcm3Frames.CheckCrc(frame))
+                    SendDataToLoopBack(AgLibrary.Gnss.Rtcm3Frames.Tagged(AgLibrary.Gnss.Rtcm3Frames.TagCorrections, frame), epRawGnss);
+            }
+            catch (Exception)
+            {
+            }
+        }
+
         //serial port receive in its own thread
         private void sp_DataReceivedGPS(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
@@ -829,7 +896,13 @@ namespace AgIO
             {
                 try
                 {
-                    string sentence = spGPS.ReadExisting();
+                    int count = spGPS.Read(gpsReadBuffer, 0, Math.Min(gpsReadBuffer.Length, Math.Max(1, spGPS.BytesToRead)));
+                    gpsFrameList.Clear();
+                    gpsTextList.Clear();
+                    gpsFrames.Feed(gpsReadBuffer, count, gpsFrameList, gpsTextList);
+                    foreach (byte[] frame in gpsFrameList) SendDataToLoopBack(AgLibrary.Gnss.Rtcm3Frames.Tagged(AgLibrary.Gnss.Rtcm3Frames.TagRover, frame), epRawGnss);
+                    if (gpsTextList.Count == 0) return;
+                    string sentence = System.Text.Encoding.ASCII.GetString(gpsTextList.ToArray());
                     BeginInvoke((MethodInvoker)(() => ReceiveGPSPort(sentence)));
                 }
                 catch (Exception)

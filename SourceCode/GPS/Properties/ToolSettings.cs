@@ -122,6 +122,14 @@ namespace AgOpenGPS.Properties
         public double stanleyHeadingErrorGain = 1;
         public double stanleyIntegralGainAB = 0;
         public bool setVehicle_isStanleyUsed = false;
+        public bool setVehicle_isMpcUsed = false;           // model predictive steering (with pure pursuit, not Stanley)
+        public bool setVehicle_isLqrUsed = false;           // LQR steering
+        public bool setVehicle_isHybridUsed = false;        // hybrid steering: LQR on the line, MPC into curves and onto the line
+        public int setMpc_Calm = 7;                         // MPC steering style: 1 sharp ... 10 calm
+        public double setMpc_HorizonS = 3;                  // MPC: how far ahead it plans (s)
+        public int setApp_Curve = 5;                        // adaptive pure pursuit: how much curves shorten the look-ahead (0-10)
+        public int setApp_Floor = 25;                       // adaptive pure pursuit: dead times of driving it reaches at least (x10)
+        public int setApp_Weave = 35;                       // adaptive pure pursuit: % longer at most when weaving
 
         // Tool specific Steer Parameters
         public double setVehicle_goalPointLookAheadHold = 3;
@@ -144,6 +152,14 @@ namespace AgOpenGPS.Properties
             set_uTurnStyle = Unread;
             setAS_uTurnSmoothing = double.NaN;
             setAS_uTurnCompensation = double.NaN;
+            setVehicle_isMpcUsed = false;   // a profile from before MPC: pure pursuit
+            setVehicle_isLqrUsed = false;
+            setVehicle_isHybridUsed = false;
+            setMpc_Calm = 7;
+            setMpc_HorizonS = 3;
+            setApp_Curve = 5;
+            setApp_Floor = 25;
+            setApp_Weave = 35;
 
             LoadResult result = LoadProfile(toolFileName);
             SeedUTurnFromEnvironment();

@@ -74,51 +74,51 @@ namespace AgOpenGPS
 
             pbarProgress.Maximum = tabWiz.TabCount - 1;
 
-            hsbarWasOffset.Value = Properties.VehicleSettings.Default.setAS_wasOffset;
-            hsbarCountsPerDegree.Value = Properties.VehicleSettings.Default.setAS_countsPerDegree;
+            hsbarWasOffset.Value = FitBar(hsbarWasOffset, (int)(Properties.VehicleSettings.Default.setAS_wasOffset));
+            hsbarCountsPerDegree.Value = FitBar(hsbarCountsPerDegree, (int)(Properties.VehicleSettings.Default.setAS_countsPerDegree));
 
             lblCountsPerDegree.Text = hsbarCountsPerDegree.Value.ToString();
             lblSteerAngleSensorZero.Text = (hsbarWasOffset.Value / (double)(hsbarCountsPerDegree.Value)).ToString("N2");
 
-            hsbarAckerman.Value = Properties.VehicleSettings.Default.setAS_ackerman;
+            hsbarAckerman.Value = FitBar(hsbarAckerman, (int)(Properties.VehicleSettings.Default.setAS_ackerman));
             lblAckerman.Text = hsbarAckerman.Value.ToString();
 
             //min pwm, kP
-            hsbarMinPWM.Value = Properties.VehicleSettings.Default.setAS_minSteerPWM;
+            hsbarMinPWM.Value = FitBar(hsbarMinPWM, (int)(Properties.VehicleSettings.Default.setAS_minSteerPWM));
             lblMinPWM.Text = hsbarMinPWM.Value.ToString();
 
-            hsbarProportionalGain.Value = Properties.VehicleSettings.Default.setAS_Kp;
+            hsbarProportionalGain.Value = FitBar(hsbarProportionalGain, (int)(Properties.VehicleSettings.Default.setAS_Kp));
             lblProportionalGain.Text = hsbarProportionalGain.Value.ToString();
 
             //low steer, high steer
-            hsbarLowSteerPWM.Value = Properties.VehicleSettings.Default.setAS_lowSteerPWM;
+            hsbarLowSteerPWM.Value = FitBar(hsbarLowSteerPWM, (int)(Properties.VehicleSettings.Default.setAS_lowSteerPWM));
             lblLowSteerPWM.Text = hsbarLowSteerPWM.Value.ToString();
 
-            hsbarHighSteerPWM.Value = Properties.VehicleSettings.Default.setAS_highSteerPWM;
+            hsbarHighSteerPWM.Value = FitBar(hsbarHighSteerPWM, (int)(Properties.VehicleSettings.Default.setAS_highSteerPWM));
             lblHighSteerPWM.Text = hsbarHighSteerPWM.Value.ToString();
 
-            hsbarMaxSteerAngle.Value = (Int16)Properties.VehicleSettings.Default.setVehicle_maxSteerAngle;
+            hsbarMaxSteerAngle.Value = FitBar(hsbarMaxSteerAngle, (int)((Int16)Properties.VehicleSettings.Default.setVehicle_maxSteerAngle));
             lblMaxSteerAngle.Text = hsbarMaxSteerAngle.Value.ToString();
 
             mf.vehicle.stanleyDistanceErrorGain = Properties.ToolSettings.Default.stanleyDistanceErrorGain;
-            hsbarStanleyGain.Value = (Int16)(mf.vehicle.stanleyDistanceErrorGain * 10);
+            hsbarStanleyGain.Value = FitBar(hsbarStanleyGain, (int)((Int16)(mf.vehicle.stanleyDistanceErrorGain * 10)));
             lblStanleyGain.Text = mf.vehicle.stanleyDistanceErrorGain.ToString();
 
             mf.vehicle.stanleyHeadingErrorGain = Properties.ToolSettings.Default.stanleyHeadingErrorGain;
-            hsbarHeadingErrorGain.Value = (Int16)(mf.vehicle.stanleyHeadingErrorGain * 10);
+            hsbarHeadingErrorGain.Value = FitBar(hsbarHeadingErrorGain, (int)((Int16)(mf.vehicle.stanleyHeadingErrorGain * 10)));
             lblHeadingErrorGain.Text = mf.vehicle.stanleyHeadingErrorGain.ToString();
 
-            hsbarIntegral.Value = (int)(Properties.ToolSettings.Default.stanleyIntegralGainAB * 100);
+            hsbarIntegral.Value = FitBar(hsbarIntegral, (int)(Properties.ToolSettings.Default.stanleyIntegralGainAB * 100));
             lblIntegralPercent.Text = ((int)(mf.vehicle.stanleyIntegralGainAB * 100)).ToString();
 
-            hsbarIntegralPurePursuit.Value = (int)(Properties.ToolSettings.Default.purePursuitIntegralGainAB * 100);
+            hsbarIntegralPurePursuit.Value = FitBar(hsbarIntegralPurePursuit, (int)(Properties.ToolSettings.Default.purePursuitIntegralGainAB * 100));
             lblPureIntegral.Text = ((int)(mf.vehicle.purePursuitIntegralGain * 100)).ToString();
 
-            hsbarSideHillComp.Value = (int)(Properties.VehicleSettings.Default.setAS_sideHillComp * 100);
+            hsbarSideHillComp.Value = FitBar(hsbarSideHillComp, (int)(Properties.VehicleSettings.Default.setAS_sideHillComp * 100));
             mf.gyd.sideHillCompFactor = Properties.VehicleSettings.Default.setAS_sideHillComp;
 
             mf.vehicle.goalPointLookAheadMult = Properties.ToolSettings.Default.setVehicle_goalPointLookAheadMult;
-            hsbarLookAheadMult.Value = (Int16)(mf.vehicle.goalPointLookAheadMult * 10);
+            hsbarLookAheadMult.Value = FitBar(hsbarLookAheadMult, (int)((Int16)(mf.vehicle.goalPointLookAheadMult * 10)));
             lblLookAheadMult.Text = mf.vehicle.goalPointLookAheadMult.ToString();
 
             nudAntennaPivot.Value = (int)((Properties.VehicleSettings.Default.setVehicle_antennaPivot) * mf.m2InchOrCm);
@@ -178,7 +178,7 @@ namespace AgOpenGPS
             else cboxEncoder.Checked = true;
 
             nudMaxCounts.Value = (decimal)Properties.VehicleSettings.Default.setArdSteer_maxPulseCounts;
-            hsbarSensor.Value = (int)Properties.VehicleSettings.Default.setArdSteer_maxPulseCounts;
+            hsbarSensor.Value = FitBar(hsbarSensor, (int)((int)Properties.VehicleSettings.Default.setArdSteer_maxPulseCounts));
             lblhsbarSensor.Text = ((int)((double)hsbarSensor.Value * 0.3921568627)).ToString() + "%";
 
             sett = Properties.VehicleSettings.Default.setArdSteer_setting1;
@@ -276,7 +276,7 @@ namespace AgOpenGPS
             Properties.VehicleSettings.Default.setAS_Kp = mf.p_252.pgn[mf.p_252.gainProportional] = unchecked((byte)hsbarProportionalGain.Value);
             Properties.VehicleSettings.Default.setAS_minSteerPWM = mf.p_252.pgn[mf.p_252.minPWM] = unchecked((byte)hsbarMinPWM.Value);
 
-            hsbarSideHillComp.Value = (int)(Properties.VehicleSettings.Default.setAS_sideHillComp * 100);
+            hsbarSideHillComp.Value = FitBar(hsbarSideHillComp, (int)(Properties.VehicleSettings.Default.setAS_sideHillComp * 100));
 
             Properties.VehicleSettings.Default.setIMU_invertRoll = mf.ahrs.isRollInvert;
 
@@ -314,12 +314,12 @@ namespace AgOpenGPS
                         //force cpd a bit on the low side
                         double cpd = (mf.mc.actualSteerAngleDegrees / steerAngleRight * hsbarCountsPerDegree.Value);
                         cpd *= 0.9;
-                        hsbarCountsPerDegree.Value = (int)cpd;
+                        hsbarCountsPerDegree.Value = FitBar(hsbarCountsPerDegree, (int)((int)cpd));
                         lblCPDError.Text = AgLibrary.Localization.UiTranslator.TrText("CPD set to: ") + hsbarCountsPerDegree.Value.ToString();
                     }
                     catch (Exception ed)
                     {
-                        hsbarCountsPerDegree.Value = 100;
+                        hsbarCountsPerDegree.Value = FitBar(hsbarCountsPerDegree, 100);
                         lblCPDError.Text = AgLibrary.Localization.UiTranslator.TrText("Error, CPD set to 100");
                         Log.EventWriter("Error, CPD set to 100" + ed.ToString());
                     }
@@ -349,12 +349,12 @@ namespace AgOpenGPS
 
                     try
                     {
-                        hsbarAckerman.Value = (int)((steerAngleLeft / Math.Abs(startAngleLeft)) * 100);
+                        hsbarAckerman.Value = FitBar(hsbarAckerman, (int)((steerAngleLeft / Math.Abs(startAngleLeft)) * 100));
                         lblAckermannError.Text = AgLibrary.Localization.UiTranslator.TrText("Ackermann Set to: ") + hsbarAckerman.Value.ToString();
                     }
                     catch (Exception eh)
                     {
-                        hsbarAckerman.Value = 100;
+                        hsbarAckerman.Value = FitBar(hsbarAckerman, 100);
                         lblAckermannError.Text = AgLibrary.Localization.UiTranslator.TrText("Error, Ackermann set to 100");
                         Log.EventWriter("Error, Ackermann set to 100" + eh.ToString());
                     }
@@ -574,6 +574,13 @@ namespace AgOpenGPS
             lblBarAck.Text = hsbarAckerman.Value.ToString();
             lblBarWasOffset.Text = hsbarWasOffset.Value.ToString();
             lblBarCPD.Text = hsbarCountsPerDegree.Value.ToString();
+        }
+
+        // a stored value outside a bar's range (set elsewhere, or by an older version) must not crash the wizard:
+        // the bar shows the nearest value it can
+        private static int FitBar(ScrollBar bar, int value)
+        {
+            return Math.Max(bar.Minimum, Math.Min(bar.Maximum, value));
         }
 
         #region ButtonControl
@@ -866,8 +873,8 @@ namespace AgOpenGPS
         private void btnOKNext_CPDSetup_Click(object sender, EventArgs e)
         {
             mf.TimedMessageBox(3000, "Defaults Set", "CPD and Ackermann set to defaults");
-            hsbarCountsPerDegree.Value = 100;
-            hsbarAckerman.Value = 100;
+            hsbarCountsPerDegree.Value = FitBar(hsbarCountsPerDegree, 100);
+            hsbarAckerman.Value = FitBar(hsbarAckerman, 100);
 
             tabWiz.SelectedIndex = (tabWiz.SelectedIndex + 1 < tabWiz.TabCount) ?
              tabWiz.SelectedIndex + 1 : tabWiz.SelectedIndex;
@@ -875,7 +882,7 @@ namespace AgOpenGPS
 
         private void btnRemoveWasOffset_Click(object sender, EventArgs e)
         {
-            hsbarWasOffset.Value = 0;
+            hsbarWasOffset.Value = FitBar(hsbarWasOffset, 0);
         }
 
         private void btnRestartWizard_Click(object sender, EventArgs e)
@@ -918,7 +925,7 @@ namespace AgOpenGPS
         private void hsbarMinPWM_ValueChanged(object sender, EventArgs e)
         {
             lblMinPWM.Text = unchecked((byte)hsbarMinPWM.Value).ToString();
-            hsbarLowSteerPWM.Value = hsbarMinPWM.Value + 2;
+            hsbarLowSteerPWM.Value = FitBar(hsbarLowSteerPWM, (int)(hsbarMinPWM.Value + 2));
             if (isWizardStarted)
             {
                 toSend252 = true;
@@ -1124,7 +1131,7 @@ namespace AgOpenGPS
                 return;
             }
 
-            hsbarMaxSteerAngle.Value = Math.Max(hsbarMaxSteerAngle.Minimum, Math.Min(hsbarMaxSteerAngle.Maximum, Math.Abs((int)(mf.mc.actualSteerAngleDegrees))));
+            hsbarMaxSteerAngle.Value = FitBar(hsbarMaxSteerAngle, (int)(Math.Max(hsbarMaxSteerAngle.Minimum, Math.Min(hsbarMaxSteerAngle.Maximum, Math.Abs((int)(mf.mc.actualSteerAngleDegrees))))));
         }
 
         private void hsbarLookAheadMult_ValueChanged(object sender, EventArgs e)
@@ -1163,7 +1170,7 @@ namespace AgOpenGPS
 
         private void tab_MinimumGain_Enter(object sender, EventArgs e)
         {
-            hsbarProportionalGain.Value = 1;
+            hsbarProportionalGain.Value = FitBar(hsbarProportionalGain, 1);
             FreeDrive(true);
             mf.TimedMessageBox(2000, "P Gain Change", "Proportional Gain set to 1");
         }
@@ -1171,7 +1178,7 @@ namespace AgOpenGPS
         private void tab_MinimumGain_Leave(object sender, EventArgs e)
         {
             FreeDrive(false);
-            hsbarProportionalGain.Value = 15;
+            hsbarProportionalGain.Value = FitBar(hsbarProportionalGain, 15);
         }
 
         private void tabPGain_Enter(object sender, EventArgs e)
@@ -1236,7 +1243,7 @@ namespace AgOpenGPS
 
         private void btnAckReset_Click(object sender, EventArgs e)
         {
-            hsbarAckerman.Value = 100;
+            hsbarAckerman.Value = FitBar(hsbarAckerman, 100);
         }
 
         private void cboxDataInvertRoll_Click(object sender, EventArgs e)

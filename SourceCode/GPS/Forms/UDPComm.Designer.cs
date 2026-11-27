@@ -91,6 +91,7 @@ namespace AgOpenGPS
                                     else if (pn.headingTrueDual < 0) pn.headingTrueDual += 360;
 
                                     if (ahrs.isDualAsIMU) ahrs.imuHeading = pn.headingTrueDual;
+                                    NoteDualHeading();
                                 }
 
                                 //from single antenna sentences (VTG,RMC)
@@ -168,6 +169,10 @@ namespace AgOpenGPS
                                 UpdateFixPosition();
                             }
                         }
+                        break;
+
+                    case CImuSummary.Pgn: // the module's IMU summary, just before its PANDA (modified firmwares)
+                        imuSummary.Parse(data, secondsSinceStart);
                         break;
 
                     case 0xD3: //external IMU

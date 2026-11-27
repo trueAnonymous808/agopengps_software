@@ -13,6 +13,12 @@ namespace AgOpenGPS.Navigation
         public double Lat;
         public double Lon;
         public double DistanceKm;   // straight line from where the tractor was when the list was made
+
+        /// <summary>
+        /// A search result only to the street or the village (the map has no house number there): the driver pins
+        /// the exact place on the map.
+        /// </summary>
+        public bool Approximate;
     }
 
     // Where the driver can be taken: the saved fields (their start position) and the places an address search finds.
@@ -58,16 +64,33 @@ namespace AgOpenGPS.Navigation
                 "&format=jsonv2&limit=8&accept-language=" + Uri.EscapeDataString(language ?? "en");
         }
 
+        /// <summary>"46.25, 20.15", "46,25 20,15" or "46.25;20.15": a point; anything else: null.</summary>
+        public static Destination ParseCoordinates(string text)
+        {
+            var numbers = System.Text.RegularExpressions.Regex.Matches(text, @"-?\d+(?:[.,]\d+)?");
+            if (numbers.Count != 2) return null;
+            string rest = System.Text.RegularExpressions.Regex.Replace(text, @"-?\d+(?:[.,]\d+)?", "");
+            if (rest.Trim(' ', ',', ';', '\t').Length > 0) return null;
+            var inv = System.Globalization.CultureInfo.InvariantCulture;
+            if (!double.TryParse(numbers[0].Value.Replace(',', '.'), System.Globalization.NumberStyles.Float, inv, out double lat)) return null;
+            if (!double.TryParse(numbers[1].Value.Replace(',', '.'), System.Globalization.NumberStyles.Float, inv, out double lon)) return null;
+            if (Math.Abs(lat) > 90 || Math.Abs(lon) > 180) return null;
+            return new Destination { Name = lat.ToString("0.00000", inv) + ", " + lon.ToString("0.00000", inv), Lat = lat, Lon = lon };
+        }
+
         public static List<Destination> ParseNominatim(string json)
         {
             var result = new List<Destination>();
             foreach (JToken place in JArray.Parse(json))
             {
+                // place_rank 30: a house or a building; less: a street (26), a village, a region...
+                JToken rank = place["place_rank"];
                 result.Add(new Destination
                 {
                     Name = (string)place["display_name"],
                     Lat = double.Parse((string)place["lat"], CultureInfo.InvariantCulture),
-                    Lon = double.Parse((string)place["lon"], CultureInfo.InvariantCulture)
+                    Lon = double.Parse((string)place["lon"], CultureInfo.InvariantCulture),
+                    Approximate = rank != null && rank.Type == JTokenType.Integer && (int)rank < 30
                 });
             }
             return result;

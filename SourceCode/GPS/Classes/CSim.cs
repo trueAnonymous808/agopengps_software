@@ -24,6 +24,28 @@ namespace AgOpenGPS
             CurrentLatLon = new Wgs84(
                 Properties.Settings.Default.setGPS_SimLatitude,
                 Properties.Settings.Default.setGPS_SimLongitude);
+
+            // where it was left last time, facing the same way - unless that was somewhere else entirely
+            var s = Properties.Settings.Default;
+            if (s.setSim_LastHeadingDeg >= 0)
+            {
+                var last = new Wgs84(s.setSim_LastLat, s.setSim_LastLon);
+                if (last.IsValid && last.DistanceInMeters(CurrentLatLon) < 20000)
+                {
+                    CurrentLatLon = last;
+                    headingTrue = glm.toRadians(s.setSim_LastHeadingDeg);
+                }
+            }
+        }
+
+        /// <summary>Where the simulated tractor is and which way it faces, for the next start.</summary>
+        public void RememberPlace()
+        {
+            var s = Properties.Settings.Default;
+            s.setSim_LastLat = CurrentLatLon.Latitude;
+            s.setSim_LastLon = CurrentLatLon.Longitude;
+            s.setSim_LastHeadingDeg = Math.Round(glm.toDegrees(headingTrue), 2);
+            s.Save();
         }
 
         public void DoSimTick(double _st)

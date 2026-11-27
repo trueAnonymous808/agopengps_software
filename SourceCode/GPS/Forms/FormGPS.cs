@@ -329,10 +329,52 @@ namespace AgOpenGPS
             }
         }
 
+        // The left bar: every row the same height (the designer had them from 10 to 20 per cent), and the three
+        // drop-down strips only as tall as their icon, so that the table puts each in the middle of its row
+        // like the buttons - the icons then stand at even steps.
+        private void EvenLeftBar()
+        {
+            panelLeft.SuspendLayout();
+            int rows = panelLeft.RowStyles.Count;
+            for (int i = 1; i < rows; i++)
+            {
+                panelLeft.RowStyles[i].SizeType = SizeType.Percent;
+                panelLeft.RowStyles[i].Height = 100f / (rows - 1);
+            }
+            foreach (ToolStrip strip in new ToolStrip[] { statusStripLeft, statusStrip2, statusStrip1 })
+            {
+                if (strip.Items.Count == 0) continue;
+                ToolStripItem item = strip.Items[0];
+                strip.Height = item.Height + item.Margin.Vertical + strip.Padding.Vertical;
+            }
+            panelLeft.ResumeLayout(true);
+        }
+
         public FormGPS()
         {
             //winform initialization
             InitializeComponent();
+
+            // the track gap wizard in the Wizards menu, beside the steer wizard
+            var trackGapMenuItem = new ToolStripMenuItem
+            {
+                Text = AgLibrary.Localization.UiTranslator.TrText("Track gap wizard"),
+                Image = FormTrackGapWizard.MenuIcon(),
+                ImageAlign = System.Drawing.ContentAlignment.MiddleLeft,
+                Size = steerWizardMenuItem.Size
+            };
+            trackGapMenuItem.Click += (s, e) => OpenTrackGapWizard();
+            wizardsMenu.DropDownItems.Add(trackGapMenuItem);
+
+            // the left bar's icons at even steps (the pictures themselves come from Tools/IconForge)
+            try
+            {
+                EvenLeftBar();
+            }
+            catch (Exception ex)
+            {
+                Log.EventWriter("Left bar layout not evened: " + ex.Message);
+            }
 
             InitializeLanguages();
 
@@ -424,6 +466,7 @@ namespace AgOpenGPS
 
             //Smart WAS Calibration system
             smartWAS = new CSmartWAS(this);
+            if (Properties.Settings.Default.setSteerAuto_Enabled) smartWAS.Start();   // fully automatic tuning learns from the start
         }
 
         private void FormGPS_Load(object sender, EventArgs e)
@@ -691,6 +734,17 @@ namespace AgOpenGPS
 
             // Set shutdown flag to prevent re-entrance
             isShuttingDown = true;
+
+            // where the front is, for the next start; an A/B comparison ends with the method from before it
+            try
+            {
+                if (AbActive) StopAb(false);
+                SaveFieldLearning();
+                recorder.Stop();
+                SaveForward();
+                if (timerSim.Enabled && !isEasyDriveMode) sim.RememberPlace();
+            }
+            catch (Exception ex) { Log.EventWriter("Forward not saved: " + ex.Message); }
             e.Cancel = true; // Prevent immediate close
 
             // Close subforms

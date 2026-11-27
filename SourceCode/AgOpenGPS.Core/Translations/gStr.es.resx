@@ -5057,7 +5057,7 @@ aviso</value>
     <value>Distancia</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Borrar</value>
+    <value>Borr.</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Mensaje&#xD;
@@ -6251,5 +6251,1412 @@ Carga en nube: descarga siempre lo último de AgShare al abrir</value>
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Esperando al servidor de mapas...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Calibración de la geometría de dirección</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Distancia entre ejes</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>el cálculo la usa, compruébela primero</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Conduzca círculos uniformes a derecha e izquierda, 2-10 km/h, ruedas a 5-35°, con RTK fix. Ajuste primero el cero del WAS (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Empezar de nuevo</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Muestras</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Real / sensor</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Giro a la derecha</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Giro a la izquierda</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Cuentas por grado</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>recopilando...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Fiabilidad</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Ajuste automático de la dirección</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Motor de dirección (Kp, PWM mínimo)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autoguiado activo, cualquier línea</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Distancia de anticipación</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autoguiado en línea AB o curva, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Compensación de pendiente</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autoguiado en línea recta a través de la pendiente, requiere IMU</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Está bien así</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Oscila alrededor del ángulo deseado: menos ganancia</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>No alcanza el ángulo deseado: más PWM mínimo</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Sigue con retraso: más ganancia</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Zigzaguea sobre la línea: anticipación más larga</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Se queda fuera de la línea: anticipación más corta</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Nuevo valor</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Retraso</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Oscilación</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Falta</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>PWM mínimo</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Desviación</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Cruces</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Ángulo de rueda por inclinación</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Ajuste</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Inclinación medida</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Funciones inteligentes</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Aprende en segundo plano mientras trabaja el autoguiado</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Zona muerta (dirección, retardo)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Factor de velocidad de la anticipación</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Como la anticipación, despacio (hasta 8 km/h) y rápido (desde 10 km/h)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Zigzaguea solo rápido: factor mayor</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Se queda fuera de la línea solo rápido: factor menor</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Menor que el ruido del sensor: el motor persigue el ruido</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Mucho mayor que el ruido del sensor: reacciona tarde</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Se activa y desactiva demasiado: más retardo</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>El motor va y viene: menos retardo</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Ruido del sensor</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Cambios</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Vaivén</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Despacio</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Rápido</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Factor</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Totalmente automático</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Restaurar valores iniciales</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Las sugerencias se aplican entonces solas: como mucho un pequeño cambio por minuto, solo con los ajustes de dirección cerrados y nunca más allá de unos límites desde los valores de hoy. Cada cambio se muestra y se registra, y Restaurar valores iniciales devuelve los valores de hoy. ¿Activar?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Aprendiendo...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>En pausa mientras los ajustes de dirección están abiertos</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Último cambio</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Zona muerta</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Valores iniciales restaurados</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Desactivado: las sugerencias esperan a Aplicar</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Cero del sensor de inclinación</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autoguiado en líneas recorridas en ambos sentidos, requiere IMU</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Entrada en la línea</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autoguiado en una línea, entrando desde más de 40 cm</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Integral de pure pursuit</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autoguiado en líneas rectas largas, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Compensación de giro en cabecera</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autoguiado con giros automáticos</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Las pasadas en ambos sentidos no coinciden: el cero está desplazado</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Se pasa de la línea: factor de entrada mayor</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Se arrastra hacia la línea: factor de entrada menor</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Se queda a un lado: más integral</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Onda lenta alrededor de la línea: menos integral</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Gira más allá de la siguiente línea: menos compensación</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Queda fuera de la siguiente línea: más compensación</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Error de cero</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Dispersión</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Celdas</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Cero de inclinación</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Sobrepaso</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Entradas</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Factor de entrada</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Desviación media</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Ondas</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Giros</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Pasado</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Fuera</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>En pausa mientras el Steer Wizard está abierto</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Cambios automáticos</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Aún no hay cambios automáticos</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Próximo cambio como pronto en</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Las sugerencias se aplican entonces solas, también con esta ventana abierta: como mucho un pequeño cambio por minuto y nunca más allá de unos límites desde los valores de hoy. Cada cambio se muestra con su hora y motivo, y Restaurar valores iniciales devuelve los valores de hoy. ¿Activar?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix perdido</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>La posición puede desviarse 10-50 cm. El trabajo desde aquí se marca en rojo.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Autoguiado desactivado</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Demasiado tiempo sin RTK fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>corrección antigua</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>sin fix</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Linealidad del sensor</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>De la calibración de geometría: círculos con ángulo pequeño, medio y grande</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>Vigilante de calidad GPS</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp por encima de 12 km/h</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Aprende por encima de 11 km/h. Hasta 8 km/h el Kp normal, desde 12 km/h este, entre ambos una transición</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>Fusión IMU</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Antena única con IMU, recto en una línea por encima de 5 km/h</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>corrección</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Esperando RTK fix</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Caídas</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Marcado</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autoguiado desactivado tras</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Ruido de rumbo</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Deriva</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Solo con antena única e IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>La IMU se desvía del rumbo GPS: fusión más rápida</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>El ruido del rumbo GPS se cuela: fusión más lenta</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>El sensor mide distinto en ángulos mayores: corrección</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>Puente RTK terminado</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>La posición ya no se puentea: sin RTK puede desviarse 10-50 cm.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Las correcciones dejaron de llegar. En AgIO se puede configurar una fuente de respaldo.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Las correcciones llegan, el receptor perdió el fix (árboles, edificios, vista del cielo).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>El puente RTK mantiene la posición.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>El trabajo desde aquí se marca en rojo.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>Puente RTK</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>correcciones</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>receptor</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Puenteando</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>ángulo de dirección</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>deriva</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU aprendiendo (RTK, en marcha)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Puentes</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Último</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Puente más largo</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Exámenes</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>sin fuente de rumbo (IMU, antena doble o módulo de dirección)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>antena doble</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>hasta entonces se usa la estimación integrada</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Fiable durante</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Hay un examen en curso en segundo plano</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (fase portadora)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Receptor: RTCM MSM (1074/1084/1094/1124) y efemérides (1019/1020/1046/1042) en el puerto GPS, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Solo aprender</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Sin datos brutos del receptor</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Configure el receptor como arriba; mientras tanto nada más cambia</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>esperando observaciones</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>satélites</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemérides</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Épocas</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>En uso ahora</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Toma el relevo en la próxima pérdida de RTK</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Aún no ha demostrado ser mejor que la estima</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Solo aprende, nunca dirige</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Receptor, puerto GPS, 5-10 Hz: RTCM 3 MSM + efemérides (1019/1020/1042/1046), o u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Llegan datos brutos, pero sin fase portadora</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Active MSM (RTCM) o RXM-RAWX (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Llega fase portadora, pero aún sin efemérides</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Active los mensajes de efemérides o RXM-SFRBX, o use un caster NTRIP que las envíe</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>de NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Calibración</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Sensores</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Motor de dirección</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Seguimiento de línea</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS y RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Todos los valores que cambió el modo totalmente automático vuelven a los que había al activarlo. ¿Está seguro?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>El número no está en el mapa: elija la calle y marque la casa en el mapa</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Retenido por los límites</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Los límites no retienen nada</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Nuevos valores iniciales</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Los valores de dirección actuales pasan a ser los nuevos valores iniciales y los límites se mueven con ellos. Hágalo solo si el tractor dirige bien ahora. ¿Continuar?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>valor inicial</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>sugerido</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>En el límite</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Comprobando el último cambio</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Deshecho, dirigía peor</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Conservado, poca conducción comparable para comprobar</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Comprobado, conservado</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>peor en la simulación</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Desplazamiento de la antena</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>separación de huellas</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Apero</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>sus valores de dirección han vuelto</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>aún sin valores de dirección guardados</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Mediciones</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Separación de huellas (desplazamiento lateral de la antena)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Autoguiado en una línea AB, en terreno llano. Pare y marque el suelo bajo el bulón de enganche.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Gire y vuelva por la misma línea; pare con el bulón de enganche junto a la marca.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Mida la distancia transversal y en qué lado del asiento está la marca.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Marca a la izquierda</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Marca a la derecha</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Valores de dirección por apero</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Midiendo mientras trabaja el autoguiado</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Tiempo muerto</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Velocidad de giro</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>no alcanzada</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Holgura</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Mucha holgura: revise las rótulas de dirección y la fijación del WAS</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Respuesta lenta: revise la hidráulica o el motor</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>La dirección gira lento en su límite</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Nada que arreglar</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Compensación del tiempo muerto</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Activar con el valor medido</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Desplazamiento de la antena ahora</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Guardado por apero</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Un juego de valores para todos los aperos</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>¿Continuar?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>deshecho hace poco, se reintentará luego</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Compensación de balanceo en terreno irregular</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Modo baches</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>En uso</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>altura</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Aprende del balanceo en líneas rectas</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Retardo del balanceo</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Altura real</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Nada que cambiar</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Balanceos que la compensación no eliminó</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Probando</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Compensación de balanceo</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Asistente de separación de huellas</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Marca a mi izquierda</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Marca a mi derecha</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Preparación</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Primera pasada</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>De vuelta por la misma línea</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Medir</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Terreno llano y uniforme. Elija una línea AB y active el autoguiado; deje que el tractor se asiente en la línea a velocidad de trabajo.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Conduzca al menos 30 m por la línea con autoguiado y pare. Marque el suelo justo bajo el bulón de enganche.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Dé la vuelta y regrese por la misma línea AB con autoguiado. Pare con el bulón de enganche a la altura de la marca.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>desvío de la línea</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Autoguiado activado</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Sentidos</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Sentido de marcha al inicio</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Recordado (automático)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>A mano (pulsar el tractor)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Antena simple: dónde está el frente se guarda cuando el tractor se para y al cerrar el programa. Al reiniciar en el mismo lugar, se conoce enseguida.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Configurador de módulo</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Firmware de Teensy</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>Receptor GNSS</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Descargar / actualizar lista</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Iniciar bootloader</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Detectar</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Guardar en el receptor</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Enviar comando</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: comandos de texto (p. ej. GPGGA COM1 0.1). u-blox: bytes hexadecimales de una trama UBX. La velocidad del puerto del receptor hacia el módulo nunca se cambia desde aquí: el firmware del módulo la espera tal como está.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Caché de firmware</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Descargando la lista de Config-O-Matic...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Descargado</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>en la caché</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Error de descarga - se usa la lista en caché</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader solicitado en</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>No se pudo abrir</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Aún no está en la caché: descargue primero la lista</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>¿Escribir este firmware en el Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>No lo desconecte ni lo apague mientras se escribe.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Escribiendo</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Firmware escrito</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Error al escribir</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: datos brutos TDCP activados</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: datos brutos TDCP desactivados</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: datos brutos TDCP activados</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: datos brutos TDCP desactivados</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Omitido</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Sin acceso al receptor: no hay red de módulo ni puerto serie GPS</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Sin respuesta: ¿está el firmware modificado en el Teensy?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Este ajuste es para otro receptor</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>No se pudo leer el ajuste</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>aceptado</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>no confirmado</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Pulse Guardar en el receptor para conservarlo tras apagar</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Guardado en el receptor</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Guardado no confirmado</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>No enviado: la velocidad hacia el módulo debe quedar como está</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>sin confirmación</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Ningún módulo respondió por la red: la primera vez el firmware se carga por USB</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>En el módulo ahora</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Nota: este firmware no tiene actualización por red - los siguientes volverán a necesitar USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>¿Escribir este firmware en el módulo por la red?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>El tractor debe estar parado, autoguiado apagado. Durante la instalación (unos 30 segundos al final) no apague el módulo: después solo podría programarse por USB.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Enviando</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Enviado y comprobado; el módulo lo instala y se reinicia</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>El módulo ha vuelto</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>El módulo aún no ha respondido - si sigue sin responder, prográmelo por USB</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Firmware para el Teensy de la placa AiO y ajustes de sus receptores GNSS - por la red, sin abrir la caja.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Cargarlo en el módulo</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Por la red (sin USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Cuando ya hay un firmware modificado en el módulo.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Por USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>La primera vez, o cuando la red no funciona. Puerto USB del Teensy:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Qué receptor</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Receptor principal (posición)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Segundo F9P (rumbo)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>El UM982 (doble antena en uno) y un F9P solo son siempre el receptor principal. El segundo solo existe con dos F9P para doble antena: mide el rumbo.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Ajuste a enviar</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Sin guardar, el receptor lo olvida al apagarse.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Comando manual</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>no descargado</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Verde ★ = del fork de AgOpenGPS, modificado: GNSS en bruto para TDCP, ajustes del receptor y actualización de firmware por la red, rumbo de doble antena UM982. Rojo = los firmwares originales de Config-O-Matic, sin cambios.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Esperando el bootloader del Teensy (pulse el botón del Teensy si no aparece)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Hecho: el Teensy arranca el nuevo firmware</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Haciendo espacio en el módulo</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Comprobando e instalando en el módulo</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Instalando: no apague durante 30 segundos</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Cambiado a mano, los ajustadores empiezan de nuevo</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>En pausa mientras el autoguiado de ruta conduce</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>En pausa en el simulador</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Desviación aprendida</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Dirección tranquila</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Compensación de holgura</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>La holgura aún no está medida</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Ayudas de dirección</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Pequeñas oscilaciones suavizadas</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Muy poca holgura</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Adelantado</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Dirección predictiva por modelo</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Estilo de dirección</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Vivo</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Tranquilo</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Anticipación</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>El MPC guía líneas AB y curvas marcha adelante; giros, contornos y marcha atrás usan pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>aún no medido</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Pure pursuit adaptativo</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Anticipación actual</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Adaptativo</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Más corto en curvas</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Margen para el tiempo muerto</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Más largo al serpentear</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>La anticipación de la pestaña Pure pursuit es el punto de partida; esto la adapta en cada posición.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>ajuste</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>PP adaptativo</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>En pausa durante la comparación A/B</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Comparación</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>Comparación A/B</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>El método de dirección cambia tras cada pasada: pure pursuit, adaptativo, MPC. El ajuste totalmente automático espera mientras tanto.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Quedarse con el mejor</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Detener (volver como antes)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>En marcha</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Mejor hasta ahora</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>primero dos pasadas de cada uno</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Todas las pasadas de esta sesión</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Aún no hay pasada (al menos 30 m con autoguiado sobre una línea)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>pasadas</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Últimas pasadas</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>Estilo de dirección MPC</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>Anticipación MPC</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Adaptativo: más corto en curvas</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Adaptativo: margen para el tiempo muerto</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Adaptativo: más largo al serpentear</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Un paso</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>búsqueda más rápida</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Estimador de estado (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Dirección por modelo</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>No iniciado (necesita fix y rumbo)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Desviación del ángulo de dirección</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>Desviación de la IMU</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Deslizamiento lateral</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>solo con doble antena</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Desviación del GNSS</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Listo, lo usa la dirección por modelo (MPC, LQR, híbrido)</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Lo usa la dirección</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Listo, la dirección usa la posición filtrada</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Demasiado lejos de la posición bruta: se usa la bruta</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>Dirección LQR</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>El LQR guía líneas AB y curvas marcha adelante; giros, contornos y marcha atrás usan pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>Estilo de dirección LQR</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Híbrido</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Dirección híbrida (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>El LQR mantiene la línea, el MPC toma las curvas y la entrada a la línea. Giros, contornos y marcha atrás usan pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>Parte del MPC ahora</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Método de dirección</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Aprendizaje</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Registrador de conducción</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Carpeta</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Dirección e IMU medidas</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Aprendizaje en la parcela</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Olvidar</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>¿Olvidar lo aprendido en esta parcela?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Apero arrastrado en la línea</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Apagado: no se registra nada</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Registrando</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>posiciones</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Registra en cuanto el tractor se mueve</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Medido mientras el autoguiado dirige</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>a la derecha</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>Ruido de la IMU</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>tranquila, p. ej. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>más ruidosa, p. ej. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Donde antes se salió de la línea, la próxima vez contravira por adelantado (cada sentido aparte).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Lugares aprendidos en esta parcela</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Abra una parcela para aprender en ella</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>ahora</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Mantiene un apero arrastrado en la línea en laderas y curvas: el tractor va al lado lo que haga falta.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>El apero configurado no es arrastrado: nada que hacer</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Tractor al lado de la línea</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>por sentido</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>sin fix RTK</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Este firmware parece ser para otra placa</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Este firmware parece ser para otra placa distinta de la del módulo.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Un firmware para otra placa usa otros pines: el motor de dirección puede no funcionar o moverse de forma inesperada. ¿Escribirlo de todos modos?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Movido con la tableta apagada</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Si el módulo sigue encendido mientras la tableta está apagada, su IMU cuenta cada giro: el frente se conoce dondequiera que esté el tractor. Si el módulo también estaba apagado, el tirón del primer movimiento indica adelante o atrás.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Firmware del módulo: nuevo (envía su tiempo y la aceleración)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Necesita el nuevo firmware del módulo</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Adelante o atrás en el primer movimiento: aprendido</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Adelante o atrás en el primer movimiento: aprendiendo al avanzar</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simulador</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>responde</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>no responde</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>nuevo</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>antiguo, o sin IMU en el módulo</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fijo</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>correcciones antiguas</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>flotante</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>sin RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>ninguno (opcional)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>ruido</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>aprendiendo</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>tiempo muerto</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>necesita una IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>listo</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>cambio sugerido</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>a mano</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>aprendido</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>apagado</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Informe de precisión</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Ancho de trabajo</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Pasada a pasada</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Cuánto se separó realmente cada pasada de su vecina, frente al ancho de trabajo: solape o hueco entre dos pasadas.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Aún no hay pasadas vecinas - haga al menos dos pasadas una al lado de otra con autoguiado y fix RTK.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % dentro de</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>media</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>peor</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>En la línea</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>La distancia a la línea mientras el autoguiado la mantenía (fix RTK, trabajando).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Pasadas vecinas</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Pasada</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Módulo de dirección</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Firmware del módulo</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Cero del sensor de ángulo</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Dirección al arrancar</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Ajuste totalmente automático</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Estado de la configuración</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Paquete de soporte</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>El paquete de soporte contiene los registros, los ajustes y las últimas grabaciones de conducción (con posiciones en el campo): envíelo a quien le ayude.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Guardado</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>No guardado</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Mantiene un apero arrastrado en la línea en las curvas, donde corta hacia dentro: el tractor va tan abierto como haga falta. Un apero que resbala en una pendiente no lo ve - para eso hace falta un GPS en el apero.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>tranquila</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>más ruidosa</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>El método de dirección cambia tras cada pasada: pure pursuit, adaptativo, MPC, LQR, híbrido. El ajuste totalmente automático espera mientras tanto.</value>
   </data>
 </root>

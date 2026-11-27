@@ -369,6 +369,10 @@ namespace AgIO
 
         private void OnFrame(int messageType, ReadOnlySpan<byte> frame)
         {
+            // ephemerides for TDCP in AgOpenGPS (a whole frame: the preamble is there)
+            if (AgLibrary.Gnss.Rtcm3Frames.IsEphemeris(messageType) && frame.Length > 6 && frame[0] == AgLibrary.Gnss.Rtcm3Frames.Preamble)
+                mf.TapCorrectionFrame(frame.ToArray());
+
             RtcmQueue q = queue;
             if (q == null) return;
             q.Enqueue(messageType, frame);

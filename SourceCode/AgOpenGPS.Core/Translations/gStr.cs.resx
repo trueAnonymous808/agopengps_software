@@ -5084,7 +5084,7 @@ varování</value>
     <value>Vzdálenost</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Smazat</value>
+    <value>Smaž</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Chybová&#xD;
@@ -6251,5 +6251,1412 @@ Načtěte z panelu Nastavení a z nabídky vlevo nahoře.</value>
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Čekání na mapový server...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Kalibrace geometrie řízení</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Rozvor</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>výpočet ho používá, nejprve ho zkontrolujte</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Jezděte rovnoměrné kruhy vpravo a vlevo, 2-10 km/h, úhel kol 5-35°, s RTK fix. Nejprve nastavte nulu WAS (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Použít</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Začít znovu</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Vzorky</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Skutečný / senzor</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Pravotočivá zatáčka</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Levotočivá zatáčka</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Počty na stupeň</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>sběr...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Spolehlivost</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Automatické ladění řízení</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Motor řízení (Kp, minimální PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autosteer zapnutý, libovolná linie</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Předhled</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autosteer na AB linii nebo křivce, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Kompenzace svahu</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autosteer na přímé linii napříč svahem, nutné IMU</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Je to v pořádku</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Kmitá kolem požadovaného úhlu: nižší zesílení</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Nedosáhne požadovaného úhlu: vyšší minimální PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Sleduje se zpožděním: vyšší zesílení</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Kličkuje přes linii: delší předhled</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Zůstává vedle linie: kratší předhled</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Nová hodnota</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Zpoždění</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Kmitání</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Chybí</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimální PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Odchylka</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Přechody</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Úhel kol na náklon</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Shoda</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Naměřený náklon</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Chytré funkce</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Učí se na pozadí, kdykoli pracuje Autosteer</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Mrtvá zóna (směr, zpoždění)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Rychlostní násobitel předhledu</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Jako předhled, pomalu (do 8 km/h) a rychle (od 10 km/h)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Kličkuje jen rychle: větší násobitel</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Zůstává vedle linie jen rychle: menší násobitel</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Menší než šum senzoru: motor honí šum</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Mnohem větší než šum senzoru: reaguje pozdě</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Zapíná a vypíná příliš často: delší zpoždění</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Motor kmitá sem a tam: kratší zpoždění</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Šum senzoru</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Přepnutí</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Kmitání</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Směr</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Pomalu</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Rychle</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Násobitel</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Plně automaticky</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Obnovit výchozí hodnoty</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Návrhy se pak použijí samy: nejvýše jedna malá změna za minutu, jen když jsou nastavení řízení zavřená, a nikdy dál než stanovené meze od dnešních hodnot. Každá změna se zobrazí a zapíše a Obnovit výchozí hodnoty vrátí dnešní hodnoty. Zapnout?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Učí se...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Pozastaveno, dokud jsou nastavení řízení otevřená</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Poslední změna</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Mrtvá zóna</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Výchozí hodnoty obnoveny</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Vypnuto – návrhy čekají na Použít</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Nula snímače náklonu</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autosteer na liniích jetých tam i zpět, nutné IMU</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Najetí na linii</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autosteer na linii, najetí z více než 40 cm</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Integrál pure pursuit</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autosteer na dlouhých rovných liniích, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Kompenzace otáčení</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autosteer s automatickým otáčením</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Jízdy tam a zpět nesouhlasí: nula je posunutá</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Přestřelí linii: větší faktor najetí</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Plíží se na linii: menší faktor najetí</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Drží se na jedné straně: více integrálu</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Pomalá vlna kolem linie: méně integrálu</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Přetočí přes další linii: menší kompenzace</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Zůstane vně další linie: větší kompenzace</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Chyba nuly</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Rozptyl</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Buňky</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Nula náklonu</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Přestřelení</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Najetí</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Najetí</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Faktor najetí</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Průměrná odchylka</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Vlny</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integrál</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Otočení</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Přes</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Vně</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Pozastaveno, dokud je otevřený Steer Wizard</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Automatické změny</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Zatím žádná automatická změna</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Další změna nejdříve za</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Návrhy se pak použijí samy, i když je toto okno otevřené: nejvýše jedna malá změna za minutu a nikdy dál než stanovené meze od dnešních hodnot. Každá změna se zobrazí s časem a důvodem a Obnovit výchozí hodnoty vrátí dnešní hodnoty. Zapnout?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix ztracen</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Poloha může být mimo o 10-50 cm. Práce odsud je označena červeně.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Autořízení vypnuto</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Příliš dlouho bez RTK fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>stará korekce</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>bez fixu</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Linearita snímače</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Z kalibrace geometrie: kruhy s malým, středním a velkým úhlem</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>Hlídač kvality GPS</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp nad 12 km/h</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Učí se nad 11 km/h. Do 8 km/h běžné Kp, od 12 km/h toto, mezi nimi přechod</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>Fúze IMU</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Jedna anténa s IMU, rovně na linii nad 5 km/h</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Zap</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Vyp</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>korekce</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Čekání na RTK fix</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Výpadky</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Označeno</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autosteer vyp. po</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Střední</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Velký</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Šum směru</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Posun</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Jen s jednou anténou a IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU se odchyluje od směru GPS: rychlejší fúze</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>Šum směru GPS proniká: pomalejší fúze</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Snímač měří při větších úhlech jinak: korekce</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK most skončil</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Poloha už není přemostěna: bez RTK může být mimo o 10-50 cm.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Korekce přestaly přicházet. V AgIO lze nastavit záložní zdroj korekcí.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Korekce přicházejí, přijímač ztratil fix (stromy, budovy, výhled na oblohu).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK most vede polohu dál.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Práce odsud je označena červeně.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK most</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>korekce</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>přijímač</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Přemostění</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>úhel řízení</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Připraveno</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>posun</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU se učí (RTK, za jízdy)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Přemostění</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Poslední</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>odchylka</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Nejdelší přemostění</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Zkoušky</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>žádný zdroj směru (IMU, dvojitá anténa nebo modul řízení)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>dvojitá anténa</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>do té doby platí vestavěný odhad</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Spolehlivé po</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Na pozadí právě běží zkouška</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (nosná fáze)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Přijímač: RTCM MSM (1074/1084/1094/1124) a efemeridy (1019/1020/1046/1042) na port GPS, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Jen se učit</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automaticky</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Žádná surová data z přijímače</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Nastavte přijímač podle výše; nic jiného se nemění</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>čeká na pozorování</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>satelitů</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemeridy</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epochy</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Nyní v použití</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Převezme při příští ztrátě RTK</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Zatím se neprokázalo lepší než výpočet polohy</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Jen se učí, nikdy neřídí</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Přijímač, port GPS, 5-10 Hz: RTCM 3 MSM + efemeridy (1019/1020/1042/1046), nebo u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Surová data přicházejí, ale bez nosné fáze</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Zapněte MSM (RTCM) nebo RXM-RAWX (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Nosná fáze přichází, ale zatím bez efemerid</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Zapněte zprávy efemerid nebo RXM-SFRBX, nebo použijte NTRIP, který je posílá</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>z NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibrace</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Senzory</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Motor řízení</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Sledování linie</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS a RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Všechny hodnoty, které plně automatický režim změnil, se vrátí na stav při jeho zapnutí. Jste si jisti?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Číslo domu na mapě není: vyberte ulici a označte dům na mapě</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Zadrženo limity</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Limity nic nezadržují</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Nové výchozí hodnoty</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Dnešní hodnoty řízení se stanou novými výchozími hodnotami a limity se posunou s nimi. Jen když traktor teď řídí dobře. Pokračovat?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>výchozí hodnota</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>navrženo</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Na limitu</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Kontrola poslední změny</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Vráceno, řídilo hůř</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Ponecháno, málo srovnatelné jízdy pro kontrolu</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Zkontrolováno, ponecháno</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>v simulaci horší</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Posun antény</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>rozdíl stop</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Nářadí</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>jeho hodnoty řízení jsou zpět</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>zatím nemá uložené hodnoty řízení</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Měření</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Řízení</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Rozdíl stop (boční posun antény)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Autosteer na AB linii, na rovném terénu. Zastavte a označte zem pod čepem závěsu.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Otočte se a vraťte se po stejné linii; zastavte s čepem závěsu vedle značky.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Změřte vzdálenost napříč a na které straně od sedadla značka je.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Značka vlevo</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Značka vpravo</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Hodnoty řízení pro každé nářadí</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Měření během autosteeru</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Mrtvý čas</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Rychlost natáčení</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>nedosaženo</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Vůle</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Velká vůle: zkontrolujte klouby řízení a uchycení WAS</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Pomalá odezva: zkontrolujte hydrauliku nebo motor</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Řízení se na své hranici natáčí pomalu</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Není co opravit</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Kompenzace mrtvého času</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Vypnout</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Zapnout s naměřenou hodnotou</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Posun antény nyní</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Uloženo pro nářadí</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Jedna sada hodnot pro všechna nářadí</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Pokračovat?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>nedávno vráceno, zkusí se později</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Kompenzace náklonu na nerovném terénu</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Režim výmolů</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>Používá se</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>výška</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Učí se z kývání na rovných liniích</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Zpoždění náklonu</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Skutečná výška</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Není co měnit</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Kývnutí, která kompenzace neodstranila</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Zkouší se</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Kompenzace náklonu</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Průvodce rozdílem stop</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Značka vlevo ode mě</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Značka vpravo ode mě</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Příprava</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>První jízda</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Zpět po stejné linii</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Měření</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Rovný, hladký terén. Zvolte AB linii a zapněte autosteer; nechte traktor ustálit se na linii při pracovní rychlosti.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Jeďte alespoň 30 m po linii s autosteerem a zastavte. Označte zem přesně pod čepem závěsu.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Otočte se a vraťte se po stejné AB linii s autosteerem. Zastavte, až bude čep závěsu na úrovni značky.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>odchylka od linie</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Autosteer zapnut</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Směry</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Směr jízdy při startu</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Zapamatovat (automaticky)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Ručně (klepněte na traktor)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Jedna anténa: kde je předek, se uloží, když traktor zastaví a když se program zavře. Po novém spuštění na stejném místě je znám hned.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Konfigurátor modulu</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Firmware Teensy</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>Přijímač GNSS</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Stáhnout / aktualizovat seznam</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Spustit bootloader</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Rozpoznat</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Odeslat</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Uložit do přijímače</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Odeslat příkaz</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: textové příkazy (např. GPGGA COM1 0.1). u-blox: hexadecimální bajty rámce UBX. Rychlost portu přijímače k modulu se zde nikdy nemění: firmware modulu ji očekává tak, jak je.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Mezipaměť firmwaru</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Stahuje se seznam Config-O-Matic...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Staženo</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>v mezipaměti</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Stažení selhalo - použije se seznam z mezipaměti</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader vyžádán na</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Nelze otevřít</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Zatím není v mezipaměti: nejprve stáhněte seznam</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Zapsat tento firmware do Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Během zápisu jej neodpojujte ani nevypínejte.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Zápis</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Firmware zapsán</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Zápis selhal</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: surová data TDCP zapnuta</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: surová data TDCP vypnuta</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: surová data TDCP zapnuta</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: surová data TDCP vypnuta</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Přeskočeno</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Žádná cesta k přijímači: chybí síť modulu i sériový port GPS</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Žádná odpověď: je na Teensy upravený firmware?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Toto nastavení je pro jiný přijímač</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Nastavení nelze přečíst</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>přijato</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>nepotvrzeno</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Stiskněte Uložit do přijímače, aby zůstalo i po vypnutí</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Uloženo v přijímači</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Uložení nepotvrzeno</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Neodesláno: rychlost k modulu musí zůstat, jak je</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>bez potvrzení</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Žádný modul neodpověděl po síti: poprvé se firmware nahrává přes USB</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Nyní v modulu</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Pozor: tento firmware nemá aktualizaci po síti - další budou znovu potřebovat USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Zapsat tento firmware do modulu po síti?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Traktor musí stát, autopilot vypnutý. Během instalace (asi 30 sekund na konci) modul nevypínejte: pak jej lze programovat jen přes USB.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Odesílání</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Odesláno a zkontrolováno; modul jej instaluje a restartuje se</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Modul je zpět</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Modul zatím neodpověděl - pokud zůstane zticha, naprogramujte jej přes USB</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Firmware pro Teensy desky AiO a nastavení jejích přijímačů GNSS - po síti, bez otevírání krabice.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Nahrát do modulu</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Po síti (bez USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Když už je v modulu upravený firmware.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Přes USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>Poprvé, nebo když síť nefunguje. Port USB Teensy:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Který přijímač</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Hlavní přijímač (poloha)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Druhý F9P (směr)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (dvojitá anténa v jednom) a samotný F9P jsou vždy hlavní přijímač. Druhý je jen u dvou F9P pro dvojitou anténu: měří směr.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Nastavení k odeslání</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Bez uložení jej přijímač po vypnutí zapomene.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Ruční příkaz</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Záznam</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>nestaženo</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Zelená ★ = z forku AgOpenGPS, upraveno: surová GNSS data pro TDCP, nastavení přijímače a aktualizace firmwaru po síti, směr z dvojité antény UM982. Červená = původní firmwary Config-O-Matic, beze změn.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Čeká se na bootloader Teensy (stiskněte tlačítko na Teensy, pokud nepřijde)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Hotovo: Teensy spouští nový firmware</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Uvolňuje se místo v modulu</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Kontrola a instalace v modulu</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Instalace: 30 sekund nevypínejte</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Změněno ručně, ladění začíná znovu</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Pozastaveno, dokud řídí autopilot trasy</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Pozastaveno v simulátoru</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Naučený posun</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Klidné řízení</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Vyrovnání vůle</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Vůle zatím není změřena</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Pomůcky řízení</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Drobné kmity vyhlazeny</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Příliš malá vůle</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Napřed o</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Modelové prediktivní řízení</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Styl řízení</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Ostrý</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Klidný</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Výhled</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC řídí AB linie a oblouky vpřed; otáčky, kontury a couvání používají pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>zatím nezměřeno</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Adaptivní pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Výhled nyní</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Adaptivní</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Kratší v obloucích</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Rezerva na mrtvou dobu</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Delší při kličkování</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Výhled ze záložky Pure pursuit je výchozí; toto jej upravuje při každé poloze.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>nastavení</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Adaptivní PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Pozastaveno během srovnání A/B</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Srovnání</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>Srovnání A/B</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Metoda řízení se mění po každé jízdě: pure pursuit, adaptivní, MPC. Plně automatické ladění mezitím čeká.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Ponechat nejlepší</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Stop (zpět jako předtím)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Běží</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Zatím nejlepší</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>nejprve po dvou jízdách</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Všechny jízdy této relace</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Zatím žádná jízda (alespoň 30 m s autopilotem na linii)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>jízd</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Poslední jízdy</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>Styl řízení MPC</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>Výhled MPC</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Adaptivní: kratší v obloucích</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Adaptivní: rezerva na mrtvou dobu</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Adaptivní: delší při kličkování</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Jeden krok</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>rychlejší hledání</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Odhad stavu (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Modelové řízení</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Nespuštěno (potřebuje fix a směr)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Posun úhlu natočení</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>Posun IMU</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Boční skluz</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>jen s dvojitou anténou</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Odchylka od GNSS</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Připraveno, modelové řízení (MPC, LQR, hybridní) jej používá</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Řízení jej používá</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Připraveno, řízení používá filtrovanou polohu</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Příliš daleko od surové polohy: použije se surová</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>Řízení LQR</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR řídí AB linie a oblouky vpřed; otáčky, kontury a couvání používají pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>Styl řízení LQR</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hybridní</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hybridní řízení (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR drží linii, MPC vede oblouky a najetí na linii. Otáčky, kontury a couvání používají pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>Podíl MPC nyní</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Metoda řízení</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Učení</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Záznamník jízdy</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Složka</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Řízení a IMU, jak změřeno</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Učení na poli</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Zapomenout</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Zapomenout, co se naučil na tomto poli?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Tažené nářadí na linii</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Vypnuto: nic se nezaznamenává</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Zaznamenává</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>poloh</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Zaznamenává, jakmile se traktor rozjede</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Měřeno během automatického řízení</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>doprava</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>Šum IMU</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>tichá, např. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>hlučnější, např. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Kde dříve sjel z linie, příště předem kontruje (každý směr zvlášť).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Naučená místa na tomto poli</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Otevřete pole, aby se na něm učil</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>nyní</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Drží tažené nářadí na linii ve svahu a v obloucích: traktor jede vedle tak, jak je třeba.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Nastavené nářadí není tažené: není co dělat</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Traktor vedle linie</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>každým směrem</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>žádný RTK fix</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Tento firmware se zdá být pro jinou desku</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Tento firmware se zdá být pro jinou desku, než je v modulu.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Firmware pro jinou desku používá jiné piny: motor řízení nemusí fungovat nebo se může nečekaně pohnout. Přesto zapsat?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Přemístěno s vypnutým tabletem</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Pokud modul zůstane zapnutý, zatímco je tablet vypnutý, jeho IMU počítá každé otočení: předek je známý, ať traktor stojí kdekoli. Byl-li vypnutý i modul, škubnutí při prvním pohybu rozliší vpřed a vzad.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Firmware modulu: nový (posílá svůj čas a zrychlení)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Potřebuje nový firmware modulu</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Vpřed nebo vzad při prvním pohybu: naučeno</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Vpřed nebo vzad při prvním pohybu: učí se při jízdě vpřed</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simulátor</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>odpovídá</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>neodpovídá</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>nový</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>starší, nebo bez IMU v modulu</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>staré korekce</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>bez RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>žádná (volitelné)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>šum</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>učí se</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>mrtvý čas</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>potřebuje IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>hotovo</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>navržena změna</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>ručně</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>naučeno</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>vyp.</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Zpráva o přesnosti</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Pracovní šířka</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Jízda k jízdě</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Jak daleko každá jízda skutečně vedla od sousední, vůči pracovní šířce: překryv nebo mezera mezi dvěma jízdami.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Zatím žádné sousední jízdy - jeďte aspoň dvě jízdy vedle sebe s autopilotem a RTK fixem.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % do</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>průměr</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>nejhorší</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>Na linii</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Vzdálenost od linie, zatímco ji autopilot držel (RTK fix, při práci).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Sousední jízdy</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Jízda</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Modul řízení</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Firmware modulu</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Nula snímače úhlu natočení</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Směr při startu</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Plně automatické ladění</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Stav nastavení</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Balíček pro podporu</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Balíček pro podporu obsahuje protokoly, nastavení a poslední záznamy jízd (s polohami na poli): pošlete ho tomu, kdo vám pomáhá.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Uloženo</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Neuloženo</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Drží tažené nářadí na linii v zatáčkách, kde řeže dovnitř: traktor jede o tolik víc vně, kolik je třeba. Nářadí sjíždějící po svahu nevidí - na to je potřeba GPS na nářadí.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>tichá</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>hlučnější</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Metoda řízení se mění po každé jízdě: pure pursuit, adaptivní, MPC, LQR, hybridní. Plně automatické ladění mezitím čeká.</value>
   </data>
 </root>

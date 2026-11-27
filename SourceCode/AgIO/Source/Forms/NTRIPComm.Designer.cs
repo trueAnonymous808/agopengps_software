@@ -709,6 +709,9 @@ namespace AgIO
 
             if (isUiActive) lblToGPS.Text = data.Length.ToString();
 
+            // ephemerides for TDCP in AgOpenGPS
+            TapCorrections(data, data.Length);
+
             //send it
             SendNTRIP(data);
         }

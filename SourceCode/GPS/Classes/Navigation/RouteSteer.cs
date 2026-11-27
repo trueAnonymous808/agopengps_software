@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace AgOpenGPS.Navigation
 {
     /// <summary>Why the route autosteer does not steer now (None: it may steer).</summary>
-    public enum SteerBlock { None, NoRoute, TooFast, OffRoute, Reversing, NearArrival }
+    public enum SteerBlock { None, NoRoute, TooFast, OffRoute, Reversing, NearArrival, NoRtk }
 
     public struct SteerResult
     {
@@ -20,6 +20,7 @@ namespace AgOpenGPS.Navigation
     {
         public const double MaxSpeedKmh = 15;
         public const double MaxOffM = 4;
+        public const double MaxCorrectionAgeS = 5;   // RTK corrections older than this: not steered on
         public const double StopBeforeEndM = 40;
         public const double LaneOffsetM = 1.75;  // default on roads: from the mapped centre line to the middle of the right lane
         public const double MaxOffsetM = 5;      // the offset the driver may set, either way

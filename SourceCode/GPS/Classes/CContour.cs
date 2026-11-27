@@ -498,7 +498,8 @@ namespace AgOpenGPS
                     rNorthCT = ctList[A].northing + (U * dy);
 
                     //update base on autosteer settings and distance from line
-                    double goalPointDistance = mf.vehicle.UpdateGoalPointDistance();
+                    // (adaptive pure pursuit: the dead time and weaving; a contour's curvature is not known ahead)
+                    double goalPointDistance = mf.AdaptLookAhead(mf.vehicle.UpdateGoalPointDistance(), 0);
 
                     bool ReverseHeading = mf.isReverse ? !isHeadingSameWay : isHeadingSameWay;
 

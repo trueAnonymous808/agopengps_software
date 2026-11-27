@@ -5376,7 +5376,7 @@ tuksessa</value>
     <value>Etäisyys</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Tyhjennä</value>
+    <value>Tyhj.</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Virhe-&#xD;
@@ -6251,5 +6251,1412 @@ Varmuuskopio: {1}</value>
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Odotetaan karttapalvelinta...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Ohjausgeometrian kalibrointi</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Akseliväli</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>laskenta käyttää tätä, tarkista se ensin</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Aja tasaisia ympyröitä oikealle ja vasemmalle, 2-10 km/h, pyöräkulma 5-35°, RTK-fixillä. Aseta ensin WAS-nollakohta (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Käytä</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Aloita alusta</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Näytteet</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Todellinen / anturi</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Oikea kaarre</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Vasen kaarre</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Pulssia astetta kohti</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>kerätään...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Luotettavuus</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Ohjauksen automaattinen viritys</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Ohjausmoottori (Kp, minimi-PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autosteer päällä, mikä tahansa linja</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Katseen etäisyys</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autosteer AB-linjalla tai kaarella, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Rinteen kompensointi</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autosteer suoralla linjalla rinteen poikki, IMU tarvitaan</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Hyvä näin</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Heiluu halutun kulman ympärillä: pienempi vahvistus</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Ei saavuta haluttua kulmaa: suurempi minimi-PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Seuraa viiveellä: suurempi vahvistus</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Mutkittelee linjan yli: pidempi katse</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Jää linjan viereen: lyhyempi katse</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Uusi arvo</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Viive</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Heilunta</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Vajaus</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimi-PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Poikkeama</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Ylitykset</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Pyöräkulma kallistusta kohti</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Sopivuus</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Mitattu kallistus</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Älykkäät toiminnot</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Oppii taustalla aina kun Autosteer toimii</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Kuollut alue (suunta, viive)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Katseen nopeuskerroin</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Kuten katse, hitaasti (8 km/h asti) ja nopeasti (10 km/h alkaen)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Mutkittelee vain nopeasti: suurempi kerroin</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Jää linjan viereen vain nopeasti: pienempi kerroin</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Pienempi kuin anturin kohina: moottori jahtaa kohinaa</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Paljon suurempi kuin anturin kohina: reagoi myöhään</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Kytkeytyy päälle ja pois liian usein: pidempi viive</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Moottori hakee edestakaisin: lyhyempi viive</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Anturin kohina</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Kytkennät</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Hakeminen</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Suunta</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Hitaasti</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Nopeasti</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Kerroin</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Täysin automaattinen</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Palauta alkuarvot</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Ehdotukset otetaan silloin käyttöön itsestään: enintään yksi pieni muutos minuutissa, vain kun ohjauksen asetukset ovat kiinni, eikä koskaan yli asetettujen rajojen tämän päivän arvoista. Jokainen muutos näytetään ja kirjataan, ja Palauta alkuarvot tuo tämän päivän arvot takaisin. Otetaanko käyttöön?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Oppii...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Tauolla, kun ohjauksen asetukset ovat auki</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Viimeisin muutos</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Kuollut alue</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Alkuarvot palautettu</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Pois – ehdotukset odottavat Käytä-painiketta</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Kallistusanturin nollakohta</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autosteer molempiin suuntiin ajetuilla linjoilla, IMU tarvitaan</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Linjalle ajo</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autosteer linjalla, tulo yli 40 cm:n päästä</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit -integraali</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autosteer pitkillä suorilla linjoilla, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Käännöksen kompensointi</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autosteer automaattisilla käännöksillä</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Molempiin suuntiin ajot eivät täsmää: nollakohta on siirtynyt</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Ajaa linjan yli: suurempi tulokerroin</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Hiipii linjalle: pienempi tulokerroin</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Pysyy toisella puolella: lisää integraalia</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Hidas aalto linjan ympärillä: vähemmän integraalia</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Kääntyy seuraavan linjan yli: vähemmän kompensointia</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Jää seuraavan linjan ulkopuolelle: enemmän kompensointia</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Nollavirhe</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Hajonta</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Solut</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Kallistuksen nolla</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Ylitys</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Tulo</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Tulot</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Tulokerroin</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Keskipoikkeama</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Aallot</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integraali</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Käännökset</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Yli</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Ulkona</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Tauolla, kun Steer Wizard on auki</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Automaattiset muutokset</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Ei vielä automaattisia muutoksia</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Seuraava muutos aikaisintaan</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Ehdotukset otetaan silloin käyttöön itsestään, myös kun tämä ikkuna on auki: enintään yksi pieni muutos minuutissa eikä koskaan yli asetettujen rajojen tämän päivän arvoista. Jokainen muutos näytetään ajan ja syyn kanssa, ja Palauta alkuarvot tuo tämän päivän arvot takaisin. Otetaanko käyttöön?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK-fix menetetty</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Sijainti voi olla 10-50 cm pielessä. Työ tästä eteenpäin merkitään punaisella.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Autosteer pois</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Liian kauan ilman RTK-fixiä.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>vanha korjaus</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>ei fixiä</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Anturin lineaarisuus</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Geometrian kalibroinnista: ympyrät pienellä, keskisuurella ja suurella kulmalla</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS-laadun vahti</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp yli 12 km/h</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Oppii yli 11 km/h. 8 km/h asti normaali Kp, 12 km/h alkaen tämä, välissä siirtymä</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU-fuusio</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Yksi antenni IMU:lla, suoraan linjalla yli 5 km/h</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Päällä</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Pois</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>korjaus</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Odotetaan RTK-fixiä</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Katkokset</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Merkitty</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autosteer pois kun kulunut</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Keski</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Suuri</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Suuntakohina</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Ajautuma</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Vain yhdellä antennilla ja IMU:lla</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU ajautuu GPS-suunnasta: nopeampi fuusio</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>GPS-suunnan kohina pääsee läpi: hitaampi fuusio</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Anturi mittaa suuremmilla kulmilla eri tavalla: korjaus</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK-silta päättyi</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Sijaintia ei enää siltata: ilman RTK:ta se voi olla 10-50 cm pielessä.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Korjaukset lakkasivat tulemasta. AgIO:ssa voi määrittää varalähteen.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Korjaukset tulevat, vastaanotin menetti fixin (puut, rakennukset, taivasnäkyvyys).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK-silta vie sijaintia eteenpäin.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Työ tästä eteenpäin merkitään punaisella.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK-silta</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>korjaukset</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>vastaanotin</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Siltaus</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>ohjauskulma</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Valmis</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>ajautuma</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU oppii (RTK, ajossa)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Sillat</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Viimeisin</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>virhe</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Pisin silta</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Kokeet</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>ei suuntalähdettä (IMU, kaksoisantenni tai ohjausmoduuli)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>kaksoisantenni</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>siihen asti käytetään sisäänrakennettua arviota</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Luotettava</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Taustalla on käynnissä koe</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (kantoaallon vaihe)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Vastaanotin: RTCM MSM (1074/1084/1094/1124) ja efemeridit (1019/1020/1046/1042) GPS-porttiin, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Vain oppii</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automaattinen</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Ei raakadataa vastaanottimelta</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Aseta vastaanotin kuten yllä; muu ei sillä välin muutu</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>odottaa havaintoja</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>satelliittia</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemeridit</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epookit</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Käytössä nyt</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Ottaa ohjat seuraavassa RTK-katkossa</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Ei vielä todettu paremmaksi kuin merkintälaskenta</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Vain oppii, ei koskaan ohjaa</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Vastaanotin, GPS-portti, 5-10 Hz: RTCM 3 MSM + efemeridit (1019/1020/1042/1046), tai u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Raakadataa tulee, mutta ei kantoaallon vaihetta</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Kytke MSM (RTCM) tai RXM-RAWX (u-blox) päälle</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Kantoaallon vaihe tulee, mutta efemeridejä ei vielä</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Kytke efemeridiviestit tai RXM-SFRBX päälle tai käytä NTRIP-palvelua, joka lähettää ne</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>NTRIP:stä</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibrointi</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Anturit</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Ohjausmoottori</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Linjan seuranta</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS ja RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Kaikki täysautomaattisen tilan muuttamat arvot palaavat käynnistyshetken arvoihin. Oletko varma?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Talon numeroa ei ole kartalla: valitse katu ja merkitse talo kartalle</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Rajat pidättävät</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Rajat eivät pidätä mitään</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Uudet lähtöarvot</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Nykyiset ohjausarvot tulevat uusiksi lähtöarvoiksi, ja rajat siirtyvät niiden mukana. Tee se vain, kun traktori ohjaa nyt hyvin. Jatketaanko?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>lähtöarvo</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>ehdotettu</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Rajalla</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Viimeisen muutoksen tarkistus</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Peruttu, ohjasi huonommin</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Pidetty, liian vähän vertailukelpoista ajoa</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Tarkistettu, pidetty</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>huonompi simulaatiossa</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Antennin siirto</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>jälkiväli</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Työkone</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>sen ohjausarvot ovat palanneet</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>sille ei ole vielä tallennettu ohjausarvoja</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Mittaukset</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Ohjausmekanismi</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Jälkiväli (antennin sivusiirto)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Automaattiohjaus AB-linjalla tasaisella maalla. Pysähdy ja merkitse maa vetotapin alle.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Käänny ja tule takaisin samaa linjaa; pysähdy vetotappi merkin kohdalla.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Mittaa väli poikittain ja kummalla puolella istuimesta merkki on.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Merkki vasemmalla</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Merkki oikealla</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Ohjausarvot työkoneittain</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Mittaus automaattiohjauksen aikana</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Kuollut aika</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Kääntönopeus</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>ei saavutettu</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Välys</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Suuri välys: tarkista ohjausnivelet ja WAS-kiinnitys</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Hidas vaste: tarkista hydrauliikka tai moottori</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Ohjaus kääntyy rajallaan hitaasti</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Ei korjattavaa</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Kuolleen ajan kompensointi</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Pois päältä</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Kytke päälle mitatulla arvolla</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Antennin siirto nyt</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Tallennettu työkoneille</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Yksi arvosarja kaikille työkoneille</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Jatketaanko?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>peruttu äskettäin, yritetään myöhemmin</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Kallistuskompensointi epätasaisella maalla</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Kuopparežiimi</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>Käytössä</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>korkeus</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Oppii keinunnasta suorilla linjoilla</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Kallistuksen viive</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Todellinen korkeus</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Ei muutettavaa</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Keinahdukset, joita kompensointi ei poistanut</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Kokeillaan</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Kallistuskompensointi</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Jälkivälin ohjattu toiminto</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Merkki vasemmalla puolellani</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Merkki oikealla puolellani</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Takaisin</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Valmistelu</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Ensimmäinen ajo</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Takaisin samaa linjaa</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Mittaus</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Tasainen maa. Valitse AB-linja ja kytke automaattiohjaus päälle; anna traktorin asettua linjalle työnopeudella.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Aja linjaa vähintään 30 m automaattiohjauksella ja pysähdy. Merkitse maa tarkalleen vetotapin alle.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Käänny ja tule takaisin samaa AB-linjaa automaattiohjauksella. Pysähdy, kun vetotappi on merkin kohdalla.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>poikkeama linjasta</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Automaattiohjaus päällä</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Suunnat</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Ajosuunta käynnistyksessä</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Muistetaan (automaattinen)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Käsin (napauta traktoria)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Yksi antenni: missä etupää on, tallennetaan kun traktori pysähtyy ja kun ohjelma suljetaan. Samassa paikassa uudelleen käynnistettynä se tiedetään heti.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Moduulin määritys</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy-laiteohjelmisto</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS-vastaanotin</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Lataa / päivitä luettelo</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Käynnistä bootloader</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Tunnista</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Lähetä</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Tallenna vastaanottimeen</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Lähetä komento</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: tekstikomennot (esim. GPGGA COM1 0.1). u-blox: UBX-kehyksen heksatavut. Vastaanottimen moduuliin menevän portin nopeutta ei koskaan muuteta täältä: moduulin laiteohjelmisto odottaa sen sellaisenaan.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Laiteohjelmistovälimuisti</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Ladataan Config-O-Matic-luetteloa...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Ladattu</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>välimuistissa</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Lataus epäonnistui - käytetään välimuistin luetteloa</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader pyydetty portissa</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Ei voitu avata</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Ei vielä välimuistissa: lataa ensin luettelo</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Kirjoitetaanko tämä laiteohjelmisto Teensyyn?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Älä irrota tai sammuta kirjoituksen aikana.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Kirjoitetaan</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Laiteohjelmisto kirjoitettu</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Kirjoitus epäonnistui</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP-raakadata päälle</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP-raakadata pois</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP-raakadata päälle</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP-raakadata pois</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Ohitettu</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Ei yhteyttä vastaanottimeen: ei moduuliverkkoa eikä GPS-sarjaporttia</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Ei vastausta: onko muokattu laiteohjelmisto Teensyssä?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Tämä asetus on toiselle vastaanottimelle</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Asetusta ei voitu lukea</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>otettu vastaan</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>ei vahvistettu</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Paina Tallenna vastaanottimeen, jotta se säilyy sammutuksen jälkeen</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Tallennettu vastaanottimeen</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Tallennusta ei vahvistettu</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Ei lähetetty: moduulin nopeuden on pysyttävä ennallaan</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>ei vahvistusta</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Mikään moduuli ei vastannut verkon kautta: ensimmäisellä kerralla laiteohjelmisto ladataan USB:n kautta</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Moduulissa nyt</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Huom: tässä laiteohjelmistossa ei ole verkkopäivitystä - myöhemmät tarvitsevat taas USB:n</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Kirjoitetaanko tämä laiteohjelmisto moduuliin verkon kautta?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Traktorin on seistävä, automaattiohjaus pois. Asennuksen aikana (noin 30 sekuntia lopussa) älä sammuta moduulia: muuten sen voi ohjelmoida vain USB:n kautta.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Lähetetään</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Lähetetty ja tarkistettu; moduuli asentaa sen ja käynnistyy uudelleen</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Moduuli on taas mukana</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Moduuli ei ole vielä vastannut - jos se pysyy hiljaa, ohjelmoi se USB:n kautta</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Laiteohjelmisto AiO-kortin Teensylle ja sen GNSS-vastaanottimien asetukset - verkon kautta, avaamatta koteloa.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Laiteohjelmisto</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Vie se moduuliin</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Verkon kautta (ilman USB:tä)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Kun moduulissa on jo muokattu laiteohjelmisto.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>USB:n kautta</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>Ensimmäisellä kerralla tai kun verkko ei toimi. Teensyn USB-portti:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Mikä vastaanotin</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Päävastaanotin (sijainti)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Toinen F9P (suunta)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (kaksoisantenni yhdessä) ja yksittäinen F9P ovat aina päävastaanotin. Toinen on vain kahdella F9P:llä kaksoisantennia varten: se mittaa suunnan.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Lähetettävä asetus</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Ilman tallennusta vastaanotin unohtaa sen sammutettaessa.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Komento käsin</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Loki</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>ei ladattu</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Vihreä ★ = AgOpenGPS-haarasta, muokattu: raaka-GNSS TDCP:lle, vastaanottimen asetukset ja laiteohjelmiston päivitys verkon kautta, UM982-kaksoisantennin suunta. Punainen = alkuperäiset Config-O-Matic-laiteohjelmistot, muuttamattomina.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Odotetaan Teensyn bootloaderia (paina Teensyn painiketta, jos se ei tule)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Valmis: Teensy käynnistää uuden laiteohjelmiston</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Tehdään tilaa moduuliin</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Tarkistetaan ja asennetaan moduuliin</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Asennetaan: älä sammuta 30 sekuntiin</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Muutettu käsin, säätäjät aloittavat alusta</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Tauolla, kun reittiohjaus ohjaa</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Tauolla simulaattorissa</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Opittu poikkeama</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Rauhallinen ohjaus</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Välyksen kompensointi</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Välystä ei ole vielä mitattu</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Ohjausapuvälineet</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Pienet värähtelyt tasoitettu</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Liian vähän välystä</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Edellä</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Mallipohjainen ennakoiva ohjaus</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Ohjaustyyli</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Terävä</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Rauhallinen</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Ennakointi</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC ohjaa AB-linjat ja kaaret eteenpäin; käännökset, ääriviivat ja peruutus käyttävät pure pursuitia.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>ei vielä mitattu</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Mukautuva pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Ennakointi nyt</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Mukautuva</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Lyhyempi kaarteissa</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Varaa kuolleelle ajalle</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Pidempi mutkitellessa</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Pure pursuit -välilehden ennakointi on lähtökohta; tämä sovittaa sitä jokaisella paikannuksella.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>asetus</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Mukautuva PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Tauolla A/B-vertailun aikana</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Vertailu</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B-vertailu</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Ohjaustapa vaihtuu jokaisen ajokaistan jälkeen: pure pursuit, mukautuva, MPC. Täysin automaattinen säätö odottaa sillä välin.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Pidä paras</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Pysäytä (takaisin entiseen)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Käynnissä</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Paras tähän asti</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>ensin kaksi ajokaistaa kutakin</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Kaikki tämän istunnon ajokaistat</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Ei vielä ajokaistaa (vähintään 30 m automaattiohjauksella linjalla)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>ajokaistaa</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Viimeiset ajokaistat</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC-ohjaustyyli</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC-ennakointi</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Mukautuva: lyhyempi kaarteissa</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Mukautuva: varaa kuolleelle ajalle</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Mukautuva: pidempi mutkitellessa</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Yksi askel</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>nopeampi haku</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Tilaestimaattori (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Malliohjaus</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Ei käynnistynyt (tarvitsee fixin ja suunnan)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Ohjauskulman poikkeama</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU:n poikkeama</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Sivuluisto</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>vain kaksoisantennilla</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Poikkeama GNSS:stä</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Valmis, malliohjaus (MPC, LQR, hybridi) käyttää sitä</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Ohjaus käyttää sitä</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Valmis, ohjaus käyttää suodatettua sijaintia</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Liian kaukana raakasijainnista: käytetään raakaa</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR-ohjaus</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR ohjaa AB-linjat ja kaaret eteenpäin; käännökset, ääriviivat ja peruutus käyttävät pure pursuitia.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR-ohjaustyyli</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hybridi</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hybridiohjaus (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR pitää linjan, MPC hoitaa kaarteet ja linjalle tulon. Käännökset, ääriviivat ja peruutus käyttävät pure pursuitia.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>MPC:n osuus nyt</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Ohjaustapa</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Oppiminen</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Ajotallennin</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Kansio</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Ohjaus ja IMU mitattuina</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Oppiminen pellolla</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Unohda</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Unohdetaanko tällä pellolla opittu?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Hinattava työkone linjalla</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Pois: mitään ei tallenneta</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Tallentaa</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>paikannusta</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Tallentaa heti, kun traktori liikkuu</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Mitattu automaattiohjauksen aikana</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>oikealle</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU:n kohina</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>hiljainen, esim. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>kohinaisempi, esim. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Missä se aiemmin poikkesi linjalta, se ohjaa ensi kerralla ennakkoon vastaan (kumpikin suunta erikseen).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Opitut paikat tällä pellolla</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Avaa pelto oppiaksesi sillä</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>nyt</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Pitää hinattavan työkoneen linjalla rinteissä ja kaarteissa: traktori ajaa vieressä niin paljon kuin tarvitaan.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Asetettu työkone ei ole hinattava: ei tehtävää</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Traktori linjan vieressä</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>kumpikin suunta</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>ei RTK-fixiä</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Tämä laiteohjelmisto näyttää olevan toiselle kortille</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Tämä laiteohjelmisto näyttää olevan eri kortille kuin moduulissa oleva.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Toisen kortin laiteohjelmisto käyttää eri nastoja: ohjausmoottori ei ehkä toimi tai voi liikkua odottamatta. Kirjoitetaanko silti?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Siirretty tabletti sammutettuna</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Jos moduuli pysyy päällä tabletin ollessa sammutettuna, sen IMU laskee jokaisen käännöksen: keula tiedetään missä traktori seisookin. Jos moduulikin oli sammutettu, ensimmäisen liikkeen nykäys kertoo eteen vai taakse.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Moduulin laiteohjelmisto: uusi (lähettää aikansa ja kiihtyvyyden)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Vaatii uuden moduulin laiteohjelmiston</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Eteen vai taakse ensimmäisellä liikkeellä: opittu</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Eteen vai taakse ensimmäisellä liikkeellä: oppii eteenpäin ajettaessa</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simulaattori</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>vastaa</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>ei vastaa</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>uusi</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>vanhempi, tai moduulissa ei IMU:ta</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>vanhat korjaukset</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>ei RTK:ta</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>ei mitään (valinnainen)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>kohina</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>oppii</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>kuollut aika</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>tarvitsee IMU:n</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>valmis</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>muutosta ehdotetaan</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>käsin</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>opittu</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>pois</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Tarkkuusraportti</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Työleveys</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Ajo ajoon</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Kuinka kaukana kukin ajo todella kulki naapuristaan työleveyteen verrattuna: päällekkäisyys tai rako kahden ajon välillä.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Naapuriajoja ei vielä löytynyt - aja vähintään kaksi ajoa vierekkäin automaattiohjauksella ja RTK-fixillä.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % sisällä</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>keskiarvo</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>huonoin</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>Linjalla</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Etäisyys linjasta automaattiohjauksen pitäessä sitä (RTK-fix, työssä).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Naapuriajot</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Ajo</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Ohjausmoduuli</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Moduulin laiteohjelmisto</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Ohjauskulma-anturin nollakohta</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Suunta lähdössä</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Täysin automaattinen säätö</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Asetusten tila</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Tukipaketti</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Tukipaketti sisältää lokit, asetukset ja viimeisimmät ajotallenteet (sijainteineen pellolla): lähetä se auttajallesi.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Tallennettu</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Ei tallennettu</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Pitää hinattavan työkoneen linjalla kaarteissa, joissa se oikaisee sisäkautta: traktori ajaa ulompaa niin paljon kuin tarvitaan. Rinteessä valuvaa työkonetta se ei näe - siihen tarvitaan GPS työkoneeseen.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>hiljainen</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>kohinaisempi</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Ohjaustapa vaihtuu jokaisen ajokaistan jälkeen: pure pursuit, mukautuva, MPC, LQR, hybridi. Täysin automaattinen säätö odottaa sillä välin.</value>
   </data>
 </root>

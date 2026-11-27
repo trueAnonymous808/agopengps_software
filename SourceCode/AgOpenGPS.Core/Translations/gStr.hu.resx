@@ -5402,7 +5402,7 @@ esetén</value>
     <value>Távolság</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Töröl</value>
+    <value>Tör.</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Hiba&#xD;
@@ -6256,5 +6256,1412 @@ Biztonsági mentés: {1}</value>
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Várakozás a térképszerverre...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Kormánygeometria kalibrálás</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Tengelytáv</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>ezzel számol, előbb ellenőrizd</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Körözz egyenletesen jobbra és balra, 2-10 km/h-val, 5-35°-os kerékszöggel, RTK fixszel. Előbb állítsd be a WAS nullpontot (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Alkalmaz</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Újrakezdés</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Minták</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Valós / érzékelő</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Jobbkanyar</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Balkanyar</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Számláló fokonként</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>gyűjtés...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Megbízhatóság</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Kormányzás automatikus hangolása</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Kormánymotor (Kp, minimum PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autosteer bekapcsolva, bármilyen vonalon</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Előretekintés</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autosteer AB-vonalon vagy íven, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Oldallejtő-kompenzáció</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autosteer egyenes vonalon lejtőn keresztben, IMU szükséges</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Így jó</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>A kért szög körül leng: kisebb gain</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Nem éri el a kért szöget: nagyobb minimum PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Késve követ: nagyobb gain</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Cikázik a vonalon: hosszabb előretekintés</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>A vonal mellett marad: rövidebb előretekintés</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Új érték</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Késés</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Lengés</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Hiány</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimum PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Eltérés a vonaltól</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Keresztezés</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Kerékszög dőlésenként</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Illeszkedés</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Mért dőlés</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Okos funkciók</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>A háttérben tanul, amíg az autosteer dolgozik</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Holtsáv (irány, késleltetés)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Előretekintés sebesség arányos szorzója</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Mint az előretekintés, lassan (8 km/h-ig) és gyorsan (10 km/h felett)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Csak gyorsan cikázik: nagyobb szorzó</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Csak gyorsan marad a vonal mellett: kisebb szorzó</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Kisebb az érzékelő zajánál: a motor a zajt követi</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Jóval nagyobb az érzékelő zajánál: későn reagál</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Túl gyakran kapcsol be és ki: hosszabb késleltetés</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>A motor ide-oda vadászik: rövidebb késleltetés</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Érzékelő zaja</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Kapcsolások</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Vadászás</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Irány</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Lassan</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Gyorsan</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Szorzó</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Teljesen automata</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Kezdő értékek visszaállítása</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>A javaslatokat ekkor magától alkalmazza: legfeljebb percenként egy kis változtatás, csak amíg a kormányzás beállításai zárva vannak, és soha nem megy túl a mai értékektől számított korlátokon. Minden változtatást kiír és naplóz, a Kezdő értékek visszaállítása pedig visszahozza a mai értékeket. Bekapcsolod?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Tanul...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Szünetel, amíg a kormányzás beállításai nyitva vannak</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Utolsó változtatás</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Holtsáv</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Kezdő értékek visszaállítva</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Kikapcsolva – a javaslatok az Alkalmaz gombra várnak</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Dőlésérzékelő nullpontja</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autosteer oda-vissza járt vonalakon, IMU szükséges</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Ráfordulás a vonalra</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autosteer vonalon, 40 cm-nél messzebbről ráfordulva</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit integrál</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autosteer hosszú egyenes vonalakon, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>U-forduló kompenzáció</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autosteer automata U-fordulókkal</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Az oda-vissza fogások eltérnek: a nullpont elcsúszott</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Túllő a vonalon: nagyobb ráfordulási tényező</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Lassan kúszik rá a vonalra: kisebb ráfordulási tényező</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Egy oldalra húz: több integrál</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Lassú hullám a vonal körül: kevesebb integrál</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Túlfordul a következő vonalon: kisebb kompenzáció</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Kívül marad a következő vonaltól: nagyobb kompenzáció</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Nullpont-hiba</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Szórás</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Cellák</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Dőlés nullpont</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Túllövés</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Ráfordulás</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Ráfordulások</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Ráfordulási tényező</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Átlagos eltérés</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Hullámok</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integrál</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Fordulók</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Túl</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Kívül</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Szünetel, amíg a Steer Wizard nyitva van</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Automatikus változtatások</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Még nem volt automatikus változtatás</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Következő változtatás legkorábban</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>A javaslatokat ekkor magától alkalmazza, akkor is, ha ez az ablak nyitva van: legfeljebb percenként egy kis változtatás, és soha nem megy túl a mai értékektől számított korlátokon. Minden változtatást kiír az idejével és okával, a Kezdő értékek visszaállítása pedig visszahozza a mai értékeket. Bekapcsolod?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix elveszett</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>A pozíció 10-50 cm-t is tévedhet. Az innentől végzett munka pirossal jelölve.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Automata kormányzás kikapcsolva</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Túl sokáig nincs RTK fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>régi korrekció</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>nincs fix</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Érzékelő linearitása</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>A geometria-kalibrálásból: körök kis, közepes és nagy szöggel</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS-minőség őr</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp 12 km/h felett</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>11 km/h felett tanul. 8 km/h-ig a normál Kp, 12 km/h-tól ez, köztük átmenet</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU-fúzió</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Egyantennás GPS IMU-val, egyenesen a vonalon 5 km/h felett</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Be</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Ki</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>korrekció</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Várakozás RTK fixre</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Kiesések</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Jelölt</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autosteer ki ennyi után</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Közép</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Nagy</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Irányzaj</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Elcsúszás</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Csak egyantennás GPS-sel és IMU-val</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>Az IMU elcsúszik a GPS iránytól: gyorsabb fúzió</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>A GPS irány zaja átjut: lassabb fúzió</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Az érzékelő nagyobb szögnél másképp mér: korrekció</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK-híd véget ért</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>A pozíció már nincs áthidalva: RTK nélkül 10-50 cm-t is tévedhet.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>A korrekció nem érkezik. Az AgIO-ban beállítható tartalék korrekciós forrás.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>A korrekció érkezik, a vevő vesztette el a fixet (fák, épületek, égbolt).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>Az RTK-híd viszi tovább a pozíciót.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Az innentől végzett munka pirossal jelölve.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK-híd</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>korrekció</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>vevő</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Áthidalás</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>kormányszög</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Kész</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>elcsúszás</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU tanul (RTK, menet közben)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Áthidalások</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Utolsó</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>eltérés</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Leghosszabb áthidalás</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Vizsgák</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>nincs irányforrás (IMU, duál antenna vagy kormánymodul)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>duál antenna</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>addig a beépített becslés érvényes</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Megbízható</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Most fut egy vizsga a háttérben</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (vivőfázis)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Vevő: RTCM MSM (1074/1084/1094/1124) és pályaadatok (1019/1020/1046/1042) a GPS-portra, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Csak tanul</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automata</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Nincs nyers adat a vevőtől</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Állítsd be a vevőt a fentiek szerint; addig semmi más nem változik</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>megfigyelésekre vár</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>műhold</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Pályaadatok</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Mérések</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Most használatban</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>A következő RTK-kiesésnél átveszi</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Még nem bizonyult jobbnak a holtszámításnál</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Csak tanul, soha nem kormányoz</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Vevő, GPS-port, 5-10 Hz: RTCM 3 MSM + pályaadatok (1019/1020/1042/1046), vagy u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Jön nyers adat, de vivőfázis nincs</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Kapcsold be az MSM-et (RTCM) vagy az RXM-RAWX-et (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Jön vivőfázis, de pályaadat még nincs</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Kapcsold be a pályaadat-üzeneteket vagy az RXM-SFRBX-et, vagy használj olyan NTRIP-et, amely küldi</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>NTRIP-ről</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibrálás</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Szenzorok</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Kormánymotor</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Vonalkövetés</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS és RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Minden érték, amit a teljesen automata mód módosított, visszaáll arra, ami a bekapcsolásakor volt. Biztos vagy benne?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>A házszám nincs a térképen: válaszd az utcát, és jelöld meg a házat a térképen</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Korlát miatt visszatartva</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>A korlátok semmit nem tartanak vissza</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Új kezdőértékek</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>A mostani kormányértékek lesznek az új kezdőértékek, és velük együtt tolódnak a korlátok. Csak akkor tedd, ha a traktor most jól kormányoz. Folytatod?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>kezdőérték</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>javasolt</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Korlátnál</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Az utolsó változtatás ellenőrzése</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Visszavonva, rosszabbul kormányzott</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Megtartva, túl kevés összevethető menet az ellenőrzéshez</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Ellenőrizve, megtartva</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>a szimulációban rosszabb</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Antenna-eltolás</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>nyomtáv-eltérés</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Munkagép</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>visszakerültek a kormányértékei</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>még nincsenek mentett kormányértékei</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Mérések</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Kormánymű</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Nyomtáv-eltérés (antenna oldaleltolás)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Automata kormányzás AB vonalon, sík talajon. Állj meg, és jelöld meg a földet a vonófej csapja alatt.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Fordulj, és gyere vissza ugyanazon a vonalon; állj meg úgy, hogy a vonófej csapja a jel mellett legyen.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Mérd meg a távolságot keresztben, és hogy az ülésből nézve melyik oldalon van a jel.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Jel a bal oldalon</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Jel a jobb oldalon</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Kormányértékek munkagépenként</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Mérés az automata kormányzás közben</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Holtidő</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Fordulási sebesség</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>nem érte el</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Holtjáték</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Nagy holtjáték: ellenőrizd a kormánycsuklókat és a WAS rögzítését</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Lassú válasz: ellenőrizd a hidraulikát vagy a motort</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>A kormány a határán lassan fordul</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Nincs javítanivaló</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Holtidő-kompenzáció</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Kikapcsolás</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Bekapcsolás a mért értékkel</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Antenna-eltolás most</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Munkagépekhez mentve</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Egy értékkészlet minden munkagéphez</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Folytatod?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>nemrég visszavonva, később újra próbálja</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Dőléskompenzáció göröngyös talajon</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Gödör mód</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>Használatban</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>magasság</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Egyenesen, billegésből tanul</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Dőlés késése</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Valódi magasság</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Nincs mit változtatni</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Billenések, amelyeket a kompenzáció nem vett ki</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Kipróbálva</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Dőléskompenzáció</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Nyomtáv-varázsló</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>A jel tőlem balra</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>A jel tőlem jobbra</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Vissza</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Előkészítés</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Első menet</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Vissza ugyanazon a vonalon</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Mérés</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Sík, egyenletes talaj. Válassz egy AB vonalat, és kapcsold be az automata kormányzást; hagyd, hogy munkasebességnél ráálljon a vonalra.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Menj legalább 30 m-t a vonalon automata kormányzással, majd állj meg. Jelöld meg a földet pontosan a vonófej csapja alatt.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Fordulj meg, és gyere vissza ugyanazon az AB vonalon automata kormányzással. Állj meg úgy, hogy a vonófej csapja egy vonalban legyen a jellel.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>eltérés a vonaltól</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Automata kormányzás be</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Irányok</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Haladási irány induláskor</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Megjegyzi (automata)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Kézzel (kattints a traktorra)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Egy antenna: a program elmenti, merre van a traktor eleje, amikor megáll és amikor bezárod. Ugyanott újraindítva azonnal tudja.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Modul konfigurátor</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy firmware</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS vevő</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Lista letöltése / frissítése</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Bootloader indítása</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Felismerés</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Küldés</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Mentés a vevőbe</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Parancs küldése</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: szöveges parancsok (pl. GPGGA COM1 0.1). u-blox: egy UBX-üzenet bájtjai hexában. A vevő modul felé menő portjának baudrátáját innen soha nem állítja át: a modul firmware-e ezt várja.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Firmware-tár</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>A Config-O-Matic lista letöltése...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Letöltve</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>a tárban</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>A letöltés nem sikerült - a tárolt lista marad</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader kérve ezen:</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Nem nyitható meg:</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Még nincs a tárban: előbb töltsd le a listát</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Ráírod ezt a firmware-t a Teensy-re?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Írás közben ne húzd ki és ne kapcsold ki.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Írás</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Firmware felírva</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Az írás nem sikerült</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP nyers adat be</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP nyers adat ki</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP nyers adat be</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP nyers adat ki</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Kihagyva</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Nincs út a vevőhöz: nincs modulhálózat és GPS soros port sem</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Nincs válasz: a módosított firmware van a Teensy-n?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Ez a beállítás másik vevőhöz való</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>A beállítás nem olvasható</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>elfogadva</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>nincs visszaigazolva</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Nyomd meg a Mentés a vevőbe gombot, hogy kikapcsolás után is megmaradjon</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Elmentve a vevőbe</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>A mentés nincs visszaigazolva</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Nincs elküldve: a modul felé menő baudrátának maradnia kell</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>nincs visszaigazolás</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Hálózaton nem válaszolt modul: először USB-n kell felrakni a firmware-t</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>A modulon most</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Figyelem: ebben a firmware-ben nincs hálózati frissítés - a következőhöz megint USB kell</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Ráírod ezt a firmware-t a modulra hálózaton?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>A traktor álljon, az automata kormányzás legyen kikapcsolva. Telepítés közben (a végén kb. 30 másodperc) ne kapcsold ki a modult: akkor csak USB-n lehet újra felprogramozni.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Küldés</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Elküldve és ellenőrizve; a modul telepíti és újraindul</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>A modul újra elérhető</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>A modul még nem válaszol - ha így marad, programozd fel USB-n</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Firmware az AiO lap Teensy-jéhez és beállítások a GNSS vevőihez - hálózaton, a doboz kinyitása nélkül.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Felrakás a modulra</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Hálózaton (USB nélkül)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Ha már módosított firmware van a modulon.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>USB-n</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>Első alkalommal, vagy ha a hálózat nem működik. A Teensy USB-portja:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Melyik vevő</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Fő vevő (pozíció)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Második F9P (irány)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>A UM982 (egyben dupla antennás) és az egy F9P mindig a fő vevő. A második csak két F9P-s dupla antennánál van: az méri az irányt.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Küldendő beállítás</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Mentés nélkül a vevő kikapcsoláskor elfelejti.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Parancs kézzel</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Napló</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>nincs letöltve</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Zöld ★ = az AgOpenGPS forkból, módosítva: nyers GNSS a TDCP-hez, vevőbeállítás és firmware-frissítés hálózaton, UM982 dupla antennás irány. Piros = az eredeti Config-O-Matic firmware-ek, változatlanul.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Várakozás a Teensy bootloaderére (ha nem jön, nyomd meg a gombot a Teensy-n)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Kész: a Teensy elindítja az új firmware-t</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Hely készítése a modulon</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Ellenőrzés és telepítés a modulon</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Telepítés: 30 másodpercig ne kapcsold ki</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Kézzel módosítva, a hangolók újrakezdik</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Szünetel, amíg az útvonal-kormányzás kormányoz</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Szünetel a szimulátorban</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Tanult eltolás</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Nyugodt kormányzás</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Holtjáték-kompenzáció</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>A holtjáték még nincs megmérve</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Kormányzási segédek</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Apró rezgések simítva</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Túl kicsi a holtjáték</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Előretolás</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Modellalapú kormányzás (MPC)</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Kormányzás jellege</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Éles</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Nyugodt</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Előretekintés</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>Az MPC az AB vonalakon és íveken előremenetben kormányoz; fordulónál, kontúron és tolatáskor a Pure pursuit marad.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>még nincs mérve</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Adaptív Pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Look-ahead most</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Adaptív</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Rövidebb íveken</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Tartalék a holtidőre</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Hosszabb kígyózáskor</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>A Pure pursuit fül look-ahead értéke a kiindulás; ez minden fixnél hozzáigazítja.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>beállítás</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Adaptív PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Szünetel az A/B összehasonlítás alatt</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Összehasonlítás</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B összehasonlítás</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>A kormányzási mód minden fogás után vált: Pure pursuit, Adaptív, MPC. Az automatikus hangolás közben szünetel.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>A legjobb marad</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Leállítás (vissza az előzőre)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Fut</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Eddig a legjobb</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>előbb mindegyikből két fogás</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Az eddigi összes fogás</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Még nincs fogás (legalább 30 m automata kormányzással egy vonalon)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>fogás</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Utolsó fogások</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC kormányzás jellege</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC előretekintés</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Adaptív: rövidebb íveken</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Adaptív: tartalék a holtidőre</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Adaptív: hosszabb kígyózáskor</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Egy lépés</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>gyorsabb keresés</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Állapotbecslő (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Modell-kormányzás</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Nem indult el (fix és irány kell hozzá)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Kormányszög-eltolás</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU-eltérés</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Oldalcsúszás</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>csak két antennával</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Eltérés a GNSS-től</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Kész, a modell-kormányzás (MPC, LQR, hibrid) használja</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Kormányzás használja</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Kész, a kormányzás a szűrt pozíciót használja</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Túl messze a nyers pozíciótól: a nyers marad</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR kormányzás</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>Az LQR az AB vonalakon és íveken előremenetben kormányoz; fordulónál, kontúron és tolatáskor a Pure pursuit marad.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR kormányzás jellege</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hibrid</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hibrid kormányzás (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>Az LQR tartja a vonalat, az MPC viszi az íveket és a rávezetést. Fordulónál, kontúron és tolatáskor a Pure pursuit marad.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>MPC aránya most</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Kormányzási mód</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Tanulás</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Adatrögzítő</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Kormánymű és IMU, ahogy mérve</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Tanulás a táblán</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Elfelejt</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Elfelejti, amit ezen a táblán tanult?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Vontatott munkagép a vonalon</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Ki: semmi nem rögzül</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Rögzít</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Rögzít, amint a traktor elindul</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Az automata kormányzás közben mérve</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>jobbra fordulás</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU zaja</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>csendes, pl. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>zajosabb, pl. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Ahol korábban eltért a vonaltól, legközelebb előre ellenkormányoz (irányonként külön).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Megtanult helyek ezen a táblán</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Nyiss meg egy táblát a tanuláshoz</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>most</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Lejtőn és íven a vonalon tartja a vontatott munkagépet: a traktor annyival megy mellette, amennyi kell.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>A beállított munkagép nem vontatott: nincs teendő</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>A traktor a vonal mellett</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>irányonként</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>nincs RTK fix</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Ez a firmware úgy tűnik, másik panelhez való</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Ez a firmware úgy tűnik, másik panelhez való, mint ami a modulon van.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>A másik panelhez való firmware más lábakat használ: a kormánymotor nem működhet, vagy váratlanul mozdulhat. Mégis felírja?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Elmozdítva kikapcsolt tablettel</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Ha a modul bekapcsolva marad, amíg a tablet ki van kapcsolva, az IMU-ja minden fordulást számol: az eleje bárhol ismert, ahol a traktor áll. Ha a modul is ki volt kapcsolva, az első mozdulás rántásából dönti el, hogy előre vagy hátra.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Modul firmware: új (küldi az idejét és a gyorsulást)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Az új modul firmware kell hozzá</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Előre vagy hátra az első mozdulásnál: megtanulva</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Előre vagy hátra az első mozdulásnál: tanulja előremenet közben</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>szimulátor</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>válaszol</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>nem válaszol</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>új</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>régebbi, vagy nincs IMU a modulon</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>régi korrekció</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>nincs RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>nincs (nem kötelező)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>zaj</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>tanulja</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>holtidő</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>IMU kell hozzá</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>kész</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>változtatás javasolt</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>kézzel</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>megtanulva</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>ki</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Pontossági jelentés</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Munkaszélesség</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Fogástól fogásig</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Mennyire futott valójában minden fogás a szomszédjától, a munkaszélességhez képest: átfedés vagy hézag két fogás között.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Még nincsenek szomszédos fogások - menj legalább két fogást egymás mellett automata kormányzással és RTK fixszel.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 %-ban ezen belül</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>átlag</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>legrosszabb</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>A vonalon</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>A vonaltól mért távolság, amíg az automata kormányzás tartotta (RTK fix, munkában).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Szomszédos fogások</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Fogás</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Kormánymodul</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Modul firmware</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Kormányszög-szenzor nullája</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Irány induláskor</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Teljesen automatikus hangolás</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Beállítás állapota</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Hibajelentés-csomag</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>A csomag a naplókat, a beállításokat és az utolsó menetfelvételeket tartalmazza (a táblán belüli pozíciókkal): küldd el annak, aki segít.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Elmentve</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Nincs elmentve</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Kanyarban a vonalon tartja a vontatott munkagépet, ahol az befelé vág: a traktor annyival kijjebb megy, amennyi kell. A lejtőn lecsúszó munkagépet nem látja - ahhoz GPS kell a munkagépen.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>csendes</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>zajosabb</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>A kormányzási mód minden fogás után vált: Pure pursuit, Adaptív, MPC, LQR, Hibrid. Az automatikus hangolás közben szünetel.</value>
   </data>
 </root>

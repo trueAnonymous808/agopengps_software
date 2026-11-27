@@ -58,6 +58,25 @@ namespace AgOpenGPS.Properties
         public string setNavMap_NavigationSource = "OpenStreetMap";   // the map while a route is followed (navigation menu)
         public double setNavSteer_RoadOffset = 1.75;           // route autosteer on roads: metres right (+) or left (-) of the mapped centre line
         public double setNavSteer_TrackOffset = 0;             // the same on field tracks
+        public bool setGpsGuard_Enabled = true;                // warn, mark and stop autosteer when the RTK fix is lost
+        public double setGpsGuard_OffAfterS = 10;              // autosteer off after this long without RTK (0: never)
+        public bool setRtkBridge_Enabled = true;               // carry the position on by dead reckoning when RTK is lost
+        public double setRtkBridge_MaxS = 120;                 // the longest bridge
+        public double setRtkBridge_MaxCm = 10;                 // the bridge ends when its estimated error passes this
+        public bool setRtkBridge_Exams = true;                 // virtual outages in the background while RTK is good
+        public int setTdcp_Mode = 1;                           // TDCP: 0 off, 1 learn only (never steers), 2 automatic
+        public bool setSteerAuto_Enabled = false;              // fully automatic steering tuning (off until switched on)
+        public string setSteerAuto_Baseline = "";              // old: one baseline for all vehicles; moved to VehicleSettings on first use
+        public bool setSteerAuto_PerTool = false;              // steering values kept and brought back for each implement
+        public bool setPitGuard_Enabled = true;                // pit mode: hold the steering a moment after an unexplained rock
+        public bool setSteer_AdaptivePP = true;                // adaptive pure pursuit: the look-ahead set on every fix (curves, dead time, weaving) and the curve preview
+        public bool setSteer_Smooth = true;                    // calm steering: small wobbles smoothed, never faster than the wheels turn
+        public bool setRecorder_On = true;                     // the drive recorder (Documents\AgOpenGPS\Recordings, 200 MB at most)
+        public bool setFieldLearn_On = false;                  // learning on the field: repeating errors steered against in advance
+        public bool setImplementKeep_On = false;               // a trailed implement kept on the line (the tractor runs beside it)
+        public bool setKalman_Position = false;                // guidance steers from the state estimator's position and heading (off: the raw fix)
+        public bool setKalman_Mpc = true;                      // MPC takes the state estimator's steer offset and slip once it is ready
+        public bool setSteer_PlayComp = true;                  // the measured play of the steering made up for
         public bool setDisplay_isSectionLinesOn = true;
         public bool setDisplay_isLineSmooth = false;
         public bool setDisplay_isTermsAccepted = false;
@@ -128,6 +147,9 @@ namespace AgOpenGPS.Properties
         // ===== GPS SETTINGS =====
         public double setGPS_SimLatitude = 53.4360564;
         public double setGPS_SimLongitude = -111.160047;
+        public double setSim_LastLat = 0;             // the simulator starts where it was left (as a tractor would)
+        public double setSim_LastLon = 0;
+        public double setSim_LastHeadingDeg = -1;     // -1: nothing left, start at the field origin facing north
         public bool setGPS_isRTK = false;
         public bool setGPS_isRTK_KillAutoSteer = false;
         public int setGPS_ageAlarm = 20;

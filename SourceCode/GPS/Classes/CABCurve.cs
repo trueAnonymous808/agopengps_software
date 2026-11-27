@@ -756,7 +756,9 @@ namespace AgOpenGPS
             if (curList.Count > 0)
             {
                 // Update based on autosteer settings and distance from line
-                double goalPointDistance = mf.vehicle.UpdateGoalPointDistance();
+                // (in a U-turn the turn adapts its own look-ahead, for its radius)
+                double goalPointDistance = mf.yt.isYouTurnTriggered ? mf.vehicle.UpdateGoalPointDistance()
+                    : mf.AdaptLookAhead(mf.vehicle.UpdateGoalPointDistance());
                 bool ReverseHeading = mf.isReverse ? !isHeadingSameWay : isHeadingSameWay;
 
                 if (mf.yt.isYouTurnTriggered && mf.yt.DistanceFromYouTurnLine())//do the pure pursuit from youTurn
@@ -1019,6 +1021,18 @@ namespace AgOpenGPS
                     steerAngleCu = glm.toDegrees(Math.Atan(2 * (((goalPointCu.easting - pivot.easting) * Math.Cos(localHeading))
                         + ((goalPointCu.northing - pivot.northing) * Math.Sin(localHeading))) * mf.vehicle.VehicleConfig.Wheelbase / goalPointDistanceSquared));
 
+                    // the curve ahead from the closest point, for MPC or pure pursuit's curve preview
+                    if (mf.PathAheadWanted)
+                    {
+                        FillPathAhead(ReverseHeading ? B : A, ReverseHeading ? 1 : -1, mf.PathAheadLengthM);
+                        if (mf.ModelSteers)
+                        {
+                            double mpcDeg = mf.ModelSteerDeg();
+                            if (!double.IsNaN(mpcDeg)) steerAngleCu = mpcDeg;
+                        }
+                        else steerAngleCu += mf.CurvePreviewDeg(goalPointDistance);
+                    }
+
                     if (mf.ahrs.imuRoll != 88888)
                         steerAngleCu += mf.ahrs.imuRoll * -mf.gyd.sideHillCompFactor;
 
@@ -1055,6 +1069,30 @@ namespace AgOpenGPS
                 //invalid distance so tell AS module
                 distanceFromCurrentLinePivot = 32000;
                 mf.guidanceLineDistanceOff = 32000;
+            }
+        }
+
+        // the curve's points ahead (as the goal point is found: from the closest point, the way it is driven)
+        private void FillPathAhead(int first, int count, double lengthM)
+        {
+            List<vec2> path = mf.pathAhead;
+            path.Clear();
+            path.Add(new vec2(rEastCu, rNorthCu));
+            double gone = 0;
+            int closed = mf.trk.gArr[mf.trk.idx].mode <= TrackMode.Curve ? 0 : 1;   // a boundary curve goes round
+            int i = first;
+            for (int n = 0; n < curList.Count && gone < lengthM; n++)
+            {
+                if (i < 0 || i > curList.Count - 1)
+                {
+                    if (closed == 0) break;
+                    i = i < 0 ? curList.Count - 1 : 0;
+                }
+                vec2 last = path[path.Count - 1];
+                double de = curList[i].easting - last.easting, dn = curList[i].northing - last.northing;
+                gone += Math.Sqrt(de * de + dn * dn);
+                path.Add(new vec2(curList[i].easting, curList[i].northing));
+                i += count;
             }
         }
 

@@ -140,6 +140,7 @@ namespace AgLibrary.Localization
                     System.Runtime.InteropServices.Marshal.Copy(data.Scan0, px, 0, bytes);
 
                     long all = (long)data.Width * data.Height, visible = 0, darkNeutral = 0;
+                    var tones = new long[32];   // the dark greys by shade, 8 levels a step
                     for (int y = 0; y < data.Height; y++)
                         for (int x = 0; x < data.Width; x++)
                         {
@@ -148,11 +149,21 @@ namespace AgLibrary.Localization
                             visible++;
                             int mx = Math.Max(px[i], Math.Max(px[i + 1], px[i + 2]));
                             int mn = Math.Min(px[i], Math.Min(px[i + 1], px[i + 2]));
-                            if (mx - mn <= 40 && mx <= 110) darkNeutral++;
+                            if (mx - mn <= 40 && mx <= 110)
+                            {
+                                darkNeutral++;
+                                tones[(px[i] + px[i + 1] + px[i + 2]) / 24]++;
+                            }
                         }
 
+                    // a line drawing is mostly one shade; a shaded picture (a grey tractor, a vehicle on the settings
+                    // pages) spreads over many: that one is a picture, not a glyph, and keeps its own colours
+                    long peak = 0;
+                    for (int k = 0; k + 1 < tones.Length; k++) peak = Math.Max(peak, tones[k] + tones[k + 1]);
+                    bool shadedPicture = all >= 4000 && darkNeutral > 0 && peak * 100 / darkNeutral < 50;
+
                     // mostly see-through, and what can be seen is nearly all dark grey / black
-                    if (visible > 0 && visible * 100 / all <= 60 && darkNeutral * 100 / visible >= 85)
+                    if (visible > 0 && visible * 100 / all <= 60 && darkNeutral * 100 / visible >= 85 && !shadedPicture)
                     {
                         for (int y = 0; y < data.Height; y++)
                             for (int x = 0; x < data.Width; x++)

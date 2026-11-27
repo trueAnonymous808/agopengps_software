@@ -25,6 +25,26 @@ namespace AgOpenGPS.Properties
 
         // AutoSteer settings
         public byte setAS_Kp = 50;
+        public byte setAS_KpFast = 0;              // Kp from 12 km/h (0: one Kp for all speeds)
+        public double setAS_WasLinMiddle = 1;      // steer angle sensor linearity: factor at 12-20 degrees (1: linear)
+        public double setAS_WasLinBig = 1;         // and from 20 degrees
+        public string setSteerAuto_Baseline = "";  // this vehicle's steering values when fully automatic was switched on
+        public string setSteerAuto_ToolTunes = ""; // this vehicle's steering values kept for each implement
+        public double setAS_LeadS = 0;             // dead-time compensation of the angle sent (s); 0: off
+        public double setAS_RollShiftS = 0;        // roll compensation timing: + the roll arrives late (s)
+        public double setAS_RollGain = 1;          // roll compensation: the antenna height that really cancels, as a factor
+        public double setAS_PitRateDegS = 4;       // pit mode: how fast the angle sent may change after a rock (deg/s)
+        public bool setDir_RememberForward = true; // single antenna: the heading at the start remembered from the last time
+        public double setDir_LastHeadingDeg = -1;  // where the front pointed when the tractor was left (-1: nothing)
+        public double setDir_LastLat = 0;
+        public double setDir_LastLon = 0;
+        public double setDir_LastImuDeg = -1;        // the IMU's heading then (-1: none) - the turn since is the IMU's now minus this
+        public double setDir_LastModuleMs = -1;      // the module's time since switched on then (-1: unknown)
+        public double setDir_LastSavedUtcS = 0;      // when it was saved (s since 1970, UTC)
+        public double setDir_AccAxisX = 0;           // the IMU's forward axis as learnt (sum, not unit): forward or reverse at the first move
+        public double setDir_AccAxisY = 0;
+        public double setDir_AccAxisZ = 0;
+        public double setDir_AccWeight = 0;          // how much it learnt from
         public byte setAS_countsPerDegree = 110;
         public byte setAS_minSteerPWM = 25;
         public byte setAS_highSteerPWM = 180;
@@ -72,6 +92,27 @@ namespace AgOpenGPS.Properties
         public LoadResult Load(string vehicleFileName)
         {
             string path = Path.Combine(RegistrySettings.vehiclesDirectory, vehicleFileName + ".xml");
+            // a load sets only what the file holds: a profile without a baseline must not keep the one before
+            setSteerAuto_Baseline = "";
+            setSteerAuto_ToolTunes = "";
+            setAS_KpFast = 0;
+            setAS_WasLinMiddle = 1;
+            setAS_WasLinBig = 1;
+            setAS_LeadS = 0;
+            setAS_RollShiftS = 0;
+            setAS_RollGain = 1;
+            setAS_PitRateDegS = 4;
+            setDir_RememberForward = true;
+            setDir_LastHeadingDeg = -1;
+            setDir_LastLat = 0;
+            setDir_LastLon = 0;
+            setDir_LastImuDeg = -1;
+            setDir_LastModuleMs = -1;
+            setDir_LastSavedUtcS = 0;
+            setDir_AccAxisX = 0;
+            setDir_AccAxisY = 0;
+            setDir_AccAxisZ = 0;
+            setDir_AccWeight = 0;
             var result = XmlSettingsHandler.LoadXMLFile(path, this);
             bool loadedFromBackup = false;
 

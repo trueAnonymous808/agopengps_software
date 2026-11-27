@@ -18,6 +18,8 @@ namespace AgOpenGPS
         // Data collection settings
         private const int MAX_SAMPLES = 2000;
         private const int MIN_SAMPLES = 200;
+        private double[] sortBuffer = new double[0];
+        private int samplesSinceAnalysis;
         private const double MIN_SPEED_KMH = 2.0;
         private const double MAX_ANGLE_DEG = 15.0;
         private const double MAX_DIST_OFF_MM = 500.0;
@@ -140,9 +142,11 @@ namespace AgOpenGPS
                     steerAngleHistory.RemoveAt(0);
                 }
 
-                // Run analysis periodically
-                if (steerAngleHistory.Count >= MIN_SAMPLES)
+                // Run analysis periodically (every tenth sample: once a second is plenty for a median of 2000, and
+                // sorting them on every fix only kept the garbage collector busy)
+                if (steerAngleHistory.Count >= MIN_SAMPLES && ++samplesSinceAnalysis >= 10)
                 {
+                    samplesSinceAnalysis = 0;
                     AnalyzeData();
                 }
             }
@@ -201,15 +205,17 @@ namespace AgOpenGPS
             // Mean
             meanAngle = steerAngleHistory.Average();
 
-            // Median
-            var sorted = steerAngleHistory.OrderBy(x => x).ToList();
+            // Median (sorted in a buffer that is kept, not in a new list every time)
+            if (sortBuffer.Length < count) sortBuffer = new double[MAX_SAMPLES + 1];
+            steerAngleHistory.CopyTo(sortBuffer, 0);
+            Array.Sort(sortBuffer, 0, count);
             if (count % 2 == 0)
             {
-                medianAngle = (sorted[count / 2 - 1] + sorted[count / 2]) * 0.5;
+                medianAngle = (sortBuffer[count / 2 - 1] + sortBuffer[count / 2]) * 0.5;
             }
             else
             {
-                medianAngle = sorted[count / 2];
+                medianAngle = sortBuffer[count / 2];
             }
 
             // Standard Deviation (sample)

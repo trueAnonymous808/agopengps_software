@@ -40,10 +40,17 @@ namespace AgOpenGPS.Forms.Navigation
                 Color.FromArgb(255, 235, 238), Color.FromArgb(229, 57, 53));
             stop.Enabled = mf.IsNavigating;
 
+            var roadIcon = new PictureBox
+            {
+                Image = NavIcons.Road(36),
+                Location = new Point(edge, 300),
+                Size = new Size(36, 36),
+                BackColor = Color.Transparent
+            };
             lblRoads = new Label
             {
-                Location = new Point(edge, 288),
-                Size = new Size(560 - 2 * edge, 60),
+                Location = new Point(edge + 46, 288),
+                Size = new Size(560 - 2 * edge - 46, 60),
                 Font = new Font("Segoe UI", 12f),
                 TextAlign = ContentAlignment.MiddleLeft
             };
@@ -67,10 +74,30 @@ namespace AgOpenGPS.Forms.Navigation
             Button offset = NavUi.Tile(NavUi.Tr("Offset"), edge + steer.Width + gap, 428, offsetWidth, 50, 12f);
             offset.Click += (s, e) => FormSteerOffset.Show(this, mf);
 
-            Controls.AddRange(new Control[] { field, address, point, streetMap, satellite, stop, lblRoads, btnDownload, steer, offset, close });
+            // the icons: above the text on the big tiles, before it on the others
+            WithIcon(field, NavIcons.SavedField(44), true);
+            WithIcon(address, NavIcons.Address(44), true);
+            WithIcon(point, NavIcons.PointOnMap(44), true);
+            WithIcon(streetMap, NavIcons.StreetMap(30), false);
+            WithIcon(satellite, NavIcons.Satellite(30), false);
+            WithIcon(stop, NavIcons.Stop(34), false);
+            WithIcon(btnDownload, NavIcons.Download(34), false);
+            WithIcon(steer, NavIcons.SteeringWheel(28), false);
+            WithIcon(offset, NavIcons.Offset(26), false);
+
+            Controls.AddRange(new Control[] { field, address, point, streetMap, satellite, stop, roadIcon, lblRoads, btnDownload, steer, offset, close });
             refresh.Tick += (s, e) => ShowRoadStatus();
             refresh.Start();
             ShowRoadStatus();
+        }
+
+        // an icon with the text, the two centred together: the icon above (big tiles) or before the text
+        private static void WithIcon(ButtonBase b, Image icon, bool above)
+        {
+            b.Image = icon;
+            b.ImageAlign = ContentAlignment.MiddleCenter;
+            b.TextAlign = ContentAlignment.MiddleCenter;
+            b.TextImageRelation = above ? TextImageRelation.ImageAboveText : TextImageRelation.ImageBeforeText;
         }
 
         // one of the two map switches: looks like a tile, green while chosen; the choice is saved and shown at once

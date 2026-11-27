@@ -2852,7 +2852,8 @@ namespace AgOpenGPS
 
                     //sharp turns on you turn.
                     //update base on autosteer settings and distance from line
-                    double goalPointDistance = mf.vehicle.UpdateGoalPointDistance();
+                    // (adaptive pure pursuit: shorter for the turn's radius, not shorter than the dead time allows)
+                    double goalPointDistance = mf.AdaptLookAhead(mf.vehicle.UpdateGoalPointDistance(), 1 / Math.Max(2, youTurnRadius), true);
 
                     //goalPointDistance *= mf.vehicle.uturnCompensation;
 

@@ -5323,7 +5323,7 @@ avertisment</value>
     <value>Distanță</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Șterge</value>
+    <value>Șt.</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Mesaj&#xD;
@@ -6253,5 +6253,1412 @@ Copie de siguranță: {1}</value>
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Se așteaptă serverul de hărți...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Calibrarea geometriei direcției</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Ampatament</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>calculul îl folosește, verificați-l mai întâi</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Conduceți cercuri uniforme la dreapta și la stânga, 2-10 km/h, roți la 5-35°, cu RTK fix. Setați mai întâi zero-ul WAS (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Aplică</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Ia de la capăt</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Eșantioane</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Real / senzor</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Viraj la dreapta</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Viraj la stânga</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Impulsuri pe grad</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>colectare...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Încredere</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Reglarea automată a direcției</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Motor direcție (Kp, PWM minim)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Ghidare automată pornită, orice linie</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Anticipare</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Ghidare automată pe linie AB sau curbă, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Compensare pantă</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Ghidare automată pe linie dreaptă transversal pe pantă, necesită IMU</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>E bine așa</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Oscilează în jurul unghiului dorit: amplificare mai mică</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Nu atinge unghiul dorit: PWM minim mai mare</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Urmează cu întârziere: amplificare mai mare</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Șerpuiește peste linie: anticipare mai lungă</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Rămâne lângă linie: anticipare mai scurtă</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Valoare nouă</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Întârziere</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Oscilație</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Lipsă</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>PWM minim</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Abatere</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Traversări</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Unghi roată pe înclinare</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Potrivire</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Înclinare măsurată</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Funcții inteligente</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Învață în fundal cât timp lucrează ghidarea automată</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Zonă moartă (direcție, întârziere)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Factorul de viteză al anticipării</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Ca anticiparea, încet (până la 8 km/h) și repede (de la 10 km/h)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Șerpuiește doar la viteză: factor mai mare</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Rămâne lângă linie doar la viteză: factor mai mic</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Mai mică decât zgomotul senzorului: motorul urmărește zgomotul</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Mult mai mare decât zgomotul senzorului: reacționează târziu</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Pornește și oprește prea des: întârziere mai lungă</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Motorul oscilează încolo și încoace: întârziere mai scurtă</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Zgomotul senzorului</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Comutări</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Oscilare</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Direcție</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Încet</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Repede</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Factor</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Complet automat</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Restabilește valorile de pornire</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Sugestiile se aplică atunci singure: cel mult o mică modificare pe minut, doar cât timp setările direcției sunt închise, și niciodată dincolo de limite stabilite față de valorile de azi. Fiecare modificare este afișată și înregistrată, iar Restabilește valorile de pornire readuce valorile de azi. Porniți?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Învață...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>În pauză cât timp setările direcției sunt deschise</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Ultima modificare</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Zonă moartă</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Valorile de pornire au fost restabilite</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Oprit – sugestiile așteaptă Aplică</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Zero-ul senzorului de înclinare</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Ghidare automată pe linii parcurse în ambele sensuri, necesită IMU</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Intrarea pe linie</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Ghidare automată pe o linie, intrând de la peste 40 cm</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Integrala pure pursuit</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Ghidare automată pe linii drepte lungi, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Compensarea întoarcerii</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Ghidare automată cu întoarceri automate</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Trecerile în ambele sensuri nu se potrivesc: zero-ul este decalat</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Trece de linie: factor de intrare mai mare</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Se apropie încet de linie: factor de intrare mai mic</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Rămâne pe o parte: mai multă integrală</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Undă lentă în jurul liniei: mai puțină integrală</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Virează dincolo de linia următoare: compensare mai mică</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Termină în afara liniei următoare: compensare mai mare</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Eroarea zero-ului</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Dispersie</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Celule</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Zero înclinare</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Depășire</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Intrare</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Intrări</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Factor de intrare</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Abatere medie</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Unde</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integrală</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Întoarceri</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Dincolo</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>În afară</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>În pauză cât timp Steer Wizard este deschis</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Modificări automate</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Încă nicio modificare automată</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Următoarea modificare cel mai devreme în</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Sugestiile se aplică atunci singure, și cât timp această fereastră este deschisă: cel mult o mică modificare pe minut și niciodată dincolo de limite stabilite față de valorile de azi. Fiecare modificare este afișată cu ora și motivul, iar Restabilește valorile de pornire readuce valorile de azi. Porniți?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix pierdut</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Poziția poate fi greșită cu 10-50 cm. Lucrul de aici este marcat cu roșu.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Ghidare automată oprită</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Prea mult timp fără RTK fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>corecție veche</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>fără fix</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Liniaritatea senzorului</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Din calibrarea geometriei: cercuri cu unghi mic, mediu și mare</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>Paznicul calității GPS</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp peste 12 km/h</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Învață peste 11 km/h. Până la 8 km/h Kp-ul normal, de la 12 km/h acesta, între ele o tranziție</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>Fuziune IMU</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Antenă unică cu IMU, drept pe o linie peste 5 km/h</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Pornit</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Oprit</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>corecție</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Se așteaptă RTK fix</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Întreruperi</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Marcat</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Ghidare oprită după</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Mediu</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Mare</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Zgomot de direcție</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Derivă</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Doar cu antenă unică și IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU se abate de la direcția GPS: fuziune mai rapidă</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>Zgomotul direcției GPS trece: fuziune mai lentă</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Senzorul măsoară altfel la unghiuri mai mari: corecție</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>Puntea RTK s-a încheiat</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Poziția nu mai este punteată: fără RTK poate fi greșită cu 10-50 cm.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Corecțiile nu mai sosesc. În AgIO se poate configura o sursă de rezervă.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Corecțiile sosesc, receptorul a pierdut fix-ul (copaci, clădiri, vizibilitatea cerului).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>Puntea RTK continuă poziția.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Lucrul de aici este marcat cu roșu.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>Punte RTK</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>corecții</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>receptor</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Punte activă</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>unghi de virare</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Pregătit</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>derivă</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU învață (RTK, în mers)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Punți</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Ultima</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>eroare</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Cea mai lungă punte</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Examene</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>nicio sursă de direcție (IMU, antenă dublă sau modul de direcție)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>antenă dublă</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>până atunci se folosește estimarea integrată</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>De încredere timp de</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Un examen rulează în fundal</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (faza purtătoarei)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Receptor: RTCM MSM (1074/1084/1094/1124) și efemeride (1019/1020/1046/1042) pe portul GPS, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Doar învață</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automat</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Nu sunt date brute de la receptor</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Setați receptorul ca mai sus; între timp nimic altceva nu se schimbă</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>așteaptă observații</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>sateliți</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemeride</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epoci</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>În uz acum</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Preia la următoarea pierdere RTK</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Încă nu s-a dovedit mai bun decât navigația estimată</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Doar învață, nu virează niciodată</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Receptor, port GPS, 5-10 Hz: RTCM 3 MSM + efemeride (1019/1020/1042/1046), sau u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Vin date brute, dar fără faza purtătoarei</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Activați MSM (RTCM) sau RXM-RAWX (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Vine faza purtătoarei, dar încă fără efemeride</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Activați mesajele de efemeride sau RXM-SFRBX, sau folosiți un NTRIP care le trimite</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>din NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Calibrare</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Senzori</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Motor de direcție</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Urmărirea liniei</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS și RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Toate valorile modificate de modul complet automat revin la cele de la pornirea lui. Sunteți sigur?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Numărul casei nu este pe hartă: alegeți strada și marcați casa pe hartă</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Reținut de limite</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Limitele nu rețin nimic</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Valori de pornire noi</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Valorile actuale de direcție devin noile valori de pornire, iar limitele se mută odată cu ele. Faceți asta doar când tractorul virează bine acum. Continuați?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>valoare de pornire</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>propus</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>La limită</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Se verifică ultima modificare</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Anulat, a virat mai prost</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Păstrat, prea puțin condus comparabil</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Verificat, păstrat</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>mai rău în simulare</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Deplasarea antenei</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>distanța dintre urme</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Utilaj</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>valorile sale de direcție au revenit</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>încă nu are valori de direcție salvate</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Măsurători</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Mecanism de direcție</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Distanța dintre urme (deplasarea laterală a antenei)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Autoghidare pe o linie AB, pe teren plat. Opriți și marcați solul sub bolțul de cuplare.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Întoarceți și reveniți pe aceeași linie; opriți cu bolțul de cuplare lângă semn.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Măsurați distanța transversală și pe ce parte a scaunului este semnul.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Semn în stânga</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Semn în dreapta</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Valori de direcție pe utilaj</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Se măsoară cât timp lucrează autoghidarea</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Timp mort</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Viteza de virare</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>neatinsă</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Joc</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Joc mare: verificați articulațiile direcției și prinderea WAS</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Răspuns lent: verificați hidraulica sau motorul</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Direcția virează încet la limita sa</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Nimic de reparat</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Compensarea timpului mort</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Oprire</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Pornește cu valoarea măsurată</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Deplasarea antenei acum</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Salvat pentru utilaje</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Un set de valori pentru toate utilajele</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Continuați?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>anulat recent, se reîncearcă mai târziu</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Compensarea ruliului pe teren denivelat</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Mod gropi</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>În uz</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>înălțime</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Învață din legănare pe linii drepte</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Întârzierea ruliului</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Înălțimea reală</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Nimic de schimbat</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Legănări pe care compensarea nu le-a eliminat</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Se încearcă</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Compensarea ruliului</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Asistent distanța dintre urme</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Semn în stânga mea</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Semn în dreapta mea</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Înapoi</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Pregătire</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Prima trecere</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Înapoi pe aceeași linie</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Măsurare</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Teren plat și uniform. Alegeți o linie AB și porniți autoghidarea; lăsați tractorul să se stabilizeze pe linie la viteza de lucru.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Mergeți cel puțin 30 m pe linie cu autoghidare, apoi opriți. Marcați solul exact sub bolțul de cuplare.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Întoarceți și reveniți pe aceeași linie AB cu autoghidare. Opriți cu bolțul de cuplare în dreptul semnului.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>abaterea de la linie</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Autoghidare pornită</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Sensuri</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Sensul de mers la pornire</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Reținut (automat)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Manual (clic pe tractor)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Antenă simplă: unde e fața se salvează când tractorul se oprește și când programul se închide. Repornit în același loc, se știe imediat.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Configurator modul</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Firmware Teensy</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>Receptor GNSS</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Descarcă / actualizează lista</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Pornește bootloaderul</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Detectează</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Trimite</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Salvează în receptor</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Trimite comanda</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: comenzi text (ex. GPGGA COM1 0.1). u-blox: octeți hex ai unui cadru UBX. Viteza portului receptorului către modul nu se schimbă niciodată de aici: firmware-ul modulului o așteaptă așa cum este.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Cache firmware</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Se descarcă lista Config-O-Matic...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Descărcat</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>în cache</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Descărcarea a eșuat - se folosește lista din cache</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader cerut pe</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Nu s-a putut deschide</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Încă nu e în cache: descarcă întâi lista</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Scrii acest firmware pe Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Nu-l deconecta și nu-l opri în timpul scrierii.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Se scrie</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Firmware scris</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Scrierea a eșuat</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: date brute TDCP pornite</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: date brute TDCP oprite</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: date brute TDCP pornite</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: date brute TDCP oprite</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Sărit</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Nicio cale spre receptor: nici rețea de modul, nici port serial GPS</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Niciun răspuns: este firmware-ul modificat pe Teensy?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Această setare e pentru alt receptor</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Setarea nu a putut fi citită</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>preluat</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>neconfirmat</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Apasă Salvează în receptor ca să rămână după oprire</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Salvat în receptor</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Salvarea neconfirmată</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Netrimis: viteza către modul trebuie să rămână așa cum este</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>fără confirmare</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Niciun modul nu a răspuns prin rețea: prima dată firmware-ul se pune prin USB</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Pe modul acum</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Notă: acest firmware nu are actualizare prin rețea - următoarele vor avea din nou nevoie de USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Scrii acest firmware pe modul prin rețea?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Tractorul trebuie să stea, autodirecția oprită. În timpul instalării (circa 30 de secunde la final) nu opri modulul: apoi poate fi programat doar prin USB.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Se trimite</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Trimis și verificat; modulul îl instalează și repornește</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Modulul a revenit</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Modulul nu a răspuns încă - dacă rămâne tăcut, programează-l prin USB</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Firmware pentru Teensy-ul plăcii AiO și setări pentru receptoarele ei GNSS - prin rețea, fără a deschide cutia.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Pune-l pe modul</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Prin rețea (fără USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Când pe modul există deja un firmware modificat.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Prin USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>Prima dată sau când rețeaua nu merge. Portul USB al Teensy:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Ce receptor</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Receptor principal (poziție)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Al doilea F9P (direcție)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (antenă dublă într-unul) și un F9P singur sunt mereu receptorul principal. Al doilea există doar cu două F9P pentru antenă dublă: măsoară direcția.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Setare de trimis</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Fără salvare, receptorul o uită la oprire.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Comandă manuală</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Jurnal</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>nedescărcat</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Verde ★ = din fork-ul AgOpenGPS, modificat: GNSS brut pentru TDCP, setări receptor și actualizare firmware prin rețea, direcție antenă dublă UM982. Roșu = firmware-urile Config-O-Matic originale, neschimbate.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Se așteaptă bootloaderul Teensy (apasă butonul de pe Teensy dacă nu apare)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Gata: Teensy pornește noul firmware</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Se face loc pe modul</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Se verifică și se instalează pe modul</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Se instalează: nu opri timp de 30 de secunde</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Schimbat manual, reglajele încep din nou</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>În pauză cât conduce autodirecția pe traseu</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>În pauză în simulator</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Decalaj învățat</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Direcție calmă</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Compensarea jocului</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Jocul nu e încă măsurat</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Ajutoare de direcție</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Oscilații mici netezite</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Joc prea mic</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Înainte cu</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Direcție predictivă pe model</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Stil de direcție</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Vioi</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Calm</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Anticipare</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC conduce liniile AB și curbele înainte; întoarcerile, contururile și mersul înapoi folosesc pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>încă nemăsurat</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Pure pursuit adaptiv</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Anticipare acum</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Adaptiv</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Mai scurt în curbe</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Rezervă pentru timpul mort</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Mai lung la șerpuire</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Anticiparea din fila Pure pursuit este punctul de pornire; aceasta o adaptează la fiecare poziție.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>setare</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>PP adaptiv</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>În pauză în timpul comparației A/B</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Comparație</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>Comparație A/B</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Metoda de direcție se schimbă după fiecare trecere: pure pursuit, adaptiv, MPC. Reglajul complet automat așteaptă între timp.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Păstrează-l pe cel mai bun</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Oprește (înapoi ca înainte)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Rulează</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Cel mai bun până acum</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>întâi câte două treceri</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Toate trecerile acestei sesiuni</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Încă nicio trecere (cel puțin 30 m cu autodirecție pe o linie)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>treceri</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Ultimele treceri</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>Stil de direcție MPC</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>Anticipare MPC</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Adaptiv: mai scurt în curbe</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Adaptiv: rezervă pentru timpul mort</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Adaptiv: mai lung la șerpuire</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Un pas</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>căutare mai rapidă</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Estimator de stare (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Direcție pe model</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Nepornit (are nevoie de fix și direcție)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Decalaj unghi de bracare</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>Decalaj IMU</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Alunecare laterală</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>doar cu antenă dublă</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Abatere față de GNSS</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Gata, direcția pe model (MPC, LQR, hibrid) îl folosește</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Direcția îl folosește</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Gata, direcția folosește poziția filtrată</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Prea departe de poziția brută: se folosește cea brută</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>Direcție LQR</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR conduce liniile AB și curbele înainte; întoarcerile, contururile și mersul înapoi folosesc pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>Stil de direcție LQR</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hibrid</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Direcție hibridă (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR ține linia, MPC preia curbele și intrarea pe linie. Întoarcerile, contururile și mersul înapoi folosesc pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>Partea MPC acum</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Metodă de direcție</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Învățare</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Înregistrator de deplasare</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Dosar</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Direcția și IMU măsurate</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Învățare pe parcelă</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Uită</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Uiți ce s-a învățat pe această parcelă?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Utilaj tractat pe linie</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Oprit: nu se înregistrează nimic</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Înregistrează</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>poziții</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Înregistrează imediat ce tractorul pornește</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Măsurat cât timp conduce autodirecția</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>la dreapta</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>Zgomotul IMU</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>liniștită, ex. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>mai zgomotoasă, ex. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Unde înainte a ieșit de pe linie, data viitoare contrabracă din timp (fiecare sens separat).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Locuri învățate pe această parcelă</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Deschide o parcelă pentru a învăța pe ea</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>acum</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Ține un utilaj tractat pe linie pe pante și în curbe: tractorul merge alături cât e nevoie.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Utilajul setat nu este tractat: nimic de făcut</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Tractor lângă linie</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>pe fiecare sens</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>fără fix RTK</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Acest firmware pare să fie pentru altă placă</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Acest firmware pare să fie pentru altă placă decât cea din modul.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Un firmware pentru altă placă folosește alți pini: motorul de direcție poate să nu funcționeze sau să se miște neașteptat. Îl scrieți totuși?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Mutat cu tableta oprită</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Dacă modulul rămâne pornit cât tableta e oprită, IMU-ul său numără fiecare viraj: fața este cunoscută oriunde stă tractorul. Dacă și modulul a fost oprit, smucitura de la prima mișcare arată înainte sau înapoi.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Firmware modul: nou (trimite timpul său și accelerația)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Necesită noul firmware al modulului</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Înainte sau înapoi la prima mișcare: învățat</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Înainte sau înapoi la prima mișcare: învață mergând înainte</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simulator</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>răspunde</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>nu răspunde</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>nou</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>mai vechi, sau fără IMU pe modul</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>corecții vechi</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>fără RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>niciunul (opțional)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>zgomot</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>învață</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>timp mort</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>necesită un IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>gata</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>modificare sugerată</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>manual</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>învățat</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>oprit</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Raport de precizie</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Lățime de lucru</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Trecere la trecere</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Cât de departe a mers de fapt fiecare trecere față de vecina ei, raportat la lățimea de lucru: suprapunere sau gol între două treceri.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Încă nu există treceri vecine - faceți cel puțin două treceri alăturate cu autoghidare și fix RTK.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % în limita</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>medie</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>cel mai rău</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>Pe linie</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Distanța față de linie cât timp autoghidarea a ținut-o (fix RTK, la lucru).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Treceri vecine</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Trecere</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Modul de direcție</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Firmware modul</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Zero senzor unghi direcție</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Direcția la pornire</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Reglare complet automată</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Starea configurării</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Pachet de asistență</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Pachetul de asistență conține jurnalele, setările și ultimele înregistrări de deplasare (cu poziții pe parcelă): trimiteți-l celui care vă ajută.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Salvat</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Nesalvat</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Ține un utilaj tractat pe linie în curbe, unde taie spre interior: tractorul merge mai larg cât e nevoie. Un utilaj care alunecă pe o pantă nu îl vede - pentru asta e nevoie de un GPS pe utilaj.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>liniștită</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>mai zgomotoasă</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Metoda de direcție se schimbă după fiecare trecere: pure pursuit, adaptiv, MPC, LQR, hibrid. Reglajul complet automat așteaptă între timp.</value>
   </data>
 </root>

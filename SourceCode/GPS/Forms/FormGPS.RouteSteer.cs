@@ -120,6 +120,9 @@ namespace AgOpenGPS
                 SteerBlock block = RouteSteer.Check(guide.Route, s.Segment, r.CrossTrackM, avgSpeed, isReverse, s.RemainingM);
                 // the vehicle's own safe steering speed counts too, when it is lower
                 if (block == SteerBlock.None && !timerSim.Enabled && avgSpeed > vehicle.maxSteerSpeed) block = SteerBlock.TooFast;
+                // an RTK fix with fresh corrections only: with a float, DGPS or single position (metres off) it would
+                // steer the tractor beside its lane - and corrections older than a few seconds are on their way there
+                if (block == SteerBlock.None && !timerSim.Enabled && (pn.fixQuality != 4 || pn.age > RouteSteer.MaxCorrectionAgeS)) block = SteerBlock.NoRtk;
 
                 if (block != SteerBlock.None) { Block(block); return; }
 
@@ -160,6 +163,7 @@ namespace AgOpenGPS
                 case SteerBlock.OffRoute: return AgLibrary.Localization.UiTranslator.TrText("too far from the route");
                 case SteerBlock.Reversing: return AgLibrary.Localization.UiTranslator.TrText("reversing");
                 case SteerBlock.NearArrival: return AgLibrary.Localization.UiTranslator.TrText("almost there");
+                case SteerBlock.NoRtk: return AgLibrary.Localization.UiTranslator.TrText("no RTK fix");
                 default: return AgLibrary.Localization.UiTranslator.TrText("no route");
             }
         }

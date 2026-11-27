@@ -80,13 +80,13 @@ namespace GPS_Out
 
             cSentence += "," + mf.AGIOdata.Satellites.ToString("00");
 
-            cSentence += "," + mf.AGIOdata.HDOP.ToString("N2", CultureInfo.InvariantCulture);
+            cSentence += "," + mf.AGIOdata.HDOP.ToString("0.00", CultureInfo.InvariantCulture);
 
-            cSentence += "," + mf.AGIOdata.Altitude.ToString("N3", CultureInfo.InvariantCulture) + ",M";
+            cSentence += "," + mf.AGIOdata.Altitude.ToString("0.000", CultureInfo.InvariantCulture) + ",M";
 
             cSentence += ",0.0,M";
 
-            cSentence += "," + mf.AGIOdata.Age.ToString("N1", CultureInfo.InvariantCulture) + ",";
+            cSentence += "," + mf.AGIOdata.Age.ToString("0.0", CultureInfo.InvariantCulture) + ",";
 
             cSentence += "0000*";
             string Hex = mf.CheckSum(cSentence).ToString("X2");

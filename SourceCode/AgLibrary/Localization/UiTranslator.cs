@@ -448,10 +448,14 @@ namespace AgLibrary.Localization
 
         private static readonly ConditionalWeakTable<Control, FontState> FontStates = new ConditionalWeakTable<Control, FontState>();
 
+        // A caption of one character is a key, a point name or a sign ("h", "A", "N", "+"), never a word: the same
+        // letter as a unit elsewhere ("h" for hours) must not turn a keyboard key into "óra".
+        private static bool IsSingleCharacter(string text) => text.Trim().Length <= 1;
+
         private static void SetControl(Control c)
         {
             string current = c.Text;
-            if (string.IsNullOrEmpty(current)) return;
+            if (string.IsNullOrEmpty(current) || IsSingleCharacter(current)) return;
             string tr = Lookup(current);
             if (tr == null || tr == current)
             {
@@ -902,7 +906,7 @@ namespace AgLibrary.Localization
 
         private static void Set(string current, Action<string> assign)
         {
-            if (string.IsNullOrEmpty(current)) return;
+            if (string.IsNullOrEmpty(current) || IsSingleCharacter(current)) return;
             string tr = Lookup(current);
             if (tr != null && tr != current)
             {

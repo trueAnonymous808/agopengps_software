@@ -4796,7 +4796,7 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
     <value>Расстояние</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Сброс</value>
+    <value>Сбр.</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Сообщ.&#xD;
@@ -6251,5 +6251,1412 @@ teensy_loader_cli --mcu=TEENSY40 --port=COM3 firmware.hex</value>
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Ожидание картографического сервера...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Калибровка геометрии рулевого управления</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Колёсная база</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>расчёт использует её, сначала проверьте</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Проезжайте ровные круги вправо и влево, 2-10 км/ч, угол колёс 5-35°, с RTK fix. Сначала установите ноль WAS (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Начать заново</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Замеры</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Реальный / датчик</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Правый поворот</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Левый поворот</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Отсчёты на градус</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Аккерман</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>сбор...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Достоверность</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Автоматическая настройка руления</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Мотор руля (Kp, минимальный PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Автоподруливание включено, любая линия</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Упреждение</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Автоподруливание по линии AB или кривой, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Компенсация склона</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Автоподруливание по прямой поперёк склона, нужен IMU</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Всё хорошо</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Колеблется вокруг заданного угла: меньше усиление</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Не достигает заданного угла: больше минимальный PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Следует с запаздыванием: больше усиление</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Виляет через линию: длиннее упреждение</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Остаётся в стороне от линии: короче упреждение</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Новое значение</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Задержка</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Колебания</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Недобор</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Минимальный PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Отклонение</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Пересечения</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Угол колёс на крен</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Совпадение</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Измеренный крен</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Умные функции</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Обучается в фоне, пока работает автоподруливание</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Мёртвая зона (направление, задержка)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Скоростной множитель упреждения</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Как упреждение, медленно (до 8 км/ч) и быстро (от 10 км/ч)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Виляет только на скорости: больше множитель</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Остаётся в стороне от линии только на скорости: меньше множитель</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Меньше шума датчика: мотор гонится за шумом</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Намного больше шума датчика: реагирует поздно</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Слишком часто включается и выключается: больше задержка</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Мотор рыскает туда-сюда: меньше задержка</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Шум датчика</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Переключения</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Рыскание</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Направление</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Медленно</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Быстро</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Множитель</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Полностью автоматически</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Восстановить начальные значения</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Тогда предложения применяются сами: не больше одного небольшого изменения в минуту, только пока настройки руления закрыты, и никогда дальше заданных пределов от сегодняшних значений. Каждое изменение показывается и записывается, а «Восстановить начальные значения» возвращает сегодняшние значения. Включить?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Обучение...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Пауза, пока открыты настройки руления</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Последнее изменение</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Мёртвая зона</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Начальные значения восстановлены</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Выключено – предложения ждут «Применить»</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Ноль датчика крена</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Автоподруливание по линиям, пройденным в обе стороны, нужен IMU</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Выход на линию</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Автоподруливание по линии, выход с расстояния более 40 см</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Интеграл pure pursuit</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Автоподруливание по длинным прямым линиям, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Компенсация разворота</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Автоподруливание с автоматическими разворотами</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Проходы в обе стороны не совпадают: ноль смещён</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Проскакивает линию: больше коэффициент выхода</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Медленно подползает к линии: меньше коэффициент выхода</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Держится одной стороны: больше интеграла</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Медленная волна вокруг линии: меньше интеграла</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Заворачивает за следующую линию: меньше компенсации</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Заканчивает снаружи следующей линии: больше компенсации</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Ошибка нуля</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Разброс</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Ячейки</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Ноль крена</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Проскок</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Выходы</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Коэффициент выхода</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Среднее отклонение</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Волны</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Интеграл</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Развороты</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>За</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Снаружи</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Пауза, пока открыт Steer Wizard</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Автоматические изменения</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Автоматических изменений пока не было</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Следующее изменение не раньше чем через</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Тогда предложения применяются сами, даже когда это окно открыто: не больше одного небольшого изменения в минуту и никогда дальше заданных пределов от сегодняшних значений. Каждое изменение показывается со временем и причиной, а «Восстановить начальные значения» возвращает сегодняшние значения. Включить?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix потерян</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Позиция может быть смещена на 10-50 см. Работа отсюда отмечена красным.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Автоподруливание выключено</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Слишком долго нет RTK fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>старая поправка</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>нет fix</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Линейность датчика</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Из калибровки геометрии: круги с малым, средним и большим углом</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>Страж качества GPS</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp выше 12 км/ч</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Учится выше 11 km/h. До 8 km/h обычный Kp, с 12 km/h этот, между ними переход</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>Слияние IMU</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Одна антенна с IMU, прямо по линии выше 5 км/ч</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>поправка</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Ожидание RTK fix</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Пропадания</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Отмечено</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Автоподруливание выкл. через</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Большой</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Шум курса</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Дрейф</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Только с одной антенной и IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU уходит от курса GPS: быстрее слияние</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>Шум курса GPS проходит: медленнее слияние</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Датчик измеряет иначе на больших углах: коррекция</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK-мост завершён</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Позиция больше не перекрывается мостом: без RTK она может быть смещена на 10-50 см.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Поправки перестали приходить. В AgIO можно настроить резервный источник.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Поправки приходят, приёмник потерял fix (деревья, здания, обзор неба).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK-мост ведёт позицию дальше.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Работа отсюда отмечена красным.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK-мост</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>поправки</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>приёмник</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Мост активен</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>угол руля</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>дрейф</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU обучается (RTK, в движении)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Мосты</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Последний</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>ошибка</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Самый долгий мост</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Экзамены</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>нет источника курса (IMU, двойная антенна или модуль руления)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>двойная антенна</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>до тех пор используется встроенная оценка</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Надёжно в течение</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>В фоне идёт экзамен</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (фаза несущей)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Приёмник: RTCM MSM (1074/1084/1094/1124) и эфемериды (1019/1020/1046/1042) на порт GPS, 10 Гц</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Только обучение</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Автоматически</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Нет сырых данных от приёмника</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Настройте приёмник, как указано выше; больше ничего не меняется</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>ожидание наблюдений</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>спутников</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Эфемериды</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Эпохи</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Сейчас используется</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Возьмёт управление при следующей потере RTK</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Пока не доказано, что лучше счисления пути</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Только учится, никогда не рулит</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Приёмник, порт GPS, 5-10 Hz: RTCM 3 MSM + эфемериды (1019/1020/1042/1046), или u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Сырые данные идут, но фазы несущей нет</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Включите MSM (RTCM) или RXM-RAWX (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Фаза несущей идёт, но эфемерид пока нет</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Включите сообщения эфемерид или RXM-SFRBX либо используйте NTRIP, который их передаёт</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>из NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Калибровка</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Датчики</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Мотор руля</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Следование линии</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS и RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Все значения, изменённые полностью автоматическим режимом, вернутся к тем, что были при его включении. Вы уверены?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Номера дома нет на карте: выберите улицу и отметьте дом на карте</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Задержано пределами</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Пределы ничего не задерживают</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Новые начальные значения</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Текущие значения рулевого управления станут новыми начальными, и пределы сдвинутся вместе с ними. Делайте это, только если трактор сейчас хорошо рулит. Продолжить?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>начальное значение</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>предложено</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>На пределе</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Проверка последнего изменения</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Отменено, руление стало хуже</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Оставлено, слишком мало сопоставимой езды</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Проверено, оставлено</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>хуже в симуляции</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Смещение антенны</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>расхождение следов</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Орудие</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>его значения руления вернулись</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>для него ещё нет сохранённых значений руления</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Рулевой механизм</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Расхождение следов (боковое смещение антенны)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Автопилот на линии AB, на ровной земле. Остановитесь и отметьте землю под пальцем сцепки.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Развернитесь и вернитесь по той же линии; остановитесь, когда палец сцепки будет рядом с меткой.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Измерьте расстояние поперёк и с какой стороны от сиденья метка.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Метка слева</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Метка справа</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Значения руления для каждого орудия</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Измерение во время работы автопилота</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Мёртвое время</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Скорость поворота</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>не достигнута</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Люфт</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Большой люфт: проверьте рулевые шарниры и крепление WAS</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Медленный отклик: проверьте гидравлику или мотор</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Руль на своём пределе поворачивает медленно</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Исправлять нечего</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Компенсация мёртвого времени</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Выключить</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Включить с измеренным значением</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Смещение антенны сейчас</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Сохранено для орудий</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Один набор значений для всех орудий</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Продолжить?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>недавно отменено, попробует позже</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Компенсация крена на неровной земле</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Режим ям</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>Используется</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>высота</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Учится по раскачиванию на прямых линиях</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Задержка крена</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Реальная высота</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Менять нечего</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Раскачивания, которые компенсация не убрала</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Проба</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Компенсация крена</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Мастер расхождения следов</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Метка слева от меня</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Метка справа от меня</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Подготовка</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Первый проход</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Обратно по той же линии</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Измерение</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Ровная, гладкая земля. Выберите линию AB и включите автопилот; дайте трактору устояться на линии на рабочей скорости.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Проедьте по линии с автопилотом не меньше 30 м и остановитесь. Отметьте землю точно под пальцем сцепки.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Развернитесь и вернитесь по той же линии AB с автопилотом. Остановитесь, когда палец сцепки будет на уровне метки.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>отклонение от линии</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Автопилот вкл.</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Направления</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Направление движения при запуске</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Запоминать (автоматически)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Вручную (нажать на трактор)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Одна антенна: где перед, сохраняется при остановке трактора и при закрытии программы. При запуске на том же месте он известен сразу.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Конфигуратор модуля</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Прошивка Teensy</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>Приёмник GNSS</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Скачать / обновить список</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Запустить загрузчик</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Определить</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Сохранить в приёмнике</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Отправить команду</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: текстовые команды (напр. GPGGA COM1 0.1). u-blox: шестнадцатеричные байты кадра UBX. Скорость порта приёмника к модулю здесь никогда не меняется: прошивка модуля ожидает её такой, какая есть.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Кэш прошивок</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Скачивание списка Config-O-Matic...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Скачано</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>в кэше</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Скачать не удалось - используется список из кэша</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Загрузчик запрошен на</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Не удалось открыть</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Ещё нет в кэше: сначала скачайте список</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Записать эту прошивку в Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Не отключайте и не выключайте во время записи.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Прошивка записана</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Ошибка записи</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: сырые данные TDCP вкл.</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: сырые данные TDCP выкл.</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: сырые данные TDCP вкл.</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: сырые данные TDCP выкл.</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Пропущено</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Нет пути к приёмнику: нет сети модуля и последовательного порта GPS</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Нет ответа: изменённая прошивка на Teensy?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Эта настройка для другого приёмника</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Не удалось прочитать настройку</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>принято</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>не подтверждено</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Нажмите «Сохранить в приёмнике», чтобы сохранилось после выключения</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Сохранено в приёмнике</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Сохранение не подтверждено</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Не отправлено: скорость к модулю должна остаться прежней</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>нет подтверждения</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Ни один модуль не ответил по сети: в первый раз прошивка ставится через USB</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Сейчас на модуле</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Примечание: в этой прошивке нет обновления по сети - следующим снова понадобится USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Записать эту прошивку в модуль по сети?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Трактор должен стоять, автопилот выключен. Во время установки (около 30 секунд в конце) не выключайте модуль: иначе его можно будет прошить только через USB.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Отправка</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Отправлено и проверено; модуль устанавливает её и перезапускается</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Модуль снова на связи</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Модуль ещё не ответил - если он молчит, прошейте его через USB</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Прошивка для Teensy платы AiO и настройки её приёмников GNSS - по сети, не открывая корпус.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Прошивка</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Записать в модуль</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>По сети (без USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Когда на модуле уже есть изменённая прошивка.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Через USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>В первый раз или когда сеть не работает. USB-порт Teensy:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Какой приёмник</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Основной приёмник (позиция)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Второй F9P (курс)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (две антенны в одном) и одиночный F9P всегда основной приёмник. Второй есть только с двумя F9P для двух антенн: он измеряет курс.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Настройка для отправки</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Без сохранения приёмник забудет её при выключении.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Команда вручную</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>не скачано</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Зелёный ★ = из форка AgOpenGPS, изменено: сырые данные GNSS для TDCP, настройки приёмника и обновление прошивки по сети, курс с двух антенн UM982. Красный = оригинальные прошивки Config-O-Matic, без изменений.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Ожидание загрузчика Teensy (нажмите кнопку на Teensy, если он не появится)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Готово: Teensy запускает новую прошивку</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Освобождение места на модуле</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Проверка и установка на модуле</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Установка: не выключайте 30 секунд</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Изменено вручную, настройщики начинают заново</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Пауза, пока рулит автопилот маршрута</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Пауза в симуляторе</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Выученное смещение</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Спокойное руление</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Компенсация люфта</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Люфт ещё не измерен</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Помощники руления</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Мелкие колебания сглажены</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Слишком малый люфт</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Вперёд на</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Прогнозирующее руление по модели</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Стиль руления</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Резкий</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Спокойный</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Взгляд вперёд</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC ведёт по линиям AB и кривым вперёд; развороты, контуры и задний ход используют pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>ещё не измерено</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Адаптивный pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Взгляд вперёд сейчас</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Адаптивный</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Короче на поворотах</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Запас на мёртвое время</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Длиннее при вилянии</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Взгляд вперёд со вкладки Pure pursuit - исходное значение; это подстраивает его на каждой позиции.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>настройка</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Адаптивный PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Пауза во время сравнения A/B</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Сравнение</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>Сравнение A/B</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Способ руления меняется после каждого прохода: pure pursuit, адаптивный, MPC. Полностью автоматическая настройка пока ждёт.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Оставить лучший</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Стоп (вернуть как было)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Идёт</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Пока лучший</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>сначала по два прохода</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Все проходы этого сеанса</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Проходов ещё нет (не менее 30 м с автопилотом по линии)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>проходов</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Последние проходы</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>Стиль руления MPC</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>Взгляд вперёд MPC</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Адаптивный: короче на поворотах</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Адаптивный: запас на мёртвое время</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Адаптивный: длиннее при вилянии</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Один шаг</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>быстрый поиск</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Оценщик состояния (Калман)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Модельное руление</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Не запущен (нужны фикс и курс)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Смещение угла поворота</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>Смещение IMU</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Боковое скольжение</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>только с двумя антеннами</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Отклонение от GNSS</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Готов, модельное руление (MPC, LQR, гибрид) использует его</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Руление использует его</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Готов, руление использует отфильтрованную позицию</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Слишком далеко от исходной позиции: используется исходная</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>Руление LQR</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR ведёт по линиям AB и кривым вперёд; развороты, контуры и задний ход используют pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>Стиль руления LQR</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Гибрид</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Гибридное руление (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR держит линию, MPC ведёт повороты и выход на линию. Развороты, контуры и задний ход используют pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>Доля MPC сейчас</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Способ руления</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Регистратор поездок</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Рулевое и IMU по измерениям</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Обучение на поле</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Забыть</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Забыть то, что выучено на этом поле?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Прицепное орудие на линии</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Выкл.: ничего не записывается</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>фиксов</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Записывает, как только трактор едет</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Измерено при работе автопилота</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>вправо</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>Шум IMU</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>тихий, напр. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>шумнее, напр. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Где раньше уходил с линии, в следующий раз заранее подруливает (каждое направление отдельно).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Выученные места на этом поле</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Откройте поле, чтобы учиться на нём</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>сейчас</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Держит прицепное орудие на линии на склонах и в поворотах: трактор идёт рядом настолько, насколько нужно.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Заданное орудие не прицепное: делать нечего</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Трактор рядом с линией</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>по направлениям</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>нет RTK-фикса</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Похоже, эта прошивка для другой платы</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Похоже, эта прошивка для другой платы, чем стоит в модуле.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Прошивка для другой платы использует другие выводы: мотор руля может не работать или неожиданно двигаться. Всё равно записать?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Перемещён с выключенным планшетом</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Если модуль остаётся включённым, пока планшет выключен, его IMU считает каждый поворот: перед известен, где бы ни стоял трактор. Если модуль тоже был выключен, рывок при первом движении покажет, вперёд или назад.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Прошивка модуля: новая (передаёт своё время и ускорение)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Нужна новая прошивка модуля</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Вперёд или назад при первом движении: изучено</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Вперёд или назад при первом движении: учится при движении вперёд</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>симулятор</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>отвечает</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>не отвечает</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>новая</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>старая, или нет IMU на модуле</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>поправки устарели</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>нет RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>нет (необязательно)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>шум</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>обучается</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>мёртвое время</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>нужен IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>готово</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>предложено изменение</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>вручную</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>изучено</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>выкл.</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Отчёт о точности</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Рабочая ширина</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>От прохода к проходу</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Насколько далеко каждый проход на самом деле шёл от соседнего по сравнению с рабочей шириной: перекрытие или пропуск между двумя проходами.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Соседних проходов пока нет - пройдите хотя бы два прохода рядом с автопилотом и RTK-фиксом.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % в пределах</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>среднее</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>худшее</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>На линии</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Расстояние от линии, пока автопилот держал её (RTK-фикс, в работе).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Соседние проходы</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Проход</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Модуль руления</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Прошивка модуля</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Ноль датчика угла поворота</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Направление при старте</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Полностью автоматическая настройка</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Состояние настройки</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Пакет для поддержки</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Пакет для поддержки содержит журналы, настройки и последние записи поездок (с позициями на поле): отправьте его тому, кто вам помогает.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Сохранено</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Не сохранено</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Держит прицепное орудие на линии в поворотах, где оно срезает внутрь: трактор идёт шире настолько, насколько нужно. Сползание орудия на склоне не видно - для этого нужен GPS на орудии.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>тихий</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>шумнее</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Способ руления меняется после каждого прохода: pure pursuit, адаптивный, MPC, LQR, гибрид. Полностью автоматическая настройка пока ждёт.</value>
   </data>
 </root>

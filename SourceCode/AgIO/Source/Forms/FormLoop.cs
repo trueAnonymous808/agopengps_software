@@ -83,6 +83,7 @@ namespace AgIO
         {
             InitializeComponent();
             ntripChecks.SwitchClicked += ntripChecks_SwitchClicked;
+            AddConfiguratorMenu();
         }
 
         private void SetUiActive(bool active)

@@ -34,6 +34,15 @@ namespace AgOpenGPS
         {
             mf = callingForm as FormGPS;
             InitializeComponent();
+            // the tab icons redrawn sharp (the designer's image lists are small 8 bit pictures)
+            tabControl1.ImageList = SteerTabIcons.TuningList();
+            tabSteerSettings.ImageList = SteerTabIcons.SettingsList();
+            AddSmartMenu();
+            BuildMpcTab();
+            BuildAdaptive();
+            // the mode button goes round three now
+            label34.Text = TrM("Steering method");
+            label34.Font = new Font(label34.Font.FontFamily, 12f);
             nudMaxCounts.Controls[0].Enabled = false;
 
             nudSnapDistance.Controls[0].Enabled = false;
@@ -117,14 +126,7 @@ namespace AgOpenGPS
             mf.vehicle.goalPointLookAheadHold = Properties.ToolSettings.Default.setVehicle_goalPointLookAheadHold;
             cboxSteerInReverse.Checked = Properties.VehicleSettings.Default.setAS_isSteerInReverse;
 
-            if (mf.isStanleyUsed)
-            {
-                btnStanleyPure.Image = Resources.ModeStanley;
-            }
-            else
-            {
-                btnStanleyPure.Image = Resources.ModePurePursuit;
-            }
+            btnStanleyPure.Image = FormGPS.SteerModeImage(mf.SteerMode);
 
             if (mf.isStanleyUsed)
             {
@@ -138,6 +140,7 @@ namespace AgOpenGPS
                 tabControl1.TabPages.Remove(tabStan);
                 this.tabControl1.ItemSize = new System.Drawing.Size(89, 48);
             }
+            ShowSteerMode();   // MPC or adaptive pure pursuit: their own tabs; the adaptive switch with pure pursuit
 
             Location = Properties.Settings.Default.setWindow_steerSettingsLocation;
             //WAS Zero, CPD
@@ -343,15 +346,19 @@ namespace AgOpenGPS
             if (mf.isLightBarNotSteerBar) rbtnLightBar.Checked = true;
             else rbtnSteerBar.Checked = true;
 
-            // Start Smart WAS Calibration data collection
-            mf.smartWAS.Reset();
+            // Start Smart WAS Calibration data collection (fully automatic tuning keeps what it has learnt)
+            if (!mf.SteerAutoOn) mf.smartWAS.Reset();
             mf.smartWAS.Start();
         }
 
         private void FormSteer_FormClosing(object sender, FormClosingEventArgs e)
         {
-            // Stop Smart WAS Calibration data collection
-            mf.smartWAS.Stop();
+            // the smart features work through these settings' bars: they close with them
+            steerClosing = true;
+            if (smartFeatures != null && !smartFeatures.IsDisposed) smartFeatures.Close();
+
+            // Stop Smart WAS Calibration data collection (it goes on in the background for fully automatic tuning)
+            if (!mf.SteerAutoOn) mf.smartWAS.Stop();
 
             mf.vehicle.isInFreeDriveMode = false;
 
@@ -398,6 +405,8 @@ namespace AgOpenGPS
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
+            if (tabMpc != null && tabControl1.SelectedTab == tabMpc) ShowMpcValues();
+            if (tabAdaptive != null && tabControl1.SelectedTab == tabAdaptive) ShowAdaptiveValues();
             if (isSA)
             {
                 //bool isSame = Math.PI - Math.Abs(Math.Abs(cH - mf.gpsHeading) - Math.PI) < (glm.PIBy2+0.1);
@@ -466,6 +475,9 @@ namespace AgOpenGPS
                 mf.p_252.pgn[mf.p_252.lowPWM] = unchecked((byte)(hsbarHighSteerPWM.Value / 3));
                 mf.p_252.pgn[mf.p_252.gainProportional] = unchecked((byte)hsbarProportionalGain.Value);
                 mf.p_252.pgn[mf.p_252.minPWM] = unchecked((byte)hsbarMinPWM.Value);
+                // the speed dependent Kp works from the settings: they get the bars, and it sends its Kp again after this
+                PutBarsInSettings();
+                mf.SendSpeedKpAgain();
 
                 mf.SendPgnToLoop(mf.p_252.pgn);
                 toSend = false;
@@ -600,14 +612,7 @@ namespace AgOpenGPS
         {
             cboxSteerInReverse.Checked = Properties.VehicleSettings.Default.setAS_isSteerInReverse;
 
-            if (mf.isStanleyUsed)
-            {
-                btnStanleyPure.Image = Resources.ModeStanley;
-            }
-            else
-            {
-                btnStanleyPure.Image = Resources.ModePurePursuit;
-            }
+            btnStanleyPure.Image = FormGPS.SteerModeImage(mf.SteerMode);
         }
 
         private void tabSettings_Leave(object sender, EventArgs e)
@@ -639,32 +644,29 @@ namespace AgOpenGPS
 
         private void btnStanleyPure_Click(object sender, EventArgs e)
         {
-            mf.isStanleyUsed = !mf.isStanleyUsed;
+            // pure pursuit, Stanley, MPC (model predictive) and round again
+            mf.NextSteerMode();
+            if (!mf.isEasyDriveMode) Properties.VehicleSettings.Default.Save();
+            ShowSteerMode();
+        }
 
-            if (mf.isStanleyUsed)
-            {
-                btnStanleyPure.Image = Resources.ModeStanley;
-                Log.EventWriter("Stanley Steer Mode Selectede");
-            }
-            else
-            {
-                btnStanleyPure.Image = Resources.ModePurePursuit;
-                Log.EventWriter("Pure Pursuit Steer Mode Selected");
-            }
+        // the mode's picture and its tabs (also when the smart features changed the mode)
+        private void ShowSteerMode()
+        {
+            btnStanleyPure.Image = FormGPS.SteerModeImage(mf.SteerMode);
 
             tabControl1.TabPages.Remove(tabPP);
             tabControl1.TabPages.Remove(tabPPAdv);
             tabControl1.TabPages.Remove(tabGain);
             tabControl1.TabPages.Remove(tabSteer);
             tabControl1.TabPages.Remove(tabStan);
+            tabControl1.TabPages.Remove(tabMpc);
+            tabControl1.TabPages.Remove(tabAdaptive);
 
-
-            Properties.ToolSettings.Default.setVehicle_isStanleyUsed = mf.isStanleyUsed;
-            if (!mf.isEasyDriveMode)
-            {
-                Properties.VehicleSettings.Default.Save();
-                Properties.ToolSettings.Default.Save();
-            }
+            // the adaptive switch only goes with pure pursuit
+            bool pure = mf.PurePursuitSteers;
+            labelAdaptive.Visible = cboxAdaptive.Visible = pure;
+            cboxAdaptive.Checked = mf.AdaptivePpOn;
 
             if (mf.isStanleyUsed)
             {
@@ -673,14 +675,29 @@ namespace AgOpenGPS
                 tabControl1.TabPages.Add(tabGain);
                 tabControl1.TabPages.Add(tabSteer);
             }
+            else if (mf.isMpcUsed || mf.isLqrUsed || mf.isHybridUsed)
+            {
+                // MPC has no look-ahead or integral: its own tab with its style and what it knows
+                ShowMpcValues();
+                this.tabControl1.ItemSize = new System.Drawing.Size(105, 48);
+                tabControl1.TabPages.Add(tabMpc);
+                tabControl1.TabPages.Add(tabGain);
+                tabControl1.TabPages.Add(tabSteer);
+            }
             else
             {
                 tabControl1.TabPages.Add(tabPP);
+                if (mf.AdaptivePpOn)
+                {
+                    ShowAdaptiveValues();
+                    tabControl1.TabPages.Add(tabAdaptive);
+                }
                 tabControl1.TabPages.Add(tabGain);
                 tabControl1.TabPages.Add(tabSteer);
                 tabControl1.TabPages.Add(tabPPAdv);
 
-                this.tabControl1.ItemSize = new System.Drawing.Size(89, 48);
+                // five tabs share the width when the adaptive one is there
+                this.tabControl1.ItemSize = new System.Drawing.Size(mf.AdaptivePpOn ? 71 : 89, 48);
             }
         }
 
@@ -1308,6 +1325,12 @@ namespace AgOpenGPS
 
                 Properties.ToolSettings.Default.setVehicle_isStanleyUsed = false;
                 mf.isStanleyUsed = false;
+                Properties.ToolSettings.Default.setVehicle_isMpcUsed = false;
+                mf.isMpcUsed = false;
+                Properties.ToolSettings.Default.setVehicle_isLqrUsed = false;
+                mf.isLqrUsed = false;
+                Properties.ToolSettings.Default.setVehicle_isHybridUsed = false;
+                mf.isHybridUsed = false;
 
                 Properties.VehicleSettings.Default.setAS_isSteerInReverse = false;
                 mf.isSteerInReverse = false;
@@ -1330,6 +1353,180 @@ namespace AgOpenGPS
                 tabSteerSettings.SelectTab(0);
             }
         }
+
+        #region Smart features menu
+
+        // in place of the Smart WAS box: one button for the smart helpers - Smart WAS, steering geometry calibration
+        // and steering auto-tune - all in one window
+        private void AddSmartMenu()
+        {
+            var open = new Button
+            {
+                Text = AgLibrary.Localization.UiTranslator.TrText("Smart features"),
+                Location = grpSmartWAS.Location,
+                Size = new Size(150, grpSmartWAS.Height),
+                FlatStyle = FlatStyle.Flat,
+                BackColor = Color.FromArgb(246, 248, 251),
+                UseVisualStyleBackColor = false,
+                Font = new Font("Segoe UI Semibold", 12f),
+                Image = Properties.Resources.ST_SmartFeatures,
+                ImageAlign = ContentAlignment.TopCenter,
+                TextAlign = ContentAlignment.BottomCenter,
+                TextImageRelation = TextImageRelation.ImageAboveText,
+                Padding = new Padding(4, 30, 4, 30)
+            };
+            open.FlatAppearance.BorderColor = Color.FromArgb(205, 211, 220);
+            grpSmartWAS.Visible = false;
+            open.Click += (s, e) => OpenSmartFeatures();
+            tabSettings.Controls.Add(open);
+            open.BringToFront();
+        }
+
+        private FormSmartFeatures smartFeatures;
+
+        private bool steerClosing;
+
+        // not modal: the program stays usable while it is open. These steer settings step aside while it is open
+        // (hidden, not closed: its values go through their bars) and come back where they were when it closes; it
+        // closes with them. A second press only brings it to the front.
+        private void OpenSmartFeatures()
+        {
+            if (smartFeatures != null && !smartFeatures.IsDisposed)
+            {
+                smartFeatures.Activate();
+                return;
+            }
+            smartFeatures = new FormSmartFeatures(mf, SmartTuneValues());
+            smartFeatures.FormClosed += (s, e) =>
+            {
+                smartFeatures = null;
+                if (steerClosing || IsDisposed) return;
+                ShowSteerMode();
+                Show();
+                Activate();
+            };
+
+            // in place of these settings: centred on them, kept on the screen
+            Rectangle area = Screen.FromControl(this).WorkingArea;
+            smartFeatures.StartPosition = FormStartPosition.Manual;
+            int x = Left + (Width - smartFeatures.Width) / 2, y = Top + (Height - smartFeatures.Height) / 2;
+            smartFeatures.Location = new Point(
+                Math.Max(area.Left, Math.Min(x, area.Right - smartFeatures.Width)),
+                Math.Max(area.Top, Math.Min(y, area.Bottom - smartFeatures.Height)));
+
+            smartFeatures.Show(mf);   // owned by the main window: it stays while these are hidden
+            Hide();
+        }
+
+        // everything goes through the bars and boxes: their handlers send to the module, save and keep the labels right
+        private SteerTuneValues SmartTuneValues()
+        {
+            return new SteerTuneValues
+            {
+                Kp = () => hsbarProportionalGain.Value,
+                MinPwm = () => hsbarMinPWM.Value,
+                SetMotor = (kp, pwm) =>
+                {
+                    hsbarProportionalGain.Value = Clamp(hsbarProportionalGain, kp);
+                    hsbarMinPWM.Value = Clamp(hsbarMinPWM, pwm);
+                },
+                Hold = () => hsbarHoldLookAhead.Value * 0.1,
+                HoldMin = hsbarHoldLookAhead.Minimum * 0.1,
+                HoldMax = hsbarHoldLookAhead.Maximum * 0.1,
+                SetHold = hold => hsbarHoldLookAhead.Value = Clamp(hsbarHoldLookAhead, (int)Math.Round(hold * 10)),
+                SideHill = () => hsbarSideHillComp.Value * 0.01,
+                SideHillMin = hsbarSideHillComp.Minimum * 0.01,
+                SideHillMax = hsbarSideHillComp.Maximum * 0.01,
+                SetSideHill = comp => hsbarSideHillComp.Value = Clamp(hsbarSideHillComp, (int)Math.Round(comp * 100)),
+                // the dead zone boxes only pass their value on when clicked: set the vehicle too (saved on close)
+                DeadZone = () => (double)nudDeadZoneHeading.Value,
+                DeadZoneMin = (double)nudDeadZoneHeading.Minimum,
+                DeadZoneMax = (double)nudDeadZoneHeading.Maximum,
+                DeadZoneDelay = () => (int)nudDeadZoneDelay.Value,
+                DelayMin = (int)nudDeadZoneDelay.Minimum,
+                DelayMax = (int)nudDeadZoneDelay.Maximum,
+                SetDeadZone = (zone, delay) =>
+                {
+                    nudDeadZoneHeading.Value = Math.Max(nudDeadZoneHeading.Minimum, Math.Min(nudDeadZoneHeading.Maximum, (decimal)Math.Round(zone, 1)));
+                    nudDeadZoneDelay.Value = Math.Max(nudDeadZoneDelay.Minimum, Math.Min(nudDeadZoneDelay.Maximum, delay));
+                    mf.vehicle.deadZoneHeading = (int)(nudDeadZoneHeading.Value * 100);
+                    mf.vehicle.deadZoneDelay = (int)nudDeadZoneDelay.Value;
+                },
+                SpeedFactor = () => hsbarLookAheadMult.Value * 0.1,
+                SpeedFactorMin = hsbarLookAheadMult.Minimum * 0.1,
+                SpeedFactorMax = hsbarLookAheadMult.Maximum * 0.1,
+                SetSpeedFactor = f => hsbarLookAheadMult.Value = Clamp(hsbarLookAheadMult, (int)Math.Round(f * 10)),
+                Cpd = () => hsbarCountsPerDegree.Value,
+                Ackermann = () => hsbarAckerman.Value,
+                SetGeometry = (cpd, ackermann) =>
+                {
+                    hsbarCountsPerDegree.Value = Clamp(hsbarCountsPerDegree, cpd);
+                    hsbarAckerman.Value = Clamp(hsbarAckerman, ackermann);
+                },
+                SetWasOffset = wasOffset => hsbarWasOffset.Value = Clamp(hsbarWasOffset, wasOffset),
+                AcquireFactor = () => hsbarAcquireFactor.Value * 0.01,
+                AcquireMin = hsbarAcquireFactor.Minimum * 0.01,
+                AcquireMax = hsbarAcquireFactor.Maximum * 0.01,
+                SetAcquireFactor = f => hsbarAcquireFactor.Value = Clamp(hsbarAcquireFactor, (int)Math.Round(f * 100)),
+                Integral = () => hsbarIntegralPurePursuit.Value * 0.01,
+                IntegralMin = hsbarIntegralPurePursuit.Minimum * 0.01,
+                IntegralMax = hsbarIntegralPurePursuit.Maximum * 0.01,
+                SetIntegral = g => hsbarIntegralPurePursuit.Value = Clamp(hsbarIntegralPurePursuit, (int)Math.Round(g * 100)),
+                UTurnComp = () => hsbarUTurnCompensation.Value * 0.1,
+                UTurnMin = hsbarUTurnCompensation.Minimum * 0.1,
+                UTurnMax = hsbarUTurnCompensation.Maximum * 0.1,
+                SetUTurnComp = c => hsbarUTurnCompensation.Value = Clamp(hsbarUTurnCompensation, (int)Math.Round(c * 10)),
+                ApplySmartWas = () => btnSmartZeroWAS_Click(this, EventArgs.Empty)
+            };
+        }
+
+        /// <summary>
+        /// Fully automatic tuning changed the values while this window is open: the bars and boxes show them, so
+        /// closing the window keeps them instead of writing the old ones back.
+        /// </summary>
+        internal void ShowSteerValues(SteerBaseline v)
+        {
+            if (IsDisposed) return;
+            hsbarProportionalGain.Value = Clamp(hsbarProportionalGain, v.Kp);
+            hsbarMinPWM.Value = Clamp(hsbarMinPWM, v.MinPwm);
+            hsbarCountsPerDegree.Value = Clamp(hsbarCountsPerDegree, v.Cpd);
+            hsbarAckerman.Value = Clamp(hsbarAckerman, v.Ackermann);
+            hsbarWasOffset.Value = Clamp(hsbarWasOffset, v.WasOffset);
+            hsbarHoldLookAhead.Value = Clamp(hsbarHoldLookAhead, (int)Math.Round(v.Hold * 10));
+            hsbarLookAheadMult.Value = Clamp(hsbarLookAheadMult, (int)Math.Round(v.SpeedFactor * 10));
+            hsbarSideHillComp.Value = Clamp(hsbarSideHillComp, (int)Math.Round(v.SideHill * 100));
+            nudDeadZoneHeading.Value = Math.Max(nudDeadZoneHeading.Minimum, Math.Min(nudDeadZoneHeading.Maximum, (decimal)(v.DeadZoneHeading * 0.01)));
+            nudDeadZoneDelay.Value = Math.Max(nudDeadZoneDelay.Minimum, Math.Min(nudDeadZoneDelay.Maximum, v.DeadZoneDelay));
+            if (v.HasExtras)
+            {
+                hsbarAcquireFactor.Value = Clamp(hsbarAcquireFactor, (int)Math.Round(v.AcquireFactor * 100));
+                hsbarIntegralPurePursuit.Value = Clamp(hsbarIntegralPurePursuit, (int)Math.Round(v.Integral * 100));
+                hsbarUTurnCompensation.Value = Clamp(hsbarUTurnCompensation, (int)Math.Round(v.UTurnComp * 10));
+            }
+        }
+
+        /// <summary>
+        /// The bars that only go to the module while the window is open (gain, PWM, counts, Ackermann, WAS zero) are
+        /// put into the settings now (not saved), so fully automatic tuning works from what the tractor really has
+        /// and does not put the old values back over a bar just moved.
+        /// </summary>
+        internal void PutBarsInSettings()
+        {
+            if (IsDisposed) return;
+            var vs = Properties.VehicleSettings.Default;
+            vs.setAS_Kp = unchecked((byte)hsbarProportionalGain.Value);
+            vs.setAS_minSteerPWM = unchecked((byte)hsbarMinPWM.Value);
+            vs.setAS_countsPerDegree = unchecked((byte)hsbarCountsPerDegree.Value);
+            vs.setAS_ackerman = unchecked((byte)hsbarAckerman.Value);
+            vs.setAS_wasOffset = hsbarWasOffset.Value;
+        }
+
+        private static int Clamp(ScrollBar bar, int value)
+        {
+            return Math.Max(bar.Minimum, Math.Min(bar.Maximum, value));
+        }
+
+        #endregion
 
         #region Smart WAS Calibration
 
@@ -1359,6 +1556,7 @@ namespace AgOpenGPS
 
             // Apply correction to collected data to prevent double-correction
             mf.smartWAS.ApplyOffsetCorrection(recommendedOffset);
+            mf.ResetLineTuners();   // the pull to one side this zero removes must not still count
 
             // Show confirmation
             mf.TimedMessageBox(2500, "Smart WAS Zero",

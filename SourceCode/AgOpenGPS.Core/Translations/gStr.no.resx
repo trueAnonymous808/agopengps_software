@@ -6252,4 +6252,1411 @@ Skylasting: hent alltid siste versjon fra AgShare ved åpning</value>
   <data name="UiS_1521" xml:space="preserve">
     <value>Venter på kartserveren...</value>
   </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Kalibrering av styregeometri</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Akselavstand</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>beregningen bruker den, sjekk den først</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Kjør jevne sirkler til høyre og venstre, 2-10 km/t, hjulvinkel 5-35°, med RTK-fix. Still inn WAS-nullpunktet først (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Bruk</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Start på nytt</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Målinger</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Reell / sensor</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Høyresving</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Venstresving</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Tellinger per grad</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>samler...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Pålitelighet</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Automatisk innstilling av styring</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Styremotor (Kp, minimum PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autostyring på, hvilken som helst linje</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Fremoverblikk</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autostyring på AB-linje eller kurve, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Helningskompensasjon</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autostyring på rett linje på tvers av helning, IMU trengs</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Bra slik</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Svinger rundt ønsket vinkel: lavere forsterkning</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Når ikke ønsket vinkel: høyere minimum PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Følger sent: høyere forsterkning</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Slingrer over linjen: lengre fremoverblikk</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Blir ved siden av linjen: kortere fremoverblikk</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Ny verdi</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Forsinkelse</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Svingning</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Mangler</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimum PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Kryssinger</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Hjulvinkel per helning</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Tilpasning</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Målt helning</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Smarte funksjoner</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Lærer i bakgrunnen når autostyring arbeider</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Dødsone (retning, forsinkelse)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Hastighetsfaktor for fremoverblikk</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Som fremoverblikk, sakte (opptil 8 km/t) og raskt (fra 10 km/t)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Slingrer bare i fart: større faktor</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Blir bare ved siden av linjen i fart: mindre faktor</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Mindre enn sensorstøyen: motoren jager støy</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Mye større enn sensorstøyen: reagerer sent</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Slår seg av og på for ofte: lengre forsinkelse</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Motoren jakter fram og tilbake: kortere forsinkelse</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Sensorstøy</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Bytter</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Jakting</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Retning</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Sakte</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Raskt</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Faktor</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Helautomatisk</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Gjenopprett startverdier</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Forslagene brukes da av seg selv: høyst én liten endring i minuttet, bare mens styreinnstillingene er lukket, og aldri utover faste grenser fra dagens verdier. Hver endring vises og logges, og Gjenopprett startverdier henter dagens verdier tilbake. Slå på?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Lærer...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Satt på pause mens styreinnstillingene er åpne</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Siste endring</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Dødsone</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Startverdier gjenopprettet</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Av – forslag venter på Bruk</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Helningssensorens nullpunkt</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autostyring på linjer kjørt begge veier, IMU trengs</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Kjøring inn på linjen</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autostyring på en linje, inn fra mer enn 40 cm</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit-integral</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autostyring på lange rette linjer, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Vendingskompensasjon</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autostyring med automatiske vendinger</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Kjøringer begge veier stemmer ikke: nullpunktet er forskjøvet</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Skyter forbi linjen: større innkjøringsfaktor</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Kryper inn på linjen: mindre innkjøringsfaktor</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Blir på én side: mer integral</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Langsom bølge rundt linjen: mindre integral</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Svinger forbi neste linje: mindre kompensasjon</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Ender utenfor neste linje: mer kompensasjon</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Nullpunktfeil</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Spredning</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Celler</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Helningsnullpunkt</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Overskyting</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Innkjøring</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Innkjøringer</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Innkjøringsfaktor</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Snittavvik</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Bølger</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Vendinger</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Forbi</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Utenfor</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Satt på pause mens Steer Wizard er åpen</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Automatiske endringer</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Ingen automatisk endring ennå</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Neste endring tidligst om</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Forslagene brukes da av seg selv, også mens dette vinduet er åpent: høyst én liten endring i minuttet og aldri utover faste grenser fra dagens verdier. Hver endring vises med tid og årsak, og Gjenopprett startverdier henter dagens verdier tilbake. Slå på?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK-fix tapt</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Posisjonen kan være 10-50 cm feil. Arbeidet herfra markeres rødt.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Autostyring av</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>For lenge uten RTK-fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>gammel korreksjon</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>ingen fix</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Sensorlinearitet</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Fra geometrikalibreringen: sirkler med liten, middels og stor vinkel</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS-kvalitetsvakt</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp over 12 km/t</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Lærer over 11 km/h. Opptil 8 km/h den vanlige Kp, fra 12 km/h denne, imellom en overgang</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU-fusjon</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Enkel antenne med IMU, rett på en linje over 5 km/t</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Av</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>korreksjon</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Venter på RTK-fix</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Utfall</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Markert</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autostyring av etter</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Middels</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Stor</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Retningsstøy</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Drift</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Bare med enkel antenne og IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU-en driver bort fra GPS-retningen: raskere fusjon</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>Støyen i GPS-retningen slipper gjennom: langsommere fusjon</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Sensoren måler annerledes ved større vinkler: korreksjon</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK-bro avsluttet</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Posisjonen broes ikke lenger: uten RTK kan den være 10-50 cm feil.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Korreksjonene kommer ikke lenger. En reservekilde kan settes opp i AgIO.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Korreksjonene kommer, mottakeren mistet fix (trær, bygninger, himmelsikt).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK-broen fører posisjonen videre.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Arbeidet herfra markeres rødt.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK-bro</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>korreksjoner</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>mottaker</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Brobygging</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>styrevinkel</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>drift</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU lærer (RTK, under kjøring)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Broer</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Siste</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>avvik</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Lengste bro</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Prøver</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>ingen retningskilde (IMU, dobbel antenne eller styremodul)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>dobbel antenne</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>inntil da brukes det innebygde anslaget</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Pålitelig i</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>En prøve kjører i bakgrunnen</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (bærebølgefase)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Mottaker: RTCM MSM (1074/1084/1094/1124) og efemerider (1019/1020/1046/1042) på GPS-porten, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Bare læring</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automatisk</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Ingen rådata fra mottakeren</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Still inn mottakeren som over; ingenting annet endres i mellomtiden</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>venter på observasjoner</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>satellitter</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemerider</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epoker</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>I bruk nå</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Tar over ved neste RTK-tap</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Ennå ikke bevist bedre enn bestikkregning</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Lærer bare, styrer aldri</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Mottaker, GPS-port, 5-10 Hz: RTCM 3 MSM + efemerider (1019/1020/1042/1046), eller u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Rådata kommer, men ingen bærebølgefase</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Slå på MSM (RTCM) eller RXM-RAWX (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Bærebølgefase kommer, men ennå ingen efemerider</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Slå på efemeridemeldinger eller RXM-SFRBX, eller bruk en NTRIP-caster som sender dem</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>fra NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibrering</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Sensorer</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Styremotor</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Linjefølging</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS og RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Alle verdier som helautomatisk har endret, går tilbake til dem som var da den ble slått på. Er du sikker?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Husnummeret er ikke på kartet: velg gaten og marker huset på kartet</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Holdt tilbake av grensene</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Grensene holder ingenting tilbake</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Nye startverdier</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Dagens styreverdier blir de nye startverdiene, og grensene flytter seg med. Gjør det bare når traktoren styrer godt nå. Fortsette?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>startverdi</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>foreslått</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Ved grensen</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Kontrollerer siste endring</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Angret, styrte dårligere</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Beholdt, for lite sammenlignbar kjøring</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Kontrollert, beholdt</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>dårligere i simuleringen</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Antenneforskyvning</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>sporavstand</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Redskap</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>styreverdiene er tilbake</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>ingen lagrede styreverdier ennå</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Målinger</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Styring</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Sporavstand (antennens sideforskyvning)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Autostyring på en AB-linje på flat mark. Stopp og merk bakken under trekkbolten.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Snu og kom tilbake på samme linje; stopp med trekkbolten ved merket.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Mål avstanden på tvers, og på hvilken side av setet merket er.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Merke til venstre</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Merke til høyre</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Styreverdier per redskap</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Måler mens autostyring kjører</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Dødtid</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Svinghastighet</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>ikke nådd</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Slark</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Mye slark: sjekk styreleddene og WAS-festet</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Tregt svar: sjekk hydraulikken eller motoren</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Styringen svinger sakte ved grensen</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Ingenting å rette</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Dødtidskompensasjon</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Slå av</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Slå på med den målte verdien</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Antenneforskyvning nå</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Lagret for redskaper</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Ett sett verdier for alle redskaper</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Fortsette?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>angret nylig, prøves igjen senere</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Rullekompensasjon på ujevn mark</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Hullmodus</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>I bruk</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>høyde</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Lærer av gynging på rette linjer</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Rulleforsinkelse</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Virkelig høyde</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Ingenting å endre</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Gynginger kompensasjonen ikke fjernet</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Prøver</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Rullekompensasjon</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Sporavstandsveiviser</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Merke til venstre for meg</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Merke til høyre for meg</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Forberedelse</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Første tur</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Tilbake på samme linje</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Flat, jevn mark. Velg en AB-linje og slå på autostyring; la traktoren roe seg på linjen i arbeidsfart.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Kjør minst 30 m på linjen med autostyring, og stopp. Merk bakken rett under trekkbolten.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Snu og kom tilbake på samme AB-linje med autostyring. Stopp med trekkbolten ved merket.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>avvik fra linjen</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Autostyring på</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Retninger</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Kjøreretning ved start</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Husket (automatisk)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>For hånd (klikk på traktoren)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Én antenne: hvor fronten er, lagres når traktoren stopper og når programmet lukkes. Startet igjen samme sted er den kjent med en gang.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Modulkonfigurator</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy-fastvare</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS-mottaker</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Last ned / oppdater liste</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Start bootloader</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Finn</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Lagre i mottakeren</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Send kommando</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: tekstkommandoer (f.eks. GPGGA COM1 0.1). u-blox: hex-byte fra en UBX-ramme. Baudraten på mottakerens port til modulen endres aldri herfra: modulens fastvare forventer den slik den er.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Fastvarebuffer</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Laster ned Config-O-Matic-listen...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Lastet ned</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>i bufferen</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Nedlasting mislyktes - listen fra bufferen brukes</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader bedt om på</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Kunne ikke åpne</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Ikke i bufferen ennå: last ned listen først</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Skrive denne fastvaren til Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Ikke koble den fra eller slå den av mens den skrives.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Skriver</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Fastvare skrevet</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Skriving mislyktes</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP-rådata på</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP-rådata av</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP-rådata på</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP-rådata av</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Hoppet over</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Ingen vei til mottakeren: ikke modulnettverk og ingen seriell GPS-port</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Intet svar: er den endrede fastvaren på Teensy?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Denne innstillingen er for en annen mottaker</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Innstillingen kunne ikke leses</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>tatt imot</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>ikke bekreftet</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Trykk Lagre i mottakeren for å beholde den etter avslåing</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Lagret i mottakeren</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Lagring ikke bekreftet</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Ikke sendt: baudraten til modulen må forbli som den er</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>ingen bekreftelse</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Ingen modul svarte over nettverket: første gang legges fastvaren inn via USB</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>På modulen nå</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Merk: denne fastvaren har ingen nettverksoppdatering - senere trenger igjen USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Skrive denne fastvaren til modulen over nettverket?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Traktoren må stå stille, autostyring av. Mens den installeres (ca. 30 sekunder til slutt) må modulen ikke slås av: da kan den bare programmeres via USB igjen.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Sendt og kontrollert; modulen installerer den og starter på nytt</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Modulen er tilbake</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Modulen har ikke svart ennå - hvis den forblir stille, programmer den via USB</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Fastvare for Teensy på AiO-kortet og innstillinger for GNSS-mottakerne - over nettverket, uten å åpne boksen.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Fastvare</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Legg den på modulen</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Over nettverket (uten USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Når det allerede er en endret fastvare på modulen.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Via USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>Første gang, eller når nettverket ikke virker. Teensys USB-port:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Hvilken mottaker</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Hovedmottaker (posisjon)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Andre F9P (retning)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (dobbel antenne i én) og en enkelt F9P er alltid hovedmottakeren. Den andre finnes bare med to F9P for dobbel antenne: den måler retningen.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Innstilling å sende</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Uten lagring glemmer mottakeren den ved avslåing.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Kommando for hånd</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>ikke lastet ned</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Grønn ★ = fra AgOpenGPS-forken, endret: rå GNSS for TDCP, mottakerinnstillinger og fastvareoppdatering over nettverket, UM982 dobbelantenne-retning. Rød = de opprinnelige Config-O-Matic-fastvarene, uendret.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Venter på Teensy-bootloaderen (trykk på knappen på Teensy hvis den ikke kommer)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Ferdig: Teensy starter den nye fastvaren</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Lager plass på modulen</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Kontrollerer og installerer på modulen</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Installerer: ikke slå av på 30 sekunder</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Endret for hånd, justeringene starter på nytt</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Pause mens rutestyringen styrer</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Pause i simulatoren</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Lært forskyvning</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Rolig styring</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Slarkkompensasjon</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Slarket er ikke målt ennå</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Styrehjelpere</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Små skjelvinger glattet</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>For lite slark</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Foran med</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Modellprediktiv styring</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Styrestil</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Skarp</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Rolig</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Ser fremover</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC styrer AB-linjer og kurver forover; vendinger, konturer og rygging bruker pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>ikke målt ennå</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Adaptiv pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Fremoversyn nå</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Adaptiv</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Kortere i kurver</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Rom for dødtiden</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Lengre ved slingring</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Fremoversynet fra fanen Pure pursuit er utgangspunktet; dette tilpasser det ved hver fix.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>innstilling</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Adaptiv PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Pause under A/B-sammenligningen</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Sammenligning</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B-sammenligning</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Styremetoden skifter etter hver kjøring: pure pursuit, adaptiv, MPC. Den helautomatiske justeringen venter imens.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Behold den beste</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Stopp (tilbake som før)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Kjører</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Best så langt</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>først to kjøringer av hver</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Alle kjøringer i denne økten</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Ingen kjøring ennå (minst 30 m med autostyring på en linje)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>kjøringer</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Siste kjøringer</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC-styrestil</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC ser fremover</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Adaptiv: kortere i kurver</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Adaptiv: rom for dødtiden</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Adaptiv: lengre ved slingring</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Ett trinn</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>raskere søk</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Tilstandsestimator (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Modellstyring</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Ikke startet (trenger fix og retning)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Styrevinkelforskyvning</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU-forskyvning</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Sidegli</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>bare med dobbel antenne</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Avvik fra GNSS</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Klar, modellstyringen (MPC, LQR, hybrid) bruker den</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Styringen bruker den</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Klar, styringen bruker den filtrerte posisjonen</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>For langt fra den rå posisjonen: den rå brukes</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR-styring</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR styrer AB-linjer og kurver forover; vendinger, konturer og rygging bruker pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR-styrestil</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hybrid</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hybrid styring (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR holder linjen, MPC tar kurvene og innkjøringen på linjen. Vendinger, konturer og rygging bruker pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>MPC-andel nå</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Styremetode</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Læring</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Kjøreopptaker</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Styring og IMU som målt</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Læring på jordet</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Glem</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Glemme det som er lært på dette jordet?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Slept redskap på linjen</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Av: ingenting tas opp</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Tar opp</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>posisjoner</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Tar opp så snart traktoren kjører</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Målt mens autostyringen styrer</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>til høyre</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU-støy</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>rolig, f.eks. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>mer støyende, f.eks. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Der den før gikk ved siden av linjen, styrer den neste gang imot på forhånd (hver retning for seg).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Lærte steder på dette jordet</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Åpne et jorde for å lære på det</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>nå</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Holder et slept redskap på linjen i skråninger og kurver: traktoren kjører ved siden av så mye som trengs.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Det innstilte redskapet er ikke slept: ingenting å gjøre</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Traktor ved siden av linjen</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>hver vei</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>ingen RTK-fix</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Denne fastvaren ser ut til å være for et annet kort</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Denne fastvaren ser ut til å være for et annet kort enn det i modulen.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Fastvare for et annet kort bruker andre pinner: styremotoren virker kanskje ikke eller beveger seg uventet. Skrive den likevel?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Flyttet med nettbrettet av</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Hvis modulen er på mens nettbrettet er av, teller IMU-en hver sving: fronten er kjent uansett hvor traktoren står. Var modulen også av, avgjør rykket ved første bevegelse forover eller bakover.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Modulfastvare: ny (sender tiden sin og akselerasjonen)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Trenger den nye modulfastvaren</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Forover eller bakover ved første bevegelse: lært</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Forover eller bakover ved første bevegelse: lærer under kjøring forover</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simulator</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>svarer</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>svarer ikke</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>ny</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>eldre, eller ingen IMU på modulen</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>gamle korreksjoner</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>ingen RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>ingen (valgfri)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>støy</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>lærer</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>dødtid</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>trenger en IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>klar</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>endring foreslått</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>manuelt</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>lært</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>av</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Nøyaktighetsrapport</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Arbeidsbredde</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Spor til spor</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Hvor langt hvert spor faktisk gikk fra nabosporet, mot arbeidsbredden: overlapp eller glipp mellom to spor.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Ingen nabospor ennå - kjør minst to spor ved siden av hverandre med autostyring og RTK-fix.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % innenfor</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>gjennomsnitt</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>verste</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>På linjen</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Avstanden fra linjen mens autostyringen holdt den (RTK-fix, i arbeid).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Nabospor</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Spor</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Styremodul</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Modulfastvare</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Nullpunkt for styrevinkelsensor</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Retning ved start</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Helautomatisk justering</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Oppsettstatus</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Støttepakke</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Støttepakken inneholder loggene, innstillingene og de siste kjøreopptakene (med posisjoner på jordet): send den til den som hjelper deg.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Lagret</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Ikke lagret</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Holder et slept redskap på linjen i svinger, der det skjærer innover: traktoren går så mye utenfor som nødvendig. Et redskap som glir ned en skråning ser den ikke - det krever en GPS på redskapet.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>rolig</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>mer støyende</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Styremetoden skifter etter hver kjøring: pure pursuit, adaptiv, MPC, LQR, hybrid. Den helautomatiske justeringen venter imens.</value>
+  </data>
 </root>

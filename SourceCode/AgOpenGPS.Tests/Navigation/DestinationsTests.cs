@@ -75,5 +75,40 @@ namespace AgOpenGPS.Tests.Navigation
             Assert.That(url, Does.Contain("limit=8"));
             Assert.That(url, Does.Contain("accept-language=hu"));
         }
+
+        [Test]
+        public void Nominatim_AStreetOnlyResultIsApproximate()
+        {
+            const string json = @"[
+                { ""lat"": ""46.0"", ""lon"": ""19.0"", ""display_name"": ""Fő utca 12, Falu"", ""place_rank"": 30 },
+                { ""lat"": ""46.1"", ""lon"": ""19.1"", ""display_name"": ""Fő utca, Falu"", ""place_rank"": 26 },
+                { ""lat"": ""46.2"", ""lon"": ""19.2"", ""display_name"": ""Falu"" } ]";
+            List<Destination> found = Destinations.ParseNominatim(json);
+            Assert.That(found[0].Approximate, Is.False);   // the house itself
+            Assert.That(found[1].Approximate, Is.True);    // only the street
+            Assert.That(found[2].Approximate, Is.False);   // no rank given: taken as it is
+        }
+
+        [TestCase("46.25, 20.15", 46.25, 20.15)]
+        [TestCase("46,25 20,15", 46.25, 20.15)]
+        [TestCase("46.25;20.15", 46.25, 20.15)]
+        [TestCase("  -33.8688 , 151.2093 ", -33.8688, 151.2093)]
+        public void Coordinates_AreReadAsAPoint(string text, double lat, double lon)
+        {
+            Destination d = Destinations.ParseCoordinates(text);
+            Assert.That(d, Is.Not.Null);
+            Assert.That(d.Lat, Is.EqualTo(lat).Within(1e-9));
+            Assert.That(d.Lon, Is.EqualTo(lon).Within(1e-9));
+        }
+
+        [TestCase("Fő utca 1, Kecel")]
+        [TestCase("6237 Kecel")]
+        [TestCase("46.25")]
+        [TestCase("95.0, 20.0")]
+        [TestCase("46.0, 200.0")]
+        public void NotCoordinates_GoToTheAddressSearch(string text)
+        {
+            Assert.That(Destinations.ParseCoordinates(text), Is.Null);
+        }
     }
 }

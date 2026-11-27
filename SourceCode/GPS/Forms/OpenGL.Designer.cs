@@ -398,6 +398,7 @@ namespace AgOpenGPS
                     if (ABLine.isMakingABLine) ABLine.DrawABLineNew();
 
                     recPath.DrawRecordedLine();
+                    DrawGpsGuardMarks();
                     recPath.DrawDubins();
 
                     #endregion
@@ -1873,6 +1874,7 @@ namespace AgOpenGPS
 
             // route navigation: the next turn and what is left, at the top
             DrawNavigationBar();
+            DrawGpsGuardBanner();
 
             GL.PushMatrix();
 

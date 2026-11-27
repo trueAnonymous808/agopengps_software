@@ -47,6 +47,7 @@ namespace AgOpenGPS
 
         //Is it in 2D or 3D, metric or imperial, display lightbar, display grid etc
         public bool isLightbarOn = true, isGridOn, isFullScreen;
+        private bool mainWindowPlaced;   // the main window got its saved place and size (once, at the start)
         public bool isUTurnAlwaysOn, isSpeedoOn, isSideGuideLines = true;
         public bool isPureDisplayOn = true, isSkyOn = true, isRollMeterOn = false, isTextureOn = true;
         public bool isDayTime = true, isBrightnessOn = true;
@@ -715,9 +716,13 @@ namespace AgOpenGPS
             lightbarCmPerPixel = Properties.Settings.Default.setDisplay_lightbarCmPerPixel;
 
             isStanleyUsed = Properties.ToolSettings.Default.setVehicle_isStanleyUsed;
+            isMpcUsed = Properties.ToolSettings.Default.setVehicle_isMpcUsed;
+            isLqrUsed = Properties.ToolSettings.Default.setVehicle_isLqrUsed;
+            isHybridUsed = Properties.ToolSettings.Default.setVehicle_isHybridUsed;
 
-            //main window first
-            if (!isKioskMode)
+            //main window first: only when the program starts. Later calls (closing the settings, loading a
+            //profile) leave it as it is - going Normal and back to Maximized made the whole screen jump.
+            if (!isKioskMode && !mainWindowPlaced)
             {
                 //main window first
                 if (Settings.Default.setWindow_Maximized)
@@ -741,6 +746,7 @@ namespace AgOpenGPS
                     Size = Settings.Default.setWindow_Size;
                 }
             }
+            mainWindowPlaced = true;
 
             if (!ScreenHelper.IsOnScreen(Bounds))
             {
@@ -983,7 +989,7 @@ namespace AgOpenGPS
 
             }
 
-            btnFlag.Text = isStanleyUsed ? "S" : "P";
+            btnFlag.Text = SteerModeLetter;
         }
 
         private void PanelsAndOGLSize()
@@ -1424,6 +1430,7 @@ namespace AgOpenGPS
                     Array.Clear(stepFixPts, 0, stepFixPts.Length);
                     isFirstHeadingSet = false;
                     isReverse = false;
+                    ForwardResetByHand();
                     TimedMessageBox(2000, "Reset Direction", "Drive Forward > 1.5 kmh");
                     Log.EventWriter("Direction Reset, Drive Forward");
 

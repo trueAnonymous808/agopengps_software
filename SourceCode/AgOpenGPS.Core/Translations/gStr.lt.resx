@@ -4974,7 +4974,7 @@ paleidimas</value>
     <value>Atstumas</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Valyti</value>
+    <value>Val.</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Klaidos&#xD;
@@ -6250,5 +6250,1412 @@ Debesies įkėlimas: atidarant visada atsisiųsti naujausią versiją iš AgShar
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Laukiama žemėlapių serverio...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Vairavimo geometrijos kalibravimas</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Ratų bazė</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>skaičiavimas ją naudoja, pirmiausia patikrinkite</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Važiuokite tolygius ratus į dešinę ir į kairę, 2-10 km/h, ratų kampas 5-35°, su RTK fix. Pirmiausia nustatykite WAS nulį (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Taikyti</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Pradėti iš naujo</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Mėginiai</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Tikras / jutiklis</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Posūkis į dešinę</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Posūkis į kairę</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Skaičiai laipsniui</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>renkama...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Patikimumas</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Automatinis vairavimo derinimas</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Vairo variklis (Kp, minimalus PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autosteer įjungtas, bet kuri linija</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Žvilgsnis į priekį</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autosteer AB linijoje ar kreivėje, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Šlaito kompensacija</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autosteer tiesioje linijoje skersai šlaito, reikia IMU</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Gerai taip</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Svyruoja apie norimą kampą: mažesnis stiprinimas</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Nepasiekia norimo kampo: didesnis minimalus PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Seka vėluodamas: didesnis stiprinimas</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Vingiuoja per liniją: ilgesnis žvilgsnis</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Lieka šalia linijos: trumpesnis žvilgsnis</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Nauja reikšmė</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Vėlavimas</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Svyravimas</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Trūkumas</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimalus PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Nuokrypis</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Kirtimai</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Rato kampas pokrypiui</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Atitikimas</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Išmatuotas pokrypis</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Išmaniosios funkcijos</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Mokosi fone, kai veikia Autosteer</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Neveikos zona (kryptis, vėlinimas)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Žvilgsnio į priekį greičio daugiklis</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Kaip žvilgsnis į priekį, lėtai (iki 8 km/h) ir greitai (nuo 10 km/h)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Vingiuoja tik greitai: didesnis daugiklis</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Lieka šalia linijos tik greitai: mažesnis daugiklis</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Mažesnė už jutiklio triukšmą: variklis vaikosi triukšmą</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Daug didesnė už jutiklio triukšmą: reaguoja vėlai</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Per dažnai įsijungia ir išsijungia: ilgesnis vėlinimas</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Variklis blaškosi pirmyn atgal: trumpesnis vėlinimas</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Jutiklio triukšmas</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Perjungimai</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Blaškymasis</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Kryptis</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Lėtai</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Greitai</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Daugiklis</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Visiškai automatiškai</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Atkurti pradines reikšmes</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Tada pasiūlymai taikomi savaime: daugiausia vienas mažas pakeitimas per minutę, tik kai vairavimo nustatymai uždaryti, ir niekada toliau nei nustatytos ribos nuo šiandienos reikšmių. Kiekvienas pakeitimas parodomas ir įrašomas, o Atkurti pradines reikšmes grąžina šiandienos reikšmes. Įjungti?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Mokosi...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Pristabdyta, kol atidaryti vairavimo nustatymai</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Paskutinis pakeitimas</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Neveikos zona</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Pradinės reikšmės atkurtos</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Išjungta – pasiūlymai laukia mygtuko Taikyti</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Pokrypio jutiklio nulis</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autosteer linijose, važiuotose abiem kryptimis, reikia IMU</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Užvažiavimas ant linijos</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autosteer linijoje, užvažiuojant iš daugiau nei 40 cm</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit integralas</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autosteer ilgose tiesiose linijose, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Apsisukimo kompensacija</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autosteer su automatiniais apsisukimais</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Pravažiavimai abiem kryptimis nesutampa: nulis pasislinkęs</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Peršoka liniją: didesnis užvažiavimo koeficientas</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Šliaužia prie linijos: mažesnis užvažiavimo koeficientas</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Lieka vienoje pusėje: daugiau integralo</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Lėta banga aplink liniją: mažiau integralo</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Pasisuka už kitos linijos: mažesnė kompensacija</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Baigia už kitos linijos: didesnė kompensacija</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Nulio klaida</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Sklaida</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Langeliai</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Pokrypio nulis</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Peršokimas</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Užvažiavimas</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Užvažiavimai</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Užvažiavimo koeficientas</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Vidutinis nuokrypis</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Bangos</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integralas</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Apsisukimai</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Per toli</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Išorėje</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Pristabdyta, kol atidarytas Steer Wizard</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Automatiniai pakeitimai</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Automatinių pakeitimų dar nebuvo</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Kitas pakeitimas ne anksčiau kaip po</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Tada pasiūlymai taikomi savaime, net kai šis langas atidarytas: daugiausia vienas mažas pakeitimas per minutę ir niekada toliau nei nustatytos ribos nuo šiandienos reikšmių. Kiekvienas pakeitimas rodomas su laiku ir priežastimi, o Atkurti pradines reikšmes grąžina šiandienos reikšmes. Įjungti?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix prarastas</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Padėtis gali būti netiksli 10-50 cm. Darbas nuo čia pažymėtas raudonai.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Autosteer išjungtas</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Per ilgai nėra RTK fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>sena korekcija</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>nėra fix</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Jutiklio tiesiškumas</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Iš geometrijos kalibravimo: ratai mažu, vidutiniu ir dideliu kampu</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS kokybės sargas</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp virš 12 km/h</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Mokosi virš 11 km/h. Iki 8 km/h įprastas Kp, nuo 12 km/h šis, tarp jų perėjimas</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU suliejimas</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Viena antena su IMU, tiesiai linija virš 5 km/h</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Įj.</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Išj.</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>korekcija</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Laukiama RTK fix</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Dingimai</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Pažymėta</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autosteer išj. po</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Vidutinis</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Didelis</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Krypties triukšmas</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Dreifas</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Tik su viena antena ir IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU nukrypsta nuo GPS krypties: greitesnis suliejimas</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>GPS krypties triukšmas praeina: lėtesnis suliejimas</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Jutiklis didesniais kampais matuoja kitaip: korekcija</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK tiltas baigėsi</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Padėtis nebėra tiltuojama: be RTK ji gali būti netiksli 10-50 cm.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Korekcijos nebeateina. AgIO galima nustatyti atsarginį šaltinį.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Korekcijos ateina, imtuvas prarado fix (medžiai, pastatai, dangaus matomumas).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK tiltas tęsia padėtį.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Darbas nuo čia pažymėtas raudonai.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK tiltas</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>korekcijos</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>imtuvas</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Tiltavimas</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>vairo kampas</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Paruošta</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>dreifas</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU mokosi (RTK, važiuojant)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Tiltai</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Paskutinis</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>paklaida</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Ilgiausias tiltas</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Egzaminai</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>nėra krypties šaltinio (IMU, dviguba antena ar vairo modulis)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>dviguba antena</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>iki tol naudojamas įtaisytas įvertis</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Patikima iki</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Fone vyksta egzaminas</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (nešlio fazė)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Imtuvas: RTCM MSM (1074/1084/1094/1124) ir efemeridės (1019/1020/1046/1042) į GPS prievadą, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Tik mokosi</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automatiškai</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Nėra neapdorotų duomenų iš imtuvo</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Nustatykite imtuvą kaip aukščiau; nieko kito tuo metu nesikeičia</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>laukia stebėjimų</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>palydovai</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemeridės</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epochos</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Dabar naudojama</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Perims kito RTK praradimo metu</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Dar neįrodyta, kad geriau už apskaičiuotąją navigaciją</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Tik mokosi, niekada nevairuoja</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Imtuvas, GPS prievadas, 5-10 Hz: RTCM 3 MSM + efemeridės (1019/1020/1042/1046), arba u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Neapdoroti duomenys ateina, bet be nešlio fazės</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Įjunkite MSM (RTCM) arba RXM-RAWX (u-blox)</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Nešlio fazė ateina, bet efemeridžių dar nėra</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Įjunkite efemeridžių pranešimus arba RXM-SFRBX, arba naudokite NTRIP, kuris jas siunčia</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>iš NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibravimas</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Jutikliai</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Vairo variklis</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Linijos sekimas</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS ir RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Visos reikšmės, kurias pakeitė visiškai automatinis režimas, grąžinamos į buvusias jį įjungiant. Ar tikrai?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Namo numerio žemėlapyje nėra: pasirinkite gatvę ir pažymėkite namą žemėlapyje</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Sulaikyta ribų</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Ribos nieko nesulaiko</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Naujos pradinės vertės</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Dabartinės vairavimo vertės taps naujomis pradinėmis, o ribos pasislinks kartu. Darykite tik jei traktorius dabar gerai vairuoja. Tęsti?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>pradinė vertė</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>siūloma</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Ties riba</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Tikrinamas paskutinis pakeitimas</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Atšaukta, vairavo blogiau</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Palikta, per mažai palyginamo važiavimo</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Patikrinta, palikta</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>blogiau simuliacijoje</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Antenos poslinkis</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>pėdsakų tarpas</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Padargas</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>jo vairavimo vertės grąžintos</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>dar nėra išsaugotų vairavimo verčių</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Matavimai</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Vairo mechanizmas</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Pėdsakų tarpas (antenos šoninis poslinkis)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Autovairavimas AB linija, lygioje vietoje. Sustokite ir pažymėkite žemę po kablio kaiščiu.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Apsisukite ir grįžkite ta pačia linija; sustokite, kai kablio kaištis bus prie žymės.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Išmatuokite tarpą skersai ir kurioje sėdynės pusėje yra žymė.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Žymė kairėje</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Žymė dešinėje</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Vairavimo vertės kiekvienam padargui</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Matuojama veikiant autovairavimui</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Neveikos laikas</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Sukimo greitis</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>nepasiektas</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Laisvumas</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Didelis laisvumas: patikrinkite vairo lankstus ir WAS tvirtinimą</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Lėtas atsakas: patikrinkite hidrauliką arba variklį</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Vairas ties riba sukasi lėtai</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Nėra ką taisyti</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Neveikos laiko kompensacija</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Išjungti</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Įjungti su išmatuota verte</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Antenos poslinkis dabar</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Išsaugota padargams</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Vienas verčių rinkinys visiems padargams</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Tęsti?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>neseniai atšaukta, bus bandoma vėliau</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Posvyrio kompensacija nelygioje žemėje</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Duobių režimas</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>Naudojama</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>aukštis</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Mokosi iš supimosi tiesiomis linijomis</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Posvyrio vėlavimas</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Tikrasis aukštis</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Nėra ką keisti</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Supimaisi, kurių kompensacija nepašalino</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Bandoma</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Posvyrio kompensacija</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Pėdsakų tarpo vedlys</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Žymė mano kairėje</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Žymė mano dešinėje</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Atgal</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Pasiruošimas</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Pirmas važiavimas</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Atgal ta pačia linija</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Matavimas</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Lygi, tolygi žemė. Pasirinkite AB liniją ir įjunkite autovairavimą; leiskite traktoriui darbo greičiu nusistovėti linijoje.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Važiuokite linija bent 30 m su autovairavimu ir sustokite. Pažymėkite žemę tiksliai po kablio kaiščiu.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Apsisukite ir grįžkite ta pačia AB linija su autovairavimu. Sustokite, kai kablio kaištis bus žymės lygyje.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>nuokrypis nuo linijos</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Autovairavimas įjungtas</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Kryptys</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Važiavimo kryptis paleidžiant</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Įsiminti (automatiškai)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Rankiniu būdu (spustelėkite traktorių)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Viena antena: kur yra priekis, išsaugoma traktoriui sustojus ir uždarant programą. Paleidus toje pačioje vietoje, žinoma iš karto.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Modulio konfigūratorius</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy programinė įranga</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS imtuvas</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Atsisiųsti / atnaujinti sąrašą</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Paleisti įkėlėją</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Aptikti</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Siųsti</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Išsaugoti imtuve</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Siųsti komandą</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: teksto komandos (pvz. GPGGA COM1 0.1). u-blox: UBX rėmelio šešioliktainiai baitai. Imtuvo prievado į modulį sparta čia niekada nekeičiama: modulio programinė įranga jos tikisi tokios, kokia yra.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Programinės įrangos podėlis</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Atsisiunčiamas Config-O-Matic sąrašas...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Atsisiųsta</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>podėlyje</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Atsisiųsti nepavyko - naudojamas sąrašas iš podėlio</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Įkėlėjas paprašytas prievade</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Nepavyko atidaryti</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Dar nėra podėlyje: pirmiausia atsisiųskite sąrašą</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Įrašyti šią programinę įrangą į Teensy?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Rašymo metu neatjunkite ir neišjunkite.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Rašoma</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Programinė įranga įrašyta</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Įrašyti nepavyko</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP neapdoroti duomenys įjungti</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP neapdoroti duomenys išjungti</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP neapdoroti duomenys įjungti</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP neapdoroti duomenys išjungti</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Praleista</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Nėra kelio iki imtuvo: nėra modulio tinklo ir GPS nuoseklaus prievado</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Nėra atsakymo: ar pakeista programinė įranga yra Teensy?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Šis nustatymas skirtas kitam imtuvui</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Nustatymo nepavyko perskaityti</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>priimta</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>nepatvirtinta</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Paspauskite Išsaugoti imtuve, kad liktų ir išjungus</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Išsaugota imtuve</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Išsaugojimas nepatvirtintas</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Neišsiųsta: sparta į modulį turi likti tokia, kokia yra</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>nėra patvirtinimo</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Joks modulis neatsakė per tinklą: pirmą kartą programinė įranga įkeliama per USB</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Dabar modulyje</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Pastaba: ši programinė įranga neturi atnaujinimo per tinklą - vėlesnėms vėl reikės USB</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Įrašyti šią programinę įrangą į modulį per tinklą?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Traktorius turi stovėti, autovairavimas išjungtas. Diegimo metu (apie 30 sekundžių pabaigoje) neišjunkite modulio: tada jį bus galima programuoti tik per USB.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Siunčiama</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Išsiųsta ir patikrinta; modulis ją įdiegia ir pasileidžia iš naujo</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Modulis vėl veikia</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Modulis dar neatsakė - jei tylės, programuokite jį per USB</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Programinė įranga AiO plokštės Teensy ir jos GNSS imtuvų nustatymai - per tinklą, neatidarant dėžutės.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Programinė įranga</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Įkelti į modulį</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Per tinklą (be USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Kai modulyje jau yra pakeista programinė įranga.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Per USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>Pirmą kartą arba kai tinklas neveikia. Teensy USB prievadas:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Kuris imtuvas</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Pagrindinis imtuvas (padėtis)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Antrasis F9P (kryptis)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (dviguba antena viename) ir pavienis F9P visada yra pagrindinis imtuvas. Antrasis būna tik su dviem F9P dvigubai antenai: jis matuoja kryptį.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Siunčiamas nustatymas</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Neišsaugojus, imtuvas jį pamiršta išjungus.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Komanda ranka</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Žurnalas</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>neatsisiųsta</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Žalia ★ = iš AgOpenGPS atšakos, pakeista: neapdorotas GNSS TDCP, imtuvo nustatymai ir programinės įrangos atnaujinimas per tinklą, UM982 dvigubos antenos kryptis. Raudona = originalios Config-O-Matic programinės įrangos, nepakeistos.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Laukiama Teensy įkėlėjo (paspauskite Teensy mygtuką, jei jis neatsiranda)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Atlikta: Teensy paleidžia naują programinę įrangą</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Atlaisvinama vieta modulyje</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Tikrinama ir diegiama modulyje</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Diegiama: neišjunkite 30 sekundžių</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Pakeista ranka, derintuvai pradeda iš naujo</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Pristabdyta, kol vairuoja maršruto autovairavimas</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Pristabdyta simuliatoriuje</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Išmoktas poslinkis</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Ramus vairavimas</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Laisvumo kompensavimas</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Laisvumas dar neišmatuotas</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Vairavimo pagalbininkai</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Smulkūs svyravimai išlyginti</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Per mažas laisvumas</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Į priekį</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Modeliu grįstas prognozuojantis vairavimas</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Vairavimo stilius</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Aštrus</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Ramus</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Žvilgsnis į priekį</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC vairuoja AB linijas ir lankus važiuojant pirmyn; apsisukimai, kontūrai ir važiavimas atgal naudoja pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>dar neišmatuota</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Prisitaikantis pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Žvilgsnis į priekį dabar</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Prisitaikantis</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Trumpesnis posūkiuose</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Atsarga neveikos laikui</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Ilgesnis vingiuojant</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Žvilgsnis į priekį iš Pure pursuit skirtuko yra pradžia; tai jį pritaiko kiekvienai padėčiai.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>nustatymas</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Prisitaikantis PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Pristabdyta A/B palyginimo metu</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Palyginimas</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B palyginimas</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Vairavimo būdas keičiasi po kiekvieno važiavimo: pure pursuit, prisitaikantis, MPC. Visiškai automatinis derinimas tuo metu laukia.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>Palikti geriausią</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Sustabdyti (atgal kaip buvo)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Vyksta</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Kol kas geriausias</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>pirmiausia po du važiavimus</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Visi šios sesijos važiavimai</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Dar nėra važiavimo (bent 30 m su autovairavimu ant linijos)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>važiavimai</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Paskutiniai važiavimai</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC vairavimo stilius</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC žvilgsnis į priekį</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Prisitaikantis: trumpesnis posūkiuose</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Prisitaikantis: atsarga neveikos laikui</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Prisitaikantis: ilgesnis vingiuojant</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Vienas žingsnis</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>greitesnė paieška</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Būsenos įvertintuvas (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Modelinis vairavimas</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Nepaleistas (reikia fiksacijos ir krypties)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Vairo kampo poslinkis</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU poslinkis</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Šoninis slydimas</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>tik su dviguba antena</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Nuokrypis nuo GNSS</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Paruošta, modelinis vairavimas (MPC, LQR, hibridinis) jį naudoja</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Vairavimas jį naudoja</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Paruošta, vairavimas naudoja filtruotą padėtį</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Per toli nuo neapdorotos padėties: naudojama neapdorota</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR vairavimas</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR vairuoja AB linijas ir lankus važiuojant pirmyn; apsisukimai, kontūrai ir važiavimas atgal naudoja pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR vairavimo stilius</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hibridinis</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hibridinis vairavimas (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR laiko liniją, MPC valdo posūkius ir užvažiavimą ant linijos. Apsisukimai, kontūrai ir važiavimas atgal naudoja pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>MPC dalis dabar</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Vairavimo būdas</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Mokymasis</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Važiavimo įrašiklis</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Aplankas</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Vairo mechanizmas ir IMU išmatuoti</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Mokymasis lauke</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Pamiršti</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Pamiršti, kas išmokta šiame lauke?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Prikabinamas padargas ant linijos</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Išjungta: niekas neįrašoma</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Įrašoma</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>padėčių</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Įrašo, kai tik traktorius pajuda</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Išmatuota vairuojant automatiškai</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>į dešinę</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU triukšmas</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>tylus, pvz. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>triukšmingesnis, pvz. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Kur anksčiau nukrypo nuo linijos, kitą kartą iš anksto pakreipia priešingai (kiekviena kryptis atskirai).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Išmoktos vietos šiame lauke</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Atidarykite lauką, kad jame mokytųsi</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>dabar</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Laiko prikabinamą padargą ant linijos šlaituose ir posūkiuose: traktorius važiuoja šalia tiek, kiek reikia.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Nustatytas padargas nėra prikabinamas: nėra ką daryti</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Traktorius šalia linijos</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>kiekviena kryptimi</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>nėra RTK fiksacijos</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Ši programinė įranga atrodo skirta kitai plokštei</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Ši programinė įranga atrodo skirta kitai plokštei nei esanti modulyje.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Kitai plokštei skirta programinė įranga naudoja kitus kontaktus: vairo variklis gali neveikti arba netikėtai pajudėti. Vis tiek įrašyti?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Perkelta išjungus planšetę</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Jei modulis lieka įjungtas, kai planšetė išjungta, jo IMU skaičiuoja kiekvieną posūkį: priekis žinomas, kur traktorius bestovėtų. Jei ir modulis buvo išjungtas, pirmojo judesio trūktelėjimas parodo, pirmyn ar atgal.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Modulio programinė įranga: nauja (siunčia savo laiką ir pagreitį)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Reikia naujos modulio programinės įrangos</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Pirmyn ar atgal pirmuoju judesiu: išmokta</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Pirmyn ar atgal pirmuoju judesiu: mokosi važiuojant pirmyn</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simuliatorius</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>atsako</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>neatsako</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>nauja</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>senesnė, arba modulyje nėra IMU</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>senos pataisos</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>nėra RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>nėra (neprivaloma)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>triukšmas</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>mokosi</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>mirties laikas</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>reikia IMU</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>paruošta</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>siūlomas pakeitimas</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>rankiniu būdu</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>išmokta</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>išj.</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Tikslumo ataskaita</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Darbinis plotis</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Nuo važiavimo iki važiavimo</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Kiek kiekvienas važiavimas iš tikrųjų nutolo nuo kaimyninio, palyginti su darbiniu pločiu: persidengimas arba tarpas tarp dviejų važiavimų.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Kaimyninių važiavimų dar nėra - nuvažiuokite bent du važiavimus greta su autopilotu ir RTK fiksacija.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % ribose</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>vidurkis</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>blogiausias</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>Ant linijos</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Atstumas nuo linijos, kol autopilotas ją laikė (RTK fiksacija, dirbant).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Kaimyniniai važiavimai</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Važiavimas</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Vairavimo modulis</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Modulio programinė įranga</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Vairo kampo jutiklio nulis</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Kryptis pradžioje</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Visiškai automatinis derinimas</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Sąrankos būsena</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Pagalbos paketas</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Pagalbos pakete yra žurnalai, nustatymai ir paskutiniai važiavimo įrašai (su padėtimis lauke): nusiųskite jį tam, kas jums padeda.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Išsaugota</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Neišsaugota</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Laiko prikabinamą padargą ant linijos posūkiuose, kur jis kerta į vidų: traktorius važiuoja tiek plačiau, kiek reikia. Šlaite slystančio padargo nemato - tam reikia GPS ant padargo.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>tylus</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>triukšmingesnis</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Vairavimo būdas keičiasi po kiekvieno važiavimo: pure pursuit, prisitaikantis, MPC, LQR, hibridinis. Visiškai automatinis derinimas tuo metu laukia.</value>
   </data>
 </root>

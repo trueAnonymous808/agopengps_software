@@ -5058,7 +5058,7 @@ göster</value>
     <value>Mesafe</value>
   </data>
   <data name="UiS_1241" xml:space="preserve">
-    <value>Temizle</value>
+    <value>Sil</value>
   </data>
   <data name="UiS_1242" xml:space="preserve">
     <value>Hata&#xD;
@@ -6249,5 +6249,1412 @@ Buluttan Yükle: açarken her zaman AgShare'deki en son sürümü indirir</value
   </data>
   <data name="UiS_1521" xml:space="preserve">
     <value>Harita sunucusu bekleniyor...</value>
+  </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Direksiyon geometrisi kalibrasyonu</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Dingil mesafesi</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>hesaplama bunu kullanır, önce kontrol edin</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Sağa ve sola düzgün daireler çizin, 2-10 km/s, tekerlek açısı 5-35°, RTK fix ile. Önce WAS sıfırını ayarlayın (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Yeniden başla</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Örnekler</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Gerçek / sensör</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Sağa dönüş</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Sola dönüş</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Derece başına sayım</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>toplanıyor...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Güvenilirlik</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Direksiyon otomatik ayarı</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Direksiyon motoru (Kp, minimum PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Otomatik dümen açık, herhangi bir hat</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>İleri bakış</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>AB hattında veya eğride otomatik dümen, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Yamaç telafisi</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Yamaca dik düz hatta otomatik dümen, IMU gerekli</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Böyle iyi</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>İstenen açı etrafında salınıyor: daha düşük kazanç</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>İstenen açıya ulaşamıyor: daha yüksek minimum PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Geç takip ediyor: daha yüksek kazanç</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Hattın üzerinde zikzak yapıyor: daha uzun ileri bakış</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Hattın yanında kalıyor: daha kısa ileri bakış</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Yeni değer</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Gecikme</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Salınım</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Eksik</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimum PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Sapma</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Geçişler</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Eğim başına tekerlek açısı</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Uyum</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Ölçülen eğim</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Akıllı özellikler</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Otomatik dümen çalışırken arka planda öğrenir</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Ölü bölge (yön, gecikme)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>İleri bakışın hız çarpanı</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>İleri bakış gibi, yavaş (8 km/s'ye kadar) ve hızlı (10 km/s'den itibaren)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Yalnızca hızlıyken zikzak: daha büyük çarpan</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Yalnızca hızlıyken hattın yanında kalıyor: daha küçük çarpan</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Sensör gürültüsünden küçük: motor gürültüyü kovalıyor</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Sensör gürültüsünden çok büyük: geç tepki veriyor</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Çok sık açılıp kapanıyor: daha uzun gecikme</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>Motor ileri geri avlanıyor: daha kısa gecikme</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Sensör gürültüsü</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Geçişler</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Avlanma</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Yavaş</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Hızlı</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Çarpan</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Tam otomatik</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Başlangıç değerlerini geri yükle</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>Öneriler o zaman kendiliğinden uygulanır: dakikada en fazla bir küçük değişiklik, yalnızca direksiyon ayarları kapalıyken ve bugünkü değerlerden belirlenen sınırların asla ötesine geçmeden. Her değişiklik gösterilir ve kaydedilir; Başlangıç değerlerini geri yükle bugünkü değerleri geri getirir. Açılsın mı?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Öğreniyor...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Direksiyon ayarları açıkken duraklatıldı</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Son değişiklik</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Ölü bölge</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Başlangıç değerleri geri yüklendi</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Kapalı – öneriler Uygula'yı bekliyor</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Eğim sensörü sıfırı</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>İki yönde sürülen hatlarda otomatik dümen, IMU gerekli</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Hatta giriş</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Bir hatta otomatik dümen, 40 cm'den uzaktan giriş</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit integrali</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Uzun düz hatlarda otomatik dümen, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Dönüş telafisi</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Otomatik dönüşlerle otomatik dümen</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>İki yöndeki geçişler uyuşmuyor: sıfır kaymış</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Hattı geçiyor: daha büyük giriş katsayısı</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Hatta yavaşça yaklaşıyor: daha küçük giriş katsayısı</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Bir tarafta kalıyor: daha fazla integral</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Hat etrafında yavaş dalga: daha az integral</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Sonraki hattı geçerek dönüyor: daha az telafi</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Sonraki hattın dışında bitiyor: daha fazla telafi</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Sıfır hatası</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Dağılım</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Hücreler</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Eğim sıfırı</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Aşma</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Girişler</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Giriş katsayısı</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Ortalama sapma</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Dalgalar</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>İntegral</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Dönüşler</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Aşırı</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Steer Wizard açıkken duraklatıldı</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Otomatik değişiklikler</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Henüz otomatik değişiklik yok</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Sonraki değişiklik en erken</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>Öneriler o zaman kendiliğinden uygulanır, bu pencere açıkken de: dakikada en fazla bir küçük değişiklik ve bugünkü değerlerden belirlenen sınırların asla ötesine geçmeden. Her değişiklik zamanı ve nedeniyle gösterilir; Başlangıç değerlerini geri yükle bugünkü değerleri geri getirir. Açılsın mı?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK fix kaybedildi</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>Konum 10-50 cm hatalı olabilir. Buradan itibaren yapılan iş kırmızıyla işaretlenir.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Otomatik dümen kapalı</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Çok uzun süre RTK fix yok.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>eski düzeltme</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>fix yok</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Sensör doğrusallığı</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Geometri kalibrasyonundan: küçük, orta ve büyük açıyla daireler</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS kalite bekçisi</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>12 km/s üzeri Kp</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>11 km/h üzerinde öğrenir. 8 km/h'ye kadar normal Kp, 12 km/h'den itibaren bu, arada geçiş</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU füzyonu</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>IMU'lu tek anten, 5 km/s üzerinde hat üzerinde düz</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>düzeltme</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>RTK fix bekleniyor</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Kesintiler</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>İşaretlenen</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Otomatik dümen kapanma süresi</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Büyük</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Yön gürültüsü</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Kayma</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Yalnızca tek anten ve IMU ile</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU, GPS yönünden kayıyor: daha hızlı füzyon</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>GPS yön gürültüsü geçiyor: daha yavaş füzyon</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>Sensör büyük açılarda farklı ölçüyor: düzeltme</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK köprüsü sona erdi</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>Konum artık köprülenmiyor: RTK olmadan 10-50 cm hatalı olabilir.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>Düzeltmeler gelmiyor. AgIO'da yedek düzeltme kaynağı ayarlanabilir.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Düzeltmeler geliyor, alıcı fix'i kaybetti (ağaçlar, binalar, gökyüzü görüşü).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK köprüsü konumu sürdürüyor.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Buradan itibaren yapılan iş kırmızıyla işaretlenir.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK köprüsü</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>düzeltmeler</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>alıcı</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Köprüleniyor</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>direksiyon açısı</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Hazır</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>kayma</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU öğreniyor (RTK, sürüşte)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Köprüler</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>sapma</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>En uzun köprü</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Sınavlar</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>yön kaynağı yok (IMU, çift anten veya direksiyon modülü)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>çift anten</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>o zamana kadar yerleşik tahmin kullanılır</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Güvenilir süre</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Arka planda bir sınav sürüyor</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (taşıyıcı faz)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Alıcı: RTCM MSM (1074/1084/1094/1124) ve efemerisler (1019/1020/1046/1042) GPS portuna, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Yalnızca öğren</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Alıcıdan ham veri yok</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Alıcıyı yukarıdaki gibi ayarlayın; bu arada başka hiçbir şey değişmez</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>gözlem bekleniyor</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>uydu</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemerisler</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epoklar</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Şu an kullanımda</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Bir sonraki RTK kaybında devralır</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Henüz ölü hesaptan daha iyi olduğu kanıtlanmadı</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Yalnızca öğrenir, asla dümen kullanmaz</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Alıcı, GPS portu, 5-10 Hz: RTCM 3 MSM + efemerisler (1019/1020/1042/1046), veya u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Ham veri geliyor, ama taşıyıcı faz yok</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>MSM (RTCM) veya RXM-RAWX (u-blox) açın</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Taşıyıcı faz geliyor, ama henüz efemeris yok</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Efemeris mesajlarını veya RXM-SFRBX'i açın ya da bunları gönderen bir NTRIP kullanın</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>NTRIP'ten</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibrasyon</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Sensörler</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Direksiyon motoru</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Hat takibi</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS ve RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Tam otomatik modun değiştirdiği tüm değerler, açıldığı andaki değerlere geri döner. Emin misiniz?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Kapı numarası haritada yok: sokağı seçin ve evi haritada işaretleyin</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Sınırlar tarafından tutuldu</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>Sınırlar hiçbir şeyi tutmuyor</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Yeni başlangıç değerleri</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>Bugünkü direksiyon değerleri yeni başlangıç değerleri olur ve sınırlar onlarla birlikte kayar. Bunu yalnızca traktör şu an iyi dümen tutuyorsa yapın. Devam edilsin mi?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>başlangıç değeri</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>önerilen</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Sınırda</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Son değişiklik kontrol ediliyor</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Geri alındı, daha kötü sürdü</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Tutuldu, kontrol için karşılaştırılabilir sürüş az</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Kontrol edildi, tutuldu</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>simülasyonda daha kötü</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Anten kaydırması</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>iz aralığı</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Ekipman</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>direksiyon değerleri geri geldi</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>henüz kayıtlı direksiyon değeri yok</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Ölçümler</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Direksiyon sistemi</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>İz aralığı (antenin yan kaydırması)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Düz zeminde bir AB hattında otomatik dümen. Durun ve çeki piminin altındaki zemini işaretleyin.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Dönün ve aynı hattan geri gelin; çeki pimi işaretin yanındayken durun.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Enine aralığı ve işaretin koltuğun hangi tarafında olduğunu ölçün.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>İşaret solda</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>İşaret sağda</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Ekipman başına direksiyon değerleri</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Otomatik dümen çalışırken ölçülüyor</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Ölü zaman</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Dönüş hızı</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>ulaşılmadı</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Boşluk</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Çok boşluk: direksiyon mafsallarını ve WAS bağlantısını kontrol edin</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Yavaş tepki: hidroliği veya motoru kontrol edin</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>Direksiyon sınırında yavaş dönüyor</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Düzeltilecek bir şey yok</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Ölü zaman telafisi</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Ölçülen değerle aç</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Şu anki anten kaydırması</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Ekipmanlar için kaydedildi</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Tüm ekipmanlar için tek değer seti</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Devam edilsin mi?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>yakın zamanda geri alındı, sonra yeniden denenecek</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Engebeli zeminde yatma telafisi</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Çukur modu</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>Kullanımda</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>yükseklik</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Düz hatlarda sallanmadan öğrenir</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Yatma gecikmesi</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Gerçek yükseklik</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Değiştirilecek bir şey yok</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Telafinin gideremediği sallanmalar</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Deneniyor</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Yatma telafisi</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>İz aralığı sihirbazı</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>İşaret solumda</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>İşaret sağımda</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Hazırlık</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>İlk geçiş</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Aynı hattan geri dönüş</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Ölçüm</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Düz, düzgün zemin. Bir AB hattı seçin ve otomatik dümeni açın; traktörün çalışma hızında hatta oturmasını bekleyin.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Otomatik dümenle hat üzerinde en az 30 m gidin, sonra durun. Çeki piminin tam altındaki zemini işaretleyin.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Dönün ve otomatik dümenle aynı AB hattından geri gelin. Çeki pimi işaretin hizasındayken durun.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>hattan sapma</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Otomatik dümen açık</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Yönler</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Başlangıçta sürüş yönü</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Hatırla (otomatik)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Elle (traktöre tıklayın)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Tek anten: ön tarafın nerede olduğu traktör durduğunda ve program kapandığında kaydedilir. Aynı yerde yeniden başlatıldığında hemen bilinir.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Modül yapılandırıcı</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy yazılımı</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS alıcı</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Listeyi indir / güncelle</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Bootloader'ı başlat</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Algıla</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Alıcıya kaydet</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Komut gönder</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: metin komutları (ör. GPGGA COM1 0.1). u-blox: bir UBX çerçevesinin onaltılık baytları. Alıcının modüle giden portunun hızı buradan asla değiştirilmez: modülün yazılımı onu olduğu gibi bekler.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Yazılım önbelleği</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Config-O-Matic listesi indiriliyor...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>İndirildi</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>önbellekte</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>İndirme başarısız - önbellekteki liste kullanılıyor</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader istendi:</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Açılamadı</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Henüz önbellekte değil: önce listeyi indirin</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Bu yazılım Teensy'ye yazılsın mı?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Yazma sırasında çıkarmayın veya kapatmayın.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Yazılıyor</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Yazılım yazıldı</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Yazma başarısız</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP ham verisi açık</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP ham verisi kapalı</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP ham verisi açık</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP ham verisi kapalı</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Atlandı</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Alıcıya yol yok: modül ağı yok ve GPS seri portu yok</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Yanıt yok: değiştirilmiş yazılım Teensy'de mi?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Bu ayar başka bir alıcı için</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>Ayar okunamadı</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>alındı</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>onaylanmadı</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Kapatıldıktan sonra da kalması için Alıcıya kaydet'e basın</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Alıcıya kaydedildi</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Kaydetme onaylanmadı</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Gönderilmedi: modüle giden hız olduğu gibi kalmalı</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>onay yok</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Ağ üzerinden hiçbir modül yanıt vermedi: ilk seferde yazılım USB ile yüklenir</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Şu an modülde</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Not: bu yazılımda ağ güncellemesi yok - sonrakiler yine USB gerektirecek</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Bu yazılım ağ üzerinden modüle yazılsın mı?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>Traktör durmalı, otomatik dümen kapalı. Kurulum sırasında (sonda yaklaşık 30 saniye) modülü kapatmayın: o zaman yalnızca USB ile programlanabilir.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Gönderiliyor</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Gönderildi ve kontrol edildi; modül onu kuruyor ve yeniden başlıyor</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>Modül geri geldi</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>Modül henüz yanıt vermedi - sessiz kalırsa USB ile programlayın</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>AiO kartının Teensy'si için yazılım ve GNSS alıcılarının ayarları - ağ üzerinden, kutuyu açmadan.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Yazılım</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Modüle yükle</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Ağ üzerinden (USB yok)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Modülde zaten değiştirilmiş bir yazılım varsa.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>USB ile</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>İlk seferde veya ağ çalışmadığında. Teensy'nin USB portu:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Hangi alıcı</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Ana alıcı (konum)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>İkinci F9P (yön)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (tek gövdede çift anten) ve tek bir F9P her zaman ana alıcıdır. İkincisi yalnızca çift anten için iki F9P ile vardır: yönü ölçer.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Gönderilecek ayar</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Kaydedilmezse alıcı kapatıldığında unutur.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Elle komut</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>indirilmedi</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Yeşil ★ = AgOpenGPS çatalından, değiştirilmiş: TDCP için ham GNSS, ağ üzerinden alıcı ayarları ve yazılım güncellemesi, UM982 çift anten yönü. Kırmızı = orijinal Config-O-Matic yazılımları, değiştirilmemiş.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Teensy bootloader'ı bekleniyor (gelmezse Teensy'deki düğmeye basın)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Bitti: Teensy yeni yazılımı başlatıyor</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Modülde yer açılıyor</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Modülde kontrol ve kurulum</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Kuruluyor: 30 saniye kapatmayın</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Elle değiştirildi, ayarlayıcılar baştan başlıyor</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Rota dümeni sürerken duraklatıldı</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Simülatörde duraklatıldı</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Öğrenilen kayma</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Sakin dümen</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Boşluk telafisi</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>Boşluk henüz ölçülmedi</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Dümen yardımcıları</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Küçük titreşimler yumuşatıldı</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Boşluk çok az</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>İleride</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Model öngörülü dümen</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Dümen tarzı</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Keskin</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Sakin</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>İleri bakış</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC, AB hatlarını ve eğrileri ileri giderken sürer; dönüşler, konturlar ve geri gitme pure pursuit kullanır.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>henüz ölçülmedi</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Uyarlanır pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Şu anki ileri bakış</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Uyarlanır</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Eğrilerde daha kısa</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Ölü zaman için pay</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Yılan gibi gidince daha uzun</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Pure pursuit sekmesindeki ileri bakış başlangıçtır; bu onu her konumda uyarlar.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>ayar</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Uyarlanır PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>A/B karşılaştırması sırasında duraklatıldı</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Karşılaştırma</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B karşılaştırması</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>Dümen yöntemi her geçişten sonra değişir: pure pursuit, uyarlanır, MPC. Tam otomatik ayar bu sırada bekler.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>En iyisini tut</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Durdur (öncekine dön)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Çalışıyor</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Şimdiye kadar en iyi</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>önce her birinden iki geçiş</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Bu oturumun tüm geçişleri</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Henüz geçiş yok (bir hatta otomatik dümenle en az 30 m)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>geçiş</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Son geçişler</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC dümen tarzı</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC ileri bakış</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Uyarlanır: eğrilerde daha kısa</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Uyarlanır: ölü zaman için pay</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Uyarlanır: yılan gibi gidince daha uzun</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Bir adım</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>daha hızlı arama</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Durum kestirici (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Model dümeni</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Başlamadı (fix ve yön gerekli)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Direksiyon açısı kayması</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU kayması</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Yana kayma</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>yalnızca çift antenle</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>GNSS'ten sapma</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Hazır, model dümeni (MPC, LQR, hibrit) kullanıyor</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Dümen kullanıyor</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Hazır, dümen filtrelenmiş konumu kullanıyor</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Ham konumdan çok uzak: ham konum kullanılıyor</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR dümen</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR, AB hatlarını ve eğrileri ileri giderken sürer; dönüşler, konturlar ve geri gitme pure pursuit kullanır.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR dümen tarzı</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hibrit</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hibrit dümen (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR hattı tutar, MPC eğrileri ve hatta girişi üstlenir. Dönüşler, konturlar ve geri gitme pure pursuit kullanır.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>Şu anki MPC payı</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Dümen yöntemi</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Öğrenme</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Sürüş kaydedici</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Klasör</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Ölçülen dümen ve IMU</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Tarlada öğrenme</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Unut</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Bu tarlada öğrenilenler unutulsun mu?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Çekilir ekipman hatta</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Kapalı: hiçbir şey kaydedilmez</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Kaydediyor</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>konum</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Traktör hareket eder etmez kaydeder</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Otomatik dümen sürerken ölçüldü</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>sağa</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU gürültüsü</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>sessiz, ör. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>daha gürültülü, ör. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Daha önce hattan saptığı yerde bir dahaki sefere önceden ters dümen kırar (her yön ayrı).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Bu tarlada öğrenilen yerler</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Öğrenmesi için bir tarla açın</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>şimdi</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Çekilir ekipmanı eğimlerde ve virajlarda hatta tutar: traktör gerektiği kadar yanından gider.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Ayarlı ekipman çekilir değil: yapılacak bir şey yok</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Traktör hattın yanında</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>her yön</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>RTK fix yok</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Bu yazılım başka bir kart için görünüyor</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Bu yazılım modüldekinden farklı bir kart için görünüyor.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Başka bir kartın yazılımı farklı pinler kullanır: direksiyon motoru çalışmayabilir veya beklenmedik şekilde hareket edebilir. Yine de yazılsın mı?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Tablet kapalıyken taşındı</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Tablet kapalıyken modül açık kalırsa IMU her dönüşü sayar: traktör nerede durursa dursun ön tarafı bilinir. Modül de kapalıysa ilk hareketteki sarsıntı ileri mi geri mi olduğunu söyler.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Modül yazılımı: yeni (zamanını ve ivmeyi gönderir)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Yeni modül yazılımı gerekli</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>İlk harekette ileri mi geri mi: öğrenildi</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>İlk harekette ileri mi geri mi: ileri giderken öğreniyor</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simülatör</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>yanıt veriyor</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>yanıt vermiyor</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>yeni</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>eski, veya modülde IMU yok</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>düzeltmeler eski</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>RTK yok</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>yok (isteğe bağlı)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>gürültü</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>öğreniyor</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>ölü zaman</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>IMU gerekli</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>hazır</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>değişiklik önerildi</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>elle</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>öğrenildi</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>kapalı</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Doğruluk raporu</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Çalışma genişliği</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Geçişten geçişe</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Her geçişin komşusundan gerçekte ne kadar uzakta gittiği, çalışma genişliğine göre: iki geçiş arasında bindirme veya boşluk.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Henüz komşu geçiş yok - otomatik dümen ve RTK fix ile en az iki geçişi yan yana sürün.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>%95 içinde</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>ortalama</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>en kötü</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>Hat üzerinde</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>Otomatik dümen hattı tutarken hattan uzaklık (RTK fix, çalışırken).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Komşu geçişler</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Geçiş</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Dümen modülü</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Modül yazılımı</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Dümen açı sensörü sıfırı</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Başlangıçta yön</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Tam otomatik ayar</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Kurulum durumu</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Destek paketi</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Destek paketi günlükleri, ayarları ve son sürüş kayıtlarını (tarladaki konumlarla) içerir: size yardım eden kişiye gönderin.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Kaydedildi</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Kaydedilmedi</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Çekilir ekipmanı virajlarda, içeri kestiği yerde hatta tutar: traktör gerektiği kadar dıştan gider. Eğimde kayan ekipmanı göremez - bunun için ekipmanda GPS gerekir.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>sessiz</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>daha gürültülü</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>Dümen yöntemi her geçişten sonra değişir: pure pursuit, uyarlanır, MPC, LQR, hibrit. Tam otomatik ayar bu sırada bekler.</value>
   </data>
 </root>

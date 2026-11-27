@@ -6257,4 +6257,1411 @@ Back-up: {1}</value>
   <data name="UiS_1521" xml:space="preserve">
     <value>Wachten op de kaartserver...</value>
   </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>Kalibratie stuurgeometrie</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>Wielbasis</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>de berekening gebruikt deze, controleer die eerst</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>Rijd gelijkmatige cirkels naar rechts en naar links, 2-10 km/u, wielhoek 5-35°, met RTK-fix. Stel eerst het WAS-nulpunt in (Smart WAS).</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>Toepassen</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>Opnieuw beginnen</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>Metingen</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>Echt / sensor</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>Bocht naar rechts</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>Bocht naar links</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>Counts per graad</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>Ackermann</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>verzamelen...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>Betrouwbaarheid</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>Stuur automatisch afstellen</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>Stuurmotor (Kp, minimale PWM)</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>Autosturen aan, elke lijn</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>Vooruitkijken</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>Autosturen op AB-lijn of curve, pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>Hellingcompensatie</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>Autosturen op rechte lijn dwars op de helling, IMU nodig</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>Goed zo</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>Slingert rond de gewenste hoek: minder versterking</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>Haalt de gewenste hoek niet: hogere minimale PWM</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>Volgt te laat: meer versterking</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>Slingert over de lijn: langer vooruitkijken</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>Blijft naast de lijn: korter vooruitkijken</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>Nieuwe waarde</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>Vertraging</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>Slingeren</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>Tekort</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>Minimale PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>Afwijking</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>Kruisingen</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>Wielhoek per helling</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>Fit</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>Gemeten helling</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>Slimme functies</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>Leert op de achtergrond zolang autosturen werkt</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>Dode zone (richting, vertraging)</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>Snelheidsfactor van het vooruitkijken</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>Als het vooruitkijken, langzaam (tot 8 km/u) en snel (vanaf 10 km/u)</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>Slingert alleen snel: grotere factor</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>Blijft alleen snel naast de lijn: kleinere factor</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>Kleiner dan de sensorruis: de motor jaagt op ruis</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>Veel groter dan de sensorruis: reageert laat</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>Schakelt te vaak aan en uit: langere vertraging</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>De motor zoekt heen en weer: kortere vertraging</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>Sensorruis</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>Schakelingen</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>Richting</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>Langzaam</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>Snel</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>Factor</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>Volautomatisch</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>Startwaarden herstellen</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>De voorstellen worden dan vanzelf toegepast: hooguit één kleine wijziging per minuut, alleen als de stuurinstellingen dicht zijn, en nooit verder dan vaste grenzen vanaf de waarden van vandaag. Elke wijziging wordt getoond en gelogd, en Startwaarden herstellen haalt de waarden van vandaag terug. Inschakelen?</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>Leert...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>Gepauzeerd zolang de stuurinstellingen open zijn</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>Laatste wijziging</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>Dode zone</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>Startwaarden hersteld</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>Uit – voorstellen wachten op Toepassen</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>Nulpunt van de hellingsensor</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>Autosturen op lijnen die heen en terug gereden zijn, IMU nodig</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>Op de lijn komen</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>Autosturen op een lijn, aankomend van meer dan 40 cm</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit-integraal</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>Autosturen op lange rechte lijnen, pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Kopakkercompensatie</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>Autosturen met automatische kopakkerwendingen</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>Heen en terug komen niet overeen: het nulpunt is verschoven</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>Schiet over de lijn: grotere aankomstfactor</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>Kruipt naar de lijn: kleinere aankomstfactor</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>Blijft aan één kant: meer integraal</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>Trage golf rond de lijn: minder integraal</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>Draait voorbij de volgende lijn: minder compensatie</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>Eindigt buiten de volgende lijn: meer compensatie</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>Nulpuntfout</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>Spreiding</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>Cellen</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>Hellingsnulpunt</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>Doorschieten</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>Aankomst</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>Aankomsten</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>Aankomstfactor</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>Gem. afwijking</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>Golven</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>Integraal</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Wendingen</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>Voorbij</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>Buiten</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Gepauzeerd zolang de Steer Wizard open is</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>Automatische wijzigingen</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>Nog geen automatische wijziging</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>Volgende wijziging op zijn vroegst over</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>De voorstellen worden dan vanzelf toegepast, ook als dit venster open is: hooguit één kleine wijziging per minuut en nooit verder dan vaste grenzen vanaf de waarden van vandaag. Elke wijziging wordt getoond met tijd en reden, en Startwaarden herstellen haalt de waarden van vandaag terug. Inschakelen?</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK-fix verloren</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>De positie kan 10-50 cm verkeerd zijn. Het werk vanaf hier wordt rood gemarkeerd.</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>Autosturen uit</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>Te lang geen RTK-fix.</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>oude correctie</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>geen fix</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>Sensorlineariteit</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>Uit de geometriekalibratie: cirkels met kleine, middelgrote en grote hoek</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS-kwaliteitsbewaker</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>Kp boven 12 km/u</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>Leert boven 11 km/h. Tot 8 km/h de normale Kp, vanaf 12 km/h deze, ertussen een overgang</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU-fusie</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>Enkele antenne met IMU, recht op een lijn boven 5 km/u</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>Aan</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>Uit</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>correctie</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>Wachten op RTK-fix</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>Uitvallen</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>Gemarkeerd</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>Autosturen uit na</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>Midden</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>Groot</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>Koersruis</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>Drift</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>Alleen met enkele antenne en IMU</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>De IMU drijft af van de GPS-koers: snellere fusie</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>De ruis van de GPS-koers komt door: langzamere fusie</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>De sensor meet anders bij grotere hoeken: correctie</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK-brug beëindigd</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>De positie wordt niet meer overbrugd: zonder RTK kan ze 10-50 cm verkeerd zijn.</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>De correcties komen niet meer binnen. In AgIO kan een reservebron worden ingesteld.</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>Correcties komen binnen, de ontvanger verloor de fix (bomen, gebouwen, zicht op de hemel).</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>De RTK-brug zet de positie voort.</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>Het werk vanaf hier wordt rood gemarkeerd.</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK-brug</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>correcties</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>ontvanger</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>Overbruggen</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>stuurhoek</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>Klaar</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>drift</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU leert (RTK, rijdend)</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>Bruggen</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>Laatste</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>afwijking</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>Langste brug</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>Toetsen</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>geen koersbron (IMU, dubbele antenne of stuurmodule)</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>dubbele antenne</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>tot dan geldt de ingebouwde schatting</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>Betrouwbaar voor</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>Er loopt een toets op de achtergrond</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP (draaggolffase)</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>Ontvanger: RTCM MSM (1074/1084/1094/1124) en efemeriden (1019/1020/1046/1042) op de GPS-poort, 10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>Alleen leren</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>Geen ruwe data van de ontvanger</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>Stel de ontvanger in zoals hierboven; verder verandert er niets</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>wacht op waarnemingen</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>satellieten</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>Efemeriden</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>Epochs</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>Nu in gebruik</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>Neemt over bij het volgende RTK-verlies</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>Nog niet bewezen beter dan gegist bestek</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>Leert alleen, stuurt nooit</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>Ontvanger, GPS-poort, 5-10 Hz: RTCM 3 MSM + efemeriden (1019/1020/1042/1046), of u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>Ruwe data komt binnen, maar geen draaggolffase</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>Zet MSM (RTCM) of RXM-RAWX (u-blox) aan</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>Draaggolffase komt binnen, maar nog geen efemeriden</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>Zet de efemeride-berichten of RXM-SFRBX aan, of gebruik een NTRIP-caster die ze stuurt</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>via NTRIP</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>Kalibratie</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>Sensoren</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>Stuurmotor</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>Lijn volgen</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS en RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>Alle waarden die volledig automatisch heeft gewijzigd, gaan terug naar die bij het inschakelen. Weet u het zeker?</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>Het huisnummer staat niet op de kaart: kies de straat en markeer het huis op de kaart</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>Tegengehouden door de grenzen</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>De grenzen houden niets tegen</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>Nieuwe startwaarden</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>De huidige stuurwaarden worden de nieuwe startwaarden en de grenzen schuiven mee. Doe dit alleen als de trekker nu goed stuurt. Doorgaan?</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>startwaarde</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>voorgesteld</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>Aan de grens</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>Laatste wijziging wordt gecontroleerd</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>Teruggedraaid, stuurde slechter</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>Behouden, te weinig vergelijkbaar rijden</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>Gecontroleerd, behouden</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>slechter in de simulatie</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>Antenne-offset</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>sporenafstand</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>Werktuig</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>zijn stuurwaarden zijn terug</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>nog geen stuurwaarden bewaard</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>Metingen</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>Stuurinrichting</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>Sporenafstand (zijwaartse antenne-offset)</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. Autosteer op een AB-lijn, op vlakke grond. Stop en markeer de grond onder de trekhaakpen.</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. Keer en kom terug op dezelfde lijn; stop met de trekhaakpen naast de markering.</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. Meet de afstand dwars, en aan welke kant van de stoel de markering is.</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>Markering links</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>Markering rechts</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>Stuurwaarden per werktuig</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>Meten terwijl autosteer werkt</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>Dode tijd</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>Stuursnelheid</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>niet bereikt</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>Speling</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>Veel speling: controleer de stuurkogels en de WAS-bevestiging</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>Trage reactie: controleer de hydrauliek of de motor</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>De besturing draait langzaam op haar grens</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>Niets te herstellen</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>Dodetijdcompensatie</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>Uitzetten</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>Aanzetten met de gemeten waarde</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>Antenne-offset nu</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>Bewaard voor werktuigen</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>Eén set waarden voor alle werktuigen</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>Doorgaan?</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>onlangs teruggedraaid, later opnieuw geprobeerd</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>Rolcompensatie op oneffen grond</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>Kuilmodus</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>In gebruik</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>hoogte</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>Leert van schommelen op rechte lijnen</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>Rolvertraging</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>Werkelijke hoogte</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>Niets te veranderen</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>Schommelingen die de compensatie niet wegnam</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>Proef</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>Rolcompensatie</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>Sporenafstand-wizard</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>Markering links van mij</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>Markering rechts van mij</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>Voorbereiding</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>Eerste werkgang</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>Terug op dezelfde lijn</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>Meten</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>Vlakke, egale grond. Kies een AB-lijn en zet autosteer aan; laat de trekker op werksnelheid op de lijn tot rust komen.</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>Rijd minstens 30 m met autosteer op de lijn en stop. Markeer de grond precies onder de trekhaakpen.</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>Keer en kom met autosteer terug op dezelfde AB-lijn. Stop met de trekhaakpen ter hoogte van de markering.</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>afwijking van de lijn</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>Autosteer aan</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>Richtingen</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>Rijrichting bij de start</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>Onthouden (automatisch)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>Met de hand (op de trekker klikken)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>Enkele antenne: waar de voorkant is, wordt opgeslagen als de trekker stopt en als het programma sluit. Op dezelfde plek opnieuw gestart, is het meteen bekend.</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>Moduleconfigurator</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy-firmware</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS-ontvanger</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>Lijst downloaden / bijwerken</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>Bootloader starten</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>Detecteren</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>Verzenden</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>Opslaan in de ontvanger</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>Opdracht verzenden</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: tekstopdrachten (bv. GPGGA COM1 0.1). u-blox: hexbytes van een UBX-frame. De baudrate van de ontvangerpoort naar de module wordt hier nooit gewijzigd: de firmware van de module verwacht hem zoals hij is.</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>Firmwarecache</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Config-O-Matic-lijst downloaden...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>Gedownload</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>in de cache</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>Downloaden mislukt - de lijst uit de cache wordt gebruikt</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>Bootloader aangevraagd op</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>Kon niet openen</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>Nog niet in de cache: download eerst de lijst</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>Deze firmware naar de Teensy schrijven?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>Niet loskoppelen of uitschakelen tijdens het schrijven.</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>Schrijven</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>Firmware geschreven</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>Schrijven mislukt</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP-ruwe data aan</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP-ruwe data uit</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP-ruwe data aan</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP-ruwe data uit</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>Overgeslagen</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>Geen weg naar de ontvanger: geen modulenetwerk en geen seriële GPS-poort</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>Geen antwoord: staat de aangepaste firmware op de Teensy?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>Deze instelling is voor een andere ontvanger</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>De instelling kon niet worden gelezen</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>overgenomen</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>niet bevestigd</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>Druk op Opslaan in de ontvanger om het na uitschakelen te bewaren</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>Opgeslagen in de ontvanger</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>Opslaan niet bevestigd</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>Niet verzonden: de baudrate naar de module moet blijven zoals hij is</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>geen bevestiging</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>Geen module antwoordde via het netwerk: de eerste keer gaat de firmware erop via USB</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>Nu op de module</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>Let op: deze firmware heeft geen netwerkupdate - latere hebben weer USB nodig</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>Deze firmware via het netwerk naar de module schrijven?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>De trekker moet stilstaan, autosteer uit. Tijdens het installeren (ongeveer 30 seconden aan het eind) de module niet uitschakelen: dan kan hij alleen nog via USB geprogrammeerd worden.</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>Verzenden</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>Verzonden en gecontroleerd; de module installeert het en herstart</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>De module is terug</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>De module heeft nog niet geantwoord - blijft hij stil, programmeer hem dan via USB</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>Firmware voor de Teensy van de AiO-print en instellingen van zijn GNSS-ontvangers - via het netwerk, zonder de kast te openen.</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>Op de module zetten</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>Via het netwerk (geen USB)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>Als er al een aangepaste firmware op de module staat.</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>Via USB</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>De eerste keer, of als het netwerk niet werkt. USB-poort van de Teensy:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>Welke ontvanger</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>Hoofdontvanger (positie)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>Tweede F9P (richting)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>De UM982 (dubbele antenne in één) en een enkele F9P zijn altijd de hoofdontvanger. De tweede is er alleen met twee F9P's voor dubbele antenne: die meet de richting.</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>Te verzenden instelling</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>Zonder opslaan vergeet de ontvanger het bij uitschakelen.</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>Opdracht met de hand</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>Logboek</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>niet gedownload</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>Groen ★ = uit de AgOpenGPS-fork, aangepast: ruwe GNSS voor TDCP, ontvangerinstellingen en firmware-update via het netwerk, UM982-dubbele-antennerichting. Rood = de originele Config-O-Matic-firmwares, ongewijzigd.</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Wachten op de Teensy-bootloader (druk op de knop van de Teensy als hij niet komt)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>Klaar: de Teensy start de nieuwe firmware</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>Ruimte maken op de module</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>Controleren en installeren op de module</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>Installeren: 30 seconden niet uitschakelen</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>Met de hand gewijzigd, de afstemmers beginnen opnieuw</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>Gepauzeerd terwijl de routebesturing stuurt</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>Gepauzeerd in de simulator</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>Geleerde afwijking</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>Rustig sturen</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>Spelingcompensatie</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>De speling is nog niet gemeten</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>Stuurhulpen</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>Kleine schommelingen afgevlakt</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>Te weinig speling</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>Vooruit met</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>Modelvoorspellend sturen</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>Stuurkarakter</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>Scherp</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>Rustig</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>Vooruitkijken</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC stuurt AB-lijnen en bochten vooruit; kopakkerbochten, contouren en achteruit gebruiken pure pursuit.</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>nog niet gemeten</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>Adaptieve pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>Vooruitkijken nu</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>Adaptief</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>Korter in bochten</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>Ruimte voor de dode tijd</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>Langer bij slingeren</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Het vooruitkijken van het tabblad Pure pursuit is het vertrekpunt; dit past het bij elke fix aan.</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>instelling</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>Adaptieve PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>Gepauzeerd tijdens de A/B-vergelijking</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>Vergelijking</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B-vergelijking</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>De stuurmethode wisselt na elke werkgang: pure pursuit, adaptief, MPC. Het volautomatisch afstemmen wacht zolang.</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>De beste houden</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>Stop (terug zoals eerst)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>Bezig</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>Tot nu toe de beste</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>eerst twee werkgangen elk</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>Alle werkgangen van deze sessie</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>Nog geen werkgang (minstens 30 m met autosteer op een lijn)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>werkgangen</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>Laatste werkgangen</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC-stuurkarakter</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC-vooruitkijken</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>Adaptief: korter in bochten</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>Adaptief: ruimte voor de dode tijd</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>Adaptief: langer bij slingeren</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>Eén stap</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>snellere zoektocht</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>Toestandsschatter (Kalman)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>Modelsturing</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>Niet gestart (heeft een fix en richting nodig)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>Stuurhoekafwijking</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU-afwijking</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>Zijwaarts slippen</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>alleen met dubbele antenne</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>Afwijking van de GNSS</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>Klaar, modelsturing (MPC, LQR, hybride) gebruikt hem</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>Sturen gebruikt hem</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>Klaar, het sturen gebruikt de gefilterde positie</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>Te ver van de ruwe positie: de ruwe wordt gebruikt</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR-sturing</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR stuurt AB-lijnen en bochten vooruit; kopakkerbochten, contouren en achteruit gebruiken pure pursuit.</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR-stuurkarakter</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>Hybride</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>Hybride sturing (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR houdt de lijn, MPC neemt de bochten en het aansluiten op de lijn. Kopakkerbochten, contouren en achteruit gebruiken pure pursuit.</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>MPC-aandeel nu</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>Stuurmethode</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>Leren</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>Rittenregistratie</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>Stuurwerk en IMU zoals gemeten</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>Leren op het perceel</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>Vergeten</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>Vergeten wat op dit perceel geleerd is?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>Getrokken werktuig op de lijn</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>Uit: er wordt niets opgenomen</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>Neemt op</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>posities</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>Neemt op zodra de trekker rijdt</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>Gemeten terwijl autosteer stuurt</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>naar rechts</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU-ruis</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>rustig, bv. TM171</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>onrustiger, bv. BNO085</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>Waar hij eerder naast de lijn liep, stuurt hij de volgende keer vooraf tegen (elke richting apart).</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>Geleerde plekken op dit perceel</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>Open een perceel om erop te leren</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>Houdt een getrokken werktuig op de lijn op hellingen en in bochten: de trekker rijdt ernaast zoveel als nodig.</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>Het ingestelde werktuig is niet getrokken: niets te doen</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>Trekker naast de lijn</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>per richting</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>geen RTK-fix</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>Deze firmware lijkt voor een ander board te zijn</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>Deze firmware lijkt voor een ander board te zijn dan dat op de module.</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>Firmware voor een ander board gebruikt andere pinnen: de stuurmotor werkt misschien niet of beweegt onverwacht. Toch schrijven?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>Verplaatst met de tablet uit</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>Blijft de module aan terwijl de tablet uit is, dan telt zijn IMU elke draai: de voorkant is bekend waar de trekker ook staat. Was de module ook uit, dan bepaalt de schok bij de eerste beweging vooruit of achteruit.</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>Modulefirmware: nieuw (stuurt zijn tijd en de versnelling)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>Vereist de nieuwe modulefirmware</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>Vooruit of achteruit bij de eerste beweging: geleerd</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>Vooruit of achteruit bij de eerste beweging: leert bij vooruitrijden</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>simulator</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>antwoordt</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>antwoordt niet</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>nieuw</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>ouder, of geen IMU op de module</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>fix</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>correcties oud</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>float</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>geen RTK</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>geen (optioneel)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>ruis</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>leert</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>dode tijd</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>heeft een IMU nodig</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>klaar</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>wijziging voorgesteld</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>met de hand</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>geleerd</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>uit</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>Nauwkeurigheidsrapport</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>Werkbreedte</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>Baan tot baan</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>Hoe ver elke baan echt van de naastgelegen baan liep, tegenover de werkbreedte: overlap of gat tussen twee banen.</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>Nog geen naastgelegen banen gevonden - rijd minstens twee banen naast elkaar met autosturen en RTK-fix.</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % binnen</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>gemiddeld</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>slechtste</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>Op de lijn</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>De afstand tot de lijn terwijl het autosturen die vasthield (RTK-fix, aan het werk).</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>Naastgelegen banen</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>Baan</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>Stuurmodule</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>Modulefirmware</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>Nulpunt van de stuurhoeksensor</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>Richting bij de start</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>Volautomatisch afstellen</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>Instelstatus</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>Ondersteuningspakket</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>Het ondersteuningspakket bevat de logboeken, de instellingen en de laatste ritopnames (met posities op het veld): stuur het naar wie u helpt.</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>Opgeslagen</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>Niet opgeslagen</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>Houdt een getrokken werktuig in bochten op de lijn, waar het naar binnen snijdt: de trekker rijdt zo ver buitenom als nodig. Een werktuig dat op een helling afglijdt ziet het niet - daarvoor is een GPS op het werktuig nodig.</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>rustig</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>onrustiger</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>De stuurmethode wisselt na elke werkgang: pure pursuit, adaptief, MPC, LQR, hybride. Het volautomatisch afstemmen wacht zolang.</value>
+  </data>
 </root>

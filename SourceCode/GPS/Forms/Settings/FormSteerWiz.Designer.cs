@@ -940,7 +940,7 @@
             // 
             this.hsbarLookAheadMult.LargeChange = 1;
             this.hsbarLookAheadMult.Location = new System.Drawing.Point(68, 136);
-            this.hsbarLookAheadMult.Maximum = 30;
+            this.hsbarLookAheadMult.Maximum = 60;
             this.hsbarLookAheadMult.Minimum = 5;
             this.hsbarLookAheadMult.Name = "hsbarLookAheadMult";
             this.hsbarLookAheadMult.Size = new System.Drawing.Size(217, 30);

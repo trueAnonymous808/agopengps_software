@@ -6244,4 +6244,1411 @@ PWM最大値で操舵速度を制限できます。</value>
   <data name="UiS_1521" xml:space="preserve">
     <value>地図サーバーを待っています...</value>
   </data>
+  <data name="UiS_1522" xml:space="preserve">
+    <value>ステアリング形状のキャリブレーション</value>
+  </data>
+  <data name="UiS_1523" xml:space="preserve">
+    <value>ホイールベース</value>
+  </data>
+  <data name="UiS_1524" xml:space="preserve">
+    <value>計算に使用します。先に確認してください</value>
+  </data>
+  <data name="UiS_1525" xml:space="preserve">
+    <value>右と左に一定の円を描いて走行してください（2-10 km/h、車輪角 5-35°、RTK fix）。先に WAS のゼロ点を設定してください（Smart WAS）。</value>
+  </data>
+  <data name="UiS_1526" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="UiS_1527" xml:space="preserve">
+    <value>やり直す</value>
+  </data>
+  <data name="UiS_1528" xml:space="preserve">
+    <value>サンプル</value>
+  </data>
+  <data name="UiS_1529" xml:space="preserve">
+    <value>実際 / センサー</value>
+  </data>
+  <data name="UiS_1530" xml:space="preserve">
+    <value>右旋回</value>
+  </data>
+  <data name="UiS_1531" xml:space="preserve">
+    <value>左旋回</value>
+  </data>
+  <data name="UiS_1532" xml:space="preserve">
+    <value>1度あたりのカウント</value>
+  </data>
+  <data name="UiS_1533" xml:space="preserve">
+    <value>アッカーマン</value>
+  </data>
+  <data name="UiS_1534" xml:space="preserve">
+    <value>収集中...</value>
+  </data>
+  <data name="UiS_1535" xml:space="preserve">
+    <value>信頼度</value>
+  </data>
+  <data name="UiS_1536" xml:space="preserve">
+    <value>ステアリング自動調整</value>
+  </data>
+  <data name="UiS_1537" xml:space="preserve">
+    <value>ステアリングモーター（Kp、最小PWM）</value>
+  </data>
+  <data name="UiS_1538" xml:space="preserve">
+    <value>自動操舵オン、任意のライン</value>
+  </data>
+  <data name="UiS_1539" xml:space="preserve">
+    <value>先読み距離</value>
+  </data>
+  <data name="UiS_1540" xml:space="preserve">
+    <value>ABラインまたはカーブで自動操舵、pure pursuit</value>
+  </data>
+  <data name="UiS_1541" xml:space="preserve">
+    <value>傾斜補正</value>
+  </data>
+  <data name="UiS_1542" xml:space="preserve">
+    <value>斜面を横切る直線で自動操舵、IMUが必要</value>
+  </data>
+  <data name="UiS_1543" xml:space="preserve">
+    <value>このままで良好</value>
+  </data>
+  <data name="UiS_1544" xml:space="preserve">
+    <value>目標角の周りで振れる：ゲインを下げる</value>
+  </data>
+  <data name="UiS_1545" xml:space="preserve">
+    <value>目標角に届かない：最小PWMを上げる</value>
+  </data>
+  <data name="UiS_1546" xml:space="preserve">
+    <value>追従が遅い：ゲインを上げる</value>
+  </data>
+  <data name="UiS_1547" xml:space="preserve">
+    <value>ラインを蛇行する：先読みを長く</value>
+  </data>
+  <data name="UiS_1548" xml:space="preserve">
+    <value>ラインから外れたまま：先読みを短く</value>
+  </data>
+  <data name="UiS_1549" xml:space="preserve">
+    <value>新しい値</value>
+  </data>
+  <data name="UiS_1550" xml:space="preserve">
+    <value>遅れ</value>
+  </data>
+  <data name="UiS_1551" xml:space="preserve">
+    <value>振れ</value>
+  </data>
+  <data name="UiS_1552" xml:space="preserve">
+    <value>不足</value>
+  </data>
+  <data name="UiS_1553" xml:space="preserve">
+    <value>最小PWM</value>
+  </data>
+  <data name="UiS_1554" xml:space="preserve">
+    <value>ラインからのずれ</value>
+  </data>
+  <data name="UiS_1555" xml:space="preserve">
+    <value>交差</value>
+  </data>
+  <data name="UiS_1556" xml:space="preserve">
+    <value>傾きあたりの車輪角</value>
+  </data>
+  <data name="UiS_1557" xml:space="preserve">
+    <value>適合度</value>
+  </data>
+  <data name="UiS_1558" xml:space="preserve">
+    <value>測定した傾き</value>
+  </data>
+  <data name="UiS_1559" xml:space="preserve">
+    <value>スマート機能</value>
+  </data>
+  <data name="UiS_1560" xml:space="preserve">
+    <value>自動操舵の作動中はバックグラウンドで学習します</value>
+  </data>
+  <data name="UiS_1561" xml:space="preserve">
+    <value>デッドゾーン（方向、遅延）</value>
+  </data>
+  <data name="UiS_1562" xml:space="preserve">
+    <value>先読みの速度係数</value>
+  </data>
+  <data name="UiS_1563" xml:space="preserve">
+    <value>先読みと同じ条件で、低速（8 km/h まで）と高速（10 km/h 以上）</value>
+  </data>
+  <data name="UiS_1564" xml:space="preserve">
+    <value>高速時のみ蛇行：係数を大きく</value>
+  </data>
+  <data name="UiS_1565" xml:space="preserve">
+    <value>高速時のみラインから外れる：係数を小さく</value>
+  </data>
+  <data name="UiS_1566" xml:space="preserve">
+    <value>センサーノイズより小さい：モーターがノイズを追う</value>
+  </data>
+  <data name="UiS_1567" xml:space="preserve">
+    <value>センサーノイズよりかなり大きい：反応が遅い</value>
+  </data>
+  <data name="UiS_1568" xml:space="preserve">
+    <value>オン・オフが多すぎる：遅延を長く</value>
+  </data>
+  <data name="UiS_1569" xml:space="preserve">
+    <value>モーターが行ったり来たりする：遅延を短く</value>
+  </data>
+  <data name="UiS_1570" xml:space="preserve">
+    <value>センサーノイズ</value>
+  </data>
+  <data name="UiS_1571" xml:space="preserve">
+    <value>切替</value>
+  </data>
+  <data name="UiS_1572" xml:space="preserve">
+    <value>ハンチング</value>
+  </data>
+  <data name="UiS_1573" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="UiS_1574" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="UiS_1575" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="UiS_1576" xml:space="preserve">
+    <value>係数</value>
+  </data>
+  <data name="UiS_1577" xml:space="preserve">
+    <value>完全自動</value>
+  </data>
+  <data name="UiS_1578" xml:space="preserve">
+    <value>開始時の値に戻す</value>
+  </data>
+  <data name="UiS_1579" xml:space="preserve">
+    <value>提案は自動的に適用されます：1分に最大1回の小さな変更、ステアリング設定が閉じている間のみ、今日の値から設定された範囲を超えることはありません。すべての変更は表示・記録され、「開始時の値に戻す」で今日の値に戻せます。オンにしますか？</value>
+  </data>
+  <data name="UiS_1580" xml:space="preserve">
+    <value>学習中...</value>
+  </data>
+  <data name="UiS_1581" xml:space="preserve">
+    <value>ステアリング設定が開いている間は一時停止</value>
+  </data>
+  <data name="UiS_1582" xml:space="preserve">
+    <value>最後の変更</value>
+  </data>
+  <data name="UiS_1583" xml:space="preserve">
+    <value>デッドゾーン</value>
+  </data>
+  <data name="UiS_1584" xml:space="preserve">
+    <value>開始時の値に戻しました</value>
+  </data>
+  <data name="UiS_1585" xml:space="preserve">
+    <value>オフ – 提案は「適用」を待ちます</value>
+  </data>
+  <data name="UiS_1586" xml:space="preserve">
+    <value>傾斜センサーのゼロ点</value>
+  </data>
+  <data name="UiS_1587" xml:space="preserve">
+    <value>往復走行したラインで自動操舵、IMUが必要</value>
+  </data>
+  <data name="UiS_1588" xml:space="preserve">
+    <value>ラインへの進入</value>
+  </data>
+  <data name="UiS_1589" xml:space="preserve">
+    <value>ラインで自動操舵、40 cm 以上離れた所から進入</value>
+  </data>
+  <data name="UiS_1590" xml:space="preserve">
+    <value>Pure pursuit 積分</value>
+  </data>
+  <data name="UiS_1591" xml:space="preserve">
+    <value>長い直線ラインで自動操舵、pure pursuit</value>
+  </data>
+  <data name="UiS_1592" xml:space="preserve">
+    <value>Uターン補正</value>
+  </data>
+  <data name="UiS_1593" xml:space="preserve">
+    <value>自動Uターンで自動操舵</value>
+  </data>
+  <data name="UiS_1594" xml:space="preserve">
+    <value>往復の走行が一致しない：ゼロ点がずれている</value>
+  </data>
+  <data name="UiS_1595" xml:space="preserve">
+    <value>ラインを行き過ぎる：進入係数を大きく</value>
+  </data>
+  <data name="UiS_1596" xml:space="preserve">
+    <value>ラインにゆっくり寄る：進入係数を小さく</value>
+  </data>
+  <data name="UiS_1597" xml:space="preserve">
+    <value>片側に寄ったまま：積分を増やす</value>
+  </data>
+  <data name="UiS_1598" xml:space="preserve">
+    <value>ライン周りのゆっくりした波：積分を減らす</value>
+  </data>
+  <data name="UiS_1599" xml:space="preserve">
+    <value>次のラインを越えて曲がる：補正を減らす</value>
+  </data>
+  <data name="UiS_1600" xml:space="preserve">
+    <value>次のラインの外側で終わる：補正を増やす</value>
+  </data>
+  <data name="UiS_1601" xml:space="preserve">
+    <value>ゼロ誤差</value>
+  </data>
+  <data name="UiS_1602" xml:space="preserve">
+    <value>ばらつき</value>
+  </data>
+  <data name="UiS_1603" xml:space="preserve">
+    <value>セル</value>
+  </data>
+  <data name="UiS_1604" xml:space="preserve">
+    <value>傾斜ゼロ点</value>
+  </data>
+  <data name="UiS_1605" xml:space="preserve">
+    <value>行き過ぎ</value>
+  </data>
+  <data name="UiS_1606" xml:space="preserve">
+    <value>進入</value>
+  </data>
+  <data name="UiS_1607" xml:space="preserve">
+    <value>進入回数</value>
+  </data>
+  <data name="UiS_1608" xml:space="preserve">
+    <value>進入係数</value>
+  </data>
+  <data name="UiS_1609" xml:space="preserve">
+    <value>平均ずれ</value>
+  </data>
+  <data name="UiS_1610" xml:space="preserve">
+    <value>波</value>
+  </data>
+  <data name="UiS_1611" xml:space="preserve">
+    <value>積分</value>
+  </data>
+  <data name="UiS_1612" xml:space="preserve">
+    <value>Uターン</value>
+  </data>
+  <data name="UiS_1613" xml:space="preserve">
+    <value>超過</value>
+  </data>
+  <data name="UiS_1614" xml:space="preserve">
+    <value>外側</value>
+  </data>
+  <data name="UiS_1615" xml:space="preserve">
+    <value>Steer Wizard が開いている間は一時停止</value>
+  </data>
+  <data name="UiS_1616" xml:space="preserve">
+    <value>自動変更</value>
+  </data>
+  <data name="UiS_1617" xml:space="preserve">
+    <value>自動変更はまだありません</value>
+  </data>
+  <data name="UiS_1618" xml:space="preserve">
+    <value>次の変更は早くても</value>
+  </data>
+  <data name="UiS_1619" xml:space="preserve">
+    <value>提案は自動的に適用されます（このウィンドウが開いていても）：1分に最大1回の小さな変更で、今日の値から設定された範囲を超えることはありません。すべての変更は時刻と理由とともに表示され、「開始時の値に戻す」で今日の値に戻せます。オンにしますか？</value>
+  </data>
+  <data name="UiS_1620" xml:space="preserve">
+    <value>RTK FIX 喪失</value>
+  </data>
+  <data name="UiS_1621" xml:space="preserve">
+    <value>位置が10-50 cmずれている可能性があります。ここからの作業は赤で表示されます。</value>
+  </data>
+  <data name="UiS_1622" xml:space="preserve">
+    <value>自動操舵オフ</value>
+  </data>
+  <data name="UiS_1623" xml:space="preserve">
+    <value>RTK FIX がない状態が長すぎます。</value>
+  </data>
+  <data name="UiS_1624" xml:space="preserve">
+    <value>古い補正</value>
+  </data>
+  <data name="UiS_1625" xml:space="preserve">
+    <value>FIXなし</value>
+  </data>
+  <data name="UiS_1626" xml:space="preserve">
+    <value>センサーの直線性</value>
+  </data>
+  <data name="UiS_1627" xml:space="preserve">
+    <value>形状キャリブレーションから：小・中・大の角度での旋回</value>
+  </data>
+  <data name="UiS_1628" xml:space="preserve">
+    <value>GPS品質ガード</value>
+  </data>
+  <data name="UiS_1629" xml:space="preserve">
+    <value>12 km/h 以上の Kp</value>
+  </data>
+  <data name="UiS_1630" xml:space="preserve">
+    <value>11 km/h超で学習。8 km/hまでは通常のKp、12 km/hからはこのKp、その間は移行</value>
+  </data>
+  <data name="UiS_1631" xml:space="preserve">
+    <value>IMU フュージョン</value>
+  </data>
+  <data name="UiS_1632" xml:space="preserve">
+    <value>IMU付きシングルアンテナ、5 km/h 以上でライン上を直進</value>
+  </data>
+  <data name="UiS_1633" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="UiS_1634" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="UiS_1635" xml:space="preserve">
+    <value>補正</value>
+  </data>
+  <data name="UiS_1636" xml:space="preserve">
+    <value>RTK FIX 待ち</value>
+  </data>
+  <data name="UiS_1637" xml:space="preserve">
+    <value>途切れ</value>
+  </data>
+  <data name="UiS_1638" xml:space="preserve">
+    <value>マーク</value>
+  </data>
+  <data name="UiS_1639" xml:space="preserve">
+    <value>自動操舵オフまで</value>
+  </data>
+  <data name="UiS_1640" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="UiS_1641" xml:space="preserve">
+    <value>大</value>
+  </data>
+  <data name="UiS_1642" xml:space="preserve">
+    <value>方位ノイズ</value>
+  </data>
+  <data name="UiS_1643" xml:space="preserve">
+    <value>ドリフト</value>
+  </data>
+  <data name="UiS_1644" xml:space="preserve">
+    <value>シングルアンテナと IMU のみ</value>
+  </data>
+  <data name="UiS_1645" xml:space="preserve">
+    <value>IMU が GPS 方位からずれる：フュージョンを速く</value>
+  </data>
+  <data name="UiS_1646" xml:space="preserve">
+    <value>GPS 方位のノイズが入る：フュージョンを遅く</value>
+  </data>
+  <data name="UiS_1647" xml:space="preserve">
+    <value>大きい角度でセンサーの測定が異なる：補正</value>
+  </data>
+  <data name="UiS_1648" xml:space="preserve">
+    <value>RTK ブリッジ終了</value>
+  </data>
+  <data name="UiS_1649" xml:space="preserve">
+    <value>位置はもうブリッジされていません：RTK なしでは 10-50 cm ずれる可能性があります。</value>
+  </data>
+  <data name="UiS_1650" xml:space="preserve">
+    <value>補正が届かなくなりました。AgIO で予備の補正ソースを設定できます。</value>
+  </data>
+  <data name="UiS_1651" xml:space="preserve">
+    <value>補正は届いていますが、受信機が FIX を失いました（木、建物、空の見通し）。</value>
+  </data>
+  <data name="UiS_1652" xml:space="preserve">
+    <value>RTK ブリッジが位置を引き継いでいます。</value>
+  </data>
+  <data name="UiS_1653" xml:space="preserve">
+    <value>ここからの作業は赤で表示されます。</value>
+  </data>
+  <data name="UiS_1654" xml:space="preserve">
+    <value>RTK ブリッジ</value>
+  </data>
+  <data name="UiS_1655" xml:space="preserve">
+    <value>補正</value>
+  </data>
+  <data name="UiS_1656" xml:space="preserve">
+    <value>受信機</value>
+  </data>
+  <data name="UiS_1657" xml:space="preserve">
+    <value>ブリッジ中</value>
+  </data>
+  <data name="UiS_1658" xml:space="preserve">
+    <value>操舵角</value>
+  </data>
+  <data name="UiS_1659" xml:space="preserve">
+    <value>準備完了</value>
+  </data>
+  <data name="UiS_1660" xml:space="preserve">
+    <value>ドリフト</value>
+  </data>
+  <data name="UiS_1661" xml:space="preserve">
+    <value>IMU 学習中（RTK、走行中）</value>
+  </data>
+  <data name="UiS_1662" xml:space="preserve">
+    <value>ブリッジ回数</value>
+  </data>
+  <data name="UiS_1663" xml:space="preserve">
+    <value>前回</value>
+  </data>
+  <data name="UiS_1664" xml:space="preserve">
+    <value>誤差</value>
+  </data>
+  <data name="UiS_1665" xml:space="preserve">
+    <value>最長ブリッジ</value>
+  </data>
+  <data name="UiS_1666" xml:space="preserve">
+    <value>試験</value>
+  </data>
+  <data name="UiS_1667" xml:space="preserve">
+    <value>方位の情報源なし（IMU、デュアルアンテナ、操舵モジュール）</value>
+  </data>
+  <data name="UiS_1668" xml:space="preserve">
+    <value>デュアルアンテナ</value>
+  </data>
+  <data name="UiS_1669" xml:space="preserve">
+    <value>それまでは内蔵の推定値を使用</value>
+  </data>
+  <data name="UiS_1670" xml:space="preserve">
+    <value>信頼できる時間</value>
+  </data>
+  <data name="UiS_1671" xml:space="preserve">
+    <value>バックグラウンドで試験を実行中</value>
+  </data>
+  <data name="UiS_1672" xml:space="preserve">
+    <value>TDCP（搬送波位相）</value>
+  </data>
+  <data name="UiS_1673" xml:space="preserve">
+    <value>受信機：RTCM MSM（1074/1084/1094/1124）とエフェメリス（1019/1020/1046/1042）を GPS ポートへ、10 Hz</value>
+  </data>
+  <data name="UiS_1674" xml:space="preserve">
+    <value>学習のみ</value>
+  </data>
+  <data name="UiS_1675" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="UiS_1676" xml:space="preserve">
+    <value>受信機からの生データなし</value>
+  </data>
+  <data name="UiS_1677" xml:space="preserve">
+    <value>上記のように受信機を設定してください。それまで他は何も変わりません</value>
+  </data>
+  <data name="UiS_1678" xml:space="preserve">
+    <value>観測待ち</value>
+  </data>
+  <data name="UiS_1679" xml:space="preserve">
+    <value>衛星</value>
+  </data>
+  <data name="UiS_1680" xml:space="preserve">
+    <value>エフェメリス</value>
+  </data>
+  <data name="UiS_1681" xml:space="preserve">
+    <value>エポック</value>
+  </data>
+  <data name="UiS_1682" xml:space="preserve">
+    <value>現在使用中</value>
+  </data>
+  <data name="UiS_1683" xml:space="preserve">
+    <value>次の RTK 喪失時に引き継ぎます</value>
+  </data>
+  <data name="UiS_1684" xml:space="preserve">
+    <value>まだ推測航法より優れていると証明されていません</value>
+  </data>
+  <data name="UiS_1685" xml:space="preserve">
+    <value>学習のみで、操舵はしません</value>
+  </data>
+  <data name="UiS_1686" xml:space="preserve">
+    <value>受信機, GPS ポート, 5-10 Hz: RTCM 3 MSM + エフェメリス (1019/1020/1042/1046), または u-blox RXM-RAWX + RXM-SFRBX</value>
+  </data>
+  <data name="UiS_1687" xml:space="preserve">
+    <value>生データは来ていますが、搬送波位相がありません</value>
+  </data>
+  <data name="UiS_1688" xml:space="preserve">
+    <value>MSM（RTCM）または RXM-RAWX（u-blox）を有効にしてください</value>
+  </data>
+  <data name="UiS_1689" xml:space="preserve">
+    <value>搬送波位相は来ていますが、エフェメリスがまだありません</value>
+  </data>
+  <data name="UiS_1690" xml:space="preserve">
+    <value>エフェメリスのメッセージか RXM-SFRBX を有効にするか、それを送る NTRIP を使ってください</value>
+  </data>
+  <data name="UiS_1691" xml:space="preserve">
+    <value>NTRIP から</value>
+  </data>
+  <data name="UiS_1692" xml:space="preserve">
+    <value>キャリブレーション</value>
+  </data>
+  <data name="UiS_1693" xml:space="preserve">
+    <value>センサー</value>
+  </data>
+  <data name="UiS_1694" xml:space="preserve">
+    <value>操舵モーター</value>
+  </data>
+  <data name="UiS_1695" xml:space="preserve">
+    <value>ライン追従</value>
+  </data>
+  <data name="UiS_1696" xml:space="preserve">
+    <value>GPS と RTK</value>
+  </data>
+  <data name="UiS_1697" xml:space="preserve">
+    <value>全自動モードが変更したすべての値を、オンにした時点の値に戻します。よろしいですか？</value>
+  </data>
+  <data name="UiS_1698" xml:space="preserve">
+    <value>番地が地図にありません。通りを選び、地図上で家に印を付けてください</value>
+  </data>
+  <data name="UiS_1699" xml:space="preserve">
+    <value>制限で保留中</value>
+  </data>
+  <data name="UiS_1700" xml:space="preserve">
+    <value>制限で保留されているものはありません</value>
+  </data>
+  <data name="UiS_1701" xml:space="preserve">
+    <value>新しい開始値</value>
+  </data>
+  <data name="UiS_1702" xml:space="preserve">
+    <value>現在の操舵値が新しい開始値になり、制限もそれに合わせて移動します。トラクターが今うまく操舵している場合にのみ行ってください。続けますか？</value>
+  </data>
+  <data name="UiS_1703" xml:space="preserve">
+    <value>開始値</value>
+  </data>
+  <data name="UiS_1704" xml:space="preserve">
+    <value>提案</value>
+  </data>
+  <data name="UiS_1705" xml:space="preserve">
+    <value>制限に到達</value>
+  </data>
+  <data name="UiS_1706" xml:space="preserve">
+    <value>直前の変更を確認中</value>
+  </data>
+  <data name="UiS_1707" xml:space="preserve">
+    <value>元に戻しました（操舵が悪化）</value>
+  </data>
+  <data name="UiS_1708" xml:space="preserve">
+    <value>保持（比較できる走行が少なすぎます）</value>
+  </data>
+  <data name="UiS_1709" xml:space="preserve">
+    <value>確認済み、保持</value>
+  </data>
+  <data name="UiS_1710" xml:space="preserve">
+    <value>シミュレーションで悪化</value>
+  </data>
+  <data name="UiS_1711" xml:space="preserve">
+    <value>アンテナオフセット</value>
+  </data>
+  <data name="UiS_1712" xml:space="preserve">
+    <value>軌跡のずれ</value>
+  </data>
+  <data name="UiS_1713" xml:space="preserve">
+    <value>作業機</value>
+  </data>
+  <data name="UiS_1714" xml:space="preserve">
+    <value>操舵値が戻りました</value>
+  </data>
+  <data name="UiS_1715" xml:space="preserve">
+    <value>まだ保存された操舵値がありません</value>
+  </data>
+  <data name="UiS_1716" xml:space="preserve">
+    <value>測定</value>
+  </data>
+  <data name="UiS_1717" xml:space="preserve">
+    <value>操舵装置</value>
+  </data>
+  <data name="UiS_1718" xml:space="preserve">
+    <value>軌跡のずれ（アンテナの横オフセット）</value>
+  </data>
+  <data name="UiS_1719" xml:space="preserve">
+    <value>1. 平地のABラインで自動操舵。停止してヒッチピンの下の地面に印を付けます。</value>
+  </data>
+  <data name="UiS_1720" xml:space="preserve">
+    <value>2. 旋回して同じラインを戻り、ヒッチピンが印の横に来たら停止します。</value>
+  </data>
+  <data name="UiS_1721" xml:space="preserve">
+    <value>3. 横方向の距離と、座席から見て印がどちら側にあるかを測ります。</value>
+  </data>
+  <data name="UiS_1722" xml:space="preserve">
+    <value>印は左</value>
+  </data>
+  <data name="UiS_1723" xml:space="preserve">
+    <value>印は右</value>
+  </data>
+  <data name="UiS_1724" xml:space="preserve">
+    <value>作業機ごとの操舵値</value>
+  </data>
+  <data name="UiS_1725" xml:space="preserve">
+    <value>自動操舵中に測定中</value>
+  </data>
+  <data name="UiS_1726" xml:space="preserve">
+    <value>むだ時間</value>
+  </data>
+  <data name="UiS_1727" xml:space="preserve">
+    <value>操舵速度</value>
+  </data>
+  <data name="UiS_1728" xml:space="preserve">
+    <value>未到達</value>
+  </data>
+  <data name="UiS_1729" xml:space="preserve">
+    <value>ガタ</value>
+  </data>
+  <data name="UiS_1730" xml:space="preserve">
+    <value>ガタが大きい：操舵ジョイントとWASの取付を確認してください</value>
+  </data>
+  <data name="UiS_1731" xml:space="preserve">
+    <value>応答が遅い：油圧またはモーターを確認してください</value>
+  </data>
+  <data name="UiS_1732" xml:space="preserve">
+    <value>限界で操舵がゆっくり回ります</value>
+  </data>
+  <data name="UiS_1733" xml:space="preserve">
+    <value>修正点なし</value>
+  </data>
+  <data name="UiS_1734" xml:space="preserve">
+    <value>むだ時間補正</value>
+  </data>
+  <data name="UiS_1735" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="UiS_1736" xml:space="preserve">
+    <value>測定値でオン</value>
+  </data>
+  <data name="UiS_1737" xml:space="preserve">
+    <value>現在のアンテナオフセット</value>
+  </data>
+  <data name="UiS_1738" xml:space="preserve">
+    <value>作業機ごとに保存</value>
+  </data>
+  <data name="UiS_1739" xml:space="preserve">
+    <value>全作業機で同じ値</value>
+  </data>
+  <data name="UiS_1740" xml:space="preserve">
+    <value>続けますか？</value>
+  </data>
+  <data name="UiS_1741" xml:space="preserve">
+    <value>最近元に戻しました。後で再試行します</value>
+  </data>
+  <data name="UiS_1742" xml:space="preserve">
+    <value>凹凸地でのロール補正</value>
+  </data>
+  <data name="UiS_1743" xml:space="preserve">
+    <value>穴モード</value>
+  </data>
+  <data name="UiS_1744" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="UiS_1745" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="UiS_1746" xml:space="preserve">
+    <value>直線での揺れから学習</value>
+  </data>
+  <data name="UiS_1747" xml:space="preserve">
+    <value>ロールの遅れ</value>
+  </data>
+  <data name="UiS_1748" xml:space="preserve">
+    <value>実際の高さ</value>
+  </data>
+  <data name="UiS_1749" xml:space="preserve">
+    <value>変更不要</value>
+  </data>
+  <data name="UiS_1750" xml:space="preserve">
+    <value>補正で取り除けなかった揺れ</value>
+  </data>
+  <data name="UiS_1751" xml:space="preserve">
+    <value>試行中</value>
+  </data>
+  <data name="UiS_1752" xml:space="preserve">
+    <value>ロール補正</value>
+  </data>
+  <data name="UiS_1753" xml:space="preserve">
+    <value>軌跡のずれウィザード</value>
+  </data>
+  <data name="UiS_1754" xml:space="preserve">
+    <value>印は私の左</value>
+  </data>
+  <data name="UiS_1755" xml:space="preserve">
+    <value>印は私の右</value>
+  </data>
+  <data name="UiS_1756" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="UiS_1757" xml:space="preserve">
+    <value>準備</value>
+  </data>
+  <data name="UiS_1758" xml:space="preserve">
+    <value>1回目の走行</value>
+  </data>
+  <data name="UiS_1759" xml:space="preserve">
+    <value>同じラインを戻る</value>
+  </data>
+  <data name="UiS_1760" xml:space="preserve">
+    <value>測定</value>
+  </data>
+  <data name="UiS_1761" xml:space="preserve">
+    <value>平らで均一な地面。ABラインを選んで自動操舵をオンにし、作業速度でラインに落ち着かせます。</value>
+  </data>
+  <data name="UiS_1762" xml:space="preserve">
+    <value>自動操舵でラインを30 m以上走って停止します。ヒッチピンの真下の地面に印を付けます。</value>
+  </data>
+  <data name="UiS_1763" xml:space="preserve">
+    <value>旋回して同じABラインを自動操舵で戻ります。ヒッチピンが印の横に来たら停止します。</value>
+  </data>
+  <data name="UiS_1764" xml:space="preserve">
+    <value>ラインからのずれ</value>
+  </data>
+  <data name="UiS_1765" xml:space="preserve">
+    <value>自動操舵オン</value>
+  </data>
+  <data name="UiS_1789" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="UiS_1793" xml:space="preserve">
+    <value>起動時の走行方向</value>
+  </data>
+  <data name="UiS_1794" xml:space="preserve">
+    <value>記憶 (自動)</value>
+  </data>
+  <data name="UiS_1795" xml:space="preserve">
+    <value>手動 (トラクターをクリック)</value>
+  </data>
+  <data name="UiS_1796" xml:space="preserve">
+    <value>シングルアンテナ: トラクターが停止したときとプログラム終了時に前方の向きを保存します。同じ場所で再起動すればすぐに分かります。</value>
+  </data>
+  <data name="UiS_1797" xml:space="preserve">
+    <value>モジュール設定ツール</value>
+  </data>
+  <data name="UiS_1798" xml:space="preserve">
+    <value>Teensy ファームウェア</value>
+  </data>
+  <data name="UiS_1799" xml:space="preserve">
+    <value>GNSS 受信機</value>
+  </data>
+  <data name="UiS_1800" xml:space="preserve">
+    <value>リストをダウンロード / 更新</value>
+  </data>
+  <data name="UiS_1802" xml:space="preserve">
+    <value>ブートローダーを起動</value>
+  </data>
+  <data name="UiS_1808" xml:space="preserve">
+    <value>検出</value>
+  </data>
+  <data name="UiS_1810" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="UiS_1811" xml:space="preserve">
+    <value>受信機に保存</value>
+  </data>
+  <data name="UiS_1813" xml:space="preserve">
+    <value>コマンドを送信</value>
+  </data>
+  <data name="UiS_1814" xml:space="preserve">
+    <value>UM982: テキストコマンド (例: GPGGA COM1 0.1)。u-blox: UBX フレームの16進バイト。受信機からモジュールへのポートのボーレートはここでは変更しません: モジュールのファームウェアは現在の値を前提にしています。</value>
+  </data>
+  <data name="UiS_1815" xml:space="preserve">
+    <value>ファームウェアキャッシュ</value>
+  </data>
+  <data name="UiS_1816" xml:space="preserve">
+    <value>Config-O-Matic のリストをダウンロード中...</value>
+  </data>
+  <data name="UiS_1817" xml:space="preserve">
+    <value>ダウンロード済み</value>
+  </data>
+  <data name="UiS_1818" xml:space="preserve">
+    <value>キャッシュ内</value>
+  </data>
+  <data name="UiS_1819" xml:space="preserve">
+    <value>ダウンロード失敗 - キャッシュのリストを使用します</value>
+  </data>
+  <data name="UiS_1820" xml:space="preserve">
+    <value>ブートローダーを要求:</value>
+  </data>
+  <data name="UiS_1821" xml:space="preserve">
+    <value>開けませんでした</value>
+  </data>
+  <data name="UiS_1822" xml:space="preserve">
+    <value>まだキャッシュにありません: 先にリストをダウンロードしてください</value>
+  </data>
+  <data name="UiS_1823" xml:space="preserve">
+    <value>このファームウェアを Teensy に書き込みますか?</value>
+  </data>
+  <data name="UiS_1824" xml:space="preserve">
+    <value>書き込み中は抜いたり電源を切ったりしないでください。</value>
+  </data>
+  <data name="UiS_1825" xml:space="preserve">
+    <value>書き込み中</value>
+  </data>
+  <data name="UiS_1826" xml:space="preserve">
+    <value>ファームウェアを書き込みました</value>
+  </data>
+  <data name="UiS_1827" xml:space="preserve">
+    <value>書き込みに失敗しました</value>
+  </data>
+  <data name="UiS_1828" xml:space="preserve">
+    <value>UM982: TDCP 生データ オン</value>
+  </data>
+  <data name="UiS_1829" xml:space="preserve">
+    <value>UM982: TDCP 生データ オフ</value>
+  </data>
+  <data name="UiS_1830" xml:space="preserve">
+    <value>u-blox F9P: TDCP 生データ オン</value>
+  </data>
+  <data name="UiS_1831" xml:space="preserve">
+    <value>u-blox F9P: TDCP 生データ オフ</value>
+  </data>
+  <data name="UiS_1832" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="UiS_1833" xml:space="preserve">
+    <value>受信機への経路がありません: モジュールのネットワークも GPS シリアルポートもありません</value>
+  </data>
+  <data name="UiS_1834" xml:space="preserve">
+    <value>応答なし: 改造ファームウェアは Teensy に入っていますか?</value>
+  </data>
+  <data name="UiS_1835" xml:space="preserve">
+    <value>この設定は別の受信機用です</value>
+  </data>
+  <data name="UiS_1836" xml:space="preserve">
+    <value>設定を読み込めませんでした</value>
+  </data>
+  <data name="UiS_1837" xml:space="preserve">
+    <value>受理</value>
+  </data>
+  <data name="UiS_1838" xml:space="preserve">
+    <value>未確認</value>
+  </data>
+  <data name="UiS_1839" xml:space="preserve">
+    <value>電源を切った後も残すには「受信機に保存」を押してください</value>
+  </data>
+  <data name="UiS_1840" xml:space="preserve">
+    <value>受信機に保存しました</value>
+  </data>
+  <data name="UiS_1841" xml:space="preserve">
+    <value>保存が確認されませんでした</value>
+  </data>
+  <data name="UiS_1842" xml:space="preserve">
+    <value>送信しません: モジュールへのボーレートは今のままにする必要があります</value>
+  </data>
+  <data name="UiS_1843" xml:space="preserve">
+    <value>確認なし</value>
+  </data>
+  <data name="UiS_1847" xml:space="preserve">
+    <value>ネットワークで応答したモジュールはありません: 初回は USB でファームウェアを書き込みます</value>
+  </data>
+  <data name="UiS_1848" xml:space="preserve">
+    <value>現在モジュール上</value>
+  </data>
+  <data name="UiS_1849" xml:space="preserve">
+    <value>注意: このファームウェアにはネットワーク更新がありません - 次回以降はまた USB が必要です</value>
+  </data>
+  <data name="UiS_1850" xml:space="preserve">
+    <value>このファームウェアをネットワーク経由でモジュールに書き込みますか?</value>
+  </data>
+  <data name="UiS_1851" xml:space="preserve">
+    <value>トラクターを停止し、自動操舵をオフにしてください。インストール中 (最後の約30秒) はモジュールの電源を切らないでください: 切ると USB でしか書き込めなくなります。</value>
+  </data>
+  <data name="UiS_1852" xml:space="preserve">
+    <value>送信中</value>
+  </data>
+  <data name="UiS_1853" xml:space="preserve">
+    <value>送信・確認済み; モジュールがインストールして再起動します</value>
+  </data>
+  <data name="UiS_1854" xml:space="preserve">
+    <value>モジュールが復帰しました</value>
+  </data>
+  <data name="UiS_1855" xml:space="preserve">
+    <value>モジュールはまだ応答していません - 応答がなければ USB で書き込んでください</value>
+  </data>
+  <data name="UiS_1859" xml:space="preserve">
+    <value>AiO ボードの Teensy 用ファームウェアと GNSS 受信機の設定 - ネットワーク経由で、ボックスを開けずに。</value>
+  </data>
+  <data name="UiS_1860" xml:space="preserve">
+    <value>ファームウェア</value>
+  </data>
+  <data name="UiS_1862" xml:space="preserve">
+    <value>モジュールに書き込む</value>
+  </data>
+  <data name="UiS_1863" xml:space="preserve">
+    <value>ネットワーク経由 (USB なし)</value>
+  </data>
+  <data name="UiS_1864" xml:space="preserve">
+    <value>すでに改造ファームウェアがモジュールにある場合。</value>
+  </data>
+  <data name="UiS_1865" xml:space="preserve">
+    <value>USB 経由</value>
+  </data>
+  <data name="UiS_1866" xml:space="preserve">
+    <value>初回、またはネットワークが使えないとき。Teensy の USB ポート:</value>
+  </data>
+  <data name="UiS_1867" xml:space="preserve">
+    <value>どの受信機</value>
+  </data>
+  <data name="UiS_1868" xml:space="preserve">
+    <value>メイン受信機 (位置)</value>
+  </data>
+  <data name="UiS_1869" xml:space="preserve">
+    <value>2台目の F9P (方位)</value>
+  </data>
+  <data name="UiS_1870" xml:space="preserve">
+    <value>UM982 (デュアルアンテナ一体型) と単体の F9P は常にメイン受信機です。2台目はデュアルアンテナ用に F9P が2台あるときだけで、方位を測ります。</value>
+  </data>
+  <data name="UiS_1871" xml:space="preserve">
+    <value>送信する設定</value>
+  </data>
+  <data name="UiS_1872" xml:space="preserve">
+    <value>保存しないと、受信機は電源オフで忘れます。</value>
+  </data>
+  <data name="UiS_1873" xml:space="preserve">
+    <value>手動コマンド</value>
+  </data>
+  <data name="UiS_1874" xml:space="preserve">
+    <value>ログ</value>
+  </data>
+  <data name="UiS_1875" xml:space="preserve">
+    <value>未ダウンロード</value>
+  </data>
+  <data name="UiS_1876" xml:space="preserve">
+    <value>緑 ★ = AgOpenGPS フォーク版、改造: TDCP 用の生 GNSS、ネットワーク経由の受信機設定とファームウェア更新、UM982 デュアル方位。赤 = 元の Config-O-Matic ファームウェア、無改造。</value>
+  </data>
+  <data name="UiS_1877" xml:space="preserve">
+    <value>Teensy のブートローダーを待っています (現れない場合は Teensy のボタンを押してください)</value>
+  </data>
+  <data name="UiS_1878" xml:space="preserve">
+    <value>完了: Teensy が新しいファームウェアを起動します</value>
+  </data>
+  <data name="UiS_1879" xml:space="preserve">
+    <value>モジュールの空き領域を準備中</value>
+  </data>
+  <data name="UiS_1880" xml:space="preserve">
+    <value>モジュールで確認・インストール中</value>
+  </data>
+  <data name="UiS_1881" xml:space="preserve">
+    <value>インストール中: 30秒間電源を切らないでください</value>
+  </data>
+  <data name="UiS_1882" xml:space="preserve">
+    <value>手動で変更されました、調整を最初からやり直します</value>
+  </data>
+  <data name="UiS_1883" xml:space="preserve">
+    <value>ルート自動操舵の走行中は一時停止</value>
+  </data>
+  <data name="UiS_1884" xml:space="preserve">
+    <value>シミュレーターでは一時停止</value>
+  </data>
+  <data name="UiS_1887" xml:space="preserve">
+    <value>学習したオフセット</value>
+  </data>
+  <data name="UiS_1891" xml:space="preserve">
+    <value>穏やかな操舵</value>
+  </data>
+  <data name="UiS_1894" xml:space="preserve">
+    <value>ガタ補正</value>
+  </data>
+  <data name="UiS_1895" xml:space="preserve">
+    <value>ガタはまだ測定されていません</value>
+  </data>
+  <data name="UiS_1898" xml:space="preserve">
+    <value>Pure pursuit</value>
+  </data>
+  <data name="UiS_1899" xml:space="preserve">
+    <value>操舵補助</value>
+  </data>
+  <data name="UiS_1904" xml:space="preserve">
+    <value>小さな揺れを平滑化</value>
+  </data>
+  <data name="UiS_1905" xml:space="preserve">
+    <value>ガタが小さすぎます</value>
+  </data>
+  <data name="UiS_1906" xml:space="preserve">
+    <value>先行量</value>
+  </data>
+  <data name="UiS_1907" xml:space="preserve">
+    <value>モデル予測操舵</value>
+  </data>
+  <data name="UiS_1908" xml:space="preserve">
+    <value>操舵の特性</value>
+  </data>
+  <data name="UiS_1909" xml:space="preserve">
+    <value>鋭い</value>
+  </data>
+  <data name="UiS_1910" xml:space="preserve">
+    <value>穏やか</value>
+  </data>
+  <data name="UiS_1911" xml:space="preserve">
+    <value>先読み</value>
+  </data>
+  <data name="UiS_1912" xml:space="preserve">
+    <value>MPC は AB ラインとカーブを前進で操舵します; ターン、等高線、後退は pure pursuit を使います。</value>
+  </data>
+  <data name="UiS_1913" xml:space="preserve">
+    <value>未測定</value>
+  </data>
+  <data name="UiS_1914" xml:space="preserve">
+    <value>適応型 pure pursuit</value>
+  </data>
+  <data name="UiS_1917" xml:space="preserve">
+    <value>現在の先読み</value>
+  </data>
+  <data name="UiS_1918" xml:space="preserve">
+    <value>適応型</value>
+  </data>
+  <data name="UiS_1919" xml:space="preserve">
+    <value>カーブで短く</value>
+  </data>
+  <data name="UiS_1920" xml:space="preserve">
+    <value>むだ時間の余裕</value>
+  </data>
+  <data name="UiS_1921" xml:space="preserve">
+    <value>蛇行時に長く</value>
+  </data>
+  <data name="UiS_1922" xml:space="preserve">
+    <value>Pure pursuit タブの先読みが出発点で、これが測位ごとに調整します。</value>
+  </data>
+  <data name="UiS_1923" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="UiS_1927" xml:space="preserve">
+    <value>適応型 PP</value>
+  </data>
+  <data name="UiS_1928" xml:space="preserve">
+    <value>A/B 比較中は一時停止</value>
+  </data>
+  <data name="UiS_1929" xml:space="preserve">
+    <value>比較</value>
+  </data>
+  <data name="UiS_1932" xml:space="preserve">
+    <value>A/B 比較</value>
+  </data>
+  <data name="UiS_1933" xml:space="preserve">
+    <value>操舵方式は走行ごとに切り替わります: pure pursuit、適応型、MPC。その間、全自動調整は待機します。</value>
+  </data>
+  <data name="UiS_1934" xml:space="preserve">
+    <value>最良を残す</value>
+  </data>
+  <data name="UiS_1935" xml:space="preserve">
+    <value>停止 (元に戻す)</value>
+  </data>
+  <data name="UiS_1936" xml:space="preserve">
+    <value>実行中</value>
+  </data>
+  <data name="UiS_1937" xml:space="preserve">
+    <value>現時点で最良</value>
+  </data>
+  <data name="UiS_1938" xml:space="preserve">
+    <value>まずそれぞれ2走行</value>
+  </data>
+  <data name="UiS_1939" xml:space="preserve">
+    <value>このセッションの全走行</value>
+  </data>
+  <data name="UiS_1940" xml:space="preserve">
+    <value>まだ走行がありません (ライン上で自動操舵 30 m 以上)</value>
+  </data>
+  <data name="UiS_1941" xml:space="preserve">
+    <value>走行</value>
+  </data>
+  <data name="UiS_1942" xml:space="preserve">
+    <value>最近の走行</value>
+  </data>
+  <data name="UiS_1943" xml:space="preserve">
+    <value>MPC 操舵の特性</value>
+  </data>
+  <data name="UiS_1944" xml:space="preserve">
+    <value>MPC 先読み</value>
+  </data>
+  <data name="UiS_1945" xml:space="preserve">
+    <value>適応型: カーブで短く</value>
+  </data>
+  <data name="UiS_1946" xml:space="preserve">
+    <value>適応型: むだ時間の余裕</value>
+  </data>
+  <data name="UiS_1947" xml:space="preserve">
+    <value>適応型: 蛇行時に長く</value>
+  </data>
+  <data name="UiS_1948" xml:space="preserve">
+    <value>1ステップ</value>
+  </data>
+  <data name="UiS_1949" xml:space="preserve">
+    <value>高速探索</value>
+  </data>
+  <data name="UiS_1950" xml:space="preserve">
+    <value>状態推定器 (カルマン)</value>
+  </data>
+  <data name="UiS_1951" xml:space="preserve">
+    <value>モデル操舵</value>
+  </data>
+  <data name="UiS_1952" xml:space="preserve">
+    <value>未開始 (FIX と方位が必要)</value>
+  </data>
+  <data name="UiS_1953" xml:space="preserve">
+    <value>操舵角オフセット</value>
+  </data>
+  <data name="UiS_1954" xml:space="preserve">
+    <value>IMU オフセット</value>
+  </data>
+  <data name="UiS_1955" xml:space="preserve">
+    <value>横滑り</value>
+  </data>
+  <data name="UiS_1956" xml:space="preserve">
+    <value>デュアルアンテナのみ</value>
+  </data>
+  <data name="UiS_1957" xml:space="preserve">
+    <value>GNSS とのずれ</value>
+  </data>
+  <data name="UiS_1958" xml:space="preserve">
+    <value>準備完了、モデル操舵 (MPC、LQR、ハイブリッド) が使用</value>
+  </data>
+  <data name="UiS_1959" xml:space="preserve">
+    <value>操舵が使用</value>
+  </data>
+  <data name="UiS_1960" xml:space="preserve">
+    <value>準備完了、操舵はフィルター後の位置を使用</value>
+  </data>
+  <data name="UiS_1961" xml:space="preserve">
+    <value>生の位置から離れすぎ: 生の位置を使用</value>
+  </data>
+  <data name="UiS_1962" xml:space="preserve">
+    <value>LQR 操舵</value>
+  </data>
+  <data name="UiS_1963" xml:space="preserve">
+    <value>LQR は AB ラインとカーブを前進で操舵します; ターン、等高線、後退は pure pursuit を使います。</value>
+  </data>
+  <data name="UiS_1964" xml:space="preserve">
+    <value>LQR 操舵の特性</value>
+  </data>
+  <data name="UiS_1965" xml:space="preserve">
+    <value>ハイブリッド</value>
+  </data>
+  <data name="UiS_1966" xml:space="preserve">
+    <value>ハイブリッド操舵 (LQR + MPC)</value>
+  </data>
+  <data name="UiS_1967" xml:space="preserve">
+    <value>LQR がラインを保持し、MPC がカーブとライン進入を担当します。ターン、等高線、後退は pure pursuit を使います。</value>
+  </data>
+  <data name="UiS_1968" xml:space="preserve">
+    <value>現在の MPC の割合</value>
+  </data>
+  <data name="UiS_1969" xml:space="preserve">
+    <value>操舵方式</value>
+  </data>
+  <data name="UiS_1970" xml:space="preserve">
+    <value>学習</value>
+  </data>
+  <data name="UiS_1971" xml:space="preserve">
+    <value>走行レコーダー</value>
+  </data>
+  <data name="UiS_1972" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="UiS_1973" xml:space="preserve">
+    <value>測定した操舵機構と IMU</value>
+  </data>
+  <data name="UiS_1974" xml:space="preserve">
+    <value>圃場での学習</value>
+  </data>
+  <data name="UiS_1975" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="UiS_1976" xml:space="preserve">
+    <value>この圃場で学習した内容を消去しますか?</value>
+  </data>
+  <data name="UiS_1977" xml:space="preserve">
+    <value>けん引作業機をライン上に</value>
+  </data>
+  <data name="UiS_1978" xml:space="preserve">
+    <value>オフ: 何も記録しません</value>
+  </data>
+  <data name="UiS_1979" xml:space="preserve">
+    <value>記録中</value>
+  </data>
+  <data name="UiS_1980" xml:space="preserve">
+    <value>測位</value>
+  </data>
+  <data name="UiS_1981" xml:space="preserve">
+    <value>トラクターが動き出すと記録します</value>
+  </data>
+  <data name="UiS_1982" xml:space="preserve">
+    <value>自動操舵中に測定</value>
+  </data>
+  <data name="UiS_1983" xml:space="preserve">
+    <value>右旋回</value>
+  </data>
+  <data name="UiS_1984" xml:space="preserve">
+    <value>IMU ノイズ</value>
+  </data>
+  <data name="UiS_1985" xml:space="preserve">
+    <value>静か (例: TM171)</value>
+  </data>
+  <data name="UiS_1986" xml:space="preserve">
+    <value>ノイズ多め (例: BNO085)</value>
+  </data>
+  <data name="UiS_1987" xml:space="preserve">
+    <value>前回ラインから外れた場所では、次回は前もって逆に操舵します (方向ごと)。</value>
+  </data>
+  <data name="UiS_1988" xml:space="preserve">
+    <value>この圃場で学習した場所</value>
+  </data>
+  <data name="UiS_1989" xml:space="preserve">
+    <value>学習するには圃場を開いてください</value>
+  </data>
+  <data name="UiS_1990" xml:space="preserve">
+    <value>現在</value>
+  </data>
+  <data name="UiS_1991" xml:space="preserve">
+    <value>傾斜地やカーブでけん引作業機をライン上に保ちます: トラクターは必要な分だけ横にずれて走ります。</value>
+  </data>
+  <data name="UiS_1992" xml:space="preserve">
+    <value>設定された作業機はけん引式ではありません: 何もしません</value>
+  </data>
+  <data name="UiS_1993" xml:space="preserve">
+    <value>ライン横のトラクター</value>
+  </data>
+  <data name="UiS_1994" xml:space="preserve">
+    <value>方向ごと</value>
+  </data>
+  <data name="UiS_1995" xml:space="preserve">
+    <value>RTK フィックスなし</value>
+  </data>
+  <data name="UiS_1996" xml:space="preserve">
+    <value>このファームウェアは別のボード用のようです</value>
+  </data>
+  <data name="UiS_1997" xml:space="preserve">
+    <value>このファームウェアはモジュールのボードとは別のボード用のようです。</value>
+  </data>
+  <data name="UiS_1998" xml:space="preserve">
+    <value>別のボード用のファームウェアは別のピンを使います: ステアリングモーターが動かない、または予期せず動く可能性があります。それでも書き込みますか?</value>
+  </data>
+  <data name="UiS_1999" xml:space="preserve">
+    <value>タブレットを切ったまま移動</value>
+  </data>
+  <data name="UiS_2000" xml:space="preserve">
+    <value>タブレットが切れている間もモジュールが動いていれば、IMU がすべての旋回を数えます: トラクターがどこにいても前方がわかります。モジュールも切れていた場合は、最初の動きの衝撃で前進か後退かを判断します。</value>
+  </data>
+  <data name="UiS_2001" xml:space="preserve">
+    <value>モジュールのファームウェア: 新 (時間と加速度を送信)</value>
+  </data>
+  <data name="UiS_2002" xml:space="preserve">
+    <value>新しいモジュールのファームウェアが必要です</value>
+  </data>
+  <data name="UiS_2003" xml:space="preserve">
+    <value>最初の動きで前進か後退か: 学習済み</value>
+  </data>
+  <data name="UiS_2004" xml:space="preserve">
+    <value>最初の動きで前進か後退か: 前進中に学習中</value>
+  </data>
+  <data name="UiS_2005" xml:space="preserve">
+    <value>シミュレーター</value>
+  </data>
+  <data name="UiS_2006" xml:space="preserve">
+    <value>応答あり</value>
+  </data>
+  <data name="UiS_2007" xml:space="preserve">
+    <value>応答なし</value>
+  </data>
+  <data name="UiS_2008" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="UiS_2009" xml:space="preserve">
+    <value>旧、またはモジュールに IMU なし</value>
+  </data>
+  <data name="UiS_2010" xml:space="preserve">
+    <value>フィックス</value>
+  </data>
+  <data name="UiS_2011" xml:space="preserve">
+    <value>補正が古い</value>
+  </data>
+  <data name="UiS_2012" xml:space="preserve">
+    <value>フロート</value>
+  </data>
+  <data name="UiS_2013" xml:space="preserve">
+    <value>RTK なし</value>
+  </data>
+  <data name="UiS_2014" xml:space="preserve">
+    <value>なし (任意)</value>
+  </data>
+  <data name="UiS_2015" xml:space="preserve">
+    <value>ノイズ</value>
+  </data>
+  <data name="UiS_2016" xml:space="preserve">
+    <value>学習中</value>
+  </data>
+  <data name="UiS_2017" xml:space="preserve">
+    <value>むだ時間</value>
+  </data>
+  <data name="UiS_2018" xml:space="preserve">
+    <value>IMU が必要</value>
+  </data>
+  <data name="UiS_2019" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="UiS_2020" xml:space="preserve">
+    <value>変更を提案</value>
+  </data>
+  <data name="UiS_2021" xml:space="preserve">
+    <value>手動</value>
+  </data>
+  <data name="UiS_2022" xml:space="preserve">
+    <value>学習済み</value>
+  </data>
+  <data name="UiS_2023" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="UiS_2024" xml:space="preserve">
+    <value>精度レポート</value>
+  </data>
+  <data name="UiS_2025" xml:space="preserve">
+    <value>作業幅</value>
+  </data>
+  <data name="UiS_2026" xml:space="preserve">
+    <value>走行間精度</value>
+  </data>
+  <data name="UiS_2027" xml:space="preserve">
+    <value>各走行が隣の走行から実際にどれだけ離れていたか (作業幅との差): 2 本の走行間の重なりや隙間。</value>
+  </data>
+  <data name="UiS_2028" xml:space="preserve">
+    <value>まだ隣り合う走行がありません - 自動操舵と RTK フィックスで少なくとも 2 本並べて走行してください。</value>
+  </data>
+  <data name="UiS_2029" xml:space="preserve">
+    <value>95 % の範囲</value>
+  </data>
+  <data name="UiS_2030" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="UiS_2031" xml:space="preserve">
+    <value>最悪</value>
+  </data>
+  <data name="UiS_2032" xml:space="preserve">
+    <value>ライン上</value>
+  </data>
+  <data name="UiS_2033" xml:space="preserve">
+    <value>自動操舵がラインを保持していた間のラインからの距離 (RTK フィックス、作業中)。</value>
+  </data>
+  <data name="UiS_2034" xml:space="preserve">
+    <value>隣り合う走行</value>
+  </data>
+  <data name="UiS_2035" xml:space="preserve">
+    <value>走行</value>
+  </data>
+  <data name="UiS_2036" xml:space="preserve">
+    <value>操舵モジュール</value>
+  </data>
+  <data name="UiS_2037" xml:space="preserve">
+    <value>モジュールのファームウェア</value>
+  </data>
+  <data name="UiS_2038" xml:space="preserve">
+    <value>RTK</value>
+  </data>
+  <data name="UiS_2039" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="UiS_2040" xml:space="preserve">
+    <value>舵角センサーのゼロ点</value>
+  </data>
+  <data name="UiS_2041" xml:space="preserve">
+    <value>発進時の向き</value>
+  </data>
+  <data name="UiS_2042" xml:space="preserve">
+    <value>完全自動調整</value>
+  </data>
+  <data name="UiS_2043" xml:space="preserve">
+    <value>設定の状態</value>
+  </data>
+  <data name="UiS_2044" xml:space="preserve">
+    <value>サポートパッケージ</value>
+  </data>
+  <data name="UiS_2045" xml:space="preserve">
+    <value>サポートパッケージにはログ、設定、最新の走行記録 (圃場内の位置付き) が含まれます: サポートしてくれる人に送ってください。</value>
+  </data>
+  <data name="UiS_2046" xml:space="preserve">
+    <value>保存しました</value>
+  </data>
+  <data name="UiS_2047" xml:space="preserve">
+    <value>保存されませんでした</value>
+  </data>
+  <data name="UiS_2048" xml:space="preserve">
+    <value>カーブでは内側に切れ込むけん引作業機をライン上に保ちます: トラクターは必要なだけ外側を走ります。斜面で滑り落ちる作業機は見えません - そのためには作業機に GPS が必要です。</value>
+  </data>
+  <data name="UiS_2049" xml:space="preserve">
+    <value>静か</value>
+  </data>
+  <data name="UiS_2050" xml:space="preserve">
+    <value>ノイズ多め</value>
+  </data>
+  <data name="UiS_2051" xml:space="preserve">
+    <value>操舵方式は走行ごとに切り替わります: pure pursuit、適応型、MPC、LQR、ハイブリッド。その間、全自動調整は待機します。</value>
+  </data>
 </root>
